@@ -1,0 +1,20 @@
+[project]
+name = "Ronik-Makwana-Prime-Number"
+version = "1.0.0"
+description = "An sample project to check prime number."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["Ronik-Makwana","Prime-Number"]
+authors = [
+{name = "Ronik Makwana", email="makwana.ronik007@gmail.com"}
+]
+maintainers = [
+{name = "Ronik Makwana", email="makwana.ronik007@gmail.com"}
+]
+[project.scripts]
+sample = "Src:package"
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=50.0.0", "wheel"]
+build-backend = "setuptools.build_meta"

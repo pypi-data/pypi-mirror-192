@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+Src/Package/__init__.py
+Src/Package/main.py
+Src/Ronik_Makwana_Prime_Number.egg-info/PKG-INFO
+Src/Ronik_Makwana_Prime_Number.egg-info/SOURCES.txt
+Src/Ronik_Makwana_Prime_Number.egg-info/dependency_links.txt
+Src/Ronik_Makwana_Prime_Number.egg-info/top_level.txt
+TestCase/test_main.py
