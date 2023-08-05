@@ -1,0 +1,117 @@
+groups:
+- neurodata_type_def: IblSessionData
+  neurodata_type_inc: LabMetaData
+  name: Ibl_session_data
+  doc: IBL sessions metadata
+  datasets:
+  - name: location
+    dtype: text
+    doc: location
+    quantity: '?'
+  - name: project
+    dtype: text
+    doc: project this session is part of
+    quantity: '?'
+  - name: type
+    dtype: text
+    doc: type of session
+    quantity: '?'
+  - name: number
+    dtype: int
+    doc: session number
+    quantity: '?'
+  - name: end_time
+    dtype: text
+    doc: session end time
+    quantity: '?'
+  - name: parent_session
+    dtype: text
+    doc: parent session
+    quantity: '?'
+  - name: url
+    dtype: text
+    doc: url of the session metadata
+    quantity: '?'
+  - name: qc
+    dtype: text
+    doc: qc
+    quantity: '?'
+  - name: extended_qc
+    dtype: text
+    doc: extended_qc
+    quantity: '?'
+  - name: wateradmin_session_related
+    dtype: text
+    shape:
+    - null
+    doc: wateradmin_session_related
+    quantity: '?'
+  - name: notes
+    dtype: text
+    shape:
+    - null
+    doc: notes dictionary from sessions file
+    quantity: '?'
+  - name: json
+    dtype: text
+    doc: json
+    quantity: '?'
+- neurodata_type_def: IblSubject
+  neurodata_type_inc: Subject
+  name: subject
+  doc: IBL mice data
+  datasets:
+  - name: uuid
+    dtype: text
+    doc: The full identifier of the subject from the IBL database.
+    quantity: '?'
+  - name: url
+    dtype: text
+    doc: Extra information about the subject can be found at this URL.
+    quantity: '?'
+  - name: responsible_user
+    dtype: text
+    doc: User ID in charge of the subject.
+    quantity: '?'
+  - name: projects
+    dtype: text
+    shape:
+    - null
+    doc: The main projects this subject was involved in.
+    quantity: '?'
+  - name: session_projects
+    dtype: text
+    shape:
+    - null
+    doc: All the other projects this subject was involved in.
+    quantity: '?'
+  - name: last_water_restriction
+    dtype: text
+    doc: The date of the last water restriction.
+    quantity: '?'
+  - name: expected_water_ml
+    dtype: float
+    doc: The expected amount of water in ml.
+    quantity: '?'
+  - name: remaining_water_ml
+    dtype: float
+    doc: The remaining amount of water in ml.
+    quantity: '?'
+- neurodata_type_def: IblProbes
+  neurodata_type_inc: Device
+  doc: Neuro Pixels probes
+  datasets:
+  - name: id
+    dtype: text
+    doc: id
+    quantity: '?'
+  - name: model
+    dtype: text
+    doc: model
+    quantity: '?'
+  - name: trajectory_estimate
+    dtype: text
+    shape:
+    - null
+    doc: dict containing trajectory info for each probe
+    quantity: '?'
