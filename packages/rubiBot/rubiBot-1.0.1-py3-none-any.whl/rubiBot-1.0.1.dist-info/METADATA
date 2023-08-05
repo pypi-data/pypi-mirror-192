@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: rubiBot
+Version: 1.0.1
+Summary: rubiBot is a simple and fast Rubika Messenger library built for you
+Home-page: https://rubika.ir/rubiBot_library
+Author: Mohamad_Dark
+Author-email: mr.mohamad.dark@gmail.com
+License: MIT
+Keywords: rubiBot_library,messenger,python2,python,python3,api,self,rubibot,Rubika,rubiBot,swiftrubika,rubi Bot,rubika,bot,robot,library,rubikalib,rubikalibrary,rubika.ir,RubiBot,m.rubika.ir
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENCE
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: pycryptodome
+Requires-Dist: colorama
+Requires-Dist: tinytag
+Requires-Dist: aiohttp
+
+.. image:: https://web.rubika.ir/assets/icons/icon-192x192.png
+    :target: https://rubika.ir/rubiBot_library
+    :alt: Logo Rubika
+
+
+OWNER INFO
+=============
+
+Rubika Info:
+
+* `Source Channel Rubika <https://rubika.ir/rubiBot_library>`_
+
+Subscribe to the channels to know about the library and sources updates.
+
+Installing rubiBot from PyPI
+=================================
+
+.. code-block:: python3
+
+    pip install rubiBot
+
+If you have a problem with the installation, subscribe to the channel.
+
+How to import the rubiBot
+===============================
+
+.. code-block:: python3
+
+    from rubiBot import client
+
+    bot = client('Auth')
+
+Example for sending a message
+=============================
+
+.. code-block:: python3
+
+    from rubiBot import client
+
+    bot = client('Auth Acc')
+
+    chat_id = 'guid Channel or Group or PV'
+
+    bot.send_message(chat_id,'text')
+
+Documentation
+=============
+
+Coming Soon...
