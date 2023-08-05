@@ -1,0 +1,13 @@
+listener/__init__.py,sha256=jIbZrWvbG--Mge28-PDC9RrH5auqVi2cW0g3lX2asdA,1136
+robotLocalization/__init__.py,sha256=wUbtLpGU1FAFayPJMbH79eMz70WcXKBAa5w7eXa5rMc,13686
+robotLocalization/analyze.py,sha256=cgtGXKQ05Dx13n-R9P7nrdWvGV538n9aF6sztjPka9M,8202
+robotLocalization/api.py,sha256=CDj8iD7S5if5i5FkHuet2qrpNn9RICR9aWXM8Das1W8,25908
+robotLocalization/loader.py,sha256=RSFxvd5zzPrgRcIkpERN0TCzMPFKTKuhX-_vUcdM0t0,6247
+robotLocalization/loader_xml.py,sha256=5ywKSB7FnSor-yuxnjA-JgDGj97soZWl0xghpVra2Wc,2564
+robotLocalization/util.py,sha256=eCljEkcWjreTgJDDJaHhfk2Wr33P-OqSlshNkEsDAJk,7152
+robotframework_localization-0.10.11.dist-info/LICENSE,sha256=slIfBWoIhYkyYNnYAUi9qxvoNL7hZAIa24ne5XYFm3Y,1064
+robotframework_localization-0.10.11.dist-info/METADATA,sha256=MJZISn-rocvl_BKDC0bEayvizZeJt3B1A1gAhhl1bcA,6267
+robotframework_localization-0.10.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+robotframework_localization-0.10.11.dist-info/entry_points.txt,sha256=TWz4MzkLQGAzzvj9k5Fx5ALe-piWbN77d1DkBLKj_tw,90
+robotframework_localization-0.10.11.dist-info/top_level.txt,sha256=16yqeBQez-9jzWboxu7EJs0dp3Js5_lqWindGiqpluw,27
+robotframework_localization-0.10.11.dist-info/RECORD,,
