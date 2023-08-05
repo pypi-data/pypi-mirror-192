@@ -1,0 +1,11 @@
+include thinks_dash_url_observer/thinks_dash_url_observer.min.js
+include thinks_dash_url_observer/thinks_dash_url_observer.min.js.map
+include thinks_dash_url_observer/async-*.js
+include thinks_dash_url_observer/async-*.js.map
+include thinks_dash_url_observer/*-shared.js
+include thinks_dash_url_observer/*-shared.js.map
+include thinks_dash_url_observer/metadata.json
+include thinks_dash_url_observer/package-info.json
+include README.md
+include LICENSE
+include package.json
