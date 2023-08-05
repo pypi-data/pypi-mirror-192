@@ -1,0 +1,6 @@
+setup.py
+ratebypass/code.py
+ratebypass.egg-info/PKG-INFO
+ratebypass.egg-info/SOURCES.txt
+ratebypass.egg-info/dependency_links.txt
+ratebypass.egg-info/top_level.txt
