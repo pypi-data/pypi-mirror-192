@@ -1,0 +1,6 @@
+wagtail>=4.1
+Django>=3.2
+
+[testing]
+coverage<8.0,>=7.0
+tox<5.0,>=4.0
