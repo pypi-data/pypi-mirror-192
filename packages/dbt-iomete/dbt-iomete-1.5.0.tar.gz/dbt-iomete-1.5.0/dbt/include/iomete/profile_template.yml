@@ -1,0 +1,27 @@
+fixed:
+  type: iomete
+prompts:
+  workspace_id:
+    hint: "iomete workspace id"
+  host:
+    hint: "e.g., cluster_id.iomete.cloud"
+  lakehouse:
+    hint: "lakehouse name that dbt will connect"
+  schema:
+    hint: "default schema that dbt will build objects in"
+  user:
+    hint: "username"
+  token:
+    hint: "personal access token"
+    hide_input: true
+  connect_timeout:
+    default: 120
+    hint: "connection timeout in seconds"
+    type: "int"
+  connect_retries:
+    default: 0
+    type: "int"
+  threads:
+    hint: "1 or more"
+    type: "int"
+    default: 1
