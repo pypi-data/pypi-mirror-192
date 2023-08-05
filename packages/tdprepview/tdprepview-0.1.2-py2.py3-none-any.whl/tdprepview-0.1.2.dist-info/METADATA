@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: tdprepview
+Version: 0.1.2
+Summary: Python Package that creates Data Preparation Pipeline in Teradata-SQL in Views
+Author: Martin Hillebrand
+Author-email: martin.hillebrand@teradata.com
+Keywords: tdprepview,teradata,database,preprocessing,data engineering,data science
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: teradataml (>=17.10.00.02)
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# tdprepview
+
+
+Python Package that creates Data Preparation Pipeline in Teradata-SQL in Views
+
+## Installation
+
+
+* pip install tdprepview
+
+## Features
+
+* Pipeline class that allows creating in-DB preprocessing pipelines
+* Several Preprocessor functions
+* API similar to sklearn_pandas.DataFrameMapper
+
+
+# History
+
+## v0.1.0 (2023-02-15)
+
+### added
+
+* First release on PyPI.
+* Pipeline with fit and transform functions
+* Preprocessor Functions
+    * Impute
+    * ImputeText
+    * TryCast
+    * Scale
+    * CutOff
+    * FixedWidthBinning
+    * ThresholdBinarizer
+    * ListBinarizer
+    * VariableWidthBinning
+    * LabelEncoder
+    * CustomTransformer
+* Notebooks for tests
+* Demo Notebook
+
+## v0.1.2 (2023-02-15)
+
+### fixed
+
+* added *.sql to MANIFEST.ln such that SQL templates are also part of the distribution.
+
+### changed
+
+* HISTORY and README file from rst to Markdown
