@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: googletrans-python
+Version: 0.2.0
+Summary: googletrans-python package.
+Home-page: https://github.com/leeyunjai/googletrans-python
+Author: leeyunjai
+Author-email: leeyunjai1982@gmail.com
+License: UNKNOWN
+Keywords: googletrans
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+
+googletrans
+
