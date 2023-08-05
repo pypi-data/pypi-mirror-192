@@ -1,0 +1,9 @@
+abyssal_pytorch/__init__.py,sha256=3RxxYsij8-QSW3hSVYxG9twkRj_BM1gT9qdpgxzruRs,52
+abyssal_pytorch/abyssal_pytorch.py,sha256=AY-pGqK_1XzqMJmPgZNBsx3e_pRRd_RQBv7f8iydf5E,2390
+abyssal_pytorch/data.py,sha256=lhCfDOVfSQix8mIdXSr1hSibllNkdNVu1_zr99m2O-U,943
+abyssal_pytorch/prefetch_embeddings.py,sha256=c0pzphtU4IogwDEGkobo6BZFxgW6rCuCnsGc98NgboY,1561
+abyssal_pytorch/train.py,sha256=gWrVJIhU4BPjgubZyniK10PmIG86q9roaFBEJNudWZw,3548
+abyssal_pytorch-0.0.1.dist-info/METADATA,sha256=BHQccZuMc-ElkUp0YjlfIBhnwC168tveIZcp_zJiviQ,642
+abyssal_pytorch-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+abyssal_pytorch-0.0.1.dist-info/top_level.txt,sha256=16TFIN7tlqJ3SK0y4MFDA39uWNnX8h57gIdoXQ_YryM,16
+abyssal_pytorch-0.0.1.dist-info/RECORD,,
