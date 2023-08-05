@@ -1,0 +1,5 @@
+dotenv
+mercadopago
+pydantic
+requests
+unidecode
