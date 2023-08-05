@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+calculator_2023_02_15/__init__.py
+calculator_2023_02_15/calculator_2023_02_15.py
+calculator_2023_02_15.egg-info/PKG-INFO
+calculator_2023_02_15.egg-info/SOURCES.txt
+calculator_2023_02_15.egg-info/dependency_links.txt
+calculator_2023_02_15.egg-info/top_level.txt
