@@ -1,0 +1,7 @@
+__init__
+aaa
+bbb
+ccc
+ddd
+eee
+kimfame
