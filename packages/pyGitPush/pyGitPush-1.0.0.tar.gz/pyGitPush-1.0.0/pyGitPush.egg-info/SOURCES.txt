@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pyGitPush/__init__.py
+pyGitPush/pyGitPush.py
+pyGitPush.egg-info/PKG-INFO
+pyGitPush.egg-info/SOURCES.txt
+pyGitPush.egg-info/dependency_links.txt
+pyGitPush.egg-info/requires.txt
+pyGitPush.egg-info/top_level.txt
