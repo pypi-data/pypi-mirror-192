@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: powerflow
+Version: 1.0.1
+Summary: A cli tool to bootstrap your django projects and enhance your development experience.
+Home-page: https://github.com/Kodesio/Powerflow
+License: MIT
+Keywords: django,python,cookiecutter,project-template
+Author: Aime DEGBEY
+Author-email: team@kodesio.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django :: 4
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: dict-deep (>=4.1.2,<5.0.0)
+Requires-Dist: django (>=4)
+Requires-Dist: httpx (>=0.23.3,<0.24.0)
+Requires-Dist: python-dotenv (>=0.21.1,<0.22.0)
+Requires-Dist: rich (>=13.3.1,<14.0.0)
+Requires-Dist: tomli (>=2.0.1,<3.0.0) ; python_version < "3.11"
+Requires-Dist: tomli-w (>=1.0.0,<2.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Project-URL: Documentation, https://github.com/Kodesio/Powerflow
+Project-URL: Repository, https://github.com/Kodesio/Powerflow
+Description-Content-Type: text/markdown
+
+# powerflow
+
+<img align="right" width="170" height="170" src="https://res.cloudinary.com/dgugjkmqg/image/upload/v1672335414/Dream_TradingCard_bw46ec.png">
+
+[![pypi](https://badge.fury.io/py/powerflow.svg)](https://pypi.org/project/powerflow/)
+[![Docs: Mkdocs](https://img.shields.io/badge/mkdocs-docs-blue.svg)](https://tobi-de.github.io/powerflow)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/Kodesio/Powerflow/blob/main/LICENSE)
+[![Code style: djlint](https://img.shields.io/badge/html%20style-djlint-blue.svg)](https://www.djlint.com)
+[![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/PyCQA/pylint)
+
+✨📚✨ [Read the full documentation](https://tobi-de.github.io/powerflow)
+
+A cli tool based on [django's startproject --template](https://docs.djangoproject.com/en/stable/ref/django-admin/#startproject) to bootstrap
+your django projects with a modern stack. The project template is heavily inspired by [cookiecutter-django](https://github.com/cookiecutter/cookiecutter-django) but is meant to be a simpler version.
+The cli also comes with [additional commands](https://tobi-de.github.io/powerflow/usage/#cuzzy) to hopefully improve your django development experience.
+
+![showcase gif](https://raw.githubusercontent.com/Kodesio/Powerflow/main/docs/assets/cuzzy_demo.gif)
+
+## Features
+
+- Django 4+
+- Python 3.10+
+- Frontend: [htmx](https://htmx.org/) with [editor support](https://oluwatobi.dev/blog/posts/htmx-support-in-pycharm/) using [web-types](https://github.com/JetBrains/web-types#web-types)
+- Frontend CSS: [bootstrap5](https://getbootstrap.com/) via [django-bootstrap5](https://github.com/zostera/django-bootstrap5)
+- Template fragment with [django-render-block](https://github.com/clokep/django-render-block)
+- Secure production settings, https only.
+- Settings using [django-environ](https://github.com/joke2k/django-environ)
+- Login / signup via [django-allauth](https://github.com/pennersr/django-allauth)
+- Custom user model based on [django-improved-user](https://github.com/jambonsw/django-improved-user)
+- Login using email instead of username
+- Automatically reload your browser in development via [django-browser-reload](https://github.com/adamchainz/django-browser-reload)
+- Better development experience with [django-fastdev](https://github.com/boxed/django-fastdev)
+- [Amazon SES](https://aws.amazon.com/ses/?nc1=h_ls) for production email via [Anymail](https://github.com/anymail/django-anymail)
+- [Docker](https://www.docker.com/) ready for production
+- Optional production cache settings using the `CACHE_URL` or `REDIS_URL` environment variables.
+- `captain-definition` for deploying to [caprover](https://caprover.com/)
+- [Sentry](https://sentry.io/welcome/) for performance/error monitoring
+- Serve static files with [Whitenoise](https://whitenoise.evans.io/en/latest/)
+- Default integration with [pre-commit](https://github.com/pre-commit/pre-commit) for identifying simple issues before submission to code review
+- Integrated task runner with [poethepoet](https://github.com/nat-n/poethepoet)
+- Dependency management using [poetry](https://github.com/python-poetry/poetry) (can be replaced by [virtualenv](https://github.com/pypa/virtualenv) using the [`remove-poetry` command](https://tobi-de.github.io/powerflow/usage/#cuzzy-remove-poetry))
+
+## Templates
+
+I use github branches to create variations of the base template.
+
+- [main](https://github.com/Kodesio/Powerflow): The base template
+- [tailwind](https://github.com/Kodesio/Powerflow/tree/tailwind): The base template + [tailwindcss](https://github.com/timonweb/pytailwindcss)  via [pytailwindcss](https://github.com/timonweb/pytailwindcss)
+- [bootstrap](https://github.com/Kodesio/Powerflow/tree/bootstrap): The base template + [bootstrap5](https://getbootstrap.com/) via [django-bootstrap5](https://github.com/zostera/django-bootstrap5)
+
+> **Note**: If some of my decisions about the project template don't make sense to you, read [this section](https://tobi-de.github.io/powerflow/project/) of the documentation.
+
+## Quickstart
+
+Install the latest version of the package
+
+```shell
+pip install powerflow --upgrade
+```
+
+Initialize a new project
+
+```shell
+cuzzy make project_name
+```
+
+## Development
+
+Poetry is required (not really, you can set up the environment however you want and install the requirements
+manually) to set up a virtualenv, install it then run the following:
+
+```sh
+pre-commit install --install-hooks
+```
+
+Tests can then be run quickly in that environment:
+
+```sh
+pytest
+```
+
+## Feedback
+
+If you have any feedback, please reach out to me at tobidegnon@proton.me or [open a discussion](https://github.com/Kodesio/Powerflow/discussions/new).
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
