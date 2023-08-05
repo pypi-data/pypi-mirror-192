@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+tenant/__init__.py
+tenant/db_router.py
+tenant/filters.py
+tenant/routes.py
+tenant/tenant.py
+tenant/util.py
+tenant_django.egg-info/PKG-INFO
+tenant_django.egg-info/SOURCES.txt
+tenant_django.egg-info/dependency_links.txt
+tenant_django.egg-info/top_level.txt
