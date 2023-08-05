@@ -1,0 +1,13 @@
+migration_rollback/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migration_rollback/apps.py,sha256=FQx6ZqNdrumSdJRAGp9WXwyZ6Sg-XldXXfuBbeHicrc,110
+migration_rollback/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migration_rollback/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migration_rollback/management/commands/migrateprevious.py,sha256=Do6p77AHnacKkLJuT9t4d2NXCbe_ZYVyAyrMddM2v-E,1012
+migration_rollback/management/commands/migraterollback.py,sha256=V94_AsmX3P4k0fR1Z9QPqUEXXtvUvcRiyBAx8IFiUPA,1310
+migration_rollback/utils/__init__.py,sha256=qjKxgKDrMmPzziqoCpE8rS2ArDJVVJ3Doz0IqA7Fk7w,61
+migration_rollback/utils/migration_utils.py,sha256=lgStNc3_C_p_R-FsEMWopd_rj5tNYD_ndDA2F06uBVQ,1398
+django_migration_rollback-1.0.4.dist-info/LICENSE,sha256=cKweWa8dRAiYX-w_GK4TeN_mqlXNX1gx01gZ-ZaioWQ,1064
+django_migration_rollback-1.0.4.dist-info/METADATA,sha256=MlcIZxneLpNNwmXJ0SjPqwsM1iSS6nfsP_ihp5G0Ye4,4181
+django_migration_rollback-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_migration_rollback-1.0.4.dist-info/top_level.txt,sha256=Vl9-0Os8h-NQZtaScVewRrC8PR3laXh7LL7GtkrM7PQ,19
+django_migration_rollback-1.0.4.dist-info/RECORD,,
