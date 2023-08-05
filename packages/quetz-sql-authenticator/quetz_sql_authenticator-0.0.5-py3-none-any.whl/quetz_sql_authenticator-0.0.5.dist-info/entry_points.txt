@@ -1,0 +1,11 @@
+[quetz]
+quetz-sql-authenticator = quetz_sql_authenticator.main
+
+[quetz.authenticator]
+sql-authenticator = quetz_sql_authenticator.main:SQLAuthenticator
+
+[quetz.migrations]
+quetz-sql-authenticator = quetz_sql_authenticator.migrations
+
+[quetz.models]
+quetz-sql-authenticator = quetz_sql_authenticator.db_models
