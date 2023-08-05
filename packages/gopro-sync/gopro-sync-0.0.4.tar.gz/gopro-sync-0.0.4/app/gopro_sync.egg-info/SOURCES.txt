@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+app/gopro_sync.egg-info/PKG-INFO
+app/gopro_sync.egg-info/SOURCES.txt
+app/gopro_sync.egg-info/dependency_links.txt
+app/gopro_sync.egg-info/entry_points.txt
+app/gopro_sync.egg-info/requires.txt
+app/gopro_sync.egg-info/top_level.txt
+app/utils/arguments.py
