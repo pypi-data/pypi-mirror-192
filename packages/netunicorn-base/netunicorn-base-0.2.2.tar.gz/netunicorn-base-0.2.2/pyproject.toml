@@ -1,0 +1,28 @@
+[project]
+name = "netunicorn-base"
+version = "0.2.2"
+authors = [
+    {name = "Roman Beltiukov", email = "rbeltiukov@ucsb.edu"},
+]
+description = "netunicorn base module"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["netunicorn"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "returns",
+    "typing-extensions",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.mypy]
+python_version = "3.7"
+ignore_missing_imports = true
+strict = true
+explicit_package_bases = true
+exclude = "tests"
