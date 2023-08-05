@@ -1,0 +1,10 @@
+pygwin/VERSION,sha256=q9wIWFhKhFmhzU5ldgn9nOFwMtbclee8o0ACNkqKNeY,10
+pygwin/__init__.py,sha256=TfRH87e2GrotF7PiB3tH7d_RDC1Jj5KlVcYf3ogr34Q,664
+pygwin/_window_descriptors.py,sha256=XbZrYniROaO740_dumq4yP29Wvf2hGBV89dy3JsSTns,2907
+pygwin/window.py,sha256=mL4JSG3LtHM9G44A8I_y42rFJtHzwoVaRo17eJJmYUg,7314
+pygwin/window.pyi,sha256=FIcFMcIZKa4aD5xVf6bWepv8Irjo8t3gvuy8nocEteg,998
+pygame_window-1.0.0.dev2.dist-info/LICENSE.md,sha256=4puGhr9_nOcu5iGjkGJVkP3LWC2tslqWdrO8Hcm06OU,1063
+pygame_window-1.0.0.dev2.dist-info/METADATA,sha256=y0yM7DY40a1ZDvee4wyG2AhU-OTnsgMLiVxA9JThNWw,2029
+pygame_window-1.0.0.dev2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pygame_window-1.0.0.dev2.dist-info/top_level.txt,sha256=K6fiCpjltkmwg-8BLeIgZixmwZENgTqJ61z7TMaSxNI,7
+pygame_window-1.0.0.dev2.dist-info/RECORD,,
