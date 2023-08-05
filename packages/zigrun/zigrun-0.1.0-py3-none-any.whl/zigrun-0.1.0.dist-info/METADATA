@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: zigrun
+Version: 0.1.0
+Summary: A zig script runner
+Author: Techcable
+License: MIT License
+Keywords: zig,runner,script,runner,development,repl
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console 
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: jinja2
+Requires-Dist: click
+Requires-Dist: cloup
+Provides-Extra: dev
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Provides-Extra: mypy
+Requires-Dist: mypy (>=1) ; extra == 'mypy'
+
+# zigrun
+Runs zig expressions, statements, and scripts directly from the command line.
+
+## Example
+```shell
+zigrun --expr -c '7 + 9'
+> 16
+# Shorthand for --expr -c
+zigrun --eval '@sizeOf(u64)'
+> 8
+# Even shorter shorthand
+zigrun -e '"Foo" ++ "Bar"'
+> FooBar
+zigrun --stmt <<EOF
+std.debug.print("Foo: {}\n", .{6});
+// Nice aliases
+print("Bar: {}\n", .{6});
+println("Foo", .{7});
+EOF
+> Foo: 6
+> Bar: 7
+> Foo: 7
+```

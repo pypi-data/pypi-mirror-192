@@ -1,0 +1,23 @@
+const std = @import("std");
+const print = std.debug.print;
+const assert = std.debug.assert;
+const mem = std.mem;
+
+fn println(comptime fmt: []const u8, args: anytype) void {
+    std.debug.print(fmt ++ "\n", args);
+}
+
+pub fn main() !void {
+    var gpa = std.heap.GeneralPurposeAllocator(.{}) {};
+    defer _ = gpa.deinit();
+    const alloc = gpa.allocator();
+    _ = alloc;
+    {
+    {% if zig_expression is defined %}
+        const val = {{ zig_expression }};
+        std.debug.print("{}\n", .{val});
+    {% else %}
+        {{ zig_statements|join(';\n') }}
+    {% endif %}
+    }
+}

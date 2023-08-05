@@ -1,0 +1,2 @@
+[console_scripts]
+zigrun = zigrun.__main__:zigrun

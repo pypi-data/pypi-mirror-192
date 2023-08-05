@@ -1,0 +1,11 @@
+zigrun/.gitignore,sha256=xeF13EcjMiC1kkXn7-EyMBYldu2MhXkO_4fXCodHfhk,12
+zigrun/__init__.py,sha256=8S6HYCCDcPsUVJl8tZxg9302En5zlL8b5Lp9SmLvcyE,3432
+zigrun/__main__.py,sha256=QItaA2jVql3BsJemqKrD9PuHi0aNDwTCLsx7779Long,2933
+zigrun/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+zigrun/templates/main.zig.jinja2,sha256=1rw5INluH4qrmStdKk06Ct-LJARvsB5Vkh94XLmvqdY,579
+zigrun-0.1.0.dist-info/LICENSE.txt,sha256=v_ZMsIS69j6eOVqoR3IG1gP49NEo_ULvFtfmm8QTFjw,1074
+zigrun-0.1.0.dist-info/METADATA,sha256=A2aA9CoYS-yaqfznCMq5GocIt2-ceH04rt6PELq2ZUY,1163
+zigrun-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zigrun-0.1.0.dist-info/entry_points.txt,sha256=e62rCRtd2mf2wi82ESN73Y4syxvnacDy0J0x0_jUubQ,50
+zigrun-0.1.0.dist-info/top_level.txt,sha256=SApRI031LFz31lh30G_3wxVKV5tUR8P-bV2pQMD2K_I,7
+zigrun-0.1.0.dist-info/RECORD,,
