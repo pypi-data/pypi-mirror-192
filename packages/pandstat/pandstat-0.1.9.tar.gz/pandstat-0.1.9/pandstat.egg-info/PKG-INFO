@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: pandstat
+Version: 0.1.9
+Summary: Package for easy statistical testing and useful dataframe methods in pandas!
+Author-email: William Rosenbaum <william.rosenbaum88@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 willros
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/willros/pandstat
+Keywords: pandas,tidyverse,statistics,dataframe-methods
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# To build
+"""
+https://realpython.com/pypi-publish-python-package/
+"""
+# pandstat
+Package for easy integration of statistical tools in Pandas. 
+
+
+## Usage: 
+All functions are meant to be used in `pandas.pipe method`.
+* All functions returns a new pd.DataFrame 
+
+### Example of usage:
+```python
+from pandstat import ols_model, one_sample_ttest
+
+df = (pd.DataFrame()
+      .assign(x=[1,2,3,4,4,5,5,5,5,5,5,5])
+     )
+
+(df
+ .pipe(one_sample_ttest, 'x')
+)
+
+```
+*Output:*
+
+|    | term      |    mean |   std_error |       t |     p_value |   conf_low |   conf_high |   n_observations |
+|---:|:----------|--------:|------------:|--------:|------------:|-----------:|------------:|-----------------:|
+|  0 | Intercept | 4.08333 |     0.39807 | 10.2578 | 5.72919e-07 |    3.20719 |     4.95948 |               12 |
+
+
+## Dependencies
+
+* `statsmodels`
+* `pandas`
+
+
+
+# TODO
+
+How to write `complete`
+make a pivot table and fillna(0) and melt back again! 
+NOPE! That wont work...
