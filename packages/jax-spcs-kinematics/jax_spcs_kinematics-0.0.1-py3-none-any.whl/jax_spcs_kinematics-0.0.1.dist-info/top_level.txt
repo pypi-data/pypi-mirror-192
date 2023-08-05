@@ -1,0 +1,3 @@
+examples
+spcs_kinematics
+tests
