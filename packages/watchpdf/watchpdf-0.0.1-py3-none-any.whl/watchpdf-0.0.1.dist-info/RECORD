@@ -1,0 +1,9 @@
+watchpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+watchpdf/main.py,sha256=UqtRCcVqZnhb0j1r6wr8X721mQV9NXmjG10oxJ-qliI,3538
+watchpdf/utils.py,sha256=UvMiJkuY0CMawBaSMc_jY0Fp4sXCg7vsyTSBEZ5ndPc,1512
+watchpdf-0.0.1.data/scripts/watchpdf,sha256=DyOCTjGmJuQU8Tw4H3oW3SqZ1yOFwGzEo_ngpGx9QaA,55
+watchpdf-0.0.1.dist-info/LICENSE,sha256=eENpH6yNRYWWNQRieNTkgiKiSGzdarPqUl_6nOc3I-M,1074
+watchpdf-0.0.1.dist-info/METADATA,sha256=bDUI45QRkSBHOiAXc22mLzUaouyTJyy5cb4zVDur9i4,522
+watchpdf-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+watchpdf-0.0.1.dist-info/top_level.txt,sha256=duf2dOv4rINjrlSAw6LzP1hgzM4ShlHLqT1rhneexgc,9
+watchpdf-0.0.1.dist-info/RECORD,,
