@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+thinks_dash_selectable_box/__init__.py
+thinks_dash_selectable_box/_imports_.py
+thinks_dash_selectable_box.egg-info/PKG-INFO
+thinks_dash_selectable_box.egg-info/SOURCES.txt
+thinks_dash_selectable_box.egg-info/dependency_links.txt
+thinks_dash_selectable_box.egg-info/top_level.txt
