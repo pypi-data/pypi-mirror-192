@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hidemysrc
+Version: 0.0.3
+Summary: Python-based package for encrypting your python source code!
+Author: Beliefs
+Author-email: bio@fbi.ac
+Requires-Python: >=3.10.0,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pycryptodome (>=3.17,<4.0)
