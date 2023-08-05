@@ -1,0 +1,12 @@
+README.md
+setup.py
+./arrrgs/__init__.py
+./arrrgs/arguments.py
+./arrrgs/command.py
+./arrrgs/log.py
+./arrrgs/parser.py
+./arrrgs/run.py
+arrrgs.egg-info/PKG-INFO
+arrrgs.egg-info/SOURCES.txt
+arrrgs.egg-info/dependency_links.txt
+arrrgs.egg-info/top_level.txt
