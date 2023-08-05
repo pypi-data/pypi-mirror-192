@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pyteletask
+Version: 1.0.5
+Summary: An Asynchronous Library for the Teletask protocol.
+Author: Timothy DE MEY
+Author-email: timothy.demey@edisonn.io
+License: MIT
+Keywords: teletask ip teletaskdoip doip home automation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Hardware :: Hardware Drivers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# PyTeletask
+
+# How to install
+
+Two standard ways: using pip or calling setup.py manually.
+With pip for Python 3 (http://www.pip-installer.org), simply do::
+
+> pip3 install pyteletask
+
+You can optionally add --install-option="--user" to tell setup.py to install in your home rather than in one of the system-wide locations.
+
+The other way: uncompress archive. Then calling setup.py directly boils down to::
+
+> python setup.py install
+
+You can optionally add --user to install in your home.
+Please refer to distutils documentation for further details.
+
+# Version 0.0.1
+
+Initial release with basic functionality
+
+# Version 1.0.4
+
+Update with support for dimmer WITHOUT a seperate relay to turn a (dimmeable) light on/off.
+
+# Version 1.0.5
+
+Bug fix
