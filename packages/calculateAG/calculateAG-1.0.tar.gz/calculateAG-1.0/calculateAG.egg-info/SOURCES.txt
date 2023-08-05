@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+calculateAG/__init__.py
+calculateAG/calculator.py
+calculateAG.egg-info/PKG-INFO
+calculateAG.egg-info/SOURCES.txt
+calculateAG.egg-info/dependency_links.txt
+calculateAG.egg-info/top_level.txt
+calculateAG/tests/__init__.py
+calculateAG/tests/test_calculator.py
