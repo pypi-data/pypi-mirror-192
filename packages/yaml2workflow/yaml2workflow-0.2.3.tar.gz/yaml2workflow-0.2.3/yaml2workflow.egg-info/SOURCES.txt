@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+yaml2workflow.egg-info/PKG-INFO
+yaml2workflow.egg-info/SOURCES.txt
+yaml2workflow.egg-info/dependency_links.txt
+yaml2workflow.egg-info/requires.txt
+yaml2workflow.egg-info/top_level.txt
