@@ -1,0 +1,1 @@
+USER_AGENT_TEMPLATE = 'pypureclient/1.32.0/{prod}/ENDPOINT_VERSION/{sys}/{rel}'
