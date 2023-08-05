@@ -1,0 +1,46 @@
+import com.google.common.collect
+import ghidra.trace.model
+import java.lang
+
+
+class TraceSpan(java.lang.Comparable, object):
+
+
+
+
+
+
+
+
+    def compareTo(self, __a0: object) -> int: ...
+
+    def equals(self, __a0: object) -> bool: ...
+
+    def getClass(self) -> java.lang.Class: ...
+
+    def getSpan(self) -> com.google.common.collect.Range: ...
+
+    def getTrace(self) -> ghidra.trace.model.Trace: ...
+
+    def hashCode(self) -> int: ...
+
+    def notify(self) -> None: ...
+
+    def notifyAll(self) -> None: ...
+
+    def toString(self) -> unicode: ...
+
+    @overload
+    def wait(self) -> None: ...
+
+    @overload
+    def wait(self, __a0: long) -> None: ...
+
+    @overload
+    def wait(self, __a0: long, __a1: int) -> None: ...
+
+    @property
+    def span(self) -> com.google.common.collect.Range: ...
+
+    @property
+    def trace(self) -> ghidra.trace.model.Trace: ...
