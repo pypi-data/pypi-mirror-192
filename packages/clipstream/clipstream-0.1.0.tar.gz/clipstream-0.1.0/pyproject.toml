@@ -1,0 +1,26 @@
+[project]
+name = "clipstream"
+dynamic = ["version"]
+
+
+[tool.poetry_bumpversion.file."clipstream/__init__.py"]
+
+[tool.poetry]
+name = "clipstream"
+description = ""
+version = "0.1.0"
+authors = ["Pedro Batista <pedrovhb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+asynkets = "^0.1.0"
+pyperclip = "^1.8.2"
+python-xlib = "^0.33"
+
+[tool.poetry.scripts]
+clipstream = "clipstream.__main__:clipstream_to_stdout"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

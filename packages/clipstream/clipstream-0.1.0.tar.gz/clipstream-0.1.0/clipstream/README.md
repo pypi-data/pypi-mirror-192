@@ -1,0 +1,73 @@
+# Clipstream
+
+Clipstream is a tool for printing clipboard contents to the standard output as they change. It provides a convenient way to access the system clipboard from the command line. 
+
+On a Linux system with X and the XFIXES extension, `clipstream` receives clipboard updates without creating processes constantly for polling.
+
+## Installation
+
+Clipstream can be installed with pip:
+
+```
+pip install clipstream
+```
+
+For use as a command-line tool, it is recommended to use `pipx` to install Clipstream in its own isolated environment:
+
+```
+pipx install clipstream
+```
+
+## Usage as a Command-Line Tool
+
+Clipstream can be run from the command line with the following command:
+
+```
+clipstream
+```
+
+This will print the current contents of the clipboard to the standard output as they change.
+
+There are several options available for customizing the output of Clipstream:
+
+```
+-n, --newline        Print a newline after each clipboard item.
+-1, --one            Print one clipboard item, then exit.
+-i, --include-initial Include the initial clipboard item.
+-s, --strip           Strip whitespace from clipboard items.
+-r, --polling-rate    How often to poll the clipboard, in Hz (times per second).
+-0, --null            Print a null byte after each clipboard item.
+-u, --unique          Print only unique clipboard items.
+```
+
+## Usage as a Library
+
+Clipstream can also be used as a library in Python projects. To use Clipstream as a library, simply import the `clipboard_stream` function from the `clipstream.stream` module:
+
+```python
+from clipstream.stream import clipboard_stream
+```
+
+The `clipboard_stream` function returns an asynchronous generator that yields the contents of the clipboard as they change.
+
+## Examples
+
+Here are some examples of how Clipstream can be useful as a tool:
+
+- Downloading files from copied links:
+
+```bash
+clipstream | xargs -I_ wget _
+```
+
+- Writing copied text to a file:
+
+```bash
+clipstream | tee -a copied_text_file
+```
+
+- Get clipboard history + selector with a preview:
+
+```bash
+clipstream --strip --unique -0 | fzf --read0 --preview 'echo -n {}' --bind 'enter:execute(echo {} | xclip -selection clipboard)'
+```
