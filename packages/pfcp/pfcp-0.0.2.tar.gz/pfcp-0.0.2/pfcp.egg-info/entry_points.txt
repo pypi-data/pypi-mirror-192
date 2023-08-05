@@ -1,0 +1,2 @@
+[console_scripts]
+FCP = FCPpk.cli:main
