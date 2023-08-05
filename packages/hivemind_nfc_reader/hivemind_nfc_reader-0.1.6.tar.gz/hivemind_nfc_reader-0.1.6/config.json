@@ -1,0 +1,12 @@
+{
+    "pin_config": [
+        { "player_id": 4, "button": 32, "light": 18 },
+        { "player_id": 6, "button": 28, "light": 16 },
+        { "player_id": 2, "button": 26, "light": 12 },
+        { "player_id": 8, "button": 24, "light": 10 },
+        { "player_id": 10, "button": 22, "light": 8 }
+    ],
+    "scene": "test",
+    "cabinet": "test1",
+    "token": "12345"
+}
