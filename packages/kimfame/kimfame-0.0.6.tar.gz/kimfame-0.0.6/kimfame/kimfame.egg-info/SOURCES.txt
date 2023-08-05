@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kimfame/kimfame.egg-info/PKG-INFO
+kimfame/kimfame.egg-info/SOURCES.txt
+kimfame/kimfame.egg-info/dependency_links.txt
+kimfame/kimfame.egg-info/top_level.txt
