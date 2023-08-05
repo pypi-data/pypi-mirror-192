@@ -1,0 +1,11 @@
+tantaroba/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tantaroba/__version__.py,sha256=SBl2EPFW-ltPvQ7vbVWItyAsz3aKYIpjO7vcfr84GkU,22
+tantaroba/iterator_helpers.py,sha256=Hz2g2DArKRZacs9_0TE8fLBlm05rKPnp2GocJ6KLQeU,641
+tantaroba/log.py,sha256=wxhxK86HRlilr3SQ6ezskMfVqa3yF8eNjaUBUtkUNGA,936
+tantaroba/postgresql.py,sha256=Zh3uzL34AMW7Sb792FxGapX8GN3_xwY3df0AFEa97vY,7895
+tantaroba/profile.py,sha256=5rpj2afgA2hsg5j1Y4x62aPM73TBILkV279vdOFoqgI,683
+tantaroba/scripts/script.py,sha256=zHB0eYawNCB7jQ0iaJ1xSOpJ-SdzwqgyWo7E3cBh5Ic,88
+tantaroba/yaml.py,sha256=VIlTZpWaMaGUhaEr01YeODKVCGqRCoc_7LgzaQZCbHk,528
+tantaroba-0.2.4.dist-info/METADATA,sha256=rdvk1fHVSZpA6AVs4teJucanesMQFqAUCwZtX8BHhyg,743
+tantaroba-0.2.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+tantaroba-0.2.4.dist-info/RECORD,,
