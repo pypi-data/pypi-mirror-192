@@ -1,0 +1,8 @@
+setup.py
+simpleDatesSetup/__init__.py
+simpleDatesSetup/datesConfig.py
+simpleDatesSetup.egg-info/PKG-INFO
+simpleDatesSetup.egg-info/SOURCES.txt
+simpleDatesSetup.egg-info/dependency_links.txt
+simpleDatesSetup.egg-info/requires.txt
+simpleDatesSetup.egg-info/top_level.txt
