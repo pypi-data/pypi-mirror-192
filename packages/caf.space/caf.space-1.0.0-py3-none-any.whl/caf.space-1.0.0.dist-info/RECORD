@@ -1,0 +1,14 @@
+caf.space-1.0.0-py3.9-nspkg.pth,sha256=OKuhVP3f6izD3UGjJXsguBv9DfCZ2dBDPKFR57_mKKk,525
+caf/space/__init__.py,sha256=B8bJ9c0UckQVXZwotlN1d4hjkONJLGbtOEYnq6pwnt4,188
+caf/space/_version.py,sha256=Z5eCJ11F3B0D40V-Sl6oNRtyObnW-3fiJPbwLR2cKQc,518
+caf/space/inputs.py,sha256=asjimStMhLhpU_-7d0tUBAF3xoRqRxBRVf2TcxoiPqI,7923
+caf/space/metadata.py,sha256=Nyi3dPB_3yY3iuhAaOeF6AknKvOM7z-WS6UQGJa8izY,1939
+caf/space/weighted_funcs.py,sha256=tqFFRRHJyzPlQbEDSyAD834_Nlcci8FZlJ1g8ADBwzQ,5569
+caf/space/zone_correspondence.py,sha256=YAyVaWaXVYXubFJKRynMERcMKYYDuBaFvzczZQ5oG1g,12845
+caf/space/zone_translation.py,sha256=ENt0Wcei3uuNtSNyRMkHWaAUOuGfHoN1NPhDOEMCLX8,8784
+caf.space-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+caf.space-1.0.0.dist-info/METADATA,sha256=wJulJTyXQyjwOl59f_gbO9r0qn-vB6LhxQ3UrddLrBA,6958
+caf.space-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+caf.space-1.0.0.dist-info/namespace_packages.txt,sha256=8dRylPLtiVOyfFCERkOsT62REE5eORmV3dStT58kC9o,4
+caf.space-1.0.0.dist-info/top_level.txt,sha256=8dRylPLtiVOyfFCERkOsT62REE5eORmV3dStT58kC9o,4
+caf.space-1.0.0.dist-info/RECORD,,
