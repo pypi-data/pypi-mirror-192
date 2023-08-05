@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: guitares
+Version: 0.0.1
+Summary: Deltares GUI Toolkit
+Home-page: https://pypi.org/project/guitares
+Author: Maarten van Ormondt
+Author-email: Maarten van Ormondt <maarten.vanormondt@deltares-usa.us>
+License: MIT
+Keywords: deltares gui
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: geopandas (>=0.8)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyproj
+Requires-Dist: rasterio
+Requires-Dist: shapely
+Requires-Dist: geojson
+Requires-Dist: Pillow
+Requires-Dist: matplotlib
+Requires-Dist: pyyaml
+Requires-Dist: pyqt5
+Requires-Dist: pyqtwebengine
+
+none
