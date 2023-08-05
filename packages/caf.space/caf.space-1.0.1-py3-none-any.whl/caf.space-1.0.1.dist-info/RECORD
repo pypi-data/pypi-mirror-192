@@ -1,0 +1,14 @@
+caf.space-1.0.1-py3.11-nspkg.pth,sha256=1GuOeyV-0y6f8b5atIF7yFrxjIpX7yfjkFweid_H_98,524
+caf/space/__init__.py,sha256=_4I3IFi7cfSBVgG_Vdqw6p6IkNuaWJo9zLaPa_Kf2N8,182
+caf/space/_version.py,sha256=Nxe2BR0S7hWYQ9mMKJ5-IoPbPBuVxENvUn4eelhwOgc,497
+caf/space/inputs.py,sha256=wJTdhpUFZ8-hUS784lRI8Is0ygbIo62l9aJaiST0RQM,7699
+caf/space/metadata.py,sha256=bd1dN9hX6E7s78_Oq8K_oR5nAEez7-oVBaWRG2JI0hY,1863
+caf/space/weighted_funcs.py,sha256=5vk8jx6pJjHcyK7ACVKyikpJSEBflv8f2TvwropzEJQ,5380
+caf/space/zone_correspondence.py,sha256=hBmmj35ypZrTMABYx-yTEGsxSKA3Xo8oLNC4YcRgspM,12441
+caf/space/zone_translation.py,sha256=2rToyE1YO-mDbmXzAVLTS6DgK4I-qIZw5qySlo53NZk,8558
+caf.space-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+caf.space-1.0.1.dist-info/METADATA,sha256=11ec_NBNv0WwylpoPsuHbpepJwpnCpJCgCy-Nhb-HJM,6952
+caf.space-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+caf.space-1.0.1.dist-info/namespace_packages.txt,sha256=8dRylPLtiVOyfFCERkOsT62REE5eORmV3dStT58kC9o,4
+caf.space-1.0.1.dist-info/top_level.txt,sha256=8dRylPLtiVOyfFCERkOsT62REE5eORmV3dStT58kC9o,4
+caf.space-1.0.1.dist-info/RECORD,,
