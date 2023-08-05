@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: autoexplain
+Version: 1.1.3
+Summary: Use OpenAI capabilities to smooth your document&test generation
+Home-page: https://github.com/rincon-santi/autoexplain
+Author: Santiago Rincon Martinez
+Author-email: rincon.santi@gmail.com
+License: GNU
+Project-URL: Bug Tracker, https://github.com/rincon-santi/autoexplain/issues
+Project-URL: Changelog, https://github.com/rincon-santi/autoexplain/releases
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
