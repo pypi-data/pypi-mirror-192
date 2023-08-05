@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Lab02-IA
+Version: 1.0.0
+Home-page: https://github.com/dele20361/Lab02-IA
+Author: Gabriela Contreras
+Requires: pgmpy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Laboratorio 2
+## Inteligencia Artificial
+
+Para el código se utilizó como referencia la Red Bayesiana de la probabilidad de ser admitido en una universidad de Estados Unidos dado a diferentes factores.
