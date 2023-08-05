@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: marsgpt
+Version: 0.1.6
+Summary: Mars ChatGPT API Lib
+Home-page: UNKNOWN
+Author-email: yanjingang@mail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: asyncio
+Requires-Dist: httpx[socks]
+Requires-Dist: OpenAIAuth (==0.2.0)
+Requires-Dist: tiktoken
+Requires-Dist: requests
+Requires-Dist: tornado
+
+# MarsGPT
+A ChatGPT API
+
+
+# 安装
+    pip install marsgpt --upgrade
+
+
+# 使用
+    import sys
+    import asyncio
+    from marsgpt.gpt2 import Chatbot
+
+    async def main():
+        """
+        Chat AI Test
+        """
+        # params
+        email = "xxx@xxx.com"
+        password = "xxxxxx"
+
+        # login
+        chatbot = Chatbot(email=email, password=password)
+
+        # ask
+        try:
+            while True:
+                print("You:")
+                prompt = ""
+                while(len(prompt.strip()) == 0):
+                    prompt = input()
+
+                # # clear
+                # chatbot.conversations.remove("default")
+
+                print("ChatGPT:")
+                # ret, res = self.chatbot.ask_sync(prompt)
+                # print(res)
+                async for line in chatbot.ask(prompt):
+                    result = line["choices"][0]["text"].replace("<|im_end|>", "")
+                    print(result, end="")
+                    sys.stdout.flush()
+                print()
+
+
+        except KeyboardInterrupt:
+            print("Exiting...")
+            sys.exit(0)
+
+    if __name__ == "__main__":
+        asyncio.run(main())
+
+
+
