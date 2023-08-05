@@ -1,0 +1,17 @@
+.pypirc
+README.md
+setup.py
+src/stusystem/__init__.py
+src/stusystem.egg-info/PKG-INFO
+src/stusystem.egg-info/SOURCES.txt
+src/stusystem.egg-info/dependency_links.txt
+src/stusystem.egg-info/top_level.txt
+src/stusystem/model/StudentList.py
+src/stusystem/model/__init__.py
+src/stusystem/model/student.py
+src/stusystem/ui/__init__.py
+src/stusystem/ui/system.py
+src/stusystem/ui/system_ui.py
+src/stusystem/util/__init__.py
+src/stusystem/util/data_manager.py
+src/stusystem/util/time_util.py
