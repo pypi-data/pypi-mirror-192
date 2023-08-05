@@ -1,0 +1,20 @@
+[project]
+name = "vishal-makwana-Factorial-of-number-project"
+version = "1.0.0"
+description = "An sample project which implemnts the factorial functions."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["vishal","Factorial-of-number-project"]
+authors = [
+{name = "vishal", email="vishal.makwana@crestdatasys.com"}
+]
+maintainers = [
+{name = "vishal", email="vishal.makwana@crestdatasys.com"}
+]
+[project.scripts]
+sample = "src:package"
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=50.0.0", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vishal-makwana-Factorial-of-number-project
+Version: 1.0.0
+Summary: An sample project which implemnts the factorial functions.
+Author-email: vishal <vishal.makwana@crestdatasys.com>
+Maintainer-email: vishal <vishal.makwana@crestdatasys.com>
+Keywords: vishal,Factorial-of-number-project
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This module is created for the demo purpose, which will return a factorial of a given number
+For a full description, how to create package
+[project page](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
