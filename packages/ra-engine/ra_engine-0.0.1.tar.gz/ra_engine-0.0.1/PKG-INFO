@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ra_engine
+Version: 0.0.1
+Home-page: https://github.com/SLTDigitalLab/RAE-sdk-python.git
+Author: Navindu Dananaga
+Author-email: navindudananga123@gmail.com
+License: MIT
+Keywords: ra_engine
+
+RAE SDK for Python
