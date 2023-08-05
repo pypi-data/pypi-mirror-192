@@ -1,0 +1,9 @@
+.pypirc
+README.md
+setup.py
+stusystem.egg-info/PKG-INFO
+stusystem.egg-info/SOURCES.txt
+stusystem.egg-info/dependency_links.txt
+stusystem.egg-info/top_level.txt
+tests/__init__.py
+tests/test_util.py
