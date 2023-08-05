@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: elevenlabs
+Version: 0.0.2
+Summary: A Python library for integrating with ElevenLabs.io's API
+Home-page: https://github.com/benbaptist/elevenlabs
+Author: Ben Baptist
+Author-email: me@benbaptist.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
