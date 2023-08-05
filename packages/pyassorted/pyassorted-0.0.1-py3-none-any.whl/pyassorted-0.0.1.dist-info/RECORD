@@ -1,0 +1,8 @@
+pyassorted/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyassorted/asyncio/__init__.py,sha256=wCfuz3Su44fxJVtN0vRRiiVCfn6Y9ecqT9vfdyDKryQ,116
+pyassorted/asyncio/executor.py,sha256=iYtO5mr_9MWtzRY31bxvhOUsTW0HuhZ0hklHjHfH8uA,1356
+pyassorted/asyncio/utils.py,sha256=9tFn4R1kbLlj3DwaSQ26FGXN1TDaz3spS2dzs53jyZc,1017
+pyassorted-0.0.1.dist-info/LICENSE,sha256=9UxeQmQWWVnfvo68eGZOyxHB68Fb4ssIxHeCk-oIZvY,1066
+pyassorted-0.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pyassorted-0.0.1.dist-info/METADATA,sha256=EAz5dM0OqQAnOUn6AGwCl0lUXd0Z5jOnW_OQTzSm3q4,662
+pyassorted-0.0.1.dist-info/RECORD,,
