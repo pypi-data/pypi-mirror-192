@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+libka/__init__.py
+matmalibka.egg-info/PKG-INFO
+matmalibka.egg-info/SOURCES.txt
+matmalibka.egg-info/dependency_links.txt
+matmalibka.egg-info/top_level.txt
