@@ -1,0 +1,16 @@
+ckms
+inflect
+
+[aiohttp]
+aiohttp
+
+[all]
+aiohttp
+httpx
+pydantic
+
+[httpx]
+httpx
+
+[picqer]
+httpx
