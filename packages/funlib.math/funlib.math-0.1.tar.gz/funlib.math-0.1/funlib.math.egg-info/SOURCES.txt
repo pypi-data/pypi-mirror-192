@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+funlib.math.egg-info/PKG-INFO
+funlib.math.egg-info/SOURCES.txt
+funlib.math.egg-info/dependency_links.txt
+funlib.math.egg-info/requires.txt
+funlib.math.egg-info/top_level.txt
+funlib/math/__init__.py
+funlib/math/bitshift.py
+funlib/math/cantor.py
+tests/test_bitshift.py
+tests/test_cantor.py
