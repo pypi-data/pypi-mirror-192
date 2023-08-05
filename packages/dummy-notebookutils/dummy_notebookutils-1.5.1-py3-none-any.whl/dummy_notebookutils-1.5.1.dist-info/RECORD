@@ -1,0 +1,13 @@
+notebookutils/__init__.py,sha256=3_VjtEDlwShNeC_b_i4IA1YYnkYo82dP22FS1TA7Cu4,21
+notebookutils/mssparkutils/__init__.py,sha256=UYiTvvvAQ9PxxfsHgo3R9MYx3g8DwLtSlzE9rlkLRps,443
+notebookutils/mssparkutils/credentials.py,sha256=-PSzFTv5le32ZSYwxzjjx6GS1dxCjZJp81XJCtYnBIY,596
+notebookutils/mssparkutils/env.py,sha256=8ekC-03fLCDSj5i4TYUWuz1o2PDgdm_Z7vDou2CNbCw,244
+notebookutils/mssparkutils/fs.py,sha256=VO4s6drAY1zIL2zQ0I16rIvbjlKiO0V9md8X1DFOWYI,949
+notebookutils/mssparkutils/notebook.py,sha256=oOkCxtI56q_-jZr8eFYUA1rDPqYiVhliEPTJ1__avFI,184
+notebookutils/mssparkutils/runtime.py,sha256=pMW1JzJztOiJFmWpnwHp351W6Sx4XfjyclE79mc26lg,12
+notebookutils/mssparkutils/session.py,sha256=ACvYAOMH4Y-xo7eSdD3mTrP2aILrzYuGwJtp3aYMUBk,21
+dummy_notebookutils-1.5.1.dist-info/LICENSE,sha256=kD31US99AmCf7Qx4CptwT1o-625NhOvkKimEXIGJmjw,1093
+dummy_notebookutils-1.5.1.dist-info/METADATA,sha256=u1jctXAjqjposPLBnWrSX3dbLJFIeb-CES3lve_DG20,1515
+dummy_notebookutils-1.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dummy_notebookutils-1.5.1.dist-info/top_level.txt,sha256=Hi4smPrO7OLeUoT6U5lCYcCLuFYLkgO9dVUDj6vRZfw,14
+dummy_notebookutils-1.5.1.dist-info/RECORD,,
