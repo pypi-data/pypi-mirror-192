@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: tantaroba
+Version: 0.2.4
+Summary: Python package template
+Author: Mattia Tantardini
+Author-email: mattia.tantardini@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: psycopg2 (>=2.9.5,<3.0.0)
+Requires-Dist: sqlalchemy (>=2.0.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# tantaroba
+
+Description of tantaroba project.
+
+## Installation
+Describe how to install tantaroba project.
+
+## Usage
+Describe how to launch and use tantaroba project.
+
