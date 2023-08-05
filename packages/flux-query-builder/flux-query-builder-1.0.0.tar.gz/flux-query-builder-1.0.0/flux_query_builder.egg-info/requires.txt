@@ -1,0 +1,4 @@
+dateparser>=1.1.7
+
+[dev]
+freezegun
