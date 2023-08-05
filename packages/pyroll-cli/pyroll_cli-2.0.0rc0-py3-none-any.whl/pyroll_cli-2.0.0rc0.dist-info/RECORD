@@ -1,0 +1,10 @@
+pyroll/cli/__init__.py,sha256=sAf3Iai9zrkEFuF7pAQ2egSDIncvD3i94dhVUAe0_JM,80
+pyroll/cli/__main__.py,sha256=7I97t47rMH5ZO-9cIr2wWgjv1-pfrG805Z06OV2uIEM,71
+pyroll/cli/program.py,sha256=VpxR0-Q6WzgIyhwCVH_wCnlf3NJRXGZdXf1uTINBpzA,7068
+pyroll/cli/res/config.yaml,sha256=Eur-_sdYvIzXClTd6_kZm4CSImvx7EkUZpQ47EUv6vA,693
+pyroll/cli/res/input.py,sha256=VgNHXyKskfrewryoJ3gyuvbkek5qGIO1W2v-6Ly7bd4,996
+pyroll_cli-2.0.0rc0.dist-info/LICENSE,sha256=-0PCA71lACnKNo63-a7VX428PGyTmL6DW0vxAJZBK7M,1506
+pyroll_cli-2.0.0rc0.dist-info/METADATA,sha256=95wmF9P7riOJ2mvpyxtSL41N2F2rtvoXGSkhJtzF1ks,1445
+pyroll_cli-2.0.0rc0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pyroll_cli-2.0.0rc0.dist-info/entry_points.txt,sha256=qwc_p4dlRNI0T5SSKRaAYLMk0KsDXKR2EAfre4aOhNY,53
+pyroll_cli-2.0.0rc0.dist-info/RECORD,,
