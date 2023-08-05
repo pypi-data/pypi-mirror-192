@@ -1,0 +1,101 @@
+.gitignore
+.gitlab-ci.yml
+LICENSE
+README.rst
+VERSION
+asv-machine.generic.json
+asv.conf.json
+examples.sage
+setup.py
+admcycles/GRRcomp.py
+admcycles/__init__.py
+admcycles/admcycles.py
+admcycles/deprecations.py
+admcycles/double_ramification_cycle.py
+admcycles/file_cache.py
+admcycles/graph_sum.py
+admcycles/identify_classes.py
+admcycles/misc.py
+admcycles/moduli.py
+admcycles/stable_graph.py
+admcycles/stratarecursion.py
+admcycles/superseded.py
+admcycles/tautological_ring.py
+admcycles/witten.py
+admcycles.egg-info/PKG-INFO
+admcycles.egg-info/SOURCES.txt
+admcycles.egg-info/dependency_links.txt
+admcycles.egg-info/top_level.txt
+admcycles/DR/__init__.py
+admcycles/DR/algebra.py
+admcycles/DR/double_ramification_cycle.py
+admcycles/DR/evaluation.py
+admcycles/DR/graph.py
+admcycles/DR/moduli.py
+admcycles/DR/relations.py
+admcycles/DR/utils.py
+admcycles/diffstrata/__init__.py
+admcycles/diffstrata/additivegenerator.py
+admcycles/diffstrata/adm_eval_cache.py
+admcycles/diffstrata/auxiliary.py
+admcycles/diffstrata/bic.py
+admcycles/diffstrata/cache.py
+admcycles/diffstrata/elgtautclass.py
+admcycles/diffstrata/embeddedlevelgraph.py
+admcycles/diffstrata/generalisedstratum.py
+admcycles/diffstrata/klevelgraph.py
+admcycles/diffstrata/levelgraph.py
+admcycles/diffstrata/sig.py
+admcycles/diffstrata/spinstratum.py
+admcycles/diffstrata/stratatautring.py
+admcycles/diffstrata/tests.py
+admcycles/diffstrata/xi_cache.py
+benchmarks/__init__.py
+benchmarks/benchmarks.py
+docs/Makefile
+docs/manual/.gitignore
+docs/manual/admcycles_manual.tex
+docs/manual/extract_tests.py
+docs/manual/manual.bib
+docs/source/DRmodule.rst
+docs/source/GRRcomp.rst
+docs/source/admcyclesmodule.rst
+docs/source/conf.py
+docs/source/double_ramification_cycle.rst
+docs/source/examples.rst
+docs/source/index.rst
+docs/source/references.rst
+docs/source/stable_graph.rst
+docs/source/stratarecursion.rst
+docs/source/tautological_ring.rst
+docs/source/tutorial.rst
+docs/source/diffstrata/additivegenerator.rst
+docs/source/diffstrata/adm_eval_cache.rst
+docs/source/diffstrata/auxiliary.rst
+docs/source/diffstrata/bic.rst
+docs/source/diffstrata/cache.rst
+docs/source/diffstrata/elgtautclass.rst
+docs/source/diffstrata/embeddedlevelgraph.rst
+docs/source/diffstrata/generalisedstratum.rst
+docs/source/diffstrata/klevelgraph.rst
+docs/source/diffstrata/levelgraph.rst
+docs/source/diffstrata/sig.rst
+docs/source/diffstrata/spinstratum.rst
+docs/source/diffstrata/stratatautring.rst
+docs/source/diffstrata/xi_cache.rst
+docs/source/notebooks/Castorena-Gendron (2020) - On the locus of genus 3 curves that admit meromorphic differentials with a zero of order 6 and a pole of order 2.ipynb
+docs/source/notebooks/Faber (1995) - Intersection-theoretical computations on Mbar.ipynb
+docs/source/notebooks/Getzler's relation (and symmetrizing tautological classes).ipynb
+docs/source/notebooks/Hurwitz numbers and ELSV formulas.ipynb
+docs/source/notebooks/Introduction to admcycles I (Les Diablerets 2022).ipynb
+docs/source/notebooks/Introduction to admcycles II (Les Diablerets 2022).ipynb
+docs/source/notebooks/Norbury (2017) - A new cohomology class on the moduli space of curves.ipynb
+docs/source/notebooks/The string and dilaton equations.ipynb
+docs/source/notebooks/Zograf (2020) - An explicit formula for Witten's 2-correlators.ipynb
+docs/source/notebooks/extract_tests.py
+tests/automorphism_groups.py
+tests/run_tests.sh
+tests/utils/__init__.py
+tests/utils/stable_graph_randomize.py
+utils/fz_check.py
+utils/fz_check_once.py

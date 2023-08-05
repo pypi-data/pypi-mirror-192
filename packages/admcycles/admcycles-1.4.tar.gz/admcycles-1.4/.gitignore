@@ -1,0 +1,5 @@
+*.pyc
+docs/build
+sage_history.txt
+docs/notebooks/*.rst
+docs/notebooks/*.asciidoc
