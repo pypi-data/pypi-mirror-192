@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: countach
+Version: 0.1.0
+Summary: A library for extracting data from A2L files.
+Home-page: https://github.com/HWRacing/countach
+Author: Hamish Knox
+Author-email: hrjkknox@gmail.com
+Project-URL: Bug Tracker, https://github.com/HWRacing/countach/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Countach
+
+![Test](https://github.com/HWRacing/countach/actions/workflows/test.yml/badge.svg)
+
+Countach is software for extracting data from A2L files. At the moment it only works with A2L files generated for the Ecotrons EV2274A VCU by EcoCoder.
+
+To use this package, import it using `import countach`. Call the function `countach.extractData(file)`, supplying the input file as an argument, and it will return the data from the file.
+
+For documentation on the code, please see the following pages:
+
+- [Documentation for `fileops.py`](docs/fileops.md)
+- [Documentation for `processing.py`](docs/processing.md)

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/countach/__init__.py
+src/countach/fileops.py
+src/countach/processing.py
+src/countach.egg-info/PKG-INFO
+src/countach.egg-info/SOURCES.txt
+src/countach.egg-info/dependency_links.txt
+src/countach.egg-info/top_level.txt
+tests/test_extractData.py
