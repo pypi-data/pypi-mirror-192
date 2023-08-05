@@ -1,0 +1,8 @@
+hltv_stats/__init__.py,sha256=pZp8Sm9H0SA15zX-O6mk8b9si-8C8D8rb5eUSU537nE,262
+hltv_stats/match.py,sha256=v2QPH6GfHOqOgTm0C0f9c3Pb5jSOYU_-gR78ezr2aLI,7322
+hltv_stats/parser.py,sha256=APD1RJHAZYMdsppF6MoPDXXhHv_906NVkcWesF_W9Lc,740
+hltv_stats/team.py,sha256=KIfjc8pQCxGLDuWZGsasyjEwRyWttLKdIhXZ1BoI_9M,9344
+hltv_stats/upcoming_matches.py,sha256=HTgE7gpB9AWNh1l1GzvOSB2ZmMYqBBNZNeGStlKIGCQ,2671
+hltv_stats-0.1.7.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+hltv_stats-0.1.7.dist-info/METADATA,sha256=bKaRu2U-jrCU5c-AVbY7W83Rg8cf07mToMMh0U4Wdt8,4894
+hltv_stats-0.1.7.dist-info/RECORD,,
