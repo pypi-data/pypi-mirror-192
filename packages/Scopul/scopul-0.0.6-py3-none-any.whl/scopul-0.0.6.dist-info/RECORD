@@ -1,0 +1,13 @@
+Scopul/Sequence.py,sha256=hpMKMguzxpbUDIvN4suSJq_waMtLB17fAHMVo1zi1GU,10210
+Scopul/Tempo.py,sha256=FV1VnTkcCFZ8QaySmUgN1OxOm7SEFY5YRaPghJGeuT4,1428
+Scopul/TimeSignature.py,sha256=i68WHK5_UKJPSJcQW0djdEWyCtvR5Su2yjCPAKuWKxk,2798
+Scopul/__init__.py,sha256=QuwecsCh8OT83S-R86Zw8VpxUBhb1Sey_tC4r6L-0YA,368
+Scopul/config_musescore.py,sha256=0OGCnVN7qpYhvHJl50RR-rSuiQkEpmOzaXig2jjpsQs,84
+Scopul/conversions.py,sha256=2IQabHUozGDosu-QTFYLJ-xSwOSzZEYGh1_cU7Pgk60,4011
+Scopul/scopul.py,sha256=_jvo1Gu_sglJX5NLmeQUJKqaltjG2ra5xjkeuB3Q4Fk,7907
+Scopul/scopul_exception.py,sha256=RJrL1v2vD_qwjI4e4lGLlUmttFC1O0piQGNbbX8XPcg,329
+scopul-0.0.6.dist-info/LICENSE,sha256=Bb00jYjkz9y5XtSHCmJ6uJWfRPS6q6YMYCxCCO-R_bc,1094
+scopul-0.0.6.dist-info/METADATA,sha256=aQbYadoGqpxPPTYlbfoCTvC7TN0P31jm1N2Px2UxMEA,1008
+scopul-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scopul-0.0.6.dist-info/top_level.txt,sha256=48WJCJqDmkr-IpAApiNjHzmxZAtSuqj28q0m2acX6Rw,7
+scopul-0.0.6.dist-info/RECORD,,

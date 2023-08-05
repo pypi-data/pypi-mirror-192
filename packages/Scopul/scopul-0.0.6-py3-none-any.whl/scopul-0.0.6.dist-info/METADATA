@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: scopul
+Version: 0.0.6
+Summary: A MIDI file analyzer with a few additional functionality
+Author: SwayamSahoo11742
+Author-email: <swayamsa01@gmail.com>
+Keywords: python,scopul,MIDI,sheet music,midi anazyler,music
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: music21
+Requires-Dist: mido
+
+A MIDI file analyzer which allows you to go through components of a MIDI file and extract data. Also has functionality such as generating pdfs <br><br> For documentation, go to [swayamsahoo11742.github.io](https://swayamsahoo11742.github.io/) <br><br> For Github page, go to [https://github.com/SwayamSahoo11742/Scopul](https://github.com/SwayamSahoo11742/Scopul) 
