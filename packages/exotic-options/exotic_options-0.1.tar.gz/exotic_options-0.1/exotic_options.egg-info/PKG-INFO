@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: exotic-options
+Version: 0.1
+Summary: The Formula to calculate some exotic options.
+Home-page: https://github.com/Tavaresiqueira/exotic_options/
+Author: Joao Pedro Tavares
+Author-email: siqueiratav@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Tavaresiqueira/exotic_options/archive/v0.2.tar.gz
+Description: The Formula to calculate some exotic options.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
