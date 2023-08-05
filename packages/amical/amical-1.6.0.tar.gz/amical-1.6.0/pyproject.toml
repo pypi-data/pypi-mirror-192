@@ -1,0 +1,117 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amical"
+version = "1.6.0"
+authors = [
+    { name = "Anthony Soulain", email = "anthony.soulain@univ-grenoble-alpes.fr" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: POSIX :: AIX",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Typing :: Typed",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "astropy>=5.0",
+    "astroquery",
+    "corner",
+    "emcee",
+    "h5py",
+    "matplotlib",
+    "numpy",
+    "pypdf>=3.2.0",
+    "scipy",
+    "tabulate",
+    "termcolor",
+    "tqdm",
+    "uncertainties",
+    "importlib_resources>=1.3; python_version < '3.9'",
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/SydneyAstrophotonicInstrumentationLab/AMICAL"
+
+[project.scripts]
+amical = "amical._cli.main:main"
+
+[tool.setuptools]
+license-files = [
+    "LICENSE",
+]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+exclude = [
+    "tests*",
+    "doc*",
+]
+namespaces = false
+
+[tool.setuptools.package-data]
+amical = [
+    "internal_data/*.fits",
+    "py.typed",
+]
+
+[tool.ruff]
+target-version = "py38" # https://github.com/charliermarsh/ruff/issues/2039
+exclude = ["*__init__.py", "amical/externals/*"]
+ignore = ["E501"]
+select = [
+    "E",
+    "F",
+    "W",
+    "B",
+    "I",
+    "UP",
+]
+
+[tool.ruff.isort]
+combine-as-imports = true
+
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+]
+filterwarnings = [
+    "error",
+    # we run tests against a non-GUI backend on purpose
+    "ignore:Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.:UserWarning",
+]
+
+[tool.coverage.run]
+omit = [
+  "amical/externals/*",
+]
+
+[tool.coverage.report]
+omit = [
+  "amical/externals/*",
+  "amical/dpfit.py",
+]
+
+[tool.mypy]
+python_version = 3.8
+ignore_missing_imports = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_unreachable = true
+show_error_context = true
+show_error_codes = true
