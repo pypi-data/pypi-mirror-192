@@ -1,0 +1,9 @@
+# scrapy
+FROM python:3.8
+
+ADD . .
+RUN apt update
+RUN pip install -r requirements.txt
+RUN pip install graphene-data-extraction --index-url https://dc4quomja6ikmstlmyw4izhyjz6oiw3xy44x3kqw5fsrqkzrfrjq@pkgs.dev.azure.com/GrapheneSVC/_packaging/BlackwidowFeed/pypi/simple/
+
+ENTRYPOINT ["python", "worker.py"]
