@@ -1,0 +1,3 @@
+import maialib.maiacore as mc
+
+def plotPartsActivity(score: mc.Score, **kwargs) -> None: ...
