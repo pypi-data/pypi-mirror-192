@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+gandai/__init__.py
+gandai/datastore.py
+gandai/helpers.py
+gandai.egg-info/PKG-INFO
+gandai.egg-info/SOURCES.txt
+gandai.egg-info/dependency_links.txt
+gandai.egg-info/top_level.txt
