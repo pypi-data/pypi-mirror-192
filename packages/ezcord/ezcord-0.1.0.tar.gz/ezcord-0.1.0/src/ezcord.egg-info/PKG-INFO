@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ezcord
+Version: 0.1.0
+Summary: An easy-to-use extension for the Pycord library
+Author: tibue99
+License: MIT
+Project-URL: GitHub, https://github.com/tibue99/ezcord
+Keywords: discord,pycord,py-cord
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EzCord
+[![](https://img.shields.io/discord/1010915072694046794?label=discord&style=for-the-badge&logo=discord&color=5865F2&logoColor=white)](https://discord.gg/zfvbjTEzv6)
+[![](https://img.shields.io/pypi/v/ezcord.svg?style=for-the-badge&logo=pypi&color=yellow&logoColor=white)](https://pypi.org/project/ezcord/)
+
+An easy-to-use extension for the Pycord library with a lot of utility functions.
+
+## Installing
+```
+pip install ezcord
+```
+
+## Example
+```py
+import ezcord
+import discord
+
+bot = ezcord.Bot(
+    intents=discord.Intents.default()
+)
+
+if __name__ == "__main__":
+    bot.load_cogs("cogs")  # Load all cogs in the "cogs" folder
+    bot.run("TOKEN")
+```

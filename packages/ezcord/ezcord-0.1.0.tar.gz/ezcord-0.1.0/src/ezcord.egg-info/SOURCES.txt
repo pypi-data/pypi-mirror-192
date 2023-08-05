@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ezcord/__init__.py
+src/ezcord/bot.py
+src/ezcord.egg-info/PKG-INFO
+src/ezcord.egg-info/SOURCES.txt
+src/ezcord.egg-info/dependency_links.txt
+src/ezcord.egg-info/requires.txt
+src/ezcord.egg-info/top_level.txt
