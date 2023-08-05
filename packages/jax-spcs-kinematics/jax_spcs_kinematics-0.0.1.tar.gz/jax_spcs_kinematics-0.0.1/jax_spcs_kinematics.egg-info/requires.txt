@@ -1,0 +1,16 @@
+dill
+jax
+matplotlib
+numpy
+progressbar2
+
+[dev]
+black
+bump2version
+codecov
+coverage
+pre-commit
+pytest
+pytest-cov
+pytest-html
+tox
