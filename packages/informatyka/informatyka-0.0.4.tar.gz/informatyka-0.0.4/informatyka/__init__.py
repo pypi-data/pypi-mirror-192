@@ -1,0 +1,1 @@
+from .matma import kwadrat,najmniejsze,minus,dzieleniebez,najwieksze,plus,przez,razy,reszta
