@@ -1,0 +1,11 @@
+pavpy/Tycho_BV_Bessel2000.dat,sha256=1OBUHaFu9Q2KBoGDKesM_sMWAiY-NrkCtQouHNUOBdM,1420
+pavpy/__init__.py,sha256=HG0CLc0zJGlNIJVFOQUV9FH7Ga4TkqfzcngOZ-kNmNM,104
+pavpy/models.py,sha256=I-i0a5sZh_gPkjj4wj0DZ6G-m4CL2yFjcaqbrTrkcag,884
+pavpy/pavol1l2.py,sha256=IK0vGyTYLX4D0GnrBQUQlF_YBgJStkriCwkYB4xolXo,29196
+pavpy/stagger_4term_coeffs.json,sha256=zVJYFU1vF_triem4tFq6ciKKaeim321a72DBgMMGSBc,82213
+pavpy/tel_locations.txt,sha256=KYmvfcfCsCbmLtTwMWzhfomn2ejmNPiaq6S-yHSDJJI,223
+pavpy/utils.py,sha256=jmSUPjR8TYI-rAcTBrJB5Tn4VYd-bRsG_PZ0n6YYleE,6564
+pavpy-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pavpy-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pavpy-0.1.1.dist-info/METADATA,sha256=zHtJCQHZN_J3WgiB9fws-OJuamTS690VrNcXpajl40c,886
+pavpy-0.1.1.dist-info/RECORD,,
