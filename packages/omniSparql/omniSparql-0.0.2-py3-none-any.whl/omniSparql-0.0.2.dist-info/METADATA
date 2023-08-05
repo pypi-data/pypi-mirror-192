@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: omniSparql
+Version: 0.0.2
+Summary: Python module to query triples from the OMNIBENCHMARK triplestore.
+Home-page: https://github.com/omnibenchmark/omniSparql
+Author: A. Sonrel
+Author-email: anthony.sonrel@uzh.ch
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: SPARQLWrapper (>=1.8.5)
+Requires-Dist: pytest (>=7.1.2)
+
