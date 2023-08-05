@@ -1,0 +1,6 @@
+setuptools>=3.0
+quetz-server>=0.4.4
+sqlalchemy
+fastapi
+alembic
+passlib
