@@ -1,0 +1,6 @@
+matplotlib
+pillow
+torch
+transformers
+numpy
+open3d
