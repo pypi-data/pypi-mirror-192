@@ -1,0 +1,14 @@
+tensorlearn/__init__.py,sha256=hesqaAGxhMfiMC2cmEftQTYCE9ujE6WvDnAohvlro4o,1453
+tensorlearn/tl_methods.py,sha256=L94DAZY8b_ZCR8zqiBho-IPb-n6pVA8BTxInQM-_wYs,2230
+tensorlearn/decomposition/__init__.py,sha256=9S2deqtEd6ChEvl1yRhVXXDbNqStT-D73TsWfGBKJP4,1100
+tensorlearn/decomposition/candecomp_parafac.py,sha256=GSz_uLX8bXTOlypFYw_ZxO5CblV8l9BQoQPyTP-2usA,2042
+tensorlearn/decomposition/tensor_train.py,sha256=dr1F2SY-NeyUq-bxhdAV0qxFhiHhFmkzAX5rH8CHQ2c,2899
+tensorlearn/decomposition/tucker.py,sha256=AibuUBQVuVtt8sYAk5yBSmjkdSAaJnuSnjnc0fsQeWo,940
+tensorlearn/operations/__init__.py,sha256=MO-1Uu873mzs4HSba_wjl7IZ_NQY8fjPHhJYCRoyemk,1127
+tensorlearn/operations/matrix_operations.py,sha256=MfFg9r-NKjmi3rIH-Mod80PBL2oFvlEHOhXV4kCqZmc,1896
+tensorlearn/operations/tensor_operations.py,sha256=_cWEWBjsBEmDJ8muZOV02Hl2Ygf9ZTzX1M74mkWv6uw,6901
+tensorlearn-1.1.9.dist-info/LICENSE,sha256=sPFk9dbl_IdqQ_ax9eT_GeSD0F6ywDwBMQ44XjDBnLg,1061
+tensorlearn-1.1.9.dist-info/METADATA,sha256=qc1s0MvbK6hkoIqiEs9_dycFvDmw6utu2BizhveoMDQ,8359
+tensorlearn-1.1.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tensorlearn-1.1.9.dist-info/top_level.txt,sha256=oAcqQWmerRKEuA5zvw2chgny4b3jELso2ujq7MveBeM,12
+tensorlearn-1.1.9.dist-info/RECORD,,
