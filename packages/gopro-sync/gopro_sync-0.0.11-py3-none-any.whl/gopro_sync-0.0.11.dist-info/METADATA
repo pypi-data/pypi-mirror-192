@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: gopro-sync
+Version: 0.0.11
+Summary: A tool to synchronize GoPro videos
+Author-email: Moris Doratiotto <me@moris.dev>
+License: MIT License
+        
+        Copyright (c) 2023 Moris Doratiotto
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/Mortafix/GoPro_Synchronize
+Keywords: gopro,video,sync
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorifix (==2.0.4)
+Requires-Dist: tqdm (==4.64.1)
+
+# GoPro Synchronizer
+
+Tired of *GoPro Cloud* not working?  
+Did you miss the old **GoPro software** to sync videos?  
+This tool is what you're searching for (if you're a sheel enjoyer)  
+
+## Installation
+The tool can be downloaded directly from [PyPi](https://pypi.org/project/gopro-sync/).
+```bash
+pip install gopro-sync
+```
+
+## Usage
+You can see the help, `-h`, man to know all the possibile commands.
+```bash
+gopro-sync -h
+```
