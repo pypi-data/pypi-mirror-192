@@ -1,0 +1,11 @@
+pyferno/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyferno/exception.py,sha256=eFdYiS-PqiSWrmJNkBjJo11xFI3_yTxIj4WYLZ90tMQ,44
+pyferno/promise.py,sha256=tVietxigQkg6kRiZ5dCi-JgTo0GfLMaWLZEjFiufeM4,5462
+pyferno/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyferno/tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyferno/tests/unit/test_promise.py,sha256=OV6aTSHymupGi1yY6oDdIIe_gtJhjtKeQwvsok5K2hg,1810
+pyferno/version.py,sha256=F5mW07pSyGrqDNY2Ehr-UpDzpBtN-FsYU0QGZWf6PJE,22
+pyferno-1.5.2.dist-info/LICENSE,sha256=uF-hOZet5NWEDpxKaSpE7B6wDBeaxTGT7JZjx2eUz9c,1068
+pyferno-1.5.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pyferno-1.5.2.dist-info/METADATA,sha256=uMWHa57utTMJpafUVP-6l99Oq5itGYWXxZZyqmH7Hc8,6524
+pyferno-1.5.2.dist-info/RECORD,,
