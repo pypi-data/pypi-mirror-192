@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: tabletoppy
+Version: 0.2.0
+Summary: A Python library for simulating tabletop games, including dice rolls, coin tosses etc.
+Home-page: https://github.com/peaky76/tabletoppy
+License: GPL-3.0-only
+Keywords: games,dice,cards
+Author: peaky76
+Author-email: robertjamespeacock@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://tabletoppy.readthedocs.io/
+Project-URL: Repository, https://github.com/peaky76/tabletoppy
+Description-Content-Type: text/markdown
+
+[![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![docs: passing](https://readthedocs.org/projects/tabletoppy/badge/?version=latest)](https://tabletoppy.readthedocs.io/en/latest/?badge=latest)
+
+# Tabletoppy
+
+A Python library for simulating tabletop games, including dice rolls, coin tosses etc.
+
