@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "poetry-plugin-bump"
+version = "0.0.4"
+description = "poetry plugin to bump version"
+authors = ["trim21"]
+license = "MIT"
+readme = "readme.md"
+homepage = "https://github.com/keattang/poetry-exec-plugin"
+repository = "https://github.com/keattang/poetry-exec-plugin"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+#
+poetry = "^1.2.0"
+semver = "^2.13.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = {version = "^3.0.4", python = "^3.9"}
+
+[tool.poetry-plugin-bump]
+msg = 'bump: v{version}'
+tag_name = 'v{version}'
+
+[tool.poetry.plugins."poetry.application.plugin"]
+bump = "poetry_plugin_bump.plugin:ExecPlugin"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
