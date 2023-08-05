@@ -1,0 +1,10 @@
+homopy/__init__.py,sha256=E0tjyfnPzmEbMH6q3KhCxnOkeMZLunEqrA6dDrBbj_M,52
+homopy/elasticity.py,sha256=JKCs28Y02MzugDWOVemkqkh-bvIab8SE1uFjJk133IY,4621
+homopy/methods.py,sha256=Cf8Z83LLIFhO9f0TaLWwqnOoZew5EcsAPcrorsuL2t0,23644
+homopy/stiffness_plot.py,sha256=vsLuW5u98dW0IOfD5hw16mFxbTCKECmGhfFBzUIL1OI,10616
+homopy/tensor.py,sha256=pfIghbR9uS9qVSiix_sUS417Wi7YOIQ2I2hT9Xq2uhg,7461
+homopy-1.0.7.dist-info/LICENSE,sha256=al23KKiL0Sw6cC2gGNcNw2ZeXSoGlCbia_EmMzCKbG0,1071
+homopy-1.0.7.dist-info/METADATA,sha256=CtdjUmFETaUVvn6cATZDUgyruFF9i0cCjktS33l1sCE,5928
+homopy-1.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+homopy-1.0.7.dist-info/top_level.txt,sha256=iseGdH1u8pqcgEisZdQ4_2OMhNtUl_O8k93l9pIiKpQ,7
+homopy-1.0.7.dist-info/RECORD,,
