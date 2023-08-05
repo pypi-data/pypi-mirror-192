@@ -1,0 +1,3 @@
+[console_scripts]
+protosym=protosym.__main__:main
+
