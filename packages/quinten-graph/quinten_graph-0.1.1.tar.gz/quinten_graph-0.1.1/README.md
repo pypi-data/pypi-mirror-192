@@ -1,0 +1,37 @@
+The module quinten_graph provides tools to help:
+- implement harmonized setting with respect to Quinten graphic chart
+- explore data
+- plot graphs for several variable at the same time
+
+The notebook sandbox.ipynb is here to let you play with the tool.
+
+Settings and variables used for the plots are managed through the class QuintenSettings defined in settings.py.
+Plotting functions are defined in plotting.py
+
+Doc for creating package:
+- General procedure: https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- Example of pyproject.toml with dependencies https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+- Info on file MANIFEST.in: https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/#manifest-in
+
+Procedure for updating package:
+- Make your changes in local repo
+- Push
+- Increment version in pyproject.toml
+- in terminal pointing to folder where pyproject.toml is located, type: `python -m build`  
+(if build is not installed, `pip install` it)  
+You should get the following output "Successfully built quinten_graph-[VERSION].tar.gz and quinten_graph-[VERSION]-py3-none-any.whl"
+- in same terminal, type : `python -m twine upload --repository pypi dist/*`  
+(if twine is not installed, pip install it)  
+You will be prompted for pypi credentials (@ get in touch with v.vincentelli@quinten-france.com idf needed). Then the upload should complete and you will get a link to the package
+
+Tasks:
+- [ ] : Present the tool to Anna and Rami. Reminder: the objective is to have plots ready to copy and paste in presentations. skim over the plots and read through the following questions:
+  - ~~Large color palette to define~~
+  - Font Arial ok ?
+  - Other graphs to add to sandbox ,otebook ?
+  - Arrangement (titles, legend, xticks)
+    - [ ] : before presenting add few graphs (prévison VS reel), check PBIs, pres projet DSN
+- [x]: enlever fond gris seaborn
+- [ ]: palette daltonien
+- [x]: publier sur QF>packages_internes>  quinten_graph
+- [ ]: étudier possibilité de d'étendre ce concept à PBI
