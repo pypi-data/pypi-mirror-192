@@ -1,0 +1,9 @@
+xlpie/__init__.py,sha256=0VZIHX3F_LuuzZ8opcZGVlowd73O4240wIrYmkfMPgY,128
+xlpie/ExcelApp.py,sha256=rXZldq5NVjN-MQHWxrHL3TnqDaxxqnhcLPFEoiFYfb0,2054
+xlpie/ExcelRange.py,sha256=kS6hii5SvzA_0JrzVQ0bTCgI4g_Mu_Ml8CVLA7kfPC4,341
+xlpie/ExcelWB.py,sha256=bVNIm_npnimaqiczC6AttWWwP1ew9EYIVMQZemAmxOQ,1305
+xlpie/ExcelWS.py,sha256=IJLD-cMjMiz_Mxp6pPiW8B4LeawxTjle9Do0M7snqUo,1010
+xlpie-0.0.4.dist-info/LICENSE,sha256=GW5hpghkCRLT9njtO47343sfd7vckiuz3TXKWppUbRM,1086
+xlpie-0.0.4.dist-info/METADATA,sha256=svg2TN40Xka5_6eqVHzRfUCfg-Wr5En58gGab6FytyM,547
+xlpie-0.0.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+xlpie-0.0.4.dist-info/RECORD,,
