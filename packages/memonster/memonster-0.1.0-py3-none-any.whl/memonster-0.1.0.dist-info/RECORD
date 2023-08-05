@@ -1,0 +1,9 @@
+memonster/__init__.py,sha256=CsZ6LUcHhrmwpiUsosZcZCxuINEvCZ85zIHiIbpl3Ag,104
+memonster/memanagers.py,sha256=n81S9HEztzh6C1lVe_yyfDUyL0FJc8GcFDkXvDIBcgE,7091
+memonster/memtypes.py,sha256=r0Zl_dv_WObdEgSeDkpxjPMRq-yafkS7L2kt_CMeV2I,2657
+memonster/metamem.py,sha256=1pFM_6bOFXjKtMhSvBjUt0nb93SRrMeEwD2mVuckeuQ,3844
+memonster/utils.py,sha256=6QzOKuvi09U4ryJUoIqU_sBO2XotpYRfpUwwfnp66Uc,187
+memonster-0.1.0.dist-info/LICENSE,sha256=9ZL7Un9WlVg4wj0eDxOTgqN-o_ZObOZWLcode74fzpA,1064
+memonster-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+memonster-0.1.0.dist-info/METADATA,sha256=HHY7X_K0_iHXM489AiEQEAVj-RGTGNYxjCzar-t63rA,383
+memonster-0.1.0.dist-info/RECORD,,
