@@ -1,0 +1,285 @@
+Metadata-Version: 2.1
+Name: django-svg-clip
+Version: 1.0.0
+Summary: A simple django templatetag plugin for rendering and manipulating SVGs
+Home-page: https://github.com/thisisdayal/svg-clip/
+Author: Dayal Moirangthem
+Author-email: thisisdayal7@gmail.com
+License: MIT
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE.django
+License-File: LICENSE.md
+License-File: LICENSE.python
+
+<h1 align="center">
+  <br>
+  <br>
+  Django-svg-clip
+  <br>
+  <br>
+</h1>
+
+<div align="center">
+  <a href="https://codecov.io/gh/thisisdayal/svg-clip" >
+    <img src="https://codecov.io/gh/thisisdayal/svg-clip/branch/main/graph/badge.svg?token=VPY6PPFO1I"/>
+  </a>
+  <a href="https://github.com/thisisdayal/svg-clip/actions/workflows/main.yml">
+    <img src="https://github.com/thisisdayal/svg-clip/actions/workflows/main.yml/badge.svg"/>
+  </a>
+  <a href="https://github.com/thisisdayal/svg-clip/actions/workflows/release.yml">
+    <img src="https://github.com/thisisdayal/svg-clip/actions/workflows/release.yml/badge.svg"/>
+  </a>
+</div>
+
+<p align="center">Django-svg-clip is a django template tags plugin for manipulating and rendering of svg and its attributes.</p>
+
+## Features
+
+- Adding static and dynamic attributes to svg icons.
+- You don't have to paste the whole svg tag to add atrributes such as classes, inline-styles, WAI-arias.
+- Makes the template look cleaner and shorter.
+- Increases the readability.
+
+## Installation
+
+Install django-svg-clip from PyPI by running:
+
+```bash
+# shell
+pip install django-svg-clip
+```
+
+## Setup
+
+1. After installing add `svg_clip` to `INSTALLED_APPS` in the `DJANGO_SETTINGS_MODULE`(e.g. settings.py).
+
+```python
+# settings.py
+INSTALLED_APPS = [
+    # ...
+    'svg_clip',
+]
+```
+
+2. Add SVG icons path to `SVG_ICONS_DIRS`:
+
+```python
+# settings.py
+SVG_ICONS_DIRS = [
+    # path/to/icons
+    # E.g:
+    BASE_DIR / "static" / "heroicons" / "outline",
+    BASE_DIR / "static/heroicons/solid",
+    BASE_DIR / "static" / "icons",
+    BASE_DIR / "static/icons",
+]
+```
+
+3. Or you can use default icons by setting `USE_CLIP_ICONS` to `True`.
+
+```python
+# settings.py
+USE_CLIP_ICONS = True
+```
+
+## Usage
+
+After adding the path of icons, use this tag `{% clip 'icon-name' keyword_attrs="key word attrs" "non-keyword" "attrs" %}` to add the icons to the django template.
+
+**NOTE**: Don't put `.svg` extension to the icons, it is automatically added during compilation.
+
+```xml
+<!-- template.html -->
+<!DOCTYPE html>
+{% load svg_clip %}
+<html>
+  <head>
+    <!-- ...  -->
+  </head>
+  <body>
+    <!-- ...  -->
+    {% clip 'academic-cap' %}
+    {% clip 'academic-cap' class="h-6 w-6" %}
+    {% clip 'academic-cap-solid' class="h-6 w-6" styles="display: block" %}
+    {% clip 'academic-cap' class="h-6 w-6" styles="display: block" "hidden" %}
+  </body>
+</html>
+```
+
+_**Remarks**: The defult icon set is heroicons-v2.0.13. To use the outline version, just use the icon name and for solid version, add `'-solid'` suffix to the icon name. For example, to use `'academic-cap.svg'` outline version, just use `'academic-cap'` and for solid version use `'academic-cap-solid'`._
+
+## Development
+
+- Issue Tracker: [Github Issues](https://github.com/thisisdayal/svg-clip/issues)
+- Source Code: [Github repo](https://github.com/thisisdayal/svg-clip/)
+
+_**NOTE**: For contributing read the [CONTRIBUTING.md](CONTRIBUTING.md) file._
+
+## Support
+
+If you are having issues, please let us know by opening an issue in our github repo. We warmly welcome you for any suggestion.
+
+## License
+
+The project is licensed under the MIT license giving the community maximum priviledge to use. For more read [LICENSE.md](LICENSE.md) file.
+
+## Author
+
+Name: **Dayal Moirangthem**\
+Twitter: [@thisisdayal](https://twitter.com/thisisdayal)
+
+## Acknowledgement and credits
+
+[**Heroicons**](https://heroicons.com/): By default, we use icon set provided by heroicons with a minimal tweaks in icon names. For example, let us say `academic-cap.svg`. For outline version, there is no modification but for solid, you should use `academic-cap-solid.svg`.This is done to avoid name conflicts with outline and solid versions.
+
+We'd like to show our regards to tailwindlabs team for availing those icons to community with an open source license.
+
+[**Python project template**](https://github.com/rochacbruno/python-project-template/): We use `rochacbruno`'s python project template with little modification. It saves us a lot of time and headache during initial setup.
+
+# MIT License
+
+## Copyright (c) 2023 Dayal Moirangthem
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+# Changelog
+
+
+## (unreleased)
+
+### Fix
+
+* Updated kwargs_re to match all unicode characters. [Dayal Moirangthem]
+
+### Other
+
+* Chore: minor fixes. [Dayal Moirangthem]
+
+* Chore: minor fixes. [Dayal Moirangthem]
+
+* Chore: added extra dependencies. [Dayal Moirangthem]
+
+* Docs: added instructions in README.md and minor modifications to other files. [Dayal Moirangthem]
+
+* Refactor: refactoring code for distribution build. [Dayal Moirangthem]
+
+  - added build method, Makefile.
+
+  - included VERSION and pylintrc in MANIFEST.in.
+
+  - added version detection in svg_clip package.
+
+  - updated conftest.py.
+
+  - refactored tests for better compliance to code formatters.
+
+* Chore: tox.ini, requirements.txt, MANIFEST.in and Makefile are reconfigured. [Dayal Moirangthem]
+
+* Test: removed vague tests. [Dayal Moirangthem]
+
+  Removed tests for path returning multiple path (list or tuple) and removed malinformed argument test. Cannot find suitable test for malinformed arguments
+
+* Refactor: code refactoring. [Dayal Moirangthem]
+
+  Reduced the number of variables for better design.
+
+* Chore: added tox and Makefile is changed to use tox. [Dayal Moirangthem]
+
+* Refactor: code refactoring. [Dayal Moirangthem]
+
+  Dictionary concatenation for new attributes has been shortned. Variable old attrs has been removed. 'key' and 'value' has replaced 'k', 'v' respectively.
+
+* Chore: updated .coverage file to test `__repr__` method. [Dayal Moirangthem]
+
+* Refactor: remove test for multiple icon paths. [Dayal Moirangthem]
+
+  Since we cannot find any case for path to return a list or tuple, this test is vague so removed from the test
+
+* Test: test for almost all of the possible cases covering the whole source code. [Dayal Moirangthem]
+
+* Chore: added .coveragerc for code coverage configurations. [Dayal Moirangthem]
+
+* Refactor: 'svg_clip.py' returning multiple paths for an icon. [Dayal Moirangthem]
+
+
+## 0.1.0 (2023-02-11)
+
+### Fix
+
+* ClipNode must not have no child Nodes. [Dayal Moirangthem]
+
+* ClipNode no longer accepts empty string value for svg_name. [Dayal Moirangthem]
+
+  passing empty string value raises ValueError
+
+### Other
+
+* Release: version 0.1.0 🚀 [Dayal Moirangthem]
+
+* Feat: added default icons. [Dayal Moirangthem]
+
+  By default SVG clip uses heroiconsSVG's.
+
+  set 'USE_CLIP_ICONS=True' in your 'DJANGO_SETTINGS_MODULE' to enable default icons.
+
+* Wip: added compilation function for ClipNode. [Dayal Moirangthem]
+
+  Implemented render method for rendering SVG markup with user provided attributes.
+
+* Wip: added SVGParser for parsing SVG files and extract attributes. [Dayal Moirangthem]
+
+* Wip: added custom exceptions. [Dayal Moirangthem]
+
+* Test(passed)!:ClipNode repr test. [Dayal Moirangthem]
+
+  - test with all valid arguments
+
+  - test with valid svg_name, empty args and kwargs
+
+  - test with empty string value for svg_name
+
+  - test with no value for svg_name
+
+  - test with no arguments
+
+* Wip: created ClipNode for compilation function and added `__repr__` method. [Dayal Moirangthem]
+
+* Chore: added templatetags module. [Dayal Moirangthem]
+
+* Chore: deleted non-needed files `__main__.py`, `base.py`, `cli.py` [Dayal Moirangthem]
+
+* Chore: updated different project files. [Dayal Moirangthem]
+
+* ✅ Ready to clone and code. [thisisdayal]
+
+* Initial commit. [Dayal Moirangthem]
+
+
