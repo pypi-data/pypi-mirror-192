@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyrly/__init__.py
+pyrly.egg-info/PKG-INFO
+pyrly.egg-info/SOURCES.txt
+pyrly.egg-info/dependency_links.txt
+pyrly.egg-info/entry_points.txt
+pyrly.egg-info/top_level.txt
+pyrly/stopwatch/__init__.py
+pyrly/work_history/__init__.py
