@@ -1,0 +1,11 @@
+tenant/__init__.py,sha256=LdGKFFTKDUAj6cM7kXkI2lNNKIPivl0IZ2vHcEk88lY,109
+tenant/db_router.py,sha256=lQaXV-EK8MUBKlmY3zhrC_-i8PIZIgD5bp26vzfblnM,809
+tenant/filters.py,sha256=qMLIJsR7qDEKELPBt0_AGQ1cqKvN5AaKcn1_rS8A8bA,25707
+tenant/routes.py,sha256=v_PIk-u59YhdGwQV2HzTSypskHv2WOl9VPiWE0i-T30,982
+tenant/tenant.py,sha256=qdmogP5fDLCBnYiSQgPXsAyFXHOTXuLv5kw5L8Kd52o,1740
+tenant/util.py,sha256=v_jpZrwyXBGHWoKEaxFtjQM-THpztVETnfdk1naNqQ8,319
+tenant_django-0.0.2.dist-info/LICENSE,sha256=OETFLCpM4kPKtLZH-D-Xc4gdHu1nlPJqWV6v59byuDM,1076
+tenant_django-0.0.2.dist-info/METADATA,sha256=cTYpszSzlEQuUjuY8IrlEWJm4P7s0xc0MW040IrHaYo,830
+tenant_django-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tenant_django-0.0.2.dist-info/top_level.txt,sha256=peF64Y93PIF8qCcugDvkuycDyxUWyMLJwfX9SR2ZxVc,7
+tenant_django-0.0.2.dist-info/RECORD,,
