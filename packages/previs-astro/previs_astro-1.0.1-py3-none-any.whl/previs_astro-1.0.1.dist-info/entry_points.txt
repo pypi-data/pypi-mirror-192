@@ -1,0 +1,2 @@
+[console_scripts]
+previs = previs._cli.main:main
