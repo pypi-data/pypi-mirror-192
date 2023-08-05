@@ -1,0 +1,10 @@
+dawson_college_pyscrapper/__init__.py,sha256=tqbNEjqbL8NaN5r8v3V3hV5_M6oZy6w_rcgCXg5B0FM,505
+dawson_college_pyscrapper/constants.py,sha256=tZOqW-PZ5gPNoLf4znk6sVw_fIM9Vv3P6SOicwIU7_A,492
+dawson_college_pyscrapper/exceptions.py,sha256=YXzNGKpEWliQT6tRLzRG9biHds5FTPfx1inIpbT7NuU,410
+dawson_college_pyscrapper/models.py,sha256=Nux0VovUzaYpP4ahFMx3o0mwKqUyraef8E45ZYEYHCY,3311
+dawson_college_pyscrapper/scrapper.py,sha256=4EmZhqY7WA-tAg1ItVGtEKXra0PSoXQr36fALKqiSQM,7482
+dawson_college_pyscrapper/util.py,sha256=ywmD26fkp6vawupYxgYhkRWJXo8qXcXFDNkW7MQTa_0,2966
+dawson_college_pyscrapper-1.0.1.dist-info/METADATA,sha256=XEFANMORIwh4iccllpE1Y-FnORJtC4x_xmhXrD-mAgU,6209
+dawson_college_pyscrapper-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dawson_college_pyscrapper-1.0.1.dist-info/top_level.txt,sha256=Pbo-ZwAYx4pHEB9uW1hnqA4DLGzs4KOFmf8d4_Ks8Ak,26
+dawson_college_pyscrapper-1.0.1.dist-info/RECORD,,
