@@ -1,0 +1,5 @@
+# Path output worker
+import time
+
+print("Path output worker started")
+time.sleep(1000)
