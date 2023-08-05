@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: aigc
+Version: 2023.2.15.14.18.59
+Summary: AI生成
+Home-page: https://github.com/yuanjie-ai/aigc
+Author: aigc
+Author-email: 313303303@qq.com
+License: MIT license
+Keywords: aigc
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+
+
+![image](https://img.shields.io/pypi/v/aigc.svg) ![image](https://img.shields.io/travis/yuanjie-ai/aigc.svg) ![image](https://readthedocs.org/projects/aigc/badge/?version=latest)
+
+
+
+<h1 align = "center">🔥aigc🔥</h1>
+
+---
+# Install
+```python
+pip install -U aigc
+```
+
+# [Docs](https://jie-yuan.github.io/aigc/)
+
+# Usages
+```
+import aigc
+```
+
+---
+# TODO
+
+
+=======
+History
+=======
+
+0.0.0 (2023-02-15)
+------------------
+
+* First release on PyPI.
+
+
