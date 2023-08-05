@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "gartic_room"
+version = "0.0.1"
+description = "你画我猜组队"
+authors = ["Su <wxlxy316@163.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "gartic_room.py", from = "." },
+]
+
+
+[tool.poetry.dependencies]
+ayaka = {version = ">=0.0.4.2b5", extras = ["nb2ob11"]}
+nonebot_plugin_htmlrender = ">=0.2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
