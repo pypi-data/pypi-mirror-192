@@ -1,0 +1,11 @@
+include thinks_dash_mobile_dropdown/thinks_dash_mobile_dropdown.min.js
+include thinks_dash_mobile_dropdown/thinks_dash_mobile_dropdown.min.js.map
+include thinks_dash_mobile_dropdown/async-*.js
+include thinks_dash_mobile_dropdown/async-*.js.map
+include thinks_dash_mobile_dropdown/*-shared.js
+include thinks_dash_mobile_dropdown/*-shared.js.map
+include thinks_dash_mobile_dropdown/metadata.json
+include thinks_dash_mobile_dropdown/package-info.json
+include README.md
+include LICENSE
+include package.json
