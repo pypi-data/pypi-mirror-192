@@ -1,0 +1,15 @@
+setuptools
+xlrd
+openpyxl
+pandas
+PyPDF2
+build
+numpy
+xlwt
+jupyter
+numexpr
+openpyxl
+bottleneck
+xarray
+tabulate
+matplotlib
