@@ -1,0 +1,112 @@
+{
+    "in_dataformat": "eac-cpf",
+    "out_dataformat": "eac-ape",
+    "logger": "glamconv.eac",
+    "steps": [
+        {
+            "id": "xml-reader",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "eac-cpf-validator",
+            "log_details": true,
+            "params": {}
+        },
+        {
+            "id": "eac-cpf-namespace-remover",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "wrapping-objects-eraser",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "multiple-identities-eraser",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "additional-language-declarations-eraser",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "additional-names-entries-eraser",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "attributes-eraser",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "localtype-adjuster",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "description-children-mover",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "placeentry-adder",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "agencycode-adder",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "existdates-adder",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "span-converter",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "bioghist-list-outline-converter",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "generalcontext-list-citation-converter",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "description-children-text-elements-converter",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "eac-cpf-namespace-adder",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "eac-ape-validator",
+            "log_details": true,
+            "params": {}
+        }, 
+        {
+            "id": "eac-ape-schema-declarer",
+            "log_details": false,
+            "params": {}
+        },
+        {
+            "id": "xml-writer",
+            "log_details": false,
+            "params": {}
+        }
+ ]
+}
