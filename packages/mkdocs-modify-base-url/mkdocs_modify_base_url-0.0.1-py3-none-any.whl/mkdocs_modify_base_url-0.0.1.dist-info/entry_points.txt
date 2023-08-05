@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+modify-base-url = mkdocs_modify_base_url.plugin:ModifyBaseURLPlugin
