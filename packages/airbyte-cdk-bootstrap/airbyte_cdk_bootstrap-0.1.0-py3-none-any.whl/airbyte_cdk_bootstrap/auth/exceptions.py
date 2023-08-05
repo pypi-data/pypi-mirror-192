@@ -1,0 +1,2 @@
+class CredentialsCraftApiError(Exception):
+    pass
