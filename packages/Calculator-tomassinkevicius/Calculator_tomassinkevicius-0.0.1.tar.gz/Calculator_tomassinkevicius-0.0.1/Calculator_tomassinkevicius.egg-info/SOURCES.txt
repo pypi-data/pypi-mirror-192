@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+Calculator_tomassinkevicius.egg-info/PKG-INFO
+Calculator_tomassinkevicius.egg-info/SOURCES.txt
+Calculator_tomassinkevicius.egg-info/dependency_links.txt
+Calculator_tomassinkevicius.egg-info/top_level.txt
