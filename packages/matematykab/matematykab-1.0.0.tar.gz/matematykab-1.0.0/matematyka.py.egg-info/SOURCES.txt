@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+files/__init__.py
+matematyka.py.egg-info/PKG-INFO
+matematyka.py.egg-info/SOURCES.txt
+matematyka.py.egg-info/dependency_links.txt
+matematyka.py.egg-info/top_level.txt
