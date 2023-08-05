@@ -1,0 +1,10 @@
+qt_jsonschema_form/__init__.py,sha256=YkUvbmDKypnP1Zg1r7XYsEDSxjfKLLzPi2xfjaA5Dx8,31
+qt_jsonschema_form/defaults.py,sha256=Htk3JosvxZe3KD9CRU_qEF9Bnom1sGJ1cna5WJ36Vho,763
+qt_jsonschema_form/form.py,sha256=DHLYkW9Llp9vW03T1GGlTcfo71fBpTYkqQMr2kkuz3k,3223
+qt_jsonschema_form/signal.py,sha256=JUDQqjjoee3MsEkM8zPlvu2MLrR8LmrKYRnAMl7jTHs,565
+qt_jsonschema_form/utils.py,sha256=CPflrfnGBF8B5RzZh_guPOTfm5VyjcG9S7CG64DIkvM,943
+qt_jsonschema_form/widgets.py,sha256=q5PlifwdyS420B7E3RYx7KSyDiKV2Zp9UZd6Yf4QnUY,16405
+qt_jsonschema_form-1.0.0.dist-info/METADATA,sha256=zl_SCksxsUd0jsXmHpOM-95nN5vpPhOKZithEjXHKFk,4182
+qt_jsonschema_form-1.0.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+qt_jsonschema_form-1.0.0.dist-info/licenses/LICENSE,sha256=K9UeGkDge9ZczpUghfKNE-3mYLjeBVMfMiM0cxnwD1Y,1071
+qt_jsonschema_form-1.0.0.dist-info/RECORD,,
