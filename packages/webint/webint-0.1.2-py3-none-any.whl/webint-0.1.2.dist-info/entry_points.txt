@@ -1,0 +1,6 @@
+[console_scripts]
+web=web.__main__:main
+
+[webapps]
+admin=web.host.admin:app
+
