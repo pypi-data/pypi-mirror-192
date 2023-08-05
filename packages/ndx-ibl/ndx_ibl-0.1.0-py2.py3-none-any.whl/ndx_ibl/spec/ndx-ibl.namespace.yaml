@@ -1,0 +1,15 @@
+namespaces:
+- author:
+  - Cody Baker
+  contact:
+  - cody.baker@catalystneuro.com
+  doc: IBL sessions specific metadata
+  name: ndx-ibl
+  schema:
+  - namespace: core
+    neurodata_types:
+    - LabMetaData
+    - Subject
+    - Device
+  - source: ndx-ibl.extensions.yaml
+  version: 0.1.0
