@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: purpleair-api
+Version: 1.0.0a0
+Summary: UNKNOWN
+Home-page: https://github.com/carlkid1499/purpleair_api
+Author: Carlos Santos
+Author-email: 27721404+carlkid1499@users.noreply.github.com
+License: MIT
+Keywords: purpleair_api,purple air api,purple_air,purple air
+Platform: Windows 32/64
+Platform: Linux 32/64
+Platform: MacOS 32/64
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# purple_air_api
+
+This is a python3 wrapper for the new PurpleAirAPI (PAA). Details of the API can be found using this link: <https://api.purpleair.com/#api-welcome>
+To use the PurpleAirAPI (PAA) api keys are required. You can get API keys by sending an email to `contact@purpleair.com` with a first and last name to assign them to.
+
+## Installation
+
+You can install the PurpleAir API via pip.
+
+```bash
+python3 -m pip install purple_air_api
+```
+
+You can install PurpleAir API by cloning down this repo.
+
+```bash
+git clone https://github.com/carlkid1499/purple_air_api.git
+cd purple_air_api
+python3 setup.py install
+```
+
+
