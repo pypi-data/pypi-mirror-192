@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: JustPaste.py
+Version: 0.1a4
+Summary: A simple Python library for JustPaste.it API
+Author-email: Devran Dogan <fidevran962@gmail.com>
+Project-URL: Homepage, https://github.com/devdagoat/JustPaste.py
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JustPaste.py
+### A simple Python library for JustPaste.it API.
+---
+## Disclaimer
+---
+Creating notes with non-premium JustPaste accounts are problematic due to the website doing a Captcha check when creating a new note. The captcha WILL be triggered if an account is not used and there is a great chance that the captcha will be triggered if a non-premium account is used. The captcha will not be triggered for premium JustPaste accounts.
+
+ **The captcha is ONLY triggered when creating notes!!!**
+
+There is not much we can do about this situation.
+
+## Installation
+---
+### *For Windows*:
+```py -m pip install -U justpaste.py```
+### *For Linux*:
+```pip3 install -U justpaste.py```
+
+## Usage
+---
+```from justpaste import Justpaste```
