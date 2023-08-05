@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: matematykab
+Version: 1.0.2
+Summary: This is simple library for informatik lessons.
+Home-page: 
+Author: Mocusiek
+Author-email: testomail123321@gmail.com
+License: MIT
+Keywords: matematykab
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+.. image:: https://img.shields.io/pypi/v/matematykab.svg
+   :target: https://pypi.org/project/matematykab/
+   :alt: Pypi version info
+
+Standardowa biblioteka do uĹĽytku szkolnego   
