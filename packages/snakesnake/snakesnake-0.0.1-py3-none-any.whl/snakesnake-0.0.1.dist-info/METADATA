@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: snakesnake
+Version: 0.0.1
+Summary: Snake in Python.
+Home-page: https://github.com/janedoe/snake
+Author: Jane Doe
+Author-email: janedoe@outlook.com
+Keywords: snake,tkinter
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: <4,>=3.0
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: license.txt
+
+# A snake game in Python.
