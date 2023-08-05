@@ -1,0 +1,11 @@
+include thinks_dash_touchable_component/thinks_dash_touchable_component.min.js
+include thinks_dash_touchable_component/thinks_dash_touchable_component.min.js.map
+include thinks_dash_touchable_component/async-*.js
+include thinks_dash_touchable_component/async-*.js.map
+include thinks_dash_touchable_component/*-shared.js
+include thinks_dash_touchable_component/*-shared.js.map
+include thinks_dash_touchable_component/metadata.json
+include thinks_dash_touchable_component/package-info.json
+include README.md
+include LICENSE
+include package.json
