@@ -1,0 +1,8 @@
+setup.py
+lzmysample.egg-info/PKG-INFO
+lzmysample.egg-info/SOURCES.txt
+lzmysample.egg-info/dependency_links.txt
+lzmysample.egg-info/requires.txt
+lzmysample.egg-info/top_level.txt
+lzpackage/__init__.py
+lzpackage/sample.py
