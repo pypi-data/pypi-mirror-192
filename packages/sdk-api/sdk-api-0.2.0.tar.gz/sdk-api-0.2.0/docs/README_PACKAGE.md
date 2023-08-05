@@ -1,0 +1,134 @@
+# SDK-API
+
+**SDK-API** is a simple library to access various services of the *Superb Data Kraken (SDK)*  platform.
+It abstracts accessing services and resources of the SDK with a Python client object managing Authorization, Fetching and Indexing data.
+
+It is primarily intended for use in an Jupyter Hub environment within
+the platform itself, but can be configured for different environments as well.
+
+## Installation and Supported Versions
+
+```console
+$ python -m pip install sdk-api
+```
+
+SDK-API officially supports Python 3.7+.
+
+## Usage
+
+### Authentication
+
+Before using the api, it is necessary to authenticate against the OIDC provider of the SDK. This is done at instantiation time of the client object.
+There are two ways to do this.
+
+1. Using system environment variables. This is the default case which should be used in a Jupyter environment. Simply instantiating the client
+   object is enough in this case.
+    ```python
+    import sdk.api
+    client = sdk.api.SDKClient()
+    ```
+   This however assumes access and refresh tokens are accessible via the enviroment variables **SDK_ACCESS_TOKEN, SDK_REFRESH_TOKEN**.
+
+
+2. Using login credentials
+    ``` python
+    import sdk.api
+    sdk.api.SDKClient(username='hasslethehoff', password='lookingforfreedom')
+    ```
+
+### Configuration
+
+By default everything is configured for usage with the default instance of the SDK but comes with settings for various different instances as well.
+
+#### Setting Environment
+
+``` python
+import sdk.api
+client = sdk.api.SDKClient(env='sdk-dev')
+client = sdk.api.SDKClient(env='sdk')
+```
+
+#### Overwriting Settings
+
+``` python
+client = sdk.api.SDKClient(domain='mydomain.ai', realm='my-realm', client_id='my-client-id', api_version='v13.37')
+```
+
+---
+
+### Examples
+
+#### Organizations
+
+``` python
+client.organization_get_all()
+client.organization_get_by_id(1337)
+client.organization_get_by_name('my-organization')
+```
+
+#### Spaces
+
+Get all Spaces to a given Organization
+
+``` python
+organization_id = 1234
+client.space_get_all(organization_id)
+```
+
+``` python
+client.space_get_by_id(organization_id, space_id)
+client.space_get_by_name(organization_id, space_name)
+```
+
+#### Index
+
+List all Indices accessible with given credentials
+
+``` python
+indices = client.index_get_all()
+```
+
+Get specific document
+
+``` python
+document = client.index_get_document(index_name, doc_id)
+``` 
+
+Write document to index
+
+``` python
+documents = [
+   {
+      "_id": 123
+      "name": "document01",
+      "value": "value"
+   },
+   {
+      "_id": 1337
+      "name": "document01",
+      "value": "value"
+   }
+]
+index_name = "index" 
+client.index_documents(documents, index_name)
+``` 
+The (optional) field **_id** is parsed and used as document id to index to opensearch.
+
+
+#### Storage
+
+List files in Storage
+
+``` python
+files = client.storage_list_blobs(org_name, space_name)
+```
+
+Download files from Storage to local directory
+
+``` python
+files = [
+   'file01.txt'
+   'directory/file02.json',
+]
+client.storage_download_files(organization='my-organization', space='my-space', files=files, local_dir='tmp)
+```
