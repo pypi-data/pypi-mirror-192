@@ -1,0 +1,2 @@
+[console_scripts]
+iprecon = iprecon.__main__:main

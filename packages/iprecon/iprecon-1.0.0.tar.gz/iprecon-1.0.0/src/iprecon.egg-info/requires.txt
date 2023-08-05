@@ -1,0 +1,8 @@
+ipwhois~=1.2.0
+
+[dev]
+black
+bumpver
+pytest
+build
+twine
