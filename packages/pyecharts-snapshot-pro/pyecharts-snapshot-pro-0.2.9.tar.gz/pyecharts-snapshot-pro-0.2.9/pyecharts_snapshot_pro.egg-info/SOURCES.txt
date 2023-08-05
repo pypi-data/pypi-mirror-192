@@ -1,0 +1,17 @@
+CHANGELOG.rst
+CONTRIBUTORS.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pyecharts_snapshot/__init__.py
+pyecharts_snapshot/logger.py
+pyecharts_snapshot/main.py
+pyecharts_snapshot/phantomjs/snapshot.js
+pyecharts_snapshot_pro.egg-info/PKG-INFO
+pyecharts_snapshot_pro.egg-info/SOURCES.txt
+pyecharts_snapshot_pro.egg-info/dependency_links.txt
+pyecharts_snapshot_pro.egg-info/entry_points.txt
+pyecharts_snapshot_pro.egg-info/not-zip-safe
+pyecharts_snapshot_pro.egg-info/requires.txt
+pyecharts_snapshot_pro.egg-info/top_level.txt
