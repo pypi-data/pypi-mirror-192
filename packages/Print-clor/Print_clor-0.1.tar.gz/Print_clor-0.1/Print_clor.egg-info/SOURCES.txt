@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+Print_clor.egg-info/PKG-INFO
+Print_clor.egg-info/SOURCES.txt
+Print_clor.egg-info/dependency_links.txt
+Print_clor.egg-info/top_level.txt
+Printer/__init__.py

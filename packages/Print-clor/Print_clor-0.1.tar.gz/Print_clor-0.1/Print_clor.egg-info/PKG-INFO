@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Print-clor
+Version: 0.1
+Summary: lib for colors in terminal
+Author: DanXvo
+Author-email: coldreality@mail.ru
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
