@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: robotframework-playerlibrary
+Version: 1.0.1
+Summary: A simple library for automation testing with UI and API using Playwright
+Home-page: https://github.com/lynhbn/robotframework-playerlibrary
+Author: Linh Nguyen Nhat
+Author-email: linh0804@gmail.com
+Project-URL: Bug Tracker, https://github.com/lynhbn/robotframework-playerlibrary/-/issues
+Project-URL: repository, https://github.com/lynhbn/robotframework-playerlibrary
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# robotframework-playerlibrary
+Simple GUI/API automation testing library written in Python using Playwright
