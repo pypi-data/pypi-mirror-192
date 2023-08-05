@@ -1,0 +1,109 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{swagger.name.replace('_','-')}}
+  labels:
+    app: {{swagger.name.replace('_','-')}}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{swagger.name.replace('_','-')}}
+  template:
+    metadata:
+      labels:
+        app: {{swagger.name.replace('_','-')}}
+    spec:
+      securityContext:  #does not have any effect
+          runAsUser: 0    #does not have any effect
+          runAsGroup: 0
+          fsGroup: 0
+      containers:
+      - name: {{swagger.name.replace('_','-')}}
+        image: maxwinch/{{swagger.name}}
+        imagePullPolicy: IfNotPresent
+        ports:
+        - name: web-port
+          containerPort: 80
+        resources:
+          limits:
+            cpu: '1'
+            memory: 2Gi
+          requests:
+            cpu: '0.2'
+            memory: 2Gi
+        env:
+        - name: CONSUL_HTTP_ADDR
+          valueFrom:
+              configMapKeyRef:
+                name: common
+                key: consul_addr
+        - name: WEB_PORT
+          value: "80"
+        - name: DATABASE_NAME
+          valueFrom:
+              configMapKeyRef:
+                name: common
+                key: database_name
+        - name: SYSTEM_NAME
+          value: "maxguide"
+        - name: KONG_AUTO_REGISTER
+          value: "true"
+        - name: CONSUL_AUTO_REGISTER
+          value: "false"
+        - name: LOG_LEVEL
+          value: "20"
+        - name: UPLOAD_FOLDER
+          value: "e://files"
+        - name: TZ
+          value: Asia/Shanghai
+        volumeMounts:
+        - name: default
+          mountPath: /etc/nginx/conf.d
+        - name: uwsgi
+          mountPath: /var/{{swagger.name}}/config
+        - name: supervisord
+          mountPath: /etc/supervisor.d
+        workingDir: /var/{{swagger.name}}
+        #command: ["supervisord","--configuration", "/var/maxguide-fleetmng/supervisord.conf"]
+        #command: ["/bin/sh", "-c", "while true; do echo hello world; sleep 1; done"]
+      volumes:
+      - name: common
+        configMap:
+          name: common
+      - name: default
+        configMap:
+          name: {{swagger.name.replace('_','-')}}-config
+          defaultMode: 0777
+          items:
+          - key: default
+            path: default.conf
+      - name: uwsgi
+        configMap:
+          name: {{swagger.name.replace('_','-')}}-config
+          defaultMode: 0777
+          items:
+          - key: uwsgi
+            path: uwsgi.ini
+      - name: supervisord
+        configMap:
+          name: {{swagger.name.replace('_','-')}}-config
+          defaultMode: 0777
+          items:
+          - key: supervisord
+            path: supervisord.conf
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{swagger.name.replace('_','-')}}
+  labels:
+    app: {{swagger.name.replace('_','-')}}
+spec:
+  selector:
+    app: {{swagger.name.replace('_','-')}}
+  clusterIP: None
+  ports:
+  - name: webport
+    port: 80
+    targetPort: web-port
