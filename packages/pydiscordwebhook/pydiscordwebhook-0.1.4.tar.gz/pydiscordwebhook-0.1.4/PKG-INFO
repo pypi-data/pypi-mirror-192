@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pydiscordwebhook
+Version: 0.1.4
+Summary: Library for python to send messages on discord
+Author: MM4004
+Keywords: python,discord,webhook
+License-File: LICENSE
