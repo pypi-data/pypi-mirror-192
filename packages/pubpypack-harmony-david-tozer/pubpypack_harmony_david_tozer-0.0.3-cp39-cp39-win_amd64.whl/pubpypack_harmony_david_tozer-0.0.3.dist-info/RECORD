@@ -1,0 +1,13 @@
+imppkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/data.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/harmonic_mean.c,sha256=oS-SdtyuzZ6wGD-rA2IdPevKoMRxIjt7JuEPdEEXQFE,198627
+imppkg/harmonic_mean.cp39-win_amd64.pyd,sha256=KkyhjIpvyuyGeXLqxIo5-_Z1yDwK1btQt5lX_GeADIQ,36864
+imppkg/harmonic_mean.pyx,sha256=QRCCLRetCofX0CB6wGmOy1nPCTX4zaAJ-21yFLgmZXk,79
+imppkg/harmony.py,sha256=DYi-zAlpnxRcWyiwS3ZcOeHbmxBK4Ly5QoxHWz35M3U,654
+imppkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubpypack_harmony_david_tozer-0.0.3.dist-info/LICENSE,sha256=3O6LAR0iMwgY_7G_7cRfCk_6SBt3__OwmOizGcjFsi0,1070
+pubpypack_harmony_david_tozer-0.0.3.dist-info/METADATA,sha256=DKa0h46KTfb8u5ssYOkJrNmEEPIqo6S45MPgYCtMOng,606
+pubpypack_harmony_david_tozer-0.0.3.dist-info/WHEEL,sha256=J_4V_gB-O6Y7Pn6lk91K27JaIhI-q07YM5J8Ufzqla4,100
+pubpypack_harmony_david_tozer-0.0.3.dist-info/entry_points.txt,sha256=feiUFKolyjyA-i9QN-YuipocWPVf07pii8AbrEjvfW8,48
+pubpypack_harmony_david_tozer-0.0.3.dist-info/top_level.txt,sha256=I91hjGcw_F0H8zGbV0bRxPlcQJVwYHLtIyAPaQ9x-hE,7
+pubpypack_harmony_david_tozer-0.0.3.dist-info/RECORD,,
