@@ -1,0 +1,3 @@
+[ypywidgets]
+switch = ypywidgets.switch:Switch
+txl_switch = ypywidgets.txl.switch:Switch
