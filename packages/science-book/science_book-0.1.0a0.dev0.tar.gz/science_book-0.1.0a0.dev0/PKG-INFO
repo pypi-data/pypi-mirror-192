@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: science-book
+Version: 0.1.0a0.dev0
+Summary: A package to help everyday users with science calculations
+Home-page: https://github.com/ghammock/science-book
+License: MIT
+Keywords: science,physics,engineering
+Author: Gary Hammock
+Author-email: ghammock79@gmail.com
+Maintainer: Gary Hammock
+Maintainer-email: ghammock79@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Typing :: Typed
+Requires-Dist: importlib-metadata (>=5.0.0,<6.0.0); python_version < "3.10"
+Project-URL: Documentation, https://github.com/ghammock/science-book/docs
+Project-URL: Repository, https://github.com/ghammock/science-book
+Project-URL: changelog, https://github.com/ghammock/science-book/blob/main/CHANGELOG.md
+Project-URL: download, https://github.com/ghammock/science-book/releases
+Project-URL: issues, https://github.com/ghammock/science-book/issues
+Description-Content-Type: text/markdown
+
+# Science-Book
+
+An open-source and freely available scientific library for scientists, students, educators, and enthusiasts.
+
+## Installation
+
+```bash
+$ pip install science-book
+```
+
