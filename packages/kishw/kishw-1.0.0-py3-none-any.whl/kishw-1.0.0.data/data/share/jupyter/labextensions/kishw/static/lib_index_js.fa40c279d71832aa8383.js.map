@@ -1,0 +1,1 @@
+{"version":3,"file":"lib_index_js.fa40c279d71832aa8383.js","mappings":";;;;;;;;;;;;;;;;;;;;;AAA0B;AACD","sources":["webpack://kishw/./lib/index.js"],"sourcesContent":["export * from './version';\nexport * from './widget';\n"],"names":[],"sourceRoot":""}
