@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.cfg
+setup.py
+systemJSON/__init__.py
+systemJSON/main.py
+systemJSON.egg-info/PKG-INFO
+systemJSON.egg-info/SOURCES.txt
+systemJSON.egg-info/dependency_links.txt
+systemJSON.egg-info/top_level.txt
