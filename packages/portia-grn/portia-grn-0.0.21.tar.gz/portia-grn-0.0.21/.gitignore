@@ -1,0 +1,12 @@
+*.pyc
+
+out.txt
+
+data/
+
+.idea/
+venv/
+dist/
+build/
+__pycache__/
+*.egg-info/
