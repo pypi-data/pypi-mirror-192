@@ -1,0 +1,9 @@
+mb_milvus/src/dim_reduction.py,sha256=antgYSOEiP5C5WHfqMCuXJN4GAfcLC93smgB_OdFiFk,4807
+mb_milvus/src/milvus_extraction.py,sha256=lWu4R3AHAwHegCJYL9Z-GpbLvyncHnSV0ddgBPNLl-k,4251
+mb_milvus/src/version.py,sha256=6AFBP1idPTleDxgHwzG5MfbRUwMaBV4NCePaFwcSqK8,385
+mb_milvus-1.0.202302112246.data/scripts/milvus_search.py,sha256=rJqFH59rZpw24yWaISFeRVCqhudT3OIezrj1ZEL6xuE,8592
+mb_milvus-1.0.202302112246.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mb_milvus-1.0.202302112246.dist-info/METADATA,sha256=Clu6qfPMpHpPu-X3f5T_FFBrVnvcgV-rHTeqgMgtl3c,212
+mb_milvus-1.0.202302112246.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mb_milvus-1.0.202302112246.dist-info/top_level.txt,sha256=5n2z8H4hVtbvjwsO3o0Gztm_qIjuIaj-eAgwTe3y66M,10
+mb_milvus-1.0.202302112246.dist-info/RECORD,,
