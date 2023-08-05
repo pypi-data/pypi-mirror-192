@@ -1,0 +1,3 @@
+[console_scripts]
+powerflow=powerflow.main:cli
+
