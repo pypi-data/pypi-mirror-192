@@ -1,0 +1,9 @@
+README.md
+setup.py
+pypgrest/__init__.py
+pypgrest/pypgrest.py
+pypgrest.egg-info/PKG-INFO
+pypgrest.egg-info/SOURCES.txt
+pypgrest.egg-info/dependency_links.txt
+pypgrest.egg-info/requires.txt
+pypgrest.egg-info/top_level.txt
