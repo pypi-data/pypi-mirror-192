@@ -1,0 +1,11 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+mikeracingf1/__init__.py
+mikeracingf1/mikeracingf1.py
+mikeracingf1.egg-info/PKG-INFO
+mikeracingf1.egg-info/SOURCES.txt
+mikeracingf1.egg-info/dependency_links.txt
+mikeracingf1.egg-info/requires.txt
+mikeracingf1.egg-info/top_level.txt
