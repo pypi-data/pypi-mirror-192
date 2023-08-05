@@ -1,0 +1,13 @@
+plover_application_controls/__init__.py,sha256=R2QPeJ0DBtDyMtUdYgTytGYXI-OrKKqrNJUcrsn9WDo,147
+plover_application_controls/command.py,sha256=eSmbK723MLf7lLhhyk5xEuFzYuOmsSv4M44NHpWexZw,2232
+plover_application_controls/extension.py,sha256=ZwPv35egwmXF-15jM9f6Zd7j3LS8Put2zU-w-Gj3of4,715
+plover_application_controls/fake_tk.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plover_application_controls/meta.py,sha256=YA3d9oCOVxPM7R0MzUREe2OiIWk-4S65Slhd8BFR88s,783
+plover_application_controls/window_tracker.py,sha256=p-5Lk5JRhYHEXadzZ23WWSBlZvdmOEDnz5Nn6jhI1hk,3545
+plover_application_controls-1.0.0.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+plover_application_controls-1.0.0.dist-info/METADATA,sha256=jIbtpE47kqtVUkQLarcPmpLDZI0b2q_hdoGqmJfJopI,3296
+plover_application_controls-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+plover_application_controls-1.0.0.dist-info/entry_points.txt,sha256=vmtAGJv6Vrzd0asD47yoO0mb2P7OrHefX0eOr31pv3c,246
+plover_application_controls-1.0.0.dist-info/top_level.txt,sha256=Z7JjMfW7CHX77MBNn7dYRBdLr28r6ssYGe3lXrRMF3k,28
+plover_application_controls-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plover_application_controls-1.0.0.dist-info/RECORD,,
