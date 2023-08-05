@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: orbax-export
+Version: 0.0.1
+Summary: Orbax Export
+Keywords: JAX machine learning,serialization,export
+Author-email: Orbax Authors <orbax-dev@google.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: absl-py
+Requires-Dist: etils
+Requires-Dist: flax
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Requires-Dist: numpy
+Requires-Dist: dataclasses-json
+Requires-Dist: tensorflow
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-xdist ; extra == "dev"
+Project-URL: homepage, http://github.com/google/orbax
+Project-URL: repository, http://github.com/google/orbax
+Provides-Extra: dev
+
+Orbax provides a library for exporting JAX model to the SavedModel format.
+
+
