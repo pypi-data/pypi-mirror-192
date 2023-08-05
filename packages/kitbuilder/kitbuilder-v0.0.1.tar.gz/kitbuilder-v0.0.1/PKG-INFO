@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: kitbuilder
+Version: v0.0.1
+Summary:  KitBuilder is a library used for generating API-based and CLI-based SDK using only one file! 
+Home-page: https://github.com/szivkovicx/kitbuilder
+Author: Sergej Zivkovic
+Author-email: zivkovicsergej501@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: sdk,api,cli,requests,rest-api,configuration
+Platform: UNKNOWN
