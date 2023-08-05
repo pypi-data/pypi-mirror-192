@@ -1,0 +1,5 @@
+
+[convert]
+numpy>=1.19
+pandas>=1.2
+xarray
