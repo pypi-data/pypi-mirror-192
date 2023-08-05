@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sqlite-magic"
+version = "0.2.0"
+description = ""
+authors = ["Todd Iverson <Tiverson@winona.edu>"]
+readme = "README.md"
+packages = [{include = "sqlite_magic"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+pandas = ">=1.0.0"
+ipython = ">=6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
