@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+informatyka.egg-info/PKG-INFO
+informatyka.egg-info/SOURCES.txt
+informatyka.egg-info/dependency_links.txt
+informatyka.egg-info/top_level.txt
+libka/__init__.py
+libka/matma.py
