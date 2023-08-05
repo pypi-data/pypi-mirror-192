@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/kimfame/__init__.py
+src/kimfame/aaa.py
+src/kimfame/bbb.py
+src/kimfame/ccc.py
+src/kimfame/ddd.py
+src/kimfame/eee.py
+src/kimfame/kimfame.py
+src/kimfame.egg-info/PKG-INFO
+src/kimfame.egg-info/SOURCES.txt
+src/kimfame.egg-info/dependency_links.txt
+src/kimfame.egg-info/top_level.txt
