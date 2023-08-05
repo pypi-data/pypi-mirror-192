@@ -1,0 +1,11 @@
+ausweather/__init__.py,sha256=M1Y2izqgUgpzbrIsZPEs37KcQW6rk0zumrzYfNhbd6M,364
+ausweather/bom.py,sha256=l901TzotCqwumarE3YtnknW2w4oO2jwkkKxKdgCr92k,3582
+ausweather/charts.py,sha256=QU3XZqNCeeE1SxxezGr_UnIrHEUIbvlpfsecEWD4d8s,2603
+ausweather/core.py,sha256=8ibQ0UxVcsQQY5xUy_owpUUM5QO49xvdD6F3O2dI8ko,1722
+ausweather/database.py,sha256=jkU-6IGhss9jpy5cx75ObV_v59PcCbOJkCUDqf9mueQ,2050
+ausweather/silo.py,sha256=p6h_RqmVcSGamAfpL9okgPkmOtmrc3ddQmcDYgv-zuk,2974
+ausweather-0.3.dist-info/LICENSE.md,sha256=4m3IfGbG6RPjJbkTLsECsPZxL38-2LkLqhQU1nhFuOU,1098
+ausweather-0.3.dist-info/METADATA,sha256=cwfrlnuuFcs6_Cg19s8P94fxIdeym3lbN-78FtxW40k,3341
+ausweather-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ausweather-0.3.dist-info/top_level.txt,sha256=JYgc9fsXnhzeXpKHc1hRrc2wFXNj7J3xf49KZljiprw,11
+ausweather-0.3.dist-info/RECORD,,
