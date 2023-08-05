@@ -1,0 +1,11 @@
+pyramid_cas/__init__.py,sha256=KWZQc4xB7pkqm8V2Wy9Dq9Tkr3S6M7B2AGPTEsTtf5Q,403
+pyramid_cas/services.py,sha256=Xpp1SNR0UKfjpL5TSRzyIHBDu9xNBBaYIWkBnBZTcVU,2169
+pyramid_cas/tests.py,sha256=SnIHTln0goh8qc3lX89vzzR4Qd_FbuMDVyevv3vr6SE,646
+pyramid_cas/views.py,sha256=LyDUC1b3kfjmh9tEgZGkMRk6owvbbH7BC0qQ7WboH3k,1836
+pyramid_cas/templates/mytemplate.pt,sha256=8hL6LH2_xFdxo804VA23H9Y4DQ4CHtuayRi5h-ROOpk,3470
+pyramid_cas-0.4.dist-info/LICENSE,sha256=plMH18wHf59MHaX2sRS6lDPpTgHSsNYBmSDJeLB4aYI,548
+pyramid_cas-0.4.dist-info/METADATA,sha256=QCGTH2In6KfuTgKIJ2BCNflpK779bJLLueqoLEYgOG8,2986
+pyramid_cas-0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyramid_cas-0.4.dist-info/entry_points.txt,sha256=8iifdgKQI3f5viZW0WKf_0sMi0rfDsl7dfBMyfdvI70,44
+pyramid_cas-0.4.dist-info/top_level.txt,sha256=S3D3ZzcXlrDEGT6giAgtXf0sYcE-EOCFqigCvIEMjpQ,12
+pyramid_cas-0.4.dist-info/RECORD,,
