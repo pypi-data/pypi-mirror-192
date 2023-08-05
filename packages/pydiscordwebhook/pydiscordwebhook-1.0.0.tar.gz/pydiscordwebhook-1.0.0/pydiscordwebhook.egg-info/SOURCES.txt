@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pydiscordwebhook/__init__.py
+pydiscordwebhook/embed.py
+pydiscordwebhook/main.py
+pydiscordwebhook.egg-info/PKG-INFO
+pydiscordwebhook.egg-info/SOURCES.txt
+pydiscordwebhook.egg-info/dependency_links.txt
+pydiscordwebhook.egg-info/top_level.txt
