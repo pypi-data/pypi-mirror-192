@@ -1,0 +1,3 @@
+[console_scripts]
+pytest-create=pytest_create.__main__:main
+
