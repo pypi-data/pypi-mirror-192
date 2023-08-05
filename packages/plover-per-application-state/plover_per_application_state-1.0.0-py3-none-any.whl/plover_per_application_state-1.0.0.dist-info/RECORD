@@ -1,0 +1,16 @@
+plover_per_application_state/__init__.py,sha256=vLVqLevJ3v-8_R7hynHQajUwG88FlOcAwuZYYrk5F3A,80
+plover_per_application_state/command.py,sha256=Ti6XcKL8reSPL6Syjkzv-akJ39eaGdyVqiOb_n-z0nE,912
+plover_per_application_state/extension.py,sha256=gdtnYpvv4W_n0kTdrcT7YmqtphO6o-20t8nSxWQGFFU,1475
+plover_per_application_state/state/__init__.py,sha256=mmebmTd98iJNG98DLKDBtVd-oR4QyApntMSomq3AqQI,161
+plover_per_application_state/state/manager.py,sha256=Nxbod3TIljJlNI3FLExJRJ-BoZsuNoV5Ew68H8pkz7g,3189
+plover_per_application_state/state/window_state_collection.py,sha256=T8D-AYgaRTXI38wrmqQwccKWTyH6Q3kU6-AOZAIiwek,3091
+plover_per_application_state/transition_handler/__init__.py,sha256=Om8RmGDDXMZvBJ1R12PDmbJ9qWoXsmAppcIo9LEzgqg,191
+plover_per_application_state/transition_handler/default.py,sha256=tyyFXhC1Mcbeoc34IE-t6I66aVDZR8AY32c2mgtIxFM,952
+plover_per_application_state/transition_handler/handler.py,sha256=Pbq4U754zxz1RTpGAem7sFo244zG-KPyeCbSGssSv0A,950
+plover_per_application_state-1.0.0.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+plover_per_application_state-1.0.0.dist-info/METADATA,sha256=vKaiohpWkzGBjIEogEPy2Q4HlcEeAbRfEy1dqJbXbBI,2183
+plover_per_application_state-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+plover_per_application_state-1.0.0.dist-info/entry_points.txt,sha256=eCgU3qm18tG4_XbiW35LXhoI1dxbYNBEL9mImF-IEtc,188
+plover_per_application_state-1.0.0.dist-info/top_level.txt,sha256=IyVEWPP-J-NfwzH8vWv9UMuigWHvW8B6sq0wZmQLNGk,29
+plover_per_application_state-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plover_per_application_state-1.0.0.dist-info/RECORD,,
