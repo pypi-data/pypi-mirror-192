@@ -1,0 +1,9 @@
+ddb_single/__init__.py,sha256=qu9eKknTBNhmAEn7NJyVN0TffP-xj0M1RwxsZFUl4rA,144
+ddb_single/model.py,sha256=hbKrPxpTSlqW4BjZoU2MrWJd0YIoZxn6RktYI83paSM,13297
+ddb_single/query.py,sha256=Vd7u7bIfr-I0-3iwvU5iuyBUFoCivAVNYjPgVr18Rmo,8953
+ddb_single/table.py,sha256=7ZAPtmbMc3Y_JguhSNVGD1CxEz5DWuWvM-ew4tCG02c,21654
+ddb_single/utils_botos.py,sha256=tVDL_vsIzTPZdWSakAGXzvNmT-YNIdKh-Hk-w0S6aXg,5899
+ddb_single-0.3.3.dist-info/METADATA,sha256=kOt7J7UWF1UXcttTcNUWI3QOnIAlyoN3aURhA9gLMXI,8844
+ddb_single-0.3.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ddb_single-0.3.3.dist-info/top_level.txt,sha256=rfggWsCxkBMEDpufHSsAmp-KOXfAcU3IDBAmGMJUCWM,11
+ddb_single-0.3.3.dist-info/RECORD,,
