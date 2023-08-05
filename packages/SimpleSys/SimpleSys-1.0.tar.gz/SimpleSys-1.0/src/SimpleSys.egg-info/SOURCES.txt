@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/SimpleSys/SimpleSys.py
+src/SimpleSys/__init__.py
+src/SimpleSys.egg-info/PKG-INFO
+src/SimpleSys.egg-info/SOURCES.txt
+src/SimpleSys.egg-info/dependency_links.txt
+src/SimpleSys.egg-info/top_level.txt
