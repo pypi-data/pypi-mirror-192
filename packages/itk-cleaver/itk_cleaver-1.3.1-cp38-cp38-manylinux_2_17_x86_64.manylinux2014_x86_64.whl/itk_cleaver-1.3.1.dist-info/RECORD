@@ -1,0 +1,11 @@
+itk_cleaver-1.3.1.dist-info/METADATA,sha256=Tj2pco9Kol-pGpwzYJCTGFmBTym_L2rzcDTnzyLb8HY,1462
+itk_cleaver-1.3.1.dist-info/WHEEL,sha256=vveaNgm-ny_P96uk_RjV4RDsqYe11cXYgHNeKg9ffbg,142
+itk_cleaver-1.3.1.dist-info/RECORD,,
+itk_cleaver-1.3.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_cleaver-1.3.1.dist-info/LICENSE,sha256=Z1Lf6-58i042nqsYeo0vN7ot5xqzMllEwZ1wjWIoZ7E,1103
+itk/itkCleaverImageToMeshFilterPython.py,sha256=ddkI1w7pAROL_B80BypmcQhQdT758_CwMlZtXlMH1ds,122903
+itk/_CleaverPython.so,sha256=8beP1harkSlESqP9OjLJECh1qDn6jclV-SVjfluQCsw,6660009
+itk/CleaverPython.py,sha256=zO3yFl8EKvm-dpJ6YCKGm02cgxYj6s9N0ooXWCMoxJ0,2533
+itk/Configuration/Cleaver_snake_case.py,sha256=FuHYa3tgdyBAZ7k1W9_yP8VQ0QBhInUVaCe6p6-ND9k,58
+itk/Configuration/CleaverConfig.py,sha256=0nXeGQ2YMOqyFDpJx3pNnQILqIZ3tqiVFqRaO_204ww,4331
+itk_cleaver.libs/libtbb-a0c974ac.so.12.3,sha256=bqgqED0VDlAmLUWUR3b-34M1gPmiyLKzuy3mRj7ncbc,444449
