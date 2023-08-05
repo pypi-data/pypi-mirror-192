@@ -1,0 +1,17 @@
+motorized/__init__.py,sha256=3rQLEeHaqVdidLEICPY2MFpDRARx-d2Lq4zrazGpbJY,268
+motorized/a.out,sha256=goP1owRXwWL73LOcf14cEGAaUarK45DPNVGNS3JfudA,16320
+motorized/caca.c,sha256=j4_fTt9foR4IUBIx8wynSiYeaniMa4vEPD8bXfG8syk,694
+motorized/client.py,sha256=yj0WeZOUm5NZULCuoHNvzpS3YnQBI9kzJfItdU_0d3A,968
+motorized/contrib/fastapi.py,sha256=yJggQUAfoRciijwWlXYwa00d0lv8HmowqdvFKVTlWc0,6220
+motorized/document.py,sha256=D01PsYitD57MQMz3yyQ-qYDEeEGfIoVVT79NXhatYm8,14602
+motorized/exceptions.py,sha256=6GLAXs0W6JT2wLkf6xmRXeECm0Eu2IvtyeHKTdY0IIg,154
+motorized/keywords.py,sha256=Wn-fiv-wIIUfL5zM97rpa2pFLzvypvnHIwS8lM-jRPc,1726
+motorized/migration.py,sha256=yUssnd0fkjjd9rdF5NGzxgX-6z2snmSz4irdWcuweiY,7012
+motorized/query.py,sha256=rmoNYOm0fO_qJESOyGmDZLX7pYDrseOemVhlDDzgPKw,3341
+motorized/queryset.py,sha256=pGQznIOmMWL0VwzYYP_lJiw5A6jqs-9CofzTykb2UMU,14622
+motorized/types.py,sha256=NkE6_KPyzH05VR72OwiZY8AFB19pi7D_PEt6KOoASvA,875
+motorized/utils.py,sha256=FKo23c0Ca5c2H6PAH5i3dFU_F62pIpWebe70EtxKIK8,6525
+motorized-0.6.0.dist-info/LICENSE.txt,sha256=qe_mIePgEg3Mwper_LZ-Slh36Ux7AVQQNsmTjnUc674,1073
+motorized-0.6.0.dist-info/METADATA,sha256=Pjmrrl28BS82Js1wPkyUe3hXLWXkN60aWXiJckRwaYw,650
+motorized-0.6.0.dist-info/WHEEL,sha256=UTbu2d3PIo7FtACOQrq825bNtQhldwLx2SG2oh0Fl8Q,88
+motorized-0.6.0.dist-info/RECORD,,
