@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: the-example
+Version: 0.9.0
+Summary: test github action omo
+Home-page: https://github.com/gomagwu
+Author: Gabriel
+License: Apache License 2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Requires-Python: <4,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
