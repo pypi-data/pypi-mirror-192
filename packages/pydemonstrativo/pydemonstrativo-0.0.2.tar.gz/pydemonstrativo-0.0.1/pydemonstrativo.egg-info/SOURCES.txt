@@ -1,0 +1,8 @@
+README.md
+setup.py
+pydemonstrativo/module.py
+pydemonstrativo.egg-info/PKG-INFO
+pydemonstrativo.egg-info/SOURCES.txt
+pydemonstrativo.egg-info/dependency_links.txt
+pydemonstrativo.egg-info/requires.txt
+pydemonstrativo.egg-info/top_level.txt
