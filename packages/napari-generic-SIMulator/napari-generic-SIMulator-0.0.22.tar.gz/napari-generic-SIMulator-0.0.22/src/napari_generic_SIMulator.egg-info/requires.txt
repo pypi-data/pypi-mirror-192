@@ -1,0 +1,15 @@
+numpy
+magicgui
+qtpy
+tifffile
+open3d
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
+tifffile
+open3d
