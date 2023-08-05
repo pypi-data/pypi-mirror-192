@@ -1,0 +1,7 @@
+setup.py
+simpleDirectorySetup/__init__.py
+simpleDirectorySetup/directoryConfig.py
+simpleDirectorySetup.egg-info/PKG-INFO
+simpleDirectorySetup.egg-info/SOURCES.txt
+simpleDirectorySetup.egg-info/dependency_links.txt
+simpleDirectorySetup.egg-info/top_level.txt
