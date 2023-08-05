@@ -1,0 +1,8 @@
+csvimporteract/__init__.py,sha256=O3BAj0WVToEB0kh3R9xJVEkqDt6RR1lvG2Ti1aXosYY,104
+csvimporteract/__version__.py,sha256=cw-wPso5400rXRCR6WsHwthEUW8-b_VMrztjcYwBGfQ,22
+csvimporteract/csvimporter.py,sha256=WkeO6OgW-jZN7puSIVSmYVmpHkGuQhgKBSyOQwjy5bE,8886
+csvimporteract/csvimporterFlipkart.py,sha256=gePKWWRsubYaz7IS1bwPFzIqLYAKhpPUxlnGxGJs8Ks,8991
+csvimporteract-0.0.20.dist-info/METADATA,sha256=Mn3TWEVsXasuGm3lOP2UnzNS4XBM6oU83FLE5HmH4-A,493
+csvimporteract-0.0.20.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+csvimporteract-0.0.20.dist-info/top_level.txt,sha256=KKbiRVk8KXdCg7PMkykgQdpYjZSQyqUUrF1u3qDqxWc,15
+csvimporteract-0.0.20.dist-info/RECORD,,
