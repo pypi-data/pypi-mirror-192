@@ -1,0 +1,2 @@
+colorifix==2.0.4
+tqdm==4.64.1
