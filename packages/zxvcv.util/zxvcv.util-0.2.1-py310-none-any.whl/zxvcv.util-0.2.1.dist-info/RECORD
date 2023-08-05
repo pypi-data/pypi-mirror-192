@@ -1,0 +1,17 @@
+zxvcv.util-0.2.1-py3.10-nspkg.pth,sha256=bokAq5-YBfQvhFqXVJIlBebCUuVNrsUOwRO2I-3wLRw,535
+zxvcv.util-0.2.1.dist-info/LICENSE,sha256=n2hCw5m6ODe-yYFv4Y8ABzd5HFDpWF0D0UqOOXVGgiY,1070
+zxvcv.util-0.2.1.dist-info/METADATA,sha256=7L41WGu0aLoN3HRRZAv2_Qrn3n6I7l3yoT2di9vH0U0,1955
+zxvcv.util-0.2.1.dist-info/RECORD,,
+zxvcv.util-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zxvcv.util-0.2.1.dist-info/namespace_packages.txt,sha256=GsKzKxmDAYGd7t-d3odRoamMPQEMgGzobA9nr8I147g,6
+zxvcv.util-0.2.1.dist-info/top_level.txt,sha256=GsKzKxmDAYGd7t-d3odRoamMPQEMgGzobA9nr8I147g,6
+zxvcv\util\ADict.pyc,sha256=1ZIg2TPakpDAfd6GN1H8DuUqEDtT6eYBqDdoFOrx1xY,618
+zxvcv\util\ArgsManager.pyc,sha256=xRXyHXRI384lhEdpYea_mvKcdzLKltGnnjr-3p1aleQ,2263
+zxvcv\util\Executable.pyc,sha256=ygLXAvfBGqZ5eYyhKhlkrGRpkLqRSjSg54mXB7Z_Mt0,921
+zxvcv\util\LogManager.pyc,sha256=eL2Wf-loXeQtBUM9zPhrFNa4FIVFeTS1JEAI73IHiLI,2132
+zxvcv\util\Path.pyc,sha256=d6C8I88HUTtMBRblTDH1vLaH3WTAo3Dyd55lcLU-JVk,1135
+zxvcv\util\__init__.pyc,sha256=pN-UBRhVO4ahjBmLKtXdORE14O0WPzTRmQwP59ULwak,345
+zxvcv\util\__main__.pyc,sha256=EUamYD-l5Ed_4etgNmBz-Gf-RBhQnqTPR6k3gwcqb7c,404
+zxvcv\util\git\FileStatus.pyc,sha256=EoqZrT6ohTkF9EAZluZkA4fYAPra1f1qxZw9bqcLaA8,835
+zxvcv\util\git\Git.pyc,sha256=j7nqYFYrWnLR29wTznMPw5ASbMjEurgnQ6RQwA6ooiA,1799
+zxvcv\util\git\__init__.pyc,sha256=jbaD0POLQ8GSgX3QFULTvXrBOkkwZy8BAojeAkgrg4s,138
