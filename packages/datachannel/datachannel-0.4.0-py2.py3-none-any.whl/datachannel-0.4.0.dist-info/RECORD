@@ -1,0 +1,12 @@
+datachannel/__init__.py,sha256=xNn4bJPVNKFLndQDlhiVqKVzT2khc5BAygi1hBSug2k,39
+datachannel/datachannel.abi3.so,sha256=4wamDeHqJzqNMcsYgH_DoWDEHInYo3Wk-4cOApPBYAA,9097104
+datachannel/datachannel.dll,sha256=lCphDygjL-EiyhNAJ7DXiJCSptxSSqX5gdO2BnJ193k,1379840
+datachannel/datachannel.pyd,sha256=WKKHFGorjWOFdDPkGv3ilrg0K7PsfAwhNwY7w8vi9FE,13824
+datachannel/juice.dll,sha256=G6_ih06uxXUgd0nAYWib0neaKCBhkJLATRNi5YmzJoE,139776
+datachannel/legacy.dll,sha256=M76G24lNl2lUOzIxbR4qnBEEilHgx-nEfowiw5UGk1c,90624
+datachannel/libcrypto-3-x64.dll,sha256=9CVQz7mTR_V0AZaSGM3DG9vvS-teLrNmt3VyNiQ2B2M,3758080
+datachannel/libssl-3-x64.dll,sha256=CZuCSZhMHvqXz8L0ZamTK0WXUa8K9tzRG68kHqNoTYA,549376
+datachannel-0.4.0.dist-info/METADATA,sha256=wXgFX9mBOYxR41yLU59EoD51qKq_q_EuTHfecjAAk-w,84
+datachannel-0.4.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+datachannel-0.4.0.dist-info/top_level.txt,sha256=QNuuII2hKRfGjbHl3CvGu9nwVDFkj0W-wYk33QvUzWk,12
+datachannel-0.4.0.dist-info/RECORD,,
