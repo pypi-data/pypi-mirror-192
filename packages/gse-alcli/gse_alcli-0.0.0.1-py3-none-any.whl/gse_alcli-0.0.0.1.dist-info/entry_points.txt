@@ -1,0 +1,2 @@
+[console_scripts]
+alcli = gse_alcli:command_parser
