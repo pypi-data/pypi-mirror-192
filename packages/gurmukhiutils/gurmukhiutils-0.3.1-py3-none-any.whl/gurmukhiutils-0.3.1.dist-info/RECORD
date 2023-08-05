@@ -1,0 +1,13 @@
+gurmukhiutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gurmukhiutils/ascii.py,sha256=K9algY32zKpKVT8LWufcrfuMNfNpRrnG7LwwIgqrx7Q,5955
+gurmukhiutils/constants.py,sha256=WGmtKBoeN-KjKzTFjS8SaiHIycyZIQKCLdG8f4BAIrM,661
+gurmukhiutils/convert.py,sha256=6grYePxqp6KZwbKnmUlhHHEQkiKjDlbrxSqn1lNZ0rM,1649
+gurmukhiutils/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gurmukhiutils/converters/guru_latn.py,sha256=-XMWiUEejNU8_0so_ki_qpCYsLdCD_JaRoPXTgOx12I,3757
+gurmukhiutils/converters/guru_latn_pa.py,sha256=CWOrXf9CCsWQCxisYux-34_FtwUXF47OO5tcBMoZxQk,4441
+gurmukhiutils/remove.py,sha256=EjsIPW9lhkeyyDVWlRROTzPnvqgzsTjEbfVVVdHPFqc,2448
+gurmukhiutils/unicode.py,sha256=WP5aSv-k1azXaaUuAh1VT6B3sN02RUYQB1Uda7kn3_w,13294
+gurmukhiutils-0.3.1.dist-info/METADATA,sha256=HmL4U8rUhkKwgYnNZCzPVcdOnjFXsEWJfuF763HHjtE,4218
+gurmukhiutils-0.3.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gurmukhiutils-0.3.1.dist-info/LICENSE,sha256=I_GOA9xJ35FiL-KnYXZJdATkbO2KcV2dK2enRGVxzKM,1023
+gurmukhiutils-0.3.1.dist-info/RECORD,,
