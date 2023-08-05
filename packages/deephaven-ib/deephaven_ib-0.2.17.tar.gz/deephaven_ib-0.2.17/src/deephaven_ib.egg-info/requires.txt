@@ -1,0 +1,5 @@
+deephaven-server==0.17.0
+pandas
+ibapi==10.16.1
+lxml
+ratelimit
