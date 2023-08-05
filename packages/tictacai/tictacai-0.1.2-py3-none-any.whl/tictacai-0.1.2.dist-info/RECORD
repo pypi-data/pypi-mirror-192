@@ -1,0 +1,17 @@
+tictacai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tictacai/game/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tictacai/game/engine.py,sha256=cLwEPNfJakesr0HvvqRfeWXI9ml1KL1NCK3noA8HGU4,2205
+tictacai/game/engine_async.py,sha256=9O8qRPAP9WMGgn5kiZKzfxxBApWgOGr3OLSRAORdptM,1268
+tictacai/game/players.py,sha256=HO95eihxQNzSZN9hhBIdYZN8P1ywp6_TchIrW6MP2Uo,2281
+tictacai/game/players_async.py,sha256=4ofq60134tXQaJXK3MYTQ-EafSf3OE4qBQvWqcD4QOc,1829
+tictacai/game/renderers.py,sha256=2ujC0Il-WZbaV0VmKB0CHTkNczm1NqclbSAd9c8dTnk,309
+tictacai/logic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tictacai/logic/exceptions.py,sha256=WWHH7LYRb3YxU7J4Yf3q9NKr8-IUUn9Da5CG2DYw6HU,242
+tictacai/logic/minimax.json,sha256=HNzOQq3pn_g8HO2nonfImHfvCGQ0WfM-n4nrVgkDQLc,1134514
+tictacai/logic/minimax.py,sha256=L_wzkJJkzg7yQHSIzTK7t9a-r2QDmQeL8X7_0TTDWzA,4064
+tictacai/logic/models.py,sha256=nRmiHzCBPPvv-U1czC2IrWZ3NxVMaZ1GM1KrjCMdo-I,4481
+tictacai/logic/validators.py,sha256=PHFhuhvdoCsbEYQydhOiIVT-PRl9FN9O9gXjKYA38mI,3238
+tictacai-0.1.2.dist-info/METADATA,sha256=dt4ID7tc_JK-2EB--o0KTbqEuL5DJ7RIkudEZp4RZtA,939
+tictacai-0.1.2.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+tictacai-0.1.2.dist-info/LICENSE,sha256=sOXGaGb1TwXPGCTlIPF1yuCL7XpOZRQ9-gmgWu3gUvE,1068
+tictacai-0.1.2.dist-info/RECORD,,
