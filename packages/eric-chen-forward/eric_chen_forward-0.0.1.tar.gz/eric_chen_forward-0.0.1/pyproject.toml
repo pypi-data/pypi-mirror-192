@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eric_chen_forward"
+version = "0.0.1"
+authors = [
+  { name="Eric Chen", email="ezchen2556@gmail.com" },
+]
+description = "Classifier for institution and scholar data"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ezrc2/eric_chen_forward"
