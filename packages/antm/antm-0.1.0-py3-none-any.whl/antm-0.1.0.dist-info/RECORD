@@ -1,0 +1,16 @@
+antm/__init__.py,sha256=oWqGeHm14fj48APTgI1mxjwgrBMwdPKO0841sXL-u9c,24
+antm/aligned_clustering_layer.py,sha256=8GNPn0SZTyxg9dmZZndF5mgigPSOyAK6eyU1ndhR4Fs,5119
+antm/cm.py,sha256=OHWji3rrg6JKlwSLaSf_TtTx6KZOdoMXNIAHcRkBFtY,343
+antm/contextual_embedding_layer.py,sha256=l9uQk-n8KctltkUOmX_JjoWlPTU-4F59SAc32fJz7Fs,386
+antm/ctfidf.py,sha256=y1b-gBDYu-n-UFJDF27uO3fYCd13mP1rrZDa-vPUKgs,2700
+antm/data2vec.py,sha256=GYOK1MxVBwlCd-BFlBATQjuC7yHTwvqN9-vgGjtD_E0,1285
+antm/diversity_metrics.py,sha256=9CzN9F_XA3ppFF_Q4ah6wIKJ6Rc4N4GLXs1OqSTo0Gg,1183
+antm/main.py,sha256=Y9wPPhCEWYdyTTc-DRYEVNEZUfEFhxHu6UF5eNgji4U,12222
+antm/sws.py,sha256=cjVlj6o_tXjK3ykbqxEfqjqL_j3P9O9rkbahn7yiQEE,2095
+antm/text_processing.py,sha256=sEHJo8ZrYXK76mvcW2dUlJHkJQQwQq2N5q2yVLLvVxE,1762
+antm/topic_representation_layer.py,sha256=YPRkmq0VHQx8KnVdyPjpWQvmJpTPnywnj19xzXJxTwA,1925
+antm-0.1.0.dist-info/LICENSE,sha256=do4DWNy8RRO7FyTZloQGe_-FKoXaoN1MPHqLveNtz5c,1068
+antm-0.1.0.dist-info/METADATA,sha256=B0poay-NUKthb-xvTGsFuWmxcDXECBLQPygElN5T7CE,5561
+antm-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+antm-0.1.0.dist-info/top_level.txt,sha256=0bxJT6OXP1NJUWOx5Gj9IYfTDVlczY-regX-YpM-blI,5
+antm-0.1.0.dist-info/RECORD,,
