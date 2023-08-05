@@ -1,0 +1,8 @@
+musiclm_pytorch/__init__.py,sha256=1b_YFNpdzp7-W970hZ7dieJIX3eE9WBdmoVPpv9RJrM,220
+musiclm_pytorch/musiclm_pytorch.py,sha256=admYahYkzMTCVrl70J1bFp1LIYugsP64SthYBYthvtU,19206
+musiclm_pytorch/trainer.py,sha256=-x0W3jjKHN0UG8QQncS_2CnZMwMjoUCYsUjnUX0CB8E,9784
+musiclm_pytorch-0.0.25.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+musiclm_pytorch-0.0.25.dist-info/METADATA,sha256=4pMxcfQelSs8WWyD8B61uRYvnBppGA-oqJKQK7Ar6cU,937
+musiclm_pytorch-0.0.25.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+musiclm_pytorch-0.0.25.dist-info/top_level.txt,sha256=L9YE3hANjTrirMjB0onOMa-kYhcK4gjacLc4ER26eA0,16
+musiclm_pytorch-0.0.25.dist-info/RECORD,,
