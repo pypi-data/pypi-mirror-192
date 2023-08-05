@@ -1,0 +1,7 @@
+selenium-recaptcha-solver
+selenium-stealth
+selenium
+cloudscraper
+pandas
+pyotp
+bs4
