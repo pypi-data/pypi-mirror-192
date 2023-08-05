@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: devopspipelinepoc
+Version: 0.1.7
+Summary: POC in command line packages using python
+Home-page: https://github.com/PuneetUdhayanGraphene/devops-pipeline-poc
+Author: Puneet Udhayan
+Author-email: puneetudhayan@gmail.com
+License: MIT
+Description: POC in command line packages using python
+Keywords: python package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

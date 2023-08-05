@@ -1,0 +1,15 @@
+README.md
+setup.py
+devopspipelinepoc/__init__.py
+devopspipelinepoc/main.py
+devopspipelinepoc.egg-info/PKG-INFO
+devopspipelinepoc.egg-info/SOURCES.txt
+devopspipelinepoc.egg-info/dependency_links.txt
+devopspipelinepoc.egg-info/entry_points.txt
+devopspipelinepoc.egg-info/not-zip-safe
+devopspipelinepoc.egg-info/requires.txt
+devopspipelinepoc.egg-info/top_level.txt
+devopspipelinepoc/data/data_output_worker.txt
+devopspipelinepoc/data/path_output_worker.txt
+devopspipelinepoc/data/scrapy_dockerfile.txt
+devopspipelinepoc/data/selenium_dockerfile.txt

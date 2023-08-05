@@ -1,0 +1,5 @@
+# Data output worker
+import time
+
+print("Data output worker started")
+time.sleep(1000)
