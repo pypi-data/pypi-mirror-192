@@ -1,0 +1,10 @@
+README.md
+setup.py
+ColorBurst/ColorBurst.py
+ColorBurst/LISCENCE.md
+ColorBurst/__init__.py
+ColorBurst/test.py
+ColorFull_ColorBurst.egg-info/PKG-INFO
+ColorFull_ColorBurst.egg-info/SOURCES.txt
+ColorFull_ColorBurst.egg-info/dependency_links.txt
+ColorFull_ColorBurst.egg-info/top_level.txt
