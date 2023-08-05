@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+rasoolpdf/__init__.py
+rasoolpdf/pdf2text.py
+rasoolpdf.egg-info/PKG-INFO
+rasoolpdf.egg-info/SOURCES.txt
+rasoolpdf.egg-info/dependency_links.txt
+rasoolpdf.egg-info/top_level.txt
