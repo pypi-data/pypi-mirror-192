@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: quickmacapp
+Version: 2023.2.15.2
+Summary: Make it easier to write Mac apps in Python
+License-File: LICENSE
+Requires-Dist: pyobjc-framework-Cocoa
+Requires-Dist: pyobjc-framework-ExceptionHandling
+Requires-Dist: pyobjc-framework-UserNotifications
+Requires-Dist: twisted[macos_platform,tls]
+
