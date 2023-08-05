@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pyusername/__init__.py
+src/pyusername/generate_username.py
+src/pyusername.egg-info/PKG-INFO
+src/pyusername.egg-info/SOURCES.txt
+src/pyusername.egg-info/dependency_links.txt
+src/pyusername.egg-info/top_level.txt
+tests/test_generate_username.py
