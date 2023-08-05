@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: ysphotutilpy
+Version: 0.0.2.dev0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Yoonsoo P. Bach
+Author-email: dbstn95@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
