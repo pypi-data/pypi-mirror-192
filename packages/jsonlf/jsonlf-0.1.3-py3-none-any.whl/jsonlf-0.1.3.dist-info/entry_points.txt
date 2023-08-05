@@ -1,0 +1,3 @@
+[console_scripts]
+jsonlf=jsonlf.main:main
+
