@@ -1,0 +1,11 @@
+mousipy/__init__.py,sha256=uSEAJfX_acQCjaWWOlQvKsnPnfwYzOnENMR7yckIeTI,93
+mousipy/mousipy.py,sha256=jZnoVeNRvdwWacvofYll6zPZo2oGbnlCdwBL2nq7w64,10201
+mousipy/biomart/human_to_mouse_biomart_export.csv,sha256=NP3_7c6adOUWDR8HYiEpYsbx0umMgq0gaKKSFmfvKKs,2499142
+mousipy/biomart/mouse_to_human_biomart_export.csv,sha256=zJKTTyNIKrtI6YU_N8Bie41WhNSIKcmEFbvGYOReC0s,2387385
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/main_test.py,sha256=P4_U4OIex8xd_OmJTNAPeBlnKflcfJ2kxA_pk5RYIZM,1197
+mousipy-0.1.3.dist-info/LICENSE,sha256=TlW-a_xjAL_BGeihb-dvwH4ZFb5QIDy_4cSuaZfxifs,1070
+mousipy-0.1.3.dist-info/METADATA,sha256=g5wbunCNQE7Zk1hy1vSPqn4U4Inp9vCrVvIpYoHUdmg,3185
+mousipy-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mousipy-0.1.3.dist-info/top_level.txt,sha256=MzhR1IG-eVIXl3HQpgERwi-GursK1YOiBRpdDA6Ave0,14
+mousipy-0.1.3.dist-info/RECORD,,
