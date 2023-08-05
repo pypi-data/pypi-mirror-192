@@ -1,0 +1,11 @@
+pydatabasecli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydatabasecli/cli.py,sha256=PU_4ItHX5EmdobrbA4TsViNk5IJ6GL255HMiY1heTJQ,8571
+pydatabasecli/const.py,sha256=yEY8Orx8qMBvx5QmUn2YgRbC-UygmOYYqQo0zw_8dW0,933
+pydatabasecli/db.py,sha256=WXfbqutVhENixSvxFNxz1gTLBOldhRQAoR34UpFUz9A,683
+pydatabasecli/exceptions.py,sha256=XovvhEBx4DqVXlZPNBL_GAQJE5sMbZnFK_qxRb6vCVo,115
+py_database_cli-0.1.0.dist-info/LICENSE,sha256=BKL0ssS9qCkluU9vwppPxTwPp-tj5JDvD5v4-QaWp4I,1096
+py_database_cli-0.1.0.dist-info/METADATA,sha256=niTBbF_FlgPhZaUh15sBptKRohaCC4iua8A1cRTWBuI,690
+py_database_cli-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+py_database_cli-0.1.0.dist-info/entry_points.txt,sha256=gdWqjQJy3TzsvxRnrhRSicnzNXWbZrT5Oiv7rZngn0k,50
+py_database_cli-0.1.0.dist-info/top_level.txt,sha256=F7alB26iKu-OA2xoPYeiQulYu3yPHcx_iuqqBO5Ng5Y,14
+py_database_cli-0.1.0.dist-info/RECORD,,
