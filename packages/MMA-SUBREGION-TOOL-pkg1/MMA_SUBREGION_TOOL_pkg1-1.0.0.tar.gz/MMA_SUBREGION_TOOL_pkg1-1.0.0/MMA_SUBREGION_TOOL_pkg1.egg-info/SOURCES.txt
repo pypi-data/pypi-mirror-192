@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+MMA_SUBREGION_TOOL_pkg1/__init__.py
+MMA_SUBREGION_TOOL_pkg1/test.py
+MMA_SUBREGION_TOOL_pkg1.egg-info/PKG-INFO
+MMA_SUBREGION_TOOL_pkg1.egg-info/SOURCES.txt
+MMA_SUBREGION_TOOL_pkg1.egg-info/dependency_links.txt
+MMA_SUBREGION_TOOL_pkg1.egg-info/top_level.txt
