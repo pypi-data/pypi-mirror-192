@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pyusername
+Version: 0.1
+Summary: A package for generating usernames based on names
+Home-page: https://github.com/axelrothing/py-username/tree/main
+Author: Axel Rothing
+Author-email: axelrothing@icloud.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# py-username
+A python package for creating usernames based on first name and last name
+```
+pip install pyusername
+```
+here is how it works:
+
+the function is called by using pyusername.generate(first_name, last_name)
+it takes 2 obligatory parameters that are the first name and last name, both need to be strings
+the first name and last name will automatically become lowercase
+in the end of the username it will add 3 random numbers, you can set the numbers parameter to False to not add numbers
+based on the parameters it generates a username, example: first name = axel, last name = rothing, output = axrol002
+
+## Example of use
+```
+import pyusername
+
+names_data = [("Axel", "Rothing"), ("Rick", "Anderson"), ("Alex", "Stone")]
+
+for data in names_data:
+    username = pyusername.generate(first_name=data[0], last_name=data[1], numbers=True)
+    print(f"name: {data[0], data[1]}, username: {username}")
+```
