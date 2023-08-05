@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: tdprepview
+Version: 0.1.0
+Summary: Python Package that creates Data Preparation Pipeline in Teradata-SQL in Views
+Author: Martin Hillebrand
+Author-email: martin.hillebrand@teradata.com
+Keywords: tdprepview,teradata,database,preprocessing,data engineering,data science
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+==========
+tdprepview
+==========
+
+
+Python Package that creates Data Preparation Pipeline in Teradata-SQL in Views
+
+Installation
+--------------
+
+* pip install tdprepview
+
+Features
+-----------
+
+* Pipeline class that allows creating in-DB preprocessing pipelines
+* Several Preprocessor functions
+* API similar to sklearn_pandas.DataFrameMapper
+
+Credits
+-----------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=========
+History
+=========
+
+0.1.0 (2023-02-15)
+------------------------
+
+added
+^^^^^^^^^^^^^^^^^^^
+
+* First release on PyPI.
+* Pipeline with fit and transform functions
+* Preprocessor Functions
+    * Impute
+    * ImputeText
+    * TryCast
+    * Scale
+    * CutOff
+    * FixedWidthBinning
+    * ThresholdBinarizer
+    * ListBinarizer
+    * VariableWidthBinning
+    * LabelEncoder
+    * CustomTransformer
+* Notebooks for tests
+* Demo Notebook
+
