@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ops-scenario
+Version: 2.1.2.1
+Summary: Python library providing a Scenario-based testing API for Operator Framework charms.
+Author-email: Pietro Pasotti <pietro.pasotti@canonical.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/PietroPasotti/ops-scenario
+Project-URL: Bug Tracker, https://github.com/PietroPasotti/ops-scenario/issues
+Keywords: juju,test
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+THIS REPO IS BEING MIGRATED TO https://github.com/canonical/ops-scenario
+After the currently open PRs are closed, this repo will be euthanized. Don't open new issues/PRs in here.
