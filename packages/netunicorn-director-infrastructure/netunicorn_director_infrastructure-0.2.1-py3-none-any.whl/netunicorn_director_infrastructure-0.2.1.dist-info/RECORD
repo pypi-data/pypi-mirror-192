@@ -1,0 +1,16 @@
+netunicorn/director/infrastructure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netunicorn/director/infrastructure/__main__.py,sha256=DO65tCGbTevLB5dLritqr1-_lR1KZRbD_Np8WhfedIU,415
+netunicorn/director/infrastructure/kernel.py,sha256=ngnPiqgHEpf6yEaaYbd4KKLqx1JDM5bEG5HQ6HWe2iY,19446
+netunicorn/director/infrastructure/server.py,sha256=23stvAWj8JSkm-LXidvVmHNWLQZCv1iMFoZCPbK1fdc,3021
+netunicorn/director/infrastructure/connectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netunicorn/director/infrastructure/connectors/dummy.py,sha256=j0LnUhupqSfgrSwaaUYTBr9S2xiyB9uqZcz8F2GR2MM,2690
+netunicorn/director/infrastructure/connectors/protocol.py,sha256=J8FgA4Xz3TohSqDHbxGmFkFz-Z0dygFMXZ8cKXlDptM,4364
+netunicorn/director/infrastructure/connectors/types.py,sha256=hu0y_pi0nXTlNEfoBWRVK_C-iJW8hbFumckBKWfOzIM,109
+netunicorn/director/infrastructure/connectors/rest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+netunicorn/director/infrastructure/connectors/rest/simple_rest.py,sha256=PGdVMwMkeHA7J_aZMVI5Aafx-zhH9LS4yEGUZ6hWOqw,4450
+netunicorn/director/infrastructure/connectors/rest/simple_rest_server.py,sha256=6B36xOSDsxuhTm_QyaGgC88FYtOlDuK2XuDDEnUKuwg,2938
+netunicorn_director_infrastructure-0.2.1.dist-info/LICENSE,sha256=L8HHdNLmyCFBmg0vimRwHLbxkvHxN2KLDOpjXNpYfNU,1067
+netunicorn_director_infrastructure-0.2.1.dist-info/METADATA,sha256=sPg_TOLVRR00Op_u0QUniq7P01eLCZF-T-jgNp2WzpI,1006
+netunicorn_director_infrastructure-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+netunicorn_director_infrastructure-0.2.1.dist-info/top_level.txt,sha256=XSz-VoRN-G4RG8grlQLx9GLvtfwPux79woTFCALT3gI,11
+netunicorn_director_infrastructure-0.2.1.dist-info/RECORD,,
