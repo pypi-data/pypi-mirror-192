@@ -1,0 +1,5 @@
+poetry_plugin_bump/plugin.py,sha256=A03hycxR_ZkTBvrQXwyiESwkqkuueT4mn5JEjf2AcN4,2333
+poetry_plugin_bump-0.0.6.dist-info/METADATA,sha256=zbPOeSd4TdLiZ3qLW_cH8O_bRqv7Bz9GLvU_LwLOHUg,1525
+poetry_plugin_bump-0.0.6.dist-info/entry_points.txt,sha256=B4Rim8uMDdgqvEyViy6yO2ZopQBIrsF78sV4Q04UnAg,71
+poetry_plugin_bump-0.0.6.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+poetry_plugin_bump-0.0.6.dist-info/RECORD,,
