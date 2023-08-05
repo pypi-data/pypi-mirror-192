@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: SpatialTools
+Version: 2.1.15
+Summary: spatial tools for S1000
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Requires-Dist: numpy (>=1.23.0)
+Requires-Dist: pandas (>=1.4.3)
+Requires-Dist: Pillow (>=9.2.0)
+Requires-Dist: anndata (>=0.8.0)
+Requires-Dist: kiwisolver (>=1.4.4)
+Requires-Dist: pyzmq (>=23.2.1)
+Requires-Dist: scipy (>=1.9.1)
+Requires-Dist: scanpy (>=1.9.1)
+Requires-Dist: dash (>=2.6.0)
+Requires-Dist: dash-bootstrap-components (>=1.2.0)
+Requires-Dist: dash-core-components (>=2.0.0)
+Requires-Dist: dash-daq (>=0.5.0)
+Requires-Dist: dash-html-components (>=2.0.0)
+Requires-Dist: dash-table (>=5.0.0)
+Requires-Dist: jupyter-dash (>=0.4.2)
+Requires-Dist: matplotlib (>=3.6.0)
+Requires-Dist: matplotlib-inline (>=0.1.6)
+Requires-Dist: plotly (>=5.10.0)
+Requires-Dist: jsonpickle (>=3.0.0)
+Requires-Dist: pickleshare (>=0.7.5)
+Requires-Dist: seaborn (>=0.12.0)
+Requires-Dist: dash-uploader (==0.7.0a1)
+Requires-Dist: packaging (==21.3.0)
+Requires-Dist: louvain (>=0.8.0)
+Requires-Dist: leidenalg (>=0.9.0)
+Requires-Dist: igraph (>=0.10.1)
+
+UNKNOWN
+
