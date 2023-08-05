@@ -1,0 +1,4 @@
+[console_scripts]
+cuzzy=powerflow.main:cli
+powerflow=powerflow.main:cli
+
