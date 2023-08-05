@@ -1,0 +1,1 @@
+from .compiled.hidemysrc import crypter, ex
