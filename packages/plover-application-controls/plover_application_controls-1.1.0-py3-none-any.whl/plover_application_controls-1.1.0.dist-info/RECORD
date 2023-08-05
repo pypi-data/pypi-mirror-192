@@ -1,0 +1,14 @@
+plover_application_controls/__init__.py,sha256=Vxyp-S6PYSl240fsW9kYyQou9eAe2D5lN4e0Dtk20Jw,216
+plover_application_controls/command.py,sha256=eSmbK723MLf7lLhhyk5xEuFzYuOmsSv4M44NHpWexZw,2232
+plover_application_controls/extension.py,sha256=ZwPv35egwmXF-15jM9f6Zd7j3LS8Put2zU-w-Gj3of4,715
+plover_application_controls/fake_tk.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plover_application_controls/meta.py,sha256=QLi4wZWh9YlZNToYS0KU9RRLbzoEKBK_FigN1bCbAwE,389
+plover_application_controls/window_details.py,sha256=E5GSYNMicIxHlAyHZ-6HmJhxRvzKq0pYRUjMnkBlRBg,511
+plover_application_controls/window_tracker.py,sha256=zwIJqBq00gEx937ETuIEL1dwziuQj1LZNx4muVXC8Og,3229
+plover_application_controls-1.1.0.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+plover_application_controls-1.1.0.dist-info/METADATA,sha256=iT54lyROXbrHg7gnhsmz5VSKr7VynxvHaUNji5mDa50,3294
+plover_application_controls-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+plover_application_controls-1.1.0.dist-info/entry_points.txt,sha256=vmtAGJv6Vrzd0asD47yoO0mb2P7OrHefX0eOr31pv3c,246
+plover_application_controls-1.1.0.dist-info/top_level.txt,sha256=Z7JjMfW7CHX77MBNn7dYRBdLr28r6ssYGe3lXrRMF3k,28
+plover_application_controls-1.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plover_application_controls-1.1.0.dist-info/RECORD,,
