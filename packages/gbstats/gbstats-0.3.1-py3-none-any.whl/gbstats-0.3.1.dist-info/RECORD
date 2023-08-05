@@ -1,0 +1,17 @@
+gbstats/__init__.py,sha256=XV041MYAV_WIytOiAB3hUzsY3kS_2EL4N2tW-K0Ybjw,69
+gbstats/bayesian/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gbstats/bayesian/constants.py,sha256=QeaQICJVzE5xy6hUk8Bb6u0m56DLe7z9IYN6F2acVRY,55
+gbstats/bayesian/dists.py,sha256=6kPS8RmUNsACZ9q2gV8xDoAqhkHOL5MMEt_4bxZFV1Y,3943
+gbstats/bayesian/orthogonal.py,sha256=J0UvpWMYfHoGPgRtszSr-7yi4xr0JgInUFPc_wQ5fM0,2535
+gbstats/bayesian/tests.py,sha256=aLkmN-igPSH5Xi4EI2HveVW2gth1cst9YrTquQd_VKQ,5601
+gbstats/frequentist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gbstats/frequentist/tests.py,sha256=SNC0TErlP8bOAf0FbO5G009-FPZLi0ubcm-FqNHflzo,4034
+gbstats/gbstats.py,sha256=rXc08MS-2_oPvwk7g7rg3FXF-NghwetteUyUjiOU160,11976
+gbstats/gen_notebook.py,sha256=czHBicNPAn01GZdwkMHbuEcboqpwSzep7b-z_hkQbC8,6692
+gbstats/shared/constants.py,sha256=gDLNfdE66e0scopb8DaiFjc_akaJ1b1v1WFp9fHCxEY,107
+gbstats/shared/models.py,sha256=-kW8iLYpj8DusEsS4GkA41VdTy5rlTXaTpKeGF91XcE,737
+gbstats/shared/tests.py,sha256=9jo_sbMrIGK5J1JCYZPLga1g7LustttueRV_kGNQamM,380
+gbstats-0.3.1.dist-info/LICENSE,sha256=ATD3miu8CrbHYjyXv4rjNqMY_UYMKyOy2cbC71Mkf6k,1075
+gbstats-0.3.1.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+gbstats-0.3.1.dist-info/METADATA,sha256=9ELQJOiTaT1XO7GaJ-EGfQre51h9WnVAwemJlfM6DPM,1089
+gbstats-0.3.1.dist-info/RECORD,,
