@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyxdelta.c
+setup.py
+pyxdelta.egg-info/PKG-INFO
+pyxdelta.egg-info/SOURCES.txt
+pyxdelta.egg-info/dependency_links.txt
+pyxdelta.egg-info/top_level.txt
