@@ -1,0 +1,93 @@
+[tool.poetry]
+name = "basi"
+version = "0.6.3"
+description = "Distributed tasks and signals"
+authors = ["David Kyalo <davidmkyalo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/davidkyalo/basi"
+documentation = "https://davidkyalo.github.io/basi"
+keywords = [
+    "Celery"
+]
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+packages = [{ include = "basi" }]
+
+[build-system]
+requires = [
+    "poetry-core>=1.0.0", 
+]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+celery = "^5.2.7"
+typing-extensions = "^4.1.1"
+attrs = ">=21.4.0"
+blinker = "^1.4"
+Django = "*"
+celery-types = "^0.14.0"
+
+
+
+[tool.poetry.group.test]
+optional = true
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.0"
+pytest-celery = "^0.0.0"
+pytest-cov = {version = "^4.0.0", extras = ["toml"]}
+redis = "^4.3.4"
+fakeredis = {version = "^2.2.0", extras = ["lua"]}
+
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "*"
+mkdocs-material = "*"
+mike = "*"
+mkdocstrings = {version = "*", extras = ["python"]}
+
+
+[tool.poetry.group.dev]
+optional = true
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+
+
+
+[tool.pytest.ini_options]
+addopts = "--showlocals --cov=basi --cov-report html --cov-config pyproject.toml"
+asyncio_mode="auto"
+xfail_strict= "True"
+
+log_level = "DEBUG"
+
+python_files = "tests.py test_*.py *_test.py *_tests.py"
+python_classes = "*Test *Tests test_* *_test *_tests Test_* *_Test *_Tests"
+python_functions = "*_test test_*"
+
+
+[tool.coverage.report]
+# Here we specify plugins for coverage to be used:
+exclude_lines = [
+    "pragma: no cover",
+    "^\\s*pass\\s*$",
+    "^\\s*\\.\\.\\.\\s*$",
+    "raise NotImplementedError",
+    "if\\s+([a-zA-Z0-9_]+\\.)?TYPE_CHECKING",
+    "class .*\\bProtocol\\):",
+    "@(abc\\.)?abstractmethod",
+]
+
+
+
