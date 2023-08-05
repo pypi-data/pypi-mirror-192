@@ -1,0 +1,16 @@
+__pycache__/
+.cache/
+.coverage
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.buildconfig
+.eggs/
+dist/
+build/
+*.save/
+tmp*
+log*
+tags
+dev/
+bak/
