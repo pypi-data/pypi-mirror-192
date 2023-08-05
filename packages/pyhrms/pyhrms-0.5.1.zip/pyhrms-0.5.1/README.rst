@@ -1,0 +1,86 @@
+  
+  
+PyHRMS: Tools For working with High Resolution Mass Spectrometry (HRMS) data in Environmental Science  
+=====================================================================================================
+  
+  
+PyHRMS is a python package for processing  high resolution Mass Spectrometry data coupled with gas
+chromatogram (GC) or liquid chromatogram (LC).
+  
+It aims to provide user friendly tool to read,  process and visualize LC/GC-HRMS data for  scientist.
+  
+Contributers: Rui Wang  
+======================
+First release date: Nov.15.2021
+  
+Update
+======
+Jan.15.2023: pyhrms 0.5.01 new features:
+
+    * optimize algorithm
+
+    * add function to process SWATH data
+
+Installation & major dependencies  
+pyhrms can be installed and import as following:  
+
+```
+pip install pyhrms  
+```
+
+If you just want to update a new version, please update as following:
+
+```
+pip install pyhrms -U
+```
+
+
+pyhrms requires major dependencies: 
+===================================
+
+* numpy>=1.19.2
+
+* pandas>1.3.3
+
+* matplotlib>=3.3.2
+
+* pymzml>=2.4.7
+
+* scipy>=1.6.2
+
+* molmass>=2021.6.18
+
+* tqdm>=4.62.3
+
+Features 
+========
+PyHRMS provides following functions:  
+
+* Read raw LC/GC-HRMS data in mzML format;  
+* Powerful and accurate peak picking function for LC/GC HRMS;  
+* retention time (rt) and mass over Z stands for charge number of ions (m/z) will be aligned based on user defined error range.  
+* Accurate function for comparing response between/among two or more samples;  
+* Covert profile data to centroid  
+* Parallel computing to improve efficiency;  
+* Interactive visualizations of raw mzML data;  
+* Supporting searching for Local database and massbank;  
+* MS quality evaluation for ms data in profile.  
+* Can process SWATH data.
+
+
+Paper Published Utilizing PyHRMS
+================================
+* Jiang, X., Xue, Z., Chen, W., Xu, M., Liu, H., Liang, J., Zhang, L., Sun, Y., Liu, C., Yang, X., 2023. Biotransformation kinetics and pathways of typical synthetic progestins in soil microcosms. Journal of Hazardous Materials 446, 130684. https://doi.org/10.1016/j.jhazmat.2022.130684
+
+* Liang, J., Wang, R., Liu, H., Xie, D., Tao, X., Zhou, J., Yin, H., Dang, Z., Lu, G., 2022. Unintentional formation of mixed chloro-bromo diphenyl ethers (PBCDEs), dibenzo-p-dioxins and dibenzofurans (PBCDD/Fs) from pyrolysis of polybrominated diphenyl ethers (PBDEs). Chemosphere 308, 136246. https://doi.org/10.1016/j.chemosphere.2022.136246
+
+* Xia, D., Liu, H., Lu, Y., Liu, Y., Liang, J., Xie, D., Lu, G., Qiu, J., Wang, R., 2023. Utility of a non-target screening method to explore the chlorination of similar sulfonamide antibiotics: Pathways and N Cl intermediates. Science of The Total Environment 858, 160042. https://doi.org/10.1016/j.scitotenv.2022.160042
+
+* Yang, X., Wang, R., He, Z., 2023. Abiotic transformation of synthetic progestins in representative soil mineral suspension. Journal of Environmental Science 127, 375-388. https://doi.org/10.1016/j.jes.2022.06.007
+
+
+
+Licensing
+=========
+
+The package is open source and can be utilized under MIT license. Please find the detail in licence file.
