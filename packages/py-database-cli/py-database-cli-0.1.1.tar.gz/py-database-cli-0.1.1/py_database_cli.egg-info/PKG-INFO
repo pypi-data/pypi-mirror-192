@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py-database-cli
+Version: 0.1.1
+Summary: Commandline tool for basic database CRUD operations which is (mostly) back-end agnostic.
+Home-page: https://github.com/ricekab/py-database-cli
+Author: Kevin CY Tang
+Author-email: contact@kevinchiyantang.com
+License: MIT
+Keywords: sqlalchemy cli commandline interface database db crud inspect
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
