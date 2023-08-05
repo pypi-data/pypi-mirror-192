@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: PySubdiv
+Version: 0.0.0
+Summary: An Open-source, Python-based software for fitting subdivision surfaces
+Home-page: 
+Author: Simon Bernard,  S. Mohammad Moulaeifard, Mosaku Adeniyi
+Author-email: simon.bernard@rwth-aachen.de, Mohammad.Moulaeifard@cgre.rwth-aachen.de, adeniyi.mosaku@rwth-aachen.d
+License: GNU
+License-File: LICENSE
+
+file : README.md
