@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gse-alcli
+Version: 0.0.1
+Summary: CLI For GSE Algorithm Lab
+Home-page: https://github.com/braum
+Author: braum
+Author-email: braum@52g.team
+License: MIT
+Requires-Python: >=3
+
