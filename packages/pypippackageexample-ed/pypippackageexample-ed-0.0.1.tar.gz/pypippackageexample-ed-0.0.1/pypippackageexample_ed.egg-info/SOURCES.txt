@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+economypackage/__init__.py
+economypackage/mathseconomy/__init__.py
+economypackage/mathseconomy/mymathsUtils.py
+pypippackageexample_ed.egg-info/PKG-INFO
+pypippackageexample_ed.egg-info/SOURCES.txt
+pypippackageexample_ed.egg-info/dependency_links.txt
+pypippackageexample_ed.egg-info/top_level.txt
