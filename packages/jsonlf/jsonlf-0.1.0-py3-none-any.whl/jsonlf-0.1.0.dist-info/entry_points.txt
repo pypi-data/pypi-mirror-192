@@ -1,0 +1,3 @@
+[console_scripts]
+gstui=jsonlf.main:main
+
