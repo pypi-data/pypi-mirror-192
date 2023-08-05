@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: jsonlf
+Version: 0.1.2
+Summary: Pretty print a stream of json lines. You can pipe any command that is logging jsonl into this. If the line is not a json it will print as it is.
+License: MIT
+Author: Matheus Fillipe
+Author-email: matheusfillipeag@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Pygments (>=2.14.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+[![Pypi](https://badge.fury.io/py/jsonlf.svg)](https://pypi.org/project/jsonlf/)
+
+# jsonlf
+
+This is a json line formarter. It expects a valid json on stdin and outputs it pretty-printed and uses [pygments](https://pygments.org) for highlighting. It will also attempt to format python tracebacks.
+
+## Installation
+
+```sh
+pip install jsonlf
+```
+
+## Usage
+
+```sh
+some_command_that_logs_json_lines | jsonlf
+```
+
+You can use pygments styles listed here: https://pygments.org/styles/
+Just pass their names as the first argument. Example:
+
+
+```sh
+some_command_that_logs_json_lines | jsonlf emacs
+```
+
