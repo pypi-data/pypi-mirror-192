@@ -1,0 +1,8 @@
+mosaik/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosaik/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosaik/components/influxdb2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mosaik/components/influxdb2/writer.py,sha256=Lzig8JiaGBeSJACTd80JPfwBaMW2lXJxG1bMm6_1d-E,4942
+mosaik_influxdb2-0.2.0.dist-info/LICENSE,sha256=qe7D6iBB624o-ANgbCErkYr6TfwXbNHMI78LB-an8m4,1067
+mosaik_influxdb2-0.2.0.dist-info/METADATA,sha256=pvKk_U10l8S1VERxAUxWHN2gXb9Xy1yxrxw_biaY55I,2894
+mosaik_influxdb2-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+mosaik_influxdb2-0.2.0.dist-info/RECORD,,
