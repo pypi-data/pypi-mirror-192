@@ -1,0 +1,8 @@
+pysegmenters_pysdb/__init__.py,sha256=GCSPA0Y-vSZyCk9SJWcCIvs3O3uxJ61wMcX59ow2f_w,50
+pysegmenters_pysdb/pysbd_sentencizer.py,sha256=DE84m1U31GC33f9YHXLm4SKq4mmyRrjVm4FHTRF0Eq0,1255
+pysegmenters_pysdb/pysdb_segmenter.py,sha256=eYXWZM6pXNiBPy_rfOev16fe20GJBjq7v3mSV30HKXI,5378
+pysegmenters_pysdb-0.5.63.dist-info/entry_points.txt,sha256=XKOPMOLo3lybwNEjRLDIILCVfESf9hU3jKAa48b7ix8,80
+pysegmenters_pysdb-0.5.63.dist-info/LICENSE,sha256=QPypQEap7i1K1jF4X_JOx3MvFyVupJe4-rr6h2DuXME,1082
+pysegmenters_pysdb-0.5.63.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pysegmenters_pysdb-0.5.63.dist-info/METADATA,sha256=oofJG8BqUeIAkclAwXfZ1Yxh9qp71tFfMM75_vswWsE,3200
+pysegmenters_pysdb-0.5.63.dist-info/RECORD,,
