@@ -1,0 +1,30 @@
+[build-system]
+requires=["setuptools>=61.0"]
+build-backend="setuptools.build_meta"
+
+[project]
+name="gopro-sync"
+version="0.0.11"
+authors=[
+  {name="Moris Doratiotto", email="me@moris.dev"}
+]
+description="A tool to synchronize GoPro videos"
+readme="README.md"
+dependencies=[
+  "colorifix==2.0.4",
+  "tqdm==4.64.1"
+]
+keywords = ["gopro", "video", "sync"]
+license={file="LICENSE"}
+requires-python=">=3.8"
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+gopro-sync="gopro_sync.synchronizer:main"
+
+[project.urls]
+"Homepage"="https://github.com/Mortafix/GoPro_Synchronize"
