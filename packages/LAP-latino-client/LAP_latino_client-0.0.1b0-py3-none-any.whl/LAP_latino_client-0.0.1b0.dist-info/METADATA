@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: LAP-latino-client
+Version: 0.0.1b0
+Summary: Administrador de paquetes de latino (LAP)
+Home-page: UNKNOWN
+Author: Alvaro Martinez
+Author-email: <alvarom12098@gmail.com>
+License: UNKNOWN
+Keywords: python,LAP,latino lenguaje de programacion
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+Este es el administrador de paquetes o modulos del lenguage de programacion latino
+
+
