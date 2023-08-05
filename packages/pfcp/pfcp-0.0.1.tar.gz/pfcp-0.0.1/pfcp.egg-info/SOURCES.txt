@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+FCPpk/FCP.py
+FCPpk/__init__.py
+FCPpk/cli.py
+FCPpk/consts.py
+pfcp.egg-info/PKG-INFO
+pfcp.egg-info/SOURCES.txt
+pfcp.egg-info/dependency_links.txt
+pfcp.egg-info/entry_points.txt
+pfcp.egg-info/requires.txt
+pfcp.egg-info/top_level.txt
