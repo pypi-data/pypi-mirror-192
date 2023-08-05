@@ -1,0 +1,8 @@
+setup.py
+simpleAudioSetup/__init__.py
+simpleAudioSetup/audioConfig.py
+simpleAudioSetup.egg-info/PKG-INFO
+simpleAudioSetup.egg-info/SOURCES.txt
+simpleAudioSetup.egg-info/dependency_links.txt
+simpleAudioSetup.egg-info/requires.txt
+simpleAudioSetup.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+pydub
+ffprobe
+ffmpeg-python
+SpeechRecognition
