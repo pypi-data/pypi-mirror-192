@@ -1,0 +1,12 @@
+simpleWebBrowsing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleWebBrowsing/chromeConfig.py,sha256=4F_uLo-gbGMJu7wfKkAgOZOD_t1NmFrlTu58AwnUTEY,3292
+simpleWebBrowsing/seleniumNew/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleWebBrowsing/seleniumNew/chromeNav.py,sha256=1UwSLQWcvd5oMWRA4_Q369Rcb6SKAo2u8EFeLvQ9FMo,1840
+simpleWebBrowsing/seleniumNew/elementsNav.py,sha256=bhb9j43qHXVMAVVCLfuEbITh-m5vwhfzEJbvSDptoP4,8581
+simpleWebBrowsing/seleniumOld/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleWebBrowsing/seleniumOld/chromeNav.py,sha256=kg0mMiy1t8SwGVJ6oKKDg5oSZxJXMyBtc4eRIasOz3o,1831
+simpleWebBrowsing/seleniumOld/elementsNav.py,sha256=1ahbxGeJdd4ZsoD_jrjjNH0nuqOt8XcZb5RXNYquLFU,8552
+simpleWebBrowsing-0.1.0.dist-info/METADATA,sha256=i6mvGJB0e7CuU_ScSSijohI-uCCMjFbP2bj7WDqhnsU,581
+simpleWebBrowsing-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+simpleWebBrowsing-0.1.0.dist-info/top_level.txt,sha256=E1yJri93dabkn89zJWY9xxNd17I21j4NrqsKJ-k7Lwc,18
+simpleWebBrowsing-0.1.0.dist-info/RECORD,,
