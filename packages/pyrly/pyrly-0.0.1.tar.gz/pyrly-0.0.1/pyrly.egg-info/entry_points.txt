@@ -1,0 +1,2 @@
+[console_scripts]
+pyrly-work = pyrly:main
