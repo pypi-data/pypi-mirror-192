@@ -1,0 +1,3 @@
+[console_scripts]
+devopspipelinepoc = devopspipelinepoc.main:app
+
