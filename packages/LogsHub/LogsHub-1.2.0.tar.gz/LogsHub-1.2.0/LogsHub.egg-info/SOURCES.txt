@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+LogsHub/__init__.py
+LogsHub.egg-info/PKG-INFO
+LogsHub.egg-info/SOURCES.txt
+LogsHub.egg-info/dependency_links.txt
+LogsHub.egg-info/entry_points.txt
+LogsHub.egg-info/requires.txt
+LogsHub.egg-info/top_level.txt
