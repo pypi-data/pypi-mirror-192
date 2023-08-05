@@ -1,0 +1,11 @@
+aigc/__init__.py,sha256=mKxfetLGQ8a4RlOCN21MSGCBoM5mxNSoXf4hliLzhAQ,193
+aigc/aigc.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+aigc/clis/__init__.py,sha256=2Fhn43X8kFP6FpAnnAMiPcdnjUwQaukiIr2uGB6mGAY,279
+aigc/clis/cli.py,sha256=bkNcp-As7TYa0Pjxl5SxLBxfQEIp92nwAKIBtk-tZIo,566
+aigc-2023.2.15.14.18.59.dist-info/AUTHORS.rst,sha256=QdSeb2MHxTx0J1v-x5Dw9UKmV-adgXTJttGBxLNyuok,146
+aigc-2023.2.15.14.18.59.dist-info/LICENSE,sha256=XsB1PpfhIbwdikrnWoaHi_MUWLvaqxuRzK3KnP4OP2Y,1063
+aigc-2023.2.15.14.18.59.dist-info/METADATA,sha256=poFuk4HidxqK67_ENiO5egmh9ScI_dMD_QbQa7OeJqU,1190
+aigc-2023.2.15.14.18.59.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+aigc-2023.2.15.14.18.59.dist-info/entry_points.txt,sha256=8_C6uDf1h_kK-EHbVCxmljxpo6nkV4a9mEfsXQVG32U,44
+aigc-2023.2.15.14.18.59.dist-info/top_level.txt,sha256=xOPYOzztfGpt32UiZ8ZZoyB6hwXdm1RmS_E4QYwmV-U,5
+aigc-2023.2.15.14.18.59.dist-info/RECORD,,
