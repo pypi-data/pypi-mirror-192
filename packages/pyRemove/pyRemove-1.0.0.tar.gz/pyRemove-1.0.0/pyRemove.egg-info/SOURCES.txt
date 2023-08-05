@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pyRemove/__init__.py
+pyRemove/pyRemove.py
+pyRemove.egg-info/PKG-INFO
+pyRemove.egg-info/SOURCES.txt
+pyRemove.egg-info/dependency_links.txt
+pyRemove.egg-info/top_level.txt
