@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+eparkhontos/__init__.py
+eparkhontos/__version__.py
+eparkhontos/eparkhontos.py
+eparkhontos.egg-info/PKG-INFO
+eparkhontos.egg-info/SOURCES.txt
+eparkhontos.egg-info/dependency_links.txt
+eparkhontos.egg-info/top_level.txt
+tests/test_eparkhontos.py
