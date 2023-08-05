@@ -1,0 +1,11 @@
+# Selenium
+FROM python:3.7
+
+ADD requirements.txt requirements.txt
+
+RUN apt update
+RUN pip install -r requirements.txt
+RUN pip install --upgrade graphene-data-extraction --index-url https://dc4quomja6ikmstlmyw4izhyjz6oiw3xy44x3kqw5fsrqkzrfrjq@pkgs.dev.azure.com/GrapheneSVC/_packaging/DataExtraction/pypi/simple/
+ADD . .
+
+ENTRYPOINT ["/start.sh"]
