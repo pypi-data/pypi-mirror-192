@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+magic_key/___init___.py
+magic_key/magics.py
+magic_key/manager.py
+magic_key/memory.py
+magic_key/prompt.txt
+magic_key.egg-info/PKG-INFO
+magic_key.egg-info/SOURCES.txt
+magic_key.egg-info/dependency_links.txt
+magic_key.egg-info/not-zip-safe
+magic_key.egg-info/top_level.txt
