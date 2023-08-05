@@ -1,0 +1,2 @@
+[console_scripts]
+awsmon = awsmon:main
