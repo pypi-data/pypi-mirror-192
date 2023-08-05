@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+MMA_test/__init__.py
+MMA_test/radiomics_features.yaml
+MMA_test/test.py
+MMA_test.egg-info/PKG-INFO
+MMA_test.egg-info/SOURCES.txt
+MMA_test.egg-info/dependency_links.txt
+MMA_test.egg-info/top_level.txt
