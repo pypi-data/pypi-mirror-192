@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+parquet2csv/__init__.py
+parquet2csv/cli.py
+parquet2csv.egg-info/PKG-INFO
+parquet2csv.egg-info/SOURCES.txt
+parquet2csv.egg-info/dependency_links.txt
+parquet2csv.egg-info/entry_points.txt
+parquet2csv.egg-info/requires.txt
+parquet2csv.egg-info/top_level.txt
