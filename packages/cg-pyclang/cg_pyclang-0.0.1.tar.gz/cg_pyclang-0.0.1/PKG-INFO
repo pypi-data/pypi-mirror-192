@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cg-pyclang
+Version: 0.0.1
+Summary: For Doing Clang Things in Python...
+Home-page: https://github.com/ChunkyGrumbler/PyClang
+License: MIT
+Author: ChunkyGrumbler
+Author-email: ChunkyGrumbler@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/ChunkyGrumbler/PyClang
+Description-Content-Type: text/markdown
+
+# PyClang - For Doing Clang Things in Python...
+
+<!-- ToDo -->
+

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cg-pyclang"
+version = "0.0.1"
+description = "For Doing Clang Things in Python..."
+license = "MIT"
+authors = ["ChunkyGrumbler <ChunkyGrumbler@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/ChunkyGrumbler/PyClang"
+classifiers = ["Development Status :: 1 - Planning"]
+packages = [{include = "cg", from = "src"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
