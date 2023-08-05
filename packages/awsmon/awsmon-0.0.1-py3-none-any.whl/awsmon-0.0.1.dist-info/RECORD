@@ -1,0 +1,15 @@
+awsmon/__init__.py,sha256=rNSYNgt6PfMKGFHBV-3G2syp2UyDYRZRFGnsC65Q5UM,36
+awsmon/main.py,sha256=2WJRG7CQTE1_Rh-JkKluQIMhiezxYoiJ4Xp5hN5VJac,654
+awsmon/models/__init__.py,sha256=eB81FwfNKb0kLKGGRig9rmG_uvM-P68RZ-HaXy66I6g,58
+awsmon/models/stack.py,sha256=6kGYRUUiXXUXwilewV8Eyq8TEKeIw7ZHmG9RUhzWhNw,221
+awsmon/models/stacklist.py,sha256=0aOcUa6_j-65lao4g5guzGTXovLt9hz3RmBKTRPA5zw,143
+awsmon/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsmon/services/argument_parser.py,sha256=FXZoANktTwt4PNdAPxp5NYmsQLIs_ujj3t0ZvfidZcQ,330
+awsmon/services/aws_service.py,sha256=Oiwme1NyKA7tD5yQUzsH-XEkNBBjw-BTi1P_y7MegOE,1518
+awsmon/services/cache.py,sha256=tq-QZ27DbGqxApl0i0b8zbfQqzYMtmCOZGYbAyXF2Dk,359
+awsmon/services/notifier.py,sha256=BiyfShMnzZXztN6Aqe9egfsDkkFe2v5nixybN288hy0,403
+awsmon-0.0.1.dist-info/METADATA,sha256=Zmfq6ngrkmhjTAbeywGYx1w4FUAj8KsUa_VKN1TlGo8,565
+awsmon-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+awsmon-0.0.1.dist-info/entry_points.txt,sha256=Qx_WpLIIRlXsFLmkUKezPpv-dHJ1FgXM7EKNsoFDGj0,39
+awsmon-0.0.1.dist-info/top_level.txt,sha256=po1n-pX84i2xbR2G2vSGjWF3gZBHSoDogtr4acWTktM,7
+awsmon-0.0.1.dist-info/RECORD,,
