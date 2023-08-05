@@ -1,0 +1,38 @@
+{
+  "src/lib/components/ThinksDashURLObserver.react.js": {
+    "description": "",
+    "displayName": "ThinksDashUrlObserver",
+    "methods": [
+      {
+        "name": "check",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "pathname": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  }
+}

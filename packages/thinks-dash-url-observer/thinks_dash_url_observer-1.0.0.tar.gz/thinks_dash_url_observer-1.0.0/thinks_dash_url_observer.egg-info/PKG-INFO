@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: thinks-dash-url-observer
+Version: 1.0.0
+Summary: Dash URL Observer Component
+Author: thinkup-sol <s_matsumoto@thinkup-sol.co.jp>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE
