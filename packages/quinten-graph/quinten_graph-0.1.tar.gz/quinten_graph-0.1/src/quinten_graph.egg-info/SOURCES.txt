@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+main.py
+pyproject.toml
+src/quinten_graph/__init__.py
+src/quinten_graph/config.py
+src/quinten_graph/plotting.py
+src/quinten_graph/settings.py
+src/quinten_graph/utils.py
+src/quinten_graph.egg-info/PKG-INFO
+src/quinten_graph.egg-info/SOURCES.txt
+src/quinten_graph.egg-info/dependency_links.txt
+src/quinten_graph.egg-info/requires.txt
+src/quinten_graph.egg-info/top_level.txt

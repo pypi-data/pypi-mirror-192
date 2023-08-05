@@ -1,0 +1,25 @@
+The module quinten_graph provides tools to help:
+- implement harmonized setting with respect to Quinten graphic chart
+- explore data
+- plot graphs for several variable at the same time
+
+The notebook sandbox.ipynb is here to let you play with the tool.
+
+Settings and variables used for the plots are managed through the class QuintenSettings defined in settings.py.
+Plotting functions are defined in plotting.py
+
+doc création package:
+https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56
+
+Tasks:
+- [ ] : prepare few graphs (prévison VS reel), check PBIs, pres projet DSN
+- [ ] : Present the tool during finance meeting on 6th Feb 23, skim over the plots and read through the following questions:
+  - ~~Large color palette to define~~
+  - Font Arial ok ?
+  - Other graphs to add to sandbox
+  - Arrangement (titles, legend, xticks) 
+The objective is to have plots ready to copy and paste in presentations
+- [x]: enlever fond gris seaborn
+- [ ]: palette daltonien
+- [ ]: publier sur QF>packages_internes>  quinten_graph
+- [ ]: étudier possibilité de d'étendre ce concept à PBI
