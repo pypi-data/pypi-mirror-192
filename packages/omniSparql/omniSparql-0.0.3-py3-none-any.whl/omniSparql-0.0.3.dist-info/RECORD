@@ -1,0 +1,10 @@
+omniSparql/__init__.py,sha256=qeRpYia9h_BiTtqlY_EjQXg7M5iTt66jg_7OU7RYICI,73
+omniSparql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omniSparql/queries.py,sha256=zamnnLsiFhQApzFcQmfDd22XakKgF4pp49C6dTgX2ps,949
+omniSparql/sparql.py,sha256=0obZQhxGGAtvqN9NskSMphEbk72iZ1VwGE-HTe-EZis,22605
+omniSparql/utils.py,sha256=PDaXh58HqzYkRzJflSNaYkvFqQWm7BueqCUz1P7R0cg,634
+omniSparql-0.0.3.dist-info/LICENSE,sha256=5PF43cvc3t3aG279EKiX-FfCPfoW3HK6UvUeKAkY-eI,11350
+omniSparql-0.0.3.dist-info/METADATA,sha256=KOrYJde-T7FnsGTql972WEzea34TXeZIh-87Tx-RLlM,3859
+omniSparql-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+omniSparql-0.0.3.dist-info/top_level.txt,sha256=8go0ZqJy-YlI6gmMMUJGHMiHxX60F7h7kbj-7wHPIAk,11
+omniSparql-0.0.3.dist-info/RECORD,,
