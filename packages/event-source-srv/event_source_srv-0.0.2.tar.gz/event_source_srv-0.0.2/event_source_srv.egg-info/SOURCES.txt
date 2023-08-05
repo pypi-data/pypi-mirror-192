@@ -1,0 +1,5 @@
+setup.py
+event_source_srv.egg-info/PKG-INFO
+event_source_srv.egg-info/SOURCES.txt
+event_source_srv.egg-info/dependency_links.txt
+event_source_srv.egg-info/top_level.txt
