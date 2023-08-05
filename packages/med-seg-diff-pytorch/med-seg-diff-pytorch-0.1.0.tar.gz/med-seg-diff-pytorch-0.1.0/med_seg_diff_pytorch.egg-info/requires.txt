@@ -1,0 +1,6 @@
+beartype
+einops
+torch
+tqdm
+accelerate
+wandb
