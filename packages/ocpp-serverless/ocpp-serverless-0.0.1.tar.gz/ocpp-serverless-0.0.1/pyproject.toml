@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ocpp-serverless"
+version = "0.0.1"
+description = "ocpp-serverless provides a framework for implementing highly scalable serverless event-driven server-side support for OCPP protocol with Python."
+authors = ["Ville Kärkkäin <ville.karkkainen@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

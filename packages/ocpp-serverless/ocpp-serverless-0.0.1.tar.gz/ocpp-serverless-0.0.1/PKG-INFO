@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ocpp-serverless
+Version: 0.0.1
+Summary: ocpp-serverless provides a framework for implementing highly scalable serverless event-driven server-side support for OCPP protocol with Python.
+Author: Ville Kärkkäin
+Author-email: ville.karkkainen@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
