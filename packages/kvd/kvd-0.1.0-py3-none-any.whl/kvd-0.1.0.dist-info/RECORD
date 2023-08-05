@@ -1,0 +1,7 @@
+kvd/__init__.py,sha256=wD-PyGluxJNHVriNFyLuEu92HKM-ZZ32Ty0rybT8qvM,85
+kvd/kvstore_client.py,sha256=sLcE9XkID3kJlLatdfnzzQZyxbev_Xww4k9aasUjdo0,12221
+kvd/store.py,sha256=QnJ6SwwSKgYHbRELxHagbT0Kn-Q25SaF0cXJoorCZZI,1731
+kvd-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kvd-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+kvd-0.1.0.dist-info/METADATA,sha256=3VC2DmvhjsUC51nEl9oEqu1I0fsCk7wRv74O3iy2vBs,476
+kvd-0.1.0.dist-info/RECORD,,
