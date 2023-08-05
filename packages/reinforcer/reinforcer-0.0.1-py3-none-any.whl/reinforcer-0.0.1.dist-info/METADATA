@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: reinforcer
+Version: 0.0.1
+Summary: Reinforcement learning
+Author-email: André Storhaug <andr3.storhaug@gmail.com>
+Maintainer-email: André Storhaug <andr3.storhaug@gmail.com>
+Project-URL: Homepage, https://github.com/andstor/reinforcer/
+Project-URL: Tracker, https://github.com/andstor/reinforcer/issues
+Project-URL: Funding, https://github.com/sponsors/andstor
+Project-URL: Source, https://github.com/andstor/reinforcer/
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: tokenizers
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: transformers ; extra == 'dev'
+Requires-Dist: tokenizers ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# reinforcer
