@@ -1,0 +1,11 @@
+promptlayer/__init__.py,sha256=JZzGauo1Ba_dLIx8eXQ-AxyE4NcMNbqv55Ux62E3YbE,269
+promptlayer/promptlayer.py,sha256=tjviIkepUuwvd9nvL58itPTEURswymulj_GLn8dU-lM,1717
+promptlayer/utils.py,sha256=TPMsuCFoKrPhy-Pi7p1fVhHACkzRbqdvFytS0f2-H_s,1110
+promptlayer/langchain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+promptlayer/langchain/llms/__init__.py,sha256=HDyyi-DjRj9-yTJUMs1QeRsHVZv7zBM5_wP-zpTs1aM,26
+promptlayer/langchain/llms/openai.py,sha256=MzXjkinNkIH36UOcmHR4CjwdvstLKPIepsRq8y2CWfY,1100
+tester_sc_pr2-0.1.64.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tester_sc_pr2-0.1.64.dist-info/METADATA,sha256=3TMLJw3SoIGa30DabhpOXbFd9lNYYExbH6oBE8sjtZ8,4143
+tester_sc_pr2-0.1.64.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tester_sc_pr2-0.1.64.dist-info/top_level.txt,sha256=8PCjGjxeYZkQ2Y9zYi6ZeuzcNQ_kt8esp5gI852baqI,12
+tester_sc_pr2-0.1.64.dist-info/RECORD,,
