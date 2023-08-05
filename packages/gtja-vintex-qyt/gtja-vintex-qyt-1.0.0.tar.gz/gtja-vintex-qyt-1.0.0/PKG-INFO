@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: gtja-vintex-qyt
+Version: 1.0.0
+Summary: Python Library for GTJA Vintex QYT
+Home-page: https://github.com/alfred42/gtja-qyt-python-lib
+Author: Liang Shi
+Author-email: shiliang022975@gtjas.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: gtja-vintex-qyt
+Platform: any
