@@ -1,0 +1,5 @@
+[console_scripts]
+price=xtream_diamonds.challenge4.request:post
+server=xtream_diamonds.challenge4.main:main
+train=xtream_diamonds.challenge3.main:main
+
