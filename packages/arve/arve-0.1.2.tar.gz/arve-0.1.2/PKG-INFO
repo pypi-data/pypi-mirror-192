@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: arve
+Version: 0.1.2
+Summary: Analyzing Radial Velocity Elements
+Home-page: https://github.com/almoulla/arve
+Author: Khaled Al Moulla
+Author-email: khaled.almoulla@gmail.com
+License: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
