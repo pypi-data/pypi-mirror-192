@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+Lab2_IA.egg-info/PKG-INFO
+Lab2_IA.egg-info/SOURCES.txt
+Lab2_IA.egg-info/dependency_links.txt
+Lab2_IA.egg-info/requires.txt
+Lab2_IA.egg-info/top_level.txt
+package/RB.py
+package/__init__.py
+package/main_tests.py
+package/toBayes.py
