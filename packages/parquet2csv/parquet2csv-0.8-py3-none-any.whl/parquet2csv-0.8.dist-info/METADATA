@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: parquet2csv
+Version: 0.8
+Summary: No judgment, but I looked this up on StackOverflow twice and decided not to have to look it up the third time
+Home-page: https://chris.partridge.tech/
+Author: Chris Partridge
+Author-email: tweedge-public@partridge.tech
+License: Apache License 2.0
+Project-URL: Source, https://github.com/tweedge/parquet2csv
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (<1.5.3)
+Requires-Dist: pyarrow (<11)
+
+# parquet2csv
+Listen, sometimes you just need a dang CSV file, ok?

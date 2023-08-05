@@ -1,0 +1,8 @@
+parquet2csv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parquet2csv/cli.py,sha256=pgcWhLzjWpVaHluSf4uu7nhKUIyPgsHywUpaQHiTXho,537
+parquet2csv-0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+parquet2csv-0.8.dist-info/METADATA,sha256=qbs3fiMljWyDKZHU-nUVIYFjieF2h0sksOfp8wNGhzs,1095
+parquet2csv-0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+parquet2csv-0.8.dist-info/entry_points.txt,sha256=8W48ePQ8dt1_wox4adOBG10kvalSEjo-8x3hUXfK5Us,53
+parquet2csv-0.8.dist-info/top_level.txt,sha256=bD2A811nm1a290YNTBdgcoG4XFzo_7J63UQ8w0yp1wE,12
+parquet2csv-0.8.dist-info/RECORD,,
