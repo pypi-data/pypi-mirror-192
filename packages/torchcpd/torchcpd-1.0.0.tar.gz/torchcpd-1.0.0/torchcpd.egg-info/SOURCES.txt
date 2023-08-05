@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+torchcpd/__init__.py
+torchcpd/affine_registration.py
+torchcpd/constrained_deformable_registration.py
+torchcpd/deformable_registration.py
+torchcpd/emregistration.py
+torchcpd/rigid_registration.py
+torchcpd/utility.py
+torchcpd.egg-info/PKG-INFO
+torchcpd.egg-info/SOURCES.txt
+torchcpd.egg-info/dependency_links.txt
+torchcpd.egg-info/not-zip-safe
+torchcpd.egg-info/requires.txt
+torchcpd.egg-info/top_level.txt
