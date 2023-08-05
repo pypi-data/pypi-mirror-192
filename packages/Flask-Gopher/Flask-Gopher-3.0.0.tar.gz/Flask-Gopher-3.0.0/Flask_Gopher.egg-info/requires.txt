@@ -1,0 +1,9 @@
+Flask>=2.1
+pyfiglet<=0.7.6
+tabulate
+pyopenssl
+
+[test]
+pytest
+mypy
+types-tabulate
