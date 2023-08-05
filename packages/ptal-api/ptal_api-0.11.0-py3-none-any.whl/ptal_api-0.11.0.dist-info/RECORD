@@ -1,0 +1,17 @@
+ptal_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptal_api/adapter.py,sha256=XC4Gu8Pj3bh7WEiaQ-mmevx-UR-Rzb7LatBzriAq1eA,64128
+ptal_api/core/kb_sync/kb_iterator_config.py,sha256=hgbfmCzT4ORYJuMyBknw5AvCoR-pSpn8zLUGusSVtds,127
+ptal_api/core/kb_sync/object_time_interval.py,sha256=Bp6Su-MrVr8h4QAfDl5KoSIPW6GzcfOqe2JgpzQhUi8,160
+ptal_api/core/values/value_mapping.py,sha256=qaWVegUwxP10WOv3tGIZXy8u3VhDlhhLEZrgxXuGTTQ,3287
+ptal_api/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptal_api/providers/gql_providers.py,sha256=U97KWb1bLBCL8LcSHSpt4z0_49vizC-UOLFqJ3pkdRA,4803
+ptal_api/schema/README.md,sha256=vGG7QYl5-DDJ8fd8I4-MhLHEjQT2jIx5AUsbCuR5yqc,1087
+ptal_api/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptal_api/schema/api_schema.py,sha256=JzcOjsU8D_WdZYLW9A0HEsyaZlurABPsJbvmEapj4A0,280748
+ptal_api/schema/crawlers_api_schema.py,sha256=Ommh4DtP4KUDDkd-aAhXiaEXGy3-LsSf_F2t8tx4J6c,86552
+ptal_api/schema/utils_api_schema.py,sha256=30xSiK9J6XqeFI3HngPnfWOkYnmSbDoVJMtsGH93NiA,132754
+ptal_api/tdm_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptal_api/tdm_builder/tdm_builder.py,sha256=xunrqBpI5tP1y_mmhVgxXLGGrat_uG3BqB5FDXFJfSU,1224
+ptal_api-0.11.0.dist-info/METADATA,sha256=UFg7tj1cjoqnvNW_5muXi1sykEoiVb8Li_BKDHqYgXI,1196
+ptal_api-0.11.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ptal_api-0.11.0.dist-info/RECORD,,
