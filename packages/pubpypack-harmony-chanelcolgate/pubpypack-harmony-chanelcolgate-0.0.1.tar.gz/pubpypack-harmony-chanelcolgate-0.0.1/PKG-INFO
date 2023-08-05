@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pubpypack-harmony-chanelcolgate
+Version: 0.0.1
+Summary: This package does amazing things.
+Home-page: https://github.com/chanelcolgate/publishing-python-package
+Author: chanelcolgate
+Author-email: "chanelcolgate" <github@chanelcolgate.com>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# first-python-package
+This package does amazing things.
+## Installation
+```shell
+$ python -m pip install first-python-package
+```
