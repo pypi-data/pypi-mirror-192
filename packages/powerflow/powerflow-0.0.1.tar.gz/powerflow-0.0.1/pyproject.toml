@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "powerflow"
+version = "0.0.1"
+description = "A cli tool to bootstrap your django projects and enhance your development experience."
+authors = ["Aime DEGBEY <team@kodesio.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Kodesio/Powerflow"
+homepage = "https://github.com/Kodesio/Powerflow"
+documentation = "https://github.com/Kodesio/Powerflow"
+keywords = ["django", "python", "cookiecutter", "project-template"]
+packages = [{ include = "powerflow" }]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Framework :: Django :: 4",
+    "Framework :: Django :: 4.0",
+    "Framework :: Django :: 4.1",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+]
+exclude = ["templates", "docs"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = ">=4"
+python-dotenv = "^0.21.1"
+dict-deep = "^4.1.2"
+tomli = { version = "^2.0.1", markers = "python_version < '3.11'" }
+tomli-w = "^1.0.0"
+typer = "^0.7.0"
+rich = "^13.3.1"
+httpx = "^0.23.3"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.10.0"
+pre-commit = "^3.0.4"
+poethepoet = "^0.18.1"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.1"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.4.2"
+mkdocs-material = "^8.5.11"
+mkdocs-material-extensions = "^1.1.1"
+mkdocs-include-markdown-plugin = "3.9.1"
+
+[tool.poetry.scripts]
+powerflow = "powerflow.main:cli"
+cuzzy = "powerflow.main:cli"
+
+[tool.poe.tasks]
+t = "poetry export -f requirements.txt --output tests/requirements.txt --without-hashes --with test"
+
+[tool.ruff]
+line-length = 120
+select = [
+    "E", # https://github.com/charliermarsh/ruff#pycodestylet
+    "F", # https://github.com/charliermarsh/ruff#pyflakes
+    "UP", # https://github.com/charliermarsh/ruff#pyupgrade
+    "N", # https://github.com/charliermarsh/ruff#pep8-naming
+    "S", # https://github.com/charliermarsh/ruff#flake8-bandit
+    "C", # https://github.com/charliermarsh/ruff#flake8-comprehensions
+    "B", # https://github.com/charliermarsh/ruff#flake8-bugbear
+    "T" # https://github.com/charliermarsh/ruff#flake8-print
+]
+extend-exclude = [
+    "templates/*",
+    "tests/*",
+    "docs/*"
+]
+ignore = ["B008", "T201"]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = [
+  "poetry-core",
+]
