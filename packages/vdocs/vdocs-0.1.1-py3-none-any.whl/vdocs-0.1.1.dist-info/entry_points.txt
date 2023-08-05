@@ -1,0 +1,3 @@
+[console_scripts]
+vdocs=vdocs.script:run
+
