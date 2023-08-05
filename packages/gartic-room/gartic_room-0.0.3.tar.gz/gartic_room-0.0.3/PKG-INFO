@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gartic-room
+Version: 0.0.3
+Summary: 你画我猜组队
+Home-page: https://github.com/bridgeL/gartic_room
+License: MIT
+Author: Su
+Author-email: wxlxy316@163.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: htmlrender
+Requires-Dist: ayaka[nb2ob11,playwright] (>=0.0.4.2,<0.0.5.0)
+Requires-Dist: nonebot_plugin_htmlrender (>=0.2.0.3) ; extra == "htmlrender"
+Project-URL: Repository, https://github.com/bridgeL/gartic_room
+Description-Content-Type: text/markdown
+
+# 你画我猜组队
+
+安装：`pip install gartic_room[htmlrender]`
+
+命令：`你画我猜`
+
+功能：自动创建gartic房间，主题为综合，将房间链接发送到群聊
+
+配置：可在`data/你画我猜/config.json`中自定义启动命令
+
