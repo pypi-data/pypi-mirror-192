@@ -1,0 +1,2 @@
+[console_scripts]
+BlackBlock = BlackBlock.cli:cli

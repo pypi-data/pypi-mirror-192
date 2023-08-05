@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: BlackBlock
+Version: 1.0.4
+Summary: BLACKBLOCK IOT BLOCK, allow to manage BLACKBLOCK IOT devices with blockchain communications using the blockchain transactions as a communication mechanism to interactive and aployment devices and monitorize the events in the network, encrypted with ECC keys .
+Home-page: 
+Author: BlackHole-Consulting
+Author-email: 
+Project-URL: Source, https://github.com/BlackHole-Consulting/BlackBlock
+Keywords: BlackBlock
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BLACKBLOCK CORE
+
+### IOT BLOCKCHAIN CONSOLE
+
+
+## About
+
+BLACKBLOCK IOT BLOCK, allow to manage BLACKBLOCK IOT devices with blockchain communications using the blockchain transactions as a communication mechanism to interactive and aployment devices and monitorize the events in the network, encrypted with ECC keys .
