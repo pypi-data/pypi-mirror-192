@@ -1,0 +1,2 @@
+[console_scripts]
+Lab02_IA = Lab02_IA.cli:main

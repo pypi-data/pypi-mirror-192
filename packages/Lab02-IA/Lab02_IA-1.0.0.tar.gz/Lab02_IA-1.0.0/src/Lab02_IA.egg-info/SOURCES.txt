@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/Lab02_IA/__init__.py
+src/Lab02_IA/cli.py
+src/Lab02_IA.egg-info/PKG-INFO
+src/Lab02_IA.egg-info/SOURCES.txt
+src/Lab02_IA.egg-info/dependency_links.txt
+src/Lab02_IA.egg-info/entry_points.txt
+src/Lab02_IA.egg-info/top_level.txt
