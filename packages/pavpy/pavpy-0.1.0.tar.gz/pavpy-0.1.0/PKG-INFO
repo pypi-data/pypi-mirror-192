@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pavpy
+Version: 0.1.0
+Summary: A package for analysing PAVO observations in Python
+License: GPLv3
+Author: Tim White
+Author-email: tim.white@sydney.edu.au
+Requires-Python: >=3.9,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: astropy (==5.1.1)
+Requires-Dist: astroquery (==0.4.7.dev8076)
+Requires-Dist: dustmaps (==1.0.10)
+Requires-Dist: numpy (==1.23.3)
+Requires-Dist: pandas (==1.5.0)
+Requires-Dist: scipy (==1.9.1)
+Description-Content-Type: text/markdown
+
+# pavpy
+[![Licence](http://img.shields.io/badge/license-GPLv3-blue.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html)
+
+A package for analysing PAVO observations in Python
