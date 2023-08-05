@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: norijada-pdf
+Version: 0.0.3
+Summary: Utility for arranging short text in the PDF with minimum amount of empty space between text.
+Author: marin
+Author-email: marin.kruzic@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fpdf2 (>=2.6.1,<3.0.0)
+Requires-Dist: rectpack (>=0.2.2,<0.3.0)
+Description-Content-Type: text/markdown
+
+# Norijada PDF
+
+Norijada PDF is a Python library for generating PDF files from text files containing nicknames.
+
+
+## Installation
+
+Use the package manager [Poetry](https://python-poetry.org/docs/#installation).
+
+```bash
+poetry install
+```
+
+## Usage
+
+Available fonts can be seen in the [fonts](fonts) directory and new fonts can be added as long 
+they are in .ttf format.
+
+```bash
+
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
