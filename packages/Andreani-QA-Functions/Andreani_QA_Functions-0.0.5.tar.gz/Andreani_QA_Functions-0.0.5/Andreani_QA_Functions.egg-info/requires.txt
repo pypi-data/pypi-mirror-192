@@ -1,0 +1,8 @@
+cx_Oracle
+pymsteams
+pyodbc
+openpyxl
+pymongo
+shareplum
+pymongo
+pymongo.errorsAndreani-QA-Parameters
