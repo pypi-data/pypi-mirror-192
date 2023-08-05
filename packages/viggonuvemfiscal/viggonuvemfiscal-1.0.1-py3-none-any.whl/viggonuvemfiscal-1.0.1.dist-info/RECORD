@@ -1,0 +1,13 @@
+viggonuvemfiscal/__init__.py,sha256=BxwGBp7t6RlAuDMDQ_EopYX9uEgFARL8aA92602_f6g,1347
+viggonuvemfiscal/resources.py,sha256=fbvLWwiMTVtevtVjoEPnh7oFLFNt7eFW_KGYwVJ_7GI,864
+viggonuvemfiscal/subsystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viggonuvemfiscal/subsystem/sysadmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viggonuvemfiscal/subsystem/sysadmin/nuvem_fiscal/__init__.py,sha256=9HN5Y9mA_qxcWCGtPodA6pXYtj880Pf9nmqZqfbkMc0,317
+viggonuvemfiscal/subsystem/sysadmin/nuvem_fiscal/controller.py,sha256=ZiIR2JDSCthBKmsxlb8Xkyn-_HcsPAvkw-Kv3EEDqWE,14903
+viggonuvemfiscal/subsystem/sysadmin/nuvem_fiscal/resource.py,sha256=XgNY2nAq5AYgWA5uK9EDAwVDjgdkL7ZOA0dCexDREfY,192
+viggonuvemfiscal/subsystem/sysadmin/nuvem_fiscal/router.py,sha256=H2Q3NO_GFQm3kr4WynEbFoTXIolrSHjRKcy5BEzcrUU,5226
+viggonuvemfiscal-1.0.1.dist-info/AUTHORS,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+viggonuvemfiscal-1.0.1.dist-info/METADATA,sha256=mL8gR4ZqisN8_6D6O6nCibjnC2TO75fTAEnJiVmkGWk,267
+viggonuvemfiscal-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+viggonuvemfiscal-1.0.1.dist-info/top_level.txt,sha256=yyR5IrQec9qM8ckGv1Of01emEiwmvLG05J_aFyfygT0,17
+viggonuvemfiscal-1.0.1.dist-info/RECORD,,
