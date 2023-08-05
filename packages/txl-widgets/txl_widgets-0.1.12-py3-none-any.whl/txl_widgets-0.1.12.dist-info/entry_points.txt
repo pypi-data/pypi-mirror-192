@@ -1,0 +1,2 @@
+[txl_component]
+txl_widgets = txl_widgets.components
