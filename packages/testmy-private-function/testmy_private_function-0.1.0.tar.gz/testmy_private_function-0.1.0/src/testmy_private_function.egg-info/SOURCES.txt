@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/MainModule.py
+src/__init__.py
+src/testmy_private_function.egg-info/PKG-INFO
+src/testmy_private_function.egg-info/SOURCES.txt
+src/testmy_private_function.egg-info/dependency_links.txt
+src/testmy_private_function.egg-info/requires.txt
+src/testmy_private_function.egg-info/top_level.txt
+tests/test_code.py
