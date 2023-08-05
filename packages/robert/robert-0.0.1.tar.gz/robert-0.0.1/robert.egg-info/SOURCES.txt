@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+robert/__init__.py
+robert/__main__.py
+robert/argument_parser.py
+robert/curate.py
+robert/robert.py
+robert/utils.py
+robert.egg-info/PKG-INFO
+robert.egg-info/SOURCES.txt
+robert.egg-info/dependency_links.txt
+robert.egg-info/requires.txt
+robert.egg-info/top_level.txt
