@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyrly
+Version: 0.0.1
+Summary: Package for beautiful verbose printing in python.
+Home-page: https://github.com/ccmorenosa/Pyrly.git
+Author: Catalina Moreno
+Author-email: ccatamorenos@gmail.com
+Maintainer: Catalina Moreno
+Maintainer-email: ccatamorenos@gmail.com
+License: MIT license
+License-File: LICENSE
+
