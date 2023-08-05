@@ -1,0 +1,13 @@
+imppkg/data.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/harmony.py,sha256=lDH-8xpZo2M0aj2Ls98RyUyN9NHBu8yvOQXtN4v9GD4,625
+imppkg/harmonic_mean.c,sha256=FrFvwoZgWZkK6iSHvBsHpM2Y2NLD_8gu9PRXSCpNhow,198623
+imppkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/harmonic_mean.pyx,sha256=OKVlWbzxkAIrdBBY5Gj6PWLGjSJu0l3Q_HyxSYvPtXI,77
+imppkg/harmonic_mean.cpython-39-i386-linux-gnu.so,sha256=6mOfqGcxxK4HGwuTgMXLYKxr-n29yxtXS1hQ6QGCSso,224296
+imppkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubpypack_harmony_david_tozer-0.0.2.dist-info/entry_points.txt,sha256=feiUFKolyjyA-i9QN-YuipocWPVf07pii8AbrEjvfW8,48
+pubpypack_harmony_david_tozer-0.0.2.dist-info/METADATA,sha256=MjzdJiQyOwQ1Q7ETu43RtFkLM4JdevxCRSQf6TuTmdo,583
+pubpypack_harmony_david_tozer-0.0.2.dist-info/WHEEL,sha256=3BFI-QznYmjPPfUYHZnPB4PqC0T0AL9L-w6pWGBn9jw,109
+pubpypack_harmony_david_tozer-0.0.2.dist-info/top_level.txt,sha256=I91hjGcw_F0H8zGbV0bRxPlcQJVwYHLtIyAPaQ9x-hE,7
+pubpypack_harmony_david_tozer-0.0.2.dist-info/RECORD,,
+pubpypack_harmony_david_tozer-0.0.2.dist-info/LICENSE,sha256=agOLgn6hjQMJJs2csXUowH5ZYTp0jv1hp0j8AtbzLjA,1063
