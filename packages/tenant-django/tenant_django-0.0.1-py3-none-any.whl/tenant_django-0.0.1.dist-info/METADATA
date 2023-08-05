@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: tenant-django
+Version: 0.0.1
+Summary: A multitenant multidatabase middleware for django
+Author-email: Stamatios Stamou Jr <ssjunior@gmail.com>
+Project-URL: Homepage, https://github.com/ssjunior/tenant-django
+Project-URL: Bug Tracker, https://github.com/ssjunior/tenant-django/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# easyapi-django
+
+A multitenant muiltidatabase MySql router for Django
+
+## Install
+
+```
+pip install tenant-django
+```
+
+## Add database router to Django settings
+
+```
+DATABASE_ROUTERS = ['tenant.DBRouter']
+```
+
+## Set tenant
+
+```
+from tenant import set_tenant
+
+set_tenant(identifier)
+```
