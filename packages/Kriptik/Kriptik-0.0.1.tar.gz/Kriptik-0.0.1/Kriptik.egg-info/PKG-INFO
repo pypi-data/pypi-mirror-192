@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Kriptik
+Version: 0.0.1
+Summary: A 2D Python game engine
+Author: wzack850
+Author-email: <wzack850@yahoo.com>
+Keywords: python,game engine,2D,python 3.x,kriptik
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A 2D Python game engine with a reasonably wide range of functionality given it's size.
