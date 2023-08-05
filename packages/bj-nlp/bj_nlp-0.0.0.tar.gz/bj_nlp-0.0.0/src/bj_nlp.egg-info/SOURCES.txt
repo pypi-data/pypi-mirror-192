@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/bj_nlp/__init__.py
+src/bj_nlp/__main__.py
+src/bj_nlp.egg-info/PKG-INFO
+src/bj_nlp.egg-info/SOURCES.txt
+src/bj_nlp.egg-info/dependency_links.txt
+src/bj_nlp.egg-info/entry_points.txt
+src/bj_nlp.egg-info/requires.txt
+src/bj_nlp.egg-info/top_level.txt
