@@ -1,0 +1,13 @@
+xlrd
+openpyxl
+pandas
+PyPDF2
+numpy
+xlwt
+jupyter
+numexpr
+openpyxl
+bottleneck
+xarray
+tabulate
+matplotlib
