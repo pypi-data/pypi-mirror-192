@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pyroll-integral-thermal
+Version: 2.0.0rc0
+Summary: Plugin for PyRoll providing an integral approach for thermal modelling.
+Home-page: https://pyroll-project.github.io/
+License: BSD-3-Clause
+Author: Max Weiner
+Author-email: max.weiner@imf.tu-freiberg.de
+Requires-Python: >=3.9,<4.0
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: pyroll-core (>=2.0.0rc,<3.0.0)
+Project-URL: Documentation, https://pyroll-project.github.io/modules/pyroll-integral-thermal/docs/docs
+Project-URL: Repository, https://github.com/pyroll-project/pyroll-integral-thermal
+Description-Content-Type: text/markdown
+
+# PyRoll Integral Thermal Model
+
+Plugin for PyRoll providing an integral approach for thermal modelling.
+
+## Documentation
+
+See the [documentation](https://pyroll-project.github.io/modules/pyroll-integral-thermal/docs/docs) to learn about basic
+concepts and usage.
+
+## License
+
+The project is licensed under the [BSD 3-Clause license](LICENSE).
+
+## Installation
+
+The package is available via [PyPi](https://pypi.org/project/pyroll-integral-thermal/) and can be installed with
+    
+    pip install pyroll-integral-thermal
