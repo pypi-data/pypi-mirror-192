@@ -1,0 +1,8 @@
+setup.py
+slexTrack/__init__.py
+slexTrack/track.py
+slexTrack.egg-info/PKG-INFO
+slexTrack.egg-info/SOURCES.txt
+slexTrack.egg-info/dependency_links.txt
+slexTrack.egg-info/not-zip-safe
+slexTrack.egg-info/top_level.txt
