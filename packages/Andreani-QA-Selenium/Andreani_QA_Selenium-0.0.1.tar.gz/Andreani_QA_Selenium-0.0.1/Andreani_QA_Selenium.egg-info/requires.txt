@@ -1,0 +1,9 @@
+requests
+allure-behave
+allure-pytest
+allure-python-commons
+Andreani-QA-Parameters
+Andreani-QA-Functions
+Andreani-QA-Debugger
+selenium
+webdriver_manager
