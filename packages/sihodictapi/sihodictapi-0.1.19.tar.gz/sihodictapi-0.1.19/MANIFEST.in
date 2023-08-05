@@ -1,0 +1,2 @@
+recursive-include sihodictapi/dictionaries/crown/*.mdx
+recursive-include sihodictapi/dictionaries/crown/*.mdx.db
