@@ -1,0 +1,10 @@
+pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg/mainentry.py,sha256=6sZ54_YmZjBZpC3HjDMFfrb-FylFqxAf0t2uxYDSfuE,426
+pkg/sample.py,sha256=6wrcGZgszhlil7TXSg-WMtNvhxoMXPB521861kbINdo,17
+pkg/subpkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg/subpkg/submoduleone.py,sha256=KWlRh3IebYnhQN43EpAid1ZgAIyseZPPv76tpu9OI10,208
+pkg/subpkg/submoduletwo.py,sha256=4OXpPPRrS3zk7I9XMNdQXBc9FeZvm8nN_S7xUUKE48Y,198
+pythonDistribution-1.0.0.dist-info/METADATA,sha256=41qRQ34tcOqUnn1qtrcOhaISrk9O5nZbWxoaon_5LNE,181
+pythonDistribution-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pythonDistribution-1.0.0.dist-info/top_level.txt,sha256=8jjfKuFvlaNGG7JiuNtS31gIuwOm8thUcUQoNbsxxls,4
+pythonDistribution-1.0.0.dist-info/RECORD,,
