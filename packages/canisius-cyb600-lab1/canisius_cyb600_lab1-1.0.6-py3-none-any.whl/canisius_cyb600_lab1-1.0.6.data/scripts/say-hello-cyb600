@@ -1,0 +1,12 @@
+#!python
+import os
+import subprocess
+
+while True:
+    user = input("Type 'run server': ")
+
+    if user == 'run server':
+        os.system("python /home/mike/PycharmProjects/lab1_CYB600/src/canisius_cyb600_example/main.py")
+        subprocess.run(["python", "/home/mike/PycharmProjects/lab1_CYB600/src/canisius_cyb600_example/main.py"])
+    else:
+        print("Please type 'run server'")
