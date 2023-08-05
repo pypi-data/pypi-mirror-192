@@ -1,0 +1,13 @@
+pubpypack_harmony_david_tozer-0.0.3.dist-info/RECORD,,
+pubpypack_harmony_david_tozer-0.0.3.dist-info/LICENSE,sha256=agOLgn6hjQMJJs2csXUowH5ZYTp0jv1hp0j8AtbzLjA,1063
+pubpypack_harmony_david_tozer-0.0.3.dist-info/WHEEL,sha256=cU6VF8zMujJUYVnyrnmNyXlIvfRQGwjK6RJnNnUKSGE,111
+pubpypack_harmony_david_tozer-0.0.3.dist-info/entry_points.txt,sha256=feiUFKolyjyA-i9QN-YuipocWPVf07pii8AbrEjvfW8,48
+pubpypack_harmony_david_tozer-0.0.3.dist-info/top_level.txt,sha256=I91hjGcw_F0H8zGbV0bRxPlcQJVwYHLtIyAPaQ9x-hE,7
+pubpypack_harmony_david_tozer-0.0.3.dist-info/METADATA,sha256=msDB3upioP07e1Zwe50whTn70JDKXtj5INli03FzfRo,583
+imppkg/harmonic_mean.cpython-311-darwin.so,sha256=oUbYvxopo6q-ftMslugWftuJFn3p57MmuTYvOfMeDdI,68032
+imppkg/harmonic_mean.pyx,sha256=OKVlWbzxkAIrdBBY5Gj6PWLGjSJu0l3Q_HyxSYvPtXI,77
+imppkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/harmony.py,sha256=lDH-8xpZo2M0aj2Ls98RyUyN9NHBu8yvOQXtN4v9GD4,625
+imppkg/data.json,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imppkg/harmonic_mean.c,sha256=FrFvwoZgWZkK6iSHvBsHpM2Y2NLD_8gu9PRXSCpNhow,198623
