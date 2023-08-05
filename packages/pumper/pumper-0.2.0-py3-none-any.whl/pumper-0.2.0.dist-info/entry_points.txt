@@ -1,0 +1,2 @@
+[console_scripts]
+pumper = pumper.main:app
