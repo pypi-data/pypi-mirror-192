@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<eac:eac-cpf xmlns:eac="urn:isbn:1-931666-33-4"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+  <eac:control>
+    <eac:recordId>TEST01</eac:recordId>
+    <eac:maintenanceStatus>new</eac:maintenanceStatus>
+    <eac:maintenanceAgency>
+      <eac:agencyCode>FR-LGLB2022</eac:agencyCode>
+      <eac:agencyName>TEST02</eac:agencyName>
+    </eac:maintenanceAgency>
+    <eac:maintenanceHistory>
+      <eac:maintenanceEvent>
+        <eac:eventType>created</eac:eventType>
+        <eac:eventDateTime>2022-09-01</eac:eventDateTime>
+        <eac:agentType>human</eac:agentType>
+        <eac:agent>TEST03</eac:agent>
+      </eac:maintenanceEvent>
+    </eac:maintenanceHistory>
+  </eac:control>
+  <eac:cpfDescription>
+    <eac:identity>
+      <eac:entityType>person</eac:entityType>
+      <eac:nameEntry>
+        <eac:part>TEST04</eac:part>
+      </eac:nameEntry>
+    </eac:identity>
+    <eac:description>
+      <eac:existDates>
+        <eac:date>2022-09-01</eac:date>
+      </eac:existDates>
+    </eac:description>
+  </eac:cpfDescription>
+</eac:eac-cpf>

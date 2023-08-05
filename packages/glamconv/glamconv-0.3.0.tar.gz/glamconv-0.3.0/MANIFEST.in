@@ -1,0 +1,17 @@
+include *.py
+
+recursive-include * *.py
+recursive-include * *.xsd *.dtd
+include glamconv/ead/*.json
+include glamconv/ead/ead-2002-dtd/*
+include glamconv/eac/*.json
+include examples/*.json
+include examples/*.py
+include test/*.py
+include test/data/*
+include README.rst
+
+prune debian
+exclude tox.ini
+prune .tox
+exclude .gitlab-ci.yml
