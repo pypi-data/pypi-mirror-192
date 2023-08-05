@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: yasuo
+Version: 1.0.0
+Summary: A Yasuo Python package
+Author: Dung BV
+Author-email: Dung BV <bvdzung@gmail.com>
+Project-URL: Homepage, https://github.com/puffer-python/yasuo
+Project-URL: Bug Tracker, https://github.com/puffer-python/yasuo/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytz
+Requires-Dist: slugify
+Requires-Dist: unidecode
+
+# Yasuo
+
+This small lib is produced some functions to support convert string
+
+## Setup
+
+```commandline
+pip install yasuo
+```
+
+## Convert a string to Vietnamese without accents
+
+```python
+yasuo.remove_accents('Phong Tuyệt Kỹ')  # Phong Tuyet Ky
+```
+
+## Generate Url Key
+
+```python
+yasuo.generate_url_key('Phong Tuyệt Kỹ')  # phong-tuyet-ky
+```
