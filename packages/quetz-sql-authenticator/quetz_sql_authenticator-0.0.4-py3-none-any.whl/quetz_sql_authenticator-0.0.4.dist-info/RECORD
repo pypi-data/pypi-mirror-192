@@ -1,0 +1,13 @@
+quetz_sql_authenticator/__init__.py,sha256=wzRz_ZfC6KmGyQTi3e2fb9lbOZyactNwGUifvAlq5iU,140
+quetz_sql_authenticator/api.py,sha256=VCAC9EsWTScA14U3qiRwOsfxj8AM5-YbWnRHijsZIj0,3655
+quetz_sql_authenticator/db_models.py,sha256=_V7weYQJYCOieSEYG5IZ4u7DpDKdsMDeYI3BnrNK_GU,261
+quetz_sql_authenticator/main.py,sha256=fstop3cScT3qgQo9cwtV8X7Qp3T6FWcEf3PUMCJWwr8,1296
+quetz_sql_authenticator/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quetz_sql_authenticator/migrations/versions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quetz_sql_authenticator/migrations/versions/db1fe7199ca1_.py,sha256=L1-_oD0YQCHAWqlkDy7gbGAhaS3gkfnKaux1EGCbYZQ,2128
+quetz_sql_authenticator-0.0.4.dist-info/LICENSE,sha256=znbMpgK1dhjnjfkPHDcQofBc9uRQYNMoziIlzApPjkI,1540
+quetz_sql_authenticator-0.0.4.dist-info/METADATA,sha256=gECoPU3x5gqO4hli9hPglYi49rRjfHJcXEom5n-SWME,1661
+quetz_sql_authenticator-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+quetz_sql_authenticator-0.0.4.dist-info/entry_points.txt,sha256=XeDwidsor--6Z0e5dqm25ivmknzlSFgkoiGAMudh7TY,309
+quetz_sql_authenticator-0.0.4.dist-info/top_level.txt,sha256=jTCjSmJuZoNxaiebGUpji8fXmxpdWGklXuh_js4im14,24
+quetz_sql_authenticator-0.0.4.dist-info/RECORD,,
