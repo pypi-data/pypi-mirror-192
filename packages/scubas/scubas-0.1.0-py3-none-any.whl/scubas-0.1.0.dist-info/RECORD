@@ -1,0 +1,13 @@
+scubas/__init__.py,sha256=-JIt3g1eBf4bVQNNQd4JBeQNA7o0LK0W9tYKKX_r5s8,22
+scubas/analysis.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scubas/cables.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scubas/conductivity.py,sha256=ubVF3200IYChMAD3YYj6FSpF6_F_5AIZZSaIocrVRZk,17463
+scubas/datasets.py,sha256=LjHk-f2y5dl-ufhM3yz_BNL_6Lp7y5LZZDAnMZlR7dw,6568
+scubas/plotlib.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scubas/transmission_lines.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scubas/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scubas-0.1.0.dist-info/LICENSE,sha256=0nXtCtjGhKPiWuQk6T_2aUwaws3v4W8jskdHK2yu2wk,1076
+scubas-0.1.0.dist-info/METADATA,sha256=IEyF3D1D8k0Q6oLKFX_wOVuRkI14H-2b72hLJTHtHzE,949
+scubas-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scubas-0.1.0.dist-info/top_level.txt,sha256=eHtKR2m4zBk9dmaY0Ewja23wZyiBGveDefrHl4kcvDM,7
+scubas-0.1.0.dist-info/RECORD,,
