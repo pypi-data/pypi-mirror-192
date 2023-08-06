@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pycram
+Version: 0.0.1
+Summary: A python module to provide methods and basic functionality for flash cards.
+Project-URL: Homepage, https://github.com/TylerPantuso
+Author-email: Tyler Pantuso <tylerpantuso@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >3.10
+Description-Content-Type: text/markdown
+
+# pycram 0.0.1
+A pure python implementation of the Shamir Secret Sharing scheme for use with BIP-39 mnemonic codes. Split a 24-word mnemonic phrase into several shares, and set a minimum threshold to recover your original phrase.
+
+## Install
+Coming soon.
+
+## Quick Start
+Currently under construciton.
