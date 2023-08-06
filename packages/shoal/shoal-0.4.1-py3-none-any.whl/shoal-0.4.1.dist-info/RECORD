@@ -1,0 +1,14 @@
+shoal/__init__.py,sha256=qkiwZpTGxm-rNt20WDpIp6sFOLgI7dBpCE56XZUKW_8,652
+shoal/_cli.py,sha256=nc3q_ZY5YS0vhHQlZxLW8V5dryZSLugpKVeFKNuVR2U,460
+shoal/_log.py,sha256=ZdGmqQRCg5UxzWam1KoSjJnlzQRsxxHv7UyqhPsPrhE,3238
+shoal/_shell.py,sha256=ENqlH1EABriYU2Y4D1HkxTR8JDSVhQVCxq3BsmuVJ80,2505
+shoal/_shoalling.py,sha256=uF7-w6u4k6Xhrhh2Z2iZisWAuIvpN8Ls0blM7KzfyJM,1609
+shoal/_tang.py,sha256=vOSAB1gEjonX9kqAscblYmBSAdz6hzv8ucoyoq5DF4E,1225
+shoal/_tangs.py,sha256=pbkkO1wFDK9Qr3I1EYXbCD4H5pSqV2mK1vzT4Qc8f5U,1367
+shoal/can_skip.py,sha256=VYgJUdeheTkOpm06oenKyJ-v-H5MFj4ZmBJr57XnxU4,1110
+shoal/cli.py,sha256=t4o0jSWznWbFKJTs-rhvYbzArbYBij_aZ-vnJIgHb2w,3438
+shoal/pretty_process.py,sha256=fsQjgKKVLkG0GvutH_k3eemTiH2aKQliRMLAKxiXErg,3203
+shoal-0.4.1.dist-info/LICENSE,sha256=6BEhl-fpSLPiesxz-36Fh4cpdMLfbgBwMPvDh3Yayuc,1066
+shoal-0.4.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+shoal-0.4.1.dist-info/METADATA,sha256=Drw7BZqvZawfpYmdoSelXwh1xurXjNH1ZO0aKIhhQjo,3937
+shoal-0.4.1.dist-info/RECORD,,
