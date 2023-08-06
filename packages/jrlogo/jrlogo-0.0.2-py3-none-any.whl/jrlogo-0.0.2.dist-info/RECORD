@@ -1,0 +1,11 @@
+jrlogo/__init__.py,sha256=KdPLhbaTNLiTAbrEs-f0KH3xKLJSCBWFStRaXWvx1oQ,235
+jrlogo/color.py,sha256=WbnEiGLAb5hk9wNUu0XvcadZG6kZSgV2T1TOLAORttY,18389
+jrlogo/console.py,sha256=Ab8Kwq_1T_IY5nvcUgCoOPw7trENdX4_AJECx_kK-dM,1752
+jrlogo/screen.py,sha256=VBoRWHoUFHxi8d_6siNBtSubyFymo1J5HDKlSKF02OE,758
+jrlogo/shape.py,sha256=9gH1Fk3awNtaygmYZTuNw9d6HZYrFy4y96cRx-PiExk,1309
+jrlogo/turtle.py,sha256=oU4qv-riR1PSc8HQPXh5kL1mTGMm9Ly4HIhbiUXaAfE,4222
+jrlogo-0.0.2.dist-info/LICENSE,sha256=6j6W9wC9ZrpWYCVd3s3bQj0ryEIYSyN3lZaZtxRITts,1887
+jrlogo-0.0.2.dist-info/METADATA,sha256=Teul3JmBLDmgrDlEn8f4zPcxHQpA0_44m0kmDzIKLrY,307
+jrlogo-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jrlogo-0.0.2.dist-info/top_level.txt,sha256=RgrZCFVyhnemiYfW4SiyAxAhY8J3W-iKKlO2_R3raII,7
+jrlogo-0.0.2.dist-info/RECORD,,
