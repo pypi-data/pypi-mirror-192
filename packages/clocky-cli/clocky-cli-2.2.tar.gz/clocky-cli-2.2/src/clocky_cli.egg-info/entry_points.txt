@@ -1,0 +1,2 @@
+[console_scripts]
+clocky = clocky_cli.clocky:clocky

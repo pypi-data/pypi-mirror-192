@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/clocky_cli/__init__.py
+src/clocky_cli/__main__.py
+src/clocky_cli/clocky.py
+src/clocky_cli.egg-info/PKG-INFO
+src/clocky_cli.egg-info/SOURCES.txt
+src/clocky_cli.egg-info/dependency_links.txt
+src/clocky_cli.egg-info/entry_points.txt
+src/clocky_cli.egg-info/requires.txt
+src/clocky_cli.egg-info/top_level.txt
