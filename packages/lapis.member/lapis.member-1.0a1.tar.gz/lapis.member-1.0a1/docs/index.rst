@@ -1,0 +1,5 @@
+============
+lapis.member
+============
+
+User documentation

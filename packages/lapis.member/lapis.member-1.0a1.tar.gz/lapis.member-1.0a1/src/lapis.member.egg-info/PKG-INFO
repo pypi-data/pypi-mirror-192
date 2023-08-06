@@ -1,0 +1,97 @@
+Metadata-Version: 1.2
+Name: lapis.member
+Version: 1.0a1
+Summary: Content type and workflow for Plone
+Home-page: https://github.com/collective/lapis.member
+Author: Espen Moe-Nilssen
+Author-email: espen@medialog.no
+License: GPL version 2
+Project-URL: Source, https://github.com/collective/lapis.member
+Project-URL: Tracker, https://github.com/collective/lapis.member/issues
+Project-URL: PyPI, https://pypi.python.org/pypi/lapis.member
+Description-Content-Type: UNKNOWN
+Description: .. This README is meant for consumption by humans and pypi. Pypi can render rst files so please do not use Sphinx features.
+           If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
+           This text does not appear on pypi or github. It is a comment.
+        
+        ============
+        lapis.member
+        ============
+        
+        Content type and workflow for Plone
+        
+        Features
+        --------
+        
+        1) Forum Page is added, it is hidden for everyone but owner and admins
+        2) Forum page is ‘published’, it is visible for owner, admins and ALL MEMBERS
+        3) Comments can be enabled as usual
+        4) The content type does not show by default in menus (add it in the control panel, navigation settings if you want this
+        5) Content item should be hidden from ‘folder views’ for 'not members', I have not tested this test, but should work: (The permissions should be ‘access content information’, if I remember right
+        
+        
+        
+        Installation
+        ------------
+        
+        Install lapis.member by adding it to your buildout::
+        
+            [buildout]
+        
+            ...
+        
+            eggs =
+                lapis.member
+        
+        
+        and then running ``bin/buildout``
+        
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/collective/lapis.member/issues
+        - Source Code: https://github.com/collective/lapis.member
+        - Documentation: https://docs.plone.org/foo/bar
+        
+        
+        Support
+        -------
+        
+        If you are having issues, please let us know.
+        We have a mailing list located at: project@example.com
+        
+        
+        License
+        -------
+        
+        The project is licensed under the GPLv2.
+        
+        
+        Contributors
+        ============
+        
+        - Espen Moe-Nilssen, espen@medialog.no
+        
+        
+        Changelog
+        =========
+        
+        
+        1.0a1 (unreleased)
+        ------------------
+        
+        - Initial release.
+          [espenmn]
+        
+Keywords: Python Plone
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Plone :: 5.1
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Requires-Python: ==2.7
