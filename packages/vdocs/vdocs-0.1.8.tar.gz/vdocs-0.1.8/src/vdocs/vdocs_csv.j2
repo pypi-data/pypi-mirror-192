@@ -1,0 +1,94 @@
+{%- if api == "/dataservice/device" %}Hostname,Device ID,Board Serial,Certificate Validity,Connected vManages,Control Connections,Device Groups,Device Model,Device OS,Device Type,Domain ID,Is Device Geo Data,Last Updated,Latitude,Longitude,Layout Level,Local System IP,Max Controllers,Model SKU,Personality,Platform,Reachability,Site ID,State,State Description,Status,Status Order,System IP,Testbed Mode,Timezone,Total CPU Count,Uptime Date,UUID,Validity,Version
+{%-     for device in data_to_template['data'] %}
+{{ device['host-name'] }},{{ device.deviceId }},{{ device['board-serial'] }},{{ device['certificate-validity'] }},{{ device.connectedVManages | replace("\\","") | replace('"','') | replace(","," ") | replace("'","") | replace("[","") | replace("]","") }},{{ device.controlConnections }},{{ device['device-groups'] | replace("\\","") | replace('"','') | replace(","," ") | replace("'","") | replace("[","") | replace("]","") }},{{ device['device-model'] }},{{ device['device-os'] }},{{ device['device-type'] }},{{ device['domain-id'] }},{{ device.isDeviceGeoData }},{{ device.lastupdated }},{{ device.latitude }},{{ device.longitude }},{{ device.layoutLevel }},{{ device['local-system-ip'] }},{{ device['max-controllers'] }},{{ device.model_sku }},{{ device.personality }},{{ device.platform }},{{ device.reachability }},{{ device['site-id'] }},{{ device.state }},{{ device.state_description }},{{ device.status }},{{ device.statusOrder }},{{ device['system-ip'] }},{{ device.testbed_mode }},{{ device.timezone }},{{ device.total_cpu_count }},{{ device['uptime-date'] }},{{ device.uuid }},{{ device.validity }},{{ device.version }}
+{%-     endfor %}
+{%- elif api == "/dataservice/device/monitor"%}Hostname,Device Model,Device Type,Layout Level,Site ID,Status,System IP
+{%-     for device in data_to_template['data'] %}
+{{ device['host-name'] }},{{ device['device-model'] }},{{ device['device-type'] }},{{ device.layoutLevel }},{{ device['site-id'] }},{{ device.status }},{{ device['system-ip'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/device/counters"%}System IP,BFD Sessions Down,BFD Sessions Up,Crash Count,Expected Control Connections,Number vSmart Control Connections,OMP Peers Down,OMP Peers Up,Reboot Count
+{%-     for device in data_to_template['data'] %}
+{{ device['system-ip'] }},{{ device.bfdSessionsDown | default("N/A") }},{{ device.bfdSessionsUp | default("N/A") }},{{ device.crashCount }},{{ device.expectedControlConnections | default("N/A") }},{{ device['number-vsmart-control-connections'] }},{{ device.ompPeersDown | default("N/A") }},{{ device.ompPeersUp | default("N/A") }},{{ device.rebootCount }}
+{%-     endfor %}
+{%- elif api == "/dataservice/template/feature"%}Device Type,Template Name,Attached Masters Count,Config Type,Created By,Created On,Devices Attached,Factory Default,Last Updated By,Last Updated On,Template Description,Template ID,Template Min Version,Template Type,Template Definition
+{%-     for template in data_to_template['data'] %}
+{%-         for device in template['deviceType'] %}
+{{ device }},{{ template.templateName }},{{ template.attachedMastersCount }},{{ template.configType }},{{ template.createdBy }},{{ template.createdOn }},{{ template.devicesAttached }},{{ template.factoryDefault }},{{ template.lastUpdatedBy }},{{ template.lastUpdatedOn }},{{ template.templateDescription }},{{ template.templateId }},{{ template.templateMinVersion }},{{ template.templateType }},{{ template.templateDefinition }}
+{%-         endfor %}
+{%-     endfor %}
+{%- elif api == "/dataservice/template/feature/types"%}Name,Display Name,Default,Description,Device Models,Helper Type,Parent,Type Class
+{%-     for type in data_to_template['data'] %}
+{%-         for device_model in type['deviceModels'] %}
+{{ type.name }},{{ type.displayName }},{{ type.default }},{{ type.description }},{{ device_model.name }},{{ type.helperType | replace(","," ") }},{{ type.parent }},{{ type.typeClass }}
+{%-         endfor %}
+{%-     endfor %}
+{%- elif api == "/dataservice/template/policy/vedge/devices"%}Hostname,Layout Level,Local System IP,Site ID,UUID
+{%-     for device in data_to_template['data'] %}
+{{ device['host-name'] }},{{ device.layoutLevel }},{{ device['local-system-ip'] }},{{ device['site-id'] }},{{ device.uuid }}
+{%-     endfor %}
+{%- elif api == "/dataservice/template/policy/list"%}Name,Description,Jitter,Latency,Loss,Application,VPN,Site ID,IP Prefix,Info Tag,Is Activated By VSmart,Last Updated,List ID,Owner,Read Only,Reference Count,Reference ID,Reference Type,Type,Version
+{%-     for policy in data_to_template['data'] %}
+{%-         for entry in policy['entries'] %}
+{{ policy.name }},{{ policy.description }},{%- if "jitter" in entry %}{{ entry.jitter }},{{ entry.latency }},{{ entry.loss }},N/A,N/A,N/A,N/A,{%- elif "app" in entry %}N/A,N/A,N/A,{{ entry.app }},N/A,N/A,N/A,{%- elif "vpn" in entry %}N/A,N/A,N/A,N/A,{{ entry.vpn }},N/A,N/A,{%- elif "siteId" in entry %}N/A,N/A,N/A,N/A,N/A,{{ entry.siteId }},N/A,{%- elif "ipPrefix" in entry %}N/A,N/A,N/A,N/A,N/A,N/A,{{ entry.ipPrefix }}{%- endif %}{{ policy.infoTag }},{{ policy.isActivatedByVsmart }},{{ policy.lastUpdated }},{{ policy.listId }},{{ policy.owner }},{{ policy.readOnly }},{{ policy.referenceCount }},N/A,N/A,{{ policy.type }},{{ policy.version }}
+{%-         endfor %}
+{%-         for reference in policy['references'] %}
+{{ policy.name }},{{ policy.description }},N/A,N/A,N/A,N/A,N/A,N/A,N/A,{{ policy.infoTag }},{{ policy.isActivatedByVsmart }},{{ policy.lastUpdated }},{{ policy.listId }},{{ policy.owner }},{{ policy.readOnly }},{{ policy.referenceCount }},{{ reference.id }},{{ reference.type }},{{ policy.type }},{{ policy.version }}
+{%-         endfor %}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/BFDSessions"%}@RID,Color,Create Timestamp,Detect Multiplier,Destination IP,Destination Port,Last Updated,Local Color,Protocol,Record ID,Site ID,Source IP,Source Port,State,System IP,Transitions,TX Interval,Uptime Date,vDevice Data Key,vDevice Hostname,vDevice Name,vManage System IP
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device.color }},{{ device.createTimeStamp }},{{ device['detect-multiplier'] }},{{ device['dst-ip'] }},{{ device['dst-port'] }},{{ device.lastupdated }},{{ device['local-color'] }},{{ device.proto }},{{ device.recordId }},{{ device['site-id'] }},{{ device['src-ip'] }},{{ device['src-port'] }},{{ device.state }},{{ device['system-ip'] }},{{ device.transitions }},{{ device['tx-interval'] }},{{ device['uptime-date'] }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device['vmanage-system-ip'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/ControlConnection"%}@RID,Behind Proxy,Controller Group ID,Create Timestamp,Domain ID,Instance,Last Updated,Local Color,Peer Type,Private IP,Private Port,Protocol,Public IP,Public Port,Record ID,Remote Color,Site ID,State,System IP,Uptime Date,vDevice Data Key,vDevice Hostname,vDevice Name,vManage System IP
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device['behind-proxy'] }},{{ device['controller-group-id'] }},{{ device.createTimeStamp }},{{ device['domain-id'] }},{{ device.instance }},{{ device.lastupdated }},{{ device['local-color'] }},{{ device['peer-type'] }},{{ device['private-ip'] }},{{ device['private-port'] }},{{ device.protocol }},{{ device['public-ip'] }},{{ device['public-port'] }},{{ device.recordId }},{{ device['remote-color'] }},{{ device['site-id'] }},{{ device.state }},{{ device['system-ip'] }},{{ device['uptime-date'] }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device['vmanage-system-ip'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/ControlLocalProperty"%}@RID,Board Serial,Certificate Not Valid After,Certificate Not Valid Before,Certificate Status,Certificate Validity,Create Timestamp,Device Type,DNS Name,Domain ID,Keygen Interval,Last Updated,Max Controllers,Number Active WAN Interfaces,Number vBond Peers,Organization Name,Port Hopped,Protocol,Record ID,Register Interval,Retry Interval,Root CA Chain Status,Site ID,SP Organization Name,System IP,TLS Port,Token,UUID,vDevice Data Key,vDevice Hostname,vDevice Name,vEdge List Version,vManage System IP,vSmart List Version
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device['board-serial'] }},{{ device['certificate-not-valid-after'] }},{{ device['certificate-not-valid-before'] }},{{ device['certificate-status'] }},{{ device['certificate-validity'] }},{{ device.createTimeStamp }},{{ device['device-type'] }},{{ device['dns-name'] }},{{ device['domain-id'] }},{{ device['keygen-interval'] }},{{ device.lastupdated }},{{ device['max-controllers'] }},{{ device['number-active-wan-interfaces'] }},{{ device['number-vbond-peers'] }},{{ device['organization-name'] }},{{ device['port-hopped'] }},{{ device.protocol }},{{ device.recordId }},{{ device['register-interval'] }},{{ device['retry-interval'] }},{{ device['root-ca-chain-status'] }},{{ device['site-id'] }},{{ device['sp-organization-name'] }},{{ device['system-ip'] }},{{ device['tls-port'] }},{{ device.token }},{{ device.uuid }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device['vedge-list-version'] }},{{ device['vmanage-system-ip'] }},{{ device['vsmart-list-version'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/ControlWanInterface"%}@RID,Admin State,Carrier,Color,Create Timestamp,Index,Instance,Interface,Last Updated,Number vManages,Number vSmarts,Operation State,Private IP,Private IPv6,Private Port,Public IP,Public Port,Record ID,vDevice Data Key,vDevice Hostname,vDevice Name,vManage System IP,WAN Port Hopped
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device['admin-state'] }},{{ device.carrier }},{{ device.color }},{{ device.createTimeStamp }},{{ device.index }},{{ device.instance }},{{ device.interface }},{{ device.lastupdated }},{{ device['num-vmanages'] }},{{ device['num-vsmarts'] }},{{ device['operation-state'] }},{{ device['private-ip'] }},{{ device['private-ipv6'] }},{{ device['private-port'] }},{{ device['public-ip'] }},{{ device['public-port'] }},{{ device.recordId }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name']}},{{ device['vmanage-system-ip'] }},{{ device['wan-port-hopped'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/HardwareEnvironment"%}@RID,Create Timestamp,Hardware Class,Hardware Dev Index,Hardware Item,Last Updated,Measurement,Record ID,Status,vDevice Data Key,vDevice Hostname,vDevice Name,vManage System IP
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device.createTimeStamp }},{{ device['hw-class'] }},{{ device['hw-dev-index'] }},{{ device['hw-item'] }},{{ device.lastupdated }},{{ device.measurement }},{{ device.recordId }},{{ device.status }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device['vmanage-system-ip'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/HardwareInventory"%}@RID,Create Timestamp,Hardware Description,Hardware Dev Index,Hardware Type,Last Updated,Part Number,Record ID,Serial Number,vDevice Data Key,vDevice Hostname,vDevice Name,Version,vManage System IP
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device.createTimeStamp }},{{ device['hw-description'] }},{{ device['hw-dev-index'] }},{{ device['hw-type'] }},{{ device.lastupdated }},{{ device['part-number'] }},{{ device.recordId }},{{ device['serial-number'] }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device.version }},{{ device['vmanage-system-ip'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/Interface"%}@RID,AF Type,Auto Negotiate,Create Timestamp,Duplex,Encapsulation Type,Hardware Address,Interface Admin Status,Interface Oper Status,Interface Index,Interface Name,IP Address,IPv6 Address,Last Updated,Port Type,Record ID,Speed Mbps,vDevice Data Key,vDevice Hostname,vDevice Name,vManage System IP,VPN ID
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device['af-type'] }},{{ device['auto-neg'] }},{{ device.createTimeStamp }},{{ device.duplex }},{{ device['encap-type'] }},{{ device.hwaddr }},{{ device['if-admin-status'] }},{{ device['if-oper-status'] }},{{ device.ifindex }},{{ device.ifname }},{{ device['ip-address'] }},{{ device['ipv6-address'] }},{{ device.lastupdated }},{{ device['port-type'] }},{{ device.recordId }},{{ device['speed-mbps'] }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device['vmanage-system-ip'] }},{{ device['vpn-id'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/CEdgeInterface"%}@RID,BIA Address,Create Timestamp,Hardware Address,Interface Admin Status,Interface Oper Status,Interface Index,Interface Name,Interface Type,IP Address,IPv4 Subnet Mask,IPv4 TCP Adjust MSS,IPv6 Address,IPv6 TCP Adjust MSS,Last Updated,MTU,Record ID,RX Drops,RX Errors,RX Octets,RX Packets,Speed Mbps,TX Drops,TX Errors,TX Octets,TX Packets,vDevice Data Key,vDevice Hostname,vDevice Name,vManage System IP,VPN ID
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device['bia-address'] }},{{ device.createTimeStamp }},{{ device.hwaddr }},{{ device['if-admin-status'] }},{{ device['if-oper-status'] }},{{ device.ifindex }},{{ device.ifname }},{{ device['interface-type'] }},{{ device['ip-address'] }},{{ device['ipv4-subnet-mask'] }},{{ device['ipv4-tcp-adjust-mss'] }},{{ device['ipv6-addrs'] }},{{ device['ipv6-tcp-adjust-mss'] }},{{ device.lastupdated }},{{ device.mtu }},{{ device.recordId }},{{ device['rx-drops'] }},{{ device['rx-errors'] }},{{ device['rx-octets'] }},{{ device['rx-packets'] }},{{ device['speed-mbps'] }},{{ device['tx-drops'] }},{{ device['tx-errors'] }},{{ device['tx-octets'] }},{{ device['tx-packets'] }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device['vmanage-system-ip'] }},{{ device['vpn-id'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/OMPPeer"%}@RID,Create Timestamp,Domain ID,Last Updated,Legit,Peer,Record ID,Refresh,Site ID,State,Type,vDevice Data Key,vDevice Hostname,vDevice Name,vManage System IP
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device.createTimeStamp }},{{ device['domain-id'] }},{{ device.lastupdated }},{{ device.legit }},{{ device.peer }},{{ device.recordId }},{{ device.refresh }},{{ device['site-id'] }},{{ device.state }},{{ device.type }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device['vmanage-system-ip'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/SystemStatus"%}@RID,Board Type,Bootloader Version,Build Number,Chassis Serial Number,Create Timestamp,Disk Status,FIPS Mode,Last Updated,Log Host Status,Model SKU,Personality,Reboot Reason,Reboot Type,Record ID,State,State Description,Testbed Mode,Total CPU Count,Uptime Date,vDevice Data Key,vDevice Hostname,vDevice Name,Version,vManage Storage Disk Mount,vManage System IP
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device['board_type'] }},{{ device.bootloader_version }},{{ device.build_number | replace("\n","") }},{{ device['chassis-serial-number'] }},{{ device.createTimeStamp }},{{ device.disk_status }},{{ device.fips_mode }},{{ device.lastupdated }},{{ device.loghost_status }},{{ device.model_sku }},{{ device.personality }},{{ device.reboot_reason }},{{ device.reboot_type }},{{ device.recordId }},{{ device.state }},{{ device.state_description }},{{ device.testbed_mode }},{{ device.total_cpu_count }},{{ device['uptime-date'] }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device.version }},{{ device['vmanage-storage-disk-mount'] }},{{ device['vmanage-system-ip'] }}
+{%-     endfor %}
+{%- elif api == "/dataservice/data/device/state/System"%}@RID,Create Timestamp,Last Updated,Record ID,UUID,vDevice Data Key,vDevice Hostname,vDevice Name,vManage System IP
+{%-     for device in data_to_template['data'] %}
+{{ device['@rid'] }},{{ device.createTimeStamp }},{{ device.lastupdated }},{{ device.recordId }},{{ device.uuid }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }},{{ device['vmanage-system-ip'] }}
+{%-     endfor %}
+{%- elif "/dataservice/device/arp?deviceId=" in api %}Interface Name,IP,Last Updated,MAC,State,Uptime,Uptime Date,vDevice Data Key,vDevice Hostname,vDevice Name,VPN ID
+{%-     for interface in data_to_template['data'] %}
+{{ interface['if-name'] }},{{ interface.ip }},{{ interface.lastupdated }},{{ interface.mac }},{{ interface.state }},{{ interface.uptime }},{{ interface['uptime-date'] }},{{ interface['vdevice-dataKey'] }},{{ interface['vdevice-host-name'] }},{{ interface['vdevice-name'] }},{{ interface['vpn-id'] }}
+{%-     endfor %}
+{%- elif "/dataservice/device/bfd/summary?deviceId=" in api %}vDevice Hostname,BFD Sessions Flap,BFD Sessions Max,BFD Sessions Total,BFD Sessions Up,Last Updated,Poll Interval,vDevice Data Key,vDevice Name
+{%-     for device in data_to_template['data'] %}
+{{ device['vdevice-host-name'] }},{{ device['bfd-sessions-flap'] }},{{ device['bfd-sessions-max'] }},{{ device['bfd-sessions-total'] }},{{ device['bfd-sessions-up'] }},{{ device['lastupdated'] }},{{ device['poll-interval'] }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-name'] }}
+{%-     endfor %}
+{%- elif "/dataservice/device/bfd/sessions?deviceId=" in api %}Color,Detect Multiplier,Destination IP,Destination Port,Last Updated,Local Color,Protocol,Site ID,Source IP,Source Port,State,System IP,Transitions,TX Interval,Uptime,Uptime Date,vDevice Data Key,vDevice Hostname,vDevice Name
+{%-     for device in data_to_template['data'] %}
+{{ device.color }},{{ device['detect-multiplier'] }},{{ device['dst-ip'] }},{{ device['dst-port'] }},{{ device.lastupdated }},{{ device['local-color'] }},{{ device.proto }},{{ device['site-id'] }},{{ device['src-ip'] }},{{ device['src-port'] }},{{ device.state }},{{ device['system-ip'] }},{{ device.transitions }},{{ device['tx-interval'] }},{{ device.uptime }},{{ device['uptime-date'] }},{{ device['vdevice-dataKey'] }},{{ device['vdevice-host-name'] }},{{ device['vdevice-name'] }}
+{%-     endfor %}
+{%- endif %}
