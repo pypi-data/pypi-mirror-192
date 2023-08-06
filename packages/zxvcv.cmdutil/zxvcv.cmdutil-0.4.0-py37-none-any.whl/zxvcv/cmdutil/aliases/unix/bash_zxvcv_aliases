@@ -1,0 +1,9 @@
+
+
+alias cls="clear"
+alias gita="git add -A :!a"
+alias gitl="git log --graph --oneline $@"
+alias venva=". venva.sh $@"
+alias venvi=". venvi.sh $@"
+alias venvr=". venvr.sh $@"
+alias venvl=". venvl.sh $@"
