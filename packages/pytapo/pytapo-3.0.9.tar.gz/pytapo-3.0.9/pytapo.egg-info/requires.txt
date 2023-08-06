@@ -1,0 +1,6 @@
+pkgconfig
+requests
+urllib3
+pycryptodome
+rtp
+av
