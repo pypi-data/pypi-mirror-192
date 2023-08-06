@@ -1,0 +1,42 @@
+[
+  {
+    "struct_name": "relocation_table", 
+    "has_padding": {
+      "big": false, 
+      "little": false
+    }, 
+    "maybe_aligned": "", 
+    "c_struct": "long unsigned int magic;\nlong unsigned int total_size;\nlong unsigned int header_size;\nstruct elf_information_struct elf_information;", 
+    "endian": "little"
+  }, 
+  {
+    "struct_name": "elf_information_struct", 
+    "has_padding": {
+      "big": false, 
+      "little": false
+    }, 
+    "maybe_aligned": "", 
+    "c_struct": "long unsigned int elf_header_size;\nlong unsigned int loader_size;", 
+    "endian": "little"
+  }, 
+  {
+    "struct_name": "entry_attributes", 
+    "has_padding": {
+      "big": false, 
+      "little": false
+    }, 
+    "maybe_aligned": "", 
+    "c_struct": "long unsigned int attribute_1;", 
+    "endian": "little"
+  }, 
+  {
+    "struct_name": "table_entry", 
+    "has_padding": {
+      "big": false, 
+      "little": false
+    }, 
+    "maybe_aligned": "", 
+    "c_struct": "long unsigned int _size;\nlong unsigned int f_offset;\nlong unsigned int v_offset;", 
+    "endian": "little"
+  }
+]
