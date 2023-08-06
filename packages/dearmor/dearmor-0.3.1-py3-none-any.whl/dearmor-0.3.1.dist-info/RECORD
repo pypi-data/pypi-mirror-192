@@ -1,0 +1,10 @@
+dearmor/__init__.py,sha256=5visByrGNbLhfrXw1OdIX8WzB9nM01pcrkjN-GNxIuU,36
+dearmor/__main__.py,sha256=UuTlkFhfDlslM6hmxGUt_BPXC30f69tD1ZK0JsNgsQs,1514
+dearmor/code.py,sha256=_MkSHn1BJy3gV5SShvfHvFJ4JSdjmo0Ez_nXawy_sk0,9594
+dearmor/Release/dearmor.dll,sha256=e6MtJkQnLLyJTOAeCgaoinEacUihPUGdTVHWAU9un10,10240
+dearmor-0.3.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+dearmor-0.3.1.dist-info/METADATA,sha256=2Ee63jaC2yLdIxxAU9icIER5K4Ef3Ga7XxJoHN7s-og,1477
+dearmor-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dearmor-0.3.1.dist-info/entry_points.txt,sha256=A9ZDILDPWL2FNiIeRlkby3GRGOB-db208Ey37ZsWdqQ,54
+dearmor-0.3.1.dist-info/top_level.txt,sha256=QWjF8-U_KH80udcRH3Z6nyJVElsq2r4dpWVkSLcupGM,8
+dearmor-0.3.1.dist-info/RECORD,,
