@@ -1,0 +1,12 @@
+sos_matlab/__init__.py,sha256=Jyn_Eif0MpBwJfoQDDdjH6pmg38p2RW6wCAitmwWyls,197
+sos_matlab/_version.py,sha256=Zu49hxHXOkqTvwSxf3Xo18c80JHIcEdjmROEbHq-_z4,186
+sos_matlab/converter.py,sha256=7XyIo6a6O-MCHsbNx_poI5VegJvN2IeEF2iNBY8dieM,4767
+sos_matlab/kernel.py,sha256=bqjtFyaudH9UeWVoua8T2xeVAa9Bgq9W5uLbCabh0Po,5720
+sos_matlab/sos_load_obj.m,sha256=5QiGJiIKl4dEo8Vb3u7Zcq9TEU-aYClAtI-tQiTBBAA,82
+sos_matlab/sos_py_repr.m,sha256=jD2ZZgkLFLvKOytNKft4ZVnan0I8iKO_2ObhyfLNFB8,4370
+sos_matlab-0.20.0.dist-info/LICENSE,sha256=HAFraFfCTJGgY4X3u4O8cosrjJcHtU7qDmKqLDv-Gzo,1555
+sos_matlab-0.20.0.dist-info/METADATA,sha256=ChmmZzQZauvice7rsurJiJ91cUy1emlbpVkkrl2CxRk,953
+sos_matlab-0.20.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sos_matlab-0.20.0.dist-info/entry_points.txt,sha256=oheyBrdwMYFLsgn0yU9TxKwsPf2E85d6H39vjCCqLW4,167
+sos_matlab-0.20.0.dist-info/top_level.txt,sha256=CfmGn8XtsNeES7i5eaVadW_TkN6hZwxh7umY0WinS2c,11
+sos_matlab-0.20.0.dist-info/RECORD,,
