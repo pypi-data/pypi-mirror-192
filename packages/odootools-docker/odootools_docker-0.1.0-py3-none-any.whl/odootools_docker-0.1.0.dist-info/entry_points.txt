@@ -1,0 +1,2 @@
+[odootools.command]
+docker = odootools_docker.cli.docker:docker
