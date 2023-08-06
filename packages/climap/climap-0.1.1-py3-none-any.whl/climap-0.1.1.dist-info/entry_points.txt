@@ -1,0 +1,3 @@
+[console_scripts]
+climap=climap.main:main
+
