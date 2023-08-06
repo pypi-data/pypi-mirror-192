@@ -1,0 +1,7 @@
+README.md
+setup.py
+zipjson/__init__.py
+zipjson.egg-info/PKG-INFO
+zipjson.egg-info/SOURCES.txt
+zipjson.egg-info/dependency_links.txt
+zipjson.egg-info/top_level.txt
