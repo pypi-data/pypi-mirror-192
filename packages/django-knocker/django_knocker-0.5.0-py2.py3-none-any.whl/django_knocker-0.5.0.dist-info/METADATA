@@ -1,0 +1,175 @@
+Metadata-Version: 2.1
+Name: django-knocker
+Version: 0.5.0
+Summary: Channels-based desktop notification system
+Home-page: https://github.com/nephila/django-knocker
+Author: Iacopo Spalletti
+Author-email: i.spalletti@nephila.it
+License: BSD
+Project-URL: Documentation, https://django-knocker.readthedocs.io/
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: channels (<5,>=4)
+Requires-Dist: django-meta (>=1.4)
+
+=============================
+django-knocker
+=============================
+
+|Gitter| |PyPiVersion| |PyVersion| |Status| |TestCoverage| |CodeClimate| |License|
+
+Channels-based desktop notification system
+
+***************
+Documentation
+***************
+
+The full documentation is at https://django-knocker.readthedocs.io.
+
+***************
+Usage
+***************
+
+See https://django-knocker.readthedocs.io/en/latest/usage.html
+
+
+***************
+Features
+***************
+
+* Sends desktop notifications to connected browsers
+* Multilianguage support (with `django-parler`_ and `django-hvad`_)
+* Uses `django-meta`_ API for a consistent metadata handling
+
+***************
+Running Tests
+***************
+
+Does the code actually work?
+
+::
+
+    source <YOURVIRTUALENV>/bin/activate
+    (myenv) $ pip install -r requirements-test.txt
+    (myenv) $ python cms_helper.py
+
+***************
+Credits
+***************
+
+Tools used in rendering this package:
+
+*  Cookiecutter_
+*  `cookiecutter-djangopackage-helper`_
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`cookiecutter-djangopackage-helper`: https://github.com/nephila/cookiecutter-djangopackage-helper
+.. _django-hvad: https://github.com/KristianOellegaard/django-hvad
+.. _django-parler: https://github.com/edoburu/django-parler
+.. _django-meta: https://github.com/nephila/django-meta
+
+
+
+.. |Gitter| image:: https://img.shields.io/badge/GITTER-join%20chat-brightgreen.svg?style=flat-square
+    :target: https://gitter.im/nephila/applications
+    :alt: Join the Gitter chat
+
+.. |PyPiVersion| image:: https://img.shields.io/pypi/v/django-meta.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/django-meta
+    :alt: Latest PyPI version
+
+.. |PyVersion| image:: https://img.shields.io/pypi/pyversions/django-meta.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/django-meta
+    :alt: Python versions
+
+.. |Status| image:: https://img.shields.io/travis/nephila/django-meta.svg?style=flat-square
+    :target: https://travis-ci.org/nephila/django-meta
+    :alt: Latest Travis CI build status
+
+.. |TestCoverage| image:: https://img.shields.io/coveralls/nephila/django-meta/master.svg?style=flat-square
+    :target: https://coveralls.io/r/nephila/django-meta?branch=master
+    :alt: Test coverage
+
+.. |License| image:: https://img.shields.io/github/license/nephila/django-meta.svg?style=flat-square
+   :target: https://pypi.python.org/pypi/django-meta/
+    :alt: License
+
+.. |CodeClimate| image:: https://codeclimate.com/github/nephila/django-meta/badges/gpa.svg?style=flat-square
+   :target: https://codeclimate.com/github/nephila/django-meta
+   :alt: Code Climate
+
+.. :changelog:
+
+***************
+History
+***************
+
+.. towncrier release notes start
+
+0.5.0 (2023-02-19)
+==================
+
+Features
+--------
+
+- Upgrade to Channels 4.0 (#19)
+- Add support for Django 3.2 - 4.1
+
+0.4.0 (2020-05-20)
+==================
+
+- Migrate to Channels 2
+- Add support for Django 2.2 / 3.0
+- Drop support for Python 2
+- Drop support for Django < 2.2
+
+0.3.3 (2018-01-01)
+==================
+
+- Fix support for newer channel versions
+- Fix error in signal handling
+- Add support for Django 1.11
+- Improv test coverage
+
+0.3.2 (2016-12-02)
+==================
+
+- Add support for Django 1.10
+
+0.3.1 (2016-09-10)
+==================
+
+- Fix error in js message'
+
+0.3.0 (2016-08-03)
+==================
+
+- Make easier to customize the knocker url
+
+0.2.0 (2016-06-11)
+==================
+
+- Fix documentation
+- Improv routing setting in tests
+
+0.1.1 (2016-04-08)
+==================
+
+- Add Add pause_knocks / active_knocks functions.
+
+0.1.0 (2016-04-07)
+==================
+
+- First release on PyPI.
