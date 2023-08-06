@@ -1,0 +1,15 @@
+failprint/__init__.py,sha256=fYSlaqLFNdcC7SZH0ePnj_4b2SzXuXnhpnc1fX4cmhU,269
+failprint/__main__.py,sha256=t1onDidNK5W3PYxntLL8HSB9I70g6spT4y1ASrxcTqg,344
+failprint/capture.py,sha256=tjh2WviDaczzBKxogcjH10Scfo4qwiW5_fhzEqc9r9k,2926
+failprint/cli.py,sha256=eQvBPRqlt8tV1qd9kJJy37-RNpHxPTFxCUrgkxUP45k,6197
+failprint/formats.py,sha256=427N4tva7RDiPm_r4bOqMj_sH0DYk66O7028UoPiZhI,5025
+failprint/lazy.py,sha256=ra0xkWp7IkUkFM-aJ30ueOWQ0clw3x_9t1YbMAatA7Y,1673
+failprint/process.py,sha256=9DOVL-Bz_YqYE6sAZdYf_7Ueddepz43WlKHCRWA0xXo,2875
+failprint/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+failprint/runners.py,sha256=rCrqVZJdslXvFA5-hldutJ2YJvTYwV09PrraBThS5XI,7635
+failprint/types.py,sha256=4ZdmRsfBxFuyML81gkbF0iDU9MYW3sqg5LVpt0pGWWI,393
+failprint-0.10.0.dist-info/entry_points.txt,sha256=K1586z1xdf9b9zxYwQpvrNAvy04hD27KHEPD7fOj8CU,48
+failprint-0.10.0.dist-info/WHEEL,sha256=JtIceljpZF_3FlF7JEESqvYUELdenaIGNR7wSL2mRl0,87
+failprint-0.10.0.dist-info/METADATA,sha256=LqgP-Pw39OIS8iRxjIwVEQ0zCrQonpoX7GBp3gR7W-8,6409
+failprint-0.10.0.dist-info/licenses/LICENSE,sha256=nQxdYSduhkgEpOTmg4yyIMmFPzcr2qrlUl8Tf9QZPug,754
+failprint-0.10.0.dist-info/RECORD,,
