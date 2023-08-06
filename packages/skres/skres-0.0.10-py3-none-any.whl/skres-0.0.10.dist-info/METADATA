@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: skres
+Version: 0.0.10
+Summary: My first Python package
+Home-page: https://github.com/AlexandreGazagnes/skres
+Author: Alex Gazagnes
+Author-email: <alex.gaz@email.com>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Dist: pandas
+
+My first Python package with a slightly longer description
+
+
