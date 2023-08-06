@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sayhellotosaurabh
+Version: 0.0.1
+Summary: First release Hello World!!!
+Author: Saurabh Verma (Sr. Engineer)
+Author-email: <saurabhverma956@gmail.com>
+Keywords: python,hello,world
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
