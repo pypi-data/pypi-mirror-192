@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ghostparser
+Version: 0.1
+Summary: A django orm inspired parser.
+Home-page: https://github.com/javatechy/dokr
+Author: Lane Henslee
+Author-email: huncho@ghostsystems.io
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Gparser
+
+### Parser Created by Ghost Systems
