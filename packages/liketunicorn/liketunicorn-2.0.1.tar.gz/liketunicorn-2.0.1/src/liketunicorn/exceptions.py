@@ -1,0 +1,6 @@
+class LikeTunicornError(Exception):
+    ...
+
+
+class ImporterError(LikeTunicornError):
+    ...
