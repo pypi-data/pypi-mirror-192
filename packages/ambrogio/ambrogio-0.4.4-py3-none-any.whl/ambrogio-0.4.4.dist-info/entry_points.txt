@@ -1,0 +1,2 @@
+[console_scripts]
+ambrogio = ambrogio.cli:execute
