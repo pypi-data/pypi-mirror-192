@@ -1,0 +1,16 @@
+README.md
+setup.py
+model_align/__init__.py
+model_align/util.py
+model_align.egg-info/PKG-INFO
+model_align.egg-info/SOURCES.txt
+model_align.egg-info/dependency_links.txt
+model_align.egg-info/requires.txt
+model_align.egg-info/top_level.txt
+model_align/torch2paddle/__init__.py
+model_align/torch2paddle/convert_layer/__init__.py
+model_align/torch2paddle/convert_layer/convert_bn.py
+model_align/torch2paddle/convert_layer/convert_conv.py
+model_align/torch2paddle/convert_layer/convert_linear.py
+model_align/torch2paddle/convert_layer/convert_ln.py
+model_align/torch2paddle/convert_layer/util.py

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: model_align
+Version: 1.0
+Summary: torch2paddle
+Home-page: https://github.com/zh-hike/model_align
+Author: zh-hike
+Author-email: 1583124882@qq.com
+License: Apache License 2.0
+Keywords: model_align
