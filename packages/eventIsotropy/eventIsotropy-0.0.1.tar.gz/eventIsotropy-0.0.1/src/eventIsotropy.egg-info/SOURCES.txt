@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/eventIsotropy/__init__.py
+src/eventIsotropy/cylGen.py
+src/eventIsotropy/emdVar.py
+src/eventIsotropy/spherGen.py
+src/eventIsotropy.egg-info/PKG-INFO
+src/eventIsotropy.egg-info/SOURCES.txt
+src/eventIsotropy.egg-info/dependency_links.txt
+src/eventIsotropy.egg-info/requires.txt
+src/eventIsotropy.egg-info/top_level.txt

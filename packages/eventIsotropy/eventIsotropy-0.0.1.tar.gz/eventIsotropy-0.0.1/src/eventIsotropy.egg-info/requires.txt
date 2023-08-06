@@ -1,0 +1,6 @@
+POT
+astropy-healpix
+
+[test]
+matplotlib
+prettytable
