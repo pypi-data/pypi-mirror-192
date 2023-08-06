@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: paper2txt
+Version: 0.0.1
+Summary: Simple tool to extract text from scientific PDFs
+Home-page: https://github.com/retospect/paper2txt
+License: GPL-3
+Keywords: pdf,paper,text extraction
+Author: Reto Stamm
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pdfminer
+Description-Content-Type: text/markdown
+
+# Wibble - a template for simple python packages
+
+A minimalist template for a python package.
+
+Provides the bl and the blarg commands.
+
