@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/Fx_profitude_forex_trading_system_by_russ_horn_free_download.egg-info/PKG-INFO
+src/Fx_profitude_forex_trading_system_by_russ_horn_free_download.egg-info/SOURCES.txt
+src/Fx_profitude_forex_trading_system_by_russ_horn_free_download.egg-info/dependency_links.txt
+src/Fx_profitude_forex_trading_system_by_russ_horn_free_download.egg-info/requires.txt
+src/Fx_profitude_forex_trading_system_by_russ_horn_free_download.egg-info/top_level.txt
