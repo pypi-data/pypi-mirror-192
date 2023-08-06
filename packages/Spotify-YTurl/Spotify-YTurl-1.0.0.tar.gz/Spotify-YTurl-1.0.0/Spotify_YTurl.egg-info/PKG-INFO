@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Spotify-YTurl
+Version: 1.0.0
+Summary: Spotify Music to Youtube URL
+Home-page: https://github.com/jj30462281/Spotify-YTurl
+Author: Explosion_XX
+Author-email: jj30462281@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Spotify-YTurl
+
+

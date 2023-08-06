@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Spotify-YTurl/__init__.py
+Spotify-YTurl/__main__.py
+Spotify_YTurl.egg-info/PKG-INFO
+Spotify_YTurl.egg-info/SOURCES.txt
+Spotify_YTurl.egg-info/dependency_links.txt
+Spotify_YTurl.egg-info/requires.txt
+Spotify_YTurl.egg-info/top_level.txt
