@@ -1,0 +1,15 @@
+napari_roi/__init__.py,sha256=sZdMcz_SUQt4UDdlpo_PRmW3hTNChdleV1r-MXOE9pg,236
+napari_roi/_roi.py,sha256=TmqeyiH9mcEh-f1kRWMihhaGJ86JmhIUT90nmadunfI,1398
+napari_roi/_roi_widget.py,sha256=zZ7rf2I5i2Ftgt6d1qR5n7sqqzMlIaV7ibBCMgcY3O0,22920
+napari_roi/_version.py,sha256=L_ejlWPP_ewCHw9Nhifmz6y7nfqxTZWoeKqzArloMqc,160
+napari_roi/napari.yaml,sha256=A6UiiQ97pUxz7oo1U5QuhbyNHQ2J2SAfoE3j2ZCUXFA,279
+napari_roi/qt/__init__.py,sha256=uNXa74w3G9HRlatizGtVysrj3ljXZVHjTCsr0ykg2WE,143
+napari_roi/qt/_roi_layer_accessor.py,sha256=dmz0KBX-R7PGyfKZp11cy1DG0E7fM0opDQ4t5P-nwc8,13608
+napari_roi/qt/_roi_table_model.py,sha256=MvwS2yhdKL1Qp2-D7ddAJf5M8wrBYERTBJOm2csIocw,5505
+napari_roi/qt/utils.py,sha256=iIbgYsFro9swWQEq6_yoR3d6QErOtBBK5Fo9vBplyX0,1377
+napari_roi-0.1.8.dist-info/LICENSE,sha256=dE4lPPhtALYhKz81Ykc8AxlDQIQkICWxin2nVQYtt_c,1087
+napari_roi-0.1.8.dist-info/METADATA,sha256=yFNdeMVY4vQErwBMYnQIsEVSbZMAU6OiepN3JpqEuUI,4354
+napari_roi-0.1.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+napari_roi-0.1.8.dist-info/entry_points.txt,sha256=gHJ4mBGNodLoER6vtnSLmvyWRtWQPQNsrYz0kNuMFqw,54
+napari_roi-0.1.8.dist-info/top_level.txt,sha256=Azn9hZwCwl4pOcEXWtNAB8tvRedSbOnwbutAk15N288,11
+napari_roi-0.1.8.dist-info/RECORD,,
