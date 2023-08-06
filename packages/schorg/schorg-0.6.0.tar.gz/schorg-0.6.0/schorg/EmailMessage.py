@@ -1,0 +1,74 @@
+"""
+An email message.
+
+https://schema.org/EmailMessage
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class EmailMessageInheritedProperties(TypedDict):
+    """An email message.
+
+    References:
+        https://schema.org/EmailMessage
+    Note:
+        Model Depth 4
+    Attributes:
+        dateReceived: (Optional[Union[List[Union[datetime, SchemaOrgObj, str]], datetime, SchemaOrgObj, str]]): The date/time the message was received if a single recipient exists.
+        recipient: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A sub property of participant. The participant who is at the receiving end of the action.
+        messageAttachment: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A CreativeWork attached to the message.
+        ccRecipient: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A sub property of recipient. The recipient copied on a message.
+        bccRecipient: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A sub property of recipient. The recipient blind copied on a message.
+        dateRead: (Optional[Union[List[Union[datetime, SchemaOrgObj, str, date]], datetime, SchemaOrgObj, str, date]]): The date/time at which the message has been read by the recipient if a single recipient exists.
+        dateSent: (Optional[Union[List[Union[datetime, SchemaOrgObj, str]], datetime, SchemaOrgObj, str]]): The date/time at which the message was sent.
+        sender: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A sub property of participant. The participant who is at the sending end of the action.
+        toRecipient: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A sub property of recipient. The recipient who was directly sent the message.
+    """
+
+    dateReceived: NotRequired[Union[List[Union[datetime, SchemaOrgObj, str]], datetime, SchemaOrgObj, str]]
+    recipient: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    messageAttachment: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    ccRecipient: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    bccRecipient: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    dateRead: NotRequired[Union[List[Union[datetime, SchemaOrgObj, str, date]], datetime, SchemaOrgObj, str, date]]
+    dateSent: NotRequired[Union[List[Union[datetime, SchemaOrgObj, str]], datetime, SchemaOrgObj, str]]
+    sender: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    toRecipient: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    
+
+
+class EmailMessageProperties(TypedDict):
+    """An email message.
+
+    References:
+        https://schema.org/EmailMessage
+    Note:
+        Model Depth 4
+    Attributes:
+    """
+
+    
+
+#EmailMessageInheritedPropertiesTd = EmailMessageInheritedProperties()
+#EmailMessagePropertiesTd = EmailMessageProperties()
+
+
+class AllProperties(EmailMessageInheritedProperties , EmailMessageProperties, TypedDict):
+    pass
+
+
+def create_schema_org_model(type_: Union[EmailMessageProperties, EmailMessageInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "EmailMessage"
+    return model
+    
+
+EmailMessage = create_schema_org_model()
