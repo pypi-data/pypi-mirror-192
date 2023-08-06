@@ -1,0 +1,11 @@
+kraken_extract_from_text/__init__.py,sha256=FPtHiTcQ0-JgSjOmo16xEAUuJleOeVvnZt-iPBRDxec,69
+kraken_extract_from_text/kraken_extract_from_text.py,sha256=ntiRbvILGxEarICFob339FDi5oKyjzdolQTdGYsfdxg,334
+kraken_extract_from_text/extractors/__init__.py,sha256=D4U0e8WrIz6kF7RXhfUEco6KNMuQejAtQil8R9KNUC0,57
+kraken_extract_from_text/extractors/extract_emails.py,sha256=sxz7zaqyiFLIkfUMUYmZGx47F8-NvBZzUQML_ocP4Wg,497
+kraken_extract_from_text/extractors/extract_ioc.py,sha256=pddXy6s1OD2b1ZtbsSjUM6PwOoknSf0vOjM6Xd1AIbY,785
+kraken_extract_from_text/extractors/extract_urls.py,sha256=g5OcEyXQA0fBweEnMuRhMWKSvF_Y2ELNayYlK9mMvwk,429
+kraken_text_analysis-0.0.1.dist-info/LICENSE.txt,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+kraken_text_analysis-0.0.1.dist-info/METADATA,sha256=_kkP5bEBc_YdpdmMLW8jGJL87eBu73OWfv_hEpkL6KM,763
+kraken_text_analysis-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+kraken_text_analysis-0.0.1.dist-info/top_level.txt,sha256=zdW94gtQ1g9W1xSOmmh_ySdZ_MhkXtzj5Kc-wBBPUM4,25
+kraken_text_analysis-0.0.1.dist-info/RECORD,,
