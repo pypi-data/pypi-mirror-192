@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: cytocluster
+Version: 0.1.13
+Summary: A package for clustering high-dimensional cytometry data in Python.
+Home-page: https://github.com/burtonrj/CytoCluster
+Author: burtonrj
+Author-email: burtonrj@cardiff.ac.uk
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: MiniSom (>=2.3.0,<3.0.0)
+Requires-Dist: PhenoGraph (>=1.5.7,<2.0.0)
+Requires-Dist: cytoplots (>=0.1.0,<0.2.0)
+Requires-Dist: cytotools (>=0.1.21,<0.2.0)
+Requires-Dist: ensembleclustering (==1.0.2)
+Requires-Dist: hdmedians (>=0.14.2,<0.15.0)
+Requires-Dist: hnswlib (>=0.6.2,<0.7.0)
+Requires-Dist: ipython (>=8.4.0,<9.0.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: llvmlite (>=0.39,<0.40)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Project-URL: Repository, https://github.com/burtonrj/CytoCluster
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <img src="https://i.imgur.com/cBdvN9o.png" height="25%" width="25%">
+</p>
+
+# CytoCluster
+[![PyPi](https://img.shields.io/pypi/v/cytocluster)](https://pypi.org/project/cytocluster/)
+[![Python](https://img.shields.io/pypi/pyversions/cytocluster)](https://pypi.org/project/cytocluster/)
+[![Wheel](https://img.shields.io/pypi/wheel/cytocluster)](https://pypi.org/project/cytocluster/)
+[![License]( https://img.shields.io/pypi/l/cytocluster)](https://opensource.org/licenses/MIT)
+[![LastCommit](https://img.shields.io/github/last-commit/burtonrj/cytocluster)]()
+[![CodeCov](https://img.shields.io/codecov/c/github/burtonrj/cytocluster)]()
+[![GitHubActions](https://img.shields.io/github/workflow/status/burtonrj/cytocluster/CytoCluster%20Build)]()
+
+---
+
+## Overview
+
+Welcome! This is CytoCluster, a package for clustering high-dimensional cytometry data in Python.
+CytoCluster started as a module in the first release of <a src="https://github.com/burtonrj/CytoPy">CytoPy</a>.
+
+CytoCluster is now a standalone package that provides functions and classes for:
+
+* Popular clustering algorithms such as FlowSOM, Phenograph, SPADE etc.
+* Plotting and visualising clustering results.
+* Ensemble clustering for combining the results of many clustering algorithms into consensus clusters.
+
+Examples of using the CytoCluster package are provided in the example notebooks (see notebooks folder in this repo).
+
+## Installation
+
+``
+pip install cytocluster
+``
+
+---
+## Release Notes
+
+The CytoPy ecosystem is under development, see ### for details on release information.
+
