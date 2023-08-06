@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+pytaskrunner.egg-info/PKG-INFO
+pytaskrunner.egg-info/SOURCES.txt
+pytaskrunner.egg-info/dependency_links.txt
+pytaskrunner.egg-info/entry_points.txt
+pytaskrunner.egg-info/requires.txt
+pytaskrunner.egg-info/top_level.txt
+src/Task.py
+src/__init__.py
+src/__main__.py
+src/actions.py
+src/common.py
+src/config.py
+src/logTools.py
+src/schemas.py
