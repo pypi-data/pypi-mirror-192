@@ -1,0 +1,7 @@
+README.md
+promptstudio.py
+setup.py
+promptstudio.egg-info/PKG-INFO
+promptstudio.egg-info/SOURCES.txt
+promptstudio.egg-info/dependency_links.txt
+promptstudio.egg-info/top_level.txt
