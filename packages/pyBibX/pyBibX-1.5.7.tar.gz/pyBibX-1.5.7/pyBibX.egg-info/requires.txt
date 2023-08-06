@@ -1,0 +1,17 @@
+bertopic
+bert-extractive-summarizer
+matplotlib
+networkx
+numpy
+pandas
+plotly
+sentencepiece
+sentence-transformers
+squarify
+sklearn
+torch
+torchvision
+torchaudio
+transformers
+umap-learn
+wordcloud
