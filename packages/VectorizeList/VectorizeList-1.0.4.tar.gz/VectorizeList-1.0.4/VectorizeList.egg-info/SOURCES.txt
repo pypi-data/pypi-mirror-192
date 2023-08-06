@@ -1,0 +1,10 @@
+LICENSE
+README.md
+VectorizeList.c
+VectorizeList.h
+setup.cfg
+setup.py
+VectorizeList.egg-info/PKG-INFO
+VectorizeList.egg-info/SOURCES.txt
+VectorizeList.egg-info/dependency_links.txt
+VectorizeList.egg-info/top_level.txt
