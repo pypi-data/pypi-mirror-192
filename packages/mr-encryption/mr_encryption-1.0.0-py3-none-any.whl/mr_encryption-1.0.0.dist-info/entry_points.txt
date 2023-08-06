@@ -1,0 +1,3 @@
+[console_scripts]
+mr-decrypt = mr_encryption.cli:decrypt
+mr-encrypt = mr_encryption.cli:encrypt
