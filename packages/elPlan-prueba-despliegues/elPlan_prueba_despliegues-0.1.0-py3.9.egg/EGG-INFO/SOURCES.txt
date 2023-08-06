@@ -1,0 +1,11 @@
+README.md
+setup.py
+elPlan_prueba_despliegues.egg-info/PKG-INFO
+elPlan_prueba_despliegues.egg-info/SOURCES.txt
+elPlan_prueba_despliegues.egg-info/dependency_links.txt
+elPlan_prueba_despliegues.egg-info/entry_points.txt
+elPlan_prueba_despliegues.egg-info/requires.txt
+elPlan_prueba_despliegues.egg-info/top_level.txt
+src/__init__.py
+src/app.py
+src/student.py
