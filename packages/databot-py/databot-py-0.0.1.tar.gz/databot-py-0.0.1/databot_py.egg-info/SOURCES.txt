@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+databot_py.egg-info/PKG-INFO
+databot_py.egg-info/SOURCES.txt
+databot_py.egg-info/dependency_links.txt
+databot_py.egg-info/requires.txt
+databot_py.egg-info/top_level.txt
+src/databot/__init__.py
+src/databot/databot.py
+src/databot/__init__.py
+src/databot/databot.py
