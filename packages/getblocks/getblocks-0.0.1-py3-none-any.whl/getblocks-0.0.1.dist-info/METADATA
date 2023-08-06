@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: getblocks
+Version: 0.0.1
+Summary: Down to the sector detail!
+Home-page: https://github.com/jblukach/getblocks
+Author: John Lukach
+Author-email: hello@lukach.io
+License: Apache-2.0
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiofile
+
+# getblocks
+
+### Local Development
+
+```
+python setup.py install --user
+```
