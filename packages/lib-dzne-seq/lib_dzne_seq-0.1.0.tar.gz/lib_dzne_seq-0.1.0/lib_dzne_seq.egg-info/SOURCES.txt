@@ -1,0 +1,10 @@
+LICENSE
+README.md
+lib_dzne_seq.py
+pyproject.toml
+setup.cfg
+lib_dzne_seq.egg-info/PKG-INFO
+lib_dzne_seq.egg-info/SOURCES.txt
+lib_dzne_seq.egg-info/dependency_links.txt
+lib_dzne_seq.egg-info/requires.txt
+lib_dzne_seq.egg-info/top_level.txt
