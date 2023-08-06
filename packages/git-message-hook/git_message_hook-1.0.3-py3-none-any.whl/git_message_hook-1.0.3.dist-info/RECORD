@@ -1,0 +1,10 @@
+git_message_hook/__init__.py,sha256=TrkglzKUINn9dvrySgE5C3Fu-vPuhV5yc8ba3MXm2eM,301
+git_message_hook/main.py,sha256=S3U6681doi1C2zjdWksSiBw5Q_rT0ussSZIv8bmOj0A,706
+git_message_hook/git-templates/hooks/commit-msg,sha256=Xd4yX3SrjutGpmfjo-g8SNXELSoL0QI0BisfDWrNDwo,1360
+git_message_hook-1.0.3.dist-info/DESCRIPTION.rst,sha256=zRWduzQugYu7BGKigu-ux20jr6ypeTEigSdfDOYYSds,1548
+git_message_hook-1.0.3.dist-info/METADATA,sha256=v097y3mqOR8NVQgp1FS25BFuWAlhqBN1bnzBKQYsKQo,2097
+git_message_hook-1.0.3.dist-info/RECORD,,
+git_message_hook-1.0.3.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+git_message_hook-1.0.3.dist-info/entry_points.txt,sha256=fsVWBOLW3OpGjr3ZlWL_icxPgVrW2W8X5Fz7DYasSFY,65
+git_message_hook-1.0.3.dist-info/metadata.json,sha256=uUZ--5LURbfV0sCWy8zMopmpWqLypfhK43twqb2uqYI,925
+git_message_hook-1.0.3.dist-info/top_level.txt,sha256=a7roKM_pmZkoTsWEFilcwjSKqO5BRVvtg3ilaCZrJ3U,17
