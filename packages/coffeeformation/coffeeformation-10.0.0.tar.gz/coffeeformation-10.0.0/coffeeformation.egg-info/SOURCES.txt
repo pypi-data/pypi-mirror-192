@@ -1,0 +1,7 @@
+README.md
+setup.py
+coffeeformation.egg-info/PKG-INFO
+coffeeformation.egg-info/SOURCES.txt
+coffeeformation.egg-info/dependency_links.txt
+coffeeformation.egg-info/not-zip-safe
+coffeeformation.egg-info/top_level.txt
