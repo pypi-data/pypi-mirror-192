@@ -1,0 +1,17 @@
+TwigWeb/__init__.py,sha256=wqU2Ahcx6HiZn5oATaTsoTWycvZH5lJ0qNVh4W0BPRI,44
+TwigWeb/backend/404.html,sha256=gv5tlipxngEWNEjjrvJ0HajE6S08Xb0a4e63nNNMn0k,944
+TwigWeb/backend/__init__.py,sha256=54ojo6WKl5mDIhMG06mdhRTtza0FBZzeqqFyR4dq_jU,129
+TwigWeb/backend/response.py,sha256=2DGIZIvhrTj1143qF0PXVIdIpvjGvQvrRVgL8vtUXAk,1058
+TwigWeb/backend/runtime.py,sha256=1KFeFnr2rf3Sv7FHCVNIWW8LAZTjCkMltvCJ5OuGmhQ,6774
+TwigWeb/backend/types.py,sha256=5debRkmfiXiuS6M2O2_tI5_5A26yZOc0Bh7qRa_uyTE,703
+TwigWeb/backend/util.py,sha256=zmHHCUv5EuX3YCx_jvF1XBLtCI7hbV5iTzR4h5MI-1Q,281
+TwigWeb/backend/routehandler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TwigWeb/backend/routehandler/route.py,sha256=8G6qeZviBuArYeo2ynhCB6PiyTDgDtzkcuyXW7nyckw,3061
+TwigWeb/backend/routehandler/router.py,sha256=oyiB7wRrBHqkbQa3XTaHRcT2rKtFn0x2d9CQaT-Y5Zo,1082
+TwigWeb/frontend/__init__.py,sha256=C85ISKI3q24uoV7Gm8-yo0xHZnOZdk0-DyEEI49OaFM,95
+TwigWeb/frontend/preprocessor.py,sha256=nptiwSsInwxOBr032jj0Hwis5j9o47mx-tWVomXS5sA,984
+TwigWeb-0.4.11.dist-info/LICENSE.txt,sha256=d9lAQoDKntT6P8KCLoTTva0AR-gIFVjQK5thRyjQIgo,1074
+TwigWeb-0.4.11.dist-info/METADATA,sha256=vW9LzpLLUk12mVRjk8B0NWzmDl2RqsHkPDDZOg4vyJU,8578
+TwigWeb-0.4.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+TwigWeb-0.4.11.dist-info/top_level.txt,sha256=KS91r0l5cS68vTTGRX3rMo2ufbBeJpoKsQdLOjOeIio,8
+TwigWeb-0.4.11.dist-info/RECORD,,
