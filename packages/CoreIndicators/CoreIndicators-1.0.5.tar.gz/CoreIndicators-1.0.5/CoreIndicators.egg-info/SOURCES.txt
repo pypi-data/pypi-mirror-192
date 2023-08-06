@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+CoreIndicators.egg-info/PKG-INFO
+CoreIndicators.egg-info/SOURCES.txt
+CoreIndicators.egg-info/dependency_links.txt
+CoreIndicators.egg-info/requires.txt
+CoreIndicators.egg-info/top_level.txt
+TrendSignalIndicator/TrendTrader.py
+TrendSignalIndicator/_init_.py
