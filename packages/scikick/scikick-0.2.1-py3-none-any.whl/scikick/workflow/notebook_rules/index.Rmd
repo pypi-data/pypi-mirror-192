@@ -1,0 +1,30 @@
+
+<hr></hr>
+
+<details> <summary> Project History </summary>
+
+```{r, echo=FALSE}
+gitlog = .scikick_get_gitlog()
+has_history = !is.null(gitlog)
+```
+
+**Project History**
+
+`r if(!has_history) "No git history was found for this project"`
+
+`r if(has_history) "**List of Contributors**"`   
+
+```{r, echo=FALSE}
+if(has_history){
+   authors = as.data.frame(table(gitlog$Author))
+   colnames(authors) = c("Author", "Number of Commits")
+   knitr::kable(authors, "markdown", align=rep("l", 2))
+}
+```
+
+`r if(has_history) "**Full List of Project Changes**"`
+
+```{r, echo=FALSE}
+if(has_history) knitr::kable(gitlog, format = "markdown", align=rep("l", 4))
+```
+</details>

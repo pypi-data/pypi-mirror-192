@@ -1,0 +1,6 @@
+.DS_Store
+.snakemake
+report
+output
+input
+.ipynb_checkpoints
