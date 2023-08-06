@@ -1,0 +1,12 @@
+quranic_nlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quranic_nlp/dependency_parsing.py,sha256=icjGPfcgwcBCd7OkKktrSPGHg3d0-ZnxTKEk6G3WJBU,1741
+quranic_nlp/language.py,sha256=ZRvh9Y3i5HwkTiOOAGzeeNQNILYa9qkpjocHWKXHaPk,6726
+quranic_nlp/lemmatizer.py,sha256=pAFej1slXTvUVPFQrw9onay7wyFqFUVpfV3rj4NGBzM,681
+quranic_nlp/postagger.py,sha256=Hv9FcrIWl6ZPSwHUtkIuWFalOkufCxiVqNntBmh5Wqo,595
+quranic_nlp/root.py,sha256=NqCdEGx_oywe8TU2HV2Xh4pTjO5wh57gPkdbss2-31s,712
+quranic_nlp/utils.py,sha256=s9N-GfChiHQl7aTKj-eI6a_etwT22tCeoYsDkofbQOU,5243
+quranic_nlp-1.0.dist-info/LICENSE,sha256=LalVI9eqlAAKzGJjQMFe_vV53pp2iWKK3Mgw4Uy14-w,1069
+quranic_nlp-1.0.dist-info/METADATA,sha256=lWFCNOR9WiEqh9w-X7_Vx5JRS7f1L4OAiQo4UhYllTo,4823
+quranic_nlp-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+quranic_nlp-1.0.dist-info/top_level.txt,sha256=GIkLRHXAY8qNUnO8BthHiIhx0ZPjpJPdzDf1chGm9TM,12
+quranic_nlp-1.0.dist-info/RECORD,,
