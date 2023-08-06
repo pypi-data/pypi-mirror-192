@@ -1,0 +1,16 @@
+lab_space/__init__.py,sha256=7Q06hf9MG8g7omaDJumh1P_zCatuwL8Zjs7C5mBstrs,73
+lab_space/experiment.py,sha256=Bw7mngG1AG4OQM1SByvOjt0tnvNKjvaEfWpV2VIosyQ,6650
+lab_space/file_utils.py,sha256=e438E_TIp1UpYulvFWhObj-9s6cASVEUBDLMNtjSM5s,2264
+lab_space/labspace.py,sha256=PprGSlatWZJ_7oCmaHb6qmL6wWDlJeXsiac-a6f_68E,12851
+lab_space/config/expt_config.json,sha256=AaW4UD6BEk9BUCN44DJj0SrR2fyh4qQ6HIALUojt-3s,143
+lab_space/config/trial_config.json,sha256=NnJ-cPVg1C3qyb7cFzuvx9bAtoga-G4FPrRRrJzfHBs,98
+lab_space/config/core/core.json,sha256=RN8fl8cMp2_RlMWV_TSSGBWTmb3QbH8Nj9C3q2nlz84,316
+lab_space/config/core/core_default.json,sha256=xtsxQnehw0C5qitk1DSTb-LtkI6ly6fm664a8vxe1-s,166
+lab_space/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lab_space/scripts/add_cli.bash,sha256=5PJLlCZbc7M14ui0THYJpS88r4GFaaNlcIkKtb3BiDk,621
+lab_space/scripts/setup_core.py,sha256=st3-T3B12-LSH2dJi7d6DaqXl0Y2TuCiM2ZwJvS8o0k,886
+lab_space-0.0.8.dist-info/LICENSE,sha256=j-bxRqOBdQaK4aeW8jJtg7P-_XCfhhhJFaz7YtKZGJU,1498
+lab_space-0.0.8.dist-info/METADATA,sha256=ATnRFDNH4J3IYAqBTAz4OZc1sl01NvMSH0Xa1W0ya2k,1392
+lab_space-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lab_space-0.0.8.dist-info/top_level.txt,sha256=o1Wg6vKyBjEAtdT3Wh2ZEdQ4sVNAGB5dIHywmKe9l7s,10
+lab_space-0.0.8.dist-info/RECORD,,
