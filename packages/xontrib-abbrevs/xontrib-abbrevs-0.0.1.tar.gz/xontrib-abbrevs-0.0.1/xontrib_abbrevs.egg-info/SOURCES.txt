@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_abbrevs.py
+tests/test_xontrib.py
+xontrib/abbrevs.py
+xontrib_abbrevs.egg-info/PKG-INFO
+xontrib_abbrevs.egg-info/SOURCES.txt
+xontrib_abbrevs.egg-info/dependency_links.txt
+xontrib_abbrevs.egg-info/requires.txt
+xontrib_abbrevs.egg-info/top_level.txt
