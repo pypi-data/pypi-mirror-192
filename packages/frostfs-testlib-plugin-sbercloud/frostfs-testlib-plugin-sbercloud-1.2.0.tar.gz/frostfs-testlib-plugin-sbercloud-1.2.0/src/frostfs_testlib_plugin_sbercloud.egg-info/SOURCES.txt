@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/frostfs_testlib_plugin_sbercloud/__init__.py
+src/frostfs_testlib_plugin_sbercloud/sbercloud_auth_requests.py
+src/frostfs_testlib_plugin_sbercloud/sbercloud_client.py
+src/frostfs_testlib_plugin_sbercloud/sbercloud_host.py
+src/frostfs_testlib_plugin_sbercloud.egg-info/PKG-INFO
+src/frostfs_testlib_plugin_sbercloud.egg-info/SOURCES.txt
+src/frostfs_testlib_plugin_sbercloud.egg-info/dependency_links.txt
+src/frostfs_testlib_plugin_sbercloud.egg-info/entry_points.txt
+src/frostfs_testlib_plugin_sbercloud.egg-info/requires.txt
+src/frostfs_testlib_plugin_sbercloud.egg-info/top_level.txt
