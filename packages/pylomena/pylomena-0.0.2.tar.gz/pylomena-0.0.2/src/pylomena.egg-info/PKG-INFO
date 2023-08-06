@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pylomena
+Version: 0.0.2
+Summary: Python client for accessing Philomena based imageboards
+Author-email: Flynn <flynnmlp@gmail.com>
+Project-URL: Homepage, https://github.com/flynnmlp/pylomena
+Project-URL: Bug Tracker, https://github.com/flynnmlp/pylomena/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: testing
+License-File: LICENSE
+
+# pylomena
+
+[![Tests](https://github.com/flynnmlp/pylomena/actions/workflows/tests.yml/badge.svg)](https://github.com/flynnmlp/pylomena/actions/workflows/tests.yml)
+
+Python client for accessing Philomena based imageboards
+
