@@ -1,0 +1,181 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+.git/COMMIT_EDITMSG
+.git/FETCH_HEAD
+.git/HEAD
+.git/ORIG_HEAD
+.git/config
+.git/description
+.git/index
+.git/packed-refs
+.git/hooks/applypatch-msg.sample
+.git/hooks/commit-msg.sample
+.git/hooks/fsmonitor-watchman.sample
+.git/hooks/post-update.sample
+.git/hooks/pre-applypatch.sample
+.git/hooks/pre-commit.sample
+.git/hooks/pre-merge-commit.sample
+.git/hooks/pre-push.sample
+.git/hooks/pre-rebase.sample
+.git/hooks/pre-receive.sample
+.git/hooks/prepare-commit-msg.sample
+.git/hooks/push-to-checkout.sample
+.git/hooks/update.sample
+.git/info/exclude
+.git/logs/HEAD
+.git/logs/refs/heads/main
+.git/logs/refs/remotes/origin/HEAD
+.git/logs/refs/remotes/origin/main
+.git/objects/06/862b188ba1d91872fbec95c49d82c1c0fd9849
+.git/objects/09/434ec1dfe8d89c80fe1c28528839d6955470aa
+.git/objects/16/6c9eec88e9d603a33dc111ceed4fa3f95c5861
+.git/objects/16/75649cd8dda564d3a52842ffb0c7d9ea72db1b
+.git/objects/1f/c64f7782aaf4757c44f5b5f9154f77bab8699a
+.git/objects/27/7445e5c58a25d413abf73f689b2fb208d7aa5c
+.git/objects/27/e018d0e88c86bf482483c0c31bc14f779ce9f6
+.git/objects/28/669a5681250e0ce0344a3312f002e40deb1994
+.git/objects/34/327240f60e039d086d635bd6faefa528b55f46
+.git/objects/35/b8538515d544cb2a7e6ba508285e303a0d6459
+.git/objects/3a/4de530b39e5d4e8184897b66ea58566568fb50
+.git/objects/42/4334bc3d087de78b6cb437e8aea0fcfa07d558
+.git/objects/42/8e0a02535f54162d269a79cc1acf2f93314328
+.git/objects/46/b067685ab9abdb1e0d02cfca0aa4b323371a69
+.git/objects/47/22eea41e0e8fb997f3c452c39147f36b9be012
+.git/objects/48/4b3b3be6b4f7d213185125fa145ea5bcbcf980
+.git/objects/4b/c0717547b7b3165cc0d10f32a6fe3f1ac252bf
+.git/objects/4f/d9dbff779d24f9f1ddd56657cb81b385ead3ee
+.git/objects/53/43bc496f34103a4659872bd56f81a4ec93800e
+.git/objects/54/c0031afa30520d67cb69206c8ee7b935fb5509
+.git/objects/55/c10582654fd53ae5f2507fba2c41437ebd8844
+.git/objects/59/02ed9976145ac7334da2a135cce65077cb3142
+.git/objects/5a/1da74d63ff7fcee9bd391844746a5634edbe08
+.git/objects/5b/72747a2ef721fb936901bfa785607639f1ac7a
+.git/objects/5c/e6a3aff9c72fbb20a647f6d0f83246435c1a13
+.git/objects/5d/3f588c8611357cce5cd9121b57cb39cce93730
+.git/objects/5d/f0422357103a18037dc97eec31b4649410ddf0
+.git/objects/5e/d91f6bee11e3e3de17e0338318af0d9d17e032
+.git/objects/6d/df2c74741b31e4af75b72e44fe437346b47ac2
+.git/objects/72/3bf10ed491cc0eeb28d7f60f5ea52d6f05ef1b
+.git/objects/7d/befae8990859eedb71c8be770e57ac1fec75de
+.git/objects/81/8c8a026466568c2bed5d9838164a2d649da5e6
+.git/objects/82/cbbd694bc8c8410f14913e1c141c1ff03fe65e
+.git/objects/92/93ded3c6795a7afa3d29ffd2085b8e76db5795
+.git/objects/94/39f6b86eb874b7c40d87ecada294ea3e1cc445
+.git/objects/9f/c8984481b04573f672dcbac1a909782e80e1cb
+.git/objects/a4/6c9f1befa295cd9ad09aeab16ea2fbcadd920a
+.git/objects/a6/1744e47a64d5f08837cd357577db9262ee40e0
+.git/objects/a9/4ef7b6673530d1788025af183cee4b579b7a7d
+.git/objects/b0/cf329a86cbe321913e412ba1a5eb176254888e
+.git/objects/b3/16968d1fc2b74d3c35b4b084255ecb75766c67
+.git/objects/b4/e4dd59c8d95f29fd3a90943981bd30cf2af571
+.git/objects/ba/6285fee935794b953754a97fc59890bd5e98a2
+.git/objects/ba/da992ac0785bf3a1b5a6386cd29bba598666dc
+.git/objects/be/402bfc47aa984e6aa8c2b970198b4743933aaf
+.git/objects/c7/7b55bcfcf4b587224e83007a101a14f09c6057
+.git/objects/c9/bc83f484c47f673bcf8b41ff985c441a6d618a
+.git/objects/cd/1314b572cb1f8e99c5214500c59aed4c091fd4
+.git/objects/ce/1ec8665da7dd93a9f91d3eaf75b5a3fe159fd6
+.git/objects/d1/a8e543d0a9543766d463f428ae621109fa8d4e
+.git/objects/d3/8b1f6e1a4075360063e79cbaa6b444833e9f59
+.git/objects/d8/89727dbd44d1ef2256e21b3517cd97b2f6c22a
+.git/objects/e0/5e0c163276f9ccb0547be4f0312629529a829e
+.git/objects/e4/5bf8bce5930d68a972ed692deee35baa0441c6
+.git/objects/e4/a506108d7a036da1322c4b7bcd04938af31f47
+.git/objects/e5/9523526bf9b52aa9fb86bbf32eeb3c13cad504
+.git/objects/e5/dddd4efd27295e89d626541ec7b7b935b9840d
+.git/objects/eb/fb7944d52cbdac6d2f8573c22f6ecc14eced78
+.git/objects/f2/4d7df43928890a99b1e0885549892cfb559e95
+.git/objects/f5/99e8c839c9c3468560c0254c6a5bf41f75e815
+.git/objects/fa/8f527a4843eab4eb74edf2820ca27eaf3a1b4d
+.git/objects/fd/fe3c2066ff6a3c08ac3f0bdef8aa705f382e1d
+.git/objects/ff/684b02117d77384754d0628e4e753ffb58477e
+.git/objects/ff/8f43a245698b1a318d77342a854579f250b02a
+.git/objects/pack/pack-6e6a8c37762858fe3d4c399634f3a59806a20a77.idx
+.git/objects/pack/pack-6e6a8c37762858fe3d4c399634f3a59806a20a77.pack
+.git/refs/heads/main
+.git/refs/remotes/origin/HEAD
+.git/refs/remotes/origin/main
+dist/fastapi_builder-1.3.3-py3-none-any.whl
+docs/develop.md
+docs/tutorial.md
+fastapi_builder/__init__.py
+fastapi_builder/__main__.py
+fastapi_builder/config.py
+fastapi_builder/constants.py
+fastapi_builder/context.py
+fastapi_builder/generator.py
+fastapi_builder/helpers.py
+fastapi_builder/main.py
+fastapi_builder/utils.py
+fastapi_builder.egg-info/PKG-INFO
+fastapi_builder.egg-info/SOURCES.txt
+fastapi_builder.egg-info/dependency_links.txt
+fastapi_builder.egg-info/entry_points.txt
+fastapi_builder.egg-info/requires.txt
+fastapi_builder.egg-info/top_level.txt
+fastapi_builder/templates/__init__.py
+fastapi_builder/templates/app/__init__.py
+fastapi_builder/templates/app/cookiecutter.json
+fastapi_builder/templates/app/app_{{ cookiecutter.folder_name }}/__init__.py
+fastapi_builder/templates/app/app_{{ cookiecutter.folder_name }}/api.py
+fastapi_builder/templates/app/app_{{ cookiecutter.folder_name }}/model.py
+fastapi_builder/templates/app/app_{{ cookiecutter.folder_name }}/schema.py
+fastapi_builder/templates/app/hooks/__init__.py
+fastapi_builder/templates/app/hooks/post_gen_app.py
+fastapi_builder/templates/project/__init__.py
+fastapi_builder/templates/project/cookiecutter.json
+fastapi_builder/templates/project/hooks/__init__.py
+fastapi_builder/templates/project/hooks/post_gen_project.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/.pre-commit-config.yaml
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/Dockerfile
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/LICENSE
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/README.md
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/README_EN.md
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/__init__.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/alembic.ini
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/docker-compose.yaml
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/fastapi-builder.ini
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/main.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/pyproject.toml
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/requirements.txt
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/setup.cfg
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/alembic/README
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/alembic/env.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/alembic/script.py.mako
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/alembic/versions/.gitkeep
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/alembic/versions/dc1e94153e6c_create_migration.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/api/errors/http_error.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/api/errors/validation_error.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/api/routes/api.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/api/routes/authentication.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/app_user/api.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/app_user/model.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/app_user/schema.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/core/.env
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/core/config.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/core/events.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/core/logger.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/db/base.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/db/database.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/db/errors.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/db/events.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/lib/jwt.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/lib/security.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/middleware/logger.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/models/base.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/models/mixins.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/schemas/auth.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/schemas/base.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/schemas/jwt.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/utils/consts.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/utils/dbmanager.py
+fastapi_builder/templates/project/{{ cookiecutter.folder_name }}/utils/docs.py
+tests/reinstall.py
+tests/test_startapp.py
+tests/test_startproject.py
+tests/utils.py
+tests/__pycache__/utils.cpython-310.pyc
