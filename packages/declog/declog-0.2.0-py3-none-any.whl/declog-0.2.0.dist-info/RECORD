@@ -1,0 +1,12 @@
+_version.py,sha256=dQUHa1PGpJsNE2x_SQFxtOX-jousEqplwH1bdsk6mnE,160
+declog/__init__.py,sha256=PFp5CvLX3iAOlfaT9BniVHWx3dCq6tX1GWKEaddlOnQ,110
+declog/logging.py,sha256=NHCB_NGCeEM2aRCF05R4sqepvUC2zQjIOKNHKiHO404,3147
+declog/database/__init__.py,sha256=9aGuRsfpzso_4IE7_EGltP5NQ5UrpEMFn5wAoTtInS0,159
+declog/database/database.py,sha256=x_DzkoVB1sNvHfGP68TwaUxJbkH9PIXQ4PNxRImkVsA,378
+declog/database/pickle_database.py,sha256=alPSpo1z3gUwFOs728pYRl4ES9s4X4Ygsy7HSUnbbug,757
+declog/database/std_out_database.py,sha256=pcpPHfXGpJKW1g4fM_gg0I2dqwmvgiAS6eLa4dbZWIg,293
+declog-0.2.0.dist-info/LICENSE,sha256=X-9bGCX9JIA7NUEPzc8zTiAAy9RFDQ1epP5hS8vE2zc,1066
+declog-0.2.0.dist-info/METADATA,sha256=5Fym3BUNDxrKFLH5WhDFSIqkRN13WQLptsLeKdOlfZ0,2331
+declog-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+declog-0.2.0.dist-info/top_level.txt,sha256=uDO4WFrx0JbkNhHSwwxlUY89Oa-KFHFC7Dsic6LKeV4,16
+declog-0.2.0.dist-info/RECORD,,
