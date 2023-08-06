@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: vseg-unet
+Version: 0.0.5
+Summary: U-net for vessel segmentation
+Home-page: UNKNOWN
+Author: Olivier Tastet
+Author-email: o.tastet33@gmail.com
+License: UNKNOWN
+Keywords: python,vessel segmentation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: torch
+Requires-Dist: opencv-python
+Requires-Dist: natsort
+Requires-Dist: sklearn
+Requires-Dist: patchify
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: albumentations
+Requires-Dist: pillow
+Requires-Dist: numpy
+Requires-Dist: argparse
+Requires-Dist: matplotlib
+Requires-Dist: torchvision
+
+U-net for vessel segmentation on large tif for spinal cord microscopy images of mice
+
