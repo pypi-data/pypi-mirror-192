@@ -1,0 +1,2 @@
+setuptools
+aps_common_libraries>=0.0.3
