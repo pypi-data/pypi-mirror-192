@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: hyp3
+Version: 0.1.0
+Summary: An intelligent metric plane for the modern data stack
+Home-page: https://github.com/hyperplane-data
+License: Apache-2.0
+Keywords: semantic-layer,metric-store,headless-bi
+Author: Hyperplane
+Author-email: hyperplane.dev@gmail.com
+Requires-Python: >=3.8,<3.10
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: SQL
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Project-URL: Repository, https://github.com/hyperplane-data/hyperplane
+Description-Content-Type: text/markdown
+
+<br/>
+<div align="center">
+    <img src="assets/logo.svg" height="150px" />
+</div>
+
+# Hyperplane
+An intelligent metric plane for the modern data stack.
+
+# Documentation
+Coming soon.
+
+# Installation
+The package can be installed from PyPi with the following command:
+```
+pip install hyp3
+```
+
+# Contributions
+We always welcome contributions! Please read our [guide](https://github.com/hyperplane-data/hyperplane/CONTRIBUTING.md) to get started.
+
+# License
+Hyperplane always will be open source. The project adheres to the Apache 2.0 license. 
