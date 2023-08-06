@@ -1,0 +1,12 @@
+mojxml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mojxml/__main__.py,sha256=TukeTrNDghIe16KZQJKx6MFYA2SgBdbePtsWmoAUQsM,951
+mojxml/constants.py,sha256=c3DJSbyU4z2URGYtobAXbDe853V3295OAPRpuFNVicY,1031
+mojxml/mojzip/__init__.py,sha256=ErsOHZNVwBRDo1nlYrczmpeUqiGLmdKH0fzwY1nK8Xs,63
+mojxml/mojzip/mojzip.py,sha256=SBOP0xHggxLsxPQOT85bJYtTa2AQ-LZeIKC77zrB3-s,808
+mojxml/parse.py,sha256=ylUy6AxLgUhqAEkhBDPO19JEmiMwRk-i6CXWrNU_Y28,8056
+mojxml/process.py,sha256=AAsOx2LcIE4ntydpKbuMldP79QTmUTuHDvFUdea7zmU,1624
+mojxml/schema.py,sha256=Txqp71gNPPECBnDx0n5Kiw3f3qM3iHKs6d7FPDpYbww,1021
+mojxml-0.0.1a6.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+mojxml-0.0.1a6.dist-info/entry_points.txt,sha256=nko3DghxebH1XYmxh3WOm_yiFoX5gDFUzZC_DXYWIG4,51
+mojxml-0.0.1a6.dist-info/METADATA,sha256=5GTeVHGFHw8PxLngZDD0fFGL2YD8pnR9SZ_fWxh9Q1U,2671
+mojxml-0.0.1a6.dist-info/RECORD,,
