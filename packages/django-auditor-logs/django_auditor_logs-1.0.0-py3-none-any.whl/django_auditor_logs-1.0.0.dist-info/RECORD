@@ -1,0 +1,11 @@
+django_auditor_logs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_auditor_logs/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_auditor_logs/apps.py,sha256=s1Qie14WhutJhhdjAc2XqzgYQDEtkGPlZh4uNFfj4nU,107
+django_auditor_logs/decorators.py,sha256=9jiyX-syH7BA-0sTb1xKzWlnPSS4-t1qZm4uCOZTOLI,2118
+django_auditor_logs/models.py,sha256=N0DWfwv30OK5e1XXAtucGadUhXBNO9h42M0vdqxfvH0,5947
+django_auditor_logs/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_auditor_logs/views.py,sha256=vFGVXM46HAd6Fbsrc8NMgN9YhbJiWJJAk7YAy7OEtyM,108
+django_auditor_logs-1.0.0.dist-info/METADATA,sha256=WEpS9QVTmFbc3UZ9J6fNoItOVR-RCA6goNC6lj_N67I,2765
+django_auditor_logs-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_auditor_logs-1.0.0.dist-info/top_level.txt,sha256=b__RrpT_zdtBAWO06ZRxmB71jozYD_8l_2XnO-Y3MBA,20
+django_auditor_logs-1.0.0.dist-info/RECORD,,
