@@ -1,0 +1,2 @@
+[console_scripts]
+datavizml = datavizml:entry_point
