@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: effect-size-analysis
+Version: 0.1.0
+Summary: Some affect size methods
+Home-page: https://github.com/LeonardoAlchieri/affect-size
+Author: Leonardo Alchieri
+Author-email: leonardo@alchieri.eu
+License: MIT
+Keywords: effect,size,delta,cliff,confidence interval
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/LeonardoAlchieri/effect-size/graphs/commit-activity)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://github.com/LeonardoAlchieri/effect-size/blob/main/LICENSE)
+[![PyPI pyversions](https://img.shields.io/badge/Python-3.10-informational)](https://github.com/LeonardoAlchieri/effect-size)
+
+# Effect size package
+
+Python package to calculate affect sizes (Cohen's δ, Hedge's g, Cliff's δ and Vargha-Delaney's A)
+
+At the moment, only Cliff's delta is implemented. The other effect sizes will be added soon.
+
+## Usage
+
+```python
+from effect_size_analysis import cliff_delta
+from numpy.random import rand
+
+x: ndarray = rand(100)
+y: ndarray = rand(100)
+cliff_delta(s1=x,s2=y,alpha=0.05,accurate_ci=True)
+```
+```
+(0.0136, (-0.1455859031658134, 0.17209949612394954))
+```
+The first value is the delta value, while the second tuple represents the confidence interval al 95%.
