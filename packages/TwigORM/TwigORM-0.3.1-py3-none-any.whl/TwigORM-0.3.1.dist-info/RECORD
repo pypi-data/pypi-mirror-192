@@ -1,0 +1,9 @@
+TwigORM/__init__.py,sha256=Td6VKr6Hd_lQLgm5uBTsuyXU62I85MdHn_Z5Ygx2S1I,22
+TwigORM/database/__init__.py,sha256=aOHPk0d6D2CzLuRwy1rvpd4ZWOE3h-y-MHoO0bBEb9k,5829
+TwigORM/database/statement/__init__.py,sha256=3I-B5NLRCjy8BDhYdRvEEOvWoXKikLOE7HlZmXmAjec,5163
+TwigORM/database/statement/comparison.py,sha256=NQOeGAOZbPMEMGwRbYa3FvxLYDbgRer3iUxMMzIuauY,4419
+TwigORM-0.3.1.dist-info/LICENSE.txt,sha256=d9lAQoDKntT6P8KCLoTTva0AR-gIFVjQK5thRyjQIgo,1074
+TwigORM-0.3.1.dist-info/METADATA,sha256=rzGkyGnWf_npR40hHQgJWbXWf6sDiFk2sZMcyJ-JWgo,591
+TwigORM-0.3.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+TwigORM-0.3.1.dist-info/top_level.txt,sha256=VEAA2Hn60Vfui0ZUP1T2xg8MlW42tVt0UhW3llumUn4,8
+TwigORM-0.3.1.dist-info/RECORD,,
