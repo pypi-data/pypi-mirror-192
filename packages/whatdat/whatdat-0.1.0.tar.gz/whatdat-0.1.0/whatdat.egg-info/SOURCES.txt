@@ -1,0 +1,9 @@
+README.rst
+pyproject.toml
+setup.py
+whatdat/__init__.py
+whatdat.egg-info/PKG-INFO
+whatdat.egg-info/SOURCES.txt
+whatdat.egg-info/dependency_links.txt
+whatdat.egg-info/requires.txt
+whatdat.egg-info/top_level.txt

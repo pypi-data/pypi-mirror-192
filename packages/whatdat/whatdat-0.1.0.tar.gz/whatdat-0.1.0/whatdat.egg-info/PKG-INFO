@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: whatdat
+Version: 0.1.0
+Summary: The whatdat module
+Home-page: UNKNOWN
+Author: Jon Crall
+Author-email: erotemic@gmail.com
+License: Apache 2
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: optional
+Provides-Extra: headless
+Provides-Extra: graphics
+Provides-Extra: headless-strict
+Provides-Extra: graphics-strict
+Provides-Extra: all-strict
+Provides-Extra: runtime-strict
+Provides-Extra: tests-strict
+Provides-Extra: optional-strict
+
+The whatdat Module
+==================
+
+
+
+|Pypi| |PypiDownloads|
+
+
+
+.. |Pypi| image:: https://img.shields.io/pypi/v/whatdat.svg
+    :target: https://pypi.python.org/pypi/whatdat
+
+.. |PypiDownloads| image:: https://img.shields.io/pypi/dm/whatdat.svg
+    :target: https://pypistats.org/packages/whatdat
+
