@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bayesnetwork
+Version: 0.1.0
+Summary: Libreria de redes bayesianas para inferencia probabilistica.
+Home-page: https://github.com/MaJu502/Inferencia-probabilistica
+Author: Marco Jurado
+Author-email: marcojuradovelasquez2001@gmail.com
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# **Inferencia probabilistica**
+**libreria simple de python para crear redes bayesianas y realizar consultas**<br>
+
+### Instalacion
+pip install bayesnetwork
+
+### Uso
+crear nodos con bayesnode y alimentarlos a la red bayes tal como el archivo test.py
+
+
+ 
