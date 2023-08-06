@@ -1,0 +1,7 @@
+Licence.txt.txt
+setup.py
+packageshree/__init__.py
+packageshree.egg-info/PKG-INFO
+packageshree.egg-info/SOURCES.txt
+packageshree.egg-info/dependency_links.txt
+packageshree.egg-info/top_level.txt
