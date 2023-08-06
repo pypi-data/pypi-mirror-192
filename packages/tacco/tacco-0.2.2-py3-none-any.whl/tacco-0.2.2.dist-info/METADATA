@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: tacco
+Version: 0.2.2
+Summary: "TACCO: Transfer of Annotations to Cells and their COmbinations"
+Home-page: UNKNOWN
+Author: "Simon Mages"
+Author-email: "smages@broadinstitute.org"
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENCE.txt
+License-File: NOTICE.md
+Requires-Dist: requests
+Requires-Dist: joblib
+Requires-Dist: numba (>=0.51.2)
+Requires-Dist: numpy
+Requires-Dist: matplotlib (!=3.7.0)
+Requires-Dist: seaborn
+Requires-Dist: sparse-dot-mkl (>=0.7.3)
+Requires-Dist: scanpy (>=1.7.0)
+Requires-Dist: statsmodels
+Requires-Dist: anndata
+Requires-Dist: pandas (>=1.1.0)
+Requires-Dist: scipy (>=1.6.0)
+Requires-Dist: mkl
+Requires-Dist: mkl-service
+Requires-Dist: scikit-learn
+Requires-Dist: threadpoolctl
+Requires-Dist: pyamg
+Requires-Dist: importlib ; python_version == "2.6"
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: ipython ; extra == 'docs'
+Requires-Dist: jupytext ; extra == 'docs'
+Requires-Dist: jupyter ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+UNKNOWN
+
