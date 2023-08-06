@@ -1,0 +1,16 @@
+panama/__init__.py,sha256=onkCbNK0a3-yxR4VS7Mvp7ipijlN1sTCpmD9PWBWB8A,281
+panama/cli.py,sha256=r4i7rEHkcr_bsakSBV_JxvR_0x6QqgS8yClMm80HM6w,590
+panama/corsika_to_hdf5.py,sha256=7cH6teB6tStuYrHASra8pr36kr1BJmH7oEV5Tt2EVTw,1738
+panama/fluxes/__init__.py,sha256=2227A22eROV74bPeTyrxm4lOzpF7dBbdlcfeJ3mgMoQ,167
+panama/fluxes/fluxes.py,sha256=yBQzNuhqeiI8RJ_Ke1Mod6kRyPvRG9LJ95kiOKBh4mY,7078
+panama/nbstreamreader.py,sha256=6K1selTD16mF6Mrh25RuFuEbjHGURLRR_VRuo4si-kc,1458
+panama/numba.py,sha256=FxtS3QGOgW72TxwEDauoXoDZUIq3ETMm4H3fDv84kA0,2090
+panama/parallel_run.py,sha256=83_AhMv__yYXQ5DHYPWlwZn1WVN4hjIQNQ-XThLcZy4,5469
+panama/read.py,sha256=PvgKyAJCytLR37nYp_q9GZKzyCiaMQApwKx8nxUPRxg,15756
+panama/run.py,sha256=N7SNODafEZIS5EVztFCFGZLtH8dHoLgU4CZN0qgtH2o,3636
+panama/weights.py,sha256=s1EFffT3dUizhoSrCutPe-z1E2aza7Z1QYLCkMmJYZI,2877
+corsika_panama-0.3.0.dist-info/METADATA,sha256=Miav0v8xmYbIb9P9ZMuVbWKb4yTz5mcmBfGBEHS1pnk,6533
+corsika_panama-0.3.0.dist-info/entry_points.txt,sha256=WXN31_IhWahMOXGkO9cR3N1RxY60KVrpw55zjlOMJSo,41
+corsika_panama-0.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+corsika_panama-0.3.0.dist-info/LICENSE,sha256=Sj_3X_eMye0MhMVlU65hi4RRAYSPcEwXY68J_8KWVK4,1069
+corsika_panama-0.3.0.dist-info/RECORD,,
