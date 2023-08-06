@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+share_pro.py
+share_pro.egg-info/PKG-INFO
+share_pro.egg-info/SOURCES.txt
+share_pro.egg-info/dependency_links.txt
+share_pro.egg-info/entry_points.txt
+share_pro.egg-info/not-zip-safe
+share_pro.egg-info/requires.txt
+share_pro.egg-info/top_level.txt
