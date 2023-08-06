@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+number-sort/__init__.py
+number-sort/sorter.py
+number_sort.egg-info/PKG-INFO
+number_sort.egg-info/SOURCES.txt
+number_sort.egg-info/dependency_links.txt
+number_sort.egg-info/top_level.txt
