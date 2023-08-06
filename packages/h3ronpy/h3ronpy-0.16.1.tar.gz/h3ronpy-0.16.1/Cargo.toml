@@ -1,0 +1,28 @@
+[package]
+name = "h3ronpy"
+version = "0.16.1"
+authors = ["Nico Mandery <nico@nmandery.net>"]
+description = "python bindings for h3ron"
+edition = "2021"
+license = "MIT"
+keywords = ["geo", "spatial", "h3", "ndarray", "numpy", "python"]
+readme = "README.md"
+homepage = "https://github.com/nmandery/h3ronpy"
+repository = "https://github.com/nmandery/h3ronpy"
+
+[lib]
+name = "h3ronpy"
+crate-type = ["cdylib"]
+
+[dependencies]
+env_logger = "^0.10"
+geo-types = "^0.7"
+geozero = { version = "0.9", default-features = false, features = ["with-geo", "with-wkb"] }
+h3ron = { git = "https://github.com/nmandery/h3ron.git", rev = "b72c4220f7fd0e787f2ea6e99b9e7fafdbfec6cd" }
+h3ron-ndarray = { git = "https://github.com/nmandery/h3ron.git", rev = "b72c4220f7fd0e787f2ea6e99b9e7fafdbfec6cd" }
+ndarray = { version = "0.15", features = ["rayon"] }
+numpy = "0.18"
+ordered-float = ">=2.0.1"
+py_geo_interface = { version = "0.5", features = ["f64", "wkb"] }
+pyo3 = { version = "0.18", features = ["extension-module", "abi3", "abi3-py37"] }
+rayon = "^1.5"
