@@ -1,0 +1,2 @@
+[tox]
+ansible-collection = tox_ansible.hooks
