@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zeversolar
+Version: 0.3.1
+Summary: 
+Author: Koen van Zuijlen
+Author-email: 8818390+kvanzuijlen@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: retry2 (>=0.9.5,<0.10.0)
