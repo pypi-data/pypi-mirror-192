@@ -1,0 +1,9 @@
+datasette>=1.0a0
+sqlglot
+sqlite_sqlean==0.1
+
+[test]
+pytest
+pytest-asyncio
+pytest-watch
+sqlite-utils
