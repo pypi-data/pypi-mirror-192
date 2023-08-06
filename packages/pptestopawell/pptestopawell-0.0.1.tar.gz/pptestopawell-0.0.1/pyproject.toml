@@ -1,0 +1,16 @@
+[project]
+name = "pptestopawell"
+version = "0.0.1"
+description = "pptest"
+keywords = ["pptestopawell", "personal data"]
+authors = [{name = "AZ", email = "email@gmail.com"}]
+license = {file = "LICENCE.txt"}
+readme = "README.md"
+classifiers = [
+    "Framework :: IDLE",
+    "License :: Free For Educational Use"
+]
+requires-python = ">=3.0"
+dependencies = [
+    'numpy; python_version >= "3.0"'
+]
