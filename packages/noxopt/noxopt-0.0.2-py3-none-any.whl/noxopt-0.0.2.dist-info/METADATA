@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: noxopt
+Version: 0.0.2
+Summary: Nox sessions with options
+Author-email: Ryan Morshead <ryan.morshead@gmail.com>
+License: BSD-3-Clause
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nox
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+
+# NoxOpt
+
+Nox sessions with options!
+
+# Usage
+
+Define a session with typed parameters:
+
+```python
+from noxopt import NoxOpt, Session
+
+nox = NoxOpt()
+
+@nox.session
+def my_session(session: Session, some_option: int):
+    session.echo(some_option)
+```
+
+Now you can pass this session the declared option via the command line:
+
+```bash
+nox -s my-session -- --some-option 10
+```
