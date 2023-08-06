@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "mc-players"
+version = "2.0.0"
+description = "List the players that have signed to a minecraft server lately"
+authors = ["Jayden Milne <jaydenmilne@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "mc_players"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+    "Topic :: Games/Entertainment"
+]
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+mc_players = "mc_players.playerlist:entry"
