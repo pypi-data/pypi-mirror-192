@@ -1,0 +1,17 @@
+django_import/__init__.py,sha256=EOTRmsyoUwdmFQPcKgcwwqV85u6ypVLCaSNrqcDD4mQ,49
+django_import/admin.py,sha256=gdAnukMO1Fxv-YW6TW_x8I057L7Ml1MoU_X7-GZuIGI,2673
+django_import/apps.py,sha256=TcFMw62rMt9NaRoY-Qoaqisa2Nusr3lZiNHDb-JvZXE,313
+django_import/config.py,sha256=9taw4skT9W5zeDJtRMN7_rCEVFh8k1kzSRrB9wct65U,748
+django_import/import_task.py,sha256=-2aIVbdSZ0udlgcEzCZb7_8pxVLGHOh77msEgfT8C80,5447
+django_import/models.py,sha256=UVrrLWizVqRx5eTmuIxsDy8QvgCNLPv0fZH3I2BDjx0,6449
+django_import/reflections.py,sha256=2pYbYdzaumvFFiBNxue1dtgn6yT4G5zJDlnQmQuxtL8,9041
+django_import/reflector.py,sha256=nQXG5Hm_dD5yk4rSmI4vwLhTq13hLQ1vI-s6Xd7xrrc,1201
+django_import/tasks.py,sha256=gn9aGXfsgH1CrTvtwkRbHasXbcIMaB9C7en8pTTAmO8,127
+django_import/version.py,sha256=R9xOYoYrWKcfO5zvTeGC3m_eDNOvxMd8CocQs2tLufo,22
+django_import/migrations/0001_initial.py,sha256=tAXPcdLzeIcGJW7k1ZXbQG2fjPiOZvYHkQmQpeYTOAM,2297
+django_import/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_import-0.0.7.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+django_import-0.0.7.dist-info/METADATA,sha256=mXi9dd4Cv41EouyDGJO2MjEGCccWXCSHlzCb1ufiPpk,1594
+django_import-0.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_import-0.0.7.dist-info/top_level.txt,sha256=gu04u0sgVwklo7bI8YV8-je4Ly-vzpbzFoMeM0IH-7s,14
+django_import-0.0.7.dist-info/RECORD,,
