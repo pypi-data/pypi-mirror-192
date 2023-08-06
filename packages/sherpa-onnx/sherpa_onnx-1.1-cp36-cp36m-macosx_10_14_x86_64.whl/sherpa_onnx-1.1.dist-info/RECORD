@@ -1,0 +1,13 @@
+_sherpa_onnx.cpython-36m-darwin.so,sha256=NXbfcCHz_yXp6aHQdjt9rxfV6WRxqG3vWDe7kZV1MXw,200320
+sherpa_onnx/__init__.py,sha256=kTYd82K-bP5jsT378xQdk8JBZXpsGQTjTPHEGv8KdWk,205
+sherpa_onnx/online_recognizer.py,sha256=0F9KZ-p-ggnrxoRLYV9lt71j5yDYXJC6t0sflj_4NA4,2684
+sherpa_onnx/bin/sherpa-onnx,sha256=L74crxwlZBPqUYMIUNvxksX5ivBoXu_wVyebISVlg08,36264
+sherpa_onnx/lib/libkaldi-native-fbank-core.dylib,sha256=WeK7Fxk2qrGemzGho1qVjazw6sWTrgmAj44-RuyYqrA,96560
+sherpa_onnx/lib/libonnxruntime.1.14.0.dylib,sha256=jzcO-7yhQyKbQyqNAvfE3NdORKkwBWNnOYctMnhMYm0,23843048
+sherpa_onnx/lib/libonnxruntime.dylib,sha256=jzcO-7yhQyKbQyqNAvfE3NdORKkwBWNnOYctMnhMYm0,23843048
+sherpa_onnx/lib/libsherpa-onnx-core.dylib,sha256=gViRfH-sWYJBX1Z1GqqBgHIhP2ptanfv2gtzuJAtdd8,123816
+sherpa_onnx-1.1.dist-info/LICENSE,sha256=poLW79HuXe4IqOQFwjPCwZjqcK4HGBKdqoOrWM_jHF0,11728
+sherpa_onnx-1.1.dist-info/METADATA,sha256=rJI0Sd2F0hzw0q-5JErMgVMz25EMy5SXmhor46n1zwc,753
+sherpa_onnx-1.1.dist-info/WHEEL,sha256=L2ysQRpzaZ_dwmB2jbkklv0iP3gp4u98o7Dm87lh-Xk,111
+sherpa_onnx-1.1.dist-info/top_level.txt,sha256=d-GKEpf-0t0HT6nU63F0vbbV6p2mJwAynt_cOTt-p3c,25
+sherpa_onnx-1.1.dist-info/RECORD,,
