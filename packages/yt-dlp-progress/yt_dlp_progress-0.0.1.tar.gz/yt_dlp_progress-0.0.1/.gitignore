@@ -1,0 +1,22 @@
+# Ignore everything
+*
+.*/
+
+# But not these files...
+!/.gitignore
+!/.gitattributes
+
+!*.py
+!schemas/**/*.json
+!pyproject.toml
+!*requirements.txt
+!.pre-commit-config.yaml
+
+!Makefile
+!README.md
+!LICENSE
+
+# ...even if they are in subdirectories
+!*/
+
+venv
