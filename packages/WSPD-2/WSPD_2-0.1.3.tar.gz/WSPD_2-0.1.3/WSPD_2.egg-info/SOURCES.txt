@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+WSPD_2.egg-info/PKG-INFO
+WSPD_2.egg-info/SOURCES.txt
+WSPD_2.egg-info/dependency_links.txt
+WSPD_2.egg-info/top_level.txt
+wspd_2/__init__.py
+wspd_2/wspd_2.py

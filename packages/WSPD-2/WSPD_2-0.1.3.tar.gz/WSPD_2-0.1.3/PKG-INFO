@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: WSPD_2
+Version: 0.1.3
+Summary: The WSPD_2 Python package
+Home-page: https://github.com/dmatijev/wspd_2
+Author: Domagoj Matijevic
+Author-email: dmatijev@mathos.hr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Computes a well-separated pairs decomposition.
