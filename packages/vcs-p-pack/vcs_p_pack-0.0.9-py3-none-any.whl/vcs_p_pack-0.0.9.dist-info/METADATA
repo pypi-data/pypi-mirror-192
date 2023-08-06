@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vcs-p-pack
+Version: 0.0.9
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: psutil (==5.9.4)
+Requires-Dist: setuptools (==56.0.0)
+
+UNKNOWN
+
+
