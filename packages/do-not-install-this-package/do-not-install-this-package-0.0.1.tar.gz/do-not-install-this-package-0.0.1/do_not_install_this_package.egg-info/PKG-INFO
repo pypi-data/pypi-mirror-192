@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: do-not-install-this-package
+Version: 0.0.1
+Summary: A package you should not run on your device
+Home-page: UNKNOWN
+Author: hackerman
+Author-email: hackerman@anotheruniverse.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+DO NOT RUN THIS ON YOUR DEVICE! IT'S BROKEN!
+

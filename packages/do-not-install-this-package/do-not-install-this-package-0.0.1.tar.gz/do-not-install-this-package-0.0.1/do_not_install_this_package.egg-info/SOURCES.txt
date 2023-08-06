@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+do_not_install_this_package.egg-info/PKG-INFO
+do_not_install_this_package.egg-info/SOURCES.txt
+do_not_install_this_package.egg-info/dependency_links.txt
+do_not_install_this_package.egg-info/top_level.txt
+test_package/__init__.py
