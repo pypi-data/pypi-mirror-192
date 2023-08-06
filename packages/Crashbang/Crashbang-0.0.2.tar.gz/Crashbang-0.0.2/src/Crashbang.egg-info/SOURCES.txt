@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Crashbang.egg-info/PKG-INFO
+src/Crashbang.egg-info/SOURCES.txt
+src/Crashbang.egg-info/dependency_links.txt
+src/Crashbang.egg-info/entry_points.txt
+src/Crashbang.egg-info/top_level.txt
+src/crashbang/__init__.py
+src/crashbang/command.py
+src/crashbang/helper.py
