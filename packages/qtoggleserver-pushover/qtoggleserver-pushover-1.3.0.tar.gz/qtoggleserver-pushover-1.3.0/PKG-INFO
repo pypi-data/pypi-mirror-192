@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: qtoggleserver-pushover
+Version: 1.3.0
+Summary: PushOver notifications for qToggleServer
+Author: Calin Crisan
+Author-email: ccrisan@gmail.com
+License: Apache 2.0
+License-File: LICENSE.txt
