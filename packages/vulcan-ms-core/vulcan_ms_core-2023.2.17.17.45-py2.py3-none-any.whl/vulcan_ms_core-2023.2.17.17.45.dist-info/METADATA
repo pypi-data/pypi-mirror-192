@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: vulcan_ms_core
+Version: 2023.2.17.17.45
+Summary: Vulcan Microservice Core Library
+Requires-Dist: PyJWT==2.4.0
+Requires-Dist: ujson==5.4.0
+Requires-Dist: fastapi==0.92.0
+Requires-Dist: SQLAlchemy==2.0.3
+Requires-Dist: opentelemetry-instrumentation-fastapi
+Requires-Dist: opentelemetry-api
+Requires-Dist: opentelemetry-sdk
+Requires-Dist: opentelemetry-exporter-otlp
+Requires-Dist: opentelemetry-instrumentation
+Requires-Dist: opentelemetry-instrumentation-fastapi
+Requires-Dist: opentelemetry-instrumentation-sqlalchemy
+Requires-Dist: opentelemetry-instrumentation-aio-pika
+Requires-Dist: python-dotenv
+Requires-Dist: uvicorn[standard]
+Requires-Dist: python-jose[cryptography]
+Requires-Dist: passlib[bcrypt]
+Requires-Dist: prometheus-fastapi-instrumentator
+Requires-Dist: asyncpg==0.27.0
+Requires-Dist: alembic
+Requires-Dist: yarl==1.8.2
+Requires-Dist: psycopg2-binary==2.9.5
+Requires-Dist: envparse
+Requires-Dist: redis==4.3.4
+Requires-Dist: pytest >=2.7.3 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Home, https://github.com/vulcafinance/vulcan_ms_core_package
+Provides-Extra: test
