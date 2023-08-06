@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gargaml
+Version: 0.0.3
+Summary: A personal ML lib
+Home-page: https://github.com/AlexandreGazagnes/gargaml
+Author: Alex Gazagnes
+Author-email: <alex.gaz@email.com>
+License: UNKNOWN
+Keywords: python,machine learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: Ipython
+
+A personal ML lib
+
+
