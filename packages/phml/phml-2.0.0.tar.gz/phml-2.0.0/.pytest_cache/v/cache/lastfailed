@@ -1,0 +1,18 @@
+{
+  "tests/test_nodes.py::test_element": true,
+  "tests/test_nodes.py::test_text": true,
+  "tests/parsing/test_compile.py::TestCompile::test_compile": true,
+  "tests/parsing/test_compile.py::TestCompile::test_var_escaping": true,
+  "tests/parsing/test_formats.py::test_is_format": true,
+  "tests/parsing/test_formats.py::test_phml_format": true,
+  "tests/parsing/test_formats.py::test_html_format": true,
+  "tests/parsing/test_formats.py::test_json_format": true,
+  "tests/parsing/test_parse.py::TestParse::test_parse": true,
+  "tests/utils/test_builder.py::test_builder_types": true,
+  "tests/utils/test_locate.py::TestSelect::test_query": true,
+  "tests/utils/test_misc.py::TestComponent::test_cmpt_name_from_path": true,
+  "tests/utils/test_misc.py::TestComponent::test_parse_ast": true,
+  "tests/utils/test_transform.py::TestTransform::test_filter_nodes": true,
+  "tests/utils/test_transform.py::TestTransform::test_remove_nodes": true,
+  "tests/utils/test_transform.py::TestTransform::test_replace_node": true
+}
