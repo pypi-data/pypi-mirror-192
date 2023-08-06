@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+mysqlgrantsdump_lyudaio.egg-info/PKG-INFO
+mysqlgrantsdump_lyudaio.egg-info/SOURCES.txt
+mysqlgrantsdump_lyudaio.egg-info/dependency_links.txt
+mysqlgrantsdump_lyudaio.egg-info/requires.txt
+mysqlgrantsdump_lyudaio.egg-info/top_level.txt
