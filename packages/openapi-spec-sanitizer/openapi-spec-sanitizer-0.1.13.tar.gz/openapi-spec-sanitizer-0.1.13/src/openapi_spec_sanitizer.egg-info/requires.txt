@@ -1,0 +1,6 @@
+
+[test]
+pytest>=7
+pytest-cov[all]
+Flask<3,>=2
+oyaml>=1.0
