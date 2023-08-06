@@ -1,0 +1,6 @@
+setup.py
+neuralnetlogicalop.egg-info/PKG-INFO
+neuralnetlogicalop.egg-info/SOURCES.txt
+neuralnetlogicalop.egg-info/dependency_links.txt
+neuralnetlogicalop.egg-info/requires.txt
+neuralnetlogicalop.egg-info/top_level.txt
