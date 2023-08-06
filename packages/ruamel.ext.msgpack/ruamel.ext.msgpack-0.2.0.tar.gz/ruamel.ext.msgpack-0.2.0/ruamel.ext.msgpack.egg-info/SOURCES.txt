@@ -1,0 +1,12 @@
+README.rst
+setup.py
+./__init__.py
+.ruamel/__init__.py
+.ruamel/ext/__init__.py
+ruamel.ext.msgpack.egg-info/PKG-INFO
+ruamel.ext.msgpack.egg-info/SOURCES.txt
+ruamel.ext.msgpack.egg-info/dependency_links.txt
+ruamel.ext.msgpack.egg-info/entry_points.txt
+ruamel.ext.msgpack.egg-info/namespace_packages.txt
+ruamel.ext.msgpack.egg-info/requires.txt
+ruamel.ext.msgpack.egg-info/top_level.txt
