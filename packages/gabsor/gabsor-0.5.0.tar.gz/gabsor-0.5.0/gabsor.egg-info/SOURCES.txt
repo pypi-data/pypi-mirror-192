@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+gabsor.egg-info/PKG-INFO
+gabsor.egg-info/SOURCES.txt
+gabsor.egg-info/dependency_links.txt
+gabsor.egg-info/top_level.txt
