@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yt_dlp_progress
+Version: 0.0.2
+Summary: Runner for yt-dlp with progress reporting
+Author-email: Max Kuznetsov <maks.kuznetsov@gmail.com>
+Requires-Python: >=3.7
+Requires-Dist: yt-dlp
+Provides-Extra: dev
+Requires-Dist: autoflake==2.0.1; extra == 'dev'
+Requires-Dist: black==23.1.0; extra == 'dev'
+Requires-Dist: hatch==1.6.3; extra == 'dev'
+Requires-Dist: isort==5.12.0; extra == 'dev'
+Requires-Dist: mypy==1.0.0; extra == 'dev'
+Requires-Dist: pip-tools==6.12.2; extra == 'dev'
+Requires-Dist: ruff==0.0.240; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# yt_dlp_progress
