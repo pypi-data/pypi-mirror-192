@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE.md
+MANIFEST.in
+README.md
+munkres.py
+pyproject.toml
+jk_munkres.egg-info/PKG-INFO
+jk_munkres.egg-info/SOURCES.txt
+jk_munkres.egg-info/dependency_links.txt
+jk_munkres.egg-info/requires.txt
+jk_munkres.egg-info/top_level.txt
+test/README.md
+test/test_munkres.py
