@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+mysqlgrantsdump.egg-info/PKG-INFO
+mysqlgrantsdump.egg-info/SOURCES.txt
+mysqlgrantsdump.egg-info/dependency_links.txt
+mysqlgrantsdump.egg-info/entry_points.txt
+mysqlgrantsdump.egg-info/requires.txt
+mysqlgrantsdump.egg-info/top_level.txt
