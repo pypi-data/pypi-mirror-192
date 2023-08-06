@@ -1,0 +1,15 @@
+setup.py
+awsomess/__init__.py
+awsomess/eat.py
+awsomess/fly.py
+awsomess.egg-info/PKG-INFO
+awsomess.egg-info/SOURCES.txt
+awsomess.egg-info/dependency_links.txt
+awsomess.egg-info/top_level.txt
+awsomess/another/__init__.py
+awsomess/another/trah.py
+awsomess/another/anotherthing/__init__.py
+awsomess/another/anotherthing/tata.py
+awsomess/personnel/__init__.py
+awsomess/personnel/helper.py
+awsomess/personnel/person.py
