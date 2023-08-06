@@ -1,0 +1,11 @@
+awsomess/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsomess/bar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsomess/bar/bar_mod.py,sha256=XcORXVAXKDbkHAsrfrGG280Xt0zcEc-sIlw2l7R4flM,30
+awsomess/bar/sub_bar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsomess/bar/sub_bar/subbar_mod.py,sha256=cxWHQNFD6GpgbO-hskrmLP0TY7Yj8uWUgZhjNEf19Wg,35
+awsomess/foo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsomess/foo/foo_mod.py,sha256=uAIr3WBHfjuR5KuQklkYD330i02CpP0fNEwhbFYmAHI,32
+awsomess-0.0.37.dist-info/METADATA,sha256=HokdZwTOPIiPtqd0xGDir8Z39bNLQUgGke631xefkRg,270
+awsomess-0.0.37.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+awsomess-0.0.37.dist-info/top_level.txt,sha256=4ME2xMlVvSY4lNfJ2ySB7QSHlRYH9IO8wsVK1VYUAzk,9
+awsomess-0.0.37.dist-info/RECORD,,
