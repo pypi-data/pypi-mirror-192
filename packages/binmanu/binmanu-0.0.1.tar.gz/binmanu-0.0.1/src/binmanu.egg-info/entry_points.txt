@@ -1,0 +1,2 @@
+[console_scripts]
+binman = binmanu.main:start_binman
