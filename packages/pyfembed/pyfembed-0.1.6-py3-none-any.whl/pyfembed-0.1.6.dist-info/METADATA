@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyfembed
+Version: 0.1.6
+Summary: Upload video with the Fembed API
+Home-page: https://github.com/raishid/pyfembed
+Author: raishid
+Author-email: raishidavid@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: tus.py
+
+# Pyfembed
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Script to upload Videos to Fembed via API
+
+# Requeriments
+Python >=3.6
+
+# Usage
+
+    pip install pyfembed
+
+    import pyfembed import Pyfembed
+
+    pyfembed = Pyfembed(client_id, client_secret)
+    upload_url = pyfembed.get_upload_url()
+    uploaded = pyfembed.upload(
+        file_path=filepath, 
+        url_upload=upload_url.data.url, 
+        token=upload_url.data.token
+    )
+    video_id = pyfembed.get_video_id(uploaded['fingerprint'])
+
+And ready, the file is uploaded to share
+
