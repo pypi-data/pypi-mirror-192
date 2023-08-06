@@ -1,0 +1,21 @@
+from enum import Enum
+
+
+class DirectdebitoutboundMessageResponseCode(str, Enum):
+    GENERAL = "GENERAL"
+    DUPLICATE = "DUPLICATE"
+    MFADEVICEMM = "MFADEVICEMM"
+    PERMISSION = "PERMISSION"
+    MFAMESSAGEINVALID = "MFAMESSAGEINVALID"
+    RATELIMIT = "RATELIMIT"
+    MFASTATUS = "MFASTATUS"
+    INVALID = "INVALID"
+    NOTFOUND = "NOTFOUND"
+    MFATIMEOUT = "MFATIMEOUT"
+    MFAERROR = "MFAERROR"
+    BUSINESSRULE = "BUSINESSRULE"
+    RETRY = "RETRY"
+    CONNECTION = "CONNECTION"
+
+    def __str__(self) -> str:
+        return str(self.value)
