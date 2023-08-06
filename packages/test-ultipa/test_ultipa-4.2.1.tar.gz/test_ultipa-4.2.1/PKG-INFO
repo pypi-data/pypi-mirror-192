@@ -1,0 +1,591 @@
+Metadata-Version: 2.1
+Name: test_ultipa
+Version: 4.2.1
+Summary: This is ultipa sdk
+Home-page: https://www.ultipa.com/document/ultipa-drivers/python-installation
+Author: Ultipa
+Author-email: support@ultipa.com
+License: PSF
+Keywords: ultipa sdk,ultipa graph
+Platform: UNKNOWN
+Requires-Python: >=3.6, <=3.10
+Description-Content-Type: text/markdown
+
+# Python SDK
+
+## <b>Installation</b>
+
+### Environmental Preparation
+
+- Python version 3.6 +
+- Install Ultipa dependencies in offline environment (request the latest requirements file from [Ultipa Support](mailto:support@ultipa.com), or ignore this step in an on-line environment):
+<p tit="Bash"></p> 
+
+```bash
+pip install --no-index --find-links=./packs -r requirements.txt
+```
+
+- Install Python package file (download the latest tar.gz file from [Ultipa Download](https://ultipa.com/download) or contact [Ultipa Support](mailto:support@ultipa.com)):
+<p tit="Bash"></p> 
+
+```bash
+pip install ultipa-python-sdk-4.2.0.tar.gz
+```
+## <b>Graph</b>
+
+### showGraph()
+
+Method and class:
+<p tit= "Definition" ></p> 
+
+```
+def showGraph(self, 
+			  requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.ResponseListGraph
+```
+
+Example: Acquire information of all graphsets
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.showGraph()
+req.Print()
+```
+
+### getGraph()
+
+Method and class:
+<p tit= "Definition" ></p> 
+
+```
+def getGraph(self, 
+         	 request: ULTIPA_REQUEST.Graph, 
+             requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.ResponseGraph
+
+class Graph:
+	def __init__(self, graph: str, description: str = None)
+```
+                  
+Example: Acquire information of graphset 'test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.getGraph(ULTIPA_REQUEST.Graph("test"))
+req.Print()
+```
+
+### createGraph()
+
+Method and class:
+<p tit= "Definition" ></p> 
+
+```
+def createGraph(self, 
+				request: ULTIPA_REQUEST.Graph,
+                requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class Graph:
+	def __init__(self, graph: str, description: str = None)
+```
+                  
+Example: Create graphset testGraph' with description 'graphset for test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig
+from ultipa import ULTIPA_REQUEST
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.createGraph(ULTIPA_REQUEST.Graph("testGraph", "graphset for test"))
+req.Print()
+```
+
+### alterGraph()
+
+Method and class:
+<p tit= "Definition" ></p> 
+
+```
+def alterGraph(self, 
+		 	  request: ULTIPA_REQUEST.AlterGraph,
+              requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class AlterGraph:
+	def __init__(self, oldGraphName: str, newGraphName: str, newDescription: str = None)
+```
+                  
+Example: Modify graphset 'testGraph' with new name 'newGraph' and new description 'rename testGraph as newGraph'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig
+from ultipa import ULTIPA_REQUEST
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.alterGraph(ULTIPA_REQUEST.AlterGraph("testGraph","newGraph","rename testGraph as newGraph"))
+req.Print()
+```
+
+### dropGraph()
+
+Method and class:
+<p tit= "Definition" ></p> 
+
+```
+def dropGraph(self, 
+			  request: ULTIPA_REQUEST.Graph,
+              requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class Graph:
+	def __init__(self, graph: str, description: str = None)
+```
+                  
+Example: Delete graphset 'newGraph'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig
+from ultipa import ULTIPA_REQUEST
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.dropGraph(ULTIPA_REQUEST.Graph("newGraph"))
+req.Print()
+```
+
+## <b>Schema</b>
+
+### showSchema()
+
+Method and class:
+<p tit= "Defination" ></p> 
+
+```
+def showSchema(self, 
+			   request: ULTIPA_REQUEST.ShowSchema = None,
+               requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class ShowSchema(self, type: ULTIPA.DBType = None, schema: str = None)
+```
+
+Example: Acquire the information of all schemas of graphset 'test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.showSchema(requestConfig = RequestConfig("test"))
+req.Print()
+```
+
+Example: Acquire the information of all edge schemas of graphset 'test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.showSchema(
+  ULTIPA_REQUEST.ShowSchema(ULTIPA.DBType.DBEDGE),
+  RequestConfig("test")
+)
+req.Print()
+```
+
+Example: Acquire the information of node schema 'account' of graphset 'test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.showSchema(
+  ULTIPA_REQUEST.ShowSchema(ULTIPA.DBType.DBNODE, "account"),
+  RequestConfig("test")
+)
+req.Print()
+```
+
+### createSchema()
+
+Method and class:
+<p tit= "Defination" ></p> 
+
+```
+def showSchema(self, 
+     	       request: ULTIPA_REQUEST.CreateSchema,
+               requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class CreateSchema:
+	def __init__(self, name: str, type: ULTIPA.DBType, description: str = None)
+```
+
+Example: Create node schema 'card' for graphset 'test', with description 'bank card'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.createSchema(
+  ULTIPA_REQUEST.CreateSchema("card", ULTIPA.DBType.DBNODE, "bank card"),
+  RequestConfig("test"))
+req.Print()
+```
+
+### alterSchema()
+
+Method and class:
+<p tit= "Defination" ></p> 
+
+```
+def alterSchema(self, 
+				request: ULTIPA_REQUEST.AlterSchema,
+                requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class AlterSchema:
+	def __init__(self, type: ULTIPA.DBType, schema: str, newName: str, newDescription: str = '')
+```
+
+Example: Modify node schema 'people' of graphset 'test' with new name 'customer' and new description 'bank customer'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.alterSchema(
+  ULTIPA_REQUEST.AlterSchema(ULTIPA.DBType.DBNODE, "people", "customer", "bank customer"),
+  RequestConfig("test"))
+req.Print()
+```
+
+### dropSchema()
+
+Method and class:
+<p tit= "Defination" ></p> 
+
+```
+def dropSchema(self, 
+			   request: ULTIPA_REQUEST.DropSchema,
+               requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class DropSchema:
+	def __init__(self, type: ULTIPA.DBType, schema: str)
+```
+
+Example: Delete edge schema 'manage' from graphset 'test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.dropSchema(ULTIPA_REQUEST.DropSchema(ULTIPA.DBType.DBEDGE,"manage"),
+                      RequestConfig("test"))
+req.Print()
+```
+
+
+## <b>Property</b>
+
+### showProperty()
+
+Method and class:
+<p tit= "Defination" ></p> 
+
+```
+def showProperty(self,
+				 requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.ResponseListProperty
+```
+
+Example: Acquire the information of all properties of graphset 'test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.showProperty(requestConfig = RequestConfig("test"))
+print(req.toJSON())
+```
+
+### getProperty()
+
+Method and class:
+<p tit= "Defination" ></p> 
+
+```
+def getProperty(self, 
+				request: ULTIPA_REQUEST.GetProperty,
+                requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.ResponseGetProperty
+
+class GetProperty:
+	def __init__(self, type: ULTIPA.DBType, schema: str = None)
+```
+
+Example: Acquire the information of all edge properties of of graphset 'test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.getProperty(
+  ULTIPA_REQUEST.GetProperty(ULTIPA.DBType.DBEDGE),
+  RequestConfig("test"))
+req.Print()
+```
+
+Example: Acquire the information of all properties of node schema 'customer' of graphset 'test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.getProperty(
+  ULTIPA_REQUEST.GetProperty(ULTIPA.DBType.DBNODE, "customer"),
+  RequestConfig("test"))
+req.Print()
+```
+
+
+### createProperty()
+
+Method and class:
+<p tit= "Defination" ></p> 
+
+```
+def createProperty(self, 
+				   request: ULTIPA_REQUEST.CreateProperty,
+                   requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class CreateProperty:
+	def __init__(self, 
+				 type: ULTIPA.DBType, 
+                 commonSchema: CommonSchema,
+                 propertyType: ULTIPA.CreatePropertyType = ULTIPA.CreatePropertyType.PROPERTY_STRING,
+                 description: str = ''
+    )
+
+class CommonSchema:
+	def __init__(self, schema: str, property: str)
+```
+
+Example: Craete edge property `@transfer.amount` for graphset 'test', with data type 'float' and description 'transaction amount'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.createProperty(
+  ULTIPA_REQUEST.CreateProperty(
+    ULTIPA.DBType.DBEDGE,
+    ULTIPA_REQUEST.CommonSchema("transfer", "amount"),
+    ULTIPA.CreatePropertyType.PROPERTY_FLOAT,
+    "transaction amount"
+  ), 
+  RequestConfig("test"))
+req.Print()
+```
+
+### alterProperty()
+
+Method and class:
+<p tit= "Defination" ></p> 
+
+```
+def alterProperty(self, 
+				  request: ULTIPA_REQUEST.AlterProperty,
+                  requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class AlterProperty:
+	def __init__(self, 
+    			 type: ULTIPA.DBType, 
+                 commonSchema: CommonSchema, 
+                 newName: str, 
+                 newDescription: str = ''
+	)
+
+class CommonSchema:
+	def __init__(self, schema: str, property: str)
+```
+
+Example: Modify edge property `@transfer.type` of graphset 'test' with new name 'TYPE' and new description 'transfer type'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.alterProperty(
+  ULTIPA_REQUEST.AlterProperty(
+    ULTIPA.DBType.DBEDGE, 
+    ULTIPA_REQUEST.CommonSchema("transfer", "type"), 
+    "TYPE", 
+    "transfer type"
+  ), 
+  RequestConfig("test"))
+req.Print()
+```
+
+### dropProperty()
+
+Method and class:
+<p tit= "Defination" ></p> 
+
+```
+def dropProperty(self, 
+				 request: ULTIPA_REQUEST.DropProperty,
+                 requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+
+class DropProperty:
+	def __init__(self, type: ULTIPA.DBType, commonSchema: CommonSchema)
+
+class CommonSchema:
+	def __init__(self, schema: str, property: str)
+```
+
+Example: Delete node property `@card.level` from graphset 'test'
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig, RequestConfig
+from ultipa import ULTIPA_REQUEST, ULTIPA
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.dropProperty(
+  ULTIPA_REQUEST.DropProperty(
+    ULTIPA.DBType.DBNODE,
+    ULTIPA_REQUEST.CommonSchema("card", "level")
+  ),
+  RequestConfig("test"))
+req.Print()
+```
+## <b>Send UQL</b>
+
+### uql()
+
+Method and class:
+<p tit= "Definition" ></p> 
+ 
+```
+def uql(self, 
+		uql: str,
+        requestConfig: ULTIPA_REQUEST.RequestConfig = ULTIPA_REQUEST.RequestConfig()
+) -> ULTIPA_RESPONSE.UltipaResponse
+```
+
+Sending `uql()` request will return class UltipaResponse.
+
+UltipaResponse has below fields:
+
+| Field | Type | Description |
+| ---- | ---- | ---- |  
+| aliases | List[ResultAlias] | aliases and types of each return value |
+| items | Dict | aliases and values (DataItem) of each return value |
+| explainPlan | ExplainPlan | UQL statement explanation tree |
+| req | ReturnReq | UQL request info |
+| status | Status | status of request execution |
+| statistics | UltipaStatistics | statistics of request execution, including timecost, metadata affected, etc. |
+
+UltipaResponse has below methods:
+
+|  Method | Type | Description |
+| ---- | ---- | ---- |  
+| Print()  |  | output to console in table format |
+| toJson(pretty: bool) | str |  convert to json formatted string, either with linefeed (pretty=true) or not (as defaulted) |
+| toDict() | Dict |  convert to dict format |
+| get(index: int) | DataItem |  acquire an alias as DataItem by index |
+| alias(alias: str) | DataItem |  acquire an alias as DataItem by name  |
+
+> Alias types such as NODE, EDGE and PATH can be connverted to corresponding classes using methods of class DataItem, see next chapter Alias Structs for detail.
+
+### Print()
+
+Example: Send UQL `show().grpah()` to server and print the result in table format
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.uql("show().graph()")
+req.Print()
+```
+### toJson()
+
+Example: Send UQL `find().nodes(1) as nodes return nodes` to server and print the result in json format with linefeed
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.uql("find().nodes(1) as nodes return nodes")
+print(req.toJSON(True))
+```
+
+### toDict()
+
+Example: Send UQL `find().nodes(1) as nodes return nodes` to server and print the result in json format
+<p tit= "Python" ></p> 
+ 
+```python
+from ultipa import Connection, UltipaConfig
+
+# omit code of establishing server connection 'conn' using graphset 'default'
+
+req = conn.uql("find().nodes(1) as nodes return nodes")
+print(req.toDict())
+```
+
