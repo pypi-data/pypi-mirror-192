@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: miditoolkit-light
+Version: 0.1.18
+Summary: UNKNOWN
+Home-page: https://github.com/tuneflow/miditoolkit
+Author: TuneFlow
+Author-email: contact@info.tuneflow.com
+License: MIT
+Keywords: music midi mir
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia :: Sound/Audio :: MIDI
+License-File: LICENSE
+
+UNKNOWN
+
