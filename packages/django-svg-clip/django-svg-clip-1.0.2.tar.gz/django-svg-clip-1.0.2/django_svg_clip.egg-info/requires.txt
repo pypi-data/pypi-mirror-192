@@ -1,0 +1,15 @@
+django<5,>=3.0
+
+[test]
+black
+codecov
+coverage
+django
+flake8
+gitchangelog
+isort
+mypy
+pytest-cov
+pystache
+pytest
+tox
