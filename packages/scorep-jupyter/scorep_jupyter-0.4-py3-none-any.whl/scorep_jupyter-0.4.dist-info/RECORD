@@ -1,0 +1,9 @@
+scorep_jupyter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scorep_jupyter/install.py,sha256=x3_KY2XsbmFZ4S3iDZQs_UzJv6sFBru4ZcOQkbmeXjk,708
+scorep_jupyter/kernel.py,sha256=5OPCPU23IwOyqhZOxKdoGTXLd1yuriEgkJa3Mk-fXh4,18602
+scorep_jupyter/userpersistence.py,sha256=nIW8Z7uoEB-eigz11oL1kWF3XtHrEqtXr_FJdGC4fPU,5542
+scorep_jupyter-0.4.dist-info/LICENSE,sha256=QXF91qrE32N_WRqmAH0U-04hLinILIYFL8s4k8CYH3Q,3470
+scorep_jupyter-0.4.dist-info/METADATA,sha256=zNWPVDR7A3yD47WNpVeprDwA0YQNQFjhGzGXh2orzV8,10144
+scorep_jupyter-0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scorep_jupyter-0.4.dist-info/top_level.txt,sha256=A4GMc8NK74beKAeSDPjBWn0wh30QfPxR9b0JngTafg0,15
+scorep_jupyter-0.4.dist-info/RECORD,,
