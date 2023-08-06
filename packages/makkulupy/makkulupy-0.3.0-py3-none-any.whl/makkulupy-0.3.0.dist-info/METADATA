@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: makkulupy
+Version: 0.3.0
+Summary: a lightweight consumer for the makkulu dictionary api
+Author-email: marzka <git@marzka.cafe>
+Requires-Python: >= 3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: orjson >= 3.8.6, < 3.9
+Requires-Dist: python-dateutil >= 2.8.2, < 2.9
+Requires-Dist: requests >= 2.28, < 2.29
+Requires-Dist: ward >= 0.67.2b0, < 0.68 ; extra == "tests"
+Project-URL: Bug Tracker, https://github.com/marzusia/makkulupy/issues
+Project-URL: Home, https://github.com/marzusia/makkulupy
+Provides-Extra: tests
+
+# makkulupy 💬
+
+**makkulupy** is a lightweight tool for accessing the makkulu dictionary API and returning its data in a Pythonic way.
+
+## How to use
+```python
+import makkulupy
+
+words = makkulupy.get_words(headword="makkulu")
+
+for word in words:
+    print(f"{word.headword} means {word.definition}")
+```
+
+## License
+makkulupy is licensed under the **BSD 2 Clause** (see [LICENSE] to read in full)

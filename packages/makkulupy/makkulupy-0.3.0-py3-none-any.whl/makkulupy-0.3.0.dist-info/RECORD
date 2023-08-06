@@ -1,0 +1,12 @@
+makkulupy/__init__.py,sha256=ImxzuwirYmVicPwtYPGVcM5KuRmMQ9a0oVMsfDPLdDM,437
+makkulupy/exceptions.py,sha256=MLZEz8jZQhyh-BzWoiaofnIkB7bczwox_ZvaGWyuoak,249
+makkulupy/requests.py,sha256=CHQaFVFAz_EaH1i-tKlsqSBYkAuSYnKc-sUhdpTb2yo,4584
+makkulupy/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makkulupy/models/batch.py,sha256=c_GSVKP5gA9T6Ekv8NhADfBh3dZXk4SIT03tqAByqz8,1645
+makkulupy/models/word.py,sha256=xsgfxJk6xJG0EOHS6YoURb14I8Jh56wM5qyfL47eorI,1171
+makkulupy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makkulupy/tests/test_requests.py,sha256=EOOjYG1bpne4eCW1Phl4MdnVUZfw3IIcYIV7zISDs0A,2745
+makkulupy-0.3.0.dist-info/LICENSE,sha256=EiqgQydPxm0DmtAjJAL9OJzJZOzWV46kYtLCcZGj7l8,1286
+makkulupy-0.3.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+makkulupy-0.3.0.dist-info/METADATA,sha256=qkiIDLrg4dL2Jf8_E369YmTAvBPp_basKb2IWR0MVnQ,1099
+makkulupy-0.3.0.dist-info/RECORD,,
