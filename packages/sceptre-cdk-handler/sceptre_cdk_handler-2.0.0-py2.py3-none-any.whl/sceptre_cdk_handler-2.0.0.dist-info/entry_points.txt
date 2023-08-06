@@ -1,0 +1,3 @@
+[sceptre.template_handlers]
+cdk = sceptre_cdk_handler.cdk:CDK
+
