@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: keepass_env
+Version: 0.0.2
+Summary: tool read key-value pairs from a .kdbx file and can set them as environment variables or return as dict.
+Home-page: https://github.com/tandav/keepass-env
+Author: Alexander Rodionov
+Author-email: tandav@tandav.me
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
