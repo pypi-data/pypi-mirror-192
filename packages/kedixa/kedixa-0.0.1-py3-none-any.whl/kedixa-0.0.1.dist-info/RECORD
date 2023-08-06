@@ -1,0 +1,8 @@
+kedixa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kedixa/file_loader.py,sha256=2wfU05ozidmTn9LD7zdxljlLJbIFroBvk58RUltEQ-A,877
+kedixa/mprocess.py,sha256=wi1v4D0PdKheQtZaRfWoFyiOh19kfeO5uWb9s_dQMqk,3828
+kedixa/version.py,sha256=r1XKP3dPZqmRam_uFpsqcbjngyQrTRaZD6uC7irOLQo,145
+kedixa-0.0.1.dist-info/METADATA,sha256=IfGhulbz-8E5uPYlqvKZUaBphlBiDTqJprWA7gTAc6o,196
+kedixa-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kedixa-0.0.1.dist-info/top_level.txt,sha256=ONvTJADmljVaMUydvaC_uUZc5p_aUq5Z3GNuwTlhHpw,7
+kedixa-0.0.1.dist-info/RECORD,,
