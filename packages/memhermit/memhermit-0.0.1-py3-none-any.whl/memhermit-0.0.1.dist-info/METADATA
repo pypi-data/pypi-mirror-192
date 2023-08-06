@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: memhermit
+Version: 0.0.1
+Summary: Phy memory explorer
+Author: Albert Saez
+Author-email: albertsaeznunez@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
