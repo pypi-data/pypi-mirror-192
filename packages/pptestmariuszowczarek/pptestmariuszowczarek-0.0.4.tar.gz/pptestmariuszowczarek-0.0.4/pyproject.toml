@@ -1,0 +1,13 @@
+[project]
+name='pptestmariuszowczarek'
+version='0.0.4'
+description = 'my test package'
+keywords = ['pptestmariuszowczarek', 'funny functions', 'name', ' surname']
+authors = [{name ='Mariusz Owczarek', email='abc@wp.pl'}]
+license = {file = 'LICENCE.txt'}
+readme = 'README.md'
+classifiers = [
+    "Framework :: IDLE"]
+
+requires-python = ">=3.0"
+dependencies = ['numpy; python_version >="3.0"']
