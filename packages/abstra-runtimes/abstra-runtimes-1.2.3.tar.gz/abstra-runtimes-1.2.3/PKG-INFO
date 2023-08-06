@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: abstra-runtimes
+Version: 1.2.3
+Summary: Abstra Runtimes Lib
+Home-page: https://github.com/abstra-app/abstra-runtimes-lib
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# abstra-runtimes-lib
+
+Collects runtimes/executions for Abstra Cloud
+
+
