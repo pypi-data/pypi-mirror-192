@@ -1,0 +1,2 @@
+[awx.credential_plugins]
+spp_plugin = safeguardcredentialtype:spp_plugin
