@@ -1,0 +1,2 @@
+[console_scripts]
+aus = aus.tools.cli.cli_main:cli_group
