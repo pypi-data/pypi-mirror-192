@@ -1,0 +1,12 @@
+earthscope_cli/__init__.py,sha256=iPlYCcIzuzW7T2HKDkmYlMkRI51dBLfNRxPPiWrfw9U,22
+earthscope_cli/m2m.py,sha256=rF8sx_PqhST3wA9u9vt17XYN0PlBdefkw7kbkemKKv4,3968
+earthscope_cli/main.py,sha256=ldi6OkngIU1wsB6aGUKWeXj2ZnL4WHVjdfTrRNnebY8,426
+earthscope_cli/sso.py,sha256=OcQE23FR1pMY9foehcQufanHZwFMO8UeQ9btLufXwoI,6930
+earthscope_cli/user.py,sha256=BnT3ZSsNxRMctbtadKqP7GlmVAnabqiwUQA4VWp5_LE,933
+earthscope_cli/util.py,sha256=lm4HgvaUmcfuntfXXePPyPtqcDxF1grmtbBml75ZSGU,397
+earthscope_cli-0.8.0.dist-info/LICENSE,sha256=E_MrVXxRaMQNpvZhsDuz_J9N_ux7dlL_WpYSsE391HU,11349
+earthscope_cli-0.8.0.dist-info/METADATA,sha256=ZqpihVu03UWIB-yHQUDRRn1UrysKNvnwCUpsiWs9c8g,20239
+earthscope_cli-0.8.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+earthscope_cli-0.8.0.dist-info/entry_points.txt,sha256=V0eg1t3n5z6RCGGgtkhU8094UcWQnaVDizjhQmYUrcc,47
+earthscope_cli-0.8.0.dist-info/top_level.txt,sha256=pVHog1NYcepCnHJWD6a4248JXm6MLC2qyNkFflv-81s,15
+earthscope_cli-0.8.0.dist-info/RECORD,,
