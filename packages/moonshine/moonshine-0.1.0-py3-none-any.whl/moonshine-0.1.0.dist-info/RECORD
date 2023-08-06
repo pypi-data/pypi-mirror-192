@@ -1,0 +1,17 @@
+moonshine/BUILD,sha256=Nf7BYWWe1USoFEIsIiEVZ8sa05J5FPkMJ-UIMDLrU8o,17
+moonshine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moonshine/models/BUILD,sha256=lozfkZNvJHll0t7X7V_qjvqr3Nr22e7simSroDkvOhM,121
+moonshine/models/__init__.py,sha256=UCPas_H6NKVtAmXxrIDZ1481nBkuT20ZNFxNjbnRWSA,43
+moonshine/models/base.py,sha256=-wBFjdwpBcnZCxNoA0L_jUj844SgH_SB-3GKLpPWtps,3068
+moonshine/models/model_parameters.py,sha256=C19YdZMuIro8XaNao1KRFuwJ-Zs9q-xuT7R0vzPT-1U,580
+moonshine/models/unet.py,sha256=f2RU2W_-vb4srwIObdRqZC8AyAB-xGswkHtK5DR054A,1301
+moonshine/models/unet_test.py,sha256=FgCd5Pdq7SmzHLb50aFwZ0fxfzxPzhuwp5iMQzDHm_M,930
+moonshine/preprocessing/BUILD,sha256=BmTbp-tr-C0OEB1mWKC1DRdQiGXOrSOKpAjl_tXL7eM,52
+moonshine/preprocessing/__init__.py,sha256=NvOLGtt3lDT2YIarhdCExNkDMm_y6fMtRYVCHgChskc,45
+moonshine/preprocessing/preprocess.py,sha256=QXd-tARL5d56rBp48OryTMul9TFSa_aA34OT6AalULo,1482
+moonshine/preprocessing/preprocess_test.py,sha256=DAZ-Tqi1Jro517vWdQEygFtafqPohxHphFCgpwbeYCM,542
+moonshine/preprocessing/settings.py,sha256=nb0ArueVX9iaMLJ2ETL9gh0Q-rcaqAyF4ydvgA5RURg,210
+moonshine-0.1.0.dist-info/METADATA,sha256=uIlLgtxNdwamh8Iie7bBu0a9TjPoupRwYpuu0-UJe84,2466
+moonshine-0.1.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+moonshine-0.1.0.dist-info/licenses/LICENSE,sha256=CNzVAyegskN0DQebbglVQSUVfUoNNNWgU4Om2Im_C-U,1071
+moonshine-0.1.0.dist-info/RECORD,,
