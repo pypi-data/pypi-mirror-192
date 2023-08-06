@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: blueskysolarracing-revolution
+Version: 0.0.0.dev0
+Summary: Software for the Blue Sky Solar Racing Gen 12 electrical system
+Home-page: https://github.com/blueskysolarracing/revolution
+Author: Blue Sky Solar Racing
+Author-email: juho-kim@outlook.com
+License: AGPLv3
+Project-URL: Documentation, https://bssr-revolution.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/blueskysolarracing/revolution
+Project-URL: Tracker, https://github.com/blueskysolarracing/revolution/issues
+Keywords: blueskysolarracing,solar,car,toradex
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: gpiod (~=1.5.3)
+Requires-Dist: spidev (~=3.6)
+Requires-Dist: python-periphery (~=2.3.0)
+
+Revolution
+==========
+
+Software for the Blue Sky Solar Racing Gen 12 electrical system 
