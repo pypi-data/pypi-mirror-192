@@ -1,0 +1,8 @@
+setup.py
+ccr/__init__.py
+ccr/utils.py
+pyccr.egg-info/PKG-INFO
+pyccr.egg-info/SOURCES.txt
+pyccr.egg-info/dependency_links.txt
+pyccr.egg-info/requires.txt
+pyccr.egg-info/top_level.txt
