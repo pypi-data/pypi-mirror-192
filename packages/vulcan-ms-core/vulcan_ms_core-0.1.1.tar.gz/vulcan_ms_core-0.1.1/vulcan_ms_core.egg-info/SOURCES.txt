@@ -1,0 +1,8 @@
+README.md
+setup.py
+vulcan_ms_core/__init__.py
+vulcan_ms_core/myfunctions.py
+vulcan_ms_core.egg-info/PKG-INFO
+vulcan_ms_core.egg-info/SOURCES.txt
+vulcan_ms_core.egg-info/dependency_links.txt
+vulcan_ms_core.egg-info/top_level.txt
