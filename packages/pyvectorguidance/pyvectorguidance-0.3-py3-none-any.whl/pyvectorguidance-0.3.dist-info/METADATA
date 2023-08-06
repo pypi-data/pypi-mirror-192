@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyvectorguidance
+Version: 0.3
+Summary: Vector Guidance method implemented in Python.
+Home-page: https://github.com/iftahnaf/pyvectorguidance
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Author: Iftach Naftaly
+Author-email: iftahnaf@gmail.com
+License: Apache Software License
+Keywords: Python,Vector Guidance
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.21.5)
+Requires-Dist: rich (==13.3.1)
+Requires-Dist: scipy (==1.10.0)
+
+# General Info
+Vector Guidance method implemented in Python.
+
+# Install:
+
+        pip install pyvectorguidance
