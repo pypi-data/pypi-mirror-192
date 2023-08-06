@@ -1,0 +1,10 @@
+contrib/__init__.py,sha256=St0ciUzPeO2qcW0_OjtpRkVhqqgiq_Is8bJFK3_KAk8,48
+contrib/semi_structured.py,sha256=g_Sd_hkryS_Ub4i2X6TyJ3x8vjny6Leqff9WQCjcTsA,2402
+contrib/spatial_properties.py,sha256=T94_RwWAlKzio7wDyYzrrDo6qE4U16rudaGaB5fWZ2U,15031
+neomodel-4.0.9.dist-info/AUTHORS.txt,sha256=4uhbVWvsIZFFOkza0VVlgb-CmRPdXWsuK983olDtVf8,704
+neomodel-4.0.9.dist-info/LICENSE,sha256=BuBDtpPJdefrsF_bT6Gty7SZAWQMqjQowHGwq8UsPh4,1099
+neomodel-4.0.9.dist-info/METADATA,sha256=ed_NB-1PAJdB6VIHRe2s5DsCdRFbPSuqSp9-hjX0hM0,4864
+neomodel-4.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+neomodel-4.0.9.dist-info/entry_points.txt,sha256=0TC_UdTPWLlfO85BdytMNO726R2uRLoeShcdADbUYqg,124
+neomodel-4.0.9.dist-info/top_level.txt,sha256=asmuYmRK68rpi9ZuFLh8xCWDk7rl1TWyfTHuKS4lK5Y,8
+neomodel-4.0.9.dist-info/RECORD,,

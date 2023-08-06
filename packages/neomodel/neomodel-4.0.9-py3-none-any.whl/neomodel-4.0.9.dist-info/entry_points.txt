@@ -1,0 +1,3 @@
+[console_scripts]
+install-labels = scripts.neomodel_install_labels:main
+remove-labels = scripts.neomodel_remove_labels:main
