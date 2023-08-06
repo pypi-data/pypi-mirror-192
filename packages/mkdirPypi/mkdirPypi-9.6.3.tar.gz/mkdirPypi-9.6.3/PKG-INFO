@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mkdirPypi
+Version: 9.6.3
+Summary: This project is to create the directory tree to upload your project to Pypi
+Home-page: https://github.com/batestin1/
+Author: Maycon Cypriano Batestin
+Author-email: mayconcipriano@gmail.com
+Project-URL: Código fonte, https://github.com/batestin1/
+Project-URL: Download, https://github.com/batestin1/
+Keywords: This project is to create the directory tree to upload your project to Pypi
+
+file: README.md
