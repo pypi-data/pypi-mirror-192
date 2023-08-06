@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/bayesnetwork/__init__.py
+src/bayesnetwork/bayesnetwork.py
+src/bayesnetwork.egg-info/PKG-INFO
+src/bayesnetwork.egg-info/SOURCES.txt
+src/bayesnetwork.egg-info/dependency_links.txt
+src/bayesnetwork.egg-info/entry_points.txt
+src/bayesnetwork.egg-info/top_level.txt
