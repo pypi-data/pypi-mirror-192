@@ -1,0 +1,12 @@
+gitno/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitno/__main__.py,sha256=xF1Yg7AVFh38VSDwnwZzQqg1fKO8cbqqOw7_sG80dGY,79
+gitno/cli.py,sha256=V1MfPm8H8CXI_ViJqRx8GSBIV61PAZRxX2u21XaR2-M,3686
+gitno/gitignore.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitno/main.py,sha256=xF1Yg7AVFh38VSDwnwZzQqg1fKO8cbqqOw7_sG80dGY,79
+gitno/version.py,sha256=aOHawL1zuHMfBWKXqwUkXcW96oXLNCY-CXdHDqkz4g4,18
+gitno-0.1.2.dist-info/LICENSE,sha256=xZj9-_H1sWmvxwyCfsaU9BeKKQL6xBpuxwkZyDYWwKM,1054
+gitno-0.1.2.dist-info/METADATA,sha256=m8rRJNRoWhcTFb3werT40p69ziTN_0vWTk7JtGVd8WY,3145
+gitno-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gitno-0.1.2.dist-info/entry_points.txt,sha256=gEUzPo0q-yowTmdWRsyYus276_kiouVQO4F7k2JzCo0,41
+gitno-0.1.2.dist-info/top_level.txt,sha256=xeFpECv0doY8Jyd7VymcUVWu5ezgt7EH6DQgQG_hBOw,6
+gitno-0.1.2.dist-info/RECORD,,
