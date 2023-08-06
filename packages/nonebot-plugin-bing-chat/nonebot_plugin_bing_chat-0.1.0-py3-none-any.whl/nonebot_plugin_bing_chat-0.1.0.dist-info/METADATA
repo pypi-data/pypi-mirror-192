@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-bing-chat
+Version: 0.1.0
+Summary: 基于nonebot2的bing-chat软件
+Author-email: Harry <Harry0259@163.com>
+License: GPL-3
+Project-URL: Homepage, https://github.com/Harry-Jing/nonebot-plugin-bing-chat
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nonebot2 (>=2.0.0b4)
+Requires-Dist: nonebot-adapter-onebot (>=2.2.0)
+Requires-Dist: EdgeGPT (>=0.0.48)
+
+# nonebot-plugin-bing-chat
