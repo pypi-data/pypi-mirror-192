@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pyrubi
+Version: 1.5.1
+Summary: This is a powerful library for building self robots in Rubika
+Home-page: https://github.com/AliGanji1/pyrubi
+Author: Ali Ganji zadeh
+Author-email: ali.ganji.za@gmail.com
+Keywords: rubika,rubino,pyrubi,pyrubika,rubika bot,rubika library,rubx,rubika-bot,rubika-lib,bot,self bot,rubika.ir,asyncio
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+
+<h1>Pyrubi 1.5.1<h1/>
+
+> Pyrubi is a powerful and easy library for building self robots in Rubika
+> پای روبی یک کتابخانه قدرت مند و آسان برای ساخت ربات سلف در اپلیکیشن روبیکا است
+
+<p align='center'>
+    <img src='https://iili.io/HIjPRS9.jpg' alt='Pyrubi Library 1.5.1' width='356'>
+    <a href='https://github.com/AliGanji1/pyrubi'>GitHub</a>
+</p>
+
+<hr>
+
+**Example | مثال :**
+``` python
+# Import the Bot and Message classes from the pyrubi library.
+# کلاس های Bot و Message را از کتابخانه pyrubi ایمپورت کنید.
+from pyrubi import Bot, Message
+
+# Configure the AUTH key with the library in this way.
+# به این صورت شناسه AUTH را با کتابخانه پیکربندی کنید.
+bot = Bot('TOKEN')
+
+# You can receive your account updates with the on_message generator function of the Bot class.
+# با تابع سازنده on_message از کلاس Bot می توانید آپدیت های اکانت خود را دریافت کنید.
+for msg in bot.on_message():
+
+    # In this way, separate the received update data with the Message class.
+    # به این صورت دیتای اپدیت دریافت شده را با کلاس Message جدا کنید.
+    m = Message(msg)
+
+    # If the text of the received message was equal to Hello ...
+    # درصورتی که متن پیام دریافت شده با Hello برابر بود ...
+    if m.text() == 'Hello':
+
+        # You can send a text message with the send_text method.
+        # با متود send_text می توانید یک پیام متنی ارسال کنید.
+        bot.send_text(m.chat_id(), 'Hello from Pyrubi Library', m.message_id())
+```
+
+<hr>
+
+### Features | امکانات :
+
+**Fast : The minimum request time is 0.07000 seconds and the maximum request time is 0.30000 seconds**, 
+**Easy : All methods and features are designed as easy and optimal as possible**, 
+**Powerful : While the library is simple, it has high speed and features that make your work easier and faster**
+**سریع : # کمترین زمان درخواست 0.07000 ثانیه و بیشترین زمان درخواست 0.20000 ثانیه است**, 
+**آسان : تمام متود ها و قابلیت ها تا حد امکان اسان و بهینه طراحی شده است**, 
+**قدرت مند : کتابخانه در حین حال که ساده است از سرعت بالا و امکاناتی برخوردار است که کار شما را راحتر و سریع تر می کند**
+
+<hr>
+
+### Install or Update | نصب یا آپدیت :
+
+``` bash
+python -m pip install -U pyrubi
+```
