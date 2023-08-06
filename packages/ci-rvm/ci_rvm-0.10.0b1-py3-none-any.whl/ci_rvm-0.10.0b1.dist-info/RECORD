@@ -1,0 +1,9 @@
+ci_rvm/__init__.py,sha256=pPpDusvgSJ4RjsZ3HkdNwAphtXRhiENrVRt2n4t7mg8,67
+ci_rvm/ci_rvm.py,sha256=YgYZG4QaXqgHsMVJWFSqMr6-mLwKnnfJmQJ10GPesJY,65691
+ci_rvm/ci_rvm_mpinv.py,sha256=sc0vUSEjEIVxST4Dlp-Pw-j7P00VQhMWEfbhvpwBrmA,50959
+ci_rvm/test_ci_rvm.py,sha256=i4dM6_rjlva5Sxo-w9vbHdh-V0p1YnpNc7naa1tdmM0,61660
+ci_rvm-0.10.0b1.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+ci_rvm-0.10.0b1.dist-info/METADATA,sha256=PC68lvSigaiPYIe87HtbUwM-ZCIEPIDRIYR-k3fzNnQ,1962
+ci_rvm-0.10.0b1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ci_rvm-0.10.0b1.dist-info/top_level.txt,sha256=iZ1msPy6nFYD09WZj6KQ1hnJLoSDIdwnKtj4nVtQajY,7
+ci_rvm-0.10.0b1.dist-info/RECORD,,
