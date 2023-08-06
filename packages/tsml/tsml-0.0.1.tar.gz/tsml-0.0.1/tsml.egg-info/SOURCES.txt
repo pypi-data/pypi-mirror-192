@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+tsml/__init__.py
+tsml.egg-info/PKG-INFO
+tsml.egg-info/SOURCES.txt
+tsml.egg-info/dependency_links.txt
+tsml.egg-info/requires.txt
+tsml.egg-info/top_level.txt
+tsml/package/__init__.py
+tsml/package/example.py
+tsml/package/tests/__init__.py
+tsml/package/tests/test_example.py
