@@ -1,0 +1,6 @@
+redis_workers/__init__.py,sha256=_Vhmi94vO9_1sOysvE1b1FGpJvYeOkDjkoRiNkRZb_4,51
+redis_workers/redis_worker.py,sha256=ejGrB-BLJqYHNNTJ0shArsr-9n2F9v9fw0n9LFdgzxo,802
+redis_workers-0.1.1.dist-info/METADATA,sha256=R0Mo3PLMJvmEeESjwxWHXfXXzovdyK6TL4Go9QFFmqM,747
+redis_workers-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+redis_workers-0.1.1.dist-info/top_level.txt,sha256=aVQmCN1CzNs4qP8mhTEsOpULtjj1rpDId9sVjJcBm9c,14
+redis_workers-0.1.1.dist-info/RECORD,,
