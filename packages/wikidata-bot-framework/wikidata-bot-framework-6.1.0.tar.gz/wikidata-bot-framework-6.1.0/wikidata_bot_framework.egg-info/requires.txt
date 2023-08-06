@@ -1,0 +1,8 @@
+pywikibot
+mwparserfromhell
+python-dotenv
+sentry-sdk
+
+[docs]
+sphinx
+sphinx_rtd_theme
