@@ -1,0 +1,2 @@
+[console_scripts]
+cargoloader = cargoloader.main:cargoloader
