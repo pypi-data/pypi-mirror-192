@@ -1,0 +1,12 @@
+voltalis/__init__.py,sha256=feIlQIHi3aBqGSBQIwgiQk920lSqaXlK1EbLVi7iVGE,4361
+voltalis/cli.py,sha256=X4qmXeqWgiLJR3ac8Nt2ekTal6ov4UAqvo8sN3u1iIA,1419
+voltalis/pandas.py,sha256=qwY6ft7beThZ8eJjtD2EPH6AX90lbspZiC6m2KeD8mA,1176
+voltalis/types.py,sha256=0kSIk9MLVhAC0mgPfdCwXec_zE-z7EMltT7BMEDlEPc,13902
+voltalis/legacy/__init__.py,sha256=-aO3GEL-yiHfHf7y79e6ZyPerwbD-fq30IdMU8NWof0,8740
+voltalis/legacy/cli.py,sha256=Pw7m5t1R6fiHKht2kqee5UYnkeXtjFY2zSuxPfDdnyE,6244
+voltalis/legacy/voltalis_types.py,sha256=1kXb6hfLMPF-yDQRCA-2fgDnbR_QrDtbpLnvmA5uh4c,13879
+voltalis_cli-1.2.0.dist-info/LICENSE.txt,sha256=3cqf2oInurZdEBsZxIpQKFoLC3ULhn2EYrqVQILto2A,1061
+voltalis_cli-1.2.0.dist-info/METADATA,sha256=uAfJH1jKesILDaHueArzR-HlXnekGLsWvPd1iA7ViYY,1344
+voltalis_cli-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+voltalis_cli-1.2.0.dist-info/top_level.txt,sha256=87sn1GWiR6Toae5kT7ThAp6iH2YP4c5b3b8ptKHqBYs,9
+voltalis_cli-1.2.0.dist-info/RECORD,,
