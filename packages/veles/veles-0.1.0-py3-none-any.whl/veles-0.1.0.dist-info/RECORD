@@ -1,0 +1,11 @@
+veles/__init__.py,sha256=TMWaXKpfvyBOPL7Nm8GVkxIScnQF4gmSSSPsSexA7zw,21
+veles/device/__init__.py,sha256=JDee_Q9o3frTYPvY3WSB4PiP87JBB0pwLwG6hmtcCQg,87
+veles/device/find.py,sha256=7-672rWiEVHd_3VrbPFpH1eBdCYv1Qd0IlylT2BIUDg,593
+veles/device/generic.py,sha256=7t2bZf80lWlIUlxO3nZxJlvOIFmEIGHUv2Vx8sqfzEc,1420
+veles/device/modbus.py,sha256=nx3oPywe1chhPgP_cdu0MKRnU5-sym8QwS3j4kUjS9M,6262
+veles/device/sensor_wired.py,sha256=cy1xZe7ko7tXI4H3LIqrti0CtkBQoKBYYlQkPQABJv8,4900
+veles-0.1.0.dist-info/LICENSE,sha256=Whd1_PBGibjkIPam461MzFyW6jZS7L7uRDXZhPJslzY,1060
+veles-0.1.0.dist-info/METADATA,sha256=hjq4xQ69YR0oNUcqFaiJcxT_38bpr-YZfqefUvGqVhQ,524
+veles-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+veles-0.1.0.dist-info/top_level.txt,sha256=x7X6AzpkbcyVE9Oh9V4zgw2WzYw_IZPwynlLks9VdHk,6
+veles-0.1.0.dist-info/RECORD,,
