@@ -1,0 +1,10 @@
+tfga/__init__.py,sha256=FZeI4eRhAY0yLxplXv1CS6-PdP0VwocISHrKiuiQmpo,39
+tfga/blades.py,sha256=VOZyAol0ZwVi5gE4xTLc0uOVfD7vCUIXaxT4sxoz8tA,5507
+tfga/cayley.py,sha256=wML4Q5j787rhLQZAL-CFSMucLB8aAYwMdse4C-ujZtM,2139
+tfga/layers.py,sha256=3g6bgbY5eu4wjDlXGUOYVVCzsnIrlxwG5pDrjcF2-tA,24620
+tfga/mv.py,sha256=BCfCKrmTuf_T1W1qlGOIwLd9cFo8S53sZ96HM24YAhY,7793
+tfga/mv_ops.py,sha256=BZCLS5p9xtIumCJn63BG8ayaR-ldBGZW8U-LnbrZznE,2812
+tfga/tfga.py,sha256=lKbh_W1yuiDRCjctX3FUjyokNtIIHImvz1kWNuudrAk,27372
+tfga-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+tfga-0.2.0.dist-info/METADATA,sha256=QYRTqdnKBlggThqla5RQJthTwsmptMmC7AaeKJ4Th78,11911
+tfga-0.2.0.dist-info/RECORD,,
