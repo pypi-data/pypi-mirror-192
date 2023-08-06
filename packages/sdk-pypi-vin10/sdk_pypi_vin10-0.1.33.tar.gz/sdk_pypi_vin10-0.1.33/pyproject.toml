@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sdk-pypi-vin10"
+version = "0.1.33"
+description = "Upload Python package to PyPI (demo)"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "1.19.5"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
+style = "semver"
+
+[tool.poetry-dynamic-versioning.substitution]
+files=["sdk/__init__.py"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning==v0.21.3"]
+build-backend = "poetry_dynamic_versioning.backend"
