@@ -1,0 +1,6 @@
+magnus_extension_kubeflow/implementation.py,sha256=zqH3e2u7lXaatOOyw0Eb33YAE1v6Et7nG_OUSUH2cCw,8243
+magnus_extension_kubeflow/integration.py,sha256=ypKGV8EAor70bxCu96FxoFHaL19SW6Gn_8WJxI6IhZo,1319
+magnus_extension_kubeflow-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+magnus_extension_kubeflow-0.1.0.dist-info/entry_points.txt,sha256=I6EWTUbDdZsbFdyvc_06Y2otGxKaUmIFmo3owHy9KKM,417
+magnus_extension_kubeflow-0.1.0.dist-info/METADATA,sha256=qw4BCVbf-UeT2HZSXuS0ZBOfUFZNIymQMFfgl5wWCvk,1646
+magnus_extension_kubeflow-0.1.0.dist-info/RECORD,,

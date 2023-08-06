@@ -1,0 +1,8 @@
+[magnus.executor.BaseExecutor]
+kfp=magnus_extension_kubeflow.implementation:KubeFlowExecutor
+
+[magnus.integration.BaseIntegration]
+kfp-catalog-file_system=magnus_extension_kubeflow.integration:KfPComputeFileSystemCatalog
+kfp-run_log_store-buffered=magnus_extension_kubeflow.integration:KfPComputeBufferedRunLogStore
+kfp-run_log_store-file_system=magnus_extension_kubeflow.integration:KfPComputeFileSystemRunLogStore
+
