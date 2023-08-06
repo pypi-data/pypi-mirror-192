@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "clearbot"
+version = "0.3.0"
+description = "Clearbit Logo API client"
+authors = ["Alban Siffer <alban.siffer@irisa.fr>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "clearbot.py" }]
+
+[tool.poetry.scripts]
+clearbot = "clearbot:cli"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^9.4.0"
+requests = "^2.28.2"
+loguru = "^0.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
