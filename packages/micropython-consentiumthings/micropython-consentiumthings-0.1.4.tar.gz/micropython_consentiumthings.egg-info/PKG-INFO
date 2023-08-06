@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: micropython-consentiumthings
+Version: 0.1.4
+Summary: ConsentiumThings IOT lib for micropython
+Home-page: https://github.com/ConsentiumInc/micropython-consentiumthings
+Author: Debjyoti Chowdhury
+Author-email: consentium.inc@gmail.com
+Maintainer: Debjyoti Chowdhury
+Maintainer-email: consentium.inc@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Other OS
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
