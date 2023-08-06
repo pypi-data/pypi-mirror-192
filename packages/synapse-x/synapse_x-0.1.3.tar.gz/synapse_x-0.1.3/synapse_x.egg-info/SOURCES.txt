@@ -1,0 +1,9 @@
+setup.py
+./synapse_x/__init__.py
+./synapse_x/utils.py
+synapse_x/__init__.py
+synapse_x/utils.py
+synapse_x.egg-info/PKG-INFO
+synapse_x.egg-info/SOURCES.txt
+synapse_x.egg-info/dependency_links.txt
+synapse_x.egg-info/top_level.txt
