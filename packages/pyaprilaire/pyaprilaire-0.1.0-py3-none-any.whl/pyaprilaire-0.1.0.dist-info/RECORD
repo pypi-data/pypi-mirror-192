@@ -1,0 +1,13 @@
+pyaprilaire/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyaprilaire/client.py,sha256=5GaYZdZXOoccUWUpON9lsRYUXLrRfU3-tb8UeD5x9rA,13531
+pyaprilaire/const.py,sha256=Ujg95oFiY8HZBtC8R5WV5rzXfJTrzHdgu4AshSDYK20,833
+pyaprilaire/crc.py,sha256=GsK-2XgAXsILlKar5zznCYW561GmzjgE4njLKkejueE,3635
+pyaprilaire/mock_server.py,sha256=zTv_2ETZKMTg6vdeLE2odilCld-vo4Ha8zkfPf8bRh4,12640
+pyaprilaire/packet.py,sha256=qF47ZprrhgRrlC-PxbTb0NSyAgAm38qYACtPII_3dE0,11242
+pyaprilaire/socket_client.py,sha256=EdKS3nZJrCmAf13yJOmC4rlbf99I0YXaTZr_cHeCIQw,3993
+pyaprilaire/utils.py,sha256=vhlAAqsjCoLiUZDhhv6iRPlbgIgofDoxgBBOeIv6stE,1982
+pyaprilaire-0.1.0.dist-info/LICENSE,sha256=K_wSLar4q1DEB9e9PF5-XAkvJZvrUt9Koqr3yl21Lfg,1086
+pyaprilaire-0.1.0.dist-info/METADATA,sha256=fQTltZbi9p3Q5wIzYmhw5WqmhKOD2Yoq2dDnlIMzySQ,1307
+pyaprilaire-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyaprilaire-0.1.0.dist-info/top_level.txt,sha256=dLetsxoTk9G0_qKsdvoh4AGVmHny98KXeVMOyhhgfqM,12
+pyaprilaire-0.1.0.dist-info/RECORD,,
