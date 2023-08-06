@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+.github/workflows/python-publish.yml
+src/franky/__init__.py
+src/franky/version.py
+src/franky.egg-info/PKG-INFO
+src/franky.egg-info/SOURCES.txt
+src/franky.egg-info/dependency_links.txt
+src/franky.egg-info/top_level.txt
