@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: decentro-in-kyc-python-sdk
+Version: 3.0.0
+Summary: decentro-in-kyc
+Home-page: 
+Author: Konfig
+Author-email: engineering@konfigthis.com
+Keywords: OpenAPI,Konfig,decentro-in-kyc
+Requires-Python: >=3.7
+Requires-Dist: certifi (>=14.5.14)
+Requires-Dist: frozendict (~=2.3.4)
+Requires-Dist: python-dateutil (~=2.7.0)
+Requires-Dist: setuptools (>=21.0.0)
+Requires-Dist: typing-extensions (~=4.3.0)
+Requires-Dist: urllib3 (~=1.26.7)
+
+    KYC &amp; Onboarding  # noqa: E501
+    
