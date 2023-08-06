@@ -1,0 +1,14 @@
+om_py/__init__.py,sha256=-IrhSCBoYvu0ybfK8v-EgduGXobpS1kyaiHB3FUoDzo,483
+om_py/functions.py,sha256=-_pa19mqCv5DnsT_OIOsxMuStiy2fEDWdDIMmqHUZC0,12
+om_py/musicxml2om.py,sha256=a4Efb86ZJKGgh07VomjygvC3gvnAe2lwj73EEWd6768,30800
+om_py/neimog.py,sha256=CwxCicm7gmsew1mFsvaT6R-nxz7tC4FA-AMCUoa2jwM,1225
+om_py/new_communation.py,sha256=pHoftjR1oWdc9FimhUxzEWzQevQXdjDhiity9LwBYvg,653
+om_py/om_functions.py,sha256=pd3iBF2w3OahJr-Ey8_0MaVYsJX4ch2TYx3BpRAFh9Y,1171
+om_py/python_to_om.py,sha256=edHwsw5mv-3Mbe4njYD0AMM924KMAkxEQM1-vkhiesA,6605
+om_py/score.py,sha256=9a5Hrji_vcCqoK3Y8NGXDLlBWheSeAeud7HKLviO0z0,13978
+om_py-0.0.21.dist-info/COPYING.rst,sha256=sONeqKYbzPMIY3TPqhg2YTDSFxLr-CDUNTSI7c-qohI,1460
+om_py-0.0.21.dist-info/LICENSE,sha256=cR_QmNLp8sKd5YEfFZmScFmBvEdYGFEgVPOm9lrV6h8,14
+om_py-0.0.21.dist-info/METADATA,sha256=-WHcQLJi2RKoDHkKRotid42rLBJ3uT5K0xAzy2FArzo,2801
+om_py-0.0.21.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+om_py-0.0.21.dist-info/top_level.txt,sha256=PZyEucg3bNGLhtffMlkwF1EkJstV8uw_sBgeSTR9ATA,6
+om_py-0.0.21.dist-info/RECORD,,
