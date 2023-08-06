@@ -1,0 +1,12 @@
+makkulupy/__init__.py,sha256=fVlAg73qsNQ_mL_iDCRTQMOAUcOinge7xPLlEAQl8Aw,437
+makkulupy/exceptions.py,sha256=BzB12nakRMvBixrp5QDajI-k4vpx805PqrPd4nZZ7ko,229
+makkulupy/requests.py,sha256=Dvy70Vbr9513dDXGpcC4AEWu-eLYORGlFmPUqekncS0,5873
+makkulupy/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makkulupy/models/batch.py,sha256=6Y5HOZd2EChECSFCiiNd-KwKE21buZ03TjGHzB8st4k,3358
+makkulupy/models/word.py,sha256=6uiZBvlcNTEGxGM3Oscuz5oD_ET_evcEUymhZVXtmSw,2359
+makkulupy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makkulupy/tests/test_requests.py,sha256=fm7dMWiowtaBtx_DMkpLAzDGqisHNfODKh9WAdye9uQ,2745
+makkulupy-0.3.1.dist-info/LICENSE,sha256=EiqgQydPxm0DmtAjJAL9OJzJZOzWV46kYtLCcZGj7l8,1286
+makkulupy-0.3.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+makkulupy-0.3.1.dist-info/METADATA,sha256=TK1vUZncx_dCCt42tuAB3p0K-zgeY2epuI99t5Fm2pM,1401
+makkulupy-0.3.1.dist-info/RECORD,,
