@@ -1,0 +1,14 @@
+cbytesparse-0.0.6.dist-info/top_level.txt,sha256=Gf0yqZ4wXxUscGgKjhr2btN4fYjaV6uvWVX36jtKNMY,12
+cbytesparse-0.0.6.dist-info/LICENSE,sha256=ZQ-Ji6U8-M-giLxOWQHNs4Nup9CeDmT_pPtSEn8d4l8,1327
+cbytesparse-0.0.6.dist-info/RECORD,,
+cbytesparse-0.0.6.dist-info/WHEEL,sha256=83XyyHng4vvvkXP_WltEppnSbPvGS2wDxZnzOqm1tXE,113
+cbytesparse-0.0.6.dist-info/AUTHORS.rst,sha256=z1yFA_mGs3oEwBp1ite4Xfzn2V-twsQlW5QbH_4eHb4,154
+cbytesparse-0.0.6.dist-info/METADATA,sha256=yVooYrIR1liqiZ58NQfPRBGY9b2BJwnA8U4StMqzS5c,13876
+cbytesparse/c.pyx,sha256=sX-pcjEwpfXKpJHG15VhSMsolBS6dtFVqlAk3EmUpMU,321173
+cbytesparse/__init__.pxd,sha256=ZkIgsB8fhcbDx0eWd6w1iclIcPiVmjFWDsCxbWulGsg,1431
+cbytesparse/__init__.py,sha256=xKisb7zpbQlWNXXTBmUAODJZ_GrA2ibUBJa0AHl8bnw,4430
+cbytesparse/c.pxd,sha256=jvAs0XyzwLnrptjMDimNtlmHf4p6lo2cghuvVgNBNp4,41112
+cbytesparse/base.py,sha256=STL2jJ5QoCDIQsi8WdSl_cr7Aki4z9gniPDDzJyYHSY,23803
+cbytesparse/py.py,sha256=O8FW2_LzEojwskFK8Yf7JuANfGEmIJNzTbGDo3Gfijg,39784
+cbytesparse/c.cpython-310-x86_64-linux-gnu.so,sha256=FK9GhkZRMH2XnHYPr_b7GCkp-a0I70X8fZK5cSHcFtM,10961768
+cbytesparse/c.c,sha256=cRm0p9v7xqWzClhBIEI3xPQOLNejcUpP6jkINCGqrSI,6859249
