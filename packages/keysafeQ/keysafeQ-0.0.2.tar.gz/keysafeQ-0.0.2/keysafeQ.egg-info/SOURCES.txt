@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+keysafeQ/__init__.py
+keysafeQ.egg-info/PKG-INFO
+keysafeQ.egg-info/SOURCES.txt
+keysafeQ.egg-info/dependency_links.txt
+keysafeQ.egg-info/top_level.txt
