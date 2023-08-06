@@ -1,0 +1,16 @@
+atom_access/__init__.py,sha256=uGmq1lIuf5dxcj8-AvB4OAdI7dO8SUMEQzmHkmBaNLM,30
+atom_access/cli.py,sha256=FjYRI2siFNtoEJU9lNAEVlVFK67dzHSAKTkuLyZBpdw,4569
+atom_access/core.py,sha256=Bw9nYDCEd4nQ-s9NFme3IO45zwjRy4SvQFdbx6TvFZo,11055
+atom_access/objects.py,sha256=OtRNRzMZSHVwNWV69iZXr16I_a1nnRJr0OesGpr08Lk,4434
+atom_access/utils.py,sha256=BkDOg0Q_xKKWb9i2Lw-oUu44auVhQxqBKSsn-RQH5-4,3930
+atom_access/version.py,sha256=NlG-CZrcg4GXfHpZP38fFpJqnDJ6UPa8P321qk37HS0,106
+old/__init__.py,sha256=uGmq1lIuf5dxcj8-AvB4OAdI7dO8SUMEQzmHkmBaNLM,30
+old/atom_access.py,sha256=0n2cXCn66C4BQSEcHRqe6zc38rFjjVIqrNkuI2OWyEw,3599
+old/cli.py,sha256=iWBjAseUPE9HOKdV1ot1dPzQd3Jf_AhbefkY-fBUjck,17284
+old/version.py,sha256=FmZ5MQgw77jq9km22D2XJsKhmZNZBoGw2n49BcuwZso,106
+atom_access-2.1.0.dist-info/LICENSE,sha256=FcLr4dk-N-tFHiz8F24RjynYJ-w30_fRmPzz07mIaXg,35079
+atom_access-2.1.0.dist-info/METADATA,sha256=u0HHGjAo14dbgE4rqUpvuoTtEH5kWGNBSr52mSXnT-8,3648
+atom_access-2.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+atom_access-2.1.0.dist-info/entry_points.txt,sha256=1TvcZfm60crM9443qpbxYSg8Um1c9BJsocSjTaqrp2c,87
+atom_access-2.1.0.dist-info/top_level.txt,sha256=cy5lV0DgQrCK0y6GecMGVi6swEk63ku3XYcNowOQRLk,16
+atom_access-2.1.0.dist-info/RECORD,,
