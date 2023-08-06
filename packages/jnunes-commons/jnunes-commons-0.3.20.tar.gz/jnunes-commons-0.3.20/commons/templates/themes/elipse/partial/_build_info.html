@@ -1,0 +1,16 @@
+<!-- Build Info -->
+<div class="modal fade" id="buildInfo" tabindex="-1" aria-labelledby="buildInfoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="buildInfoLabel">Versão Atual</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body overflow-auto">
+                <div><strong>{{ version_key }}: </strong>{{ version }}</div>
+                <div class="text-nowrap"><strong>commit: </strong>{{ commit }}</div>
+                <div><strong>date: </strong>{{ date }}</div>
+            </div>
+        </div>
+    </div>
+</div>

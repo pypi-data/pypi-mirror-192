@@ -1,0 +1,54 @@
+{% load static %}
+<!doctype html>
+<html lang="pt">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    {# :: common styles and head :: #}
+    {% include 'themes/elipse/partial/_head.html' %}
+
+    {#  :: custom style for individual application ::#}
+    {% block custom_styles %}{% endblock %}
+</head>
+<body>
+
+<div id="menu">
+    <div class="logo">
+        {% block logo %}{% endblock %}
+    </div>
+    <div class="items">
+        {% include 'themes/elipse/partial/_sidebar.html' %}
+        {# <li><a href="{% url 'dashboard:container' %}"><i class="bi bi-clock-fill"></i><span>Consultas</span></a></li>#}
+    </div>
+</div>
+
+<div id="container">
+    <div class="top-menu">
+        <div class="left">
+            <div><i id="menu-button" class="bi bi-list"></i></div>
+            <span>{% block page-title %}{% endblock %}</span>
+        </div>
+        <div class="profile">
+            <div class="dropdown ms-2">
+                {% include 'themes/elipse/partial/_top_menu_dropdown.html' %}
+            </div>
+        </div>
+    </div>
+
+    {% include 'themes/elipse/partial/_build_info.html' %}
+
+    <div id="content" class="content">
+        <div class="messages">
+            {% include 'commons/components/messages.html' %}
+        </div>
+        {% block container %}{% endblock %}
+    </div>
+</div>
+{% include 'themes/elipse/partial/_footer.html' %}
+
+{#append scrits on base templates#}
+{% block custom_scripts %}{% endblock %}
+
+{#append scrits on app templates#}
+{% block custom_app_scripts %}{% endblock %}
+</body>
+</html>
