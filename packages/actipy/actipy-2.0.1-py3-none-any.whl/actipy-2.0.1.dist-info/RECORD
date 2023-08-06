@@ -1,0 +1,16 @@
+actipy/ActigraphReader.class,sha256=cCvgC1fewlhAiVGRpOt40xFZnPZkjzv22x5nra-3xMM,11487
+actipy/ActigraphReader.java,sha256=6kGg1PqsdL4--PBnry1_l0zrXt7bItwFUYr2k3YIZUM,30928
+actipy/AxivityReader.class,sha256=iXNX0YOwB0MJEdkLBScWknGD-fa38tdy5I10RNYTTKw,7013
+actipy/AxivityReader.java,sha256=-d8oGMCvXIKCkqBYMHU7clSfUg4VMTYA_InONq-BSXk,11228
+actipy/GENEActivReader.class,sha256=94SQb2X3T1F9eXPE7XESIcfX-2myjLP5Q3ipPrli8Dc,5980
+actipy/GENEActivReader.java,sha256=zWfazs-pB1NeOozgjYKeJraGLgT0y5X_3JhvbKwxkZk,9656
+actipy/NpyWriter.class,sha256=5gjGAy1WqDW5xawBTZDySjnZFUd26yqfsvx2YQwedz0,8445
+actipy/NpyWriter.java,sha256=KgeY6HmmGlxN4DgjCrMs9o-kmO_g6HcODK3gQHqSqbM,7615
+actipy/__init__.py,sha256=sJDmagFWMlTeQw6GHbGmZTqWZ9kC4pemcfku28loQ-I,226
+actipy/processing.py,sha256=IqjW0R1Kcu86cySgqNZRPxRH4FHwf7_v5BaZfKDYm8E,14637
+actipy/reader.py,sha256=GXNCC2hXQna8-yFHhpZE6i_ZKvj8Fxu6PhY_u1WxVog,12454
+actipy-2.0.1.dist-info/LICENSE.md,sha256=ZrpUW5sOvA8FIXC0jGZ7IFkAWtj_Yvi4A3yHy76mfvM,6177
+actipy-2.0.1.dist-info/METADATA,sha256=V_gMEpmXRcm20pEG4UIOSFejAIpMhSQ62iUR7VxD8O8,3968
+actipy-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+actipy-2.0.1.dist-info/top_level.txt,sha256=Eaa83zQkr1xnjSqwzf2yuMYb1tBZTsrfGCCCNvigAow,7
+actipy-2.0.1.dist-info/RECORD,,
