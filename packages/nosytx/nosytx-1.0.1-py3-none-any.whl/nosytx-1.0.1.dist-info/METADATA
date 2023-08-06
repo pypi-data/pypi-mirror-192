@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nosytx
+Version: 1.0.1
+Summary: A Library for the nosytx.eu Image API
+Author: Erik05Master
+Author-email: <info@sytxlabs.eu>
+Keywords: python,api
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+
+## Usage
+
+```python
+
+from nosytx import NoSytx
+import asyncio
+
+nosytx = NoSytx('token') #get token from https://nosytx.eu
+
+print(asyncio.run(nosytx.api('endpoint'))) #get endpoint from https://nosytx.eu/api, for example: hi or angry
+
+```
