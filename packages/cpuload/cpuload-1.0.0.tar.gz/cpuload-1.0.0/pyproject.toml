@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cpuload"
+version = "1.0.0"
+description = "Python tool to generate CPU load"
+authors = ["Alexey Vyskubov <alexey@ocaml.nl>"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.3"
+psutil = "^5.9.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.16.2"
+pyright = "^1.1.294"
+mypy = "^1.0.0"
+ruff = "^0.0.246"
+ipython = "^8.10.0"
+black = "^23.1.0"
+types-psutil = "^5.9.5"
+
+[tool.poetry.scripts]
+cpuload = "cpuload.cpuload:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

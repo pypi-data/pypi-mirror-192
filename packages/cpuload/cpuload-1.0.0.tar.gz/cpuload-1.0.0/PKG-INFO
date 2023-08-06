@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cpuload
+Version: 1.0.0
+Summary: Python tool to generate CPU load
+Author: Alexey Vyskubov
+Author-email: alexey@ocaml.nl
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: psutil (>=5.9.4,<6.0.0)
+Description-Content-Type: text/x-rst
+
+
