@@ -1,0 +1,11 @@
+kennard_stone
+scikit_learn
+numpy
+scipy
+
+[dev]
+black
+isort
+
+[molecules]
+aimsim
