@@ -1,0 +1,6 @@
+README.md
+setup.py
+teachera.egg-info/PKG-INFO
+teachera.egg-info/SOURCES.txt
+teachera.egg-info/dependency_links.txt
+teachera.egg-info/top_level.txt
