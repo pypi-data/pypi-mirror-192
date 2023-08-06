@@ -1,0 +1,7 @@
+hmd_cli_configure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hmd_cli_configure/controller.py,sha256=RDnAiR0KniLlD7H4iliNiSmnzO1sn2Y4TNXdd2hPnec,4085
+hmd_cli_configure/hmd_cli_configure.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hmd_cli_configure-1.0.32.dist-info/METADATA,sha256=3UPzjSHPjrpRDeuIUUVXM1AGfRVCAq--CqaNpiU1bHc,2574
+hmd_cli_configure-1.0.32.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hmd_cli_configure-1.0.32.dist-info/top_level.txt,sha256=MA9uWhWm8TGXGwhT5M2yKEaVtfhIzln6S61LstrB-NA,18
+hmd_cli_configure-1.0.32.dist-info/RECORD,,
