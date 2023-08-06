@@ -1,0 +1,11 @@
+nnlogicalop/__init__.py,sha256=hDsgKzUgFYCJAnZh_mGlWSiueTbwUTF0MkUYJujIePQ,21
+nnlogicalop/scripts/__init__.py,sha256=EERQCmeVZ1w47nAQ9DzjxuMGczZBM6Um2Zd-tL8q9nA,114
+nnlogicalop/scripts/andGate.py,sha256=rfx9Yh0lVBe6n_cL2FzsGYV3LiVI7vrontgXFfmahcc,3224
+nnlogicalop/scripts/nandGate.py,sha256=hwe8rWprkAj3TztqmlcquRpglsTZ8gtyavVjUQvq9Us,3229
+nnlogicalop/scripts/norGate.py,sha256=NKM3wAyKRIB8joBYibPTDK5LP4gttX6cEd-kpDY20EQ,3226
+nnlogicalop/scripts/notGate.py,sha256=wKteCcl3vIB32t40FTO4mS5xhex8yy0QhvfUfMXcY5s,3155
+nnlogicalop/scripts/orGate.py,sha256=ILIdRhJT6WClepCSZnY2iMkFHA1xXHH8gEWjEe1nbrk,3220
+nnlogicalop-0.0.0.dist-info/METADATA,sha256=xhRlfvaBNp9LKsi3LU96oPr62TuHc-W8gKYq7vAFX8g,585
+nnlogicalop-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nnlogicalop-0.0.0.dist-info/top_level.txt,sha256=DyNG9WDpk7e5khVzaIyOMmiisbaCKPt3AiRLtIgeDKg,12
+nnlogicalop-0.0.0.dist-info/RECORD,,
