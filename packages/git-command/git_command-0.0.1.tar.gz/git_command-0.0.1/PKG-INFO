@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: git-command
+Version: 0.0.1
+Summary: A simple interface to the Git command-line tools for Python.
+License: GPL-3.0
+Author: HE Yaowen
+Author-email: he.yaowen@hotmail.com
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# git-command
+
+A simple interface to the [Git][1] command-line tools for Python.
+
+## License
+
+Copyright (C) 2022 HE Yaowen <he.yaowen@hotmail.com>
+
+The GNU General Public License (GPL) version 3, see [LICENSE](./LICENSE).
+
+[1]: https://git-scm.com/
+

@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "git-command"
+version = "0.0.1"
+description = "A simple interface to the Git command-line tools for Python."
+authors = ["HE Yaowen <he.yaowen@hotmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{include = "git_command", from="src"}]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
