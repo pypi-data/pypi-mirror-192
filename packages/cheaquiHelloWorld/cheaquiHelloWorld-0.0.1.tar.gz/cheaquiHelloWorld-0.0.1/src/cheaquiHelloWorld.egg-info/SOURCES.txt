@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/cheaquiHelloWorld.py
+src/cheaquiHelloWorld.egg-info/PKG-INFO
+src/cheaquiHelloWorld.egg-info/SOURCES.txt
+src/cheaquiHelloWorld.egg-info/dependency_links.txt
+src/cheaquiHelloWorld.egg-info/requires.txt
+src/cheaquiHelloWorld.egg-info/top_level.txt
