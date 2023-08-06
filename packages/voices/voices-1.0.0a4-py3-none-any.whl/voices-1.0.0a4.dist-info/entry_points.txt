@@ -1,0 +1,3 @@
+[console_scripts]
+voices=voices.__main__:main
+
