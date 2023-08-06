@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dcode.py
+Version: 0.0.1
+Summary: dcode - the Python package for everything
+Author-email: Dylan Rogers <opendylan@proton.me>
+Project-URL: Homepage, https://github.com/dylanopen/dcode.py
+Project-URL: Bug Tracker, https://github.com/dylanopen/dcode.py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dcode.py
+
+Welcome to dcode.py - the package designed to do everything!
+
+## Installation
+
+Linux / macOS (python3):
+
+``` zsh
+python3 -m pip install dcode.py
+```
+
+Linux  / macOS (python2):
+
+``` zsh
+python -m pip install dcode.py
+```
+
+Windows:
+
+``` zsh
+py -m pip install dcode.py
+```
+
+## Modules
+
+Below are listed the modules in dcode:
+
+* dcode.io.file
+
+## Docs
+
+[dcode documentation](https://github.com/dylanopen/dcode.py/blob/main/docs.md)
