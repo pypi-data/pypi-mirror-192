@@ -1,0 +1,16 @@
+[project]
+name = "pptestpiotrekpieron"
+version = "0.0.4"
+description = "My test package"
+keywords = ["pptestpiotrekpieron", "funny functions", "name", "surname", "personal data"]
+authors = [{name = "PP", email = "piotrek.pieron@gmail.com"}]
+license = {file = "LICENCE.txt"}
+readme = "README.md"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: GPU"
+]
+requires-python = ">=3.0"
+dependencies = [
+    'numpy; python_version >= "3.0"'
+]

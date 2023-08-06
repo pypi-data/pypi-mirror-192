@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+pptestpiotrekpieron/__init__.py
+pptestpiotrekpieron/m_mod_pptest.py
+pptestpiotrekpieron.egg-info/PKG-INFO
+pptestpiotrekpieron.egg-info/SOURCES.txt
+pptestpiotrekpieron.egg-info/dependency_links.txt
+pptestpiotrekpieron.egg-info/requires.txt
+pptestpiotrekpieron.egg-info/top_level.txt
