@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+loggermodule_X/__init__.py
+loggermodule_X/loggermodule_X.py
+loggermodule_X.egg-info/PKG-INFO
+loggermodule_X.egg-info/SOURCES.txt
+loggermodule_X.egg-info/dependency_links.txt
+loggermodule_X.egg-info/top_level.txt
+loggermodule_X/test/loggermodule_XS.py
+loggermodule_X/test/test_log.py
+loggermodule_X/test/test02/test_log_02.py
