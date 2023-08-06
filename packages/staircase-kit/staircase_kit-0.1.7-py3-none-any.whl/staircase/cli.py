@@ -1,0 +1,38 @@
+import os
+import click
+
+from .config import DATA_FOLDER, VAR_FOLDER
+
+from .commands.postman import postman_group
+from .commands.envs import envs_group
+from .commands import config as config_
+from .commands import ci
+
+
+def get_cli():
+    cli = click.Group()
+    cli.add_command(postman_group)
+    cli.add_command(envs_group)
+    cli.add_command(config_.group)
+    cli.add_command(ci.command)
+    return cli
+
+
+def init_cli():
+    cli = get_cli()
+    return cli
+
+def launch_cli():
+    cli = init_cli()
+    cli()
+
+
+def init_fs_sturcture():
+    if not os.path.exists(DATA_FOLDER):
+        os.makedirs(DATA_FOLDER)
+
+    if not os.path.exists(VAR_FOLDER):
+        os.makedirs(VAR_FOLDER)
+
+
+
