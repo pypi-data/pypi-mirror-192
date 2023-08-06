@@ -1,0 +1,85 @@
+[project]
+authors = [
+    { name = "Noortheen Raja NJ", email = "jnoortheen@gmail.com" },
+]
+requires-python = ">=3.8"
+dependencies = [
+    "xonsh>=0.12.0",
+]
+name = "xontrib-term-integrations"
+version = "0.2.0"
+description = "Support shell integration of terminal programs iTerm2, Kitty..."
+readme = "README.md"
+keywords = [
+    "xontrib",
+    "xonsh",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Shells",
+    "Topic :: System :: System Shells",
+    "Topic :: Terminals",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Documentation = "https://github.com/jnoortheen/xontrib-term-integrations/blob/master/README.md"
+Code = "https://github.com/jnoortheen/xontrib-term-integrations"
+"Issue tracker" = "https://github.com/jnoortheen/xontrib-term-integrations/issues"
+repository = "https://github.com/jnoortheen/xontrib-term-integrations"
+
+[tool.pdm.build]
+includes = [
+    "xontrib",
+    "xontrib_term_integrations",
+]
+
+[tool.ruff]
+select = [
+    "E",
+    "F",
+    "B",
+    "I",
+    "UP",
+]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+target-version = "py38"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
