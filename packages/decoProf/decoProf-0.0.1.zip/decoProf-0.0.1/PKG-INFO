@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: decoProf
+Version: 0.0.1
+Summary: Profiler aggregator
+Home-page: https://github.com/maxim-masterov/decoProf
+Author: Maxim Masterov
+Author-email: maksim.masterov@surf.nl
+License: MIT
+Platform: UNKNOWN
+
+decoProf is a small wrapper script that allows profiling Python packages in a simple and intuitive manner.
+

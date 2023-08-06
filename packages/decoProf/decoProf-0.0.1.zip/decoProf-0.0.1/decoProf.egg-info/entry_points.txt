@@ -1,0 +1,3 @@
+[console_scripts]
+decoProf = decoProf.decoProf:main
+
