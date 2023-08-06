@@ -1,0 +1,53 @@
+site_name: naptan
+repo_url: https://github.com/mullinscr/naptan
+repo_name: mullinscr/naptan
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/bus-stop
+
+plugins:
+  - search
+  - mkdocstrings
+  - mkdocs-jupyter:
+      include_source: true
+      ignore_h1_titles: true
+      execute: false
+      show_input: true
+      no_input: true
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
+nav:
+  - Home:
+    - Overview: index.ipynb
+    - NaPTAN dataset: naptan_dataset.md
+    - ATCO codes: atco_codes.md
+  - How to:
+    - Install: installation.md
+    - View and use ATCO codes: using_atco_codes.ipynb
+    - Get all NaPTAN stops: get_all_stops.ipynb
+    - Get stops within an area: get_area_stops.ipynb
+    - Get specific stops: get_specific_stops.ipynb
+    - Export as geoJSON: export_as_geojson.ipynb
+    - Create a map: mapping.ipynb
+  - Reference:
+    - API Reference: api.md
+  - About:
+    - Changelog: CHANGELOG.md
+    - License: LICENSE.md
