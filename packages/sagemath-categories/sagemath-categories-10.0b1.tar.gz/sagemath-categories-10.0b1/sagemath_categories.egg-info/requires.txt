@@ -1,0 +1,4 @@
+sagemath-objects~=10.0b1
+
+[test]
+sagemath-repl
