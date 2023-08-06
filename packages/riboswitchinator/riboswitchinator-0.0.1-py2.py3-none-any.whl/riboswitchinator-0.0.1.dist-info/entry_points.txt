@@ -1,0 +1,3 @@
+[console_scripts]
+swin=riboswitchinator.executable:switchinator_main
+

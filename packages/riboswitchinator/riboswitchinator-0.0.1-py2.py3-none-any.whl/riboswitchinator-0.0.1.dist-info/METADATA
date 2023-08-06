@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: riboswitchinator
+Version: 0.0.1
+Summary: Tool to generate riboswitches for specific sequences
+Home-page: https://github.com/retospect/riboswitchinator
+License: GPL-3
+Keywords: riboswitch,genetics
+Author: Reto Stamm
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Switchinator
+
+Translates riboswitch logic gates to different sequences.
+
+It provides the `swin` commandline command.
+
+
