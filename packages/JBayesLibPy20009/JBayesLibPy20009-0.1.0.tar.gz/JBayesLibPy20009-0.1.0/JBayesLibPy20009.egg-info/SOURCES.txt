@@ -1,0 +1,5 @@
+setup.py
+JBayesLibPy20009.egg-info/PKG-INFO
+JBayesLibPy20009.egg-info/SOURCES.txt
+JBayesLibPy20009.egg-info/dependency_links.txt
+JBayesLibPy20009.egg-info/top_level.txt
