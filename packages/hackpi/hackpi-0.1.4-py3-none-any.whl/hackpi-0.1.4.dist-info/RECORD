@@ -1,0 +1,11 @@
+hackpi/Auth.py,sha256=B0yn9Y8u6LJ9Jejr5IH6-YaDXRYMhBQ4OHGKC5vt6es,4219
+hackpi/Database.py,sha256=lcxqvn0wnTLd2T0TEJXX-wL35YN-ltb8xKi2ipkZs2o,925
+hackpi/HackPi.py,sha256=mdnxetrKlKMsgoUZcpJd3rocXmtRQEaPlw07R_Xpl8E,369
+hackpi/JWT.py,sha256=1JKhYWRv6hXUc4AEOd7ilyVO6UZvNstXdWFZYIy5Kpo,689
+hackpi/Methods.py,sha256=pOjiXYbUw9m8svCwO7CKtDcMrZ6ayarLwt0VogZCUaY,87
+hackpi/Roles.py,sha256=SfiZ7OUmy2fSXqPKTuWd7ZzfiUshA2PyBnSyXFSxLVY,130
+hackpi/Router.py,sha256=gmMz6cmnwUSgLWCyIobM66XBsMvFpx_e-awhfBfu8_U,3405
+hackpi/__init__.py,sha256=cMN_i6tsIe8u-IRWa73_qadUrdsMv0VRRM5N6x54Eoo,210
+hackpi-0.1.4.dist-info/METADATA,sha256=6yi8qinr-6qOSZVCIvzlNGkT9Nf3OxM51hNKkTZQc-0,6415
+hackpi-0.1.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+hackpi-0.1.4.dist-info/RECORD,,
