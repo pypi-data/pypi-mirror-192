@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: what_a_weather
+Version: 0.1.0
+Summary: Next 12 hour weather forecast data
+Home-page: https://cihatertem.dev
+Author: Cihat Ertem
+Author-email: cihatertem+weather_app@gmail.com
+License: MIT
+Keywords: what_a_weather,weather,forecast,opeweathermap,openweather
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires: requests

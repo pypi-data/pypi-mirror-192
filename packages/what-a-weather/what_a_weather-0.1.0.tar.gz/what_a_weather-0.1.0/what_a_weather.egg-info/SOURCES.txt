@@ -1,0 +1,7 @@
+setup.py
+what_a_weather/__init__.py
+what_a_weather/weather.py
+what_a_weather.egg-info/PKG-INFO
+what_a_weather.egg-info/SOURCES.txt
+what_a_weather.egg-info/dependency_links.txt
+what_a_weather.egg-info/top_level.txt
