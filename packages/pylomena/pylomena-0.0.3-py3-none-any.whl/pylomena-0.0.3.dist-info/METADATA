@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pylomena
+Version: 0.0.3
+Summary: Python client for accessing Philomena based imageboards
+Author-email: Flynn <flynnmlp@gmail.com>
+Project-URL: Homepage, https://github.com/flynnmlp/pylomena
+Project-URL: Bug Tracker, https://github.com/flynnmlp/pylomena/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dateutil (~=2.8.2)
+Requires-Dist: requests (~=2.28.2)
+Requires-Dist: levenshtein (~=0.20.9)
+Provides-Extra: all
+Requires-Dist: pylomena[testing] ; extra == 'all'
+Provides-Extra: testing
+Requires-Dist: flake8 (>=5.0.4) ; extra == 'testing'
+Requires-Dist: Flake8-pyproject (~=1.2.2) ; extra == 'testing'
+Requires-Dist: mypy (~=1.0.1) ; extra == 'testing'
+Requires-Dist: types-python-dateutil (~=2.8.19.6) ; extra == 'testing'
+Requires-Dist: types-requests (~=2.28.11.12) ; extra == 'testing'
+Requires-Dist: tox ; extra == 'testing'
+
+# pylomena
+
+[![Tests](https://github.com/flynnmlp/pylomena/actions/workflows/tests.yml/badge.svg)](https://github.com/flynnmlp/pylomena/actions/workflows/tests.yml)
+[![GitHub license](https://img.shields.io/github/license/flynnmlp/pylomena)](https://github.com/flynnmlp/pylomena/blob/main/LICENSE)
+[![PyPI package version](https://img.shields.io/pypi/v/pylomena)](https://pypi.org/project/pylomena/)
+[![Python versions](https://img.shields.io/pypi/pyversions/pylomena)](https://www.python.org)
+
+Python client for accessing Philomena based imageboards
+
