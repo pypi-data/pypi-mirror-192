@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: padc
+Version: 0.3
+Summary: python active directory cli using python-ldap lib to manage ad servers
+Home-page: https://github.com/Fabiokleis/p_ad
+Author: Fabio Kleis
+Author-email: fabiohkrc@gmail.com
+License: MIT License
+        
+        Copyright (c) 2023 Fabio Kleis
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# padc
+
+cli using [python-ldap](https://github.com/python-ldap/python-ldap) lib to create connections with Active Directory
+
+## Setup for development
+```console
+python -m venv env && source env/bin/activate && pip install -e .
+```
+Create .env file inside root directory to establish a ldap connection
+### .env
+```
+URI='ldap://192.168.0.213'
+BIND_DN='administrator@rts.local'
+AUTH_PASS='Mypasswd@123'
+CA_PATH='' 
+BASE_DN='DC=RTS,DC=LOCAL'
+```
+padc has logging_settings.ini inside `padc/config`
+```ini
+[loggers]
+keys = root
+
+[handlers]
+keys = FileHandler,StreamHandler
+
+[formatters]
+keys = simpleFormatter
+
+[logger_root]
+level = DEBUG
+handlers = FileHandler,StreamHandler
+
+[handler_FileHandler]
+class     = FileHandler
+formatter = simpleFormatter
+args      = ('padc.log', 'a')
+
+[handler_StreamHandler]
+class     = StreamHandler
+formatter = simpleFormatter
+args      = (sys.stdout,)
+
+[formatter_simpleFormatter]
+format = %(asctime)s:%(levelname)s: %(message)s
+```
+
+## Install padc from pypi
+```console
+pip install padc
+```
+You can modify where log file will be created by editing logging_settings.ini
+the default file is created at current directory with name 'padc.log'
+
+## Running
+cli written in [Typer](https://github.com/tiangolo/typer) to manipulate operations in AD
+
+```console
+padc --help
+```
+`users` is the main subcommand, every subcommand has a helper option
+```console
+pacd users --help
+```
+
+`padc` has in users subcommand some basic operations
+if one of the supported operations run with `--debug` option
+when errors occurs the traceback and exception will be raised.
+
+exp:
+```console
+padc users create -f .env "Pingu pythonico" "Pingupassword@123" -c 514 --debug
+```
+```console
+padc users create-ldif -f .env --ldif example.ldif
+```
+```console
+padc users add-to-group --file .env "Pingu" "CN=testgroup,CN=Users,DC=RTS,DC=LOCAL" --debug
+```
+```console
+padc users remove-from-group --file .env "Pingu" "CN=testgroup,CN=Users,DC=RTS,DC=LOCAL"
+```
+```console
+padc users delete --file .env "Pingu pythonico"
+```
+```console
+padc users enable -f .env "Pingu" --debug
+```
+```console
+padc users disable "Pingu" --debug
+```
+
+## Testing
+Simple Unittest to create/delete/modify user account in AD
+```console
+python -m unittest -v tests.test_msad
+```
+
+## Building
+Ensure that you have build package installed first
+```console
+pip install --upgrade build
+```
+
+```console
+python -m build
+```
