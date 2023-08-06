@@ -1,0 +1,25 @@
+[build-system]
+requires = ['setuptools>=42.0', "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="python_pkg_builder_2"
+authors =[{name="preetam verma"}]
+readme="README.md"
+dynamic=["version", "description"]
+
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+    ]
+
+[tool.mypy]
+mypy_path = "src"
+ignore_missing_imports = true
+
+[tool.flit.module]
+name="src"
+
+[project.scripts]
+src="src.main:sum"
