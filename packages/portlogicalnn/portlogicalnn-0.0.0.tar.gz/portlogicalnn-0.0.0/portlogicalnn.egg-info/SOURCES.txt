@@ -1,0 +1,12 @@
+setup.py
+portlogicalnn/__init__.py
+portlogicalnn/andGate.py
+portlogicalnn/nandGate.py
+portlogicalnn/norGate.py
+portlogicalnn/notGate.py
+portlogicalnn/orGate.py
+portlogicalnn.egg-info/PKG-INFO
+portlogicalnn.egg-info/SOURCES.txt
+portlogicalnn.egg-info/dependency_links.txt
+portlogicalnn.egg-info/requires.txt
+portlogicalnn.egg-info/top_level.txt
