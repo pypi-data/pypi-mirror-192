@@ -1,0 +1,9 @@
+README.md
+setup.py
+nosytx/__init__.py
+nosytx/nosytx.py
+nosytx.egg-info/PKG-INFO
+nosytx.egg-info/SOURCES.txt
+nosytx.egg-info/dependency_links.txt
+nosytx.egg-info/requires.txt
+nosytx.egg-info/top_level.txt
