@@ -1,0 +1,10 @@
+[project]
+name = "mattuni"
+version = "0.3.2"
+authors = [
+    { name = "Matt Groth", email = "mjgroth@mit.edu" }
+]
+dependencies = [
+    'requests'
+]
+description = "Coding challenges"
