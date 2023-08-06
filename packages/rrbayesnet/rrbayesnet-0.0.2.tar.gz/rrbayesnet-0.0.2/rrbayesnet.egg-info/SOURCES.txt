@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+rrbayesnet/__init__.py
+rrbayesnet/bayesian.py
+rrbayesnet.egg-info/PKG-INFO
+rrbayesnet.egg-info/SOURCES.txt
+rrbayesnet.egg-info/dependency_links.txt
+rrbayesnet.egg-info/top_level.txt

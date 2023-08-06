@@ -1,0 +1,1 @@
+from rrbayesnet.bayesian import BayesianNetwork
