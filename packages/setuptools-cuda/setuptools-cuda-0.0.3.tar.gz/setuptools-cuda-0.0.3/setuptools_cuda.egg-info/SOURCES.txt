@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setuptools_cuda/__init__.py
+setuptools_cuda/build.py
+setuptools_cuda/compiler_customization.py
+setuptools_cuda/extension.py
+setuptools_cuda/inspections.py
+setuptools_cuda/setuptools_ext.py
+setuptools_cuda.egg-info/PKG-INFO
+setuptools_cuda.egg-info/SOURCES.txt
+setuptools_cuda.egg-info/dependency_links.txt
+setuptools_cuda.egg-info/entry_points.txt
+setuptools_cuda.egg-info/top_level.txt
