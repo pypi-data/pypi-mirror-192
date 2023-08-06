@@ -1,0 +1,10 @@
+lambdacloud/__init__.py,sha256=6FsJQSmviG5Sli15MdNQe4mF2YHc2TgP0ZaqqFti8Ko,275
+lambdacloud/_login.py,sha256=TbKnE-UqMKkL0z_WIGhszzW_qX42J67-EWv5Nq4HtYA,1902
+lambdacloud/cli.py,sha256=YsS-yyo7hEkd962O0-MtCANJB_jUBRZBjk21RdoL9Zo,946
+lambdacloud/constants.py,sha256=5WgQJb1zMJJ-BViVaT7BgnMQNRuGbNxnFGPMD7DZkT8,363
+lambdacloud/lambda_api.py,sha256=Sevzqpr5tRoDG1Wf5Em3Etr9_24cFp1YpJI06-fXpZE,8626
+lambdacloud-0.0.2.dist-info/METADATA,sha256=YiBbj2C3zj8fN4k6Oh6xKY5XWIPZsZvbhpfi1FD43DM,3456
+lambdacloud-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lambdacloud-0.0.2.dist-info/entry_points.txt,sha256=wXwewljHhfDE1Ok26lT-qy7B7AdsXRh3IqADQAy97Gs,53
+lambdacloud-0.0.2.dist-info/top_level.txt,sha256=TELmzGj8ZL-hzuWFdfp_T9ZT-JxiGXhzekjqgRy-m0k,12
+lambdacloud-0.0.2.dist-info/RECORD,,
