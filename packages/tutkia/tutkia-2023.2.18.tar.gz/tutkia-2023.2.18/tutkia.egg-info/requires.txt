@@ -1,0 +1,12 @@
+atlassian-python-api>=3.33.0
+msgspec>=0.13.1
+
+[dev]
+black
+coverage
+hypothesis
+mypy
+pytest
+pytest-cov
+pytest-flake8
+ruff
