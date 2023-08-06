@@ -1,0 +1,16 @@
+esp_idf_ldgen/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+esp_idf_ldgen/__main__.py,sha256=PXwtwtEzmla14PAhAcJ89CikJeVb_EZxLZuHr6tllXU,76
+esp_idf_ldgen/ldgen.py,sha256=hjY-U8JYHgK-cmHP7DAZK_xbn45IzzSrFZ1O2mUJS2s,5657
+esp_idf_ldgen/libldgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esp_idf_ldgen/libldgen/entity.py,sha256=rnj1BXuXw1mcU4ZpGqjEcRUnZD91lQun6QUpus1lJwM,7686
+esp_idf_ldgen/libldgen/fragments.py,sha256=ZS11UgzLlalYsrLzKlbIs0U9TEjVSA9c9OcieAYr-xo,15030
+esp_idf_ldgen/libldgen/generation.py,sha256=SnPAgxJG2DKYxCmB1wX6InMjHqaMrpTTrCSlOIj0R_c,23202
+esp_idf_ldgen/libldgen/ldgen_common.py,sha256=SDScPWC9qBg8Nd4klb7BrDHPBoOJajVVhyS8Qyyo32s,239
+esp_idf_ldgen/libldgen/linker_script.py,sha256=kfqG1savT2-t7V3RfAOo69dP118B5z2oioeRORNGfig,2820
+esp_idf_ldgen/libldgen/output_commands.py,sha256=_k5bM0tZkAIJd73aPC19U3qXP-SIc2wmRYtX1ltMiqU,5174
+esp_idf_ldgen/libldgen/sdkconfig.py,sha256=u5dRLOCSTnvFJJsTJ1oPS4sjqJN5J8sMxIkyJcf_sNw,790
+esp_idf_ldgen-0.1.0.dist-info/LICENSE,sha256=Av-TG_oXJSCUlYSDbQDLLPFtw4cskCGjaZqTEuQ4wkE,11365
+esp_idf_ldgen-0.1.0.dist-info/METADATA,sha256=ClZGYqenpu3_J49jKEfrWLGBPDsS2dvfbWB0takqQnc,3294
+esp_idf_ldgen-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+esp_idf_ldgen-0.1.0.dist-info/top_level.txt,sha256=ChPXBArHV7XmderE4uKHLNX1ZJdKpbLQ1ZtFrfG3NsA,14
+esp_idf_ldgen-0.1.0.dist-info/RECORD,,
