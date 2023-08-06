@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_xontrib.py
+xontrib/pdb.py
+xontrib/xog.py
+xontrib_debug_tools.egg-info/PKG-INFO
+xontrib_debug_tools.egg-info/SOURCES.txt
+xontrib_debug_tools.egg-info/dependency_links.txt
+xontrib_debug_tools.egg-info/requires.txt
+xontrib_debug_tools.egg-info/top_level.txt
