@@ -1,0 +1,3 @@
+
+[:platform_system == "Windows"]
+WinToaster==0.1
