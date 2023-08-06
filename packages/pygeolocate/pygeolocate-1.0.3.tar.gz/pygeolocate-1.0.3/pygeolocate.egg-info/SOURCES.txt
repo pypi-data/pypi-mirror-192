@@ -1,0 +1,10 @@
+README.md
+setup.py
+pygeolocate/__init__.py
+pygeolocate/countries_csv.py
+pygeolocate/pygeolocate.py
+pygeolocate/structures.py
+pygeolocate.egg-info/PKG-INFO
+pygeolocate.egg-info/SOURCES.txt
+pygeolocate.egg-info/dependency_links.txt
+pygeolocate.egg-info/top_level.txt
