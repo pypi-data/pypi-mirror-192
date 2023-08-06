@@ -1,0 +1,22 @@
+export KIWI_EXE='/datav/anaconda3/bin/kiwi'
+export KIWI_OLD_PATH=${PATH}
+export KIWI_OLD_LDLIBRARYPATH=${LD_LIBRARY_PATH}
+
+kiwi() {
+    \local cmd="${1-__missing__}"
+    case "$cmd" in
+        activate|install)
+            ask=$("$KIWI_EXE" -shell.posix $@)
+            if [ "$?" == "0" ];
+            then
+                eval "$ask"
+            else
+                # echo Failed to run \"$KIWI_EXE $@\"
+                echo $ask
+            fi
+            ;;
+        *)
+            "$KIWI_EXE" "$@"
+            ;;
+    esac
+}
