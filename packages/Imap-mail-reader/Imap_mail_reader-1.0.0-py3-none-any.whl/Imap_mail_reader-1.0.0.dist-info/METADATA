@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Imap-mail-reader
+Version: 1.0.0
+Summary: lib to simplify the usage of imaplib to read mail
+Author: Donatien Subts
+Author-email: donatien.subts.pro@gmail.com
+Project-URL: Docs, https://github.com/DonatienSubts/Imap-mail-reader
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
