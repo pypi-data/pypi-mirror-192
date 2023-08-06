@@ -1,0 +1,10 @@
+README.md
+setup.py
+TPUnityAI.egg-info/PKG-INFO
+TPUnityAI.egg-info/SOURCES.txt
+TPUnityAI.egg-info/dependency_links.txt
+TPUnityAI.egg-info/requires.txt
+TPUnityAI.egg-info/top_level.txt
+tp_unity_ai/__init__.py
+tp_unity_ai/debug/__init__.py
+tp_unity_ai/debug/api.py
