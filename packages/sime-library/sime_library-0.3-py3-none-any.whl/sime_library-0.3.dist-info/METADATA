@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sime-library
+Version: 0.3
+Summary: Library
+Home-page: https://github.com/yourusername/sime_library
+Author: Tudjewuj
+Author-email: your.email@example.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
