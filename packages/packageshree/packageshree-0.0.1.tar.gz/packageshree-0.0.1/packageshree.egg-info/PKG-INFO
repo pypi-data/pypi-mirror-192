@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: packageshree
+Version: 0.0.1
+Summary: An demonstration of how to create, document, and publish to the cheese shop a5 pypi.org.
+Author: Shridhar
+Author-email: shridhar5697@gmail.com
+License: BSD
+Keywords: example documentation tutorial
+License-File: Licence.txt.txt
