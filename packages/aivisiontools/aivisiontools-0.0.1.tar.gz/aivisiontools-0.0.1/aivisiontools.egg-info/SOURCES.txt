@@ -1,0 +1,8 @@
+README.md
+setup.py
+aivisiontools/__init__.py
+aivisiontools/metrics.py
+aivisiontools.egg-info/PKG-INFO
+aivisiontools.egg-info/SOURCES.txt
+aivisiontools.egg-info/dependency_links.txt
+aivisiontools.egg-info/top_level.txt

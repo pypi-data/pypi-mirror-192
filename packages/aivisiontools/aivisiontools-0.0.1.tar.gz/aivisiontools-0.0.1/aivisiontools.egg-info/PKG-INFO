@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: aivisiontools
+Version: 0.0.1
+Summary: This package contains useful tools for Compute Vision practitioners for processing images, evaluatingmodels etc. It is a package meant as a complementary to other more complex packages such astensorflow, pytorch, opencv. It is not meant to compete or replace such packages, but ratherto offer such tools which a developer needs to use those packages without writing himself many helper functions.
+Home-page: UNKNOWN
+Author: Eduard Cojocea
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

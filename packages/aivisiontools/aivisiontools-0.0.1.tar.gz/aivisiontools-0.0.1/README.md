@@ -1,0 +1,1 @@
+This package contains useful tools for Computer Vision practitioners.
