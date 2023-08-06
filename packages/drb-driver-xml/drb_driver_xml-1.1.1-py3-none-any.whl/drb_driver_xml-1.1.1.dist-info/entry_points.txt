@@ -1,0 +1,6 @@
+[drb.driver]
+xml = drb.drivers.xml:XmlNodeFactory
+
+[drb.topic]
+xml = drb.topics.xml
+
