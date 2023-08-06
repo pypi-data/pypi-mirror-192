@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bismillah_on_py"
+version = "1.0.1"
+description = "as `the_sentence`, and `print_them` function."
+authors = ["Iqbal Syifa Mahmuda <bal.mahmuda@gmail.com>", "اللّٰه"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bismillah_on_py", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
