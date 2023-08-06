@@ -1,0 +1,14 @@
+eeg_blinks/__init__.py,sha256=4Ww2Vr6zxTm9Is_yaCtwM7KWL7fdVVEnu0UI_HlsT4U,100
+eeg_blinks/_version.py,sha256=yLf6GHSYrQ8_2fGxkTUcXn_BrG0Njyza3Bb_QWMk-LA,131
+eeg_blinks/default_setting.py,sha256=wUn848dYi1yLjivkHiVvgd3USCEEaQnrhdQYzAAhUto,1228
+eeg_blinks/pyblinker.py,sha256=8jElJbTJVq-5z700ZbXcW1p18g6Zdd_TWmsPSg2_SRY,3332
+eeg_blinks/utilities/__init__.py,sha256=4nOBVLNyIYohjXzZup9l2bSWdxEWZ1kckQ5ct7VKcJ4,17
+eeg_blinks/utilities/extractBlinkProperties.py,sha256=45oDY1NmK-G5IkdOWS6eBgusv5WH2TPIgxE5hLeU1fk,11489
+eeg_blinks/utilities/fit_blink.py,sha256=YrjzErR3s7YisE1ZHYC1zPvR12UStSYWCkLqJsTf9VM,3019
+eeg_blinks/utilities/getCandidateSignal.py,sha256=HUMD_2ULRoDq12FyuuHk3isDY83BwEe8uUJd3Q0Rh2Q,5969
+eeg_blinks/utilities/misc.py,sha256=EpD7itfomCzTTRv2YO9KUvA9LFf7gIDFdL5fXoUiuqM,1573
+eeg_blinks/utilities/zero_crossing.py,sha256=cHW7xuCH2MDy5N3pD7OcltGPeq9akVGtTDoxupPXu2c,19452
+eeg_blinks-0.0.2.dist-info/METADATA,sha256=dF6HoDAWXNa8IqwKTD41TqxbhOhH2GVwQ0MPBTHAlgY,134
+eeg_blinks-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+eeg_blinks-0.0.2.dist-info/top_level.txt,sha256=-UdRjO2GBFboKYjUtmG-5ZUc1wCVf3pNfKzpqlxE2F0,11
+eeg_blinks-0.0.2.dist-info/RECORD,,
