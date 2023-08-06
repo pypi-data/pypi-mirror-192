@@ -1,0 +1,9 @@
+pandas
+pycryptodome
+pyyaml
+requests
+rfc3339
+
+[spark]
+pyspark>=2.4
+pyarrow>=0.15.1
