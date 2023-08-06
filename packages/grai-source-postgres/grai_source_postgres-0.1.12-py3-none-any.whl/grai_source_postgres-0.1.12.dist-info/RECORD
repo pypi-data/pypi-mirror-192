@@ -1,0 +1,9 @@
+grai_source_postgres/__init__.py,sha256=Wnl001FnwM87N7PyeUSwWmSvVdF1S0naq3bBuC0JZzU,145
+grai_source_postgres/adapters.py,sha256=jvLlFFjhEiSNZ3uAIssRvOv1wi_-p9eA-IAv5xTSVoI,6176
+grai_source_postgres/base.py,sha256=BlEal9hYGyxXwKPndHBMeyXt2ZMsF4EGBDEMYpseUDI,1205
+grai_source_postgres/loader.py,sha256=JgoxxFFnZ0JRYLUCfMfG6rVHHJ9rYPN3shjnyxkoZoU,7822
+grai_source_postgres/models.py,sha256=G_sIsox0SyrYA_LIkNOL3yE13WzJAXGJRrjDZW8-3QA,4444
+grai_source_postgres/package_definitions.py,sha256=UCUqVTcUEQxGwV4JClPceonGccqb6iv9NaKU3zOSnNE,186
+grai_source_postgres-0.1.12.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+grai_source_postgres-0.1.12.dist-info/METADATA,sha256=SyF3JQkUV6HZ3vkuyY16MPHIe3NucsylYUx0NDdXifU,713
+grai_source_postgres-0.1.12.dist-info/RECORD,,
