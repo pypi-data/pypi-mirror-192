@@ -1,0 +1,42 @@
+{
+	"modules": [
+		{
+			"moduleName": "run",
+			"moduleLevelMethod": [
+				{
+					"name": "http_callout",
+					"signature": "NA"
+				},
+				{
+					"name": "first",
+					"signature": "NA"
+				},
+				{
+					"name": "second",
+					"signature": "NA"
+				}
+			],
+			"classes": []
+		},
+		{
+			"moduleName": "dynamodb",
+			"moduleLevelMethod": [
+				{
+					"name": "dynamodb_callout",
+					"signature": "NA"
+				}
+			],
+			"classes": []
+		},
+		{
+			"moduleName": "s3",
+			"moduleLevelMethod": [
+				{
+					"name": "s3_callout",
+					"signature": "NA"
+				}
+			],
+			"classes": []
+		}
+	]
+}
