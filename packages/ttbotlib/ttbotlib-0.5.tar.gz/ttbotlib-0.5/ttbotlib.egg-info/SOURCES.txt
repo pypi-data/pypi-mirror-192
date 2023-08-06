@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+tests/test_client.py
+tests/test_server.py
+ttbot/__init__.py
+ttbot/client.py
+ttbot/server.py
+ttbot/types.py
+ttbotlib.egg-info/PKG-INFO
+ttbotlib.egg-info/SOURCES.txt
+ttbotlib.egg-info/dependency_links.txt
+ttbotlib.egg-info/requires.txt
+ttbotlib.egg-info/top_level.txt

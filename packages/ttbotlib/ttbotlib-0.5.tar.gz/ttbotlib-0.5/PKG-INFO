@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ttbotlib
+Version: 0.5
+Summary: pararam.io bot framework
+Home-page: https://gitlab.com/pararam-public/ttbot
+Author: TamTam (Dmitriy Vlasov)
+Author-email: info@tamtamteam.com
+License: MIT license
+Keywords: pararam.io,async,bot
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: AsyncIO
+License-File: LICENSE.md
