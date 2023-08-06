@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pygamemanager
+Version: 0.0.1
+Summary: A package that makes pygame easy
+Author: Jack
+Author-email: <notsharing@currently.com>
+Keywords: python,pygame,simple,easy,manageable
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+
+A package that makes pygame really easy so that it is split up into a easier way to manage
