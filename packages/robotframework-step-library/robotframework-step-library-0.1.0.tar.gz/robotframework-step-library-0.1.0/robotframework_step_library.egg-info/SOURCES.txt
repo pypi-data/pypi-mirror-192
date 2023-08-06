@@ -1,0 +1,7 @@
+README.txt
+setup.py
+RobotStepLibrary/__init__.py
+robotframework_step_library.egg-info/PKG-INFO
+robotframework_step_library.egg-info/SOURCES.txt
+robotframework_step_library.egg-info/dependency_links.txt
+robotframework_step_library.egg-info/top_level.txt
