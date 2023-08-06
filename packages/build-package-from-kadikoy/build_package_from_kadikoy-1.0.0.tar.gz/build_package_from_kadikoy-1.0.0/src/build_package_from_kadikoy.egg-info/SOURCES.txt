@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/build_package/__init__.py
+src/build_package/__main__.py
+src/build_package/say_hi.py
+src/build_package_from_kadikoy.egg-info/PKG-INFO
+src/build_package_from_kadikoy.egg-info/SOURCES.txt
+src/build_package_from_kadikoy.egg-info/dependency_links.txt
+src/build_package_from_kadikoy.egg-info/entry_points.txt
+src/build_package_from_kadikoy.egg-info/requires.txt
+src/build_package_from_kadikoy.egg-info/top_level.txt

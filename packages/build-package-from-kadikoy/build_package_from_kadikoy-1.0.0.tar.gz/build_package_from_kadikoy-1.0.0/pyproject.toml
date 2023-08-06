@@ -1,0 +1,28 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "pandas"] # Yüklerken bu versiyonaları indirir.
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "build_package_from_kadikoy"
+version = "1.0.0"
+description = "Just trying to build a new python package"
+readme = "README.md"
+authors = [{ name = "Murat Ergan", email = "erganmurat.akt@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["just", "trying", "new", "package"]
+dependencies = []
+requires-python = ">=3.9"
+
+[project.optional-dependencies] # python -m pip install realpython-reader[dev] ile bu dependice leri de yüklerken dikkate alabilirsin. sadece optional ama.
+dev = []
+
+[project.urls]
+Homepage = "https://github.com"
+
+[project.scripts]
+realpython = "reader.__main__:main"
