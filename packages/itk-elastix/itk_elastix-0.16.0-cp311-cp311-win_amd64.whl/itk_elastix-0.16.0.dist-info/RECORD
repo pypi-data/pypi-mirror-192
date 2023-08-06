@@ -1,0 +1,17 @@
+itk/ElastixPython.py,sha256=FXNQqrXz_dF1Ft9qm1WMCPqwvDhXs9VuKfZ4moBYRAQ,5105
+itk/_ElastixPython.pyd,sha256=CIKIbMYoqqgUREMwXEiSsjIkDl7C_cmHN2WnSbMLeZs,24375296
+itk/__init_elastix__.py,sha256=HF2La49RyFpsc854pKBza4eMUm4XWJ1bZjZS-j_0M5o,480
+itk/elxParameterObjectPython.py,sha256=a82oi7njjWEPmpm4e2lTyDDmVjBUnnkISkh2Oxj2lkE,11006
+itk/itkElastixRegistrationMethodPython.py,sha256=vgRMlrWva6X7irEgZSuqPVLAzARkt0P5bThbyVdING8,67464
+itk/itkTransformixFilterPython.py,sha256=mgeLoAB13oaJ0yziG_jnibSZ2v1EmbsW-6ayoQTk_d0,53707
+itk/Configuration/ElastixConfig.py,sha256=wBvmdKxU6CF5WxDH2o94eFETTzxxOuEAvGwDeL885aU,1933
+itk/Configuration/Elastix_snake_case.py,sha256=t_oGCgwg8wzMcaE9kCGjWFY34d5u6f9SLfHyDaFVVrM,157
+itk_elastix.libs/msvcp140.dll,sha256=ZoYOafaM0rc2W4rRIH2y14_qo1p2ey7UnbjPwSzOVEI,579896
+itk_elastix.libs/tbb12.dll,sha256=3Ym0FW-dLjEApD2zv1XnQJvS8nxkBRLWEJ6dviOb1Tg,308736
+itk_elastix.libs/vcomp140.dll,sha256=y3Ifd1ze5zDZ1p69nnI8Bame4YBfjSOlKnT8AVqj2WU,191824
+itk_elastix-0.16.0.dist-info/DELVEWHEEL,sha256=2z3ShgFBK6tgcSlGlNwI766SO9qEP4kmRJjMjuJBaZ4,258
+itk_elastix-0.16.0.dist-info/LICENSE,sha256=6N4ac5NFfpyIdot45rp5BiL777BAzkgZTCyw8bbU6f8,11562
+itk_elastix-0.16.0.dist-info/METADATA,sha256=09b86jLQxcLHCHwm4ADX2z_1xdzJSWWMSvTpPqogaws,1673
+itk_elastix-0.16.0.dist-info/WHEEL,sha256=0s_i5CKu9uXJawrRxaMcbdPMmfqTBl44Pq_tqcl-eWQ,96
+itk_elastix-0.16.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_elastix-0.16.0.dist-info/RECORD,,
