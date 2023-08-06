@@ -1,0 +1,14 @@
+newsegmentation/__init__.py,sha256=Mj93zFRmLlJf8cMlI220ufK3og5B9IDb2GjcR8NT7U4,2419
+newsegmentation/_algorithms.py,sha256=vQpLXn-TAN9e7im5CN-35_645F2iJ1w1c2hRGh1K7WQ,4140
+newsegmentation/_architecture.py,sha256=LUIPW1u49Wh5a39aKAaqZTbdVp8Vh9VWZgk1ezaSkts,29475
+newsegmentation/_databasetrans.py,sha256=KTGkOOL7jzTD7ftvMc2B1jXeVmIlfyk6i4na70q8rNc,5548
+newsegmentation/_dserial.py,sha256=exDkZrb-81hZYGOMs8scaslOPurwXy56tp6Vlg4pRtM,4217
+newsegmentation/_gtreader.py,sha256=17URwFDj1PpFKvyvT248S5UUYJE-gbREK9XKluQssHE,1687
+newsegmentation/_slm.py,sha256=u033bWYX3HDpx37-MZi9dA_pGhnLREuLwz3nqzSKrUQ,847
+newsegmentation/_structures.py,sha256=4lBlC2yfEI_8fpuEkbLoAYH0YOJPKe95hZ5OZTF5ud4,5864
+newsegmentation/_tdm.py,sha256=iNQp4nVoswqm7KFi6-jTmhjZDT4VFO_eL4yZkjnmAHo,1128
+newsegmentation-1.5.1.dist-info/LICENSE,sha256=rzfEbzl7S3EoD2YdbRQnQX0Pe7bn7Vlsr5U32L-6cp8,1114
+newsegmentation-1.5.1.dist-info/METADATA,sha256=qVOirtInd-f4vhDKrJdurA9xT7vPzhrpbVnFPDa2CbY,21644
+newsegmentation-1.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+newsegmentation-1.5.1.dist-info/top_level.txt,sha256=KLGwCIsFzJC8ope6qaO0L9l1rHOHuV91q50xMMDNzPM,16
+newsegmentation-1.5.1.dist-info/RECORD,,
