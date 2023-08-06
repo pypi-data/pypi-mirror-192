@@ -1,0 +1,7 @@
+README.md
+setup.py
+whatsmate/__init__.py
+whatsmate.egg-info/PKG-INFO
+whatsmate.egg-info/SOURCES.txt
+whatsmate.egg-info/dependency_links.txt
+whatsmate.egg-info/top_level.txt
