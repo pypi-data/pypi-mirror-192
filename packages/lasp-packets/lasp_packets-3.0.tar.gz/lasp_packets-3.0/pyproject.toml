@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "lasp_packets"
+version = "3.0"
+description = "CCSDS packet decoding library"
+authors = [
+    "Gavin Medley <gavin.medley@lasp.colorado.edu>",
+    "Michael Chambliss <michael.chambliss@lasp.colorado.edu>"
+]
+maintainers = [
+    "Gavin Medley <gavin.medley@lasp.colorado.edu>"
+]
+license = "BSD-3-Clause"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.12"
+bitstring = ">=3.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6"
+pytest-randomly = "^3"
+pytest-cov = "^3"
+pylint = "^2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
