@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+noxopt/__init__.py
+noxopt.egg-info/PKG-INFO
+noxopt.egg-info/SOURCES.txt
+noxopt.egg-info/dependency_links.txt
+noxopt.egg-info/requires.txt
+noxopt.egg-info/top_level.txt
+tests/test_noxopt.py
