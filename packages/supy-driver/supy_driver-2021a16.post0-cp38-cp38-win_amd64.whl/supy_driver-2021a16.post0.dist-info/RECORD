@@ -1,0 +1,7 @@
+supy_driver/__init__.py,sha256=-bW8FJCYiYEx43S2JB4Sm4bHWf3Ok5tCNtqddQKE2FU,775
+supy_driver/suews_driver.cp38-win_amd64.pyd,sha256=jfciav2VOETZX0MXMrK1GvZn-cesZgDj3ngxqpo8wuU,11544782
+supy_driver/version.py,sha256=kTPLjSiw_H1Hbiccs01WRdPNVKu3AHhnIkUeQDnMe3o,36
+supy_driver-2021a16.post0.dist-info/METADATA,sha256=IxBXA1RUsuY5vxbOm4-yXWKL8giB53RM2mfP1u7dXPM,406
+supy_driver-2021a16.post0.dist-info/WHEEL,sha256=b_PH-i_F2xFYDXcROE5vpDbWUcY020I0eLFvEIYA9Pc,100
+supy_driver-2021a16.post0.dist-info/top_level.txt,sha256=ECvUcmmeed1oMhCUzs93DjCBODiYZzENno2BOaixQWY,12
+supy_driver-2021a16.post0.dist-info/RECORD,,
