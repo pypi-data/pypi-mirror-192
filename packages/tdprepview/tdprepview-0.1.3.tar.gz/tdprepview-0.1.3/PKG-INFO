@@ -1,0 +1,204 @@
+Metadata-Version: 2.1
+Name: tdprepview
+Version: 0.1.3
+Summary: Python Package that creates Data Preparation Pipeline in Teradata-SQL in Views
+Author: Martin Hillebrand
+Author-email: martin.hillebrand@teradata.com
+Keywords: tdprepview,teradata,database,preprocessing,data engineering,data science
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# tdprepview
+
+Python Package that creates Data Preparation Pipelines in Views written in Teradata-SQL.
+
+## Installation
+
+
+* pip install tdprepview
+
+## Features
+
+* Pipeline class that allows creating in-DB preprocessing pipelines
+* Several Preprocessor functions
+* API similar to sklearn.Pipeline
+
+## Quickstart
+
+### 1. setting up the pipeline
+
+```python
+import teradataml as tdml
+database_credentials = {
+    # ...
+}
+DbCon = tdml.create_context(**database_credentials)
+
+myschema, table_train, table_score = "...", "...", "..."
+DF_train = tdml.DataFrame(tdml.in_schema(myschema,table_train))
+DF_score = tdml.DataFrame(tdml.in_schema(myschema,table_score))
+
+from tdprepview import Pipeline
+from tdprepview import (
+    Impute, ImputeText, TryCast, Scale, CutOff, FixedWidthBinning, ThresholdBinarizer, 
+    ListBinarizer, VariableWidthBinning, LabelEncoder, CustomTransformer)
+
+steps = [
+    ( "floatfeat_1",                               Impute(kind="median")),
+    ([               "floatfeat_2","floatfeat_3"], Impute(kind="mean")),
+    (["floatfeat_1", "floatfeat_2","floatfeat_3"], Scale(kind="minmax")),  
+    (["varfeat_1", "varfeat_2"],                   ImputeText(kind="mode")),
+    (["varfeat_1", "varfeat_2"],                   LabelEncoder(elements="TOP2")),
+    ( "varfeatnum_1",                              TryCast(new_type="SMALLINT")),
+    ( "varfeatnum_1",                              Impute(kind="custom",value=0)),
+]
+
+mypipeline = Pipeline(steps=steps)
+
+```
+
+### 2.a transform DataFrames directly
+this is suitable if you are working in a sandbox Jupyter Notebook
+```python
+# fit() calculates all necessary statistics in DB
+mypipeline.fit(DF=DF_train)
+# transform generates SQL syntax based on the chosen Preprocessors and the statistics from fit()
+DF_train_transf = mypipeline.transform(DF_train)
+DF_score_transf = mypipeline.transform(DF_score)
+#... go on with some modelling (e.g. sklearn, TD_DecisionForest,...) 
+# and scoring (via BYOM, TD_DecisionForestPredict, ...)
+```
+
+### 2.b inspect produced queries
+if you want to check the SQL code, that is generated py tdprepview
+```python
+mypipeline.fit(DF=DF_train)
+query_train = mypipeline.transform(DF_train, return_type = "str")
+print(query_train)
+```
+the output: (Note how columns not part of the pipeline are simply forwarded)
+```sql
+WITH <table_train>__preprocessing_step_1 AS
+(
+    SELECT
+        row_id,
+        ZEROIFNULL( (( COALESCE( floatfeat_1 , -0.262922706868024 ) ) - -6.576214768101721 ) / NULLIF( 11.093711340165122 , 0) ) AS floatfeat_1,
+        ZEROIFNULL( (( COALESCE( floatfeat_2 , 0.03895576291190472 ) ) - -4.713205685419851 ) / NULLIF( 10.958731215919869 , 0) ) AS floatfeat_2,
+        ZEROIFNULL( (( COALESCE( floatfeat_3 , 0.23635558565946405 ) ) - -8.212740405863835 ) / NULLIF( 17.35185778667197 , 0) ) AS floatfeat_3,
+        CASE COALESCE( varfeat_1 , 'a' ) WHEN 'a' THEN 1 WHEN 'd' THEN 2 ELSE 0 END  AS varfeat_1,
+        CASE COALESCE( varfeat_2 , 'a' ) WHEN 'a' THEN 1 WHEN 'b' THEN 2 ELSE 0 END  AS varfeat_2,
+        COALESCE( TRYCAST( (varfeatnum_1) AS SMALLINT ) , 0 ) AS varfeatnum_1,
+        target_class
+    FROM
+        <myschema>.<table_train> t
+)
+
+SELECT
+*
+FROM
+<table_train>__preprocessing_step_1 t
+```
+
+
+### 2.c persist transformed data as a view for later use
+this is suitable and compliant with the Teradata ModelOps-Framework, where training.py and scoring.py 
+are separate scripts.
+
+__in `training.py`:__
+```python
+view_train_transf = table_train+"_transf_v"
+view_score_transf = table_score+"_transf_v"
+
+mypipeline.fit(schema_name = myschema, 
+               table_name = table_train)
+
+# 3. transform: create views for pipelines
+# DF_train_transf is already based on the newly created View
+DF_train_transf = mypipeline.transform(
+                        schema_name = myschema, 
+                        table_name = table_train,
+                        # this triggeres the creation of a VIEW, thus the transformation 
+                        # pipeline is persited
+                        create_replace_view = True, 
+                        output_schema_name = myschema, 
+                        output_view_name= view_train_transf)
+
+# 3.b create view for scoring table - no need for further inspection, thus no return
+mypipeline.transform(   schema_name = myschema, 
+                        table_name = table_score,
+                        return_type = None,
+                        create_replace_view = True, 
+                        output_schema_name = myschema, 
+                        output_view_name= view_score_transf)
+
+# further steps:
+# Model training with DF_train_transf, 
+# e.g. local and use BYOM, or in-DB with TD_DecisionForest
+# save model in DB
+```
+
+__in `scoring.py`:__
+```python
+view_score_transf = table_score+"_transf_v"
+# 1. get DataFrame based on View, transform is happening as per view definition
+DF_score_transf = tdml.DataFrame(tdml.in_schema(myschema, view_score_transf))
+
+# 2. Model Scoring with trained model 
+# (e.g. PMMLPredict, TD_DecisionForestPredict,...)
+# get pointer for model from DB + execute scoring in DB
+
+# 3. Save Scored Data in DB
+```
+
+
+
+# History
+
+## v0.1.0 (2023-02-15)
+
+### added
+
+* First release on PyPI.
+* Pipeline with fit and transform functions
+* Preprocessor Functions
+    * Impute
+    * ImputeText
+    * TryCast
+    * Scale
+    * CutOff
+    * FixedWidthBinning
+    * ThresholdBinarizer
+    * ListBinarizer
+    * VariableWidthBinning
+    * LabelEncoder
+    * CustomTransformer
+* Notebooks for tests
+* Demo Notebook
+
+## v0.1.2 (2023-02-15)
+
+### fixed
+
+* added *.sql to MANIFEST.ln such that SQL templates are also part of the distribution.
+
+### changed
+
+* HISTORY and README file from rst to Markdown
+
+## v0.1.3 (2023-02-16)
+
+### added
+
+* Quickstart in README file
