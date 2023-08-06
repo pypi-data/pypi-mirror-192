@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+svj_jobs_toolkit/__init__.py
+svj_jobs_toolkit.egg-info/PKG-INFO
+svj_jobs_toolkit.egg-info/SOURCES.txt
+svj_jobs_toolkit.egg-info/dependency_links.txt
+svj_jobs_toolkit.egg-info/not-zip-safe
+svj_jobs_toolkit.egg-info/top_level.txt
+svj_jobs_toolkit/include/VERSION
+test/test_toolkit.py
