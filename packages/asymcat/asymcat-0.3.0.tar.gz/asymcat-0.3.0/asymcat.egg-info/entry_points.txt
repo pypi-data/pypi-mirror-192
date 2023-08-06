@@ -1,0 +1,2 @@
+[console_scripts]
+asymcat = asymcat.my_module:main
