@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: realstate-scrap
+Version: 0.1.0
+Summary: extract all the data like: price, address, features from imovelweb.com.br
+Home-page: https://github.com/LucasAbreu89/webscrap
+Author: Lucas Abreu
+Author-email: lucasabreu@me.com
+License: UNKNOWN
+Keywords: real_state_scrap
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: bs4
+Requires-Dist: csv
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: re
+Requires-Dist: selenium
+Requires-Dist: time
+Requires-Dist: urllib3
+Requires-Dist: webdriver-manager
+
+UNKNOWN
+
