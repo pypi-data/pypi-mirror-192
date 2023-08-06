@@ -1,0 +1,468 @@
+# README #
+ [ORBRO Platform](https://orbro.io)는 앱을 개발하기 위한 다양한 API를 제공하며, 위젯과 앱 형태로 ORBRO Platform 상에 하나의 통합된 UI로 배포할 수 있습니다. 배포된 앱들은 ORBRO Platform을 사용하는 모든 기업/기관/사용자에게 공개하거나 본인이 소속한 조직에서만 활용할 수도 있습니다.  
+
+본 파이썬 SDK는 FastAPI와 Flask 등의 주요 Python Web Framework에서 ORBRO Platform의 Connect 앱 개발을 위해 플랫폼 인증 관리를 편하게 해주고 플랫폼 API의 호출을 가능하게 합니다. 
+
+### Requirements
+
+---
+Python 3.7+
+
+### Installation
+
+[PyPI][pypi] 을 통한 설치를 권장합니다.
+
+```bash
+$ pip install orbro-python-sdk
+```
+
+### 시작하기
+
+---
+####  SDK가 제공하는 기능
+**ORBRO Connect Python SDK**는 아래와 같은 기능들이 내장되어있거나 지원합니다.
+
+- `orbro_sdk`: FastAPI/Flask 등의 어플리케이션으로 초기화되는 OrbroConnect class '제공'
+- `orbro_sdk.datastore`: SQLAlchemy/SQL 기반의 Client 정보 저장소, Dict/Redis 기반의 Access Token 저장소 '제공' 
+- `orbro_sdk.models`: Connect 앱 토큰, Lifecycle에 따른 설치/삭제 Request, Client 정보 Mixin 모델 '제공'
+- `orbro_sdk.fastapi.middleware`: FastAPI용. Web/Mobile 등이 SDK를 사용한 Connect 앱(BE)에 요청(Request)할 때의 인증 전처리 미들웨어 '내장'
+- `orbro_sdk.fastapi.api_router`: FastAPI용. App Descriptor에 명시된 lifecycle.installed, lifecycle.uninstalled URL에 따른 ORBRO 플랫폼 Webhook 호출 요청(Request) 및 Client 정보에 대한 처리 '내장'
+- `orbro_sdk.fastapi.dependencies`: FastAPI용. DI로 사용하기위한 인증, 저장소, API 호출이 가능한 AsyncWebClient의 Dependencies '제공'
+
+####  App Descriptor
+connect.json과 같은 JSON 형식의 앱 Descriptor 파일 작성을 통해 ORBRO Platform에 Connect 앱을 배포할 수 있습니다.
+SDK 기본적으로 ORBRO Platform에서 발급된  Client ID와 Client Seceret과 하단의 앱 Descriptor 파일을 기반으로 동작합니다.
+더 상세한 내용은 [Developer Guide - ORBRO Connect](https://orbro.notion.site/ORBRO-Connect-7065dd4435264beebdeb52c7f7408820)에서 확인할 수 있습니다.
+
+```json
+{
+  "id": "com.kongtech.sdk.tester",
+  "name": "SDK Test App.",
+  "description": "로컬 및 개발 서버에서의 SDK 테스트",
+  "vendor": {
+    "name": "Kongtech",
+    "url": "https://home.orbro.io"
+  },
+  "baseUrl": "https://f5cd-210-97-92-56.ngrok.io",
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled",
+    "enabled": "/enabled",
+    "disabled": "/disabled"
+  },
+  "scopes": [
+    "every"
+  ],
+  "modules": {
+    "webhooks": [
+      {
+        "event_name": "device:device_updated",
+        "callback_api": "https://f5cd-210-97-92-56.ngrok.io/webhook/device",
+        "property": "profile_id",
+        "value": "Fixed.UWB.Anchor"
+      },
+      {
+        "event_name": "device:device_updated",
+        "callback_api": "https://f5cd-210-97-92-56.ngrok.io/webhook/device",
+        "property": "profile_id",
+        "value": "Movable.IndoorCamera.RTLS"
+      }
+    ]
+  },
+  "version": "0.1"
+}
+```
+
+####  클라이언트 정보 모델 정의
+ORBRO Platform에서 앱 설치/삭제 시에 lifecycle webhook으로 전달되는 정보를 기반으로 앱을 설치한 클라이언트 정보가 관리됩니다.
+
+```python
+from orbro_sdk.models import ConnectAppClientInfoMixin
+from sqlalchemy.ext.declarative import declarative_base
+Base = declarative_base()
+
+# SQL Model
+class ClientInfo(Base, ConnectAppClientInfoMixin):
+    pass
+
+'''
+    class ConnectAppClientInfoMixin:
+        """Connect App Shared Secret Info"""
+        __tablename__ = 'connect_app_client_info'
+        id = Column(Integer, primary_key=True)
+        organization_id = Column(String(255), nullable=False)
+        shared_secret = Column(String(255), nullable=False)
+        subdomain = Column(String(255))
+        installed_user_id = Column(String(255))
+        created_time = Column(DateTime, default=func.now())
+        updated_time = Column(DateTime, default=func.now())
+'''
+```
+####  개발(DEV) 환경에서 SDK 초기화하기
+SDK는 로컬(Local) 또는 개발(DEV) 환경에서 클라이언트 정보 저장소를 sqlite로 토큰 정보 저장소는 Dictionary로 자동으로 초기화하기 때문에 [ngrok](https://ngrok.com/) 같은 터널링 도구를 사용한 호스팅을 통해 빠르게 개발과 테스트가 가능합니다.
+
+```python
+from fastapi import FastAPI
+from orbro_sdk import OrbroConnect
+
+CLIENT_ID = 'your-client-id'
+CLIENT_SECRET = 'your-client-secret'
+# 발급받은 Open API 토큰이 존재하는 경우에 사용
+OPEN_API_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.e...'
+
+app = FastAPI()
+sdk = OrbroConnect(app, client_id=CLIENT_ID, client_secret=CLIENT_SECRET, open_api_token=OPEN_API_TOKEN)
+```
+
+####  프로덕션(PROD) 환경에서 SDK 초기화하기
+SDK는 스테이지(STG), 프로덕션(PROD) 환경에서 **클라이언트 정보 저장소를 MySQL/PostgreSQL 등의 관계형 데이터베이스로 토큰 정보 저장소는 Redis로 사용하는 것을 권장**합니다.
+
+```python
+from fastapi import FastAPI
+from orbro_sdk import OrbroConnect
+from orbro_sdk.models import ConnectAppClientInfoMixin
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
+import redis
+import logging
+
+CLIENT_ID = 'your-client-id'
+CLIENT_SECRET = 'your-client-secret'
+SQLALCHEMY_DATABASE_URL = 'postgresql://username:password@localhost:5432/your_app_db'
+
+handler = logging.StreamHandler()
+handler.setLevel(logging.WARNING)
+logger = logging.getLogger()
+logger.addHandler(handler)
+
+Base = declarative_base()
+
+# SQL Model
+class ClientInfo(Base, ConnectAppClientInfoMixin):
+    pass
+
+engine = create_engine(
+    SQLALCHEMY_DATABASE_URL,
+    echo=True
+)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+Redis = redis.StrictRedis(host='localhost', port=6379, decode_responses=True)
+
+# 발급받은 Open API 토큰이 존재하는 경우에 사용
+OPEN_API_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.e...'
+app = FastAPI()
+sdk = OrbroConnect(app, client_id=CLIENT_ID, client_secret=CLIENT_SECRET,
+                   db_session_maker=SessionLocal, client_info_model=ClientInfo, redis=Redis, 
+                   open_api_token=OPEN_API_TOKEN)
+Base.metadata.create_all(bind=engine)
+
+```
+#### FastAPI : 인증 Middleware로부터 처리된 기본 정보 얻기
+* Connect 앱 SDK 인증 미들웨어로부터 모든 API에 기본적으로 전달되는 정보.
+* 인증이 필요한 API는 Mobile에서 Header에  { 'sub' : '{organization.subdomain}' } 추가하여 요청 필요.
+* 인증이 필요한 API는 Web에서 Query Parameter에 ?origin={origin} 추가하여 요청 필요.
+
+```python
+from fastapi import FastAPI, Request
+
+app = FastAPI()
+
+@app.get(
+    '/my-api'
+)
+def get_middleware_auth_info(
+    request: Request
+):
+    # 인증이 성공하면 request에서 아래 속성으로 접근 가능
+    print(request.state.user)
+    '''
+        {
+            'email': '',        # API를 호출한 유저의 이메일 정보 
+            'origin': '',       # API를 호출한 소속의 ORIGIN 정보
+            'subdomain': ''     # API를 호출한 소속의 서브도메인 정보
+        }    
+    '''
+    return {'status_code': 200}
+```
+
+#### FastAPI : AsyncClient 디펜던시
+* 플랫폼의 API를 호출 할 때 Connect 앱 설치 시에 생성된 Client 정보를 바탕으로 Connect 앱 BE 토큰을 생성하여 Dict나 Redis로 저장.
+* 디펜던시로 가져왔을 때 어플리케이션에서 별도의 origin 또는 토큰 만료 시, 발급/삭제 처리 불필요.
+
+```python
+from fastapi import FastAPI, Depends
+from orbro_sdk.fastapi.dependencies.client import get_async_client, AsyncWebClient
+
+app = FastAPI()
+
+@app.get(
+    '/get-async-client'
+)
+async def get_async_client(
+        async_client: AsyncWebClient = Depends(get_async_client)
+):
+    # ORBRO Platform API 호출
+    # [GET]
+    res = await async_client.get('/api/v1/users')
+    print(res.text)
+    # [PATCH]
+    body = {'name': 'ORBRO'}
+    res = await async_client.patch('/api/v1/users/<user_id>'.format(user_id='3a71428f-1aaf-4ccc-8fff-193934ed4d2a'),
+                                   data=body)
+    print(res.text)
+    # [PUT]
+    body = {'name': 'ORBRO'}
+    res = await async_client.put('/api/v1/users/<user_id>'.format(user_id='3a71428f-1aaf-4ccc-8fff-193934ed4d2a'),
+                                 data=body)
+    print(res.text)
+
+    # [POST]
+    body = {'name': 'ORBRO'}
+    res = await async_client.post('/api/v1/users', data=body)
+    print(res.text)
+
+    # [DELETE]
+    res = await async_client.delete('/api/v1/users/<user_id>'.format(user_id='3a71428f-1aaf-4ccc-8fff-193934ed4d2a'))
+    # 이외 [HEAD], [OPTIONS] 제공함.
+    print(res.text)
+
+    return { 'status_code': 200, 'message': res.text }
+```
+
+#### FastAPI : OpenAPI용 AsyncClient 디펜던시
+* 플랫폼의 API를 호출 할 때 개발자가 속한 소속 정보를 바탕으로 발급된 Open API용 토큰을 통하여 API 호출.
+
+```python
+from fastapi import FastAPI, Depends
+from orbro_sdk.fastapi.dependencies.client import get_openapi_async_client, AsyncWebClient
+
+app = FastAPI()
+
+@app.get(
+    '/get-openapi-async-client'
+)
+async def get_openapi_async_client(
+        async_client: AsyncWebClient = Depends(get_openapi_async_client)
+):
+    # 플랫폼 API 호출
+
+    # [GET]
+    res = await async_client.get('/api/v1/users')
+    print(res.text)
+    # [PATCH]
+    body = {'name': 'Dragon'}
+    res = await async_client.patch('/openapi/v1/users/<user_id>'.format(user_id='3a7f958f-154f-44ba-8f93-193934ed4d2a'),
+                                   data=body)
+    print(res.text)
+    # [PUT]
+    body = {'name': 'Dragon2'}
+    res = await async_client.put('/openapi/v1/users/<user_id>'.format(user_id='3a7f958f-154f-44ba-8f93-193934ed4d2a'),
+                                 data=body)
+    print(res.text)
+
+    # [POST]
+    body = {'name': 'New Dragon'}
+    res = await async_client.post('/openapi/v1/users', data=body)
+    print(res.text)
+
+    # [DELETE]
+    res = await async_client.delete('/openapi/v1/users/<user_id>'.format(user_id='1a2b3c4d'))
+    # 이외 [HEAD], [OPTIONS] 제공함.
+    print(res.text)
+
+    return { 'status_code': 200, 'message': res.text }
+```
+
+#### FastAPI : Webhook 디펜던시
+* App Descriptor에 명시된 webhooks로 ORBRO Platform에서 Connect 앱으로 요청하는 인증에 대한 처리
+
+```python
+from fastapi import FastAPI, Depends, Response
+from fastapi import Body
+from orbro_sdk.fastapi.dependencies.auth import webhook_auth_dep
+
+app = FastAPI()
+
+@app.post(
+    '/webhook/device'
+)
+async def handle_webhook(
+        payload: dict = Body(...),
+        auth: dict = Depends(webhook_auth_dep)
+):
+    # Webhook 메시지가 보내는 대상 앱의 조직(소속) UUID
+    org_id = auth.get('organization_id')
+    # Webhook 메시지가 보내는 대상 앱의 설치 사용자(Admin 이상) UUID
+    user_id = auth.get('user_id')
+    print(f'{org_id} / {user_id}')
+
+    print(payload)
+
+    return Response(status_code=200)
+
+```
+
+#### FastAPI : 플랫폼 인증 토큰 디펜던시
+* 플랫폼에서 발급받은 Access 토큰에 대한 인증 처리 (ORBRO Platform API를 활용한 인증 위임)
+
+```python
+from fastapi import FastAPI, Depends
+from orbro_sdk.fastapi.dependencies.auth import request_auth_dep
+
+app = FastAPI()
+
+@app.get(
+    '/platform-access-token-authenticated-url'
+)
+def platform_authenticated_url(
+    user: dict = Depends(request_auth_dep)
+):
+    print(user)
+    '''
+            {
+                "uuid": "9ac14270-c141-423a-9883-504941d80f35",
+                "role": "HQ",
+                "status": "Activated"
+            }
+    '''
+    return {'status_code': 200 }
+
+
+```
+
+#### FastAPI : 플랫폼 Connect 앱 인증 토큰 디펜던시
+* 플랫폼에서 발급받은 Connect 앱 Access Token토큰에 대한 인증 처리 (ORBRO Platform API를 활용한 인증 위임)
+
+```python
+from fastapi import FastAPI, Depends
+from orbro_sdk.fastapi.dependencies.auth import request_connect_app_auth_dep
+
+app = FastAPI()
+
+@app.get(
+    '/connect-app-token-validation'
+)
+def connect_authenticated_url(
+    app: dict = Depends(request_connect_app_auth_dep)
+):
+    print(app)
+    '''
+        {
+            "id": "",     # SharedSecret Table id
+            "uuid": """   # 설치한 User의 UUID
+            "organization_id": "" # 앱의 소속 UUID 
+            "role": ""    # 설치한 User의 Role
+            "status": ""  # 설치한 User의 status
+            "scope": ""   # 설치한 앱의 Scope
+        }
+    '''
+
+    return {'status_code': 200}
+```
+
+#### FastAPI : 플랫폼 Open API 인증 토큰 디펜던시
+* 플랫폼에서 발급받은 Open API 토큰에 대한 인증 처리 (ORBRO Platform API를 활용한 인증 위임)
+
+```python
+from fastapi import FastAPI, Depends
+from orbro_sdk.fastapi.dependencies.auth import request_oauth_dep
+
+app = FastAPI()
+
+@app.get(
+    '/authenticated-open-api-url'
+)
+def platform_open_api_authenticated_url(
+    user: dict = Depends(request_oauth_dep)
+):
+    print(user)
+    '''
+            {
+                "uuid": "93817f70-c141-43fa-9883-504941d80f35",
+                "role": "HQ",
+                "status": "Activated"
+            }
+    '''
+    return {'status_code': 200 }
+```
+
+#### FastAPI : 유틸리티 - 토큰 저장소 디펜던시
+* 토큰 저장소를 통한 토큰 저장/조회/삭제가 가능하게하는 디펜던시
+
+```python
+from fastapi import FastAPI, Depends
+from orbro_sdk.models import ConnectAppToken
+from orbro_sdk.datastore import DictTokenDataStore, RedisTokenDataStore
+from typing import Union
+
+app = FastAPI()
+
+@app.get(
+    '/use-token-store'
+)
+def handle_token(
+    token_store: Union[RedisTokenDataStore, DictTokenDataStore] = Depends(OrbroConnect.token_store_dep)
+):
+    # 설치된 앱의 Connect 앱 토큰 정보를 Organization UUID로 조회
+    app_token: ConnectAppToken = token_store.get_token('{organization.id}')
+    print(app_token.organization_id)
+    print(app_token.access_token)
+
+    # Connect 앱 BE 토큰을 생성 및 저장
+    token = OrbroConnect.token_util.issue_token('{shared_secret_key}', '{insatlled_user_uuid}')
+    token_store.set_token({
+        'organization_id': '',   # Connect 앱 토큰을 저장할 Organization ID,
+        'access_token': token      # 발급한 토큰 정보
+    })
+
+    # Connect 앱 BE 토큰을 삭제
+    token_store.delete('{organization_uuid}')
+
+    return {'status_code': 200}
+```
+#### FastAPI : 유틸리티 - 클라이언트 정보 저장소 디펜던시
+* 클라이언트 정보 저장소를 통한 클라이언트 정보 저장/조회/삭제가 가능하게하는 디펜던시
+
+```python
+from fastapi import FastAPI, Depends
+from orbro_sdk.datastore import ClientInfoDataStore
+
+app = FastAPI()
+
+@app.get(
+    '/use-client-datastore',
+    description="앱의 클라이언트 정보를 핸들링 할 때 사용하는 디펜던시"
+)
+def handle_client_info(
+    client_datastore: ClientInfoDataStore = Depends(OrbroConnect.client_info_store_dep)
+):
+
+    # 앱을 설치한 클라이언트 정보를 Organization UUID로 조회
+    app_client_info: ClientInfo = client_datastore.get_by_organization_id('{organization.id}')
+
+    # 앱을 설치한 클라이언트 정보를 Organization subdomain으로 조회
+    app_client_info: ClientInfo = client_datastore.get_by_subdomain('{organization.subdomain}')
+
+    # 앱을 설치한 클라이언트 정보를 앱을 설치한 User의 UUID로 조회
+    app_client_info: ClientInfo = client_datastore.get_by_user_id('{user.id}')
+
+    # 일반적으로 앱 설치/삭제 시, 클라이언트 정보의 생성과 삭제는 /installed 나 /installed가 호출될 때 middleware에서 자동 처리됨.
+    # 앱 설치/삭제 외 사용이 필요하면 아래와 같이 사용
+    # 생성
+    client_datastore.add({
+        'orgamization_id': '',    # 앱을 설치한 조직(소속)의 UUID
+        'shared_secret': '',      # 플랫폼에서 앱 배포 시, 생성된 shared_secret 키
+        'installed_user_id': '',  # 앱을 설치한 사용자의 UUID
+        'subdomain': ''           # 앱을 설치한 조직(소속)의 서브 도메인
+    })
+    client_datastore.commit()
+
+    # 삭제
+    deleted_app_client_info: ClientInfo = client_datastore.get_by_organization_id('{organization.id}')
+    client_datastore.delete(deleted_app_client_info)
+    client_datastore.commit()
+
+    return {'status_code': 200}
+```
