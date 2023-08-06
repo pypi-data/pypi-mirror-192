@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+src/NewDjango.egg-info/PKG-INFO
+src/NewDjango.egg-info/SOURCES.txt
+src/NewDjango.egg-info/dependency_links.txt
+src/NewDjango.egg-info/requires.txt
+src/NewDjango.egg-info/top_level.txt
