@@ -1,0 +1,8 @@
+__title__ = "akeneo_api_client"
+__description__ = "A simple Python client to use the Akeneo PIM API."
+__url__ = "https://github.com/matthieudelaro/akeneo_api_client"
+__version__ = "0.3.0"
+__author__ = "Kave Tech"
+__author_email__ = "kavetech@kavehome.com"
+__license__ = "OSL-3.0"
+__copyright__ = "Copyright 2017 matthieudelaro"
