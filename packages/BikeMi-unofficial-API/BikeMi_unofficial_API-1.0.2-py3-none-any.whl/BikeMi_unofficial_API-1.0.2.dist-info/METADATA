@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: BikeMi-unofficial-API
+Version: 1.0.2
+Summary: Unofficial API to get info about Milan BikeMi service
+Home-page: https://github.com/zzkW35/BikeMi-unofficial-API
+Author: Filippo Roggi
+Author-email: zzkw35@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/zzkW35/BikeMi-unofficial-API
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE.txt
+Requires-Dist: geopy (==2.2.0)
+Requires-Dist: requests (>=2.25.1)
+Requires-Dist: Unidecode (>=1.2.0)
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+
