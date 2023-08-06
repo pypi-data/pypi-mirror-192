@@ -1,0 +1,4 @@
+more-itertools
+easyterm>=0.7.0
+pandas>=1.2
+requests>=2.27

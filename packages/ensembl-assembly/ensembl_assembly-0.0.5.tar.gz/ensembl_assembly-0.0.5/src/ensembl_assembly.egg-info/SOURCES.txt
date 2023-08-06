@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ensembl_assembly/__init__.py
+src/ensembl_assembly/_version.py
+src/ensembl_assembly/ensembl_assembly.py
+src/ensembl_assembly.egg-info/PKG-INFO
+src/ensembl_assembly.egg-info/SOURCES.txt
+src/ensembl_assembly.egg-info/dependency_links.txt
+src/ensembl_assembly.egg-info/requires.txt
+src/ensembl_assembly.egg-info/top_level.txt
