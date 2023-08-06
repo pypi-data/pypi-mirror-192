@@ -1,0 +1,8 @@
+math_evaluator/__init__.py,sha256=AKWxlq4do66AM3n5D34ENaDoZJED8dbo18I7xV8tGzs,94
+math_evaluator/explicit.py,sha256=yDyv_tRmkZk1GMJEPMjzp45d_zjMir2G8OpOCsVD1Nc,1505
+math_evaluator/implicit.py,sha256=EeP4-ASpMck6WzgOqzO9scEYLvNK0S-nuFIczb1pVtc,933
+math_evaluator-0.0.1.dist-info/LICENSE,sha256=6BdzbiOEBmbUlYJs9VAmrfbxBs8LqX9y1ExWWbsYP4I,1091
+math_evaluator-0.0.1.dist-info/METADATA,sha256=1YOFIczJHJyH6ePFzX9IzZ32MoKYZvroXmepO1Kr1aE,3459
+math_evaluator-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+math_evaluator-0.0.1.dist-info/top_level.txt,sha256=4sAnWNdEgFZEMP4uvxcA3SHEHE9nshAWnjQgTqXWvbI,15
+math_evaluator-0.0.1.dist-info/RECORD,,
