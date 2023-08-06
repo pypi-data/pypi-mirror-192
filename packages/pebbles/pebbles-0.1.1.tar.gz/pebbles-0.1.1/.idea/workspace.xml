@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54beee33-afbc-49ae-81ca-7d525f7c87c7" name="Changes" comment="add count command and tidy" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2LP0VzTS1BeYaLbCU6TJtiUevdK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="shared-indexes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/pebbles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.tests">
+    <configuration name="pebbles" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pebbles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pebbles/pebbles.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_pebbles.MyTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pebbles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pebbles.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_pebbles.MyTestCase.test_engap" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pebbles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pebbles.MyTestCase.test_engap&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_pebbles.PebblesTestCase.test_call_mutations" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pebbles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pebbles.PebblesTestCase.test_call_mutations&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_pebbles.PebblesTestCase.test_call_mutations_from_pysam" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pebbles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pebbles.PebblesTestCase.test_call_mutations_from_pysam&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_pebbles.PebblesTestCase.test_expand_mdtag" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pebbles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_pebbles.PebblesTestCase.test_expand_mdtag&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="tests" factoryName="Autodetect">
+      <module name="pebbles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_pebbles&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.pebbles" />
+      <item itemvalue="Python tests.tests" />
+      <item itemvalue="Python tests.Python tests for test_pebbles.MyTestCase" />
+      <item itemvalue="Python tests.Python tests for test_pebbles.MyTestCase.test_engap" />
+      <item itemvalue="Python tests.Python tests for test_pebbles.PebblesTestCase.test_call_mutations" />
+      <item itemvalue="Python tests.Python tests for test_pebbles.PebblesTestCase.test_call_mutations_from_pysam" />
+      <item itemvalue="Python tests.Python tests for test_pebbles.PebblesTestCase.test_expand_mdtag" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_pebbles.PebblesTestCase.test_call_mutations" />
+        <item itemvalue="Python tests.Python tests for test_pebbles.PebblesTestCase.test_call_mutations_from_pysam" />
+        <item itemvalue="Python tests.Python tests for test_pebbles.PebblesTestCase.test_expand_mdtag" />
+        <item itemvalue="Python tests.Python tests for test_pebbles.MyTestCase.test_engap" />
+        <item itemvalue="Python tests.Python tests for test_pebbles.MyTestCase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54beee33-afbc-49ae-81ca-7d525f7c87c7" name="Changes" comment="" />
+      <created>1675757438166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675757438166</updated>
+      <workItem from="1675757440057" duration="12637000" />
+      <workItem from="1675983973777" duration="19742000" />
+      <workItem from="1676249628762" duration="27477000" />
+    </task>
+    <task id="LOCAL-00001" summary="generate correctly aligned and gapped read, md, and cigar">
+      <created>1675989152014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675989152014</updated>
+    </task>
+    <task id="LOCAL-00002" summary="call mutations from aligned read, md and cigar">
+      <created>1676015656077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676015656077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="coordinate bugfixes">
+      <created>1676078473697</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676078473697</updated>
+    </task>
+    <task id="LOCAL-00004" summary="tidy and pep8">
+      <created>1676093910954</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676093910954</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add tests and remove some redundant functions">
+      <created>1676187013179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676187013179</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add test for bam file parsing">
+      <created>1676187901577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676187901577</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add support for cigar '=X' and improve docstrings">
+      <created>1676252607933</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676252607933</updated>
+    </task>
+    <task id="LOCAL-00008" summary="bugfix in support for cigar '=X' and improve docstrings">
+      <created>1676272041794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676272041794</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add cli">
+      <created>1676273638399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676273638399</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Packaging and testing changes">
+      <created>1676442628360</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676442628360</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Remove build_wheels.yml">
+      <created>1676442977060</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676442977060</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix md formatting">
+      <created>1676444856709</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676444856709</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add count command and tidy">
+      <created>1676455766963</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676455766963</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="generate correctly aligned and gapped read, md, and cigar" />
+    <MESSAGE value="call mutations from aligned read, md and cigar" />
+    <MESSAGE value="coordinate bugfixes" />
+    <MESSAGE value="tidy and pep8" />
+    <MESSAGE value="add tests and remove some redundant functions" />
+    <MESSAGE value="add test for bam file parsing" />
+    <MESSAGE value="add support for cigar '=X' and improve docstrings" />
+    <MESSAGE value="bugfix in support for cigar '=X' and improve docstrings" />
+    <MESSAGE value="add cli" />
+    <MESSAGE value="Packaging and testing changes" />
+    <MESSAGE value="Remove build_wheels.yml" />
+    <MESSAGE value="fix md formatting" />
+    <MESSAGE value="add count command and tidy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add count command and tidy" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/pebbles/pebbles.py</url>
+          <line>246</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_pebbles.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pebbles$.coverage" NAME=" Coverage Results" MODIFIED="1676455905346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/pebbles$main.coverage" NAME="pebbles Coverage Results" MODIFIED="1676184310856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pebbles$pebbles.coverage" NAME="pebbles Coverage Results" MODIFIED="1676437951916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
