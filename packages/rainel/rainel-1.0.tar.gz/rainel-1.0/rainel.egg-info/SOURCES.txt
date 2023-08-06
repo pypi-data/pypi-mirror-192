@@ -1,0 +1,10 @@
+setup.py
+rainel/Binomialdistribution.py
+rainel/Gaussiandistribution.py
+rainel/Generaldistribution.py
+rainel/__init__.py
+rainel.egg-info/PKG-INFO
+rainel.egg-info/SOURCES.txt
+rainel.egg-info/dependency_links.txt
+rainel.egg-info/not-zip-safe
+rainel.egg-info/top_level.txt
