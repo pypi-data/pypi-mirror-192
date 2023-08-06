@@ -1,0 +1,104 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cpctools"
+description = "A package for creating and studying SOAP fingerprints"
+readme = "Readme.md"
+requires-python = "<3.11,>=3.8"
+license = "MIT"
+keywords = ["SOAP", "Molecular Dynamics", "simulation", "simulation analysis"]
+authors = [{ name = "Daniele Rapetti", email = "daniele.rapetti@polito.it" }]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+    "ase==3.22.1", 
+    "MDAnalysis==2.4.2",
+    "h5py==3.8.0", 
+    "Deprecated==1.2.13",
+    "numpy<1.24,>=1.18", #problems with numba and f90wrap
+    ]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+docs = [
+    "sphinx<6,>=4",
+    "docutils<0.18",
+    "sphinx-rtd-theme==1.2.0",
+    "myst-parser==0.18.1",
+    "sphinx-autodoc-typehints==1.22",
+
+    "dscribe >1.2.0, <=1.2.2",
+    "quippy-ase==0.9.10",
+]
+#dscribe = ["dscribe==1.2.1"]
+#quippy = ["quippy-ase==0.9.10"]
+
+[project.urls]
+Homepage = "https://github.com/GMPavanLab/SOAPify"
+Documentation = "https://gmpavanlab.github.io/SOAPify/"
+Issues = "https://github.com/GMPavanLab/SOAPify/issues"
+Source = "https://github.com/GMPavanLab/SOAPify"
+
+#TODO: define some cli scripts that can be useful!
+#[project.scripts]
+#cli-name = "pkg.subpkg:func"
+
+[tool.hatch.version]
+path = "src/SOAPify/__init__.py"
+
+
+[tool.hatch.build]
+sources = ["src"]
+only-packages = true
+
+#[tool.hatch.envs.default]
+#skip-install = false
+
+#this is set up to not write again the soap extra-dependencies
+[tool.hatch.envs.SOAP]
+dependencies = [    
+    "dscribe >1.2.0, <=1.2.2",
+    "quippy-ase==0.9.10",
+]
+
+[tool.hatch.envs.docs]
+template="SOAP"
+extra-dependencies = [
+    "sphinx<6,>=4",
+    "docutils<0.18",
+    "sphinx-rtd-theme==1.2.0",
+    "myst-parser==0.18.1",
+    "sphinx-autodoc-typehints==1.22",
+    #"mpl-sphinx-theme",
+]
+
+[tool.hatch.envs.docs.scripts]
+cov = 'cd docs && make coverage'
+build = 'cd docs && make html'
+clean = 'cd docs && make clean'
+cleanbuild = 'cd docs && make clean build'
+
+[tool.hatch.envs.test]
+template="SOAP"
+pre-install-commands = ["which python"]
+extra-dependencies = [
+    "coverage[toml]",
+    "pytest",
+    "pytest-cov",
+]
+
+[tool.hatch.envs.test.scripts]
+cov = 'pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=src --cov-report html'
+tools = 'pytest ./tests/test_tools.py'
+#cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=src --cov=tests {args} --cov-report html"
+no-cov = "cov --no-cov {args}"
+
+[[tool.hatch.envs.test.matrix]]
+python = ["3.8", "3.9", "3.10"]
