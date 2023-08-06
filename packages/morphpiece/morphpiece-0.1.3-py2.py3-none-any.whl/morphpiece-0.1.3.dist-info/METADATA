@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: morphpiece
+Version: 0.1.3
+Summary: Morphological tokenization package
+Home-page: https://github.com/MaveriQ/MorphPiece
+Author: Haris Jabbar
+Author-email: harisjabbar@gmail.com
+License: Apache-2.0 license
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: transformers (>=4.5.0)
+Requires-Dist: regex
+
+# MorphPiece : A linguistic tokenizer
+
+This code accompanies the paper "MorphPiece: Moving away from statistical tokenization"
+
+The repository includes two tokenizers:
+- MorphPieceBPE
+- MorphPieceWPE
+
+The difference between the two is the tokenization scheme for those tokens that do not have a Morpheme segmentation in the lookup table. MorphPieceBPE uses BPE tokenization and MorphPieceWPE uses Wordpiece tokenization.
+
+## Installation
+- To install using pip, issue the following command:
+
+```pip install morphpiece```
+
+- To install from source, first clone the repository 
+
+```git clone https://github.com/MaveriQ/MorphPiece.git```
+
+Inside the directory, run the following command:
+
+```pip install .```
+
+## Usage
+
+Both tokenizers can be used just like the BPE and Wordpiece tokenizers from HuggingFace Transformers library; with the exception that since they have custom vocabularies, the '.from_pretrained' method cannot be used; as it will overwrite the custom vocabulary.
+
+```from MorphPiece import MorphPieceBPE
+tokenizer = MorphPieceBPE() # MorphPieceWPE() for Wordpiece tokenization
+tokens = tokenizer.tokenize('This is an incredibly long sentence.')
+print(tokens)
+# ['This', 'Ġis', 'Ġan', 'incredible', '#ly', 'Ġlong', 'Ġsentence', '.']
+```
+The tokens with '#' are the suffixes/prefixes from the morpheme segmentation, and the tokens starting with 'Ġ' come from the internal BPE tokenizer. All other are either the stems from the morpheme segmentation, unless it's the first token of a sentence, in which case it's from BPE.
+
+## Additional Functionality (MorphPieceBPE)
+
+MorphPieceBPE has following two attributes with respect to the morpheme segmentation:
+
+- 'morpheme_table' : A dictionary that maps pre-tokens to their morpheme segmentation
+- 'morpheme_vocab' : A vocabulary of all the morphemes in the morpheme table
+
+Moreover, there are four internal counters that can be used to track the number of tokens that have been tokenized by the different mechanisms. All counters are implemented as dictionaries with the keys being the token and the values being the number of times that token type has been tokenized. The four counters are:
+- 'counter_token' : dictionary of pre-tokens and their counts.
+- 'counter_morph' : dictionary of morphemes and their counts. The keys are populated from the 'morpheme_vocab'.
+- 'counter_nonsplit' : dictionary of tokens that were not split by the internal BPE tokenizer. Hence these tokens are present in the BPE vocabulary.
+- 'counter_bpe' : dictionary of tokens that were split by the internal BPE tokenizer.
+
+You can reset the counters using ```reset_counters()```  method.
+
+## Additional Functionality (MorphPieceWPE)
+
+MorphPieceBPE has following two attributes with respect to the morpheme segmentation:
+
+- 'morpheme_table' : A dictionary that maps pre-tokens to their morpheme segmentation
+- 'no_morph_vocab' : The vocabulary of all the tokens that do not have a morpheme segmentation in the lookup table. It is used by the internal WordpieceTokenizer
+
+Internal counters for MorphPieceWPE is a work in progress.
