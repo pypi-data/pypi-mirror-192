@@ -1,0 +1,11 @@
+mojang/__init__.py,sha256=aEqFkD80-vO55LZh_s-RgcgoM2z3hGTnvCMugyRek1g,285
+mojang/api.py,sha256=bzKq93UVWZMk6aJR07niDx2H0XoV6faRTOrsE46AaiE,6595
+mojang/client.py,sha256=hKisieopRRYGe6MN-ccY-SY46jjACmZWwzhz4gjvM5I,16287
+mojang/errors.py,sha256=iiVPyC6-K8MWfgEGPcOwG9cO1efa-Z1SIbn7P-ky5KA,2061
+mojang/http_client.py,sha256=eFITKNO8GvqJjvNAf2NfWF643bY9inQk8feuj4b-hz4,2579
+mojang/types.py,sha256=kKdISFUX5l8SvKM_-kvUvi9gXs3R-l72HmRb-QWo_EI,744
+mojang-1.0.1.dist-info/LICENSE,sha256=pHpV0_jjrWKhJ0gfv531pWeqVZd-K3bq0Ek1V8EslH8,1071
+mojang-1.0.1.dist-info/METADATA,sha256=hnj0TYasQS1qbvi_ICw2OQ3FXN28RT_aqvqEiH2erZI,4049
+mojang-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mojang-1.0.1.dist-info/top_level.txt,sha256=ipOms0ANkimiuuZ6aWJTZhGEpE4NFPxSMi8cl2ed-XI,7
+mojang-1.0.1.dist-info/RECORD,,
