@@ -1,0 +1,11 @@
+csnn/__init__.py,sha256=hOL_1ACM44A0nqFPJdXYODijrmNtQ1nvik17DrM8CnA,875
+csnn/activation.py,sha256=rwfBy5oGsGZl5FpRCtOcoihX4f4dT8brmyKIHdRYl8Y,293
+csnn/containers.py,sha256=iQauPzeL9WbQKd8GRhmrhI3c0yX2Or42_icH2n_sB-M,1552
+csnn/functional.py,sha256=EMdeCgoWDmIi4wIKMdov48aDpvyHX0_gidEZe9GXOQw,606
+csnn/linear.py,sha256=t8_GlqRKKNG4IruhcCyjJbrBxsPaRjZPGphfQrrnYT8,1440
+csnn/module.py,sha256=yZ5Y8o0c4AzmlagOWlQPV1pN26SDe5ZWwu0f-7bdeUU,5225
+csnn-1.0.1.dist-info/LICENSE,sha256=s2Xt7NXV5Jga1mE-z8xYD2gpdvyQH-HROtHM_okB504,1093
+csnn-1.0.1.dist-info/METADATA,sha256=Ij4z8oQvqX0V_o6E1GIGvFb2qFwNxkFtP8JhXzMMVDQ,3468
+csnn-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+csnn-1.0.1.dist-info/top_level.txt,sha256=2SSt4SFawhNDG9TogWCPs8Hc4BJszzWWK9fZHAUiwJ8,5
+csnn-1.0.1.dist-info/RECORD,,
