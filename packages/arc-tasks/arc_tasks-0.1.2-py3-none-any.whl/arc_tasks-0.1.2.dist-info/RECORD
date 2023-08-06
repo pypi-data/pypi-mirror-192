@@ -1,0 +1,16 @@
+arctasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arctasks/archive.py,sha256=g0XCBA-TelvWv18fzyQdXYzERRlIobtEHqjF35UmUF4,10283
+arctasks/board.py,sha256=iWXOtm4_5VjgGfA4ERZEyCDPmSnQnt48y9nWAnjBgR4,4341
+arctasks/doc.py,sha256=pbWnegg5oKgYylmgsJmvOiVcJglU6jogDkW_9mAFLL4,2500
+arctasks/interface.py,sha256=8ELfI8MUu5TJL3QRsOl8qK5JJ_a9SpZbU_FM1fbpSbE,6753
+arctasks/jsonpy.py,sha256=Gmj1GX5JRrCSd9vOVURj6dRVXQCDAEstsglq_xTr6AE,7454
+arctasks/log.py,sha256=oDjg494oHzgOsPbt3b2elzArRCeB24Q8jj5BBkbKJzw,2538
+arctasks/main.py,sha256=Vz8w-IQY7ZazKR6ANeapZwj9ztGEeLgDdDUqeEj2aYE,263
+arctasks/operations.py,sha256=6sgsAnaLLLX_2Ap6n-iPeAbnmEEMsI6daf6GsyOxUNE,13755
+arctasks/resolve.py,sha256=jh0CLhs47z2ZjLoc8_YQ2jGe9ypb9jLMPVL9naNvbOY,3917
+arc_tasks-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+arc_tasks-0.1.2.dist-info/METADATA,sha256=k17vALI-k7XDb-Z_jV3OPIk9QRT7Q3qHy2zmbqNYr68,3095
+arc_tasks-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+arc_tasks-0.1.2.dist-info/entry_points.txt,sha256=70cJDGqNVFL5mRZKKTGZnTijXv6CotfKQLXwmfz4oQQ,49
+arc_tasks-0.1.2.dist-info/top_level.txt,sha256=3AQsf8STYE-VyQaHza2WbmQKi3qdQQb4Lr5Vz_jdrlc,9
+arc_tasks-0.1.2.dist-info/RECORD,,
