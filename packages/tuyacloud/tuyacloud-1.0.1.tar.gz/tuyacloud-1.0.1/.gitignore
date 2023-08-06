@@ -1,0 +1,8 @@
+__pycache__
+.env
+**/*.log
+.idea
+.git
+**/.git
+**/__pycache__
+tmp
