@@ -1,0 +1,13 @@
+bocas/__init__.py,sha256=zmQB6lfc1L-7yR5P1_VjVD5V0mhxKOncfnhe6JR6ODc,136
+bocas/launch.py,sha256=IehZOh9xF9xI-yaG2g_MebY1eoVKwBxmjDp5EZoCzQo,447
+bocas/result.py,sha256=Gi98ABSz73q_nexPBZOMpYKljhuB6X1B19dbGsvo3X8,2531
+bocas/run.py,sha256=L4aydS6__gHlAsJshsDa-R2E5c2aNbEvKpIhtiXXBss,2155
+bocas/sweep.py,sha256=rufgzwGRS18Z90g6uxJtg-0FPyLVoWBjz5VA_ZrJmZk,234
+bocas/artifacts/__init__.py,sha256=jnRxRAHJ-KzAtaimAqNSVWRN_S-4yUbeETh9F4kEC9o,145
+bocas/artifacts/artifact.py,sha256=83WmpEYN6kl91I2l-oKBxn9vr7VPDKlWhdE7ltrA8hI,71
+bocas/artifacts/keras_history.py,sha256=7JoGLlcIu7cR5QI5Lbi2A42XhIfFSwhmQCxsX9CF7IE,420
+bocas/artifacts/metrics.py,sha256=IbeTQeFZePwnenij7Qebom0hNPhLsXiz0zCfy7pyINU,337
+bocas-0.0.3.dist-info/METADATA,sha256=IB3SgIvS7l82ccPyhy-3txRlyTS2zcbgocPTZHV1-Q4,8823
+bocas-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bocas-0.0.3.dist-info/top_level.txt,sha256=T4DKl9h87vrIgWytfhGBFdQq42kP3ivZHYG99SH2OxA,6
+bocas-0.0.3.dist-info/RECORD,,
