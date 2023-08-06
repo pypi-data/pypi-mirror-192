@@ -1,0 +1,11 @@
+heaserver/person/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+heaserver/person/keycloakmongo.py,sha256=tTQCLYqZ6GNtHk56c-mNLlB_20-HENXvCbuuhGXYyrI,12041
+heaserver/person/keycloakmongotestcase.py,sha256=Ebk06EoufjgM60UWPsvSMohB-2ANYuo1B4gMBWLCOGI,17167
+heaserver/person/service.py,sha256=q58-LbkJ9u65sqH5zRx4GGiY107El1xwQMy-V5Rfbdk,5758
+heaserver/person/wstl/all.json,sha256=cfEFWJT4cNFjmwHdx0C6qtKyXBAfMQ_3R3Ut-aGd9EE,8686
+heaserver_people-1.0.0a13.dist-info/LICENSE,sha256=7OGLr2mf4iOKsoeZ4ePSVZDkkPK3SlM00ZmlQF3EN7U,11625
+heaserver_people-1.0.0a13.dist-info/METADATA,sha256=0Ik58t_-cIY8sWsL6R4dJEThla6Ev63AFqlIIGe88Rk,4514
+heaserver_people-1.0.0a13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+heaserver_people-1.0.0a13.dist-info/entry_points.txt,sha256=V7PuFtSIb-ulhR1bv5MsorPQ8BgOJJ510YxBIoJ6ba0,68
+heaserver_people-1.0.0a13.dist-info/top_level.txt,sha256=NkEy5wN6upFmnDxEJ8pTX7gUpWeFPfDhk7zvlMeOv7M,10
+heaserver_people-1.0.0a13.dist-info/RECORD,,
