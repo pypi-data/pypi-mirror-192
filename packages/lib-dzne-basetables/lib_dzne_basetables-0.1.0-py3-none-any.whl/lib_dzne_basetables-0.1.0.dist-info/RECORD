@@ -1,0 +1,10 @@
+lib_dzne_basetables/__init__.py,sha256=BU4K9ldEhX1goTfPRoIHZ8qWi_9p5o9I-pBsa_Ag5AE,42
+lib_dzne_basetables/baseconv.py,sha256=qxTRuu1hjxG-LoRUBQsm-tXcacnCZoj06e_em1MMI9w,2318
+lib_dzne_basetables/common.py,sha256=7e5xBooE8QMqUGrN4KnjQI5ibQofIWVL2nmorgC32Cc,676
+lib_dzne_basetables/pattern.py,sha256=qFBkF6I52vu62t59uOC2wVVQwDhNDc5n8mlVUWlBAOs,1524
+lib_dzne_basetables/table.py,sha256=L5V0j6IqIBjLJTd2UeeAVW7Vp_jda_Py5vVRlXmhu_c,7738
+lib_dzne_basetables-0.1.0.dist-info/LICENSE,sha256=2bPxBkU91Xj55wL5yLbQfric9lyguXz9zn0uv8eD7es,1066
+lib_dzne_basetables-0.1.0.dist-info/METADATA,sha256=FwgZ6kBxYgB3npa5mFhLaDFj0Ji3yd4VbFfixR80Qiw,1956
+lib_dzne_basetables-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lib_dzne_basetables-0.1.0.dist-info/top_level.txt,sha256=1nxEonroNkMT8DbLawYbSlFXP80F1Ksw5SBtlgSMzYo,20
+lib_dzne_basetables-0.1.0.dist-info/RECORD,,
