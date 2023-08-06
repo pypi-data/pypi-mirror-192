@@ -1,0 +1,3 @@
+[console_scripts]
+pickora = pickora:main
+
