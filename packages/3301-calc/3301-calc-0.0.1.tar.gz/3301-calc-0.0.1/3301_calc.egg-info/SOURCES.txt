@@ -1,0 +1,12 @@
+setup.py
+3301_calc.egg-info/PKG-INFO
+3301_calc.egg-info/SOURCES.txt
+3301_calc.egg-info/dependency_links.txt
+3301_calc.egg-info/entry_points.txt
+3301_calc.egg-info/top_level.txt
+calc/__init__.py
+calc/__main__.py
+calc/calc.py
+calc/odd.py
+calc/palindrom.py
+calc/prime.py

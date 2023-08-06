@@ -1,0 +1,2 @@
+[console_scripts]
+calculate = calc.calc:main
