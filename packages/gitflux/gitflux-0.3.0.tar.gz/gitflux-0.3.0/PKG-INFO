@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: gitflux
+Version: 0.3.0
+Summary: A command-line utility to help you manage repositories hosted on GitHub.
+License: GPL-3.0
+Author: HE Yaowen
+Author-email: he.yaowen@hotmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: pygithub (>=1.57,<2.0)
+Description-Content-Type: text/markdown
+
+# gitflux
+
+A command-line utility to help you manage repositories hosted on [GitHub][1].
+
+## Installation
+
+There are two options to install `gitflux` command.
+
+1. Download compiled executable binary file from [Releases][2].
+
+2. Install package `gitflux` via `pip` command:
+
+    ```shell
+    pip install gitflux
+    ```
+
+## Usage
+
+```
+Usage: gitflux [OPTIONS] COMMAND [ARGS]...
+
+  A command-line utility to help you manage repositories hosted on GitHub.
+
+Options:
+  --version  Show version information.
+  --init     Initialize configurations.
+  --help     Show this message and exit.
+
+Commands:
+  create-repos  Create remote repositories.
+  delete-repos  Delete an existing repository.
+  list-repos    List all remote repositories.
+  sync-repos    Synchronize repositories with remote.
+```
+
+## License
+
+Copyright (C) 2022 HE Yaowen <he.yaowen@hotmail.com>
+
+The GNU General Public License (GPL) version 3, see [LICENSE](./LICENSE).
+
+[1]: https://github.com
+
+[2]: https://github.com/he-yaowen/gitflux/releases
+
