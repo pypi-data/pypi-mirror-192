@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+Fusion/FusionAhrs.c
+Fusion/FusionCompass.c
+Fusion/FusionOffset.c
+Python/Python-C-API/imufusion.c
+imufusion.egg-info/PKG-INFO
+imufusion.egg-info/SOURCES.txt
+imufusion.egg-info/dependency_links.txt
+imufusion.egg-info/top_level.txt
