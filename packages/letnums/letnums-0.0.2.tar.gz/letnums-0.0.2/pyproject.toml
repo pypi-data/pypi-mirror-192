@@ -1,0 +1,20 @@
+[tool.poetry]
+name= "letnums"
+version='0.0.2'
+description='a simple library to generate random combinations of letters and numbers'
+readme = "README.md"
+authors = ["Sokisa"]
+repository = "https://github.com/sokisa/letnum"
+classifiers=[
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Intended Audience :: Developers',
+    'Topic :: Software Development :: Libraries',
+]
+include = [
+    'LICENSE',
+]
+[tool.poetry.dependencies]
+python = '^3.11.1'
+pika = ['^0.0.1']
