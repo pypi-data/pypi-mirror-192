@@ -1,0 +1,5 @@
+include \
+    MANIFEST.in \
+    backend/404.html \
+    README.md \
+    LICENSE.txt \
