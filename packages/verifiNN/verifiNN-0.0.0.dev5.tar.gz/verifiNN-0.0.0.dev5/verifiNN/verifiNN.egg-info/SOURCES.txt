@@ -1,0 +1,8 @@
+README.md
+setup.py
+tests/test.py
+verifiNN/verifiNN.egg-info/PKG-INFO
+verifiNN/verifiNN.egg-info/SOURCES.txt
+verifiNN/verifiNN.egg-info/dependency_links.txt
+verifiNN/verifiNN.egg-info/requires.txt
+verifiNN/verifiNN.egg-info/top_level.txt
