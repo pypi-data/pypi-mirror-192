@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pixe
+Version: 0.5.0
+Summary: A digital helper to keep your files neat and tidy
+Home-page: https://github.com/ithuna/pixe
+Author: Chris Wells
+Author-email: chris@ithuna.com
+License: Apache-2
+License-File: LICENSE
