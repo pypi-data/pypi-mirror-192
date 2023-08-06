@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "yudown"
+version = "0.6.0"
+description = "This is a python script to download Youtube Media file"
+authors = ["TianaNanta <andrianjakananta@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.7.0"}
+tinydb = "^4.7.1"
+pytube = "^12.1.2"
+
+[tool.poetry.scripts]
+yudown = "yudown.cli:app"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.0.0"
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
