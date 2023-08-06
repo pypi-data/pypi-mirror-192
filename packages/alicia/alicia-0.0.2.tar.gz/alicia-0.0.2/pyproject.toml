@@ -1,0 +1,45 @@
+[build-system]
+requires = [
+  "setuptools>=46.1.0",
+  "better-abc>=0.0.3",
+  "click>=8.1.3",
+  "coverage>=7.1.0",
+  "loading-display>=0.2.0",
+  "matplotlib>=3.6.3",
+  "mccabe>=0.7.0",
+  "numpy>=1.24.1",
+  "pillow>=9.4.0",
+  "plotext>=5.2.8",
+  "setuptools-scm>=7.1.0",
+  "termcolor>=2.2.0",
+  "torch>=1.13.1",
+  "torchvision>=0.14.1",
+  "wcmatch>=8.4.1"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.pylint.master]
+load-plugins="pylint_mccabe"
+
+[tool.pylint.design]
+max-complexity=10
+
+[tool.pylint.format]
+max-line-length=120
+indent-string='  ' # Two spaces, i dislike the 4 spaces convention
+
+[tool.pylint.typecheck]
+generated-members="numpy.*, torch.*, torchvision.*"
+
+[tool.pytest.ini]
+
+[tool.pytest.ini_options]
+markers = [
+"download: marks test as a download, therefore slow and internet dependent (deselect with '-m \"not download\"')",
+]
+pythonpath = [ '.', 'src', 'tests' ]
+testpaths = [ "tests" ]
+addopts = """
+  --cov=src/features --cov=src/libs
+  --cov-report=html
+"""
