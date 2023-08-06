@@ -1,0 +1,9 @@
+setup.py
+./atio_obfuscator/__init__.py
+./atio_obfuscator/utils.py
+atio_obfuscator/__init__.py
+atio_obfuscator/utils.py
+atio_obfuscator.egg-info/PKG-INFO
+atio_obfuscator.egg-info/SOURCES.txt
+atio_obfuscator.egg-info/dependency_links.txt
+atio_obfuscator.egg-info/top_level.txt
