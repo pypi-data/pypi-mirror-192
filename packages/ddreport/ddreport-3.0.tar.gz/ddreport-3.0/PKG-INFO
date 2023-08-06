@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ddreport
+Version: 3.0
+Summary: pytest测试报告
+Home-page: https://gitee.com/duanliangcong/dlc_pytest-report.git
+Author: duanliangcong
+Author-email: 137562703@qq.com
+License: MIT Licence
+Keywords: pip,pytest,testReport
+Platform: any
+
+修复JSON serializable；环境变量拆分成2个变量；方法优化
+
