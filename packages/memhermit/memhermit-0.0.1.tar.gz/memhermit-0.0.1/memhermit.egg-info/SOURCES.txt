@@ -1,0 +1,7 @@
+setup.py
+hermit/__init__.py
+hermit/__main__.py
+memhermit.egg-info/PKG-INFO
+memhermit.egg-info/SOURCES.txt
+memhermit.egg-info/dependency_links.txt
+memhermit.egg-info/top_level.txt
