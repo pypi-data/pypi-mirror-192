@@ -1,0 +1,11 @@
+include thinks_dash_input/thinks_dash_input.min.js
+include thinks_dash_input/thinks_dash_input.min.js.map
+include thinks_dash_input/async-*.js
+include thinks_dash_input/async-*.js.map
+include thinks_dash_input/*-shared.js
+include thinks_dash_input/*-shared.js.map
+include thinks_dash_input/metadata.json
+include thinks_dash_input/package-info.json
+include README.md
+include LICENSE
+include package.json
