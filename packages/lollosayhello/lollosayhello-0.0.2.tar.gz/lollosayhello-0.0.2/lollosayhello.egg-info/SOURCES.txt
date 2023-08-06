@@ -1,0 +1,7 @@
+setup.py
+lollopackagename/__init__.py
+lollopackagename/hello.py
+lollosayhello.egg-info/PKG-INFO
+lollosayhello.egg-info/SOURCES.txt
+lollosayhello.egg-info/dependency_links.txt
+lollosayhello.egg-info/top_level.txt
