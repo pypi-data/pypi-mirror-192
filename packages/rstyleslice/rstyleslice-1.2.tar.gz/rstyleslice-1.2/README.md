@@ -1,0 +1,90 @@
+# 项目描述
+
+让Python容器（如：list）可以使用R语言风格的索引和切片。
+
+R语言风格索引：从1开始，1表示第1个元素，-1表示倒数第1个元素。
+
+R语言风格切片：双闭区间。如：[3: 5]表示提取第3、4、5三个元素。
+
+# 安装、文档与源码
+
+安装：`pip install rstyleslice`
+
+文档：[https://www.yuque.com/lcctoor/lcctopen/rstyleslic](https://www.yuque.com/lcctoor/lcctopen/rstyleslice)
+
+源码：[https://github.com/lcctoor/lcctopen/tree/main/rstyleslice](https://github.com/lcctoor/lcctopen/tree/main/rstyleslice)
+
+# 关于作者
+
+作者：许灿标，一个90后程序员。爱思考，爱钻研，善归纳。
+
+更多信息：[关于作者](https://www.yuque.com/lcctoor/support/author)
+
+个人主页：[语雀](https://www.yuque.com/lcctoor)
+
+邮箱：lcctoor@outlook.com
+
+微信：
+
+![微信二维码](https://raw.githubusercontent.com/lcctoor/support/main/author/WeChatQR200_200.jpg)
+
+交流群：目前我们有微信交流群>高质量读书会、Python技术交流，若有兴趣加入，请与我联系后获取。
+
+# 语法预览
+
+导入：
+
+```
+from rstyleslice import rslice, rindex
+```
+
+创建R风格容器：
+
+```
+obj = rslice([1, 2, 3, 4, 5, 6, 7, 8, 9])
+# 理论上，Python中任何可以索引和切片的对象都可以转化成R风格容器
+```
+
+索引取值：
+
+```
+obj[1]
+# >>> 1
+```
+
+索引赋值：
+
+```
+obj[1] = 111
+obj[:]
+# >>> [111, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+切片取值：
+
+```
+obj[3:7]  # >>> [3, 4, 5, 6, 7]
+obj[7:3]  # >>> [7, 6, 5, 4, 3]
+obj[3:7:2]  # >>> [3, 5, 7]
+obj[8:2:3]  # >>> [8, 5, 2]
+```
+
+切片赋值：
+
+```
+obj[4:6] = [44, 55]
+obj[:]
+# >>> [111, 2, 3, 44, 55, 7, 8, 9]
+
+obj[4:6] = []
+obj[:]
+# >>> [111, 2, 3, 8, 9]
+
+obj[4:] = [1, 2, 3, 4, 5]
+obj[:]
+# >>> [111, 2, 3, 1, 2, 3, 4, 5]
+
+obj[4:100] = ['1', 2, 3, 4, 5]
+obj[:]
+# >>> [111, 2, 3, '1', 2, 3, 4, 5]
+```
