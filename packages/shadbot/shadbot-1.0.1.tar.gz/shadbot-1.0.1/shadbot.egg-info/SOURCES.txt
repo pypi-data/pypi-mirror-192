@@ -1,0 +1,15 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+libraryshad/An_Wb.py
+libraryshad/Socket.py
+libraryshad/__init__.py
+libraryshad/encryption.py
+libraryshad/matn.py
+libraryshad/shad.py
+shadbot.egg-info/PKG-INFO
+shadbot.egg-info/SOURCES.txt
+shadbot.egg-info/dependency_links.txt
+shadbot.egg-info/requires.txt
+shadbot.egg-info/top_level.txt
