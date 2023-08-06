@@ -1,0 +1,8 @@
+ord/__init__.py,sha256=1SFj-qMOaeO0fOKQaFmYhAKiRwwNda5uWKpYtIcken8,23
+ord/client.py,sha256=bylgVMDAmQZMQcZphuOmB7qBALUJNMAKKNIuKrIZcdA,2576
+ord/models.py,sha256=02hIOHTwwKR0c9FL49lG7SMKJKW4O3cD43H4tuliMks,1859
+ord/urls.py,sha256=yMgNDSPUlRBrFJ_A5_C1vLLWFAeJDnJVMoGjxuaUGzE,1147
+ordinals-0.0.12.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+ordinals-0.0.12.dist-info/METADATA,sha256=l1UOKPs7_ZjRRGzT4Yefk9GCV-rKqjCW_lX61tawVkk,1462
+ordinals-0.0.12.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+ordinals-0.0.12.dist-info/RECORD,,
