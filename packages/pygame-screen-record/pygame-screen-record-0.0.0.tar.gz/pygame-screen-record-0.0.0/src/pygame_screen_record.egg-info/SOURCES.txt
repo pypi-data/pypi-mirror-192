@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/pygame-screen-record/EventRegister.py
+src/pygame-screen-record/ScreenRecorder.py
+src/pygame-screen-record/dev/Players.py
+src/pygame-screen-record/dev/ScreenPiper.py
+src/pygame-screen-record/dev/play_recording.py
+src/pygame-screen-record/dev/sand_box.py
+src/pygame-screen-record/dev/screen_recorder.py
+src/pygame_screen_record.egg-info/PKG-INFO
+src/pygame_screen_record.egg-info/SOURCES.txt
+src/pygame_screen_record.egg-info/dependency_links.txt
+src/pygame_screen_record.egg-info/requires.txt
+src/pygame_screen_record.egg-info/top_level.txt
+tests/test_compress.py
