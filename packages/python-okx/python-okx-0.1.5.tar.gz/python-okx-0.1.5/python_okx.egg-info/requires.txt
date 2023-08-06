@@ -1,0 +1,5 @@
+importlib-metadata
+keyring
+requests
+Twisted
+pyOpenSSL
