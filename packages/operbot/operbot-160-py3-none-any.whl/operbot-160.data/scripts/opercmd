@@ -1,0 +1,62 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"operator bot command"
+
+
+import os
+import readline
+import sys
+import termios
+import time
+import traceback
+
+
+from operbot.default import Default
+from operbot.handler import Handler, dispatch, parse_cli, scan
+from operbot.message import Message
+from operbot.objects import Object
+from operbot.storage import Storage
+from operbot.threads import launch
+from operbot.utility import privileges, wait
+
+
+from operbot.modules import cmd, irc, log, rss, tdo, usr
+
+
+Cfg = Default()
+Storage.workdir = "/var/lib/operbot/"
+
+
+scan(cmd)
+scan(irc)
+scan(log)
+scan(rss)
+scan(tdo)
+scan(usr)
+
+
+class CLI(Handler):
+
+    def announce(self, txt):
+        pass
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+def main():
+    #privileges("operbot")
+    cfg = parse_cli(" ".join(sys.argv[1:]))
+    cli = CLI()
+    e = Message()
+    e.orig = repr(cli)
+    e.type = "command"
+    e.txt = cfg.otxt
+    dispatch(e)
+    e.wait()
+
+
+main()

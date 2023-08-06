@@ -1,0 +1,110 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"operator bot"
+
+
+import os
+import readline
+import sys
+import termios
+import time
+import traceback
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from operbot.default import Default
+from operbot.listens import Listens
+from operbot.message import Message
+from operbot.modules import cmd, fnd, irc, log, opt, rss, tdo, usr
+from operbot.objects import update
+from operbot.handler import Handler, command, dispatch, scan
+from operbot.storage import Storage
+from operbot.threads import launch
+from operbot.utility import wait
+
+
+Cfg = Default()
+Storage.workdir = os.path.expanduser("~/.operbot")
+
+
+scan(cmd)
+scan(fnd)
+scan(irc)
+scan(log)
+scan(opt)
+scan(rss)
+scan(tdo)
+scan(usr)
+
+
+class CLI(Handler):
+
+    def announce(self, txt):
+        pass
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+class Console(CLI):
+
+    def handle(self, event):
+        CLI.handle(self, event)
+        event.wait()
+
+    def poll(self):
+        event = Message()
+        event.orig = repr(self)
+        event.txt = input("> ")
+        return event
+
+
+def waiter():
+    got = []
+    for ex in Handler.errors:
+        traceback.print_exception(type(ex), ex, ex.__traceback__)
+        got.append(ex)
+    for exc in got:
+        Handler.errors.remove(exc)
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print("")
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+        waiter()
+
+
+def main():
+    e = Message()
+    e.type = "command"
+    e.parse(" ".join(sys.argv[1:]))
+    cli = CLI()
+    if e.txt:
+        command(cli, e.otxt)
+    elif "c" in e.opts:
+        date = time.ctime(time.time()).replace("  ", " ")
+        print(f"OPERBOT started {date}")
+        irc.init()
+        rss.init()
+        csl = Console()
+        csl.start()
+        wait(waiter)
+
+
+wrap(main)
