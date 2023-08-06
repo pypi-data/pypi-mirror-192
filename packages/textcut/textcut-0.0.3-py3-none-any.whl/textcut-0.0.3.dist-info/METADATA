@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: textcut
+Version: 0.0.3
+Summary: A context-dependent text wrapper.
+Project-URL: Homepage, https://gitlab.com/ohne_sonne/text-cut
+Project-URL: Bug Tracker, https://gitlab.com/ohne_sonne/text-cut/-/issues
+Author-email: Zonder Zon <ohne_sonne_1312@protonmail.com>
+License-File: LICENSE
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Summary
+
+Text Cut is meant to wrap text *naturally*, preferring to cut the sentence where this is the least
+disturbing for the reader.
+
+## Options
+
+- language: for now only `fr` (barely), the rules to wrap text depends on the language.
+- width: the preferred width of the lines
+- tolerance: whether it's ok to have shorter lines that other (high tolerance >0.5) or not (low tolerance, <0.1)
+- trim: whether to trim the lines to remove extra spaces
+- len_func: a function to determine the length of a string, defaults to `len`
+
+## Example
+
+For the following examples, we will use the variable `text`:
+```python3
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod " + \
+       "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim " + \
+       "veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea " + \
+       "commodo consequat. Duis aute irure dolor in reprehenderit in voluptate " + \
+       "velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat " + \
+       "cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id " + \
+       "est laborum."
+```
+
+### Default parameters
+```python3
+from textcut import TextCut
+
+tc = TextCut()
+print(
+    "\n".join(
+        [f"{len(x):3d}: {x}"
+         for x in tc.wrap(text)]))
+```
+
+By default, `width` is set to 100, `tolerance` to 0.5 and `trim` is True:
+```
+ 56: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+ 91: sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 82: quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ 92: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+ 57: pariatur. Excepteur sint occaecat cupidatat non proident,
+ 62: sunt in culpa qui officia deserunt mollit anim id est laborum.
+```
+
+### High tolerance
+```python3
+from textcut import TextCut
+
+tc = TextCut(tolerance = 5)
+print(
+    "\n".join(
+        [f"{len(x):3d}: {x}"
+         for x in tc.wrap(text)]))
+```
+
+Using a high tolerance, the wrapper will prefer to cut where it is absolutely fine to cut,
+regardless of the length of the lines. The cuts are clean (after periods, between paragraphes, ...)
+but lines can be very short.
+```
+ 56: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+ 66: sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ 24: Ut enim ad minim veniam,
+ 82: quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ 92: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+  9: pariatur.
+ 47: Excepteur sint occaecat cupidatat non proident,
+ 62: sunt in culpa qui officia deserunt mollit anim id est laborum.
+```
+
+### Low tolerance
+```python3
+from textcut import TextCut
+
+tc = TextCut(tolerance = 0.1)
+print(
+    "\n".join(
+        [f"{len(x):3d}: {x}"
+         for x in tc.wrap(text)]))
+```
+
+With low tolerance, the lines are closer to the requested width, but the cut may happen in sub-optimal
+places.
+```
+ 99: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+ 98: et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+ 95: aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 95: cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+ 54: culpa qui officia deserunt mollit anim id est laborum.
+```
+
+### Small width and low tolerance
+```python3
+from textcut import TextCut
+
+tc = TextCut(tolerance = 0.1, width = 10)
+print(
+    "\n".join(
+        [f"{len(x):3d}: {x}"
+         for x in tc.wrap(text)]))
+```
+
+With low tolerance and short lines, the wrapper has no choice but to cut in between words.
+```
+ 10: Lorem ipsu
+ 10: m dolor si
+ 10: t amet, co
+  9: nsectetur
+ 10: adipiscing
+ ...
+```
