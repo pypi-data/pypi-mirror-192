@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: keepass-env
+Version: 0.1.1
+Summary: read key-value pairs from a .kdbx file and set them as environment variables or return as dict
+Home-page: https://github.com/tandav/keepass-env
+Author: Alexander Rodionov
+Author-email: tandav@tandav.me
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pykeepass
+Provides-Extra: dev
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# keepass-env
+Read key-value pairs from `.kdbx` file and set them as environment variables or return as dict. `.kdbx` entries can store key-value attributes. This tool takes a path to entry and loads it's attributes.
+
+## install
+```
+pip install keepass-env
+```
+
+## usage
+```py
+import keepass_env
+
+db_filename = 'my_database.kdbx'
+password = 'secure-af'
+entry_path = ['group0', 'subgroup1', 'my_entry']
+
+# load to os.environ
+keepass_env.load_env(db_filename, entry_path, password=password)
+
+# return as dict
+keepass_env.env_values(db_filename, entry_path, password=password)
+{'KEY_0': 'value-0', 'KEY_1': 'value-1'}
+
+# write env
+keepass_env.write_env(db_filename, entry_path, password=password, env={
+    'MY_KEY_0': 'my-value-0',
+    'MY_KEY_1': 'my-value-1',
+})
+```
+
+## entry references
+This tool supports entry references. For example some entry have following key-value attributes:
+
+```
+KEY_0 value-0
+KEY_1 ref@group5/entry42:API_TOKEN
+```
+
+Value for `KEY_1` will be loaded from another entry with path `['group5', 'entry42']` and will be taken from its attribute `API_TOKEN`.
+
+- Format of references is prefix `ref@`, path separator `/` attribute separator `:`.
+- Multiple references are supported. (If referenced value is also reference and so on, it will be looked up recursively)
+- You can also reference to title, username, password, url of an entry with using following format:
+    - `ref@group5/entry42:__title__`
+    - `ref@group5/entry42:__username__`
+    - `ref@group5/entry42:__password__`
+    - `ref@group5/entry42:__url__`
+- username, password, url can also be a refernces. title can't be a reference
+
+## print to stdout
+This package comes with console script `keepass-env` (It will be accessible after pip installation).
+
+```shell
+keepass-env --db mydb.kdbx --password secure-af --entry-path group0/subgroup1/my_entry
+KEY_0=value-0
+KEY_1=value-1
+
+# --export argument to print in shell format:
+keepass-env --db mydb.kdbx --password secure-af --entry-path group0/subgroup1/my_entry --export
+export KEY_0=value-0
+export KEY_1=value-1
+
+
+# configuration via env variables are also available:
+KEEPASS_DB=mydb.kdbx KEEPASS_PASSWORD=secure-af KEEPASS_ENTRY_PATH=group0/subgroup1/my_entry KEEPASS_EXPORT=1
+export KEY_0=value-0
+export KEY_1=value-1
+```
+
+This can be used to load env before running some command.
+
+```shell
+```
+
+
+You can put in Makefile like this:
+
+```Makefile
+```
