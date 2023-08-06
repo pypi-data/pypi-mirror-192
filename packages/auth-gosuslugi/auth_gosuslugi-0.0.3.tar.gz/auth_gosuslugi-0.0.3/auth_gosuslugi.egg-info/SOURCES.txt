@@ -1,0 +1,12 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+auth_gosuslugi/__init__.py
+auth_gosuslugi/auth.py
+auth_gosuslugi.egg-info/PKG-INFO
+auth_gosuslugi.egg-info/SOURCES.txt
+auth_gosuslugi.egg-info/dependency_links.txt
+auth_gosuslugi.egg-info/requires.txt
+auth_gosuslugi.egg-info/top_level.txt
