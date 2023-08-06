@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+nnwtable/__init__.py
+nnwtable/nnwtable.py
+nnwtable.egg-info/PKG-INFO
+nnwtable.egg-info/SOURCES.txt
+nnwtable.egg-info/dependency_links.txt
+nnwtable.egg-info/requires.txt
+nnwtable.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nnwtable
+Version: 1.0.1
+Summary: ensamble neural network for table data classification
+Home-page: https://github.com/diglukhikh/neural-network-for-classifier
+Author: d.i.glukhikh
+Author-email: gluhihdmitry@gmail.ru
+License: GNU General Public License v3.0
+Download-URL: https://github.com/diglukhikh/neural-network-for-classifier/raw/main/archive1/main.zip
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+
+UNKNOWN
+
