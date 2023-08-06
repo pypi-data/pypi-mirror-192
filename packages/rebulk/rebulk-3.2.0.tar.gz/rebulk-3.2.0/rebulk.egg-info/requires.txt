@@ -1,0 +1,12 @@
+
+[dev]
+pytest
+pylint
+tox
+
+[native]
+regex
+
+[test]
+pytest
+pylint
