@@ -1,0 +1,16 @@
+jsonmathpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonmathpy/compute.py,sha256=tc-vc2lGkkXVUQTOUsC9kqlNo2VGmMACTxFfXBRx6HQ,2260
+jsonmathpy/mathify.py,sha256=Ye-jbJuh9c1rOGF774LQ0PCbXlhYUYOdvMhRJPzibaE,429
+jsonmathpy/interpreter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonmathpy/interpreter/interpreter.py,sha256=lqVNmXjKMROTvIqKJKGKZSmX-a4zuoUvWtyx6kgqiog,1972
+jsonmathpy/interpreter/lexer.py,sha256=FiYpfg3XS9yWQVBAXWjL_1UmoWnRaCOr8IYwq-pe8vw,5111
+jsonmathpy/interpreter/math_json.py,sha256=saF38dOKzCHxIuzEheTFgGZORTyecACGFQ5CI9-3kzs,2134
+jsonmathpy/interpreter/nodes.py,sha256=Rx00bEc6xb4yofXqDZSUXssgfrEk2GdG5u5G83nDw30,3049
+jsonmathpy/interpreter/parser_.py,sha256=5NgTskaXSByXe56TVc7M7dSTHjqKanEzkHZfwqQkmuk,7509
+jsonmathpy/interpreter/token.py,sha256=picQX8n4RKIexRPIVmLxffDUlecfl_NmCZMcJtB-JcI,255
+jsonmathpy/interpreter/types.py,sha256=amouIVBJOo3puQREGEquAV5T5eQu47GAOs35I_-6Wj0,1206
+jsonmathpy-0.3.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonmathpy-0.3.5.dist-info/METADATA,sha256=QiLxZzKRpN3rZuIG8a6l4zXOniDcL8aRlOeko3wbwfg,151
+jsonmathpy-0.3.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jsonmathpy-0.3.5.dist-info/top_level.txt,sha256=GaWMvENtPRoN-5YGsDXmN8ojV3NvV-1OkjSv1stwLFo,11
+jsonmathpy-0.3.5.dist-info/RECORD,,
