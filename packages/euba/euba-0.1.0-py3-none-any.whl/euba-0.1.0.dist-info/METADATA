@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: euba
+Version: 0.1.0
+Summary: a libary suport building ocean sound velocity dataset
+Home-page: UNKNOWN
+Author: tuandat95cbn@gmail.com
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: bottleneck
+Requires-Dist: dask[complete] (==2022.9.0)
+Requires-Dist: dask-jobqueue
+Requires-Dist: matplotlib
+Requires-Dist: netCDF4
+Requires-Dist: xarray (==2022.6.0)
+
+UNKNOWN
+
+
