@@ -1,0 +1,7 @@
+README.md
+setup.py
+django_crud_apis.egg-info/PKG-INFO
+django_crud_apis.egg-info/SOURCES.txt
+django_crud_apis.egg-info/dependency_links.txt
+django_crud_apis.egg-info/requires.txt
+django_crud_apis.egg-info/top_level.txt
