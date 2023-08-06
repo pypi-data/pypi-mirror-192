@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: persistedstate
+Version: 22.1
+Summary: Persist state in editable text file
+Home-page: https://github.com/presidento/persistedstate
+Author: Máté Farkas
+Author-email: fm@farkas-mate.hu
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
