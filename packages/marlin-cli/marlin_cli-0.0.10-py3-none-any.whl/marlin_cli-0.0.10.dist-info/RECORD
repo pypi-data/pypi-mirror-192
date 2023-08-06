@@ -1,0 +1,14 @@
+marlin_cli/api/archetypes.py,sha256=lj6yzRTpRKh6on1K7n7cBngXin0IjzdQJHlOQ9Olq3E,364
+marlin_cli/api/modules.py,sha256=BI-h_XLlQ4NUjP4CiBXrXBsZe_mCgLdIQc18Zul9Csc,643
+marlin_cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marlin_cli/commands/docs.py,sha256=H_qOH4uUEuiNXbKIeYXG_SasELz1BPSzNRm6oQLjVAo,593
+marlin_cli/commands/init.py,sha256=RHMycyZ1oe--cOrlKTf17jd3LbJTph4m1WTuGtghyi4,2575
+marlin_cli/commands/install.py,sha256=TMsXSkwYqPovRXwFjNXf4HtH8BWR66Wd9X50k4NBJCs,6078
+marlin_cli/constants.py,sha256=HO3MVQzAudpvc4il3G_O81fjisGtIqUCCeKns4umQeM,156
+marlin_cli/marlin.py,sha256=PXK2sg9ioe9Z-6ElZuVRKIXAkUSv7nllkCDsRsOXkpM,290
+marlin_cli/util/json_merge.py,sha256=zTxfMJdhCVtxuUrU6OTGzkNkUfH0o9ZyiUlOdo0Q4tI,623
+marlin_cli/util/yaml_merge.py,sha256=Nx7uTiNoP4PUgazDaQuGmVOiAF5ErfIbA188phYoOZg,157
+marlin_cli-0.0.10.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+marlin_cli-0.0.10.dist-info/entry_points.txt,sha256=79BKHwU2DpN94T91BpSImuq5xIC_Uvrrkc5D5A8t_1Y,48
+marlin_cli-0.0.10.dist-info/METADATA,sha256=vwP7O9KnWD98ZevVv59zGCCrcKFf_kKGF8AI9Z65DwY,1411
+marlin_cli-0.0.10.dist-info/RECORD,,
