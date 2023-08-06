@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pavilioncms-python
+Version: 0.1.0rc1
+Summary: Python Package to make use of PavilionCMS
+Home-page: UNKNOWN
+Author: Oluwole Majiyagbe
+Author-email: info@firstpavitech.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6, <3.11
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.28.1)
+
+Python Package to make use of PavilionCMS
+
