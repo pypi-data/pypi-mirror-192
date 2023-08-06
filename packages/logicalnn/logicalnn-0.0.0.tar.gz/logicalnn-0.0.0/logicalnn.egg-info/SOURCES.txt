@@ -1,0 +1,13 @@
+setup.py
+logicalnn/__init__.py
+logicalnn.egg-info/PKG-INFO
+logicalnn.egg-info/SOURCES.txt
+logicalnn.egg-info/dependency_links.txt
+logicalnn.egg-info/requires.txt
+logicalnn.egg-info/top_level.txt
+logicalnn/scripts/__init__.py
+logicalnn/scripts/andGate.py
+logicalnn/scripts/nandGate.py
+logicalnn/scripts/norGate.py
+logicalnn/scripts/notGate.py
+logicalnn/scripts/orGate.py
