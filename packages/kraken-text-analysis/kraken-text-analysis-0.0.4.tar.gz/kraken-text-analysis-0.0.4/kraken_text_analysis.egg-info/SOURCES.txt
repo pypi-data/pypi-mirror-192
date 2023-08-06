@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+kraken_extract_from_text/__init__.py
+kraken_extract_from_text/kraken_extract_from_text.py
+kraken_extract_from_text/extractors/__init__.py
+kraken_extract_from_text/extractors/extract_emails.py
+kraken_extract_from_text/extractors/extract_ioc.py
+kraken_extract_from_text/extractors/extract_urls.py
+kraken_text_analysis.egg-info/PKG-INFO
+kraken_text_analysis.egg-info/SOURCES.txt
+kraken_text_analysis.egg-info/dependency_links.txt
+kraken_text_analysis.egg-info/requires.txt
+kraken_text_analysis.egg-info/top_level.txt
