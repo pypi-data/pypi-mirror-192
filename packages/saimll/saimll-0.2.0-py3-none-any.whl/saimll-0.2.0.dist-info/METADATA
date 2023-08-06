@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: saimll
+Version: 0.2.0
+Summary: Simple Inline Markup Language and Logging
+Project-URL: Homepage, https://github.com/Tired-Fox/saimll
+Project-URL: Documentation, https://tired-fox.github.io/saimll
+Author-email: Tired Fox <zboehm104@gmail.com>
+License-Expression: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Simple Inline Markup Language and Logging (saimll)
