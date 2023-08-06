@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: eromedownloader
+Version: 0.0.1
+Summary: A Downloader for erome.com
+Home-page: https://github.com/masteroftheskies/eromedownloader
+License: MIT
+Keywords: erome,scraping,downloader
+Author: masteroftheskies
+Author-email: masteroftheskies@proton.me
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: tqdm
+Project-URL: Repository, https://github.com/masteroftheskies/eromedownloader
+Description-Content-Type: text/markdown
+
+# eromedownloader
+
+__Downloader for erome.com hosted as python package installable via pip__
+
+## Installation
+
+```shell
+pip install eromedownloader
+```
+
+## Basic Usage
+
+```shell
+python eromedownloader --url https://www.erome.com/a/{ALBUM_ID}  
+```
+
+## Optional Arguments
+
+- *--path*: str, path/to/save/dir
+- *--override*: bool, whether to override album if already exists instead of downloading it under an incremented name version; __Default=False__
+- *--concurrent-requests-max*: int, max number of requests to be sent; sending too many requests at once may comprise the risk of getting your IP banned by erome; __Default=4__
+- *--ignore-images*: bool; __Default=False__
+- *--ignore-videos*: bool; __Default=False__
