@@ -1,0 +1,11 @@
+LICENSE
+README.md
+aubio_beat_osc.py
+pyproject.toml
+setup.py
+aubio_beat_osc.egg-info/PKG-INFO
+aubio_beat_osc.egg-info/SOURCES.txt
+aubio_beat_osc.egg-info/dependency_links.txt
+aubio_beat_osc.egg-info/entry_points.txt
+aubio_beat_osc.egg-info/requires.txt
+aubio_beat_osc.egg-info/top_level.txt

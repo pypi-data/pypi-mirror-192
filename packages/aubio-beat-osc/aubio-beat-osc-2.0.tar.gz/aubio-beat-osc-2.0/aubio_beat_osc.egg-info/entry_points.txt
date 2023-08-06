@@ -1,0 +1,3 @@
+[console_scripts]
+aubio-beat-osc = aubio_beat_osc:main
+
