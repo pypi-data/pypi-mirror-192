@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: entx
+Version: 1.0.0
+Summary: The EntX encryption library for python.
+Project-URL: Homepage, https://github.com/MaskdDev/entx
+Project-URL: Bug Tracker, https://github.com/MaskdDev/entx/issues
+Author-email: MaskdDev <maskddev@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# EntX - The Python Encryption Library
+
+## How to create an encryption client with password stored as an environment variable:
+```
+import os
+import entx
+client = entx.Client(os.environ["password"])
+```
+
+## How to encrypt a string
+```
+import os
+import entx
+client = entx.Client(os.environ["password"])
+to_encrypt = "This will be encrypted"
+encrypted = client.encrypt(to_encrypt)
+```
+
+## How to decrypt a string
+```
+import os
+import entx
+client = entx.Client(os.environ["password"])
+to_decrypt = "This will be decrypted"
+encrypted = client.decrypt(to_decrypt)
+```
