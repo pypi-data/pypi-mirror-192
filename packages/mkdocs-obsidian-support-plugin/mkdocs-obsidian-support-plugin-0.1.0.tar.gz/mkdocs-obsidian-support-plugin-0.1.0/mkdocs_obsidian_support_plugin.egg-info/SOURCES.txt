@@ -1,0 +1,10 @@
+setup.py
+mkdocs_obsidian_support_plugin.egg-info/PKG-INFO
+mkdocs_obsidian_support_plugin.egg-info/SOURCES.txt
+mkdocs_obsidian_support_plugin.egg-info/dependency_links.txt
+mkdocs_obsidian_support_plugin.egg-info/entry_points.txt
+mkdocs_obsidian_support_plugin.egg-info/requires.txt
+mkdocs_obsidian_support_plugin.egg-info/top_level.txt
+mkdocs_regex_convert_plugin/__init__.py
+mkdocs_regex_convert_plugin/plugin.py
+mkdocs_regex_convert_plugin/regexpair.py
