@@ -1,0 +1,22 @@
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "pymongopandas"
+version = "0.0.1"
+authors = [
+  { name="Giacomo Fava", email="giacomofava93@gmail.com" },
+]
+description = "Wraps pymongo to easily interact with pandas dataframes"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JackFener/pymongo-pandas"
+"Bug Tracker" = "https://github.com/JackFener/pymongo-pandas/issues"

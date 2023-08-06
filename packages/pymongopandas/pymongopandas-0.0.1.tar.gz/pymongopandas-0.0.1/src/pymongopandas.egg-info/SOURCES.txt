@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/pymongopandas.egg-info/PKG-INFO
+src/pymongopandas.egg-info/SOURCES.txt
+src/pymongopandas.egg-info/dependency_links.txt
+src/pymongopandas.egg-info/top_level.txt
