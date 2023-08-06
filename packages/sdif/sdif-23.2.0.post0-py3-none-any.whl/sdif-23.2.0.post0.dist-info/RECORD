@@ -1,0 +1,12 @@
+sdif/__init__.py,sha256=dX0DaAm3sYHUpRbpKRAK1GX4jqFz2blCnZxOAWLCO3A,184
+sdif/fields.py,sha256=JvZqh6Jnmajk3sF7GZ1tzCNPP--3INuigMd2RnezTes,3070
+sdif/model_meta.py,sha256=l32Oq40zjJ6fqW1giVHdv8HY1AuYxaiNWeo9l5LxKyY,3161
+sdif/models.py,sha256=vuGkg-WybUSBQgSlBMC0JS4fTEAVlfw5tYRYJLCeOTU,17786
+sdif/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdif/records.py,sha256=3isbn0uzqDLfDyannmLcJ2SxBNSXYErKiQ1l9kfaDtM,5419
+sdif/time.py,sha256=OrKbGbnfDY9gTHtu9lz-jWoaPTWnEGLfd5AuJUcUeqE,970
+sdif-23.2.0.post0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+sdif-23.2.0.post0.dist-info/METADATA,sha256=_eF2E_ND3Fs5DyhIrHXsyvtv0H3U6FwsQoUuFOzay10,4504
+sdif-23.2.0.post0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sdif-23.2.0.post0.dist-info/top_level.txt,sha256=J_LG-ayBY1XDiKN-P1UDLD4dUCA7nYhnc0nZGQxC0xc,5
+sdif-23.2.0.post0.dist-info/RECORD,,
