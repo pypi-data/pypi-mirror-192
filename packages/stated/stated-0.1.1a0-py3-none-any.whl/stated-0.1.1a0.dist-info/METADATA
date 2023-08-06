@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: stated
+Version: 0.1.1a0
+Summary: TODO
+License: MIT
+Author: Abbas Jafari
+Author-email: abbas.jafari@powercoders.org
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# stated
+
+Stated aims to provide distributed state memory(and persistant) purely in python, example usecases can be for example syncronising state among pods in a set of kubernets pods.
+
