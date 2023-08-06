@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: welltest
+Version: 0.5
+Summary: Simple welltest functions for transient pressure analysis calculations in petroleum engineering
+Project-URL: Homepage, https://github.com/khabibullinra/welltest-functions
+Project-URL: Bug Tracker, https://github.com/khabibullinra/welltest-functions/issues
+Author-email: Khabibullin Rinat <khabibullinra@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+Description-Content-Type: text/markdown
+
+# welltest-functions
+
+Simple function for welltest (transient pressure analysis) calculations.
+
+Supposed to be used in welltest_examples repository and welltest courses.
