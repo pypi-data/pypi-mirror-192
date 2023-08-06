@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bismillah-on-py
+Version: 1.0.1
+Summary: as `the_sentence`, and `print_them` function.
+License: MIT
+Author: Iqbal Syifa Mahmuda
+Author-email: bal.mahmuda@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+
+# bismillah_on_py
+
+as `the_sentence`, and `print_them` function.
+
