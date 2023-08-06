@@ -1,0 +1,12 @@
+chaco
+enable
+numpy<1.24
+optv
+PyQt5
+scikit-image
+Pygments
+six
+imagecodecs
+flowtracks
+pandas
+tables
