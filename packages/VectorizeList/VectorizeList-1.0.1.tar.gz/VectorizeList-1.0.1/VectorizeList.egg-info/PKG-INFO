@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: VectorizeList
+Version: 1.0.1
+Summary: Vectorize a list of strings into ints
+Home-page: https://github.com/jclge/VectorizeList
+Author: Julien Calenge
+Author-email: julien.calenge@epitech.eu
+License: GNU3
+License-File: LICENSE
