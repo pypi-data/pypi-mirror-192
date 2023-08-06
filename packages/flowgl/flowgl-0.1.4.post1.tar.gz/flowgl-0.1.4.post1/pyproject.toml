@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flowgl"
+version = "0.1.4.post1"
+description = "Flow Immersive python client for datasets API"
+authors = ["Flow Immersive <info@flow.gl>"]
+readme = "PYPIREADME.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests-toolbelt = "^0.10.1"
+jsonpath-ng = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
