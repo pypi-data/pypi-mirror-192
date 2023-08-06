@@ -1,0 +1,13 @@
+MANIFEST.in
+VERSION
+setup.py
+libua/__init__.py
+libua/package.json
+libua.egg-info/PKG-INFO
+libua.egg-info/SOURCES.txt
+libua.egg-info/dependency_links.txt
+libua.egg-info/requires.txt
+libua.egg-info/top_level.txt
+libua/canon/__init__.py
+libua/canon/organizationidentifier.py
+libua/canon/organizationprojectidentfier.py
