@@ -1,0 +1,12 @@
+LICENSE,sha256=YqmkQreqzg0EYFDrqjsZ-ZY_1jfd87MvyHa5K6Oath4,1038
+pyhalomodel/__init__.py,sha256=McUBi7pIlOuZgSCz_MdG8MEzbVxLa1E3X791LuDVJ-w,370
+pyhalomodel/camb_stuff.py,sha256=4VXYP25Pa7RJB6ARg6nrEHQ3MwO569t5JnNu1dB8M1I,1989
+pyhalomodel/constants.py,sha256=tRYRmWGsB8NPQHsf6HhStL0XJM1ZU7ycGUv8AUQXNLg,557
+pyhalomodel/cosmology.py,sha256=8YZclAm4XqggYtmhV_ZaF9PPsriVIpHdxCao3hZuJp0,5637
+pyhalomodel/darkquest.py,sha256=iJ4SKW39JZNM69ZiXJUIHFxhuLlWpOlTjF4gKSAXm50,14335
+pyhalomodel/pyhalomodel.py,sha256=dC5_xVs0uAKvmlM9dC-RtSRHojft8au7ouiXq6_yAXs,52759
+pyhalomodel/utility.py,sha256=QVXH8tkE7V1CSSXo6-HJ92Ls5pQIJypsayYQdAl-R-M,2399
+pyhalomodel-0.1.6.dist-info/LICENSE,sha256=YqmkQreqzg0EYFDrqjsZ-ZY_1jfd87MvyHa5K6Oath4,1038
+pyhalomodel-0.1.6.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pyhalomodel-0.1.6.dist-info/METADATA,sha256=vvezQ9LZohpWLQ19WfdjVH8QyqkB5ZAz8uwfRtr-9Fo,11743
+pyhalomodel-0.1.6.dist-info/RECORD,,
