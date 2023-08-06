@@ -1,0 +1,10 @@
+makkulupy/__init__.py,sha256=99RZnSAsYN0aYD5Rrwafrb-UOtcUKBWTWMfhCtCb2HE,222
+makkulupy/exceptions.py,sha256=C3epPUBpomTpivO7Th6aRER4i-kUFuqQ4d1qZ6a8jCE,104
+makkulupy/requests.py,sha256=b7j-hTR-49P0cVuuiFZ19TfIeqTT0ZVY1xNv4dqGbBQ,2897
+makkulupy/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+makkulupy/models/batch.py,sha256=mhjHfXzjuXvsoIdkXWVkxRGI-CdF30OjH9x_TXQERW8,1206
+makkulupy/models/word.py,sha256=WjxKxJg_0S1LFgbOvEp_AIcvEpWEfNcdGODXjaVyngI,797
+makkulupy-0.2.0.dist-info/LICENSE,sha256=EiqgQydPxm0DmtAjJAL9OJzJZOzWV46kYtLCcZGj7l8,1286
+makkulupy-0.2.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+makkulupy-0.2.0.dist-info/METADATA,sha256=hLeaGLjNGmnmaDUXs_uqnLicnU_lVLo3u19CHnrpAU8,971
+makkulupy-0.2.0.dist-info/RECORD,,
