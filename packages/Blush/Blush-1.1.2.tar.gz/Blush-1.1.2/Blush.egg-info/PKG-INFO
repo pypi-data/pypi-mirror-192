@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Blush
+Version: 1.1.2
+Summary: Thin wrapper over multiprocessing for embarrassingly parallel workflows.
+Home-page: https://github.com/bschroeter/blush
+Author: Ben Schroeter
+License: MIT
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3
+License-File: LICENSE
+
+Thin wrapper over multiprocessing for embarrassingly parallel workflows.

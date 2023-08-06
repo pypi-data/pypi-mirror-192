@@ -1,0 +1,3 @@
+tqdm
+cython
+pandas>=1.3
