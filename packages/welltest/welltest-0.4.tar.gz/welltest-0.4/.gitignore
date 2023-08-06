@@ -1,0 +1,11 @@
+/.idea
+__pycache__/
+*.py[cod]
+*.vpp.bak*
+.ipynb_checkpoints/
+.cache
+dist/
+build/
+welltest.egg*
+env/
+env*/

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "welltest"
+version = "0.4"
+authors = [
+  { name="Khabibullin Rinat", email="khabibullinra@gmail.com" },
+]
+description = "Simple welltest functions for transient pressure analysis calculations in petroleum engineering"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'numpy',
+  'scipy',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/khabibullinra/welltest-functions"
+"Bug Tracker" = "https://github.com/khabibullinra/welltest-functions/issues"
