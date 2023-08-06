@@ -1,0 +1,96 @@
+name: "[CI] Test, Build, and Upload"
+
+on:
+  pull_request:
+    paths-ignore:
+      - "README.md"
+      - "CONTRIBUTING.md"
+      - "LICENSE"
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Test, Python ${{ matrix.python-version }}
+    runs-on:
+      labels: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [ 3.8, 3.9, "3.10", "3.11" ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b # v3
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install tox and any other packages
+        run: pip install tox
+      - name: Run Tox
+        run: tox -e py
+
+  # This check job runs to ensure all tests have passed, such that we can use it as a "wildcard" for branch
+  # protection to ensure all tests pass before a PR can be merged.
+  check:
+    if: always()
+    needs: [test]
+    runs-on: ubuntu-latest
+    steps:
+    - name: Decide whether all required jobs succeeded or failed
+      uses: re-actors/alls-green@release/v1
+      with:
+        jobs: ${{ toJSON(needs) }}
+
+  build:
+    name: Build package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          miniconda-version: latest
+          activate-environment: build-conda-token
+          environment-file: etc/build-environment.yml
+          python-version: 3.9
+          auto-activate-base: false
+      - name: conda Build
+        shell: bash -l {0}
+        run: |
+          conda build conda.recipe --no-test
+          mv $CONDA_PREFIX/conda-bld .
+      - name: Upload the build artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: package-${{ github.sha }}
+          path: conda-bld
+
+  upload:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'  # Only run on push to main branch
+    needs: [build, test]
+    steps:
+    - name: Retrieve the source code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Download the build artifacts
+      uses: actions/download-artifact@v2
+      with:
+        name: package-${{ github.sha }}
+        path: conda-bld
+    - name: Upload to anaconda.org
+      env:
+        ANACONDA_ORG_TOKEN: ${{ secrets.ANACONDA_ORG_TOKEN }}
+        GITHUB_REF: ${{ github.ref }}
+      run: |
+        source $CONDA/bin/activate
+        conda install -y anaconda-client
+        [[ "$GITHUB_REF" =~ ^refs/tags/ ]] || export UPLOAD_ARGS="--label dev --force"
+        anaconda --verbose --token $ANACONDA_ORG_TOKEN upload --user defusco --private conda-bld/noarch/anaconda-catalogs*.tar.bz2 $UPLOAD_ARGS
+    - name: Clean up older artifacts
+      uses: glassechidna/artifact-cleaner@master
+      with:
+        minimumAge: 86400

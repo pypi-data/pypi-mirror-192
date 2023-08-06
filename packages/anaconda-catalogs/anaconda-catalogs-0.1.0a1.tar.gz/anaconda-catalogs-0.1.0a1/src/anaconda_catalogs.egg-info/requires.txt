@@ -1,0 +1,9 @@
+aiohttp
+intake
+requests
+
+[dev]
+mypy
+pytest
+tox
+types-requests
