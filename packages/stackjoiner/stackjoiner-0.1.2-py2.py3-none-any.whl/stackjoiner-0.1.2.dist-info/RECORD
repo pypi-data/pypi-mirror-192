@@ -1,0 +1,16 @@
+stackjoiner/__init__.py,sha256=M0iwQ1uoUsUfRRISY3xssmjsQcfOFvz-8oY6EmccQ9s,56
+stackjoiner/cf_tag.py,sha256=gofvFRwlX9Dw9TPU3WMHPhcq9PCsUlVzOSHOGdScT5c,3351
+stackjoiner/cli.py,sha256=XYji2aDVVQy407_l_plq5XPLLpybZviwFdSVvd4iVNw,359
+stackjoiner/stackjoiner.py,sha256=ue7Z05_Ms5V1srt5YtUMnchCvJ8bjXZmqQGrf7mAQ-s,7957
+stackjoiner/yaml_loader.py,sha256=7ZEhcAt_kCfjQktr-b8UAL1Urs_B1HM7z6TD5vAnnlM,1984
+stackjoiner/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stackjoiner/tests/test_cloud_formation_formating.py,sha256=RnNOOkGlzN5t5zb4IcoYWvft23b2AlIMwiI-Vii7yxU,4251
+stackjoiner/tests/test_load_nested_template.py,sha256=AyuuJ9procbn1qSQUx5KEuOdtRAVYP0TzKB73n9hi2U,826
+stackjoiner/tests/test_load_template.py,sha256=wAwQwtA-uUthwGk7tpqKRs7w-3_aLFw3PI2mkM6p8zQ,462
+stackjoiner/tests/resources/single_nested_template.yaml,sha256=pruvoFznZDtHUHm21UI7KPvMsYOQ3gcu6wLkQFtESc4,641
+stackjoiner/tests/resources/single_template.yaml,sha256=boMWDDoD59JSaoLhTm5aYbfMZbTfQiTb5gkVN0YvLXc,380
+stackjoiner-0.1.2.dist-info/entry_points.txt,sha256=fRaV8yJC_3XVZRAk99QAMRVEtHnSI1cqrMyhqIgYZAg,52
+stackjoiner-0.1.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+stackjoiner-0.1.2.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+stackjoiner-0.1.2.dist-info/METADATA,sha256=FCqwi3nJDZI2UNW73blLIivTO061cgX0MECKbe8JpFw,1073
+stackjoiner-0.1.2.dist-info/RECORD,,
