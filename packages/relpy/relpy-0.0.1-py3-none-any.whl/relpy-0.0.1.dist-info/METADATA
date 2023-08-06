@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: relpy
+Version: 0.0.1
+Summary: Relational algebra in Python
+Author-email: Afonso Silva <ajcerejeira@gmail.com>
+License: MIT
+Project-URL: Source, https://github.com/ajcerejeira/relpy/
+Project-URL: Tracker, https://github.com/ajcerejeira/relpy/issues
+Keywords: algebra,functional,relation,relational,sets
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# relpy
+
+Relational algebra in Python
+
+## License
+
+This project is licensed under the terms of the MIT license.
+See [LICENSE](LICENSE) for more details.
+
