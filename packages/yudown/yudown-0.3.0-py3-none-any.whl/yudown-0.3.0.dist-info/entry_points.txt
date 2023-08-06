@@ -1,0 +1,3 @@
+[console_scripts]
+yudown=yudown.cli:app
+
