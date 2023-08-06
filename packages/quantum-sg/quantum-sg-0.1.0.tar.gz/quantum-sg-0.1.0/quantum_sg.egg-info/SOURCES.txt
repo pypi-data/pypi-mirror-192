@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+quantum_sg/__init__.py
+quantum_sg/quantum_sg.py
+quantum_sg.egg-info/PKG-INFO
+quantum_sg.egg-info/SOURCES.txt
+quantum_sg.egg-info/dependency_links.txt
+quantum_sg.egg-info/entry_points.txt
+quantum_sg.egg-info/requires.txt
+quantum_sg.egg-info/top_level.txt
+quantum_sg.egg-info/zip-safe

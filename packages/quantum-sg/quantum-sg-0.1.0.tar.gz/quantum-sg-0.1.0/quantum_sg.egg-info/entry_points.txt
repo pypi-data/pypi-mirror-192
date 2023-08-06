@@ -1,0 +1,2 @@
+[console_scripts]
+quantum-sg = quantum_sg.quantum_sg:main
