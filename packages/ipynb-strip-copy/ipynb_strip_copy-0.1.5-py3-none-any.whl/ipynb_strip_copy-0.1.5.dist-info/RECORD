@@ -1,0 +1,11 @@
+ipynb_strip_copy/__init__.py,sha256=frUUjnLUXGUskM2BJCXJpkwvll_uW188IXbrlucINSU,104
+ipynb_strip_copy/__main__.py,sha256=eYATeqHCk9KpXC8AMU_AFAgCbj4T5m-N4aSuOfXk9Lo,1769
+ipynb_strip_copy/command.py,sha256=5ZDBIypIjBR9IzXGQFga5ssgZWDxsCRvau9XCVqEKHA,2847
+ipynb_strip_copy/count_points.py,sha256=Gq-K-giGd6MxbDsk1rJFSfcac4OzdKIyayHR6lVH2jc,1535
+ipynb_strip_copy/file_ipynb.py,sha256=N_yk0JiZgAEWD8SuUSc3FPnv1eNqzH2twwL_DJg96kQ,1757
+ipynb_strip_copy/search_apply.py,sha256=i32aKZ7n9Y03P1P5OF-bdDom896M1RyvJZUVrx_mGJo,3433
+ipynb_strip_copy-0.1.5.dist-info/LICENSE,sha256=T1d5Y-9zDM7ta0YBqvZ-uBNYvjH13Jyi_D-lkR0SAv0,1068
+ipynb_strip_copy-0.1.5.dist-info/METADATA,sha256=6pHl0pSB-mg9zleot0osw5foYmGKPLpmwTACeW56frk,4232
+ipynb_strip_copy-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ipynb_strip_copy-0.1.5.dist-info/top_level.txt,sha256=3ln0_PY7s6hkRiBsP-uZKS7o2FnwkXO-7fpRs4woEik,17
+ipynb_strip_copy-0.1.5.dist-info/RECORD,,
