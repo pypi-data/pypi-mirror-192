@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: reytool
+Version: 0.67
+Summary: Rey's personal tool set
+Author: Rey
+Author-email: reyxbo@163.com
+Requires-Dist: varname
+Requires-Dist: sqlalchemy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: faker
+Requires-Dist: requests
+Requires-Dist: urwid
+
