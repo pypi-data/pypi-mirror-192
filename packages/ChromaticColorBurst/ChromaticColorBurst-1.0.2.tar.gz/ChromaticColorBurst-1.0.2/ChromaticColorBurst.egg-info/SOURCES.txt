@@ -1,0 +1,10 @@
+README.md
+setup.py
+ChromaticColorBurst.egg-info/PKG-INFO
+ChromaticColorBurst.egg-info/SOURCES.txt
+ChromaticColorBurst.egg-info/dependency_links.txt
+ChromaticColorBurst.egg-info/top_level.txt
+ColorBurst/ColorBurst.py
+ColorBurst/LISCENCE.md
+ColorBurst/__init__.py
+ColorBurst/test.py
