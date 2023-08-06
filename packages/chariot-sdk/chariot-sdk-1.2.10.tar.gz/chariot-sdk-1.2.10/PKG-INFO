@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: chariot-sdk
+Version: 1.2.10
+Summary: Chariot plugin maker
+Home-page: https://pypi.org/
+Author: chariot
+Author-email: chariot@example.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+## chariot-sdk
+
+---
+
+### 简介
+千乘插件生成器
+
+### 环境要求
+- python3.+
+
+### 安装
+> pip install chariot-sdk
+
+### 更新日志
+
+> 1.2.8 -> 1.2.10 （在1.3.0版本前将全是健康性更新，不会增加新的功能）
+
+- 修复了一些参数的缺少问题
+- 优化了库的引用
+- 优化了一些参数的命名
+
+> 1.2.7 -> 1.2.8
+
+- 新增了本地缓存和在线缓存功能
+- 新增了自动生成插件功能，目前仅支持简单的Request行为
+- 新增了容器内插件热更新功能，向提供的API接口上传新的插件包代码包即可
+- 新增了创建触发器、告警接收器和情报接收器的API接口，现在可以直接通过请求同时创建多个进程
+- 新增了转发数据测试接口
+- 新增了对JSON格式的插件定义文件支持
+- 新增了重启插件功能
+- 新增了关闭插件API服务的接口
+- 新增了对插件运行的配置文件config.ini，它会在生成插件时自动生成在插件根目录下，这里可以配置SDK的日志记录及一些其他性能上参数
+- 优化了SDK的日志记录，现在插件不会再因为日志过多而运行缓慢了，日志记录配置可以在config.ini中修改，也可通过API接口传入数据修改
+- 优化了SDK转发大量数据时过慢的问题，现在会采用多线程的方式转发数据，线程数量可在config.ini中调整
+- 优化了数据验证，现在数据验证失败时会在返回的错误信息中提示
+- 优化了剔除载荷中空参数的方法，现在该方法由self._popEmpty()改为popEmpty()，在向旧版本插件进行生成操作时，SDK会尝试自动修正该引用
+- SDK运行的需求库新增python-multipart，在向旧版本插件进行生成操作时，会尝试自动添加在requirement.txt中
+
