@@ -1,0 +1,2 @@
+[console_scripts]
+libsecp-compile = libsecp256k1_0.main:main
