@@ -1,0 +1,39 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "envantage"
+authors = [{name = "Jonathan Dobson", email = "jon@dobson.land"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "python-dotenv ==0.21.1",
+    "pydantic ==1.10.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black ==23.1.0",
+    "flit ==3.8.0",
+    "pycodestyle ==2.10.0",
+    "pytest ==7.2.1",
+    "pytest-cov ==3.0.0",
+]
+
+[project.urls]
+Home = "https://github.com/jomido/envantage"
+
+[tool.coverage.run]
+source = ["src"]
+
+[tool.flit.module]
+name = "envantage"
+
+
+[tool.pytest.ini_options]
+
+pythonpath = [
+  ".", "src",
+]
