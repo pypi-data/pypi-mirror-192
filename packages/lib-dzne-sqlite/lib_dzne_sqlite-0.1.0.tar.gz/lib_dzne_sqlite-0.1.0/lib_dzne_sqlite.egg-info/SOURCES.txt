@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+lib_dzne_sqlite/Where.py
+lib_dzne_sqlite/__init__.py
+lib_dzne_sqlite/cmd.py
+lib_dzne_sqlite/exec.py
+lib_dzne_sqlite/fmt.py
+lib_dzne_sqlite.egg-info/PKG-INFO
+lib_dzne_sqlite.egg-info/SOURCES.txt
+lib_dzne_sqlite.egg-info/dependency_links.txt
+lib_dzne_sqlite.egg-info/requires.txt
+lib_dzne_sqlite.egg-info/top_level.txt
