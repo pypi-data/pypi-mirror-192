@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bayesianpia2
+Version: 0.0.2
+Summary: 
+Author: IPablo271
+Author-email: 69815580+IPablo271@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-semantic-release (>=7.33.1,<8.0.0)
+Requires-Dist: semver (>=2.13.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Lab 2 IA
