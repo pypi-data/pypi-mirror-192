@@ -1,0 +1,8 @@
+src/__init__.py,sha256=dToJ7-pNvsi258DNvxVcLp7xlRe8MNk_J5T3qdvfUgQ,74
+src/demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/demo/main.py,sha256=O3DYEoUmCL318YH8Og5fUelLIEdDM8B0PaT1whdsyL4,29
+python_pkg_builder_2-0.0.1.dist-info/entry_points.txt,sha256=ZmtilKg4QVMqM0VS1rIzwFs0NkqmNpcH7kq66IX4DpE,36
+python_pkg_builder_2-0.0.1.dist-info/LICENSE,sha256=awzrtx3LakKqvYZ0rWA75oNVKdvTBiVNoGrSIYeM2N8,1070
+python_pkg_builder_2-0.0.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+python_pkg_builder_2-0.0.1.dist-info/METADATA,sha256=SRwmA4sz-GbltjjA-kggdO21ctPzBBGyGH_q7NTt_tM,174
+python_pkg_builder_2-0.0.1.dist-info/RECORD,,
