@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+CodeBase/__init__.py
+CodeBase/try.py
+MasonPypiSample.egg-info/PKG-INFO
+MasonPypiSample.egg-info/SOURCES.txt
+MasonPypiSample.egg-info/dependency_links.txt
+MasonPypiSample.egg-info/top_level.txt
