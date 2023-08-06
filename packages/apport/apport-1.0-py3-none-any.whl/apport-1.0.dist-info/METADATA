@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: apport
+Version: 1.0
+Summary: Python data-processing utilities
+Home-page: https://github.com/mhalairt/apport
+Author: Mikhalev Oleg
+Author-email: mhalairt@gmail.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Utilities
+
