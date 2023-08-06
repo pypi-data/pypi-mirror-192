@@ -1,0 +1,13 @@
+setup.py
+nnlogicalop/__init__.py
+nnlogicalop.egg-info/PKG-INFO
+nnlogicalop.egg-info/SOURCES.txt
+nnlogicalop.egg-info/dependency_links.txt
+nnlogicalop.egg-info/requires.txt
+nnlogicalop.egg-info/top_level.txt
+nnlogicalop/scripts/__init__.py
+nnlogicalop/scripts/andGate.py
+nnlogicalop/scripts/nandGate.py
+nnlogicalop/scripts/norGate.py
+nnlogicalop/scripts/notGate.py
+nnlogicalop/scripts/orGate.py
