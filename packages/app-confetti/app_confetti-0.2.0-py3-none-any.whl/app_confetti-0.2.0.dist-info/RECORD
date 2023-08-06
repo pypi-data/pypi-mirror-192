@@ -1,0 +1,9 @@
+app_confetti/__init__.py,sha256=9C39gg5mdmPbq-mSQA2jo2BJ7nx6TE8l09SB54FUYf8,44
+app_confetti/fetch/__init__.py,sha256=T2dpB43O597XHPz1v0RuWCYg2VU6jvr74h1gXfjUnJI,84
+app_confetti/fetch/aws.py,sha256=UvwS2B0h15as5Wq1QSIRXJPaDAFEFKBatSAN7PY0pew,3116
+app_confetti/fetch/dotenv.py,sha256=kx1BaLcC8ehcYeDTg05A5UuysYJYtC597SY12H3taLo,431
+app_confetti/util.py,sha256=URhDOcDXmqrNlZRjG8X0VeBXGYCSBg4lhUIdGeKrC8U,1506
+app_confetti-0.2.0.dist-info/METADATA,sha256=Yo88UicanHt2QxvcGCrVwXlR0otloPQqC6rXJ46lWbo,2733
+app_confetti-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+app_confetti-0.2.0.dist-info/entry_points.txt,sha256=Vgj8scNHJ1skfrS79xHrceAAV4LSNsHS-Rz_K0c2ekQ,109
+app_confetti-0.2.0.dist-info/RECORD,,
