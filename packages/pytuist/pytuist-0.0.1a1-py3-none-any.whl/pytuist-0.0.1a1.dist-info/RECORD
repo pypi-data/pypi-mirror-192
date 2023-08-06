@@ -1,0 +1,8 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/pytuist.py,sha256=dyzqUzA-01AkPPm_wEtNxPe5EycnaQjTukdIk8Oh35E,10505
+src/render.py,sha256=wgXKJDuiPBehWpelTVKnQnzJvk3riXsZsv5TYAAL_WU,2046
+pytuist-0.0.1a1.dist-info/entry_points.txt,sha256=YPNCpQW2eOD9DwjzINygfSncO_phSqlWzoXwC_bqKuo,37
+pytuist-0.0.1a1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pytuist-0.0.1a1.dist-info/METADATA,sha256=g-iNLgXqyE8wMzROwX4m04sZ3tJmLYuuM0IaY9qBxB8,5583
+pytuist-0.0.1a1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pytuist-0.0.1a1.dist-info/RECORD,,
