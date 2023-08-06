@@ -1,0 +1,3 @@
+[console_scripts]
+pyqtc = simplePyQt.__main__:main
+

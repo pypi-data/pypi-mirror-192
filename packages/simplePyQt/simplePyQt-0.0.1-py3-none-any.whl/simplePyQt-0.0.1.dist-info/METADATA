@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simplePyQt
+Version: 0.0.1
+Summary: A package for PyQt template&example codes
+Home-page: UNKNOWN
+Author: LeeFuuChang
+Author-email: leefuuchang@gmail.com
+License: LICENSE.md
+Requires-Dist: PySide2
+Requires-Dist: PyQt5
+Requires-Dist: pyqt5-tools
+
+
+SimplePyQt Overview
+
