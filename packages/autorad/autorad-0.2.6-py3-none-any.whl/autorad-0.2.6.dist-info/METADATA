@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: autorad
+Version: 0.2.6
+Summary: Radiomics-related modules for extraction and experimenting
+Home-page: https://github.com/pwoznicki/AutoRadiomics
+Author: Piotr Woznicki
+Author-email: piotr.a.woznicki@gmail.com
+License: Apache 2.0
+Project-URL: Bug Tracker, https://github.com/pwoznicki/AutoRadiomics
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyradiomics (==3.0.1)
+Requires-Dist: scikit-learn (==1.2.0)
+Requires-Dist: SimpleITK (==2.1.1.2)
+Requires-Dist: pandas (==1.4.2)
+Requires-Dist: scipy (==1.9)
+Requires-Dist: pyyaml (==6.0)
+Requires-Dist: statsmodels (==0.13.2)
+Requires-Dist: mlflow (==2.0.1)
+Requires-Dist: nibabel (==3.2.1)
+Requires-Dist: matplotlib (==3.5)
+Requires-Dist: xnat (==0.4.2)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: pqdm (>=0.2.0)
+Requires-Dist: Boruta (==0.3)
+Requires-Dist: xgboost (==1.6.0)
+Requires-Dist: imbalanced-learn (==0.9.1)
+Requires-Dist: optuna (==2.10.0)
+Requires-Dist: plotly (==5.5)
+Requires-Dist: shap (==0.41)
+Requires-Dist: scikit-image (==0.19)
+Provides-Extra: app
+Requires-Dist: streamlit (~=1.15) ; extra == 'app'
+Requires-Dist: jupytext (~=1.14) ; extra == 'app'
+Provides-Extra: dev
+Requires-Dist: coverage (~=6.2) ; extra == 'dev'
+Requires-Dist: great-expectations ; extra == 'dev'
+Requires-Dist: pytest (~=6.2) ; extra == 'dev'
+Requires-Dist: hypothesis (~=6.36) ; extra == 'dev'
+Requires-Dist: black (~=22.10) ; extra == 'dev'
+Requires-Dist: flake8 (~=4.0) ; extra == 'dev'
+Requires-Dist: isort (~=5.10) ; extra == 'dev'
+Requires-Dist: pre-commit (~=2.17) ; extra == 'dev'
+Requires-Dist: streamlit (~=1.15) ; extra == 'dev'
+Requires-Dist: jupytext (~=1.14) ; extra == 'dev'
+Requires-Dist: mkdocs (==1.4.2) ; extra == 'dev'
+Requires-Dist: mkdocs-material (==8.5.10) ; extra == 'dev'
+Requires-Dist: mkdocstrings[python] (==0.19.0) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs (==1.4.2) ; extra == 'docs'
+Requires-Dist: mkdocs-material (==8.5.10) ; extra == 'docs'
+Requires-Dist: mkdocstrings[python] (==0.19.0) ; extra == 'docs'
+
+<p align="center">
+<br>
+  <img src="docs/images/logo.png" alt="AutoRadiomics">
+</p>
+
+[![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+[![docs](https://readthedocs.org/projects/autoradiomics/badge/?version=latest)](https://autoradiomics.readthedocs.io)
+[![CI Build](https://github.com/pwoznicki/AutoRadiomics/actions/workflows/testing.yml/badge.svg)](https://github.com/pwoznicki/AutoRadiomics/commits/main)
+[![codecov](https://codecov.io/gh/pwoznicki/AutoRadiomics/branch/main/graph/badge.svg)](https://codecov.io/gh/pwoznicki/AutoRadiomics)
+
+## Framework for simple experimentation with radiomics features
+
+| <p align="center"><a href="https://pwoznicki-autoradiomics-autoradwebappapp-streamlit-demo-w7ej7a.streamlit.app"> Streamlit Share | <p align="center"><a href="https://hub.docker.com/repository/docker/pwoznicki/autorad"> Docker                | <p align="center"><a href="https://pypi.org/project/autorad/"> Python                                          |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| <p align="center"><img src="https://github.com/pwoznicki/AutoRadiomics/raw/main/docs/images/streamlit.png" /></p>                 | <p align="center"><img src="https://github.com/pwoznicki/AutoRadiomics/raw/main/docs/images/docker.png"/></p> | <p align="center"><img src="https://github.com/pwoznicki/AutoRadiomics/raw/main/docs/images/python.png" /></p> |
+| <p align="center"><a href="https://pwoznicki-autoradiomics-autoradwebappapp-streamlit-demo-w7ej7a.streamlit.app"> **Demo**        | `docker run -p 8501:8501 -v <your_data_dir>:/data -it pwoznicki/autorad:latest`                               | `pip install -U autorad`                                                                                       |
+
+&nbsp;
+
+## Download desktop app (experimental)
+
+| <p align="center"><a href="https://drive.google.com/uc?export=download&id=1fZyBeMvFUZXn7ND_FgeQRV3W68Dn6zZb"> Windows 10 | <p align="center"><a href="https://drive.google.com/uc?export=download&id=1N3JLv2h00Pp8XfwWXbBWvr7OnQ2h9pNu"> MacOS 11 (x64) | <p align="center"><a href="https://drive.google.com/uc?export=download&id=1SDG7J5ucwd4Nkq-5fAeArLKvHTcD045M"> Ubuntu 20.04 |
+| ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| <p align="center"><img src="https://github.com/pwoznicki/AutoRadiomics/raw/main/docs/images/windows.png" /></p>          | <p align="center"><img src="https://github.com/pwoznicki/AutoRadiomics/raw/main/docs/images/macos.png"/></p>                 | <p align="center"><img src="https://github.com/pwoznicki/AutoRadiomics/raw/main/docs/images/ubuntu.png" /></p>             |
+
+## Installation from source
+
+```bash
+git clone https://github.com/pwoznicki/AutoRadiomics.git
+cd AutoRadiomics
+pip install -e .
+```
+
+## Getting started
+
+Tutorials can be found in the [examples](./examples/) directory:
+
+- [Binary classification](./examples/example_WORC.ipynb)
+
+Documentation is available at [autoradiomics.readthedocs.io](https://autoradiomics.readthedocs.io/en/latest/).
+
+## Web application
+
+To use the application, make sure you have its dependencies installed:
+
+```bash
+pip install -e ".[app]"
+```
+
+The application can be started from the root directory with:
+
+```bash
+streamlit run autorad/webapp/app.py
+```
+
+By default it willl run at http://localhost:8501/.
+<br/><br/>
+
+For more information about AutoRadiomics, please read [our paper](https://www.frontiersin.org/articles/10.3389/fradi.2022.919133/full):
+
+```
+  AutoRadiomics: A Framework for Reproducible Radiomics Research;
+  P Woznicki, F Laqua, T Bley, B Baeßler;
+  Frontiers in Radiology, 22
+```
+
+Please cite it if you're using the framework for your research.
