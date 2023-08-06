@@ -1,0 +1,2 @@
+[console_scripts]
+kretanje_cijena = kretanje_cijena.__main__:main
