@@ -1,0 +1,11 @@
+xontrib/term_integration.py,sha256=RCzuX1NZuSeIYti29TARxFFwpsQjNpLqnpggN4GMCWc,1002
+xontrib_term_integrations/__init__.py,sha256=tYrr9llatJPUzT6a6-OkeEAaweHUhH-3msmU3_1TFIw,109
+xontrib_term_integrations/iterm2.py,sha256=ykDOHYoTTYimt2UMDdt7Pk8Uzvm6JFPD0Q5i2D5TF14,690
+xontrib_term_integrations/kitty.py,sha256=_HpQ_zADwmu0Y3yUUmVQkOyVQu9iBgtb4yvg3whX3Hg,1030
+xontrib_term_integrations/kitty_completions.py,sha256=LDmZr63-lLUlQyQUaK8cY4_GXEMSlqCrElS5JTEhgUs,2462
+xontrib_term_integrations/utils.py,sha256=-QyxJPtyym4nI-oB2puCyb46jZ9fISb57t4YJ5R6TEc,9294
+xontrib_term_integrations/wezterm.py,sha256=tNX75hviPfZOY8Scur62krU1RYZ0DbWwseTP4YgUrx8,5426
+xontrib_term_integrations-0.2.0.dist-info/WHEEL,sha256=JtIceljpZF_3FlF7JEESqvYUELdenaIGNR7wSL2mRl0,87
+xontrib_term_integrations-0.2.0.dist-info/METADATA,sha256=6ril4KIqT2yNYJaxw2edK4XPDrNTlAKnkqpG8DvXmKI,2557
+xontrib_term_integrations-0.2.0.dist-info/licenses/LICENSE,sha256=kcNiJZDh570CIeBZXtjB_tpUm2Gy72aAc3At6MxEs3U,1097
+xontrib_term_integrations-0.2.0.dist-info/RECORD,,
