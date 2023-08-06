@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: vietnamese
+Version: 0.0.6
+Summary: Basic resource for Vietnamese NLP.
+Home-page: https://trituenhantao.io
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+This package provides a simple tool for preprocessing Vietnamese text. It includes the following functions:
+
+`get_consonants()`: Returns a list of all Vietnamese consonants.
+
+`get_vowels()`: Returns a list of all Vietnamese vowels.
+
+`get_rhymes()`: Returns a list of all Vietnamese rhymes.
+
+`normalize(input_str)`: Converts the input string from various Vietnamese encodings to Unicode.
+
+
+## Installing
+You can install the package using pip:
+```
+$ pip install vietnamese
+```
+
+## Usage
+Here's an example of how to use the package:
+
+```python
+import vietnamese
+
+consonants = vietnamese.get_consonants()
+vowels = vietnamese.get_vowels()
+rhymes = vietnamese.get_rhymes()
+
+input_str = "Xin chµo!"
+normalized_str = vietnamese.normalize(input_str)
+
+print("Consonants:", consonants)
+print("Vowels:", vowels)
+print("Rhymes:", rhymes)
+print("Input string:", input_str)
+print("Normalized string:", normalized_str)
+```
+
+## Contributing
+If you find a bug or have a suggestion for a new feature, please open an issue on GitHub or submit a pull request.
+
+
