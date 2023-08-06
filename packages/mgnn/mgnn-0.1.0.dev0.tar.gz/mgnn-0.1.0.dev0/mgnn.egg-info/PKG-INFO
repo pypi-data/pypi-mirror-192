@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: mgnn
+Version: 0.1.0.dev0
+Summary: MGNN is a reimplementation of MatErials Graph Network (MEGNet) and Materials 3-body Graph Networks (M3GNet) in Deep Graph Library (DGL).
+License-File: LICENSE
