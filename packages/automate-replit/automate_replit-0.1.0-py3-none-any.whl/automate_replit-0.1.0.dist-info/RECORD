@@ -1,0 +1,17 @@
+autoreplit/__init__.py,sha256=NUm9sE3bFmZnVwea-k9uanFxiwelNQLroiGsCWZKy6A,148
+autoreplit/classes/comments.py,sha256=I7x3VdtIzebiBlI1mxj2l3i8vw6lGSdgs-19SxJMROQ,584
+autoreplit/classes/notifications.py,sha256=FHGNMbNQGagw5fyb_TS1hKkhuMBVAuGYoqWo_wJkuDU,2125
+autoreplit/classes/queryResult.py,sha256=lXwtYgDZ3sheia77bneQey4Z3K6BIs40Hz2ptaC2dcQ,1205
+autoreplit/classes/repl.py,sha256=YKTViwt591NP_tj9qNMYnBY-X1k446lAo3WnKrKUtf0,229
+autoreplit/classes/user.py,sha256=DPyYYOPEl8S4yct0QoNWTEHrpKGe_mwYXYWxsznsll8,3096
+autoreplit/client.py,sha256=vrkBIlM8oB5DCG62y9hXGptbMGimWyrGaMDh54gz5jE,5262
+autoreplit/commonTyping.py,sha256=ZOQ9q4ZWPDPJn3JU7bOuEtxS6hrtUHYEokJi_y9-22w,56
+autoreplit/gql/currentUser.gql,sha256=K16avbyGKovHiOj4iyjxMXogEAs2Oegx8hOdG58M8d4,73
+autoreplit/gql/notifications.gql,sha256=inMBM93Yr_q4e6QmcTvDDGkcianXrSvkIFdjC0_QUag,9261
+autoreplit/gql/updatePresence.gql,sha256=M4QE2RmPfT6WEMWQq_qEpCxa_eqeSbihSN6LEaPBPVs,83
+autoreplit/gql/userByUsername.gql,sha256=2jHgxxanl707NdPnZMqwR4YI7qDKfMhtI5OeaJlJda4,727
+autoreplit/py.typed,sha256=ns4sy5bjNVsa25H3TsWJgBJyCIcoFkvK3Ou4GpJbOU4,112
+autoreplit/querys.py,sha256=CsajhAF_QyCrpplSJTmwRzKzV6GGjcRAbiNZswH49TE,438
+automate_replit-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+automate_replit-0.1.0.dist-info/METADATA,sha256=5ggAgAIYaoUje1Di7z-nOtDvx3ZmHqtung7u3LMJk_o,1510
+automate_replit-0.1.0.dist-info/RECORD,,
