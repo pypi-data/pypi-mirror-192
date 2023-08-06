@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+reqlibpy/__init__.py
+reqlibpy/reqlibpy.py
+reqlibpy.egg-info/PKG-INFO
+reqlibpy.egg-info/SOURCES.txt
+reqlibpy.egg-info/dependency_links.txt
+reqlibpy.egg-info/top_level.txt
