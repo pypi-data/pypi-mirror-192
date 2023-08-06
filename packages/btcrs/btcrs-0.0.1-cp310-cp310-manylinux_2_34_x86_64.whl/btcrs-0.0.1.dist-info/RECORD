@@ -1,0 +1,5 @@
+btcrs-0.0.1.dist-info/METADATA,sha256=Zn3L_SdDMbtY2LZ7eoA7cOLNWSASaf2BiX2lg13qiek,929
+btcrs-0.0.1.dist-info/WHEEL,sha256=C4ecsaLyf6s9IBIOqlbjvW8Vp5KNW7ueLBig4S23fUI,110
+btcrs/__init__.py,sha256=V5yb9BEQj3Iw2-mqfkMJ9wnhjoY2sIz7cjP3fHOHD0A,103
+btcrs/btcrs.cpython-310-x86_64-linux-gnu.so,sha256=zHqoyyJz42VkIhh_cRFQv6XDMurnSb02oRdQbIkLlXA,1661368
+btcrs-0.0.1.dist-info/RECORD,,
