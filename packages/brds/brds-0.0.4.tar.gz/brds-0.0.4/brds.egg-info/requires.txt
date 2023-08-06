@@ -1,0 +1,17 @@
+hvac
+mypy
+pandas
+python-dotenv
+python-json-logger
+
+[test]
+pytest
+coverage
+flake8
+black
+isort
+pytest-cov
+codecov
+mypy
+gitchangelog
+mkdocs
