@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+pptestadrianzapala/__init__.py
+pptestadrianzapala/m_mod_pptest.py
+pptestadrianzapala.egg-info/PKG-INFO
+pptestadrianzapala.egg-info/SOURCES.txt
+pptestadrianzapala.egg-info/dependency_links.txt
+pptestadrianzapala.egg-info/requires.txt
+pptestadrianzapala.egg-info/top_level.txt
