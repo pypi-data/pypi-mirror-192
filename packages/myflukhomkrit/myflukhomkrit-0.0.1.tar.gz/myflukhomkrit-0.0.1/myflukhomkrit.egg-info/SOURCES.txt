@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+myflukhomkrit/__init__.py
+myflukhomkrit/fluke.py
+myflukhomkrit.egg-info/PKG-INFO
+myflukhomkrit.egg-info/SOURCES.txt
+myflukhomkrit.egg-info/dependency_links.txt
+myflukhomkrit.egg-info/top_level.txt
