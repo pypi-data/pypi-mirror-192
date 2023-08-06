@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "svconv"
+version = "0.0.3"
+authors = [
+  { name="Jack Champagne", email="jackchampagne.r@gmail.com" },
+]
+description = "A base spatially variant scalars implementation for pytorch convolutions"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jack-champagne/svconv"
+"Bug Tracker" = "https://github.com/jack-champagne/svconv/issues"
