@@ -1,0 +1,3 @@
+arcgis>=1.8
+georapid>=0.2
+pandas>=1.5
