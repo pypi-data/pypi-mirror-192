@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "databricks_access_layer"
+version = "0.0.1"
+description = "Library to access Snowflake data from Databricks"
+authors = ["Data <data@superside.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9.1,<3.11"
+absl-py = "^1.4.0"
+pydantic = "^1.10.4"
+pyspark = "^3.3.1"
+quinn = "^0.9.0"
+cachetools = "^5.3.0"
+snowflake-connector-python = "^3.0.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.982"
+black = "^22.10.0"
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+types-cachetools = "^5.2.1"
+moto = "^4.0.9"
+pytest-env = "^0.8.1"
+tox = "^4.4.4"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+requires = ["poetry-core>=1.4.0"]
+build-backend = "poetry.core.masonry.api"
