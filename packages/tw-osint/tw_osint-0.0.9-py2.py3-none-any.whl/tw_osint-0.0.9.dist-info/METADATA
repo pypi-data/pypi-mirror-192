@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tw-osint
+Version: 0.0.9
+Summary: Twitter Friendship Graph
+Author: MrCabs69 (Pablo Pintor)
+Author-email: p.pintor@alumnos.upm.es
+Keywords: osint,python,graph,twitter,scrap,social_network,data-analysis
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: News/Diary
+Requires-Dist: networkx
+Requires-Dist: Pillow
+Requires-Dist: pygraphviz
+Requires-Dist: snscrape
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+
+OSINT opensource tool that provides a visual way to get information about latest relations of a given user, or a list of users.
