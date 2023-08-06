@@ -1,0 +1,2 @@
+locust>=2.13.0
+odoorpc>=0.9.0
