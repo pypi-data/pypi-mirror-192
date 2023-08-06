@@ -1,0 +1,8 @@
+setup.py
+math2docx/__init__.py
+math2docx/core.py
+math2docx.egg-info/PKG-INFO
+math2docx.egg-info/SOURCES.txt
+math2docx.egg-info/dependency_links.txt
+math2docx.egg-info/requires.txt
+math2docx.egg-info/top_level.txt
