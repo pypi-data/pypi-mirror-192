@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: kfin
+Version: 0.0.1
+Summary: Open API wrapper library for Korea financial organizations
+Home-page: https://github.com/hyunuck/kfin
+Author: Hyunuck Kim
+Author-email: gusdnr@gmail.com
+License: MIT License
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: httpx (==^0.23.3)
+
