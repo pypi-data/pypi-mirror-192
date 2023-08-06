@@ -1,0 +1,7 @@
+pytest_crayons/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+pytest_crayons/plugin.py,sha256=QCJ1pXuPk8lQJ7WR2hH7eOq0BY4bKQBBI6rleAwlGtY,915
+pytest_crayons-0.0.1.dist-info/entry_points.txt,sha256=TSg1Yl4cxVUWSXkZaBB7fwF6ClvSKx9MBtTO0pgxRbI,49
+pytest_crayons-0.0.1.dist-info/LICENSE,sha256=TQlDgayddw8KPIHAxZOmi9UaDkuwPFFCt6ScGuiVvsQ,1078
+pytest_crayons-0.0.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pytest_crayons-0.0.1.dist-info/METADATA,sha256=06gU8_0Z8FVbwRM7uxEQpf7I4aZHJL4ojBmWWP34WyQ,1151
+pytest_crayons-0.0.1.dist-info/RECORD,,
