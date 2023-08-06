@@ -1,0 +1,9 @@
+loggermodule_X/__init__.py,sha256=qeu1fUE3TqeGXOHMVRed8N9fldXGMyGo5597NSjkYlU,36
+loggermodule_X/loggermodule_X.py,sha256=w28PNj_yUZ451R8fXoRZ49ZE-eCBBUvewXCQL5htO50,3783
+loggermodule_X/test/loggermodule_XS.py,sha256=kgGphbZBeCkpbDUasYc-5VEJdptpqqAiLKkL16PuuPI,3980
+loggermodule_X/test/test_log.py,sha256=SXA2tB9cP5H236AoZkEy3uEFVRpiJngnAwgFxriDELM,642
+loggermodule_X/test/test02/test_log_02.py,sha256=1D37D9HyMwqA88gQpFafM8F_DPho0lKHakTQjgTs5OA,445
+loggermodule_X-2.0.dist-info/METADATA,sha256=Jln_n4dPq-wmMfOEkNIswl2NF27ArK6kNLveFuojgxc,2068
+loggermodule_X-2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+loggermodule_X-2.0.dist-info/top_level.txt,sha256=NhjehMIc84S4lQHCs6EF2nsYuuGF4wp6_lbmB0jCjpM,15
+loggermodule_X-2.0.dist-info/RECORD,,
