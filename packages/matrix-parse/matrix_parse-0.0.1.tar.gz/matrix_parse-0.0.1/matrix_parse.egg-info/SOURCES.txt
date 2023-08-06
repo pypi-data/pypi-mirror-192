@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+config_for_tests.py
+requirements.txt
+setup.py
+test.py
+matrix_parse/__init__.py
+matrix_parse.egg-info/PKG-INFO
+matrix_parse.egg-info/SOURCES.txt
+matrix_parse.egg-info/dependency_links.txt
+matrix_parse.egg-info/requires.txt
+matrix_parse.egg-info/top_level.txt

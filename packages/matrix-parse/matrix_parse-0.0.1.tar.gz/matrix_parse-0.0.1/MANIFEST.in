@@ -1,0 +1,3 @@
+prune venv/*
+include *.txt *.py
+include README.md

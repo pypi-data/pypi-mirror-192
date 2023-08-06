@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: matrix-parse
+Version: 0.0.1
+Summary: Parse matrix by url
+Home-page: 
+Author: Ilia Artnaiev
+Author-email: ilya.artnaev@gmail.com
+License: MIT
+Keywords: parse matrix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# parse_matrix
+A Template to build a PIP package
+## Author
+- [Kitazuka](https://github.com/Kitazuka)
+## Installation
+Install my-project with pip
+```bash
+  pip install matrix_parse
+```
