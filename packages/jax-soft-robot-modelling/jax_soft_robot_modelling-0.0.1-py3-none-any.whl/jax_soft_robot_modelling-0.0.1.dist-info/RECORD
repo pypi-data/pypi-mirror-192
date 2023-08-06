@@ -1,0 +1,11 @@
+jax_soft_robot_modelling/__init__.py,sha256=eJUhUcyOxh8swfmDZgrUugpBVnbIWSkbZxcmwT5GmDw,111
+jax_soft_robot_modelling/integration.py,sha256=sjDcC22XGyI0jEvBgajlbl3UjmBNX-1PT-kTNfJ3wIY,41
+jax_soft_robot_modelling/simple.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+jax_soft_robot_modelling/symbolic_derivation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jax_soft_robot_modelling/symbolic_derivation/pendulum.py,sha256=aCz7fxot8EIZMX9gsKEPThhlZSv9R-rIuRIFWcn9Tjw,3641
+jax_soft_robot_modelling/systems/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jax_soft_robot_modelling-0.0.1.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+jax_soft_robot_modelling-0.0.1.dist-info/METADATA,sha256=C8cQweEPPaTvF4_nDjWWZqrP1HSzpfpdMUQvoF2dm6s,2710
+jax_soft_robot_modelling-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jax_soft_robot_modelling-0.0.1.dist-info/top_level.txt,sha256=Cpc7ve2Ue6AHDD_Rw1moBnhWjc9rLOYK-dYTsOzFiRc,25
+jax_soft_robot_modelling-0.0.1.dist-info/RECORD,,
