@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/apipack_nirmitsakre/__init__.py
+src/apipack_nirmitsakre/apipack.py
+src/apipack_nirmitsakre.egg-info/PKG-INFO
+src/apipack_nirmitsakre.egg-info/SOURCES.txt
+src/apipack_nirmitsakre.egg-info/dependency_links.txt
+src/apipack_nirmitsakre.egg-info/top_level.txt
