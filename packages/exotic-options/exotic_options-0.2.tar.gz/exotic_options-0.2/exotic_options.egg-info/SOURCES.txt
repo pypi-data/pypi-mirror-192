@@ -1,0 +1,9 @@
+README.md
+setup.py
+exotic_options/__init__.py
+exotic_options/exotic_options_calculation.py
+exotic_options.egg-info/PKG-INFO
+exotic_options.egg-info/SOURCES.txt
+exotic_options.egg-info/dependency_links.txt
+exotic_options.egg-info/requires.txt
+exotic_options.egg-info/top_level.txt
