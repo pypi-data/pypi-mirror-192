@@ -1,0 +1,15 @@
+pydantic
+durations
+jinja2
+humanfriendly
+humanize
+python-dateutil
+pyyaml
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
