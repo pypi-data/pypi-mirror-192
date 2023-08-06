@@ -1,0 +1,9 @@
+fire<1,>=0.2.1
+GitPython<4,>=3.0.8
+html5lib<2,>=1.0.1
+nbconvert<6,>=5.6.1
+PyYAML<6,>=5.2
+requests<3,>=2.22.0
+traitlets<5,>=4.3.3
+bleach<4,>=3.1.4
+Jinja2<4,>=3.0.0
