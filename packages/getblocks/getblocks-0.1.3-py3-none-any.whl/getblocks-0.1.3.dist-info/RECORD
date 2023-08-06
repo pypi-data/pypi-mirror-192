@@ -1,0 +1,9 @@
+getblocks/__init__.py,sha256=we1lf6FXCBxdQlSMPP9YNDeyYQU4k8k0kcfJFaBegh0,31
+getblocks/__main__.py,sha256=QBAAx4XrNkHLoEEgP0N2WLJY2Ff9pYvAE4tY9_YSK74,253
+getblocks/cli.py,sha256=Y-E328J0XxlhRfrwtrKkJdopcueZ_3czw-zJsM1Gf1g,8373
+getblocks-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+getblocks-0.1.3.dist-info/METADATA,sha256=BMNZyGec2V6U9eHccGpuZKT2nGe0q_Uc0X0UQ3bk7rs,645
+getblocks-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+getblocks-0.1.3.dist-info/entry_points.txt,sha256=ZtEfqDeeZqSpRXNqIIVPbqYSCXsgB2c5SYzAj_yKwgQ,49
+getblocks-0.1.3.dist-info/top_level.txt,sha256=3syeW6ElnT2Sld6FFiiRsdiNkyeaWBsEuejmCCM9bus,10
+getblocks-0.1.3.dist-info/RECORD,,
