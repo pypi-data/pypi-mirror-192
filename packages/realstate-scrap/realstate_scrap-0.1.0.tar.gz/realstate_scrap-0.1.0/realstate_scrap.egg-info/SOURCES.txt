@@ -1,0 +1,8 @@
+setup.py
+Programa/__init__.py
+Programa/realstate_scrap.py
+realstate_scrap.egg-info/PKG-INFO
+realstate_scrap.egg-info/SOURCES.txt
+realstate_scrap.egg-info/dependency_links.txt
+realstate_scrap.egg-info/requires.txt
+realstate_scrap.egg-info/top_level.txt

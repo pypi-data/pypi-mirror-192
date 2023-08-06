@@ -1,0 +1,9 @@
+bs4
+csv
+numpy
+pandas
+re
+selenium
+time
+urllib3
+webdriver_manager
