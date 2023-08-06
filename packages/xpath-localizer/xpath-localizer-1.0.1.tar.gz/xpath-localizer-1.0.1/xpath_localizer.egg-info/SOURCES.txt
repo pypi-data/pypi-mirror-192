@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+listener/__init__.py
+robotLocalization/__init__.py
+xpath_localizer.egg-info/PKG-INFO
+xpath_localizer.egg-info/SOURCES.txt
+xpath_localizer.egg-info/dependency_links.txt
+xpath_localizer.egg-info/entry_points.txt
+xpath_localizer.egg-info/requires.txt
+xpath_localizer.egg-info/top_level.txt
