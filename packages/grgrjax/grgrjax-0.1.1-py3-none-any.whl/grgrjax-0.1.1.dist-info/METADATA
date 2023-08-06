@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: grgrjax
+Version: 0.1.1
+Summary: Some generic tools for JAX
+Home-page: https://github.com/gboehl/grgrjax
+Author: Gregor Boehl
+Author-email: admin@gregorboehl.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: jax
+Requires-Dist: jaxlib
+
+
+grgrjax
+=======
+
+This library provides some additional tools to JAX, such as Newtons method or vectorized JVP and VJP functions.
+
+Installation with ``pip``
+-----------------------------
+
+It's as simple as typing
+
+.. code-block:: bash
+
+   pip install grgrjax
+
+in the terminal (Unix/Mac) or the Anaconda Prompt (Win).
