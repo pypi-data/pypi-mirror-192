@@ -1,0 +1,21 @@
+[tool.pdm]
+
+[project]
+name = "aio-pysqs"
+version = "0.1.0"
+description = "Async aws sqs listener"
+authors = [
+    { name = "devsarvesh92", email = "sarveshdev92@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0",
+]
+build-backend = "pdm.pep517.api"
