@@ -1,0 +1,15 @@
+igl/__init__.py,sha256=5_CclkN-7vBtlzbr-uQTG9N0FLx0J8enGYyQ9MX_Jfo,111
+igl/_version.py,sha256=Nt6WV1XkYsR7Ij1Ujp-ZGdTJml55ApJvIGZtptOAyAM,26
+igl/helpers.py,sha256=bO4T9yhY0fE7Y_O_08kAzkkEpvCXxKPWhCjnzE3C1zs,2086
+igl/pyigl.cp36-win_amd64.pyd,sha256=5H1jeudQw0gZkD0GA4QvZC4zs1PpDuQIfc2SUHqZ8X0,32543232
+igl/pyigl_classes.cp36-win_amd64.pyd,sha256=sTYlc-y4conP5zw9ueTnngLGn5iQmXivybfXABCVsZc,742912
+igl/copyleft/cgal/__init__.py,sha256=NJ2qNq7xwEOa5a4Ra09v8ADkIgrNvBjz6whcz3C0QPk,34
+igl/copyleft/cgal/libgmp-10.dll,sha256=_sQ8sYzg7Ipd1q0dt0V0cWcxDMuStaz_DURaizAT8Ak,543027
+igl/copyleft/cgal/libmpfr-4.dll,sha256=CbO4aLlkM5kfwVycWub5pExi0uIRlBEEQmB5Fzke2Sc,436011
+igl/copyleft/cgal/pyigl_copyleft_cgal.cp36-win_amd64.pyd,sha256=bZAt7yTL8tUL595aTVdClOrA181AYitQzuZhGR8_gj8,2141696
+igl/triangle/__init__.py,sha256=Pec0pvsUepvENQi6FVyNZMM9ZtH8NReDyKTCAWjD4Wo,40
+igl/triangle/pyigl_restricted_triangle.cp36-win_amd64.pyd,sha256=3ZhaFJZPU4QJ-Xc9ueucUWPb5lxv87wHMESVBU6J3vs,643072
+libigl-2.5.3.dev0.dist-info/METADATA,sha256=mOo918k3mUgodXZKsWsnvNHIrYbNf179a96Koar4RWY,2159
+libigl-2.5.3.dev0.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+libigl-2.5.3.dev0.dist-info/top_level.txt,sha256=TF1tYDKDOv891WW8VMKHYFbUMW0bi_1a2OKWpZzoVUQ,10
+libigl-2.5.3.dev0.dist-info/RECORD,,
