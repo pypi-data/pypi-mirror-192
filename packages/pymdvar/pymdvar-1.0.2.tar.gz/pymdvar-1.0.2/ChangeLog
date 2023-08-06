@@ -1,0 +1,22 @@
+CHANGES
+=======
+
+v1.0.2
+------
+
+* another version bump..
+
+v1.0.1
+------
+
+* fix classifiers, bump version
+
+v1.0.0
+------
+
+* finish testing and polishing, add readme
+* add type hints
+* add more testing and fix small bugs
+* add simple tests and simple working solution
+* add boilerplate code, rename repo
+* Initial commit
