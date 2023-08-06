@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bare_estate
+Version: 0.1.0b0
+Project-URL: Homepage, https://github.com/llucasls/bare-estate
+Author-email: "Lucas L. S. Haine" <lucaslshaine@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Bare Estate
+
+This project was based on a [blog post](https://stegosaurusdormant.com/bare-git-repo/)
+written by Greg Owen, which in turn was based on a
+[post](https://news.ycombinator.com/item?id=11070797) by StreakyCobra on Hacker
+News.
+
+Basically, it is a wrapper script to use git specifically for managing dotfiles
+using a bare repository.
