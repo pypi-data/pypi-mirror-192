@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: micropython-consentiumthings
+Version: 0.1.0
+Summary: Consentium IoT module for MicroPython
+Home-page: https://github.com/ConsentiumInc/micropython-consentiumthings
+Author: Debjyoti Chowdhury
+Author-email: consentium.inc@gmail.com
+Maintainer: Consentium Inc
+Maintainer-email: consentium.inc@gmail.com
+License: MIT
+License-File: LICENSE
