@@ -1,0 +1,27 @@
+Django>=3.2
+acme>=2.1.0
+asn1crypto>=1.2.0
+cryptography>=36.0
+django-object-actions>=4.0.0
+dnspython>=2.1
+idna>=3.0
+josepy>=1.12.0
+packaging
+requests
+
+[:python_version < "3.8"]
+importlib-metadata<4.13.0
+typing-extensions
+
+[celery]
+celery>=5.1
+
+[mysql]
+mysqlclient>=2.0
+
+[postgres]
+psycopg2>2.8
+
+[redis]
+hiredis>=2.0.0
+redis>=4.3
