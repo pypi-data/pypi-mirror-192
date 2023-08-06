@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: experiment-config
+Version: 0.1
+Summary: A yaml-based configuration for reproducible python experiments.
+Maintainer: Avishai Halev
+Maintainer-email: avishaihalev@gmail.com
+License: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+## Installation
+
+Install with pip:
+
+```shell script
+pip install experiment-config
+```
+
+## Usage
+
+`expfig.Config` allows for straightforward hyperparameter selection and logging.
