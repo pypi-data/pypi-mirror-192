@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jsonkeysearch"
+version = "0.1.0"
+description = ""
+authors = ["gmoriki <gingiragin@outlook.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+twine = "^4.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+wheel = "^0.38.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
