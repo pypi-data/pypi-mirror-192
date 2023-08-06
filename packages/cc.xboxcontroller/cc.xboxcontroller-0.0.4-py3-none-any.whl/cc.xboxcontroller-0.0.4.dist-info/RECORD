@@ -1,0 +1,8 @@
+cc/__init__.py,sha256=n7i5k1HRoOZzMOCEVHuXJNFOp18RexHFF5IVRbvlaLs,48
+cc/xboxcontroller/__init__.py,sha256=i4mGfbrUWTfpOnIO2_bsIU8dUUUwMd3R4ZrbaOwL3go,50
+cc/xboxcontroller/xboxcontroller.py,sha256=_rhy7x3OICm4gj6edlBoEKNy-Pz-h_JEi2g6IhiH47M,12874
+cc.xboxcontroller-0.0.4.dist-info/LICENSE,sha256=6Bk_67QsYFtTLcWltAIh05aEfI8ArTmHPh4ckuFOJro,1090
+cc.xboxcontroller-0.0.4.dist-info/METADATA,sha256=o_XNnk4-1jjS6iKH7pPHyZHrqWmOT3-L00zuMu8w5Yw,1294
+cc.xboxcontroller-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cc.xboxcontroller-0.0.4.dist-info/top_level.txt,sha256=o5YPSLsfk-ISzR6mI7m1ilDZOh6HbwFyuMB8NIJKUPE,3
+cc.xboxcontroller-0.0.4.dist-info/RECORD,,
