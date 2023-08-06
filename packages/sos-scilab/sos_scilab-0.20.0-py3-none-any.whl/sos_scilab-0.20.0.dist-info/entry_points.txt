@@ -1,0 +1,3 @@
+
+[sos_languages]
+Scilab = sos_scilab.kernel:sos_scilab
