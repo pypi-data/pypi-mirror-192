@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+lettersPoints/__init__.py
+lettersPoints/letters.py
+lettersPoints.egg-info/PKG-INFO
+lettersPoints.egg-info/SOURCES.txt
+lettersPoints.egg-info/dependency_links.txt
+lettersPoints.egg-info/top_level.txt
