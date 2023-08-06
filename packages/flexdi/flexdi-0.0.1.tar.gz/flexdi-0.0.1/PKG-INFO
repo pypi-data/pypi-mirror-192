@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: flexdi
+Version: 0.0.1
+Summary: A flexible dependency injection tool for typed Python projects.
+Home-page: https://github.com/cal-pratt/flexdi
+Author: Cal Pratt
+Author-email: ccpratt4@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+License-File: LICENSE
+
+A flexible dependency injection tool for typed Python projects.
