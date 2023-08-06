@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Scrap_realstate
+Version: 0.1.0
+Summary: extract all the data like: price, address, features from imovelweb.com.br
+Home-page: UNKNOWN
+Author: Lucas Abreu
+Author-email: lucasabreu@me.com
+License: UNKNOWN
+Keywords: real_state_scrap
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+
+UNKNOWN
+
