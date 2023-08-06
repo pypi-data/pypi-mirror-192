@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nse-data-reader
+Version: 1.0
+Summary: Library to download financial data in pandas dataframe
+Home-page: https://github.com/akash-mitra/nsepy
+Author: Akash
+Author-email: akashmitra@gmail.com
+Keywords: NIFTY,NSE,Stock Price
+License-File: LICENSE
