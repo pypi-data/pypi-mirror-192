@@ -1,0 +1,7 @@
+#!python
+
+from canisius_cyb600_example.main import MyServer
+
+MyServer.do_GET()
+
+
