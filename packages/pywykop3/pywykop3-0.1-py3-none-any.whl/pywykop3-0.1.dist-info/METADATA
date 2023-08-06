@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pywykop3
+Version: 0.1
+Summary: Wykop v2 REST API Client
+Home-page: https://github.com/KaiserMovet/pywykop3
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Author: Mateusz Rynkiewicz
+Author-email: rynkiewiczmate@gmail.com
+License: MIT
+Keywords: WYKOP
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: requests
+
