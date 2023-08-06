@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: TPUnityAI
+Version: 0.0.11
+Summary: Python API for Unity.
+Home-page: https://github.com/Byuan3/tp_python_api
+Author: Li-Harry-Fa22-2
+Author-email: test@test.com
+License: Apache License 2.0
+Description: Python API for Unity
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
