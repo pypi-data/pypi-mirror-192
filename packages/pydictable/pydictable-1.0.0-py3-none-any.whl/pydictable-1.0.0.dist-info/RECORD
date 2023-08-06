@@ -1,0 +1,10 @@
+pydictable/__init__.py,sha256=GhzYnRr0YYpRSHJBlIu5EUMOfvqp8HZ49zAjw9xQrE4,61
+pydictable/core.py,sha256=CFiy40OGkrIzC1OsUVFQ0jeKVESrSE31uwM1ieR9Wk4,4613
+pydictable/field.py,sha256=s_VOhKdo-Y4qo4jhmFtc7kwxmQx2KBbv0S9DaKS15M4,7813
+pydictable/test_core.py,sha256=WMcVma3i38eu3Ey2UBiuSAJl9pnwZKwRqpV61hMTyO4,24295
+pydictable/type.py,sha256=rj1TVDxYekwrh0sFKZUuCQZVO0dBs3eOsyJq-POoPo8,926
+pydictable-1.0.0.dist-info/LICENSE,sha256=SHPctDOisFygp96pkTQKmt1jCYEc6EtgrIHJcOBeFKY,1069
+pydictable-1.0.0.dist-info/METADATA,sha256=02fU94TQ2m9qgAiReCIT5tJJPOqJpI2JQ32nAbjgeH8,396
+pydictable-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pydictable-1.0.0.dist-info/top_level.txt,sha256=x6blenTyVJD1X0osMbUIKE60QNHW_6_joYlpmjOFtx0,11
+pydictable-1.0.0.dist-info/RECORD,,
