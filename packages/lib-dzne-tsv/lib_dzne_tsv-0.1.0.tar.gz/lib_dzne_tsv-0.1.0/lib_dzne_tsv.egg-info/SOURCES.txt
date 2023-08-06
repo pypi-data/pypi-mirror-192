@@ -1,0 +1,9 @@
+LICENSE
+lib_dzne_tsv.py
+pyproject.toml
+setup.cfg
+lib_dzne_tsv.egg-info/PKG-INFO
+lib_dzne_tsv.egg-info/SOURCES.txt
+lib_dzne_tsv.egg-info/dependency_links.txt
+lib_dzne_tsv.egg-info/requires.txt
+lib_dzne_tsv.egg-info/top_level.txt
