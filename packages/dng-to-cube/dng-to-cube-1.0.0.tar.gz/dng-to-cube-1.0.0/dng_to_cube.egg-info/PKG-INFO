@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dng-to-cube
+Version: 1.0.0
+Summary: Convert DNG files to LUT cube files
+Author: Felix Furtado
+Author-email: felixfurtado809@gmail.com
+License: MIT
+Keywords: dng cube lut conversion
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE.txt
