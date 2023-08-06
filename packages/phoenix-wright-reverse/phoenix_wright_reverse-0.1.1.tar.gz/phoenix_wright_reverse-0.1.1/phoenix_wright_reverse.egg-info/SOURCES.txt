@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+phoenix_wright_reverse/__init__.py
+phoenix_wright_reverse/__version__.py
+phoenix_wright_reverse/core.py
+phoenix_wright_reverse.egg-info/PKG-INFO
+phoenix_wright_reverse.egg-info/SOURCES.txt
+phoenix_wright_reverse.egg-info/dependency_links.txt
+phoenix_wright_reverse.egg-info/requires.txt
+phoenix_wright_reverse.egg-info/top_level.txt

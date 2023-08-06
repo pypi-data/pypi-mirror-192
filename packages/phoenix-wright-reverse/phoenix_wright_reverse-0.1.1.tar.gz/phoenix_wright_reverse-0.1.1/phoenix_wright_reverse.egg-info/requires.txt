@@ -1,0 +1,6 @@
+akshare
+aktools
+PySide2
+PyQt6
+pandas
+numpy
