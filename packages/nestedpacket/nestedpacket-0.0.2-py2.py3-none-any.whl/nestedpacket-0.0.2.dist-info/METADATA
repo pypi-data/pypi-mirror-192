@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nestedpacket
+Version: 0.0.2
+Summary: Top-level package for nestedpacket
+Author-email: Ashley Winn <ashley.winn@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: bitstring >=4.0.1
+Requires-Dist: pytest >=7.2.0 ; extra == "test"
+Provides-Extra: test
