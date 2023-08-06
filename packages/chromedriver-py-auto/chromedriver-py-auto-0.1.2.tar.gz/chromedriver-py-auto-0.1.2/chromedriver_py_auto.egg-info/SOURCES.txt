@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+chromedriver_py_auto/__init__.py
+chromedriver_py_auto/chrome.py
+chromedriver_py_auto/install.py
+chromedriver_py_auto/version.py
+chromedriver_py_auto.egg-info/PKG-INFO
+chromedriver_py_auto.egg-info/SOURCES.txt
+chromedriver_py_auto.egg-info/dependency_links.txt
+chromedriver_py_auto.egg-info/top_level.txt
