@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: awx
+Version: 0.1
+Summary: AWX Satellite Data Reader
+Home-page: https://github.com/wqshen/AwxReader
+Author: wqshen
+Author-email: wqshen91@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: pyproj
+
+UNKNOWN
+
