@@ -1,0 +1,2 @@
+[pytest11]
+blockage-httpx = pytest_httpx_blockage.plugin
