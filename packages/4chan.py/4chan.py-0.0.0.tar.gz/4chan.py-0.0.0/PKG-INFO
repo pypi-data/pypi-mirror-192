@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: 4chan.py
+Version: 0.0.0
+Home-page: https://github.com/scrazzz/4chan.py
+Author: scrazzz
+License: MIT
+Project-URL: Documentation, https://github.com/scrazzz/4chan
+Project-URL: Issue tracker, https://github.com/scrazzz/4chan.py/issues
+Requires-Python: >=3.8.0
+License-File: LICENSE
