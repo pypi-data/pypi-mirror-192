@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: lettersPoints
+Version: 1.4
+Summary: This package can be used to generate points that, when plotted, form letters. The height and spacing can be set.
+Author: JP
+License-File: LICENSE.txt
