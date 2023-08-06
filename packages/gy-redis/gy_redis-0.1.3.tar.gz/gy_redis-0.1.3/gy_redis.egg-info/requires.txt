@@ -1,0 +1,4 @@
+numpy
+redis
+reactivex
+opencv-python
