@@ -1,0 +1,9 @@
+build_package/__init__.py,sha256=xSk7KXJRQ6adggrp9JI4u7CZaxwRyfkKmaW2Tz0O4eY,46
+build_package/__main__.py,sha256=oSJmlzUF80wVOYeZu9VpjPWrrqj9K0iNBBKzAicypHs,104
+build_package/say_hi.py,sha256=w2dX4RPOjy1J_U1KAC0YsIcbf9kANDoH6psIKT5h75k,42
+build_package_from_kadikoy-1.0.0.dist-info/LICENSE,sha256=ug3KMDDxvWK1y_Tg6YVyNfkajv9uZZtvJr1h2WwaXLA,1094
+build_package_from_kadikoy-1.0.0.dist-info/METADATA,sha256=cK-6CrtESruuHRRceWFgV9-kkTYvYFvlHj5RR99ffL8,1754
+build_package_from_kadikoy-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+build_package_from_kadikoy-1.0.0.dist-info/entry_points.txt,sha256=j4KgHXbVGbGyfTySc1ypBdERpfihO4WNjppvCdE9HjE,52
+build_package_from_kadikoy-1.0.0.dist-info/top_level.txt,sha256=MR4sJ1Ez8riLHEk_ewMT7ePrH5durEGNhRMhuXjg_XA,14
+build_package_from_kadikoy-1.0.0.dist-info/RECORD,,
