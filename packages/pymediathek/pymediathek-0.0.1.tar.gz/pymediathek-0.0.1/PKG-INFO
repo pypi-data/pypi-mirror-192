@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pymediathek
+Version: 0.0.1
+Summary: Python library for MediathekView
+Home-page: https://github.com/elektr0nisch/pymediathek
+Author: Linus Groschke
+Author-email: linus@elektronisch.dev
+License: MIT
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyMediathek
+
+Python library for [MediathekView](https://mediathekview.de/)
+
+## Requirements
+
+- Python >= 3.10
+- aiohttp
+
+
+## Install
+```bash
+pip install pymediathek
+```
+
+## Credits
+
+Special thanks to the contributors of MediathekView and MediathekViewWeb. Without it, this library simply wouldn't exist.
