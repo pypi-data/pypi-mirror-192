@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: CoreEngineX
+Version: 0.0.1
+Summary: CoreEngineX fetches and displays Python files from a directory and sub-directories in a CLI menu. It executes the files sequentially and offers the option to check their pylint score.
+Home-page: https://github.com/4akhilkumar/coreenginex
+Author: Sai Akhil Kumar Reddy N
+Author-email: 4akhilkumar@gmail.com
+License: MIT
+Keywords: Python,Files,Execution,CoreEngineX,CLI,Command Line Interface,Menu,Pylint
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CoreEngineX
+CoreEngineX will fetch the python files from the directory/sub-directories. Display those files in the command line interface menu. Execute the files sequentially. The option to check the pylint score of the files is provided and also the option to load the environment variables.
+
+## Installation
+```python -m pip install coreenginex```
+
+## Example Usage
+
+### Read input from command line
+```python
+import sys
+from coreenginex import CoreEngineX
+
+if __name__ == "__main__":
+    ce = CoreEngineX()
+    code_folder = sys.argv[1]
+    ce.run_coreenginex(folder_path = code_folder)
+
+```
+
+### Read input from the script
+```python
+from coreenginex import CoreEngineX
+
+if __name__ == "__main__":
+    ce = CoreEngineX()
+    code_folder = './test'
+    ce.run_coreenginex(folder_path = code_folder)
+
+```
+
+### Load environment variables
+```python
+from coreenginex import CoreEngineX
+
+if __name__ == "__main__":
+    ce = CoreEngineX()
+    code_folder = './test'
+    ce.run_coreenginex(folder_path = code_folder)
+    ce.load_environment_variables(key_value = {"key": "value"})
+
+```

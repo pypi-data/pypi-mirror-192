@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+CoreEngineX/__init__.py
+CoreEngineX/coreenginex.py
+CoreEngineX.egg-info/PKG-INFO
+CoreEngineX.egg-info/SOURCES.txt
+CoreEngineX.egg-info/dependency_links.txt
+CoreEngineX.egg-info/top_level.txt
+CoreEngineX.egg-info/zip-safe
