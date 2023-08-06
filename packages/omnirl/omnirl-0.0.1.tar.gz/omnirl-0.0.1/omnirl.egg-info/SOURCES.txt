@@ -1,0 +1,7 @@
+README.md
+setup.py
+omnirl/__init__.py
+omnirl.egg-info/PKG-INFO
+omnirl.egg-info/SOURCES.txt
+omnirl.egg-info/dependency_links.txt
+omnirl.egg-info/top_level.txt
