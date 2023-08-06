@@ -1,0 +1,15 @@
+__init__.py,sha256=JS4PVbwggtvhVM8X14sOqe-3idKU2JfYmvMtV8ex1OE,176
+celfa_callbacks.py,sha256=Zcgo5BDrhyLnL3fi28pG8Lg84-LeO-wuQqZCMRcZAxA,4005
+celfa_callbacks_plotter.py,sha256=Cre2P2vWpfy7v-gflGij3cfuxBlliCk3D-iej7vQKHg,4863
+celfa_data.py,sha256=sBJbhBN-OnEVRXtQLvk1y8zeZYE7No8zjZ_c-5fdfPs,41395
+celfa_ensemble.py,sha256=5pyE6Fcu8Rckb8P9hyGuAOW0w4PbGnqIHXHOPZ5YuYg,4142
+celfa_eval.py,sha256=z1TFuo3-_Or_meJpal8Rruv6yzD3DRtdlLvqx0jA1XY,101765
+celfa_exceptions.py,sha256=GYLwRsbXvTCAJ6byJadNZSxtoRvYzx70n5mDKGKpLWw,1676
+celfa_globals.py,sha256=aF2Um9Wl_NhF7Ycy6ssbVRA1UJK_NOvRNaMRlxvHzag,1286
+celfa_train.py,sha256=HVelqDZJmM6BSzJOxM_6f_eBX5_WJYZj1vI4WM-LwFU,6497
+playground.py,sha256=p3pRBp_n7RQHIEC9pNSzPsf2cjZrHoxu59mfeUJjtJg,777
+setup.py,sha256=0E6FbZj-PFHUVdca_b1pV0oOopMhy7KgaMkMIKRPizM,515
+celfa-0.0.2.dist-info/METADATA,sha256=z-2OtsJorljqaLg2hFZrWzBp9sta_MEy1O2mk-Ck7xI,645
+celfa-0.0.2.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+celfa-0.0.2.dist-info/licenses/LICENSE,sha256=IaISEiHSo13y2NMz0Aph7SQERrYQcJJ0H_mWlBrNyRk,1022
+celfa-0.0.2.dist-info/RECORD,,
