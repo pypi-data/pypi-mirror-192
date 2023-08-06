@@ -1,0 +1,16 @@
+pyqg_jax/__init__.py,sha256=VMiElUL3As0WaG7gZ2v3vYwLVNzK5ZubHwZVD__gWjM,205
+pyqg_jax/_kernel.py,sha256=c_a5lxbHYk6ztbQ0Y4wjmuTNlNWbxxTa3-NA7_mH_E8,6841
+pyqg_jax/_model.py,sha256=7IT-iq6Cc3D9INq5ppv7QdPwcBG6F4B9KNPbJ4oKtkA,4204
+pyqg_jax/_utils.py,sha256=2RFgISG2_8Dx5oe_rzs-g2b8nNQaV4GuWdV89V2dJco,2713
+pyqg_jax/qg_model.py,sha256=CIVfEaEeKHdC7O8Rn6jh4MzhdltT32LewxIc6mzylMA,6249
+pyqg_jax/state.py,sha256=a_V9EOsD4yomPek89QCOTiill411Mg6e2vDEz4H-J00,4520
+pyqg_jax/steppers.py,sha256=O9al4vUdaGAufZQP1pAn_AmSufRxsSh-Aq1XTE_5Vrw,7993
+pyqg_jax/parameterizations/__init__.py,sha256=m3fpjBMvsebco700IwjYIoE6MDOsIkCe0R2-H_bZzfs,418
+pyqg_jax/parameterizations/_defs.py,sha256=350RdFrFOL1pWlQ42PTrnIozyOIlPr0zXMVVDrdk8Ek,1127
+pyqg_jax/parameterizations/_parametrized_model.py,sha256=GadolT5z5VvLlfOOSwhKfULxKu7sspfrKbdhB2K0WE0,3788
+pyqg_jax/parameterizations/noop.py,sha256=ra09eScLCPo6oEmkg6n8BBWeJ5bOR3GHwKZQsYlRjUU,795
+pyqg_jax/parameterizations/smagorinsky.py,sha256=rHiyH5_GjcEHtW9P3_ciTWtAe5KaGSp2RN30UaAiXfk,1509
+pyqg_jax/parameterizations/zannabolton2020.py,sha256=CiIWou1S-ejRDbfFKwUg7ox1R0dMfRjS2l_zo4bxVi0,1506
+pyqg_jax-0.3.0.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pyqg_jax-0.3.0.dist-info/METADATA,sha256=el8YHgnT1vj9EQ4NxYKxlBOmFpwFPt4GkPcwKxQwhP8,6632
+pyqg_jax-0.3.0.dist-info/RECORD,,
