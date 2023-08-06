@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: starmoth
+Version: 0.1
+Summary: A small wrapper library to help test systems using STAR
+Home-page: 
+Author: Gudjon Magnusson
+Author-email: gmagnusson@fraunhofer.org
+Keywords: Fraunhofer,STAR,testing
+Requires-Python: >=3.7, <4
+Requires-Dist: pyzmq (>=25.0.0)
+Requires-Dist: numpy (>=1.14.5)
+Requires-Dist: msgpack (>=1.0.4)
+
+STAR is system for systematically testing AI systems by intreating them with a combination of real and generated test data. To make an arbitrary system implementation testable with STAR we need a MOdel Test Harness, thats where MOTH comes in
