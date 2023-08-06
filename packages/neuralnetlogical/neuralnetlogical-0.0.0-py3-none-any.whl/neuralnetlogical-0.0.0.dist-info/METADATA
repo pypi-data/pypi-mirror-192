@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: neuralnetlogical
+Version: 0.0.0
+Summary: Neural Network Logic Operators
+Author: Eduardo Weber Maldaner
+Author-email: eduwmaldaner@gmail.com
+Keywords: python,python3,neural networks,neural nets,logical operators,neural net logical operators
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+Python package to perform operations using logical operators (AND, OR, NAND, NOR, NOT), but the operation is performed by neural networks.

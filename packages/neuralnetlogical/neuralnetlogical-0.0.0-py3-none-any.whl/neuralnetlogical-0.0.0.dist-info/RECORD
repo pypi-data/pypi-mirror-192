@@ -1,0 +1,11 @@
+neuralnetlogical/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neuralnetlogical/scripts/__init__.py,sha256=EERQCmeVZ1w47nAQ9DzjxuMGczZBM6Um2Zd-tL8q9nA,114
+neuralnetlogical/scripts/andGate.py,sha256=rfx9Yh0lVBe6n_cL2FzsGYV3LiVI7vrontgXFfmahcc,3224
+neuralnetlogical/scripts/nandGate.py,sha256=hwe8rWprkAj3TztqmlcquRpglsTZ8gtyavVjUQvq9Us,3229
+neuralnetlogical/scripts/norGate.py,sha256=NKM3wAyKRIB8joBYibPTDK5LP4gttX6cEd-kpDY20EQ,3226
+neuralnetlogical/scripts/notGate.py,sha256=wKteCcl3vIB32t40FTO4mS5xhex8yy0QhvfUfMXcY5s,3155
+neuralnetlogical/scripts/orGate.py,sha256=ILIdRhJT6WClepCSZnY2iMkFHA1xXHH8gEWjEe1nbrk,3220
+neuralnetlogical-0.0.0.dist-info/METADATA,sha256=P5u8ZqQOj_9YPuID1jOa2roPutVPhuTL8IFaygifhCY,590
+neuralnetlogical-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+neuralnetlogical-0.0.0.dist-info/top_level.txt,sha256=rJ4eA9TMlymlXhYpQMLi1le6AekP_O407vl1aTMBcnM,17
+neuralnetlogical-0.0.0.dist-info/RECORD,,
