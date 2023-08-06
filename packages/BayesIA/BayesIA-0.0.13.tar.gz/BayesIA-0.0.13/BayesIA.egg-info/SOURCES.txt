@@ -1,0 +1,9 @@
+README.md
+setup.py
+BayesIA/Redes.py
+BayesIA/__init__.py
+BayesIA.egg-info/PKG-INFO
+BayesIA.egg-info/SOURCES.txt
+BayesIA.egg-info/dependency_links.txt
+BayesIA.egg-info/requires.txt
+BayesIA.egg-info/top_level.txt
