@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xe-temp
+Version: 0.1.0
+Summary: 
+Author: Alexander Molero
+Author-email: alemoler@ucm.es
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: currencyconverter (>=0.17.5,<0.18.0)
+Description-Content-Type: text/markdown
+
+
