@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+src/shibuya/__init__.py
+src/shibuya/_sphinx.py
+src/shibuya/context.py
+src/shibuya.egg-info/PKG-INFO
+src/shibuya.egg-info/SOURCES.txt
+src/shibuya.egg-info/dependency_links.txt
+src/shibuya.egg-info/entry_points.txt
+src/shibuya.egg-info/requires.txt
+src/shibuya.egg-info/top_level.txt
