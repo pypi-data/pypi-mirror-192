@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8568b88-8d9c-4aa2-b9b0-8d44ecc78ee7" name="Changes" comment="added support for celfa_data.SimulationData in Evaluator&#10;&#10;added lots and lots of stuff">
+      <change afterPath="$PROJECT_DIR$/.idea/util_lib.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="91116130-d183-45aa-b1e7-1005cea075da" />
+        <option name="url" value="git@github.com:s4294967296/cnn.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24yWYo8dLeCck0pq7izp5AQB0SF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager" selected="Python.playground">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="util_lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="celfa_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="util_lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/celfa_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="celfa_eval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="util_lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/celfa_eval.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="celfa_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="util_lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/celfa_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="util_lib" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playground.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.celfa_data" />
+      <item itemvalue="Python.celfa_eval" />
+      <item itemvalue="Python.celfa_train" />
+      <item itemvalue="Python.playground" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.playground" />
+        <item itemvalue="Python.celfa_train" />
+        <item itemvalue="Python.celfa_data" />
+        <item itemvalue="Python.celfa_eval" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8568b88-8d9c-4aa2-b9b0-8d44ecc78ee7" name="Changes" comment="" />
+      <created>1644603357555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644603357555</updated>
+    </task>
+    <task id="LOCAL-00001" summary="range for file loading">
+      <created>1648664056567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648664056567</updated>
+    </task>
+    <task id="LOCAL-00002" summary="load_data fix">
+      <created>1648664562250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648664562250</updated>
+    </task>
+    <task id="LOCAL-00003" summary="load_data fix attempt 2">
+      <created>1648664676993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648664676993</updated>
+    </task>
+    <task id="LOCAL-00004" summary="find_number_files beam_mrd_coinc">
+      <created>1648665052390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648665052390</updated>
+    </task>
+    <task id="LOCAL-00005" summary="find_number_files beam_mrd_coinc">
+      <created>1648666200922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648666200922</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Evaluator.mode -&gt; em / rc">
+      <created>1648666996057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648666996057</updated>
+    </task>
+    <task id="LOCAL-00007" summary="cm plot + bundle fix">
+      <created>1648667815785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648667815785</updated>
+    </task>
+    <task id="LOCAL-00008" summary="bunde add real_data_indices">
+      <created>1648668286596</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648668286596</updated>
+    </task>
+    <task id="LOCAL-00009" summary="default title change">
+      <created>1648669030568</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648669030568</updated>
+    </task>
+    <task id="LOCAL-00010" summary="bundle fix">
+      <created>1648669388451</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648669388451</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bundle fix">
+      <created>1648669685868</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648669685868</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix stats data for data dict is none">
+      <created>1648670455263</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648670455263</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix stats_dict of eval class">
+      <created>1648670685214</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648670685214</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix stats_dict of eval class">
+      <created>1648670919623</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648670919623</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix stats_dict of eval class">
+      <created>1648671031135</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648671031135</updated>
+    </task>
+    <task id="LOCAL-00016" summary="plot_histogram of Evaluator now exits when category is not present in stats_data dict">
+      <created>1648671998313</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648671998313</updated>
+    </task>
+    <task id="LOCAL-00017" summary="plot_histogram of Evaluator now exits when category is not present in stats_data dict">
+      <created>1648672105482</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1648672105482</updated>
+    </task>
+    <task id="LOCAL-00018" summary="plot_histogram of Evaluator now exits when category is not present in stats_data dict">
+      <created>1648672264779</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648672264779</updated>
+    </task>
+    <task id="LOCAL-00019" summary="dataset_stats added">
+      <created>1648731412369</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648731412369</updated>
+    </task>
+    <task id="LOCAL-00020" summary="dataset_stats fix">
+      <created>1648732355376</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648732355376</updated>
+    </task>
+    <task id="LOCAL-00021" summary="dataset_stats fix">
+      <created>1648732457067</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1648732457067</updated>
+    </task>
+    <task id="LOCAL-00022" summary="dataset_stats mr stuff">
+      <created>1648732717169</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648732717169</updated>
+    </task>
+    <task id="LOCAL-00023" summary="dataset_stats fix average">
+      <created>1648732991583</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648732991583</updated>
+    </task>
+    <task id="LOCAL-00024" summary="dataset_stats rm print">
+      <created>1648733098243</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648733098243</updated>
+    </task>
+    <task id="LOCAL-00025" summary="dataset_stats rm print">
+      <created>1648733522075</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648733522075</updated>
+    </task>
+    <task id="LOCAL-00026" summary="dataset_stats muon / e count">
+      <created>1648733595818</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648733595818</updated>
+    </task>
+    <task id="LOCAL-00027" summary="dataset_stats neutron count">
+      <created>1648733895973</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648733895973</updated>
+    </task>
+    <task id="LOCAL-00028" summary="dataset_stats neutron count">
+      <created>1648733996213</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1648733996213</updated>
+    </task>
+    <task id="LOCAL-00029" summary="support neutron number loading">
+      <created>1648734012698</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1648734012698</updated>
+    </task>
+    <task id="LOCAL-00030" summary="support charge null sum">
+      <created>1648734824858</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1648734824858</updated>
+    </task>
+    <task id="LOCAL-00031" summary="support charge null sum">
+      <created>1648734863235</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1648734863235</updated>
+    </task>
+    <task id="LOCAL-00032" summary="plot_probability_hist eval and bundle now support joint plt">
+      <created>1648739008668</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1648739008668</updated>
+    </task>
+    <task id="LOCAL-00033" summary="some cleanup">
+      <created>1648807667045</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1648807667045</updated>
+    </task>
+    <task id="LOCAL-00034" summary="lots of documentation added, slightly modified behaviour of some methods; more quality of life functionality added such as saving. See changelog for comprehensive list of changes.">
+      <created>1648909114587</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1648909114587</updated>
+    </task>
+    <task id="LOCAL-00035" summary="bugfix">
+      <created>1649244103317</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1649244103317</updated>
+    </task>
+    <task id="LOCAL-00036" summary="bugfix">
+      <created>1649244497818</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1649244497818</updated>
+    </task>
+    <task id="LOCAL-00037" summary="bugfix">
+      <created>1649244601363</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1649244601363</updated>
+    </task>
+    <task id="LOCAL-00038" summary="dataset_stats now supports pre-built data">
+      <created>1649322662595</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1649322662595</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added mrd_hist()">
+      <created>1649770469702</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1649770469702</updated>
+    </task>
+    <task id="LOCAL-00040" summary="added mrd to plot_accuracy()">
+      <created>1649779046900</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1649779046900</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added mrd to plot_accuracy()">
+      <created>1649779051930</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1649779051930</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix">
+      <created>1649932355808</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1649932355808</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix plot_histogram()">
+      <created>1649940132579</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1649940132579</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added data wrappers">
+      <created>1650193639635</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1650193639635</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added reshape_data_entry">
+      <created>1650197240114</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1650197240114</updated>
+    </task>
+    <task id="LOCAL-00046" summary="expdata added to Evaluator">
+      <created>1650202356761</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1650202356761</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added support for resnets">
+      <created>1650292883506</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1650292883506</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added support for celfa_data.SimulationData in Evaluator">
+      <created>1650297730262</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1650297730262</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added support for celfa_data.SimulationData in Evaluator&#10;&#10;added lots and lots of stuff">
+      <created>1665180044403</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1665180044403</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="plot_histogram of Evaluator now exits when category is not present in stats_data dict" />
+    <MESSAGE value="dataset_stats added" />
+    <MESSAGE value="dataset_stats fix" />
+    <MESSAGE value="dataset_stats mr stuff" />
+    <MESSAGE value="dataset_stats fix average" />
+    <MESSAGE value="dataset_stats rm print" />
+    <MESSAGE value="dataset_stats muon / e count" />
+    <MESSAGE value="dataset_stats neutron count" />
+    <MESSAGE value="support neutron number loading" />
+    <MESSAGE value="support charge null sum" />
+    <MESSAGE value="plot_probability_hist eval and bundle now support joint plt" />
+    <MESSAGE value="some cleanup" />
+    <MESSAGE value="lots of documentation added, slightly modified behaviour of some methods; more quality of life functionality added such as saving. See changelog for comprehensive list of changes." />
+    <MESSAGE value="bugfix" />
+    <MESSAGE value="dataset_stats now supports pre-built data" />
+    <MESSAGE value="added mrd_hist()" />
+    <MESSAGE value="added mrd to plot_accuracy()" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fix plot_histogram()" />
+    <MESSAGE value="added data wrappers" />
+    <MESSAGE value="added reshape_data_entry" />
+    <MESSAGE value="expdata added to Evaluator" />
+    <MESSAGE value="added support for resnets" />
+    <MESSAGE value="added support for celfa_data.SimulationData in Evaluator" />
+    <MESSAGE value="added support for celfa_data.SimulationData in Evaluator&#10;&#10;added lots and lots of stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="added support for celfa_data.SimulationData in Evaluator&#10;&#10;added lots and lots of stuff" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celfa_eval.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celfa_eval.py</url>
+          <line>152</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celfa_eval.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celfa_eval.py</url>
+          <line>196</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celfa_eval.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celfa_eval.py</url>
+          <line>409</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celfa_eval.py</url>
+          <line>419</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/celfa_eval.py</url>
+          <line>420</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
