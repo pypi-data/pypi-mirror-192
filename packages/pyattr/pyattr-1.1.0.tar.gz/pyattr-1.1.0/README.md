@@ -1,0 +1,56 @@
+# pyattr
+
+[![PyPI](https://img.shields.io/pypi/v/pyattr)](https://pypi.org/project/pyattr)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pyattr)](https://pypi.org/project/pyattr/#files)
+![Lines of Code](https://img.shields.io/github/languages/code-size/skifli/pyattr)
+
+- [pyattr](#pyattr)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Example](#example)
+
+While Python does have name mangling, it is not nearly as powerful as access modifiers found in languages such as C++. **pyattr** provides an easy-to-use API for access modifiers in Python, and is actively developed.
+
+## Installation
+
+Installation via **pip**:
+
+```
+pip install pyattr
+```
+
+## Usage
+
+All you have to do is make your class inherit from the **`pyattr.Protected`** class, and add **`super().__init__()`** as the first line in the **`__init__`** function of your class. And that's it! **pyattr** will handle the magic to make sure variables cannot be accessed / set where the shouldn't be. It also provides useful error messages to users.
+
+## Example
+
+Here is a simple examples involving a protected variable.
+
+```python
+from pyattr import Protected
+
+class Example(Protected):
+    def __init__(self) -> None:
+        super().__init__()
+
+        self.__name = "pyattr"
+
+example = Example()
+print(example.__name) # Error - '__name' is a protected attribute of 'Example'.
+```
+
+As well as variables, **pyattr** also supports access control of functions!
+
+```python
+class Example(Protected):
+    def __init__(self) -> None:
+        super().__init__()
+
+    def __example(self) -> None:
+        pass
+
+
+example = Example()
+print(example.__example())  # Error - '__example' is a protected attribute of 'Example'.
+```
