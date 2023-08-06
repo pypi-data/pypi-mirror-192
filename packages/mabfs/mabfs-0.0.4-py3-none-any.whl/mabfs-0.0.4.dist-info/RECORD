@@ -1,0 +1,9 @@
+mabfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mabfs/distributions.py,sha256=elWETvNJKmatMuyxXryhocCkthv8VMskqRkDxyrGhoA,398
+mabfs/tests.py,sha256=1IAjUWZ_WMDDUGFDbVfRcxlByOacv0hbRpBuGsBhaBY,1760
+mabfs/ts_selector.py,sha256=p9EkWqUV5TN2lyRKnLKxpPbdo80pzEM-cRI2BQKMANY,7936
+mabfs-0.0.4.dist-info/LICENSE,sha256=TQid2L3LuisyEN_6ANpLFQkgS2s8TLbXMSoeJkiLKac,1065
+mabfs-0.0.4.dist-info/METADATA,sha256=-woBEchw5siHrP5d8N4SmN4wk7u4zGaL7dvYAT1sBJs,2839
+mabfs-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mabfs-0.0.4.dist-info/top_level.txt,sha256=4FG_3TzXSw-U5jkE2P740Um9ZeibsR3lZkeuRUxc4RY,6
+mabfs-0.0.4.dist-info/RECORD,,
