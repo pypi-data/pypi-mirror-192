@@ -1,0 +1,8 @@
+nltk
+numpy
+river
+scikit_learn
+scipy
+torch
+tqdm
+word-embeddings-benchmarks
