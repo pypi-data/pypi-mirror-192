@@ -1,0 +1,12 @@
+astropy
+corner
+emcee
+lmfit
+matplotlib
+numdifftools
+numpy
+scipy
+threadpoolctl
+tomli
+tqdm
+ndradexhyperfine

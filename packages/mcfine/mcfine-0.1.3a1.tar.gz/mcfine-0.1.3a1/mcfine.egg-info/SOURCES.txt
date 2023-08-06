@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mcfine/__init__.py
+mcfine/fitting.py
+mcfine/line_info.py
+mcfine/plotting.py
+mcfine/utils.py
+mcfine.egg-info/PKG-INFO
+mcfine.egg-info/SOURCES.txt
+mcfine.egg-info/dependency_links.txt
+mcfine.egg-info/requires.txt
+mcfine.egg-info/top_level.txt
