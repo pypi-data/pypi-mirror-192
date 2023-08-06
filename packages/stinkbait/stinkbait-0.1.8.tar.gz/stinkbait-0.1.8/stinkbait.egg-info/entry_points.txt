@@ -1,0 +1,2 @@
+[console_scripts]
+stinkbait = stinkbait.main:main
