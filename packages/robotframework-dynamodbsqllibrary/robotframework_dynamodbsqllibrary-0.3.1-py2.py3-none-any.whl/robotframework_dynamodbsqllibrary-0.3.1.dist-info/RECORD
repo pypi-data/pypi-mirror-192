@@ -1,0 +1,11 @@
+DynamoDBSQLLibrary/__init__.py,sha256=vMH5pu1z86s_zavcDqE8Ss7e8cQGMNGALKmNdJBUau0,4463
+DynamoDBSQLLibrary/version.py,sha256=vqciMtWg5TSJf4rTTythu1BW4nnOHj4RCQUvZW-_w9g,1095
+DynamoDBSQLLibrary/keywords/__init__.py,sha256=PLUQTj4GpenD92qXhLMN9iU26V4w7k8uY5F_hDt0Srw,1239
+DynamoDBSQLLibrary/keywords/assertion.py,sha256=dn0YEUb_2AbOakvYGZ74J2pFY9QkjtS_el1Ptm1mvVM,10804
+DynamoDBSQLLibrary/keywords/query.py,sha256=ZqnzaHbymQS9n3NrrsPVD_fTG_4lK8tf84XvPXW_yHM,4133
+DynamoDBSQLLibrary/keywords/session.py,sha256=Jnx7sLpIEN91-4WP0IG8MAfnRC77VA72EnYGdwOxb7A,7783
+robotframework_dynamodbsqllibrary-0.3.1.dist-info/LICENSE,sha256=EO3mE8zoHcU4HsnBoI3P3NQl0qGGo--yUjHuO6MIWFo,34521
+robotframework_dynamodbsqllibrary-0.3.1.dist-info/METADATA,sha256=hWsF7kEj5MhjGVFylBUhFse5dAXBlgyvVsoOBwVNOJM,13135
+robotframework_dynamodbsqllibrary-0.3.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+robotframework_dynamodbsqllibrary-0.3.1.dist-info/top_level.txt,sha256=sPwerOsLZ3TRoa6uGD_uhwwYlc7P-1WePD4MvdKKYns,19
+robotframework_dynamodbsqllibrary-0.3.1.dist-info/RECORD,,
