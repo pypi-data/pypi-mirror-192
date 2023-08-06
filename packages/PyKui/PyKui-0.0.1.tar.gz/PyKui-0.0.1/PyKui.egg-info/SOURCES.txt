@@ -1,0 +1,6 @@
+README.md
+setup.py
+PyKui.egg-info/PKG-INFO
+PyKui.egg-info/SOURCES.txt
+PyKui.egg-info/dependency_links.txt
+PyKui.egg-info/top_level.txt
