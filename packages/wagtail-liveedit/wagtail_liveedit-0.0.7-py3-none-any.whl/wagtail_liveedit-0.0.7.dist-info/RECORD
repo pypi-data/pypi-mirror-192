@@ -1,0 +1,15 @@
+liveedit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liveedit/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liveedit/urls.py,sha256=o_QwXPI0PiKIBEeAloNC57XFFByLva1fJEqyIkbfVuE,227
+liveedit/utils.py,sha256=aG0-iwoHNwokFT57C3zIJLhIsfuof0A_Y9HZg-6MQgo,656
+liveedit/views.py,sha256=o-goOyjBXw-yoHHB8O31euQLzLEPwwlDWVw8hnqmxVM,9917
+liveedit/static/css/liveedit.css,sha256=IubqrQx3SnrSOY1e5HYAFqOXtuFR3_NMmzesSRVkUjc,1983
+liveedit/static/js/liveedit.js,sha256=3SBOcsKdbFzmUDAbyVNY3fF8GYC6AXN_czovf_5VUh0,8756
+liveedit/templates/liveedit/edit_panel.html,sha256=9dSQE-hhMs2jF45Yl83IbrwfVUlPIXkL5x6Zs1hRu2g,1888
+liveedit/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+liveedit/templatetags/liveedit.py,sha256=tA2zNlTAv8NiGq0S3EzHpqJBK0CkAO9n1-MzcH30cv4,4792
+wagtail_liveedit-0.0.7.dist-info/LICENSE,sha256=8VWzw_vC2TA5WuMe0ETAZIIIE1ZUgMmHuqjuT8Ox9gI,1067
+wagtail_liveedit-0.0.7.dist-info/METADATA,sha256=kawzMDEI6TfRaC_qmwCj6kqXe3_1hq2uGCh2zxz60kM,454
+wagtail_liveedit-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wagtail_liveedit-0.0.7.dist-info/top_level.txt,sha256=0ZuMbLb_65ftqXjPuaOGsyS8fIdLnVO8bAD4ffwV5Fo,9
+wagtail_liveedit-0.0.7.dist-info/RECORD,,
