@@ -1,0 +1,59 @@
+# Simple categorisation
+
+[![builds.sr.ht status](https://builds.sr.ht/~jbrobertson/simple-categorisation.git/commits/master/.build.yml.svg)](https://builds.sr.ht/~jbrobertson/simple-categorisation.git/commits/master/.build.yml?)
+
+Define categories and sub-categories with predicates, and categorise
+lists of items based on these categories:
+
+```python
+cat = Categoriser()
+# The category of items that are < 0.5
+cat.add("x < 0.5", lambda x: x < 0.5)
+# Items over 1
+over_1 = cat.add("x >= 1", lambda x: x >= 1)
+# Items between 1.1 and 1.2, as a subcategory of items over 1
+over_1.add("1.2 > x >= 1.1", lambda x: 1.2 > x >= 1.1)
+over_1.add("x > 1.2", lambda x: x >= 1.2)
+
+result = cat.categorise_list([0.01, 0.6, 1.001, 1.05, 1.1, 1.2, 3])
+summarised = result.summarise()
+print(summarised)
+```
+This should show something along the lines of:
+```json
+{
+    "categories": [
+        {"category_name": "x < 0.5", "matches": 1},
+        {
+            "category_name": "x >= 1", "matches": 5,
+            "categories": [
+                {"category_name": "1.2 > x >= 1.1", "matches": 1},
+                {"category_name": "x > 1.2", "matches": 2},
+                {"unmatched_items": 2}
+            ]
+        },
+        {"unmatched_items": 1}
+    ]
+}
+```
+
+It is possible to obtain a Sankey diagram with plotly for the same
+example.
+
+First, install plotly
+```shell
+pip install plotly
+```
+Then:
+```python
+parameters = result.plotly_sankey(top_label="Top")
+
+import plotly.graph_objects as go
+fig = go.Figure(data=[go.Sankey(parameters)])
+fig.update_layout(title_text="Example Sankey Diagram", font_size=20)
+fig.show()
+```
+
+This should display the following:
+
+![Example Sankey diagram](example-sankey.png)
