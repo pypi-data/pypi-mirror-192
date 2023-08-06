@@ -1,0 +1,2 @@
+[frostfs.testlib.hosting]
+sbercloud = frostfs_testlib_plugin_sbercloud.sbercloud_host:SbercloudHost

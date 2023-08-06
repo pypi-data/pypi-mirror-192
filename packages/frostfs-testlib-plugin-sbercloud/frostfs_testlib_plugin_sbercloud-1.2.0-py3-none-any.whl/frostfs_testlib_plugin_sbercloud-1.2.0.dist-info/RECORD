@@ -1,0 +1,10 @@
+frostfs_testlib_plugin_sbercloud/__init__.py,sha256=MpAT5hgNoHnTtG1XRD_GV_A7QrHVU6vJjGSw_8qMGA4,22
+frostfs_testlib_plugin_sbercloud/sbercloud_auth_requests.py,sha256=KihsiWijQL106HnRS6DXO3X_lCUZGBamjpvQX_fHVKY,6654
+frostfs_testlib_plugin_sbercloud/sbercloud_client.py,sha256=y6Bvs6ijiussboE_3XotlV6FWY-vfVzWxrNEAffomCU,4103
+frostfs_testlib_plugin_sbercloud/sbercloud_host.py,sha256=baPhIo_0fe9OW3R3Eo-Vql4fJ6Lz49X_FYYgobOKaOw,10895
+frostfs_testlib_plugin_sbercloud-1.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+frostfs_testlib_plugin_sbercloud-1.2.0.dist-info/METADATA,sha256=44UnRFbQsJXL_nAJlmxG9is559utQ-Y6KEdKi8Qb2xo,1353
+frostfs_testlib_plugin_sbercloud-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+frostfs_testlib_plugin_sbercloud-1.2.0.dist-info/entry_points.txt,sha256=chMqkbFynzBvoVbJigQVePWpKcbUdDb7H2upRkEFdKk,100
+frostfs_testlib_plugin_sbercloud-1.2.0.dist-info/top_level.txt,sha256=HfuVQ_ihXdun_XBwGnBIregTN5t4vKt3o3hcdkl77MY,33
+frostfs_testlib_plugin_sbercloud-1.2.0.dist-info/RECORD,,
