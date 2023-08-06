@@ -1,0 +1,8 @@
+coverage
+nose
+pytest
+pytest-cov
+pytest-pep8
+pytest-emoji
+pytest-flake8
+wemake-python-styleguide
