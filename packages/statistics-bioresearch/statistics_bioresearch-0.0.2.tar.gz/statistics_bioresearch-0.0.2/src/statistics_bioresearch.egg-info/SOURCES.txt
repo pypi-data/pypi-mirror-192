@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/statistics_bioresearch/__init__.py
+src/statistics_bioresearch/constants.py
+src/statistics_bioresearch/fisher.py
+src/statistics_bioresearch/wilson.py
+src/statistics_bioresearch.egg-info/PKG-INFO
+src/statistics_bioresearch.egg-info/SOURCES.txt
+src/statistics_bioresearch.egg-info/dependency_links.txt
+src/statistics_bioresearch.egg-info/top_level.txt

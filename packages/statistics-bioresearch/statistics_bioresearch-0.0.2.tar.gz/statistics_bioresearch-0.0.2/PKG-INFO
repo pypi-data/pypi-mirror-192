@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: statistics_bioresearch
+Version: 0.0.2
+Summary: Statistics for biological researches
+Author-email: Andrey Kochetkov <kochetkovandrew@gmail.com>
+Project-URL: Homepage, https://github.com/kochetkovandrew/statistics
+Project-URL: Bug Tracker, https://github.com/kochetkovandrew/statistics/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Statistics
+
+Statistics for biological researches
+
+## Confidence intervals for proportions
+
++ Arcsine (Fisher) method
++ Wilson method
+
+
