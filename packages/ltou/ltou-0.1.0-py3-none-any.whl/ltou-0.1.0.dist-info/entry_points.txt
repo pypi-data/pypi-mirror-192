@@ -1,0 +1,3 @@
+[console_scripts]
+ltou=ltou.__main__:main
+
