@@ -1,0 +1,4 @@
+pytest
+pytest_socket
+pytest-asyncio
+python-decouple

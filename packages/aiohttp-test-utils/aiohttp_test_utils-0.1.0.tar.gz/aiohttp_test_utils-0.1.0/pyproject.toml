@@ -1,0 +1,6 @@
+[build-system]
+requires = [
+  # the minimum version that supports `attr` in setup.cfg
+  "setuptools>=46.4.0",
+]
+build-backend = "setuptools.build_meta"

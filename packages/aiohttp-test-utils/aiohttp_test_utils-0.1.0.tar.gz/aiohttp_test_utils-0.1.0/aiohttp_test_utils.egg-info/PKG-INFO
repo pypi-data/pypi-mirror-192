@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aiohttp-test-utils
+Version: 0.1.0
+Summary: a small library used for testing aiohttp projects
+Home-page: https://github.com/5j9/aiohttp_test_utils
+Author: 5j9
+Author-email: 5j9@users.noreply.github.com
+License: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+
+This library is not intended for public use.
+
