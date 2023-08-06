@@ -1,0 +1,229 @@
+2023-02-16 03:12:36,052 : INFO : environment : initialize : Line 59 : 
+
+    ██████╗ ██╗     ██╗   ██╗███████╗███╗   ███╗██╗███████╗████████╗               █████╗ ██╗
+    ██╔══██╗██║     ██║   ██║██╔════╝████╗ ████║██║██╔════╝╚══██╔══╝              ██╔══██╗██║
+    ██████╔╝██║     ██║   ██║█████╗  ██╔████╔██║██║███████╗   ██║       █████╗    ███████║██║
+    ██╔══██╗██║     ██║   ██║██╔══╝  ██║╚██╔╝██║██║╚════██║   ██║       ╚════╝    ██╔══██║██║
+    ██████╔╝███████╗╚██████╔╝███████╗██║ ╚═╝ ██║██║███████║   ██║                 ██║  ██║██║
+    ╚═════╝ ╚══════╝ ╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝╚══════╝   ╚═╝                 ╚═╝  ╚═╝╚═╝                                                                                           
+    (version 0.1.1)
+    
+2023-02-16 03:12:36,082 : INFO : environment : initialize : Line 64 : System platform :: posix, 5.19.0-31-generic, linux-x86_64, ('64bit', 'ELF')
+2023-02-16 03:12:36,083 : DEBUG : environment : initialize : Line 67 : Printing environment variables...
+2023-02-16 03:12:36,083 : DEBUG : environment : initialize : Line 69 : PATH=/home/shashank-agrawal/anaconda3/envs/bluemist-ai/bin:/home/shashank-agrawal/anaconda3/condabin:/home/shashank-agrawal/bin:/home/shashank-agrawal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+2023-02-16 03:12:36,083 : DEBUG : environment : initialize : Line 69 : XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.44TWZ1
+2023-02-16 03:12:36,083 : DEBUG : environment : initialize : Line 69 : INVOCATION_ID=f4122c3abeb34763a717f390101010e6
+2023-02-16 03:12:36,083 : DEBUG : environment : initialize : Line 69 : XMODIFIERS=@im=ibus
+2023-02-16 03:12:36,083 : DEBUG : environment : initialize : Line 69 : XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+2023-02-16 03:12:36,083 : DEBUG : environment : initialize : Line 69 : GDMSESSION=ubuntu
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : SNAP_COMMON=/var/snap/pycharm-community/common
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : CONDA_DEFAULT_ENV=bluemist-ai
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : SNAP_INSTANCE_KEY=
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : SNAP_USER_COMMON=/home/shashank-agrawal/snap/pycharm-community/common
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : SNAP_REVISION=315
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : XDG_CURRENT_DESKTOP=ubuntu:GNOME
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : CONDA_PREFIX=/home/shashank-agrawal/anaconda3/envs/bluemist-ai
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : JOURNAL_STREAM=8:2142907
+2023-02-16 03:12:36,084 : DEBUG : environment : initialize : Line 69 : SESSION_MANAGER=local/Lenovo-G510:@/tmp/.ICE-unix/218463,unix/Lenovo-G510:/tmp/.ICE-unix/218463
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : USERNAME=shashank-agrawal
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : LOGNAME=shashank-agrawal
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : PWD=/home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : MANAGERPID=218202
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : IM_CONFIG_PHASE=1
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : PYCHARM_HOSTED=1
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : PYTHONPATH=/home/shashank-agrawal/PycharmProjects/bluemist-ai
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : SHELL=/bin/bash
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : GIO_LAUNCHED_DESKTOP_FILE=/var/lib/snapd/desktop/applications/pycharm-community_pycharm-community.desktop
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/pycharm-community_pycharm-community.desktop
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+2023-02-16 03:12:36,085 : DEBUG : environment : initialize : Line 69 : GTK_MODULES=gail:atk-bridge
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : SNAP_ARCH=amd64
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : DEBUGINFOD_URLS=https://debuginfod.ubuntu.com 
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : CONDA_PROMPT_MODIFIER=(bluemist-ai) 
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : SYSTEMD_EXEC_PID=218495
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : XDG_SESSION_DESKTOP=ubuntu
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : GNOME_SETUP_DISPLAY=:1
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : SNAP_LIBRARY_PATH=/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : SSH_AGENT_LAUNCHER=openssh
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : SHLVL=0
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : SNAP_NAME=pycharm-community
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : QT_IM_MODULE=ibus
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+2023-02-16 03:12:36,086 : DEBUG : environment : initialize : Line 69 : LANG=en_US.UTF-8
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : SNAP_INSTANCE_NAME=pycharm-community
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : XDG_SESSION_TYPE=wayland
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : SNAP_USER_DATA=/home/shashank-agrawal/snap/pycharm-community/315
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : DISPLAY=:0
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : SNAP_REEXEC=
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : WAYLAND_DISPLAY=wayland-0
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : SNAP_VERSION=2022.3.2
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : CONDA_SHLVL=1
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : XDG_SESSION_CLASS=user
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : _=/usr/bin/gnome-session
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : SNAP_DATA=/var/snap/pycharm-community/315
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : PYTHONIOENCODING=UTF-8
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : DESKTOP_SESSION=ubuntu
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : SNAP=/snap/pycharm-community/315
+2023-02-16 03:12:36,087 : DEBUG : environment : initialize : Line 69 : USER=shashank-agrawal
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : SNAP_REAL_HOME=/home/shashank-agrawal
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : XDG_MENU_PREFIX=gnome-
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : GIO_LAUNCHED_DESKTOP_FILE_PID=222343
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : QT_ACCESSIBILITY=1
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : GJS_DEBUG_OUTPUT=stderr
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : PYTHONUNBUFFERED=1
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : QT_QPA_PLATFORMTHEME=appmenu-qt5
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : GNOME_SHELL_SESSION_MODE=ubuntu
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : SNAP_CONTEXT=TH5tqtxLmo9ShdKlEBAZc6u4bWIr3M0WWbdvPINAEAQmrjxaSIQE
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : XDG_RUNTIME_DIR=/run/user/1000
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : SNAP_COOKIE=TH5tqtxLmo9ShdKlEBAZc6u4bWIr3M0WWbdvPINAEAQmrjxaSIQE
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : HOME=/home/shashank-agrawal
+2023-02-16 03:12:36,088 : DEBUG : environment : initialize : Line 69 : KMP_DUPLICATE_LIB_OK=True
+2023-02-16 03:12:36,089 : DEBUG : environment : initialize : Line 69 : KMP_INIT_AT_FORK=FALSE
+2023-02-16 03:12:36,089 : DEBUG : environment : initialize : Line 69 : BLUEMIST_PATH=/home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist
+2023-02-16 03:12:36,089 : DEBUG : environment : initialize : Line 77 : Removing directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/data
+2023-02-16 03:12:36,089 : DEBUG : environment : initialize : Line 80 : Creating directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/data
+2023-02-16 03:12:36,089 : DEBUG : environment : initialize : Line 77 : Removing directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/eda
+2023-02-16 03:12:36,089 : DEBUG : environment : initialize : Line 80 : Creating directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/eda
+2023-02-16 03:12:36,089 : DEBUG : environment : initialize : Line 77 : Removing directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/experiments
+2023-02-16 03:12:36,089 : DEBUG : environment : initialize : Line 80 : Creating directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/experiments
+2023-02-16 03:12:36,090 : DEBUG : environment : initialize : Line 77 : Removing directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/models
+2023-02-16 03:12:36,090 : DEBUG : environment : initialize : Line 80 : Creating directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/models
+2023-02-16 03:12:36,090 : DEBUG : environment : initialize : Line 77 : Removing directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/preprocessor
+2023-02-16 03:12:36,090 : DEBUG : environment : initialize : Line 80 : Creating directory :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/preprocessor
+2023-02-16 03:12:36,090 : DEBUG : environment : initialize : Line 84 : Clearing file content of /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/api/predict.py
+2023-02-16 03:12:36,100 : INFO : preprocessor : preprocess_data : Line 114 : Shape of the dataset :: (442, 11)
+2023-02-16 03:12:36,101 : INFO : preprocessor : preprocess_data : Line 115 : Columns in the dataset :: 
+Index(['age', 'sex', 'bmi', 'bp', 's1', 's2', 's3', 's4', 's5', 's6',
+       'target'],
+      dtype='object')
+2023-02-16 03:12:36,102 : DEBUG : preprocessor : preprocess_data : Line 172 : data.dtypes before preprocessing  :: 
+age       float64
+sex       float64
+bmi       float64
+bp        float64
+s1        float64
+s2        float64
+s3        float64
+s4        float64
+s5        float64
+s6        float64
+target    float64
+dtype: object
+2023-02-16 03:12:36,104 : DEBUG : preprocessor : preprocess_data : Line 178 : data.dtypes after dtype conversion  :: 
+age       float64
+sex        object
+bmi       float64
+bp        float64
+s1        float64
+s2        float64
+s3        float64
+s4        float64
+s5        float64
+s6        float64
+target    float64
+dtype: object
+2023-02-16 03:12:36,106 : DEBUG : preprocessor : preprocess_data : Line 199 : Splitting dataset into X_train, X_test, y_train, y_test...
+2023-02-16 03:12:36,107 : DEBUG : preprocessor : preprocess_data : Line 202 : X_train.dtypes before ColumnTransformer :: 
+age    float64
+sex     object
+bmi    float64
+bp     float64
+s1     float64
+s2     float64
+s3     float64
+s4     float64
+s5     float64
+s6     float64
+dtype: object
+2023-02-16 03:12:36,124 : DEBUG : preprocessor : preprocess_data : Line 209 : X_train Columns after ColumnTransformer :: ['age' 'bmi' 'bp' 's1' 's2' 's3' 's4' 's5' 's6'
+ 'sex_-0.044641636506989144' 'sex_0.05068011873981862']
+2023-02-16 03:12:36,125 : DEBUG : preprocessor : preprocess_data : Line 210 : X_train.dtypes after ColumnTransformer :: 
+age                          float64
+bmi                          float64
+bp                           float64
+s1                           float64
+s2                           float64
+s3                           float64
+s4                           float64
+s5                           float64
+s6                           float64
+sex_-0.044641636506989144    float64
+sex_0.05068011873981862      float64
+dtype: object
+2023-02-16 03:12:36,125 : DEBUG : preprocessor : preprocess_data : Line 215 : Saving preprocessor to disk...
+2023-02-16 03:12:36,125 : INFO : bluemist_pipeline : save_preprocessor : Line 18 : Saving preprocessor to disk on :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/preprocessor/preprocessor.joblib
+2023-02-16 03:12:36,134 : DEBUG : bluemist_pipeline : save_preprocessor : Line 20 : Preprocessor column transformer object :: ColumnTransformer(transformers=[('numeric_transformer',
+                                 Pipeline(steps=[('imputer', SimpleImputer()),
+                                                 ('scaler', StandardScaler())]),
+                                 ['age', 'bmi', 'bp', 's1', 's2', 's3', 's4',
+                                  's5', 's6']),
+                                ('categorical_transformer',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('one_hot_encoder',
+                                                  OneHotEncoder())]),
+                                 ['sex'])],
+                  verbose_feature_names_out=False)
+2023-02-16 03:12:36,223 : DEBUG : regressor : get_estimators : Line 75 : All available estimators :: [('ARDRegression', <class 'sklearn.linear_model._bayes.ARDRegression'>), ('AdaBoostRegressor', <class 'sklearn.ensemble._weight_boosting.AdaBoostRegressor'>), ('BaggingRegressor', <class 'sklearn.ensemble._bagging.BaggingRegressor'>), ('BayesianRidge', <class 'sklearn.linear_model._bayes.BayesianRidge'>), ('CCA', <class 'sklearn.cross_decomposition._pls.CCA'>), ('DecisionTreeRegressor', <class 'sklearn.tree._classes.DecisionTreeRegressor'>), ('DummyRegressor', <class 'sklearn.dummy.DummyRegressor'>), ('ElasticNet', <class 'sklearn.linear_model._coordinate_descent.ElasticNet'>), ('ElasticNetCV', <class 'sklearn.linear_model._coordinate_descent.ElasticNetCV'>), ('ExtraTreeRegressor', <class 'sklearn.tree._classes.ExtraTreeRegressor'>), ('ExtraTreesRegressor', <class 'sklearn.ensemble._forest.ExtraTreesRegressor'>), ('GammaRegressor', <class 'sklearn.linear_model._glm.glm.GammaRegressor'>), ('GaussianProcessRegressor', <class 'sklearn.gaussian_process._gpr.GaussianProcessRegressor'>), ('GradientBoostingRegressor', <class 'sklearn.ensemble._gb.GradientBoostingRegressor'>), ('HistGradientBoostingRegressor', <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'>), ('HuberRegressor', <class 'sklearn.linear_model._huber.HuberRegressor'>), ('IsotonicRegression', <class 'sklearn.isotonic.IsotonicRegression'>), ('KNeighborsRegressor', <class 'sklearn.neighbors._regression.KNeighborsRegressor'>), ('KernelRidge', <class 'sklearn.kernel_ridge.KernelRidge'>), ('Lars', <class 'sklearn.linear_model._least_angle.Lars'>), ('LarsCV', <class 'sklearn.linear_model._least_angle.LarsCV'>), ('Lasso', <class 'sklearn.linear_model._coordinate_descent.Lasso'>), ('LassoCV', <class 'sklearn.linear_model._coordinate_descent.LassoCV'>), ('LassoLars', <class 'sklearn.linear_model._least_angle.LassoLars'>), ('LassoLarsCV', <class 'sklearn.linear_model._least_angle.LassoLarsCV'>), ('LassoLarsIC', <class 'sklearn.linear_model._least_angle.LassoLarsIC'>), ('LinearRegression', <class 'sklearn.linear_model._base.LinearRegression'>), ('LinearSVR', <class 'sklearn.svm._classes.LinearSVR'>), ('MLPRegressor', <class 'sklearn.neural_network._multilayer_perceptron.MLPRegressor'>), ('MultiOutputRegressor', <class 'sklearn.multioutput.MultiOutputRegressor'>), ('MultiTaskElasticNet', <class 'sklearn.linear_model._coordinate_descent.MultiTaskElasticNet'>), ('MultiTaskElasticNetCV', <class 'sklearn.linear_model._coordinate_descent.MultiTaskElasticNetCV'>), ('MultiTaskLasso', <class 'sklearn.linear_model._coordinate_descent.MultiTaskLasso'>), ('MultiTaskLassoCV', <class 'sklearn.linear_model._coordinate_descent.MultiTaskLassoCV'>), ('NuSVR', <class 'sklearn.svm._classes.NuSVR'>), ('OrthogonalMatchingPursuit', <class 'sklearn.linear_model._omp.OrthogonalMatchingPursuit'>), ('OrthogonalMatchingPursuitCV', <class 'sklearn.linear_model._omp.OrthogonalMatchingPursuitCV'>), ('PLSCanonical', <class 'sklearn.cross_decomposition._pls.PLSCanonical'>), ('PLSRegression', <class 'sklearn.cross_decomposition._pls.PLSRegression'>), ('PassiveAggressiveRegressor', <class 'sklearn.linear_model._passive_aggressive.PassiveAggressiveRegressor'>), ('PoissonRegressor', <class 'sklearn.linear_model._glm.glm.PoissonRegressor'>), ('QuantileRegressor', <class 'sklearn.linear_model._quantile.QuantileRegressor'>), ('RANSACRegressor', <class 'sklearn.linear_model._ransac.RANSACRegressor'>), ('RadiusNeighborsRegressor', <class 'sklearn.neighbors._regression.RadiusNeighborsRegressor'>), ('RandomForestRegressor', <class 'sklearn.ensemble._forest.RandomForestRegressor'>), ('RegressorChain', <class 'sklearn.multioutput.RegressorChain'>), ('Ridge', <class 'sklearn.linear_model._ridge.Ridge'>), ('RidgeCV', <class 'sklearn.linear_model._ridge.RidgeCV'>), ('SGDRegressor', <class 'sklearn.linear_model._stochastic_gradient.SGDRegressor'>), ('SVR', <class 'sklearn.svm._classes.SVR'>), ('StackingRegressor', <class 'sklearn.ensemble._stacking.StackingRegressor'>), ('TheilSenRegressor', <class 'sklearn.linear_model._theil_sen.TheilSenRegressor'>), ('TransformedTargetRegressor', <class 'sklearn.compose._target.TransformedTargetRegressor'>), ('TweedieRegressor', <class 'sklearn.linear_model._glm.glm.TweedieRegressor'>), ('VotingRegressor', <class 'sklearn.ensemble._voting.VotingRegressor'>)]
+2023-02-16 03:12:36,223 : DEBUG : regressor : get_estimators : Line 88 : Estimators not supported by Bluemist AI :: [('IsotonicRegression', <class 'sklearn.isotonic.IsotonicRegression'>), ('MultiOutputRegressor', <class 'sklearn.multioutput.MultiOutputRegressor'>), ('MultiTaskElasticNet', <class 'sklearn.linear_model._coordinate_descent.MultiTaskElasticNet'>), ('MultiTaskElasticNetCV', <class 'sklearn.linear_model._coordinate_descent.MultiTaskElasticNetCV'>), ('MultiTaskLasso', <class 'sklearn.linear_model._coordinate_descent.MultiTaskLasso'>), ('MultiTaskLassoCV', <class 'sklearn.linear_model._coordinate_descent.MultiTaskLassoCV'>), ('RegressorChain', <class 'sklearn.multioutput.RegressorChain'>), ('StackingRegressor', <class 'sklearn.ensemble._stacking.StackingRegressor'>), ('VotingRegressor', <class 'sklearn.ensemble._voting.VotingRegressor'>)]
+2023-02-16 03:12:36,223 : INFO : regressor : get_estimators : Line 96 : Estimators available for modelling :: [('ARDRegression', <class 'sklearn.linear_model._bayes.ARDRegression'>), ('AdaBoostRegressor', <class 'sklearn.ensemble._weight_boosting.AdaBoostRegressor'>), ('BaggingRegressor', <class 'sklearn.ensemble._bagging.BaggingRegressor'>), ('BayesianRidge', <class 'sklearn.linear_model._bayes.BayesianRidge'>), ('CCA', <class 'sklearn.cross_decomposition._pls.CCA'>), ('DecisionTreeRegressor', <class 'sklearn.tree._classes.DecisionTreeRegressor'>), ('DummyRegressor', <class 'sklearn.dummy.DummyRegressor'>), ('ElasticNet', <class 'sklearn.linear_model._coordinate_descent.ElasticNet'>), ('ElasticNetCV', <class 'sklearn.linear_model._coordinate_descent.ElasticNetCV'>), ('ExtraTreeRegressor', <class 'sklearn.tree._classes.ExtraTreeRegressor'>), ('ExtraTreesRegressor', <class 'sklearn.ensemble._forest.ExtraTreesRegressor'>), ('GammaRegressor', <class 'sklearn.linear_model._glm.glm.GammaRegressor'>), ('GaussianProcessRegressor', <class 'sklearn.gaussian_process._gpr.GaussianProcessRegressor'>), ('GradientBoostingRegressor', <class 'sklearn.ensemble._gb.GradientBoostingRegressor'>), ('HistGradientBoostingRegressor', <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'>), ('HuberRegressor', <class 'sklearn.linear_model._huber.HuberRegressor'>), ('KNeighborsRegressor', <class 'sklearn.neighbors._regression.KNeighborsRegressor'>), ('KernelRidge', <class 'sklearn.kernel_ridge.KernelRidge'>), ('Lars', <class 'sklearn.linear_model._least_angle.Lars'>), ('LarsCV', <class 'sklearn.linear_model._least_angle.LarsCV'>), ('Lasso', <class 'sklearn.linear_model._coordinate_descent.Lasso'>), ('LassoCV', <class 'sklearn.linear_model._coordinate_descent.LassoCV'>), ('LassoLars', <class 'sklearn.linear_model._least_angle.LassoLars'>), ('LassoLarsCV', <class 'sklearn.linear_model._least_angle.LassoLarsCV'>), ('LassoLarsIC', <class 'sklearn.linear_model._least_angle.LassoLarsIC'>), ('LinearRegression', <class 'sklearn.linear_model._base.LinearRegression'>), ('LinearSVR', <class 'sklearn.svm._classes.LinearSVR'>), ('MLPRegressor', <class 'sklearn.neural_network._multilayer_perceptron.MLPRegressor'>), ('NuSVR', <class 'sklearn.svm._classes.NuSVR'>), ('OrthogonalMatchingPursuit', <class 'sklearn.linear_model._omp.OrthogonalMatchingPursuit'>), ('OrthogonalMatchingPursuitCV', <class 'sklearn.linear_model._omp.OrthogonalMatchingPursuitCV'>), ('PLSCanonical', <class 'sklearn.cross_decomposition._pls.PLSCanonical'>), ('PLSRegression', <class 'sklearn.cross_decomposition._pls.PLSRegression'>), ('PassiveAggressiveRegressor', <class 'sklearn.linear_model._passive_aggressive.PassiveAggressiveRegressor'>), ('PoissonRegressor', <class 'sklearn.linear_model._glm.glm.PoissonRegressor'>), ('QuantileRegressor', <class 'sklearn.linear_model._quantile.QuantileRegressor'>), ('RANSACRegressor', <class 'sklearn.linear_model._ransac.RANSACRegressor'>), ('RadiusNeighborsRegressor', <class 'sklearn.neighbors._regression.RadiusNeighborsRegressor'>), ('RandomForestRegressor', <class 'sklearn.ensemble._forest.RandomForestRegressor'>), ('Ridge', <class 'sklearn.linear_model._ridge.Ridge'>), ('RidgeCV', <class 'sklearn.linear_model._ridge.RidgeCV'>), ('SGDRegressor', <class 'sklearn.linear_model._stochastic_gradient.SGDRegressor'>), ('SVR', <class 'sklearn.svm._classes.SVR'>), ('TheilSenRegressor', <class 'sklearn.linear_model._theil_sen.TheilSenRegressor'>), ('TransformedTargetRegressor', <class 'sklearn.compose._target.TransformedTargetRegressor'>), ('TweedieRegressor', <class 'sklearn.linear_model._glm.glm.TweedieRegressor'>)]
+2023-02-16 03:12:36,224 : INFO : regressor : train_test_evaluate : Line 209 : ###################  Regressor in progress :: LinearRegression ###################
+2023-02-16 03:12:36,224 : INFO : regressor : train_test_evaluate : Line 220 : Available hyperparameters to be tuned :: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'positive': False}
+2023-02-16 03:12:36,224 : DEBUG : regressor : train_test_evaluate : Line 221 : Python type() for hyperparameters :: <class 'dict'>
+2023-02-16 03:12:36,224 : DEBUG : regressor : train_test_evaluate : Line 239 : Hyperparameter in default configuration :: copy_X :: [True]
+2023-02-16 03:12:36,224 : DEBUG : regressor : train_test_evaluate : Line 239 : Hyperparameter in default configuration :: fit_intercept :: [True, False]
+2023-02-16 03:12:36,224 : DEBUG : regressor : train_test_evaluate : Line 239 : Hyperparameter in default configuration :: n_jobs :: [-1]
+2023-02-16 03:12:36,225 : DEBUG : regressor : train_test_evaluate : Line 239 : Hyperparameter in default configuration :: positive :: [True, False]
+2023-02-16 03:12:36,225 : INFO : regressor : train_test_evaluate : Line 258 : Hyperparameters to be used for model tuning :: {'LinearRegression__regressor__copy_X': [True], 'LinearRegression__regressor__fit_intercept': [True, False], 'LinearRegression__regressor__n_jobs': [-1], 'LinearRegression__regressor__positive': [True, False]}
+2023-02-16 03:12:36,225 : DEBUG : bluemist_pipeline : add_pipeline_step : Line 30 : Model pipeline steps :: [('LinearRegression', TransformedTargetRegressor(regressor=LinearRegression(),
+                           transformer=MinMaxScaler()))]
+2023-02-16 03:12:36,226 : WARNING : warnings : _showwarnmsg : Line 109 : /home/shashank-agrawal/anaconda3/envs/bluemist-ai/lib/python3.9/site-packages/sklearn/model_selection/_search.py:306: UserWarning:
+
+The total space of parameters 4 is smaller than n_iter=10. Running 4 iterations. For exhaustive searches, use GridSearchCV.
+
+
+2023-02-16 03:12:36,378 : DEBUG : regressor : train_test_evaluate : Line 274 : Model pipeline parameters :: dict_keys(['memory', 'steps', 'verbose', 'LinearRegression', 'LinearRegression__check_inverse', 'LinearRegression__func', 'LinearRegression__inverse_func', 'LinearRegression__regressor__copy_X', 'LinearRegression__regressor__fit_intercept', 'LinearRegression__regressor__n_jobs', 'LinearRegression__regressor__positive', 'LinearRegression__regressor', 'LinearRegression__transformer__clip', 'LinearRegression__transformer__copy', 'LinearRegression__transformer__feature_range', 'LinearRegression__transformer'])
+2023-02-16 03:12:36,387 : INFO : regressor : train_test_evaluate : Line 275 : Fitted estimator with all parameters :: RandomizedSearchCV(estimator=Pipeline(steps=[('LinearRegression',
+                                              TransformedTargetRegressor(regressor=LinearRegression(),
+                                                                         transformer=MinMaxScaler()))]),
+                   param_distributions={'LinearRegression__regressor__copy_X': [True],
+                                        'LinearRegression__regressor__fit_intercept': [True,
+                                                                                       False],
+                                        'LinearRegression__regressor__n_jobs': [-1],
+                                        'LinearRegression__regressor__positive': [True,
+                                                                                  False]})
+2023-02-16 03:12:36,391 : DEBUG : regressor : train_test_evaluate : Line 277 : Model pipeline :: Pipeline(steps=[('LinearRegression',
+                 TransformedTargetRegressor(regressor=LinearRegression(),
+                                            transformer=MinMaxScaler()))])
+2023-02-16 03:12:36,394 : INFO : regressor : train_test_evaluate : Line 278 : Model pipeline with best estimator :: Pipeline(steps=[('LinearRegression',
+                 TransformedTargetRegressor(regressor=LinearRegression(n_jobs=-1),
+                                            transformer=MinMaxScaler()))])
+2023-02-16 03:12:36,395 : INFO : regressor : train_test_evaluate : Line 280 : Saving model pipeline to disk
+2023-02-16 03:12:36,395 : INFO : bluemist_pipeline : save_model_pipeline : Line 37 : Saving model pipeline to disk :: /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist/artifacts/models/LinearRegression.joblib
+2023-02-16 03:12:36,400 : INFO : bluemist_pipeline : save_model_pipeline : Line 39 : Model pipeline object :: Pipeline(steps=[('LinearRegression',
+                 TransformedTargetRegressor(regressor=LinearRegression(n_jobs=-1),
+                                            transformer=MinMaxScaler()))])
+2023-02-16 03:12:36,401 : INFO : regressor : train_test_evaluate : Line 303 : Best score :: 0.46946051234637454
+2023-02-16 03:12:36,401 : INFO : regressor : train_test_evaluate : Line 304 : Best hyperparameters :: {'LinearRegression__regressor__positive': False, 'LinearRegression__regressor__n_jobs': -1, 'LinearRegression__regressor__fit_intercept': True, 'LinearRegression__regressor__copy_X': True}
+2023-02-16 03:12:36,403 : INFO : metrics : getStats : Line 38 : Metrics requested :: all
+2023-02-16 03:12:36,403 : INFO : metrics : getStats : Line 43 : Indexes with NaN predictions to be removed :: []
+2023-02-16 03:12:36,415 : INFO : regressor : train_test_evaluate : Line 316 : Current estimator Stats :: 
+          Estimator  mean_absolute_error  mean_squared_error  r2_score  explained_variance_score  max_error  mean_squared_log_error  median_absolute_error  mean_absolute_percentage_error  mean_poisson_deviance  mean_gamma_deviance  mean_tweedie_deviance  d2_tweedie_score  mean_pinball_loss
+0  LinearRegression            42.117939         2821.248051  0.468216                  0.474325  158.29156                0.167072              36.289255                        0.389084              19.100579             0.146989            2821.248051          0.468216          21.058969
+2023-02-16 03:12:36,416 : DEBUG : regressor : train_test_evaluate : Line 317 : Current estimator stats as dictionary :: [{'Estimator': 'LinearRegression', 'mean_absolute_error': 42.11793871686284, 'mean_squared_error': 2821.2480506109114, 'r2_score': 0.468215771696882, 'explained_variance_score': 0.4743246293398996, 'max_error': 158.2915601082965, 'mean_squared_log_error': 0.1670718202331953, 'median_absolute_error': 36.28925477444534, 'mean_absolute_percentage_error': 0.38908442640294827, 'mean_poisson_deviance': 19.100579481457004, 'mean_gamma_deviance': 0.1469892391348087, 'mean_tweedie_deviance': 2821.2480506109114, 'd2_tweedie_score': 0.468215771696882, 'mean_pinball_loss': 21.05896935843142}]
+2023-02-16 03:12:36,421 : DEBUG : regressor : train_test_evaluate : Line 321 : Estimator stats so far :: 
+          Estimator  mean_absolute_error  mean_squared_error  r2_score  explained_variance_score  max_error  mean_squared_log_error  median_absolute_error  mean_absolute_percentage_error  mean_poisson_deviance  mean_gamma_deviance  mean_tweedie_deviance  d2_tweedie_score  mean_pinball_loss
+0  LinearRegression            42.117939         2821.248051  0.468216                  0.474325  158.29156                0.167072              36.289255                        0.389084              19.100579             0.146989            2821.248051          0.468216          21.058969
+2023-02-16 03:12:36,495 : INFO : regressor : train_test_evaluate : Line 348 : Estimator stats across all trained models : 
+                  mean_absolute_error  mean_squared_error  r2_score  explained_variance_score  max_error  mean_squared_log_error  median_absolute_error  mean_absolute_percentage_error  mean_poisson_deviance  mean_gamma_deviance  mean_tweedie_deviance  d2_tweedie_score  mean_pinball_loss
+Estimator                                                                                                                                                                                                                                                                                      
+LinearRegression            42.117939         2821.248051  0.468216                  0.474325  158.29156                0.167072              36.289255                        0.389084              19.100579             0.146989            2821.248051          0.468216          21.058969
+2023-02-16 03:13:25,559 : INFO : environment : <module> : Line 28 : BLUEMIST_PATH /home/shashank-agrawal/PycharmProjects/bluemist-ai/bluemist
+2023-02-16 03:13:25,634 : INFO : utils : _init_num_threads : Line 159 : NumExpr defaulting to 8 threads.
+2023-02-16 03:13:27,111 : INFO : __init__ : <module> : Line 14 : Pandas backend loaded 1.4.2
+2023-02-16 03:13:27,117 : INFO : __init__ : <module> : Line 25 : Numpy backend loaded 1.22.3
+2023-02-16 03:13:27,117 : INFO : __init__ : <module> : Line 37 : Pyspark backend NOT loaded
+2023-02-16 03:13:27,117 : INFO : __init__ : <module> : Line 43 : Python backend loaded
