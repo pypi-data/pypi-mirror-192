@@ -1,0 +1,12 @@
+Pillow
+PySimpleGUI
+dask
+keras
+matplotlib
+numba
+numpy
+scikit_learn
+scipy
+tensorflow
+termcolor
+umap
