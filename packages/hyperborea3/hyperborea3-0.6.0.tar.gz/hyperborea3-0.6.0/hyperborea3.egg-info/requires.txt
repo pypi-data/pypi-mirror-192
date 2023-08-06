@@ -1,0 +1,17 @@
+
+[dev]
+fastapi
+ipython
+pip-tools
+pre-commit
+twine
+uvicorn
+
+[test]
+black
+flake8
+tox
+pytest
+pytest-cov
+pytest-repeat
+mypy
