@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+msedgedriver/__init__.py
+msedgedriver.egg-info/PKG-INFO
+msedgedriver.egg-info/SOURCES.txt
+msedgedriver.egg-info/dependency_links.txt
+msedgedriver.egg-info/top_level.txt
