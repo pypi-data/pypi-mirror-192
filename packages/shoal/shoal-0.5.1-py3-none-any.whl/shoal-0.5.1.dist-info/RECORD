@@ -1,0 +1,10 @@
+shoal/__init__.py,sha256=f7siqmAg8SYkoo0kMbIYCfmhgMJhpvNJdN00WlUJ5-I,420
+shoal/can_skip.py,sha256=7IMf_eCLb68uUo3kt48_VI8Xd_Bpnes_EC-tCE0Zr9A,1029
+shoal/cli.py,sha256=Q3w_azr6bjFGpw_pbqidZwFfFoT1RVbFYGEW9zwDxkI,3545
+shoal/log.py,sha256=ZdGmqQRCg5UxzWam1KoSjJnlzQRsxxHv7UyqhPsPrhE,3238
+shoal/pretty_process.py,sha256=fsQjgKKVLkG0GvutH_k3eemTiH2aKQliRMLAKxiXErg,3203
+shoal/shell.py,sha256=WYHJZLoHrlKzXI1yTR6sPfhEM4TQYct6ytpI51jo2Jg,2504
+shoal-0.5.1.dist-info/LICENSE,sha256=6BEhl-fpSLPiesxz-36Fh4cpdMLfbgBwMPvDh3Yayuc,1066
+shoal-0.5.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+shoal-0.5.1.dist-info/METADATA,sha256=bzoXPi2Qb7DEiudLHL_f7ph_3KHGQi3Aw1JqXgdZox0,3981
+shoal-0.5.1.dist-info/RECORD,,
