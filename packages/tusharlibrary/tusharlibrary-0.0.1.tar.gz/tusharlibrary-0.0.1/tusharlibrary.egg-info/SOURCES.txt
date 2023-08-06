@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+tusharlibrary/__init__.py
+tusharlibrary.egg-info/PKG-INFO
+tusharlibrary.egg-info/SOURCES.txt
+tusharlibrary.egg-info/dependency_links.txt
+tusharlibrary.egg-info/top_level.txt
