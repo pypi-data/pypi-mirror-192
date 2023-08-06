@@ -1,0 +1,18 @@
+[project]
+
+name ='pptestkrzysiekmarut'
+version = '0.0.1'
+description = 'My test package'
+keywords = ['pptestkrzysiekmarut', 'myfirstfunctions', 'name', 'surname', 'personal data']
+authors = [{name = 'KM', email = 'marut.krzysztof6@gmail.com'}]
+license = {file = 'LICENCE.txt'}
+readme = "README.md"
+classifiers = [
+    "Framework :: IDLE",
+    "License :: Free For Educational Use"
+]
+
+requires-python = ">=3.0"
+dependencies = [
+    'numpy; python_version >= "3.0"'
+]

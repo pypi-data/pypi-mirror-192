@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+pptestkrzysiekmarut/__init__.py
+pptestkrzysiekmarut/m_mod_pptest.py
+pptestkrzysiekmarut.egg-info/PKG-INFO
+pptestkrzysiekmarut.egg-info/SOURCES.txt
+pptestkrzysiekmarut.egg-info/dependency_links.txt
+pptestkrzysiekmarut.egg-info/requires.txt
+pptestkrzysiekmarut.egg-info/top_level.txt
