@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+safeguardcredentialtype/__init__.py
+safeguardcredentialtype.egg-info/PKG-INFO
+safeguardcredentialtype.egg-info/SOURCES.txt
+safeguardcredentialtype.egg-info/dependency_links.txt
+safeguardcredentialtype.egg-info/entry_points.txt
+safeguardcredentialtype.egg-info/not-zip-safe
+safeguardcredentialtype.egg-info/requires.txt
+safeguardcredentialtype.egg-info/top_level.txt
