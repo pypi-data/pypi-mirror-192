@@ -1,0 +1,3 @@
+[console_scripts]
+cpuload=cpuload.cpuload:main
+
