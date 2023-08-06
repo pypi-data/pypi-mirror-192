@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyoxide
+Version: 0.2.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Oxide
+
+[![wheels](https://github.com/yngtdd/oxide/actions/workflows/create-python-release.yaml/badge.svg)](https://github.com/yngtdd/oxide/actions/workflows/create-python-release.yaml)
+
