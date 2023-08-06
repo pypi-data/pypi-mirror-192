@@ -1,0 +1,16 @@
+verifiNN/BasicNN.py,sha256=sZjwN7isJmGXzrWB66pIE0t5NZYws-pZM3OpThihhNU,1553
+verifiNN/BasicNNMatrix.py,sha256=vBaJTNn-GLz4ghzWMIeNNVSS2UR5moemR3Y1IygBFjI,4071
+verifiNN/TrainingTask.py,sha256=AMPYM21kxG99hm4twgC4dmDH5Pp17bgVC4IAMGZtUts,855
+verifiNN/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verifiNN/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verifiNN/utils/algorithm.py,sha256=UHeu6g9HFrBfnCJiKI_3YoZwEdFV-CdCkbMpnVNzj5U,1379
+verifiNN/utils/calculus.py,sha256=V1RZ_LQnV7hua0LYQ7ujpHwnnoBt_zAH7ZjgRQ70czE,1113
+verifiNN/utils/commonutils.py,sha256=K3_XTI1J46o_m-B3DmXiU35OOsSv1Em8EC2GQTMF83M,870
+verifiNN/utils/linear_regression.py,sha256=19qDs_rIfoDUiQEhkdTRmHWXwAOCUYybVpses0PvZNI,939
+verifiNN/utils/model.py,sha256=VIndBX30CIn-GkgNduhDQ_lHR5qT50l9CI4rukvP9lY,449
+verifiNN/utils/network.py,sha256=mLeQ0IAswY2g51c9fN9fhX8tTBRcjj-IXUq_0JHfxxA,3645
+verifiNN/utils/numpyutils.py,sha256=gL8ry1kf3Ku33Bkgo1Z5IsHNTKsHkMZsXuKKkM5pT7w,227
+verifiNN-0.0.0.dev6.dist-info/METADATA,sha256=qfJ2HdxOcs0ykbvFMah5kdJ6Jr21wzRyAeM0_EZIvY8,723
+verifiNN-0.0.0.dev6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+verifiNN-0.0.0.dev6.dist-info/top_level.txt,sha256=9BcHZ4RVSJD_0CodUeM_xyt_jwiwzAfB2lhwh5Q6qz4,9
+verifiNN-0.0.0.dev6.dist-info/RECORD,,
