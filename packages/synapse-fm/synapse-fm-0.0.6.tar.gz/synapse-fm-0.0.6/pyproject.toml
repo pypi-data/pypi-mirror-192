@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synapse-fm"
+version = "0.0.6"
+authors = [
+    { name="Eyetu Kingsley", email="eyetukingsley330@gmail.com" }
+]
+description = "Introducing Synapse, a terminal-based file manager that simplifies and streamlines file management tasks from the command line. Built using Python's curses module, Synapse has a user-friendly interface and features like file preview, directory and file information, formatting for various file types, and support for symbolic links. Whether you're a casual or power user, Synapse has the functionality you need. Try Synapse today!"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: Unix",
+]
+
+[project.urls]
+"Github Repository" = "https://github.com/CodeKing12/synapse"
+"Bug Tracker" = "https://github.com/CodeKing12/synapse/issues"
+
+[project.scripts]
+synapse = "synapse.index:run"
