@@ -1,0 +1,5 @@
+setup.py
+django_mermaid.egg-info/PKG-INFO
+django_mermaid.egg-info/SOURCES.txt
+django_mermaid.egg-info/dependency_links.txt
+django_mermaid.egg-info/top_level.txt
