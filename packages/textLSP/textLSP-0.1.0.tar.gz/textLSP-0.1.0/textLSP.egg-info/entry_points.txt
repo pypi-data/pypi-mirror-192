@@ -1,0 +1,3 @@
+[console_scripts]
+textlsp = textLSP.cli:main
+
