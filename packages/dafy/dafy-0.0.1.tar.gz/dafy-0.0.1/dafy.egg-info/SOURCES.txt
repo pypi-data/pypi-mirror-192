@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+dafy.egg-info/PKG-INFO
+dafy.egg-info/SOURCES.txt
+dafy.egg-info/dependency_links.txt
+dafy.egg-info/requires.txt
+dafy.egg-info/top_level.txt
