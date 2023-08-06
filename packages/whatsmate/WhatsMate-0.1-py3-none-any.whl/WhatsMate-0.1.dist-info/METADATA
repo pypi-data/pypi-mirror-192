@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: WhatsMate
+Version: 0.1
+Summary: The ultimate WhatsApp Wrapper for Python
+Home-page: https://github.com/iamharshdev/whatsmate
+Author: Harsh Vardhan Goswami
+Author-email: me@iamharsh.dev
+License: MIT
+Keywords: whatsapp automation chatbot api
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+With WhatsMate, you can send WhatsApp messages, from sending hilarious memes to your friends to spamming your ex with 1000 "I miss you" messages. Our powerful API lets you do it all, and with just a few lines of Python code!
+
+
