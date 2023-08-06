@@ -1,0 +1,4 @@
+include setup.cfg
+include setup.py
+include lettersPoints\__init__.py
+include lettersPoints\letters.py
