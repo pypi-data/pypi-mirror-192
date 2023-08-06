@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+miquant/DataLoader.py
+miquant/FinanceLoader.py
+miquant/Utils.py
+miquant/__init__.py
+miquant.egg-info/PKG-INFO
+miquant.egg-info/SOURCES.txt
+miquant.egg-info/dependency_links.txt
+miquant.egg-info/requires.txt
+miquant.egg-info/top_level.txt
