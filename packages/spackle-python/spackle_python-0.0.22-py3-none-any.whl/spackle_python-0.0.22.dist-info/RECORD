@@ -1,0 +1,12 @@
+spackle/__init__.py,sha256=23G9XSoiBBJKDd0q08jGyg5uYiH27RDV9Rn55meH7Gw,444
+spackle/customer.py,sha256=1PJwUfsIYQvupx1RsiAynBUblIfYVANSn7_8Oyk76VE,1473
+spackle/exceptions.py,sha256=IKkq71sxuuY2R9H34Q-L7WY_W-NSmy0IqGF-qYIj16I,44
+spackle/log.py,sha256=S2lugUEJEGGsMz1pk4S2ZYAnDovglfcB9_zkbGLhkyQ,1652
+spackle/stores/__init__.py,sha256=Tb3vSo8eRbHMYbaGSIrBxzbDAsRLAy6iq-Di41_UZ4o,36
+spackle/stores/base.py,sha256=LrjUmT2dVkuh_vpqLQCIduUjK23t4-lhSQLoN9s_inI,338
+spackle/stores/dynamodb.py,sha256=YEyHq6iZT16LohIaZBGZ3U-_lo3V0ut8MFnEiiFWkck,3123
+spackle/stores/memory.py,sha256=uu8astozDVTLNMkU2ayhwr_FcMn6haxQlVbGFnCD1X0,289
+spackle_python-0.0.22.dist-info/LICENSE,sha256=WRlAIGV7ZNU85dKU9KfCK49Kf8syLeqgvmqMT_Un_Lo,1077
+spackle_python-0.0.22.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+spackle_python-0.0.22.dist-info/METADATA,sha256=_qtFlj9Z2ilaxS5JuMBo33kQ6dM-IKGpMnx5mG4EO_c,2414
+spackle_python-0.0.22.dist-info/RECORD,,
