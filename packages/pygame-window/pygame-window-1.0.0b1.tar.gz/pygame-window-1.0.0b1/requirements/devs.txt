@@ -1,0 +1,10 @@
+black
+build
+coveralls
+flake8
+invoke
+mypy
+pytest
+pytest-cov
+twine
+wheel
