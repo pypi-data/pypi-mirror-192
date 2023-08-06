@@ -1,0 +1,10 @@
+lpneuralnet/__init__.py,sha256=ALqAZyikXYNJ2zUNCLMKtzjVyS5Qof99uLd9GaK9ZFU,194
+lpneuralnet/andGate.py,sha256=o1fuuqxXpIK1fBc_A37aP-sfZvB2OLUPkelGXeec_Is,3210
+lpneuralnet/nandGate.py,sha256=lehWe0C3TOEsuNOTjMtxgCdl8zp6igNK8MhepmvVQuo,3216
+lpneuralnet/norGate.py,sha256=HTXqWVNfhZaw2BoD5bFZdYXtSiroWw2BxVP2eSgVPiI,3211
+lpneuralnet/notGate.py,sha256=pzkXRsRnbSR3slNc3UQEZcpbFYUgkTsp1SGWOcUpYEk,4354
+lpneuralnet/orGate.py,sha256=s7tcE5z2aHxBtf6MwKEMxngkrF8qzNIUgHp2AwDabko,3205
+lpneuralnet-0.0.0.dist-info/METADATA,sha256=pzhyZvkz8iQLWvzlv1xMFqMqDeQVSjKkb2760_4o4Ks,585
+lpneuralnet-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lpneuralnet-0.0.0.dist-info/top_level.txt,sha256=dBKyqvQ_o_SHRJ7-UXERzZ5421wpBh-7y-Cum01o-Uc,12
+lpneuralnet-0.0.0.dist-info/RECORD,,
