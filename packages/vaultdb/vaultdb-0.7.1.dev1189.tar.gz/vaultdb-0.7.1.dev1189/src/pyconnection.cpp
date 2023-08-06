@@ -1,0 +1,1211 @@
+#include "duckdb_python/pyconnection.hpp"
+
+#include "duckdb/common/arrow/arrow.hpp"
+#include "duckdb/common/printer.hpp"
+#include "duckdb/common/types.hpp"
+#include "duckdb/common/types/vector.hpp"
+#include "duckdb/main/client_context.hpp"
+#include "duckdb/main/config.hpp"
+#include "duckdb/main/relation/read_csv_relation.hpp"
+#include "duckdb/main/db_instance_cache.hpp"
+#include "duckdb/main/extension_helper.hpp"
+#include "duckdb/parser/expression/constant_expression.hpp"
+#include "duckdb/parser/expression/function_expression.hpp"
+#include "duckdb/parser/parsed_data/create_table_function_info.hpp"
+#include "duckdb/parser/parser.hpp"
+#include "duckdb/parser/statement/select_statement.hpp"
+#include "duckdb/parser/tableref/subqueryref.hpp"
+#include "duckdb/parser/tableref/table_function_ref.hpp"
+#include "duckdb_python/arrow_array_stream.hpp"
+#include "duckdb_python/map.hpp"
+#include "duckdb_python/pandas_scan.hpp"
+#include "duckdb_python/pyrelation.hpp"
+#include "duckdb_python/pyresult.hpp"
+#include "duckdb_python/python_conversion.hpp"
+#include "duckdb/main/prepared_statement.hpp"
+#include "duckdb_python/jupyter_progress_bar_display.hpp"
+#include "duckdb_python/pyfilesystem.hpp"
+#include "duckdb/main/client_config.hpp"
+#include "duckdb/function/table/read_csv.hpp"
+#include "duckdb/common/enums/file_compression_type.hpp"
+
+#include <random>
+
+namespace duckdb {
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::default_connection = nullptr;
+DBInstanceCache instance_cache;
+shared_ptr<PythonImportCache> VaultDBPyConnection::import_cache = nullptr;
+PythonEnvironmentType VaultDBPyConnection::environment = PythonEnvironmentType::NORMAL;
+
+void VaultDBPyConnection::DetectEnvironment() {
+	// If __main__ does not have a __file__ attribute, we are in interactive mode
+	auto main_module = py::module_::import("__main__");
+	if (py::hasattr(main_module, "__file__")) {
+		return;
+	}
+	VaultDBPyConnection::environment = PythonEnvironmentType::INTERACTIVE;
+
+	// Check to see if we are in a Jupyter Notebook
+	auto &import_cache = *VaultDBPyConnection::ImportCache();
+	auto get_ipython = import_cache.IPython.get_ipython();
+	if (get_ipython.ptr() == nullptr) {
+		// Could either not load the IPython module, or it has no 'get_ipython' attribute
+		return;
+	}
+	auto ipython = get_ipython();
+	if (!py::hasattr(ipython, "config")) {
+		return;
+	}
+	py::dict ipython_config = ipython.attr("config");
+	if (ipython_config.contains("IPKernelApp")) {
+		VaultDBPyConnection::environment = PythonEnvironmentType::JUPYTER;
+	}
+	return;
+}
+
+bool VaultDBPyConnection::DetectAndGetEnvironment() {
+	VaultDBPyConnection::DetectEnvironment();
+	return VaultDBPyConnection::IsInteractive();
+}
+
+bool VaultDBPyConnection::IsJupyter() {
+	return VaultDBPyConnection::environment == PythonEnvironmentType::JUPYTER;
+}
+
+static void InitializeConnectionMethods(py::class_<VaultDBPyConnection, shared_ptr<VaultDBPyConnection>> &m) {
+	m.def("cursor", &VaultDBPyConnection::Cursor, "Create a duplicate of the current connection")
+	    .def("register_filesystem", &VaultDBPyConnection::RegisterFilesystem, "Register a fsspec compliant filesystem",
+	         py::arg("filesystem"))
+	    .def("unregister_filesystem", &VaultDBPyConnection::UnregisterFilesystem, "Unregister a filesystem",
+	         py::arg("name"))
+	    .def("list_filesystems", &VaultDBPyConnection::ListFilesystems,
+	         "List registered filesystems, including builtin ones")
+	    .def("duplicate", &VaultDBPyConnection::Cursor, "Create a duplicate of the current connection")
+	    .def("execute", &VaultDBPyConnection::Execute,
+	         "Execute the given SQL query, optionally using prepared statements with parameters set", py::arg("query"),
+	         py::arg("parameters") = py::none(), py::arg("multiple_parameter_sets") = false)
+	    .def("executemany", &VaultDBPyConnection::ExecuteMany,
+	         "Execute the given prepared statement multiple times using the list of parameter sets in parameters",
+	         py::arg("query"), py::arg("parameters") = py::none())
+	    .def("close", &VaultDBPyConnection::Close, "Close the connection")
+	    .def("fetchone", &VaultDBPyConnection::FetchOne, "Fetch a single row from a result following execute")
+	    .def("fetchmany", &VaultDBPyConnection::FetchMany, "Fetch the next set of rows from a result following execute",
+	         py::arg("size") = 1)
+	    .def("fetchall", &VaultDBPyConnection::FetchAll, "Fetch all rows from a result following execute")
+	    .def("fetchnumpy", &VaultDBPyConnection::FetchNumpy, "Fetch a result as list of NumPy arrays following execute")
+	    .def("fetchdf", &VaultDBPyConnection::FetchDF, "Fetch a result as DataFrame following execute()", py::kw_only(),
+	         py::arg("date_as_object") = false)
+	    .def("fetch_df", &VaultDBPyConnection::FetchDF, "Fetch a result as DataFrame following execute()", py::kw_only(),
+	         py::arg("date_as_object") = false)
+	    .def("fetch_df_chunk", &VaultDBPyConnection::FetchDFChunk,
+	         "Fetch a chunk of the result as Data.Frame following execute()", py::arg("vectors_per_chunk") = 1,
+	         py::kw_only(), py::arg("date_as_object") = false)
+	    .def("df", &VaultDBPyConnection::FetchDF, "Fetch a result as DataFrame following execute()", py::kw_only(),
+	         py::arg("date_as_object") = false)
+	    .def("fetch_arrow_table", &VaultDBPyConnection::FetchArrow, "Fetch a result as Arrow table following execute()",
+	         py::arg("chunk_size") = 1000000)
+	    .def("fetch_record_batch", &VaultDBPyConnection::FetchRecordBatchReader,
+	         "Fetch an Arrow RecordBatchReader following execute()", py::arg("chunk_size") = 1000000)
+	    .def("arrow", &VaultDBPyConnection::FetchArrow, "Fetch a result as Arrow table following execute()",
+	         py::arg("chunk_size") = 1000000)
+	    .def("begin", &VaultDBPyConnection::Begin, "Start a new transaction")
+	    .def("commit", &VaultDBPyConnection::Commit, "Commit changes performed within a transaction")
+	    .def("rollback", &VaultDBPyConnection::Rollback, "Roll back changes performed within a transaction")
+	    .def("append", &VaultDBPyConnection::Append, "Append the passed Data.Frame to the named table",
+	         py::arg("table_name"), py::arg("df"))
+	    .def("register", &VaultDBPyConnection::RegisterPythonObject,
+	         "Register the passed Python Object value for querying with a view", py::arg("view_name"),
+	         py::arg("python_object"))
+	    .def("unregister", &VaultDBPyConnection::UnregisterPythonObject, "Unregister the view name",
+	         py::arg("view_name"))
+	    .def("table", &VaultDBPyConnection::Table, "Create a relation object for the name'd table",
+	         py::arg("table_name"))
+	    .def("view", &VaultDBPyConnection::View, "Create a relation object for the name'd view", py::arg("view_name"))
+	    .def("values", &VaultDBPyConnection::Values, "Create a relation object from the passed values",
+	         py::arg("values"))
+	    .def("table_function", &VaultDBPyConnection::TableFunction,
+	         "Create a relation object from the name'd table function with given parameters", py::arg("name"),
+	         py::arg("parameters") = py::none())
+	    .def("from_query", &VaultDBPyConnection::FromQuery, "Create a relation object from the given SQL query",
+	         py::arg("query"), py::arg("alias") = "query_relation")
+	    .def("query", &VaultDBPyConnection::RunQuery,
+	         "Run a SQL query. If it is a SELECT statement, create a relation object from the given SQL query, "
+	         "otherwise run the query as-is.",
+	         py::arg("query"), py::arg("alias") = "query_relation");
+
+	DefineMethod({"read_csv", "from_csv_auto"}, m, &VaultDBPyConnection::ReadCSV,
+	             "Create a relation object from the CSV file in 'name'", py::arg("name"), py::kw_only(),
+	             py::arg("header") = py::none(), py::arg("compression") = py::none(), py::arg("sep") = py::none(),
+	             py::arg("delimiter") = py::none(), py::arg("dtype") = py::none(), py::arg("na_values") = py::none(),
+	             py::arg("skiprows") = py::none(), py::arg("quotechar") = py::none(),
+	             py::arg("escapechar") = py::none(), py::arg("encoding") = py::none(), py::arg("parallel") = py::none(),
+	             py::arg("date_format") = py::none(), py::arg("timestamp_format") = py::none(),
+	             py::arg("sample_size") = py::none(), py::arg("all_varchar") = py::none(),
+	             py::arg("normalize_names") = py::none(), py::arg("filename") = py::none());
+
+	m.def("from_df", &VaultDBPyConnection::FromDF, "Create a relation object from the Data.Frame in df",
+	      py::arg("df") = py::none())
+	    .def("from_arrow", &VaultDBPyConnection::FromArrow, "Create a relation object from an Arrow object",
+	         py::arg("arrow_object"));
+
+	DefineMethod({"from_parquet", "read_parquet"}, m, &VaultDBPyConnection::FromParquet,
+	             "Create a relation object from the Parquet files in file_glob", py::arg("file_glob"),
+	             py::arg("binary_as_string") = false, py::kw_only(), py::arg("file_row_number") = false,
+	             py::arg("filename") = false, py::arg("hive_partitioning") = false, py::arg("union_by_name") = false,
+	             py::arg("compression") = py::none());
+	DefineMethod({"from_parquet", "read_parquet"}, m, &VaultDBPyConnection::FromParquets,
+	             "Create a relation object from the Parquet files in file_globs", py::arg("file_globs"),
+	             py::arg("binary_as_string") = false, py::kw_only(), py::arg("file_row_number") = false,
+	             py::arg("filename") = false, py::arg("hive_partitioning") = false, py::arg("union_by_name") = false,
+	             py::arg("compression") = py::none());
+
+	m.def("from_substrait", &VaultDBPyConnection::FromSubstrait, "Create a query object from protobuf plan",
+	      py::arg("proto"))
+	    .def("get_substrait", &VaultDBPyConnection::GetSubstrait, "Serialize a query to protobuf", py::arg("query"))
+	    .def("get_substrait_json", &VaultDBPyConnection::GetSubstraitJSON,
+	         "Serialize a query to protobuf on the JSON format", py::arg("query"))
+	    .def("from_substrait_json", &VaultDBPyConnection::FromSubstraitJSON,
+	         "Create a query object from a JSON protobuf plan", py::arg("json"))
+	    .def("get_table_names", &VaultDBPyConnection::GetTableNames, "Extract the required table names from a query",
+	         py::arg("query"))
+	    .def_property_readonly("description", &VaultDBPyConnection::GetDescription,
+	                           "Get result set attributes, mainly column names")
+	    .def("install_extension", &VaultDBPyConnection::InstallExtension, "Install an extension by name",
+	         py::arg("extension"), py::kw_only(), py::arg("force_install") = false)
+	    .def("load_extension", &VaultDBPyConnection::LoadExtension, "Load an installed extension", py::arg("extension"));
+}
+
+unordered_set<string> GetKeywordArguments(const py::kwargs &kwargs) {
+	unordered_set<string> keywords;
+	for (auto &kv : kwargs) {
+		keywords.insert(py::str(kv.first));
+	}
+	return keywords;
+}
+
+void VaultDBPyConnection::UnregisterFilesystem(const py::str &name) {
+	auto &fs = database->GetFileSystem();
+
+	fs.UnregisterSubSystem(name);
+}
+
+void VaultDBPyConnection::RegisterFilesystem(AbstractFileSystem filesystem) {
+	PythonGILWrapper gil_wrapper;
+
+	if (!py::isinstance<AbstractFileSystem>(filesystem)) {
+		throw InvalidInputException("Bad filesystem instance");
+	}
+
+	auto &fs = database->GetFileSystem();
+
+	auto protocol = filesystem.attr("protocol");
+	if (protocol.is_none() || py::str("abstract").equal(protocol)) {
+		throw InvalidInputException("Must provide concrete fsspec implementation");
+	}
+
+	vector<string> protocols;
+	if (py::isinstance<py::str>(protocol)) {
+		protocols.push_back(py::str(protocol));
+	} else {
+		for (const auto &sub_protocol : protocol) {
+			protocols.push_back(py::str(sub_protocol));
+		}
+	}
+
+	fs.RegisterSubSystem(make_unique<PythonFilesystem>(std::move(protocols), std::move(filesystem)));
+}
+
+py::list VaultDBPyConnection::ListFilesystems() {
+	auto subsystems = database->GetFileSystem().ListSubSystems();
+	py::list names;
+	for (auto &name : subsystems) {
+		names.append(py::str(name));
+	}
+	return names;
+}
+
+void VaultDBPyConnection::Initialize(py::handle &m) {
+	auto connection_module =
+	    py::class_<VaultDBPyConnection, shared_ptr<VaultDBPyConnection>>(m, "VaultDBPyConnection", py::module_local());
+
+	connection_module.def("__enter__", &VaultDBPyConnection::Enter)
+	    .def("__exit__", &VaultDBPyConnection::Exit, py::arg("exc_type"), py::arg("exc"), py::arg("traceback"));
+
+	InitializeConnectionMethods(connection_module);
+	PyDateTime_IMPORT;
+	VaultDBPyConnection::ImportCache();
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::ExecuteMany(const string &query, py::object params) {
+	if (params.is_none()) {
+		params = py::list();
+	}
+	Execute(query, std::move(params), true);
+	return shared_from_this();
+}
+
+unique_ptr<QueryResult> VaultDBPyConnection::CompletePendingQuery(PendingQueryResult &pending_query) {
+	PendingExecutionResult execution_result;
+	do {
+		execution_result = pending_query.ExecuteTask();
+		{
+			py::gil_scoped_acquire gil;
+			if (PyErr_CheckSignals() != 0) {
+				throw std::runtime_error("Query interrupted");
+			}
+		}
+	} while (execution_result == PendingExecutionResult::RESULT_NOT_READY);
+	if (execution_result == PendingExecutionResult::EXECUTION_ERROR) {
+		pending_query.ThrowError();
+	}
+	return pending_query.Execute();
+}
+
+py::list TransformNamedParameters(const case_insensitive_map_t<idx_t> &named_param_map, const py::dict &params) {
+	py::list new_params(params.size());
+
+	for (auto &item : params) {
+		const std::string &item_name = item.first.cast<std::string>();
+		auto entry = named_param_map.find(item_name);
+		if (entry == named_param_map.end()) {
+			throw InvalidInputException(
+			    "Named parameters could not be transformed, because query string is missing named parameter '%s'",
+			    item_name);
+		}
+		auto param_idx = entry->second;
+		// Add the value of the named parameter to the list
+		new_params[param_idx - 1] = item.second;
+	}
+
+	if (named_param_map.size() != params.size()) {
+		// One or more named parameters were expected, but not found
+		vector<string> missing_params;
+		missing_params.reserve(named_param_map.size());
+		for (auto &entry : named_param_map) {
+			auto &name = entry.first;
+			if (!params.contains(name)) {
+				missing_params.push_back(name);
+			}
+		}
+		auto message = StringUtil::Join(missing_params, ", ");
+		throw InvalidInputException("Not all named parameters have been located, missing: %s", message);
+	}
+
+	return new_params;
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::Execute(const string &query, py::object params, bool many) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	if (params.is_none()) {
+		params = py::list();
+	}
+	result = nullptr;
+	unique_ptr<PreparedStatement> prep;
+	{
+		py::gil_scoped_release release;
+		unique_lock<std::mutex> lock(py_connection_lock);
+
+		auto statements = connection->ExtractStatements(query);
+		if (statements.empty()) {
+			// no statements to execute
+			return shared_from_this();
+		}
+		// if there are multiple statements, we directly execute the statements besides the last one
+		// we only return the result of the last statement to the user, unless one of the previous statements fails
+		for (idx_t i = 0; i + 1 < statements.size(); i++) {
+			auto pending_query = connection->PendingQuery(std::move(statements[i]));
+			auto res = CompletePendingQuery(*pending_query);
+
+			if (res->HasError()) {
+				res->ThrowError();
+			}
+		}
+
+		prep = connection->Prepare(std::move(statements.back()));
+		if (prep->HasError()) {
+			prep->error.Throw();
+		}
+	}
+
+	auto &named_param_map = prep->named_param_map;
+	if (py::isinstance<py::dict>(params)) {
+		if (named_param_map.empty()) {
+			throw InvalidInputException("Param is of type 'dict', but no named parameters were found in the query");
+		}
+		// Transform named parameters to regular positional parameters
+		params = TransformNamedParameters(named_param_map, params);
+		// Clear the map, we don't need it anymore
+		prep->named_param_map.clear();
+	} else if (!named_param_map.empty()) {
+		throw InvalidInputException("Named parameters found, but param is not of type 'dict'");
+	}
+
+	// this is a list of a list of parameters in executemany
+	py::list params_set;
+	if (!many) {
+		params_set = py::list(1);
+		params_set[0] = params;
+	} else {
+		params_set = params;
+	}
+
+	// For every entry of the argument list, execute the prepared statement with said arguments
+	for (pybind11::handle single_query_params : params_set) {
+		if (prep->n_param != py::len(single_query_params)) {
+			throw InvalidInputException("Prepared statement needs %d parameters, %d given", prep->n_param,
+			                            py::len(single_query_params));
+		}
+		auto args = VaultDBPyConnection::TransformPythonParamList(single_query_params);
+		auto res = make_unique<VaultDBPyResult>();
+		{
+			py::gil_scoped_release release;
+			unique_lock<std::mutex> lock(py_connection_lock);
+			auto pending_query = prep->PendingQuery(args);
+			res->result = CompletePendingQuery(*pending_query);
+
+			if (res->result->HasError()) {
+				res->result->ThrowError();
+			}
+		}
+
+		if (!many) {
+			result = make_unique<VaultDBPyRelation>(std::move(res));
+		}
+	}
+	return shared_from_this();
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::Append(const string &name, DataFrame value) {
+	RegisterPythonObject("__append_df", std::move(value));
+	return Execute("INSERT INTO \"" + name + "\" SELECT * FROM __append_df");
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::RegisterPythonObject(const string &name, py::object python_object) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+
+	if (VaultDBPyConnection::IsPandasDataframe(python_object)) {
+		auto new_df = PandasScanFunction::PandasReplaceCopiedNames(python_object);
+		{
+			py::gil_scoped_release release;
+			temporary_views[name] = connection->TableFunction("pandas_scan", {Value::POINTER((uintptr_t)new_df.ptr())})
+			                            ->CreateView(name, true, true);
+		}
+
+		// keep a reference
+		vector<shared_ptr<ExternalDependency>> dependencies;
+		dependencies.push_back(make_shared<PythonDependencies>(make_unique<RegisteredObject>(python_object),
+		                                                       make_unique<RegisteredObject>(new_df)));
+		connection->context->external_dependencies[name] = std::move(dependencies);
+	} else if (IsAcceptedArrowObject(python_object)) {
+		auto stream_factory =
+		    make_unique<PythonTableArrowArrayStreamFactory>(python_object.ptr(), connection->context->config);
+		auto stream_factory_produce = PythonTableArrowArrayStreamFactory::Produce;
+		auto stream_factory_get_schema = PythonTableArrowArrayStreamFactory::GetSchema;
+		{
+			py::gil_scoped_release release;
+			temporary_views[name] =
+			    connection
+			        ->TableFunction("arrow_scan", {Value::POINTER((uintptr_t)stream_factory.get()),
+			                                       Value::POINTER((uintptr_t)stream_factory_produce),
+			                                       Value::POINTER((uintptr_t)stream_factory_get_schema)})
+			        ->CreateView(name, true, true);
+		}
+		vector<shared_ptr<ExternalDependency>> dependencies;
+		dependencies.push_back(
+		    make_shared<PythonDependencies>(make_unique<RegisteredArrow>(std::move(stream_factory), python_object)));
+		connection->context->external_dependencies[name] = std::move(dependencies);
+	} else {
+		auto py_object_type = string(py::str(python_object.get_type().attr("__name__")));
+		throw InvalidInputException("Python Object %s not suitable to be registered as a view", py_object_type);
+	}
+	return shared_from_this();
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::ReadCSV(
+    const string &name, const py::object &header, const py::object &compression, const py::object &sep,
+    const py::object &delimiter, const py::object &dtype, const py::object &na_values, const py::object &skiprows,
+    const py::object &quotechar, const py::object &escapechar, const py::object &encoding, const py::object &parallel,
+    const py::object &date_format, const py::object &timestamp_format, const py::object &sample_size,
+    const py::object &all_varchar, const py::object &normalize_names, const py::object &filename) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	BufferedCSVReaderOptions options;
+
+	// First check if the header is explicitly set
+	// when false this affects the returned types, so it needs to be known at initialization of the relation
+	if (!py::none().is(header)) {
+
+		bool header_as_int = py::isinstance<py::int_>(header);
+		bool header_as_bool = py::isinstance<py::bool_>(header);
+
+		if (header_as_bool) {
+			options.SetHeader(py::bool_(header));
+		} else if (header_as_int) {
+			if ((int)py::int_(header) != 0) {
+				throw InvalidInputException("read_csv only accepts 0 if 'header' is given as an integer");
+			}
+			options.SetHeader(true);
+		} else {
+			throw InvalidInputException("read_csv only accepts 'header' as an integer, or a boolean");
+		}
+	}
+
+	// We want to detect if the file can be opened, we set this in the options so we can detect this at bind time
+	// rather than only at execution time
+	if (!py::none().is(compression)) {
+		if (!py::isinstance<py::str>(compression)) {
+			throw InvalidInputException("read_csv only accepts 'compression' as a string");
+		}
+		options.SetCompression(py::str(compression));
+	}
+
+	auto read_csv_p = connection->ReadCSV(name, options);
+	auto &read_csv = (ReadCSVRelation &)*read_csv_p;
+
+	if (options.has_header) {
+		// 'options' is only used to initialize the ReadCSV relation
+		// we also need to set this in the arguments passed to the function
+		read_csv.AddNamedParameter("header", Value::BOOLEAN(options.header));
+	}
+
+	if (options.compression != FileCompressionType::AUTO_DETECT) {
+		read_csv.AddNamedParameter("compression", Value(py::str(compression)));
+	}
+
+	bool has_sep = !py::none().is(sep);
+	bool has_delimiter = !py::none().is(delimiter);
+	if (has_sep && has_delimiter) {
+		throw InvalidInputException("read_csv takes either 'delimiter' or 'sep', not both");
+	}
+	if (has_sep) {
+		read_csv.AddNamedParameter("delim", Value(py::str(sep)));
+	} else if (has_delimiter) {
+		read_csv.AddNamedParameter("delim", Value(py::str(delimiter)));
+	}
+
+	// We don't support overriding the names of the header yet
+	// 'names'
+	// if (keywords.count("names")) {
+	//	if (!py::isinstance<py::list>(kwargs["names"])) {
+	//		throw InvalidInputException("read_csv only accepts 'names' as a list of strings");
+	//	}
+	//	vector<string> names;
+	//	py::list names_list = kwargs["names"];
+	//	for (auto& elem : names_list) {
+	//		if (!py::isinstance<py::str>(elem)) {
+	//			throw InvalidInputException("read_csv 'names' list has to consist of only strings");
+	//		}
+	//		names.push_back(py::str(elem));
+	//	}
+	//	// FIXME: Check for uniqueness of 'names' ?
+	//}
+
+	if (!py::none().is(dtype)) {
+		if (py::isinstance<py::dict>(dtype)) {
+			child_list_t<Value> struct_fields;
+			py::dict dtype_dict = dtype;
+			for (auto &kv : dtype_dict) {
+				struct_fields.push_back(make_pair(py::str(kv.first), Value(py::str(kv.second))));
+			}
+			auto dtype_struct = Value::STRUCT(std::move(struct_fields));
+			read_csv.AddNamedParameter("dtypes", std::move(dtype_struct));
+		} else if (py::isinstance<py::list>(dtype)) {
+			auto dtype_list = TransformPythonValue(py::list(dtype));
+			D_ASSERT(dtype_list.type().id() == LogicalTypeId::LIST);
+			auto &children = ListValue::GetChildren(dtype_list);
+			for (auto &child : children) {
+				if (child.type().id() != LogicalTypeId::VARCHAR) {
+					throw InvalidInputException("The types provided to 'dtype' have to be strings");
+				}
+			}
+			read_csv.AddNamedParameter("dtypes", std::move(dtype_list));
+		} else {
+			throw InvalidInputException("read_csv only accepts 'dtype' as a dictionary or a list of strings");
+		}
+	}
+
+	if (!py::none().is(na_values)) {
+		if (!py::isinstance<py::str>(na_values)) {
+			throw InvalidInputException("read_csv only accepts 'na_values' as a string");
+		}
+		read_csv.AddNamedParameter("nullstr", Value(py::str(na_values)));
+	}
+
+	if (!py::none().is(skiprows)) {
+		if (!py::isinstance<py::int_>(skiprows)) {
+			throw InvalidInputException("read_csv only accepts 'skiprows' as an integer");
+		}
+		read_csv.AddNamedParameter("skip", Value::INTEGER(py::int_(skiprows)));
+	}
+
+	if (!py::none().is(parallel)) {
+		if (!py::isinstance<py::bool_>(parallel)) {
+			throw InvalidInputException("read_csv only accepts 'parallel' as a boolean");
+		}
+		read_csv.AddNamedParameter("parallel", Value::BOOLEAN(py::bool_(parallel)));
+	}
+
+	if (!py::none().is(quotechar)) {
+		if (!py::isinstance<py::str>(quotechar)) {
+			throw InvalidInputException("read_csv only accepts 'quotechar' as a string");
+		}
+		read_csv.AddNamedParameter("quote", Value(py::str(quotechar)));
+	}
+
+	if (!py::none().is(escapechar)) {
+		if (!py::isinstance<py::str>(escapechar)) {
+			throw InvalidInputException("read_csv only accepts 'escapechar' as a string");
+		}
+		read_csv.AddNamedParameter("escape", Value(py::str(escapechar)));
+	}
+
+	if (!py::none().is(encoding)) {
+		if (!py::isinstance<py::str>(encoding)) {
+			throw InvalidInputException("read_csv only accepts 'encoding' as a string");
+		}
+		string encoding_str = StringUtil::Lower(py::str(encoding));
+		if (encoding_str != "utf8" && encoding_str != "utf-8") {
+			throw BinderException("Copy is only supported for UTF-8 encoded files, ENCODING 'UTF-8'");
+		}
+	}
+
+	if (!py::none().is(date_format)) {
+		if (!py::isinstance<py::str>(date_format)) {
+			throw InvalidInputException("read_csv only accepts 'date_format' as a string");
+		}
+		read_csv.AddNamedParameter("dateformat", Value(py::str(date_format)));
+	}
+
+	if (!py::none().is(timestamp_format)) {
+		if (!py::isinstance<py::str>(timestamp_format)) {
+			throw InvalidInputException("read_csv only accepts 'timestamp_format' as a string");
+		}
+		read_csv.AddNamedParameter("timestampformat", Value(py::str(timestamp_format)));
+	}
+
+	if (!py::none().is(sample_size)) {
+		if (!py::isinstance<py::int_>(sample_size)) {
+			throw InvalidInputException("read_csv only accepts 'sample_size' as an integer");
+		}
+		read_csv.AddNamedParameter("sample_size", Value::INTEGER(py::int_(sample_size)));
+	}
+
+	if (!py::none().is(all_varchar)) {
+		if (!py::isinstance<py::bool_>(all_varchar)) {
+			throw InvalidInputException("read_csv only accepts 'all_varchar' as a boolean");
+		}
+		read_csv.AddNamedParameter("all_varchar", Value::INTEGER(py::bool_(all_varchar)));
+	}
+
+	if (!py::none().is(normalize_names)) {
+		if (!py::isinstance<py::bool_>(normalize_names)) {
+			throw InvalidInputException("read_csv only accepts 'normalize_names' as a boolean");
+		}
+		read_csv.AddNamedParameter("normalize_names", Value::INTEGER(py::bool_(normalize_names)));
+	}
+
+	if (!py::none().is(filename)) {
+		if (!py::isinstance<py::bool_>(filename)) {
+			throw InvalidInputException("read_csv only accepts 'filename' as a boolean");
+		}
+		read_csv.AddNamedParameter("filename", Value::INTEGER(py::bool_(filename)));
+	}
+
+	return make_unique<VaultDBPyRelation>(read_csv_p->Alias(name));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::FromQuery(const string &query, const string &alias) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	const char *duckdb_query_error = R"(vaultdb.from_query cannot be used to run arbitrary SQL queries.
+It can only be used to run individual SELECT statements, and converts the result of that SELECT
+statement into a Relation object.
+Use duckdb.query to run arbitrary SQL queries.)";
+	return make_unique<VaultDBPyRelation>(connection->RelationFromQuery(query, alias, duckdb_query_error));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::RunQuery(const string &query, const string &alias) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	Parser parser(connection->context.get());
+	parser.ParseQuery(query);
+	if (parser.statements.size() == 1 && parser.statements[0]->type == StatementType::SELECT_STATEMENT) {
+		return make_unique<VaultDBPyRelation>(connection->RelationFromQuery(
+		    unique_ptr_cast<SQLStatement, SelectStatement>(std::move(parser.statements[0])), alias));
+	}
+	Execute(query);
+	if (result) {
+		FetchAll();
+	}
+	return nullptr;
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::Table(const string &tname) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	auto qualified_name = QualifiedName::Parse(tname);
+	if (qualified_name.schema.empty()) {
+		qualified_name.schema = DEFAULT_SCHEMA;
+	}
+	return make_unique<VaultDBPyRelation>(connection->Table(qualified_name.schema, qualified_name.name));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::Values(py::object params) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	if (params.is_none()) {
+		params = py::list();
+	}
+	if (!py::hasattr(params, "__len__")) {
+		throw InvalidInputException("Type of object passed to parameter 'values' must be iterable");
+	}
+	vector<vector<Value>> values {VaultDBPyConnection::TransformPythonParamList(params)};
+	return make_unique<VaultDBPyRelation>(connection->Values(values));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::View(const string &vname) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	// First check our temporary view
+	if (temporary_views.find(vname) != temporary_views.end()) {
+		return make_unique<VaultDBPyRelation>(temporary_views[vname]);
+	}
+	return make_unique<VaultDBPyRelation>(connection->View(vname));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::TableFunction(const string &fname, py::object params) {
+	if (params.is_none()) {
+		params = py::list();
+	}
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+
+	return make_unique<VaultDBPyRelation>(
+	    connection->TableFunction(fname, VaultDBPyConnection::TransformPythonParamList(params)));
+}
+
+static std::string GenerateRandomName() {
+	std::random_device rd;
+	std::mt19937 gen(rd());
+	std::uniform_int_distribution<> dis(0, 15);
+
+	std::stringstream ss;
+	int i;
+	ss << std::hex;
+	for (i = 0; i < 16; i++) {
+		ss << dis(gen);
+	}
+	return ss.str();
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::FromDF(const DataFrame &value) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	string name = "df_" + GenerateRandomName();
+	auto new_df = PandasScanFunction::PandasReplaceCopiedNames(value);
+	vector<Value> params;
+	params.emplace_back(Value::POINTER((uintptr_t)new_df.ptr()));
+	auto rel = make_unique<VaultDBPyRelation>(connection->TableFunction("pandas_scan", params)->Alias(name));
+	rel->rel->extra_dependencies =
+	    make_unique<PythonDependencies>(make_unique<RegisteredObject>(value), make_unique<RegisteredObject>(new_df));
+	return rel;
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::FromParquet(const string &file_glob, bool binary_as_string,
+                                                             bool file_row_number, bool filename,
+                                                             bool hive_partitioning, bool union_by_name,
+                                                             const py::object &compression) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	string name = "parquet_" + GenerateRandomName();
+	vector<Value> params;
+	params.emplace_back(file_glob);
+	named_parameter_map_t named_parameters({{"binary_as_string", Value::BOOLEAN(binary_as_string)},
+	                                        {"file_row_number", Value::BOOLEAN(file_row_number)},
+	                                        {"filename", Value::BOOLEAN(filename)},
+	                                        {"hive_partitioning", Value::BOOLEAN(hive_partitioning)},
+	                                        {"union_by_name", Value::BOOLEAN(union_by_name)}});
+
+	if (!py::none().is(compression)) {
+		if (!py::isinstance<py::str>(compression)) {
+			throw InvalidInputException("from_parquet only accepts 'compression' as a string");
+		}
+		named_parameters["compression"] = Value(py::str(compression));
+	}
+	return make_unique<VaultDBPyRelation>(
+	    connection->TableFunction("parquet_scan", params, named_parameters)->Alias(name));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::FromParquets(const vector<string> &file_globs, bool binary_as_string,
+                                                              bool file_row_number, bool filename,
+                                                              bool hive_partitioning, bool union_by_name,
+                                                              const py::object &compression) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	string name = "parquet_" + GenerateRandomName();
+	vector<Value> params;
+	auto file_globs_as_value = vector<Value>();
+	for (const auto &file : file_globs) {
+		file_globs_as_value.emplace_back(file);
+	}
+	params.emplace_back(Value::LIST(file_globs_as_value));
+	named_parameter_map_t named_parameters({{"binary_as_string", Value::BOOLEAN(binary_as_string)},
+	                                        {"file_row_number", Value::BOOLEAN(file_row_number)},
+	                                        {"filename", Value::BOOLEAN(filename)},
+	                                        {"hive_partitioning", Value::BOOLEAN(hive_partitioning)},
+	                                        {"union_by_name", Value::BOOLEAN(union_by_name)}});
+
+	if (!py::none().is(compression)) {
+		if (!py::isinstance<py::str>(compression)) {
+			throw InvalidInputException("from_parquet only accepts 'compression' as a string");
+		}
+		named_parameters["compression"] = Value(py::str(compression));
+	}
+
+	return make_unique<VaultDBPyRelation>(
+	    connection->TableFunction("parquet_scan", params, named_parameters)->Alias(name));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::FromArrow(py::object &arrow_object) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	py::gil_scoped_acquire acquire;
+	string name = "arrow_object_" + GenerateRandomName();
+	if (!IsAcceptedArrowObject(arrow_object)) {
+		auto py_object_type = string(py::str(arrow_object.get_type().attr("__name__")));
+		throw InvalidInputException("Python Object Type %s is not an accepted Arrow Object.", py_object_type);
+	}
+	auto stream_factory =
+	    make_unique<PythonTableArrowArrayStreamFactory>(arrow_object.ptr(), connection->context->config);
+
+	auto stream_factory_produce = PythonTableArrowArrayStreamFactory::Produce;
+	auto stream_factory_get_schema = PythonTableArrowArrayStreamFactory::GetSchema;
+
+	auto rel = make_unique<VaultDBPyRelation>(
+	    connection
+	        ->TableFunction("arrow_scan", {Value::POINTER((uintptr_t)stream_factory.get()),
+	                                       Value::POINTER((uintptr_t)stream_factory_produce),
+	                                       Value::POINTER((uintptr_t)stream_factory_get_schema)})
+	        ->Alias(name));
+	rel->rel->extra_dependencies =
+	    make_unique<PythonDependencies>(make_unique<RegisteredArrow>(std::move(stream_factory), arrow_object));
+	return rel;
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::FromSubstrait(py::bytes &proto) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	string name = "substrait_" + GenerateRandomName();
+	vector<Value> params;
+	params.emplace_back(Value::BLOB_RAW(proto));
+	return make_unique<VaultDBPyRelation>(connection->TableFunction("from_substrait", params)->Alias(name));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::GetSubstrait(const string &query) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	vector<Value> params;
+	params.emplace_back(query);
+	return make_unique<VaultDBPyRelation>(connection->TableFunction("get_substrait", params)->Alias(query));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::GetSubstraitJSON(const string &query) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	vector<Value> params;
+	params.emplace_back(query);
+	return make_unique<VaultDBPyRelation>(connection->TableFunction("get_substrait_json", params)->Alias(query));
+}
+
+unique_ptr<VaultDBPyRelation> VaultDBPyConnection::FromSubstraitJSON(const string &json) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	string name = "from_substrait_" + GenerateRandomName();
+	vector<Value> params;
+	params.emplace_back(json);
+	return make_unique<VaultDBPyRelation>(connection->TableFunction("from_substrait_json", params)->Alias(name));
+}
+
+unordered_set<string> VaultDBPyConnection::GetTableNames(const string &query) {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	return connection->GetTableNames(query);
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::UnregisterPythonObject(const string &name) {
+	connection->context->external_dependencies.erase(name);
+	temporary_views.erase(name);
+	py::gil_scoped_release release;
+	if (connection) {
+		connection->Query("DROP VIEW \"" + name + "\"");
+	}
+	return shared_from_this();
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::Begin() {
+	Execute("BEGIN TRANSACTION");
+	return shared_from_this();
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::Commit() {
+	if (connection->context->transaction.IsAutoCommit()) {
+		return shared_from_this();
+	}
+	Execute("COMMIT");
+	return shared_from_this();
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::Rollback() {
+	Execute("ROLLBACK");
+	return shared_from_this();
+}
+
+py::object VaultDBPyConnection::GetDescription() {
+	if (!result) {
+		return py::none();
+	}
+	return result->Description();
+}
+
+void VaultDBPyConnection::Close() {
+	result = nullptr;
+	connection = nullptr;
+	database = nullptr;
+	for (auto &cur : cursors) {
+		cur->Close();
+	}
+	cursors.clear();
+}
+
+void VaultDBPyConnection::InstallExtension(const string &extension, bool force_install) {
+	ExtensionHelper::InstallExtension(*connection->context, extension, force_install);
+}
+
+void VaultDBPyConnection::LoadExtension(const string &extension) {
+	ExtensionHelper::LoadExternalExtension(*connection->context, extension);
+}
+
+// cursor() is stupid
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::Cursor() {
+	if (!connection) {
+		throw ConnectionException("Connection has already been closed");
+	}
+	auto res = make_shared<VaultDBPyConnection>();
+	res->database = database;
+	res->connection = make_unique<Connection>(*res->database, role);
+	//!VAULTDB: Remove these once cursor is removed
+	res->role = role;
+	cursors.push_back(res);
+	return res;
+}
+
+// these should be functions on the result but well
+py::object VaultDBPyConnection::FetchOne() {
+	if (!result) {
+		throw InvalidInputException("No open result set");
+	}
+	return result->FetchOne();
+}
+
+py::list VaultDBPyConnection::FetchMany(idx_t size) {
+	if (!result) {
+		throw InvalidInputException("No open result set");
+	}
+	return result->FetchMany(size);
+}
+
+py::list VaultDBPyConnection::FetchAll() {
+	if (!result) {
+		throw InvalidInputException("No open result set");
+	}
+	return result->FetchAll();
+}
+
+py::dict VaultDBPyConnection::FetchNumpy() {
+	if (!result) {
+		throw InvalidInputException("No open result set");
+	}
+	return result->FetchNumpyInternal();
+}
+DataFrame VaultDBPyConnection::FetchDF(bool date_as_object) {
+	if (!result) {
+		throw InvalidInputException("No open result set");
+	}
+	return result->FetchDF(date_as_object);
+}
+
+DataFrame VaultDBPyConnection::FetchDFChunk(const idx_t vectors_per_chunk, bool date_as_object) const {
+	if (!result) {
+		throw InvalidInputException("No open result set");
+	}
+	return result->FetchDFChunk(vectors_per_chunk, date_as_object);
+}
+
+duckdb::pyarrow::Table VaultDBPyConnection::FetchArrow(idx_t chunk_size) {
+	if (!result) {
+		throw InvalidInputException("No open result set");
+	}
+	return result->ToArrowTable(chunk_size);
+}
+
+duckdb::pyarrow::RecordBatchReader VaultDBPyConnection::FetchRecordBatchReader(const idx_t chunk_size) const {
+	if (!result) {
+		throw InvalidInputException("No open result set");
+	}
+	return result->FetchRecordBatchReader(chunk_size);
+}
+static unique_ptr<TableRef> TryReplacement(py::dict &dict, py::str &table_name, ClientConfig &config,
+                                           py::object &current_frame) {
+	if (!dict.contains(table_name)) {
+		// not present in the globals
+		return nullptr;
+	}
+	auto entry = dict[table_name];
+	auto table_function = make_unique<TableFunctionRef>();
+	vector<unique_ptr<ParsedExpression>> children;
+	if (VaultDBPyConnection::IsPandasDataframe(entry)) {
+		string name = "df_" + GenerateRandomName();
+		auto new_df = PandasScanFunction::PandasReplaceCopiedNames(entry);
+		children.push_back(make_unique<ConstantExpression>(Value::POINTER((uintptr_t)new_df.ptr())));
+		table_function->function = make_unique<FunctionExpression>("pandas_scan", std::move(children));
+		table_function->external_dependency = make_unique<PythonDependencies>(make_unique<RegisteredObject>(entry),
+		                                                                      make_unique<RegisteredObject>(new_df));
+	} else if (VaultDBPyConnection::IsAcceptedArrowObject(entry)) {
+		string name = "arrow_" + GenerateRandomName();
+		auto stream_factory = make_unique<PythonTableArrowArrayStreamFactory>(entry.ptr(), config);
+		auto stream_factory_produce = PythonTableArrowArrayStreamFactory::Produce;
+		auto stream_factory_get_schema = PythonTableArrowArrayStreamFactory::GetSchema;
+
+		children.push_back(make_unique<ConstantExpression>(Value::POINTER((uintptr_t)stream_factory.get())));
+		children.push_back(make_unique<ConstantExpression>(Value::POINTER((uintptr_t)stream_factory_produce)));
+		children.push_back(make_unique<ConstantExpression>(Value::POINTER((uintptr_t)stream_factory_get_schema)));
+
+		table_function->function = make_unique<FunctionExpression>("arrow_scan", std::move(children));
+		table_function->external_dependency =
+		    make_unique<PythonDependencies>(make_unique<RegisteredArrow>(std::move(stream_factory), entry));
+	} else if (VaultDBPyRelation::IsRelation(entry)) {
+		auto pyrel = py::cast<VaultDBPyRelation *>(entry);
+		// create a subquery from the underlying relation object
+		auto select = make_unique<SelectStatement>();
+		select->node = pyrel->rel->GetQueryNode();
+
+		auto subquery = make_unique<SubqueryRef>(std::move(select));
+		return std::move(subquery);
+	} else {
+		std::string location = py::cast<py::str>(current_frame.attr("f_code").attr("co_filename"));
+		location += ":";
+		location += py::cast<py::str>(current_frame.attr("f_lineno"));
+		std::string cpp_table_name = table_name;
+		auto py_object_type = string(py::str(entry.get_type().attr("__name__")));
+
+		throw InvalidInputException(
+		    "Python Object \"%s\" of type \"%s\" found on line \"%s\" not suitable for replacement scans.\nMake sure "
+		    "that \"%s\" is either a pandas.DataFrame, duckdb.VaultDBPyRelation, pyarrow Table, Dataset, "
+		    "RecordBatchReader, or Scanner",
+		    cpp_table_name, py_object_type, location, cpp_table_name);
+	}
+	return std::move(table_function);
+}
+
+static unique_ptr<TableRef> ScanReplacement(ClientContext &context, const string &table_name,
+                                            ReplacementScanData *data) {
+	py::gil_scoped_acquire acquire;
+	auto py_table_name = py::str(table_name);
+	// Here we do an exhaustive search on the frame lineage
+	auto current_frame = py::module::import("inspect").attr("currentframe")();
+	while (hasattr(current_frame, "f_locals")) {
+		auto local_dict = py::reinterpret_borrow<py::dict>(current_frame.attr("f_locals"));
+		// search local dictionary
+		if (local_dict) {
+			auto result = TryReplacement(local_dict, py_table_name, context.config, current_frame);
+			if (result) {
+				return result;
+			}
+		}
+		// search global dictionary
+		auto global_dict = py::reinterpret_borrow<py::dict>(current_frame.attr("f_globals"));
+		if (global_dict) {
+			auto result = TryReplacement(global_dict, py_table_name, context.config, current_frame);
+			if (result) {
+				return result;
+			}
+		}
+		current_frame = current_frame.attr("f_back");
+	}
+	// Not found :(
+	return nullptr;
+}
+
+unordered_map<string, string> TransformPyConfigDict(const py::dict &py_config_dict) {
+	unordered_map<string, string> config_dict;
+	for (auto &kv : py_config_dict) {
+		auto key = py::str(kv.first);
+		auto val = py::str(kv.second);
+		config_dict[key] = val;
+	}
+	return config_dict;
+}
+
+void CreateNewInstance(VaultDBPyConnection &res, const string &database, const string &role, DBConfig &config) {
+	// We don't cache unnamed memory instances (i.e., :memory:)
+	bool cache_instance = database != ":memory:" && !database.empty();
+	res.database = instance_cache.CreateInstance(database, config, cache_instance);
+	res.connection = make_unique<Connection>(*res.database, role);
+	auto &context = *res.connection->context;
+	PandasScanFunction scan_fun;
+	CreateTableFunctionInfo scan_info(scan_fun);
+	MapFunction map_fun;
+	CreateTableFunctionInfo map_info(map_fun);
+	auto &catalog = Catalog::GetSystemCatalog(context);
+	context.transaction.BeginTransaction();
+	catalog.CreateTableFunction(context, &scan_info);
+	catalog.CreateTableFunction(context, &map_info);
+	context.transaction.Commit();
+	auto &db_config = res.database->instance->config;
+	db_config.AddExtensionOption("pandas_analyze_sample",
+	                             "The maximum number of rows to sample when analyzing a pandas object column.",
+	                             LogicalType::UBIGINT, Value::UBIGINT(1000));
+	if (db_config.options.enable_external_access) {
+		db_config.replacement_scans.emplace_back(ScanReplacement);
+	}
+}
+
+static void SetDefaultConfigArguments(ClientContext &context) {
+	if (!VaultDBPyConnection::IsInteractive()) {
+		// Don't need to set any special default arguments
+		return;
+	}
+
+	auto &config = ClientConfig::GetConfig(context);
+	config.enable_progress_bar = true;
+
+	if (VaultDBPyConnection::IsJupyter()) {
+		// Set the function used to create the display for the progress bar
+		context.config.display_create_func = JupyterProgressBarDisplay::Create;
+	}
+}
+
+static shared_ptr<VaultDBPyConnection> FetchOrCreateInstance(const string &database, const string &role, DBConfig &config) {
+	auto res = make_shared<VaultDBPyConnection>();
+	res->database = instance_cache.GetInstance(database, config);
+	//!VAULTDB: Remove these once cursor is removed
+	res->role = role;
+	if (!res->database) {
+		//! No cached database, we must create a new instance
+		CreateNewInstance(*res, database, role, config);
+		return res;
+	}
+	res->connection = make_unique<Connection>(*res->database, role);
+	return res;
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::Connect(const string &database, bool read_only, 
+										const string &role, py::object config_options) {
+	if (config_options.is_none()) {
+		config_options = py::dict();
+	}
+	if (!py::isinstance<py::dict>(config_options)) {
+		throw InvalidInputException("Type of object passed to parameter 'config' has to be <dict>");
+	}
+	py::dict py_config_dict = config_options;
+	auto config_dict = TransformPyConfigDict(py_config_dict);
+	DBConfig config(config_dict, read_only);
+
+	auto res = FetchOrCreateInstance(database, role, config);
+	auto &client_context = *res->connection->context;
+	SetDefaultConfigArguments(client_context);
+	return res;
+}
+
+vector<Value> VaultDBPyConnection::TransformPythonParamList(const py::handle &params) {
+	vector<Value> args;
+	args.reserve(py::len(params));
+
+	for (auto param : params) {
+		args.emplace_back(TransformPythonValue(param, LogicalType::UNKNOWN, false));
+	}
+	return args;
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::DefaultConnection() {
+	if (!default_connection) {
+		py::dict config_dict;
+		default_connection = VaultDBPyConnection::Connect(":memory:", false, "vaultdb", config_dict);
+	}
+	return default_connection;
+}
+
+PythonImportCache *VaultDBPyConnection::ImportCache() {
+	if (!import_cache) {
+		import_cache = make_shared<PythonImportCache>();
+	}
+	return import_cache.get();
+}
+
+bool VaultDBPyConnection::IsInteractive() {
+	return VaultDBPyConnection::environment != PythonEnvironmentType::NORMAL;
+}
+
+shared_ptr<VaultDBPyConnection> VaultDBPyConnection::Enter() {
+	return shared_from_this();
+}
+
+bool VaultDBPyConnection::Exit(VaultDBPyConnection &self, const py::object &exc_type, const py::object &exc,
+                              const py::object &traceback) {
+	self.Close();
+	if (exc_type.ptr() != Py_None) {
+		return false;
+	}
+	return true;
+}
+
+void VaultDBPyConnection::Cleanup() {
+	default_connection.reset();
+	import_cache.reset();
+}
+
+bool VaultDBPyConnection::IsPandasDataframe(const py::object &object) {
+	auto &import_cache = *VaultDBPyConnection::ImportCache();
+	return import_cache.pandas.DataFrame.IsInstance(object);
+}
+
+bool VaultDBPyConnection::IsAcceptedArrowObject(const py::object &object) {
+	auto &import_cache = *VaultDBPyConnection::ImportCache();
+	return import_cache.arrow.lib.Table.IsInstance(object) ||
+	       import_cache.arrow.lib.RecordBatchReader.IsInstance(object) ||
+	       import_cache.arrow.dataset.Dataset.IsInstance(object) ||
+	       import_cache.arrow.dataset.Scanner.IsInstance(object);
+}
+
+unique_lock<std::mutex> VaultDBPyConnection::AcquireConnectionLock() {
+	// we first release the gil and then acquire the connection lock
+	unique_lock<std::mutex> lock(py_connection_lock, std::defer_lock);
+	{
+		py::gil_scoped_release release;
+		lock.lock();
+	}
+	return lock;
+}
+
+} // namespace duckdb
