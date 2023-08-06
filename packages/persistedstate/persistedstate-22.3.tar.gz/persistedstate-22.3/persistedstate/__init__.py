@@ -1,0 +1,91 @@
+import json
+import os
+import pathlib
+import re
+from collections.abc import MutableMapping
+from typing import Any
+
+VALID_IDENTIFIER_RE = re.compile(r"^[\w_.-]+$")
+
+
+class PersistedState(MutableMapping):
+    _VACUUM_ON_CHANGE = 2000
+
+    def __init__(self, _filepath: os.PathLike, **defaults):
+        self.__change_count = 0
+        self.__filepath = pathlib.Path(_filepath)
+        self.__filepath.touch()
+        self.__file = self.__filepath.open("r+", encoding="utf-8")
+        self.__cache = {}
+        self.__load()
+        if defaults:
+            for key, value in defaults.items():
+                if not hasattr(self, key):
+                    setattr(self, key, value)
+
+    def __load(self) -> None:
+        for line in self.__file:
+            key, _, value_str = line.partition(":")
+            if key.startswith('"'):
+                key = json.loads(key)
+            self.__cache[key.strip()] = json.loads(value_str)
+
+    def __vacuum(self) -> None:
+        tmp_file = self.__filepath.with_suffix(self.__filepath.suffix + ".tmp")
+        with tmp_file.open("w", encoding="utf-8") as out_file:
+            for key in sorted(self.keys()):
+                self.__write_line(out_file, key)
+        self.__file.close()
+        tmp_file.replace(self.__filepath)
+        self.__file = self.__filepath.open("a", encoding="utf-8")
+
+    def __write_line(self, file, key):
+        key_str = key
+        if not VALID_IDENTIFIER_RE.match(key_str):
+            key_str = json.dumps(key_str).replace(":", "\\u003A")
+        file.write(f"{key_str}: {json.dumps(self[key])}\n")
+
+    def __getattr__(self, __name):
+        try:
+            return self[__name]
+        except KeyError:
+            raise AttributeError(
+                f"{self.__class__} object has no attribute '{__name}'"
+            ) from None
+
+    def __setattr__(self, __name: str, __value: Any) -> None:
+        if __name.startswith("_") or hasattr(self, __name):
+            object.__setattr__(self, __name, __value)
+            return
+        self[__name] = __value
+
+    def __del__(self):
+        self.__vacuum()
+        self.__file.close()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        if exc_type is None:
+            self.__vacuum()
+
+    def __getitem__(self, key):
+        return self.__cache[key]
+
+    def __setitem__(self, key, value):
+        self.__cache[key] = value
+        self.__write_line(self.__file, key)
+        self.__change_count += 1
+        if self.__change_count >= self._VACUUM_ON_CHANGE:
+            self.__vacuum()
+            self.__change_count = 0
+
+    def __delitem__(self, key):
+        del self.__cache[key]
+
+    def __iter__(self):
+        return iter(self.__cache)
+
+    def __len__(self):
+        return len(self.__cache)
