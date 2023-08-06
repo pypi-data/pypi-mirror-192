@@ -1,0 +1,66 @@
+
+# Synapse
+
+Welcome to Synapse, a file manager designed to make organizing and accessing your files a breeze. This project is intended for anyone looking to streamline their file management process.
+
+
+## Author
+
+Name: Eyetu Kingsley
+Github: [@CodeKing12](https://www.github.com/CodeKing12)
+
+
+## Prerequisites
+
+- Python 3.1 or higher
+- Python package manager (pip)
+- Curses library (typically pre-installed on most Linux distributions)
+
+*Note: If the cursed library is not installed on your machine, please refer to your distribution's support pages for installation instructions.*
+
+## Installation
+
+To install **Synapse**, make sure you meet all the prerequisites above, then run the following command:
+
+```python
+  pip install synapse-fm
+```
+
+## Running the Program
+
+To run the program, use the following command 
+from any directory in the terminal:
+
+```python
+synapse
+```
+##  Using Synapse
+
+- To navigate to the previous directory:
+    - Press the **left arrow** key or the **backspace** key
+- To navigate to the next directory:
+    - Press the **right arrow** key or the **enter** key
+- To traverse the current directory:
+    - Use the **up** and **down** arrow keys
+- To quit the file manager:
+    - Press the **escape** key twice
+## Features
+
+- Toggle between light and dark mode (soon to be added)
+- Live previews for files
+- Fullscreen mode
+- View file and folder information within the program
+## License
+
+This project is licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+
+
+## Troubleshooting
+
+If you encounter any issues while using Synapse, here are some steps you can try to resolve them:
+
+1. Check that you meet all the prerequisites and installation instructions were followed properly
+2. Try running the program as a superuser
+3. Ensure that the Python version meets the required version
+4. Create an issue on the project's repository
+5. Contact the maintainer for assistance

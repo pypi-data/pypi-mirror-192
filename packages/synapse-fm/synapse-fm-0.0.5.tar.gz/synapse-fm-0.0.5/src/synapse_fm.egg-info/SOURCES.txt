@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/synapse/__init__.py
+src/synapse/index.py
+src/synapse_fm.egg-info/PKG-INFO
+src/synapse_fm.egg-info/SOURCES.txt
+src/synapse_fm.egg-info/dependency_links.txt
+src/synapse_fm.egg-info/entry_points.txt
+src/synapse_fm.egg-info/top_level.txt
