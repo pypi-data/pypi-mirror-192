@@ -1,0 +1,13 @@
+humanreadable<1,>=0.2
+pyparsing<4,>=2.0.3
+subprocrunner<3,>=1.2.2
+typepy[datetime]<2,>=1.1.0
+
+[cli]
+loguru<1,>=0.4.1
+Pygments<3,>=2.1
+
+[test]
+pytest>=6.0.1
+pytest-discord>=0.1.1
+pytest-md-report>=0.3
