@@ -1,0 +1,8 @@
+README.md
+setup.py
+Leer_PDF_GP/Funciones.py
+Leer_PDF_GP/__init__.py
+Leer_PDF_GP.egg-info/PKG-INFO
+Leer_PDF_GP.egg-info/SOURCES.txt
+Leer_PDF_GP.egg-info/dependency_links.txt
+Leer_PDF_GP.egg-info/top_level.txt
