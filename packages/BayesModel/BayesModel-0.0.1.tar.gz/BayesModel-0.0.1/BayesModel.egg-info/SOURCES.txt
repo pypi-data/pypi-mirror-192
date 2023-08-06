@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+BayesModel/BayesModel.py
+BayesModel.egg-info/PKG-INFO
+BayesModel.egg-info/SOURCES.txt
+BayesModel.egg-info/dependency_links.txt
+BayesModel.egg-info/requires.txt
+BayesModel.egg-info/top_level.txt
