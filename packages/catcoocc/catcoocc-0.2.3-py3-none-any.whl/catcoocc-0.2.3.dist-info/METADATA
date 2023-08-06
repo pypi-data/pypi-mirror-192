@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: catcoocc
+Version: 0.2.3
+Summary: Methods for symmetric and asymmetric analysis of categorical co-occurrences
+Home-page: https://github.com/tresoldi/catcoocc
+Author: Tiago Tresoldi
+Author-email: tiago.tresoldi@lingfil.uu.se
+License: MIT
+Keywords: co-occurrence,cooccurrence,categorical variables,mutual information,scorer
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tabulate
+
+# catcoocc
+
+The `catcoocc` library is designed for the study of co-occurrence association
+between categorical variables by implementing a number of symmetric and
+asymmetric measures of association.
+
+*The library has been expanded and renamed to ASymCat, and can now be found at
+[https://pypi.org/project/asymcat/](https://pypi.org/project/asymcat/). The
+`catcoocc` version will not be updated and will only be kept to prevent
+cybersquatting on PyPI.*

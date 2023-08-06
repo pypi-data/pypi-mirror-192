@@ -1,0 +1,2 @@
+[console_scripts]
+catcoocc = catcoocc.__main__:main
