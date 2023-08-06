@@ -1,0 +1,9 @@
+cdk_dynamo_table_view/__init__.py,sha256=rcAeawKIxrnc2Kz9W5QO8cR3uHvMqkCdEHVTPm5BjFs,8833
+cdk_dynamo_table_view/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_dynamo_table_view/_jsii/__init__.py,sha256=KV4qPAk3HWyRn6uCpHc9jcpq8NZebEOwG2KpHpt-ZOA,430
+cdk_dynamo_table_view/_jsii/cdk-dynamo-table-viewer@0.2.416.jsii.tgz,sha256=Gqrvq8vQ7nAJSe-wxQ1lrxcAy8NwCW0H7P0ZYBCirZ8,19607
+cdk_dynamo_table_view-0.2.416.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_dynamo_table_view-0.2.416.dist-info/METADATA,sha256=2Nj3iGkL3n8yRiLlA9s7nB78475jtfhCv0E-_GhwNto,2915
+cdk_dynamo_table_view-0.2.416.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cdk_dynamo_table_view-0.2.416.dist-info/top_level.txt,sha256=QgzE0xdQQ4Hsdhr8NQzzGoF6kPI53lr4XbgYaIQ7I0U,22
+cdk_dynamo_table_view-0.2.416.dist-info/RECORD,,
