@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_ecs_public_discovery/__init__.py
+src/cdk_ecs_public_discovery/py.typed
+src/cdk_ecs_public_discovery.egg-info/PKG-INFO
+src/cdk_ecs_public_discovery.egg-info/SOURCES.txt
+src/cdk_ecs_public_discovery.egg-info/dependency_links.txt
+src/cdk_ecs_public_discovery.egg-info/requires.txt
+src/cdk_ecs_public_discovery.egg-info/top_level.txt
+src/cdk_ecs_public_discovery/_jsii/__init__.py
+src/cdk_ecs_public_discovery/_jsii/cdk-ecs-public-discovery@1.0.0.jsii.tgz
