@@ -1,0 +1,9 @@
+pydantic_sqs/__init__.py,sha256=Dfg-dn6Gi9HxsIlYwV3aGCkGvoVgHX9jH7lum7PCEK0,119
+pydantic_sqs/abstract.py,sha256=OHbgR7-dDj5kbPAAZK8iEmfjuJteg2uOrtrQe2350qU,1579
+pydantic_sqs/exceptions.py,sha256=LCNnSLM9dc9tvp04cS18ta7uL3VBlI4_5AjxC0sx0zU,338
+pydantic_sqs/model.py,sha256=KNjReJgTNgwfa4V5pzQc2JB12aAggKnB9Eg0B2miHFM,6726
+pydantic_sqs/queue.py,sha256=efR39xWwi1Gmq85JGmUQ1SD8mW-xSUu1LheibmID-k8,11564
+pydantic_sqs-0.2.0.dist-info/LICENSE,sha256=UThinLLvUR5V1UF_b5s4KQxnSwB7eclrVzxOqPu3NOI,1252
+pydantic_sqs-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pydantic_sqs-0.2.0.dist-info/METADATA,sha256=haOQqOQs0mYEAaQ0MiwMnZNRPfPHj3iiVAc4NOv9OpM,4185
+pydantic_sqs-0.2.0.dist-info/RECORD,,
