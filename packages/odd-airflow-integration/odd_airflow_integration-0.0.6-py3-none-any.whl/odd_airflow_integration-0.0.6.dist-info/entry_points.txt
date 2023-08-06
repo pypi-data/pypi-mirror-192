@@ -1,0 +1,3 @@
+[airflow.plugins]
+OddPlugin=odd_airflow_integration.plugin:OddPlugin
+
