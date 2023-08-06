@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mlflow-token
+Version: 0.1.1
+Summary: Command line tool to retreive access token for mlflow instance
+Home-page: https://github.com/ncsa/mlflow-token
+License: BSD-3-Clause
+Author: Ben Galewsky
+Author-email: bengal1@illinois.edu
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Project-URL: Repository, https://github.com/ncsa/mlflow-token
+Description-Content-Type: text/markdown
+
+# mlflow-token
+Obtain an access token for an MLFlow instance deployed behind OAuth2-proxy and
+keycloak. 
+
+This script will use your current setting of `MLFLOW_TRACKING_URI` to look for
+the keycloak redirect from it's OAuth2-proxy. From there it will start an
+OAuth device flow to allow you to obtain a valid access token. This token will
+be set in your environment's `MLFLOW_TRACKING_TOKEN` variable for use by the
+MLFlow client libraries.
+
+You can also specify the `--echo` command line argument to get the tool to print
+a command for assigning the token to the environment variable.
+
