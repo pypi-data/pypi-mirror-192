@@ -1,0 +1,11 @@
+fly_python_sdk/__init__.py,sha256=nF2v3UyhTU2EYVWjlZTOmagCLe03ZOMjs1FJ4-rUU-U,77
+fly_python_sdk/constants.py,sha256=D-7KXUglQfNLk4HCubPY7h7OqSsC5hAr5VlJEmHUVC0,1470
+fly_python_sdk/exceptions.py,sha256=HmuxkDtZma4CN1gNBxCJ0zgP6I7Kc2gC1pJJ2LLPZ_Q,786
+fly_python_sdk/fly.py,sha256=B29h3tj3UTesWfPSZISWQAXXRoEkRvDvcvU5dmfhMBI,10023
+fly_python_sdk/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fly_python_sdk/models/apps/__init__.py,sha256=V3b9UNf4zzl1krgzkP45oXDqMkV1Rm0_zGYU8q2pVcw,202
+fly_python_sdk/models/machines/__init__.py,sha256=4iCGmO9yC2krpkxSS5QbTkLJy60xXMBtfv5q41fmBG0,3330
+fly_python_sdk-0.1.0.dist-info/LICENSE,sha256=d2r2K21Gd_PjkOmoLTjczbTLkKN4lXLrEQazPQzMpqc,1075
+fly_python_sdk-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+fly_python_sdk-0.1.0.dist-info/METADATA,sha256=pKcZN5PKG629RbGh4qfJ21ONHtFBbt9HftbmcGgCYpQ,512
+fly_python_sdk-0.1.0.dist-info/RECORD,,
