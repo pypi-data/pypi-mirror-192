@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19e5cef3-745e-42d0-8c25-6e66ccd730e7" name="Changes" comment="added the database to PyCharm's settings">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_app/tests/test_auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_app/tests/test_auth.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="df002144-7f74-480f-a0eb-9fe3a6d78982" />
+        <option name="url" value="https://github.com/yonikremer/grouped_sampling.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2LNL55zkuIPd3jGvYRTIzPOrnMu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/yoni/PycharmProjects/grouped_sampling/web_app/instance/testing_data.sqlite",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "typescript.add.unambiguous.imports.on.the.fly": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.run_tests">
+    <configuration name="run_tests" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="grouped_sampling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_NAME" value="Python 3.11 (grouped_sampling)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_auth.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="grouped_sampling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_app/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_auth.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_auth.test_login_validate_input" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="grouped_sampling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_app/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_auth.test_login_validate_input&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_auth.test_register" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="grouped_sampling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_app/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_auth.test_register&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_auth.test_register_validate_input" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="grouped_sampling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_app/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_auth.test_register_validate_input&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_get_padding_id.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="grouped_sampling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_get_padding_id.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_auth.test_login_validate_input" />
+        <item itemvalue="Python tests.pytest for test_auth.test_login" />
+        <item itemvalue="Python tests.pytest for test_auth.test_register_validate_input" />
+        <item itemvalue="Python tests.pytest for test_auth.test_register" />
+        <item itemvalue="Python tests.pytest in test_get_padding_id.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19e5cef3-745e-42d0-8c25-6e66ccd730e7" name="Changes" comment="" />
+      <created>1675706408066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675706408066</updated>
+      <workItem from="1675706412053" duration="469000" />
+      <workItem from="1675707198306" duration="1940000" />
+      <workItem from="1675709761454" duration="1089000" />
+      <workItem from="1675712212870" duration="857000" />
+      <workItem from="1675777513004" duration="5000" />
+      <workItem from="1675780063519" duration="1533000" />
+      <workItem from="1675890452644" duration="328000" />
+      <workItem from="1676016006414" duration="25305000" />
+      <workItem from="1676206529514" duration="611000" />
+      <workItem from="1676225451450" duration="10000" />
+      <workItem from="1676632055452" duration="6848000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fixed wrong type hint">
+      <created>1675712420250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675712420250</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated libraries">
+      <created>1675780229088</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675780229088</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed import error">
+      <created>1675780260066</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675780260066</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed an unused requirement">
+      <created>1675780294711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675780294712</updated>
+    </task>
+    <task id="LOCAL-00005" summary="replaced absolute with relative imports">
+      <created>1675780321764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675780321764</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated libraries">
+      <created>1675780350588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675780350588</updated>
+    </task>
+    <task id="LOCAL-00007" summary="simplified the poster">
+      <created>1675780381923</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675780381923</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated auto-generated files">
+      <created>1675780405056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675780405056</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed pep8 violation">
+      <created>1675780726009</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675780726009</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added tested tokenizers">
+      <created>1675781094610</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675781094610</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added toml to requirements.txt">
+      <created>1675781208787</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675781208787</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed pylint issues">
+      <created>1675781574717</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675781574717</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Version 1.0.4">
+      <created>1675781589550</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675781589550</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Bug fix: A device map needs to be passed to run convert models into mixed-int8 format. Please run.from_pretrained with device_map='auto'">
+      <created>1675890562838</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675890562838</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Saving the pypi token">
+      <created>1675890671131</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675890671131</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Version 1.0.5">
+      <created>1675890755785</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675890755785</updated>
+    </task>
+    <task id="LOCAL-00017" summary="critical bug fixes">
+      <created>1676053425392</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676053425392</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added a test for models support">
+      <created>1676062138683</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676062138683</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added many more requirements">
+      <created>1676062154114</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676062154114</updated>
+    </task>
+    <task id="LOCAL-00020" summary="critical bug fix: couldn't get padding and end of sentence ids">
+      <created>1676062198203</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676062198203</updated>
+    </task>
+    <task id="LOCAL-00021" summary="adda an ignored file">
+      <created>1676062224696</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1676062224696</updated>
+    </task>
+    <task id="LOCAL-00022" summary="changed interpreter">
+      <created>1676062236649</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1676062236649</updated>
+    </task>
+    <task id="LOCAL-00023" summary="made the tests file runnable">
+      <created>1676062489563</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1676062489563</updated>
+    </task>
+    <task id="LOCAL-00024" summary="critical bug fix: GroupedSamplingPipeline's _forward method was generating 1 token less than needed when the number of wanted tokens is not divisible by the group size">
+      <created>1676633077542</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676633077542</updated>
+    </task>
+    <task id="LOCAL-00025" summary="seperated tests">
+      <created>1676635162309</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676635162309</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fixed wrong type hints error">
+      <created>1676637014607</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676637014607</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added the database to PyCharm's settings">
+      <created>1676637040218</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1676637040218</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed import error" />
+    <MESSAGE value="removed an unused requirement" />
+    <MESSAGE value="replaced absolute with relative imports" />
+    <MESSAGE value="updated libraries" />
+    <MESSAGE value="simplified the poster" />
+    <MESSAGE value="updated auto-generated files" />
+    <MESSAGE value="fixed pep8 violation" />
+    <MESSAGE value="added tested tokenizers" />
+    <MESSAGE value="added toml to requirements.txt" />
+    <MESSAGE value="fixed pylint issues" />
+    <MESSAGE value="Version 1.0.4" />
+    <MESSAGE value="Bug fix: A device map needs to be passed to run convert models into mixed-int8 format. Please run.from_pretrained with device_map='auto'" />
+    <MESSAGE value="Saving the pypi token" />
+    <MESSAGE value="Version 1.0.5" />
+    <MESSAGE value="critical bug fixes" />
+    <MESSAGE value="added a test for models support" />
+    <MESSAGE value="added many more requirements" />
+    <MESSAGE value="critical bug fix: couldn't get padding and end of sentence ids" />
+    <MESSAGE value="adda an ignored file" />
+    <MESSAGE value="changed interpreter" />
+    <MESSAGE value="made the tests file runnable" />
+    <MESSAGE value="critical bug fix: GroupedSamplingPipeline's _forward method was generating 1 token less than needed when the number of wanted tokens is not divisible by the group size" />
+    <MESSAGE value="seperated tests" />
+    <MESSAGE value="fixed wrong type hints error" />
+    <MESSAGE value="added the database to PyCharm's settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the database to PyCharm's settings" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_pipelines.py</url>
+          <line>326</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_in_test_get_padding_id_py.coverage" NAME="pytest in test_get_padding_id.py Coverage Results" MODIFIED="1676633691592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_for_test_auth_test_register_validate_input.coverage" NAME="pytest for test_auth.test_register_validate_input Coverage Results" MODIFIED="1676635903464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_for_test_models_support_test_supported_tokenizers.coverage" NAME="pytest for test_models_support.test_supported_tokenizers Coverage Results" MODIFIED="1676062247827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_for_test_auth_test_register.coverage" NAME="pytest for test_auth.test_register Coverage Results" MODIFIED="1676635896855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_in_test_generation_utils_py.coverage" NAME="pytest in test_generation_utils.py Coverage Results" MODIFIED="1676053398245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_in_test_pipelines_py.coverage" NAME="pytest in test_pipelines.py Coverage Results" MODIFIED="1676632793120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$publish_new_version.coverage" NAME="publish_new_version Coverage Results" MODIFIED="1675890576058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_for_test_models_support_test_pipeline_creation.coverage" NAME="pytest for test_models_support.test_pipeline_creation Coverage Results" MODIFIED="1676062425812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_for_test_auth_test_login.coverage" NAME="pytest for test_auth.test_login Coverage Results" MODIFIED="1676636957017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_for_test_auth_test_login_validate_input.coverage" NAME="pytest for test_auth.test_login_validate_input Coverage Results" MODIFIED="1676639246446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web_app/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$pytest_for_test_pipelines_test_single_token_generation.coverage" NAME="pytest for test_pipelines.test_single_token_generation Coverage Results" MODIFIED="1676632707962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/grouped_sampling$run_tests.coverage" NAME="run_tests Coverage Results" MODIFIED="1676639802398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
