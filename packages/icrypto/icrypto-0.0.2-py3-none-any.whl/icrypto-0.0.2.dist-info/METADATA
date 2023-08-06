@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: icrypto
+Version: 0.0.2
+Summary: A simple encryption and decryption module for Python 3.6+
+Home-page: https://github.com/rhcproc/icrypto
+Author: Hans Park
+Author-email: rhcproc@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+
+# icrypto
+
+
+hashed_pw = icrypto.get_hashed_pw()
+
+encrypted = icrypto.encrypt(data, pw_sha3, 'AES')
+
+<!-- pw_sha3 = icrypto.pwtosha3() -->
+
+icrypto.decrypt(encrypted, pw_sha3)
