@@ -1,0 +1,11 @@
+valcheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+valcheck/base_validator.py,sha256=MtRHxg10MAhOy3_5DkQer36OO4g1V6rlHWCEl2OUxuw,8839
+valcheck/exceptions.py,sha256=1M60tbZ--O2S48s0K08OCrgwS5czog6FSG24izI4k9k,1190
+valcheck/fields.py,sha256=UWxxAXMuOYMhfj6J9H6PBx9zFhnsb6MrXJI7WK7e2HU,10327
+valcheck/models.py,sha256=V9YcW411Qtu_iqWbQxauojFt8LKjf1wGKdVTav_0nqw,1601
+valcheck/utils.py,sha256=FY8PhwJmhMTgiZ3mcJvdGWmnMkRUV6cAjVLoOhWRZP8,2051
+valcheck-0.2.9.dist-info/LICENSE,sha256=GQyWA1RVR-LaZlw5h1r_Issy9deLEvqeKQyUtBOnUI4,1067
+valcheck-0.2.9.dist-info/METADATA,sha256=XRmDfxvXdKURY_VrWy7aZ7qnC6AvEpDnQu_Pl9mQKpo,751
+valcheck-0.2.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+valcheck-0.2.9.dist-info/top_level.txt,sha256=etmuGSwagtvEl69EvKZdBOcMBEXDfXyYpopxO6eRz2s,9
+valcheck-0.2.9.dist-info/RECORD,,
