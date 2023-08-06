@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: gocept.xmlrpcskin
+Version: 2.0
+Summary: An extension to ``zope.publisher`` that provides a ZCML directive for XML-RPC views that supports a ``layer`` parameter.
+Home-page: https://github.com/zopefoundation/gocept.xmlrpcskin
+Author: gocept
+Author-email: zope-dev@zope.dev
+License: ZPL
+Keywords: zope3 xmlrpc zope.publisher
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: Zope Public License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Zope :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Requires-Dist: setuptools
+Requires-Dist: zope.app.publisher
+Requires-Dist: zope.component[zcml]
+Requires-Dist: zope.configuration
+Requires-Dist: zope.interface
+Requires-Dist: zope.publisher (>=3.6.0)
+Requires-Dist: zope.security
+Requires-Dist: zope.traversing
+Provides-Extra: test
+Requires-Dist: zope.app.appsetup ; extra == 'test'
+Requires-Dist: zope.app.publication ; extra == 'test'
+Requires-Dist: zope.app.testing ; extra == 'test'
+Requires-Dist: zope.browserpage ; extra == 'test'
+Requires-Dist: zope.location ; extra == 'test'
+Requires-Dist: zope.principalregistry ; extra == 'test'
+Requires-Dist: zope.securitypolicy ; extra == 'test'
+Requires-Dist: zope.testbrowser ; extra == 'test'
+Requires-Dist: zope.testrunner ; extra == 'test'
+
+=================
+gocept.xmlrpcskin
+=================
+
+.. image:: https://img.shields.io/pypi/v/gocept.xmlrpcskin
+    :target: https://pypi.org/project/gocept.xmlrpcskin/
+
+.. image:: https://img.shields.io/pypi/pyversions/gocept.xmlrpcskin
+    :target: https://pypi.org/project/gocept.xmlrpcskin/
+
+.. image:: https://github.com/zopefoundation/gocept.xmlrpcskin/actions/workflows/tests.yml/badge.svg
+    :target: https://github.com/zopefoundation/gocept.xmlrpcskin/actions/workflows/tests.yml
+
+.. image:: https://coveralls.io/repos/github/zopefoundation/gocept.xmlrpcskin/badge?branch=master
+    :target: https://coveralls.io/github/zopefoundation/gocept.xmlrpcskin?branch=master
+
+This package is an extension to the Zope Publisher that provides a ZCML
+directive for XML-RPC views that supports a ``layer`` parameter.
+
+It collects the changes that briefly were contained in 3.5.0alpha releases (but
+subsequently have been removed) of the following packages
+
+- zope.app.publisher (removed in r82484)
+- zope.traversing (removed in r82482)
+- zope.publisher (removed in r82493)
+
+
+Usage
+=====
+
+The ``gocept:xmlrpcview`` directive is like the ``xmlrpc:view`` directive of
+``zope.app.publisher``, but with an additional parameter ``layer``.
+
+Here's an abbriged example (also available as
+``gocept.xmlrpcskin.tests.fixture``)::
+
+    <include package="zope.component" file="meta.zcml" />
+
+    <include package="gocept.xmlrpcskin" file="meta.zcml" />
+    <include package="gocept.xmlrpcskin" />
+
+    <interface
+      interface=".interfaces.IFooLayer"
+      type="gocept.xmlrpcskin.interfaces.IXMLRPCSkinType"
+      name="foo"
+      />
+
+    <gocept:xmlrpcview
+      for="*"
+      class=".view.Example"
+      permission="zope.Public"
+      methods="
+      all_layers
+      "
+      />
+
+    <gocept:xmlrpcview
+      for="*"
+      class=".view.Example"
+      layer=".interfaces.IFooLayer"
+      permission="zope.Public"
+      methods="
+      foo_layer
+      "
+      />
+
+
+    class IFooLayer(zope.publisher.interfaces.xmlrpc.IXMLRPCRequest):
+        pass
+
+    class Example(zope.app.publisher.xmlrpc.XMLRPCView):
+
+        def all_layers(self):
+            return dict(returncode=1)
+
+        def foo_layer(self):
+            return dict(returncode=2)
+
+
+The method ``all_layers`` will then be available on all layers, while
+``foo_layer`` only is available on ``/++skin++foo``.
+
+
+CHANGES
+=======
+
+2.0 (2023-02-17)
+----------------
+
+- Add support for Python 3.9, 3.10, 3.11.
+
+- Drop support for Python 2.7, 3.5, 3.6.
+
+- Fix warning in setup.py.
+
+
+1.1 (2019-12-03)
+----------------
+
+- Explicitly support and test for Python 2.7, 3.7 and 3.8.
+
+
+1.0 (2011-09-22)
+----------------
+
+- first release.
