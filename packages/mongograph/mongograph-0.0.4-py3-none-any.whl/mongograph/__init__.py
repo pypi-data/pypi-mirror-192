@@ -1,0 +1,1 @@
+from mongograph.graph_easy import MongoGraph
