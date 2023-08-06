@@ -1,0 +1,12 @@
+fastrometry/__init__.py,sha256=F7Y_EHpFCL1LrMg0Z6Vv_IOV4As547ZzTodYRbkUARc,43
+fastrometry/catalogue.py,sha256=IW15MM_-d7Ef-o1heOsWrTc4urIgAllTBvXoFmYVpJI,4296
+fastrometry/fastrometry.py,sha256=xUBwhHrIHT4T1ZOhFRlAG2zea2ORgeuwASsqoliOYug,50133
+fastrometry/cython_code/PSE.cp310-win_amd64.pyd,sha256=oVb3sES06zram4T9_S369RiuIu1p8q2b58GKO3z4Hoo,228352
+fastrometry/cython_code/WCS.cp310-win_amd64.pyd,sha256=uMnWlRfXKvEHH3HnCHJv5sTqSjPFg3fwdJUu2Hc2HE4,316928
+fastrometry/cython_code/__init__.py,sha256=PptlplvDirQaZi87V2MiJ7BUhQHINLqwUda4qU5f7ng,42
+fastrometry-1.0.10.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+fastrometry-1.0.10.dist-info/METADATA,sha256=jKoRgO-3UpzDdTuzQEgjYWWqVooo-_dYni8d0bv9jag,1726
+fastrometry-1.0.10.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+fastrometry-1.0.10.dist-info/entry_points.txt,sha256=bMg8kS2XWbHeqjrZcAy47fcGDavCzKzdznMGwIkaCBU,76
+fastrometry-1.0.10.dist-info/top_level.txt,sha256=eN8zWoRgFf6Fsfqel5jOATSi9jOa9AeG51UJI5NRPy0,12
+fastrometry-1.0.10.dist-info/RECORD,,
