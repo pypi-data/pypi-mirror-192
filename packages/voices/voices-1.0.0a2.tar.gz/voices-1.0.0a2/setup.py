@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['voices', 'voices._interactive', 'voices.text']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['PyAudio>=0.2.13,<0.3.0',
+ 'click>=8.1.3,<9.0.0',
+ 'noneprompt>=0.1.7,<0.2.0',
+ 'numpy>=1.24.2,<2.0.0',
+ 'pypinyin>=0.48.0,<0.49.0',
+ 'soundfile>=0.12.1,<0.13.0']
+
+setup_kwargs = {
+    'name': 'voices',
+    'version': '1.0.0a2',
+    'description': '根据 ASS 文件将多种类的音频文件切片为指定格式的文件，并生成对应的 .lab 文件',
+    'long_description': '# VoiceS\n\n根据 ASS 文件将多种类的音频文件切片为指定格式的文件，并生成对应的 .lab 文件\n\n## 功能与计划\n\n### 功能\n\n- [x] 导出多音字列表\n- [x] [交互式多音字修复](#交互式多音字修复)\n- [x] [交互式中根据输入历史**自动选择**高可能性的发音](#校对建议)\n- [x] [交互式中根据输入历史**高亮**可能性较复杂的字](#校对建议)\n- [ ] 联机获取词库`tracker.json`\n- [ ] 整合mfa？\n\n### 输入文件类型\n\n- [x] ass(aegisub)\n- [ ] 其他的类型？(欢迎提交issue或pr)\n\n## 使用方法\n\n### 配置运行环境\n\n本脚本所需的**基本**运行环境与 [教程](https://www.yuque.com/sunsa-i3ayc/sivu7h/uz01rcgfixw3t6lh) 中的 `diff` 环境一致（交互式多音字修复需要额外依赖，详见下文），可直接共用环境。\n\n如果你需要直接配置环境可以参考以下命令:\n\n```shell\nconda create -n diff python=3.8\nconda activate diff\npip install librosa pypinyin # 必装依赖\npip install pyaudio noneprompt # 选装依赖\n```\n\n### 下载时间轴工具\n\n下载 [AgeiSub](https://github.com/Aegisub/Aegisub/releases/tag/v3.2.2) 或其他能够根据音频生成 `.ass` 文件的时间轴工具\n\n### 打轴\n\n导入音频文件并生成对应的时间轴，可参考 <https://www.bilibili.com/video/BV19F411w7m5>\n\n注意：\n\n1. 生成的时间轴中每行将会被视为一个“切片”，切片的长度应在 5-15s 为宜，不得超过 2-20s\n2. 歌词中不应出现任何标点符号，可以出现空格，也可提前将多音字替换为拼音\n\n### 生成原始数据\n\n注意：若时间轴中某一切片超过 2-20s 的范围，将会报错并跳过**整个文件**，但不会影响到其他文件的处理。\n\n#### 使用命令行运行（默认）\n\n将 `.ass` 文件和 **同名** 的音频文件放置于同一文件夹或其子文件夹下。cd 到 `main.py` 同目录下后输入 `python ./main.py <src> <des>` 命令，程序将会从 `src` 文件夹读取文件，处理后输出到 `des` 文件夹。\n\n例如，数据文件放置于 `/home/admin/src file`，输出文件放置于 `/home/admin/desfile`，那么对应的命令为:\n`python ./main.py "/home/admin/src file" /home/admin/des`\n\n#### 直接运行\n\n将 `.ass` 文件和 **同名** 的音频文件放置于 `data` 文件夹或其子文件夹下。cd 到 `data` 文件夹的**根目录**后运行 `main.py`（需将其中第一行的`True`替换为`False`），程序将会从 `data` 文件夹读取文件，处理后输出输出到 `data/output` 文件夹下\n\n### 修正原始数据\n\n在输出目录下（也就是 `des` 或 `data/output`）会生成 `exception.json` 文件，其中记录了包含多音字的切片。此时可以根据此文件对 `.lab` 文件进行修正。（当然你也可以头铁直接拿去mfa，此时生成的文件格式上是没有错误的）\n\n### 交互式多音字修复\n\n在程序启动时会询问 `是否开启 **交互式** 多音字检查` 如果你按照提示开启了该功能，在程序遇到多音字时会记录并在终端开启一个 CLI 来辅助你动态的更改多音字的发音。此功能需要额外的依赖 `noneprompt`。\n\n如果你使用的设备也带有音频播放功能，可在询问 `是否在 **交互式** 多音字检查中开启音频播放` 时开启该功能。此功能需要额外的依赖 `pyaudio`。\n\n如果你在交互式修复过程中未对 **全部** 多音字进行修复，在 `exception.json` 中也会记录未修复的部分。\n\n#### 校对建议\n\n在 **当前工作路径** 中会自动生成 `tracker.json` 文件，也可手动导入此文件(注意读写权限)，在使用过程中会根据 **文件中的记录** 和 **本次操作记录** 将多音字划分为四个等级。\n\n- ⚪: 数据量小于5, 无法形成有效提示\n- 🟢: 当前选项占记录中可能性的 97% 以上\n- 🟡: 当前选项占记录中可能性的 97% 以下\n- 🔴: 当前选项中，**本次操作记录** 与 **文件中的记录** 中最大可能性的选项不一致\n\n同时，系统也会对多音字列表按照可能性进行排序，默认选中可能性最高的选项。**本次操作记录** 的优先级要高于 **文件中的记录**，如果二者在排序中 **有冲突** 的话会采用 **本次操作记录** 并标记为 `🔴`\n\n当然，这套系统本质上依然是 `if else`，并不能真正的“识别”此处的发音，因此即便是 `🟢` 也建议**不要直接跳过**\n\n由于 `tracker.json` 需要**大量的积累**才能更加准确，因此也再此呼吁使用该项目的用户**分享**出来自己的 `tracker.json`，详情可见 [issue区置顶](https://github.com/Well2333/VoiceS/issues/1)\n',
+    'author': 'Well404',
+    'author_email': 'well_404@outlook.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'None',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
