@@ -1,0 +1,106 @@
+
+
+<!-- Use HTML for horizontal lines instead of markdown (---) so
+that rmarkdown render does not treat the markdown
+as a YAML header -->
+
+<hr></hr>
+
+<details> <summary> Click to see page metadata </summary>
+
+<div>
+
+```{r, include = TRUE, echo = FALSE}
+
+# VARIABLES PASSED FROM PARENT:
+# reportFile
+# reportName
+
+```
+
+```{r results='asis',echo=F}
+fintime <- Sys.time()
+timediff <- difftime(fintime,.scikick$starttime)
+cat(sprintf("Computation Started: `%s`", .scikick$starttime))
+cat("\n\n")
+cat(sprintf("Finished in `%s %s`",
+    round(as.numeric(timediff),3),
+    units(timediff)))
+```
+
+<hr></hr>
+
+
+**Git Log** 
+
+```{r, echo=FALSE}
+gitlog = .scikick_get_gitlog(original_input)
+
+git_exists = !is.null(gitlog)
+if(git_exists) knitr::kable(gitlog, "markdown", align = rep("l", 4))
+```
+
+`r if(!git_exists) "No git history available for this page"`
+
+---
+
+
+**Packages**
+
+```{r, echo=FALSE}
+pkgs <- loadedNamespaces()
+desc <- Map(packageDescription, pkgs)
+ver  <- sapply(desc, getElement, "Version")
+bld  <- sapply(desc, getElement, "Built")
+bld  <- as.character(bld)
+date <- format(as.Date(sapply(strsplit(bld, "; "), "[", 3)), "%Y-%m-%d")
+pk <- data.frame(package = pkgs, version = ver, date = date)
+knitr::kable(pk, "markdown", align = "l", row.names = FALSE)
+```
+
+---
+
+**System Information**
+
+```{r, echo=FALSE}
+si <- sessionInfo()
+systemInfo <- c(version = si$R.version$version.string,
+    platform = si$platform, locale = Sys.getlocale("LC_COLLATE"),
+    OS = si$running, UI = .Platform$GUI)
+systemInfo <- as.data.frame(systemInfo)
+knitr::kable(systemInfo, "markdown", align = "l")
+```
+
+**Scikick Configuration**
+
+```{r engine='bash', comment=''}
+cat scikick.yml
+```
+
+---
+
+**Functions**
+
+```{r, include=TRUE, echo=FALSE, results="asis"}
+
+funs   <- lsf.str(envir=sys.frame())
+fnames <- sapply(funs, `[`)
+funs   <- lapply(funs, get)
+names(funs) <- fnames
+
+for(fun in fnames) {
+    cat("  \n", fun, "\n")
+    cat("```r\n")
+    print(funs[[fun]])
+    cat("```\n")
+}
+
+```
+
+
+
+</div>
+</details>
+
+<!-- Project map inserted below after knitting -->
+
