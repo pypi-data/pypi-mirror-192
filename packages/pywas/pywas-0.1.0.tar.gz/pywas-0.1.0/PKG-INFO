@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pywas
+Version: 0.1.0
+Summary: 
+Author: Patarimi
+Author-email: mpqqch@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi-jsonrpc (>=2.2.0,<3.0.0)
+Requires-Dist: h5py (>=3.7.0,<4.0.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: typer[all] (>=0.6.0,<0.7.0)
+Requires-Dist: uvicorn[standard] (>=0.20.0,<0.21.0)
+Requires-Dist: wget (>=3.2,<4.0)
+Description-Content-Type: text/markdown
+
+# `pywas`
+
+**Usage**:
+
+```console
+$ pywas [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* For a given wrapper:
+  * `install`: install the software on the system.
+  * `prepare`: not implemented yet. Set everything up for the next simulation.
+  * `run`: run the simulation and store the output in results.
+  * `export`: export the results as a .hdf5 file.
+
