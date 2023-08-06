@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+lib_dzne_basetables/__init__.py
+lib_dzne_basetables/baseconv.py
+lib_dzne_basetables/common.py
+lib_dzne_basetables/pattern.py
+lib_dzne_basetables/table.py
+lib_dzne_basetables.egg-info/PKG-INFO
+lib_dzne_basetables.egg-info/SOURCES.txt
+lib_dzne_basetables.egg-info/dependency_links.txt
+lib_dzne_basetables.egg-info/top_level.txt
