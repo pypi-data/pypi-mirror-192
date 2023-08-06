@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: integrate-ai
+Version: 0.0.42
+Summary: integrate.ai Command Line Interface
+Home-page: https://integrate.ai
+License: Proprietary
+Author: integrate.ai
+Author-email: contact@integrate.ai
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: docker (>=6.0.1,<7.0.0)
+Requires-Dist: pyjwt (==2.6.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Project-URL: Twitter, https://twitter.com/integrateai
+Description-Content-Type: text/markdown
+
+# integrate.ai Command Line Interface
+
+A CLI that enables users to interact with integrate.ai's software.
+
+This tool allows users to manage client and sdk packages. Use the integate.ai sdk to seamlessly integrate federated learning and analytics workflows directly into your product.
+
+## Installation
+
+integrate-ai requires `Python >= 3.8`
+
+```
+pip install integrate-ai
+```
+
+## Quick Start
+
+Create a new IAI token through the integrate.ai UI.
+
+### Install integrate-ai-sdk
+
+```
+iai sdk install --token <IAI_TOKEN> 
+```
+
+### Pull integrate.ai docker client
+
+```
+iai client pull --token <IAI_TOKEN> 
+```
+
+### Run integrate.ai training session
+
+```
+iai client train --token <IAI_TOKEN> --session <SESSION_ID> --train_path <PATH_TO_TRAINING_DATA> --test_path <PATH_TO_TEST_DATA> --batch_size 5
+```
+
