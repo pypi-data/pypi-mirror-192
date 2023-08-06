@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pyregx/pyregx.egg-info/PKG-INFO
+pyregx/pyregx.egg-info/SOURCES.txt
+pyregx/pyregx.egg-info/dependency_links.txt
+pyregx/pyregx.egg-info/top_level.txt
