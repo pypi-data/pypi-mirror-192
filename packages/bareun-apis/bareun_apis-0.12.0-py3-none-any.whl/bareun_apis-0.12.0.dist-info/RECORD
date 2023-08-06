@@ -1,0 +1,15 @@
+bareun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bareun/custom_dict_pb2.py,sha256=vQrs8gcazFxcza5RvFHyPABOsTWW1MuDb271O4QA0HI,13247
+bareun/custom_dict_pb2.pyi,sha256=m0xj1vtkT37TYMImZWc8BK9YR502KBOPxZeO2We8ImQ,12004
+bareun/custom_dict_pb2_grpc.py,sha256=tSwgpTKN-3i575b6kc4Gmq3fHLZvbcXJ98yCZ0aRiF8,8194
+bareun/custom_dict_pb2_grpc.pyi,sha256=HgRgxLfKXjb7zij3YA1oZF90f54WZxwlawfOnaBJcHI,2620
+bareun/dict_common_pb2.py,sha256=5vA5KX_4A40BOiNitdULM15_74gnBVdVRf4Yi7N6LO4,2590
+bareun/dict_common_pb2.pyi,sha256=V9W9QvXStOcVgGbm8Ua8ywGAO7_bz3YsKNAcjylB1kA,3247
+bareun/language_service_pb2.py,sha256=o9WoHL1tbUINi8tNatY80e4PAWb-9c-XNdHOn3kjjok,13190
+bareun/language_service_pb2.pyi,sha256=olp-bnMlsIVqXpQszTvb7-mvD1_Lsql51G4C4UDyPwg,29583
+bareun/language_service_pb2_grpc.py,sha256=QFM1II4gTUZzE_DvS0qhyWrhDnzfE6pQPS5P49pQyuQ,6319
+bareun/language_service_pb2_grpc.pyi,sha256=fdvNLLuZWD_Q6Ge6cSYdFfWJgOS2y_ri0UV8dvqlvB0,2609
+bareun_apis-0.12.0.dist-info/LICENSE,sha256=MRMZwAJ1UnFpkaWj2gJZubXA5kHYbB4WZrT9P6O0oig,1547
+bareun_apis-0.12.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+bareun_apis-0.12.0.dist-info/METADATA,sha256=Gjjlr_ZzV4TRdGWo09s1e-mi4ZpJVGsqC8lu5u_TBv4,4036
+bareun_apis-0.12.0.dist-info/RECORD,,
