@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: auto_android
+Version: 0.2
+License-File: LICENSE
+
+Base android automation class.
