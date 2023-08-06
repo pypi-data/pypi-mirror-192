@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: ltou
+Version: 0.1.0
+Summary: Like 'cargo new' cli creat fastapi project
+Keywords: FastAPI,Cookiecutter,cli,template
+Author: hiro
+Author-email: yidiyu0507s@163.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: asyncpg (>=0.27.0,<0.28.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: cookiecutter (>=1.7.3,<2.0.0)
+Requires-Dist: greenlet (==2.0.2)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: pre-commit (>=3.0.4,<4.0.0)
+Requires-Dist: prompt-toolkit (>=3.0.36,<4.0.0)
+Requires-Dist: pydantic (>=1.10.4,<2.0.0)
+Requires-Dist: pytest (>=7.2.1,<8.0.0)
+Requires-Dist: pytz (>=2022.7.1,<2023.0.0)
+Requires-Dist: simple-term-menu (>=1.5.2,<2.0.0)
+Requires-Dist: sqlalchemy (>=2.0.2,<3.0.0)
+Requires-Dist: termcolor (>=2.2.0,<3.0.0)
+Requires-Dist: tortoise (>=0.1.1,<0.2.0)
+Requires-Dist: uvicorn (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+<h1 align="center">
+  LTOU 🦖
+</h1>
+
+<p align="center">
+  <strong>Create Fastapi App CLI</strong>
+<br /> Supercharged Productivity⚡️
+</p>
+
+
+
+<p align="center">✨Create a new production-ready project and <b>deploy automation</b> (Docker,CICD) by running  ltou command.
+<br/><br/>Focus on <b>writing</b> code and <b>thinking</b> of business-logic! Don't Panic!  The CLI will take care of the rest. Drink More coffee ☕️ and Ship More🛳️ </p>
+
+## ⚡️ Quick start
+You can install it directly from pypi with pip.
+```shell
+python3 -m pip install ltou
+```
+Let's create a new project via interactive console UI (or CUI for short) in current folder:
+```shell
+ltou
+```
+🍪 That's all you need to know to start! 🍪 
+
+## ⚡️ Features
+One of the coolest features is that this project is extremely configurable(**as-plugins**).
+You can choose between different databases and even ORMs, or
+you can even generate a project without a database!
+Currently, SQLAlchemy2.0(1.4+), SqlModel, Beanie  and Tortoise  are supported.
+
+This project can run as TUI or CLI and has excellent code documentation.
+
+Out-of-the-box Feature:
+- Different databases support;
+- Different ORMs support;
+- Optional redis support;
+- Optional rabbitmq support;
+- Optional CI/CD;
+- Optional Sentry integration;
+- Optional Loguru logger;
+- Optional Celery(flower);
+- Pre-commit integration;
+- Some utils plugins
+- ...
+
+
+## ⚡️ Thinks 
+ 
+this '**ltou**' short name is inspired by ["The Last of Us"](https://en.wikipedia.org/wiki/The_Last_of_Us).
+
+ 
