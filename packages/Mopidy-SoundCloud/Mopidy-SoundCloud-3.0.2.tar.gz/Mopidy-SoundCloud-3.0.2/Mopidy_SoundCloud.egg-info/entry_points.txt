@@ -1,0 +1,2 @@
+[mopidy.ext]
+soundcloud = mopidy_soundcloud:Extension
