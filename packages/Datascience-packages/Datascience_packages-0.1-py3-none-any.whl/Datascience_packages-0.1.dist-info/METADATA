@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Datascience-packages
+Version: 0.1
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+
+UNKNOWN
+
