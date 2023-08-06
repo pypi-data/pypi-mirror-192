@@ -1,0 +1,6 @@
+__title__ = 'json2objects'
+__author__ = 'forevercynical'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2023 forevercynical'
+__version__ = '0.0.0.1'
+__description__ = 'Easily convert JSON files to Python objects.'

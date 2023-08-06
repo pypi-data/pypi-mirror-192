@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: json2objects
+Version: 0.0.0.1
+Summary: Easily convert JSON files to Python objects.
+Home-page: https://github.com/forevercynical/json2objects
+Author: forevercynical
+Author-email: me@cynical.gg
+License: MIT
+Keywords: json2objects,convert-json-to-objects,generate-classes-from-json,json-to-objects,json-to-python-objects,json-to-python-classes,json-to-classes,class-generator,class-generator-from-json
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# json2objects
+## A simple library to convert json to objects.
+### WIP
