@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+pptestgosiaprzybysz/__init__.py
+pptestgosiaprzybysz/m_mod_pptest.py
+pptestgosiaprzybysz.egg-info/PKG-INFO
+pptestgosiaprzybysz.egg-info/SOURCES.txt
+pptestgosiaprzybysz.egg-info/dependency_links.txt
+pptestgosiaprzybysz.egg-info/requires.txt
+pptestgosiaprzybysz.egg-info/top_level.txt
