@@ -1,0 +1,20 @@
+[build-system]
+
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+name = "Pykui_test5"
+version="1.0"
+requires-python = ">=3.0"
+readme = "README.md"
+author="Paul Cannon Palacios and Pau Cava de las Heras"
+author_email="alt.f4.studios.dev@gmail.com"
+description="Make graphics easier and faster!"
+long_description="PyKui is a module that is based on pygame and it makes graphics easier and faster!"
+license="Free for everyone, not credit needed"
+
+[project-urls]
+"Homepage" = "https://metropolittanapple.github.io/pykuiframework/"
+"Bug Tracker" = "https://github.com/metropolittanApple/PyKuiFramework"
