@@ -1,0 +1,11 @@
+notion_rich_text_analysis/__init__.py,sha256=UrnxpLzFfIfWP6qCHEOcrHlFJBZfpZxpo8NUJxAZEvg,73
+notion_rich_text_analysis/__main__.py,sha256=uyU7vfV6qafAosNlsW4leXeryWEeS1YqChb-uM7livg,4592
+notion_rich_text_analysis/notion_db_text.py,sha256=ucp61cGGhozNdkR5al-m6TQEmwvRVrliAiT7UuZ-rvk,3849
+notion_rich_text_analysis/notion_text_analysis.py,sha256=ozrY7bYkytM9aRifhtO1ejIVnngWgVcc_GbOnIrBxNg,10225
+notion_rich_text_analysis/parameter/__init__.py,sha256=7Rm61zLv75HByr03XlwSkoP0Dhwr-ne1z39qFE1f7r8,20
+notion_rich_text_analysis/parameter/log.py,sha256=J88ramlxXq44ikpn9S58NOWYzbuSwqxKPFloZ3jJ06c,5843
+notion_rich_text_analysis/parameter/utils.py,sha256=uWw3ZqeaCANzpAkGWtTlyauJ6oFH_gIf16GGGT-LkCI,1146
+notion_rich_text_analysis-1.0.1.dist-info/LICENSE,sha256=7tKb1hy2UMU6-v-kUzkH-1K7f9oYyoWXgWfvmGCVSYw,1068
+notion_rich_text_analysis-1.0.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+notion_rich_text_analysis-1.0.1.dist-info/METADATA,sha256=xHBAABvlyR2zELYqioRXCtVpHtCgYEaThyM8nDbePh0,8596
+notion_rich_text_analysis-1.0.1.dist-info/RECORD,,
