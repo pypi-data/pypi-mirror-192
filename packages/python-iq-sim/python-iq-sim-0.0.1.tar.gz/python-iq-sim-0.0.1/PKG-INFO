@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: python-iq-sim
+Version: 0.0.1
+Summary: Python Library for starting and managing simulations in the Intelligent Quads Cloud
+Home-page: UNKNOWN
+Author: Eric Johnson
+Author-email: 
+License: UNKNOWN
+Description: 
+        # Python-IQ-Sim
+        
+        This repo is a python library for controlling starting stopping and managing simulations running in the Intelligent Quads Cloud.
+        
+        ## Installation
+        
+        ```bash
+        pip install python-iq-sim
+        ```
+        
+        ## Generate Docs
+        
+        ```bash
+        pydoc-markdown -I iq_sim -m iq_sim --render-toc > docs/iq_sim.md
+        ```
+        
+        ## Documentation Available 
+        
+        https://intelligent-quads.gitbook.io/python-iq-sim-documentation/
+        
+        
+Keywords: python,sim,cloud,mavlink,ardupilot,px4
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
