@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ftrack-sftp-accessor
+Version: 0.5.0
+Summary: A ftrack sftp accessor
+Home-page: https://github.com/ftrackhq/ftrack-sftp-accessor
+License: Apache 2
+Author: Ian Wootten
+Author-email: hi@niftydigits.com
+Maintainer: ftrack support
+Maintainer-email: support@ftrack.com
+Requires-Python: >=3.7.9,<3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ftrack-action-handler (>=0.3.0,<0.4.0)
+Requires-Dist: ftrack-python-api (>=2.3.3,<3.0.0)
+Requires-Dist: paramiko (>=2.11.0,<3.0.0)
+Project-URL: Documentation, https://ftrack-sftp-accessor.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/ftrackhq/ftrack-sftp-accessor
