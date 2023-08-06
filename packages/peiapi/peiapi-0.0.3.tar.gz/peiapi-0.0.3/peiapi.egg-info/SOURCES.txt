@@ -1,0 +1,6 @@
+README.md
+setup.py
+peiapi.egg-info/PKG-INFO
+peiapi.egg-info/SOURCES.txt
+peiapi.egg-info/dependency_links.txt
+peiapi.egg-info/top_level.txt
