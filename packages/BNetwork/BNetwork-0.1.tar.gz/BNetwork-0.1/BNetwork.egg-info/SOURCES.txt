@@ -1,0 +1,7 @@
+setup.py
+BNetwork.egg-info/PKG-INFO
+BNetwork.egg-info/SOURCES.txt
+BNetwork.egg-info/dependency_links.txt
+BNetwork.egg-info/top_level.txt
+bayesianNetwork/BNetwork.py
+bayesianNetwork/__init__.py

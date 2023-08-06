@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: BNetwork
+Version: 0.1
+Summary: A Python package for building Bayesian Networks
+Home-page: https://github.com/moraleseoscar/BayesianNetworks
+Author: Oscar Estrada
+Author-email: est20565@uvg.edu.gt
+License: MIT
