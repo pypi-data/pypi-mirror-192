@@ -1,0 +1,7 @@
+README.md
+setup.py
+ezselenium/ezselenium.py
+ezselenium.egg-info/PKG-INFO
+ezselenium.egg-info/SOURCES.txt
+ezselenium.egg-info/dependency_links.txt
+ezselenium.egg-info/top_level.txt
