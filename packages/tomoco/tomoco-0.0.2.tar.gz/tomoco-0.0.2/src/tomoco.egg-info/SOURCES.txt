@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/model-compression/__init__.py
+src/model-compression/model_compression.py
+src/tomoco.egg-info/PKG-INFO
+src/tomoco.egg-info/SOURCES.txt
+src/tomoco.egg-info/dependency_links.txt
+src/tomoco.egg-info/requires.txt
+src/tomoco.egg-info/top_level.txt
