@@ -1,0 +1,40 @@
+# Nike CA QA
+
+This package was developed informally for the Commercial Analytics Team at Nike
+
+Before trying to use this package ensure that you have the proper access (This can be found under the "Usage" Section below)
+
+This is a start to see about developing package to facilitate, standardize, and automate repetitive tasks
+
+## Installation
+
+Run the following to install:
+
+'''python
+pip install NikeCAQA
+'''
+
+## Usage
+### To use this package ensure that you have the following Snowflake Information:
+###	username
+###	warehouse name
+###	role name
+
+'''python
+from SnowflakeData import snowflake_pull
+
+# Generate sample query
+
+username = [Your Username]
+warehouse = [The Name of the Warehouse]
+role = [Name of Your Role]
+
+query = 'SELECT TOP 2 * FROM  NGP_DA_PROD.POS.TO_DATE_AGG_CHANNEL_CY'
+print(snowflake_pull(query=query, username=username, warehouse=warehouse, role=role))
+
+
+'''
+
+
+
+
