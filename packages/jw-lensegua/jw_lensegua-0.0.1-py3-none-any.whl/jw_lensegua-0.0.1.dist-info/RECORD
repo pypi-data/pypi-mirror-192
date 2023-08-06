@@ -1,0 +1,11 @@
+jw_lensegua/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jw_lensegua/lensegua.py,sha256=OdEkCy2H_Or2r4_YPcRhAMgtFNNplB1O8PYipxPxIE0,20129
+jw_lensegua/results_model.py,sha256=541AhnbsINLDDRU_p4PWmlXzSqjHD5c92eefEztsoyA,793
+jw_lensegua/solutions.py,sha256=cA0JPKKFRgLZL5j9gVareVEwQeSD-qymFgS4jwWHz7k,67459
+jw_lensegua/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jw_lensegua/tests/test_solution.py,sha256=VZ1X3bOOsmMo1333md-irGwqY-6qGC_JRVmsYmD8_Ms,35757
+jw_lensegua-0.0.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+jw_lensegua-0.0.1.dist-info/METADATA,sha256=2VNYAXNG8vOm4YCy2OnjV_sXV52YLm-iGnPNk-J07q4,656
+jw_lensegua-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jw_lensegua-0.0.1.dist-info/top_level.txt,sha256=UsqchSrSkUtLpWdk9R4QBcWV1m_lYbJGrQDLIqKXUXw,12
+jw_lensegua-0.0.1.dist-info/RECORD,,
