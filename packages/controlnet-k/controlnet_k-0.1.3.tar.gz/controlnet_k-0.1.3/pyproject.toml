@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "controlnet-k"
+version = "0.1.3"
+description = "fork of controlnet model"
+authors = ["Fork  <hello@fal.ai>"]
+readme = "README.md"
+packages = [{include = "controlnet_k"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
