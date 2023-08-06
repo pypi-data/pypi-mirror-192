@@ -1,0 +1,5 @@
+setup.py
+src/awsomess.egg-info/PKG-INFO
+src/awsomess.egg-info/SOURCES.txt
+src/awsomess.egg-info/dependency_links.txt
+src/awsomess.egg-info/top_level.txt
