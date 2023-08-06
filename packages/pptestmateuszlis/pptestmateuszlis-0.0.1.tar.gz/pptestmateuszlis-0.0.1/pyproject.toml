@@ -1,0 +1,15 @@
+[project]
+name = "pptestmateuszlis"
+version = "0.0.1"
+description = "My test package"
+keywords = ["ppmateuszlis", "funny functions", "name", "surname", "personal data"]
+authors = [{name = "ML", email = "matt.lis.1998@gmail.com"}]
+license  = {file = "License.txt"}
+readme = "README.md"
+classifiers = [
+    "Environment :: Console"
+]
+requires-python = ">=3.0"
+dependencies = [
+    'numpy; python_version >= "3.0"'
+]
