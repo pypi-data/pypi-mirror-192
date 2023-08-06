@@ -1,0 +1,12 @@
+bytesparse>=0.0.6
+
+[bdist]
+cbuildwheel
+pytest
+
+[scripts]
+Cython
+
+[testing]
+Cython
+pytest

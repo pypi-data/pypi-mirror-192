@@ -1,0 +1,81 @@
+name: Build Wheels
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build_sdist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build source package
+        run: pipx run build --sdist
+
+      - name: Upload source package
+        uses: actions/upload-artifact@v3
+        with:
+          name: cbytesparse-sdist
+          path: dist/*.tar.gz
+
+  build_wheels:
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        platform:
+          - ubuntu-latest
+          - macos-latest
+          - windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build wheel packages
+        uses: pypa/cibuildwheel@v2.12.0
+
+      - name: Upload wheel packages
+        uses: actions/upload-artifact@v3
+        with:
+          name: cbytesparse-wheelhouse
+          path: ./wheelhouse/*.whl
+
+  check_dist:
+    needs: [build_sdist, build_wheels]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download source package
+        uses: actions/download-artifact@v3
+        with:
+          name: cbytesparse-sdist
+          path: dist
+
+      - name: Download wheel packages
+        uses: actions/download-artifact@v3
+        with:
+          name: cbytesparse-wheelhouse
+          path: dist
+
+      - run: pipx run twine check --strict dist/*
+
+#  publish_pypi:
+#    needs: [check_dist]
+#    runs-on: ubuntu-latest
+#    if: ${{ github.event_name == 'release' && github.event.action == 'published' }}
+#    steps:
+#      - name: Download source package
+#        uses: actions/download-artifact@v3
+#        with:
+#          name: cbytesparse-sdist
+#          path: dist
+#
+#      - name: Download wheel packages
+#        uses: actions/download-artifact@v3
+#        with:
+#          name: cbytesparse-wheelhouse
+#          path: dist
+#
+#      - name: Publish PyPI package
+#        uses: pypa/gh-action-pypi-publish@release/v1
+#        with:
+#          user: __token__
+#          password: ${{ secrets.pypi_password }}
