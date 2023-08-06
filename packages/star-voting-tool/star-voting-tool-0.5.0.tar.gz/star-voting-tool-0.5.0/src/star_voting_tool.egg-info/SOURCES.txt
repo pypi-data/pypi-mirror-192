@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/SVT_package/Ballot.py
+src/SVT_package/Candidate.py
+src/SVT_package/Election.py
+src/SVT_package/__init__.py
+src/star_voting_tool.egg-info/PKG-INFO
+src/star_voting_tool.egg-info/SOURCES.txt
+src/star_voting_tool.egg-info/dependency_links.txt
+src/star_voting_tool.egg-info/top_level.txt
