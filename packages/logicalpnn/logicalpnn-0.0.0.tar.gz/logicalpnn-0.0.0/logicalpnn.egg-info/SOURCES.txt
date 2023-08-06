@@ -1,0 +1,12 @@
+setup.py
+logicalpnn/__init__.py
+logicalpnn/andGate.py
+logicalpnn/nandGate.py
+logicalpnn/norGate.py
+logicalpnn/notGate.py
+logicalpnn/orGate.py
+logicalpnn.egg-info/PKG-INFO
+logicalpnn.egg-info/SOURCES.txt
+logicalpnn.egg-info/dependency_links.txt
+logicalpnn.egg-info/requires.txt
+logicalpnn.egg-info/top_level.txt
