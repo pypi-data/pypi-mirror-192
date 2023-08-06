@@ -1,0 +1,5 @@
+labmate
+
+[dev]
+matplotlib
+pytest
