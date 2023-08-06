@@ -1,0 +1,16 @@
+deepops/__init__.py,sha256=Rr69KaNw7zdKETnJRZ7AKJSnW-eELT3izTKb2_BUN04,513
+deepops/diff.py,sha256=ICxlUuCd_WXGJaNyMR8FLmAdjEvxl5XiKfCFbmWwy0I,10056
+deepops/filter.py,sha256=RHjzV_Xl_sYV4ENcVcj9UiSgOaWkb2n90VokU-4-2kI,6389
+deepops/get.py,sha256=919x-J50MlvH-MH-WWZg73cPQ4Ylg2OBy9Bj2kApEIA,1580
+deepops/merge.py,sha256=_1x9ihpSDsYDwEQeL7FeSKRy9adPc_Dsp46imVPhpD4,7092
+deepops/path.py,sha256=yPZ3VFjUnp5-0HiEyiLJRCmuxp9V3R7PB1AHXo1ItK8,2224
+deepops/removeitems.py,sha256=pc7cs8fKXodUW4rtZbICsHKgvbG2vvdztRTJpY8X-J8,6201
+deepops/setdefault.py,sha256=71mpAuJFLhiP0zIMUn5vBvwV0IWqZJvHa1ZMblvW_i4,1867
+test_deepops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_deepops/__main__.py,sha256=zZFxUkTJdhWdCO3l-GdJg_yWBOwCvUIOC65sWBq0BeA,166
+test_deepops/test_deepops.py,sha256=3jKVBkNrFca1-49VVto_EzE-rA8C6lNTREagLOTeTPo,17609
+deepops-1.8.dist-info/LICENSE,sha256=UqnLZeF3grmFPnyUIce6HkQy29WUoSjO5SDuro49oDE,1072
+deepops-1.8.dist-info/METADATA,sha256=bpqh1zsMjsaPmsGvrNb_PpUSol33I0R9wkraAY-WL2w,2500
+deepops-1.8.dist-info/WHEEL,sha256=Ow1Agppnny4NfvfZK4t6N-TUVQfFCpnFCb5wBX-uuec,110
+deepops-1.8.dist-info/top_level.txt,sha256=irrs0rzSekmNuWh9bHF4SqXZT1ae9ehHjzfkroUQOMU,21
+deepops-1.8.dist-info/RECORD,,
