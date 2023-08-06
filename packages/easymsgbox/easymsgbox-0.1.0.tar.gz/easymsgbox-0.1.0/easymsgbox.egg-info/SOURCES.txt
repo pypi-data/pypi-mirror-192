@@ -1,0 +1,7 @@
+README.md
+setup.py
+easymsgbox/__init__.py
+easymsgbox.egg-info/PKG-INFO
+easymsgbox.egg-info/SOURCES.txt
+easymsgbox.egg-info/dependency_links.txt
+easymsgbox.egg-info/top_level.txt
