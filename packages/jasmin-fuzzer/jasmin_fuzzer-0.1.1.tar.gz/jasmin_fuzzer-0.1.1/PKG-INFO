@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: jasmin-fuzzer
+Version: 0.1.1
+Summary: Jasmin is a utility that displays a list of Linux commands available on a given machine.
+License: GPL-3.0-or-later
+Author: Fayred
+Author-email: fayred@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: paramiko (>=3.0.0,<4.0.0)
+Requires-Dist: rich (>=13.3.1,<14.0.0)
+Description-Content-Type: text/markdown
+
+![Logo](logo-no-background.svg)
+
+Jasmin is a utility that displays a list of Linux commands available on a given machine. 
+
+Connecting via SSH, Jasmin tests potentially useful commands to exit a restricted shell and perform actions that were normally restricted.
