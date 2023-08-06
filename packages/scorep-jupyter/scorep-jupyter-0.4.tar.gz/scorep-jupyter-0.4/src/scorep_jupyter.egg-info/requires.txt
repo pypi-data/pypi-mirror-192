@@ -1,0 +1,5 @@
+ipykernel
+jupyter-client
+astunparse
+scorep==4.0.2
+dill
