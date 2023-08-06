@@ -1,0 +1,2 @@
+channels<5,>=4
+django-meta>=1.4
