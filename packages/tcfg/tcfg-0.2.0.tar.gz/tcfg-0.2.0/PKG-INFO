@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tcfg
+Version: 0.2.0
+Summary: Typed dataclass like configuration objects
+Project-URL: Homepage, https://github.com/Tired-Fox/tcfg
+Project-URL: Documentation, https://tired-fox.github.io/tcfg
+Author-email: Tired Fox <zboehm104@gmail.com>
+License-Expression: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: saimll==0.1.0
+Description-Content-Type: text/markdown
+
+# tcfg
