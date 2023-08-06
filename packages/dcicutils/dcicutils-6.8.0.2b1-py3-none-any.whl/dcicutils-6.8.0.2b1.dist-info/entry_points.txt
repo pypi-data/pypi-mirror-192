@@ -1,0 +1,3 @@
+[console_scripts]
+pip-command-for-preinstall=dcicutils.command_utils:pip_command_for_preinstall
+
