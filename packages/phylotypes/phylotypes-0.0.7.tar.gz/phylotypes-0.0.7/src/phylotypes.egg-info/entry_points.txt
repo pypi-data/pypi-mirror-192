@@ -1,0 +1,3 @@
+[console_scripts]
+add_phylotypes = phylotypes.add_phylotypes:main
+phylotypes = phylotypes.phylotypes:main
