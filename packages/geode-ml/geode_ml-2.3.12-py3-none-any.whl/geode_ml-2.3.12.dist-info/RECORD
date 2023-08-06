@@ -1,0 +1,11 @@
+geode/__init__.py,sha256=Y6VKiP04q7RfiI_OQX39eY_XT4cCBF1l9G4D6jsVIhs,75
+geode/datasets.py,sha256=8fTaWWFMThZpWahQZdX0vStpd6qZGOuZmmMy_qyLKXg,19365
+geode/losses.py,sha256=v0PYdYFMY7xF7shQTpKwOsVm7_5CzThBgO5zREiYqL8,2057
+geode/metrics.py,sha256=MHWdhDnlzOJHMrmV4lcZec9ckSqGO2Mva1Cl4vv9bms,2414
+geode/models.py,sha256=VpLF3WeqdhVO2FWUQQagX-lV5qFm_9B2YG8JRPiwSDc,19018
+geode/utilities.py,sha256=TtaXnwHkTR_VLkm_DfLa8R8ch5hwL93VZfMelWCQz8U,17897
+geode_ml-2.3.12.dist-info/LICENSE,sha256=FXq2WOoA4Lq3n9USGKKJPzPm2cyYxJQRSMPnwXOvED0,1089
+geode_ml-2.3.12.dist-info/METADATA,sha256=5i-MWsSfwDBAkZjewdYjBvfHxIQFQxarZgQxaQONElc,4273
+geode_ml-2.3.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+geode_ml-2.3.12.dist-info/top_level.txt,sha256=vFUSnYNq5slDIr_8gNl_jOT4yTBiMlqZqWTJGTkRxQg,6
+geode_ml-2.3.12.dist-info/RECORD,,
