@@ -1,0 +1,29 @@
+The readme is a concatentation of { app_fiddle.md | tutorial.md} + app_fiddle_body_steps_2_3.md
+
+
+Walk-throughs
+
+    * app_fiddle is for general learning --> ALS
+
+    *tutorial is for ALS - reinforce "or else"... cloud (Express Eval) or local
+
+
+submissions: https://pycoders.com/submissions
+
+pycoders: https://pycoders.com
+
+Careful - browser launch is different for local (tutorial) vs. codespaces
+
+App Fiddle to learn Flask/SQLAlchemy, Discover API Logic Server
+
+App Fiddle to learn Flask/SQLAlchemy, API Logic Server     x
+
+
+Use this App Fiddle to learn Flask/SQLAlchemy, using a running app in Codespaces.  Then, discover API Logic Server - an Open Source CLI to create executable projects with a single command.  Customize projects in your IDE, including powerful spreadsheet-like rules for logic and security - 40X more concise than manual code.
+
+
+Fiddle Link:
+https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=594296622
+
+Tutorial Link:
+https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=593459232
