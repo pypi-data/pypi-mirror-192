@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+pptestnowakmichal/__init__.py
+pptestnowakmichal/m_mod_pptest.py
+pptestnowakmichal.egg-info/PKG-INFO
+pptestnowakmichal.egg-info/SOURCES.txt
+pptestnowakmichal.egg-info/dependency_links.txt
+pptestnowakmichal.egg-info/requires.txt
+pptestnowakmichal.egg-info/top_level.txt
