@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: controlnet-hinter
+Version: 0.0.1
+Summary: ControlNet hint embedding utilities
+Home-page: https://github.com/takuma104/controlnet_hinter
+Author: takuma104
+Author-email: takuma104@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# controlnet_hinter: ControlNet hint embedding utilities
+
+ControlNet: https://github.com/lllyasviel/ControlNet
+
+
