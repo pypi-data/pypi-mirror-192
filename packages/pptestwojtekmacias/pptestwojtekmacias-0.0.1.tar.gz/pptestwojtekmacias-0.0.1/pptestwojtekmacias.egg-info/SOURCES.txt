@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+pyproject.toml
+readme.md
+pptestwojtekmacias/__init__.py
+pptestwojtekmacias/mmodpptest.py
+pptestwojtekmacias.egg-info/PKG-INFO
+pptestwojtekmacias.egg-info/SOURCES.txt
+pptestwojtekmacias.egg-info/dependency_links.txt
+pptestwojtekmacias.egg-info/requires.txt
+pptestwojtekmacias.egg-info/top_level.txt

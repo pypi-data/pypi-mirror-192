@@ -1,0 +1,17 @@
+[project]
+name = "pptestwojtekmacias"
+version = '0.0.1'
+description = 'My test package'
+keywords = ['pptestwojtekmacias', 'funny funkcjons', 'name', 'surname', 'personal data']
+authors =[{name = 'AZ', email = 'wojt.macias@gmail.com'}]
+license = {file = "LICENCE.txt"}
+readme = "readme.md"
+classifiers = [
+    "Environment :: Console :: Newt",
+]
+requires-python = ">= 3.0"
+dependencies = [
+    'numpy; python_version >= "3.0"'
+]
+
+
