@@ -1,0 +1,5 @@
+bpyth
+nbformat
+nbconvert
+ipytest
+matplotlib
