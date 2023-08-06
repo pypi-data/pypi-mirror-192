@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+src/cfnpipeline.egg-info/PKG-INFO
+src/cfnpipeline.egg-info/SOURCES.txt
+src/cfnpipeline.egg-info/dependency_links.txt
+src/cfnpipeline.egg-info/requires.txt
+src/cfnpipeline.egg-info/top_level.txt
