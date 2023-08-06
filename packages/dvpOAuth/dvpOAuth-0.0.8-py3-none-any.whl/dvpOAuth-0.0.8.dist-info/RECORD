@@ -1,0 +1,9 @@
+dvpOAuth/__init__.py,sha256=V7RYCwwgEQv3Xpw6c7ItS-G92l1VjYVin1AY5btnQBE,162
+dvpOAuth/class_OAuth.py,sha256=kxXfaE93B89n5oAICADGQhlej5C5X-W40pDVf2RFJc8,12612
+dvpOAuth/error.py,sha256=Y3BjsevsSGMDVVdn6ztiQMcGNtB6lySkNPoL7y4BT-Q,131
+dvpOAuth/util.py,sha256=y-S4zD5BGEWKHVfJKGyy5teIeV2XdWrMXeRubAW54Ek,685
+dvpOAuth-0.0.8.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dvpOAuth-0.0.8.dist-info/METADATA,sha256=SzAKfJGtbyHvMAb1TeAwNAcO56i4csgps0BJ9bNeIU0,991
+dvpOAuth-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dvpOAuth-0.0.8.dist-info/top_level.txt,sha256=14UgmlstFHh0UvlWIljRlFO26u2OesXzFC8SsWFZRmw,9
+dvpOAuth-0.0.8.dist-info/RECORD,,
