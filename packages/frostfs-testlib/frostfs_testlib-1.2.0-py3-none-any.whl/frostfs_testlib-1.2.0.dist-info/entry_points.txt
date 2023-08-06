@@ -1,0 +1,5 @@
+[frostfs.testlib.hosting]
+docker = frostfs_testlib.hosting.docker_host:DockerHost
+
+[frostfs.testlib.reporter]
+allure = frostfs_testlib.reporter.allure_handler:AllureHandler
