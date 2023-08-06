@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lambdacloud
+Version: 0.0.1
+Summary: A Python client library for Lambda Lab's Cloud
+Home-page: https://github.com/nateraw/lambdacloud
+Author: Nathan Raw
+Author-email: naterawdata@gmail.com
+License: Apache
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: quality
+Provides-Extra: dev
+
+# lambdacloud
+
+An unofficial python client for Lambda Lab's cloud computing platform.
+
+## Installation
+
+```
+pip install lambdacloud
+```
+
+## Credits
+
+This package is heavily inspired by [huggingface_hub](https://github.com/huggingface/huggingface_hub)
