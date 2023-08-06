@@ -1,0 +1,4 @@
+[console_scripts]
+sort_non_screenshots=social_arsenal:sort_non_screenshots
+sort_screenshots=social_arsenal:sort_screenshots
+
