@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: databot-py
+Version: 0.0.1
+Summary: databot Python Library
+Home-page: https://github.com/dbaldwin/databot-py
+Author: Dennis Baldwin
+Author-email: db@droneblocks.io
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bleak (==0.19.1)
+
+# databot-py
+A simple bluetooth interface for databot sensors
