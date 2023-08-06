@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: CoreIndicators
+Version: 1.0.5
+Summary: Strategy to generate buy and sell signals for stocks
+Home-page: https://github.com/red9811/CoreIndicators
+Author: TraderNag
+Author-email: reachnag77@gmail.com
+License: Apache
+Keywords: Trend signals buy sell
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: python (>=3.8)
+
+Buy and sell signals for stocks
