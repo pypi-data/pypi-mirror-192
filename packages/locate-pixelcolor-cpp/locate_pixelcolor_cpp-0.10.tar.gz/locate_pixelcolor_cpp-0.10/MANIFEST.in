@@ -1,0 +1,3 @@
+include locate_pixelcolor_cpp/requirements.txt
+include locate_pixelcolor_cpp/thirdparty.json
+include locate_pixelcolor_cpp/README.MD
