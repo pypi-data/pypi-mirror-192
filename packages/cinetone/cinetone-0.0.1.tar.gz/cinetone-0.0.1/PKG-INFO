@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cinetone
+Version: 0.0.1
+Summary: Video Color Palette Generator
+Author-email: Ashvin V <acedeveloper003@gmail.com>
+License: MIT License
+Project-URL: Home Page, https://github.com/acedev003/cinetone
+Project-URL: Repository, https://github.com/Acedev003/cinetone.git
+Keywords: cinetone,palette,palette-generator,color
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE

@@ -1,0 +1,28 @@
+[project]
+name="cinetone"
+version = "0.0.1"
+description = "Video Color Palette Generator"
+readme = "README.md"
+license = {text = "MIT License"}
+dependencies = ["imageio-ffmpeg"]
+keywords = ["cinetone", "palette", "palette-generator","color"]
+requires-python = ">=3.8"
+authors = [ {name = "Ashvin V", email = "acedeveloper003@gmail.com" } ]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.8"
+]
+
+[project.scripts]
+cinetone = "cinetone:main"
+
+[project.urls]
+"Home Page" = "https://github.com/acedev003/cinetone"
+"Repository" = "https://github.com/Acedev003/cinetone.git"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
