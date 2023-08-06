@@ -1,0 +1,9 @@
+telegram_cleaner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telegram_cleaner/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+telegram_cleaner/cleaner.py,sha256=VrNDVQNY1X9gWAKgNMUR7ZOHE-DISUJpjf-tmWxiwss,9178
+telegram_cleaner/cli.py,sha256=rsmYbueDPTPc2W2CJv47yefGk5LBOtkJ-C6UM3CXi50,1797
+telegram_cleaner/utils.py,sha256=GGKC852wKgIACcYz_VcEEBbeRv3kni0-ZVHDkdx46ig,398
+telegram_cleaner-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+telegram_cleaner-0.1.1.dist-info/METADATA,sha256=D7qtx--VP0TVR656uez7QR4YciBrysBjl9yQu-Myr44,3414
+telegram_cleaner-0.1.1.dist-info/entry_points.txt,sha256=Wxe64truKFnwlMc-nGVoTcYpAJ2ASzXFGR1gEBl-o3k,53
+telegram_cleaner-0.1.1.dist-info/RECORD,,
