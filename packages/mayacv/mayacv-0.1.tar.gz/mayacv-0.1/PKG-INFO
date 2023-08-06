@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: mayacv
+Version: 0.1
+Summary: This package provideHand package recognision module based on media pipe
+Home-page: https://github.com/dilum95/Maya_CV.git
+Author: Dilum Darshana
+Author-email: dilumbandara095@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: computer vision,pose recognision,finger tracking,finger tracking using media pipe
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
