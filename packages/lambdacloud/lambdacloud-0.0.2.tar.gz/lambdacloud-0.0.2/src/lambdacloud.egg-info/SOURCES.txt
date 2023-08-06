@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/lambdacloud/__init__.py
+src/lambdacloud/_login.py
+src/lambdacloud/cli.py
+src/lambdacloud/constants.py
+src/lambdacloud/lambda_api.py
+src/lambdacloud.egg-info/PKG-INFO
+src/lambdacloud.egg-info/SOURCES.txt
+src/lambdacloud.egg-info/dependency_links.txt
+src/lambdacloud.egg-info/entry_points.txt
+src/lambdacloud.egg-info/requires.txt
+src/lambdacloud.egg-info/top_level.txt
