@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: project-goldberg-common
+Version: 0.1.4
+Summary: 
+License: MIT
+Author: Simone Sangeniti
+Author-email: snakenextgen@gmai.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytest (>=7.2.1,<8.0.0)
+Description-Content-Type: text/markdown
+
+# project-goldberg-common
+
+This is the develop branch of the project-goldberg-common repository. This branch is used for development and testing of the project-goldberg-common library. The master branch is used for releases.
+
+## How to use this package inside other projects in development environment
+
+First you need to clone the project-goldberg-common repository:
+
+Then you need to install the project-goldberg-common package in editable mode:
+
+```bash
+poetry add --editable <path-to-project-goldberg-common-repository>
+```
+
