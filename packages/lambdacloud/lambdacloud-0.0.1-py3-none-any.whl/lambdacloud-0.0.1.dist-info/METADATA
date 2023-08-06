@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: lambdacloud
+Version: 0.0.1
+Summary: A Python client library for Lambda Lab's Cloud
+Home-page: https://github.com/nateraw/lambdacloud
+Author: Nathan Raw
+Author-email: naterawdata@gmail.com
+License: Apache
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: tqdm (>=4.42.1)
+Requires-Dist: fire
+Requires-Dist: tabulate
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: black (==22.3) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'dev'
+Requires-Dist: isort (>=5.5.4) ; extra == 'dev'
+Requires-Dist: mypy (==0.982) ; extra == 'dev'
+Provides-Extra: quality
+Requires-Dist: black (==22.3) ; extra == 'quality'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'quality'
+Requires-Dist: isort (>=5.5.4) ; extra == 'quality'
+Requires-Dist: mypy (==0.982) ; extra == 'quality'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# lambdacloud
+
+An unofficial python client for Lambda Lab's cloud computing platform.
+
+## Installation
+
+```
+pip install lambdacloud
+```
+
+## Credits
+
+This package is heavily inspired by [huggingface_hub](https://github.com/huggingface/huggingface_hub)
