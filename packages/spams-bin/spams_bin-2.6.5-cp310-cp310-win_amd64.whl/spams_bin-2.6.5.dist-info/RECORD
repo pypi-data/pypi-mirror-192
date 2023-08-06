@@ -1,0 +1,17 @@
+spams/spams.py,sha256=XmHziOfNWBepah1ZHpap8fj4ccvLBTX3L6lLKizOts8,29364
+spams/__init__.py,sha256=VLEl7YgA08dG3xn_PESpwlY5hRZUYUWpspYBXTsxUtQ,536
+spams_bin-2.6.5.dist-info/DELVEWHEEL,sha256=PMt7wJLNalX7lEhpT1cCRclrmJt3Xhx2Ede0GTMR_0I,467
+spams_bin-2.6.5.dist-info/LICENSE,sha256=yPpanRCYSbY18M9RS0aAVQCPfpSMels7YOW6pz9b364,35797
+spams_bin-2.6.5.dist-info/METADATA,sha256=sKFfP7fjrGQe52ohjSMcBHGBVkfkBTnbC0550wHaQLc,925
+spams_bin-2.6.5.dist-info/RECORD,,
+spams_bin-2.6.5.dist-info/top_level.txt,sha256=3eyGfMfOg3p44Y3heb4Yn7k-YKwYThwTKPfbIfqS2Yc,17
+spams_bin-2.6.5.dist-info/WHEEL,sha256=rneS2j8QNmAwdNKHN86s6-qP7AMcWZgqiEoH3bdbh_Y,102
+spams_bin.libs/flang-365b1902a979af979594fdc36b8a0154.dll,sha256=Q9y46DWCzlXj_gX_BN9r6_-ufxR53n-U4KOZZMj7R-U,1680384
+spams_bin.libs/flangrti-0c9176bcd6050eeb90518f17065b372c.dll,sha256=MdZ_SK7efMGw4B3eupgyjMkHpYuItNQGqlfIoky7oSQ,51712
+spams_bin.libs/libomp-55cc9a03ad9d578e27539ee856ba6a2c.dll,sha256=z0O154uGZMc0NmrZm756Nn_lDThE8mfJIPHmKA08Vr4,612864
+spams_bin.libs/msvcp140.dll,sha256=yzx01vzAkfTrfGfuXrX3bByXPeqLHGuFH8ymLCqdiqg,579920
+spams_bin.libs/openblas-9a0bf5ca3e841dcae2a004f7a412692f.dll,sha256=15sIDKjom76B4tZyloBjVl5QRymBxp7YB2wlXeWRmSc,28185600
+spams_bin.libs/vcomp140.dll,sha256=y3Ifd1ze5zDZ1p69nnI8Bame4YBfjSOlKnT8AVqj2WU,191824
+spams_wrap/spams_wrap.py,sha256=HrmcB9QW_7l_ZnZk51X5Vweo_IUDR0spxtmiGoDJlFU,645
+spams_wrap/_spams_wrap.cp310-win_amd64.pyd,sha256=j5H-_9UqWx8SZo6GC1SQLvC5xFulwaBUBeRT1VG42HY,1336832
+spams_wrap/__init__.py,sha256=kF4PXEZJTv_V0-frYYPsZ2SAKY-XR-UUQ3wafNQcx5A,541
