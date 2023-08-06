@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: scrapy-toolset
+Version: 0.0.39
+Summary: noting
+Home-page: https://github.com/coder-fly
+Author: coder-fly
+Author-email: coderflying@163.com
+License: MIT
+Description: nothing
+Platform: UNKNOWN
+Requires-Python: >=3.6
