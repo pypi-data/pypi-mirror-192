@@ -1,0 +1,13 @@
+lightbulb/ext/hecate/__init__.py,sha256=JyYbaA-CVucC72AoCzeq2sljVkP4wQ7skGCQKJY68wo,471
+lightbulb/ext/hecate/__main__.py,sha256=lvevHWl51GxuOgurZduBG4Pa4mXtpc7E1U1ZIAppaSY,855
+lightbulb/ext/hecate/errors.py,sha256=qXUd0zZRjWMBX8iB6EgHd9wkUhyLMmzkORb1423Q2bQ,1057
+lightbulb/ext/hecate/params.py,sha256=mUgu3qEzyYKB6IoA2eQ6BoWNedStJV4do1-eNwEEIVo,1828
+lightbulb/ext/hecate/plugin.py,sha256=nYbd7ce-1Av4zlb_osFuINLV_Vb_rLK4ekSvjHH6on4,9564
+lightbulb/ext/hecate/properties.py,sha256=WGcgU-F80h2RICRulqUFDH9b7yzv8PJEOz3OV8hm2iA,1432
+lightbulb/ext/hecate/template/__modify__.py,sha256=m0uEBAng27SpMBNTjb4H23yp2WdW2Y9emyZ3koOAUro,671
+lightbulb/ext/hecate/template/slash-commands/ping.py,sha256=9ZeZHU56r2G_c8QPa996zWUeQjapwOeTjii8JPTuEbg,986
+lightbulb/ext/hecate/template/slash-commands/pong_count.py,sha256=6u9FTPLiDRLBTFWBFewJHgSOSW6hdJhHtp0aDavLk_U,681
+lightbulb_ext_hecate-0.1.5.dist-info/LICENSE,sha256=I94kjP0gApQxIPBEQnul6wShjEbhczZIKsRWALPWQtA,1084
+lightbulb_ext_hecate-0.1.5.dist-info/METADATA,sha256=rp21ZAoFFmqTF6iPLyvaSjrNOrAkmRFTVEcd-J7AMhk,1680
+lightbulb_ext_hecate-0.1.5.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+lightbulb_ext_hecate-0.1.5.dist-info/RECORD,,
