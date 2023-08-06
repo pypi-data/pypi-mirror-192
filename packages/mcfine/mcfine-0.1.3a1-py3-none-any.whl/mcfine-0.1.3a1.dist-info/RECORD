@@ -1,0 +1,10 @@
+mcfine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcfine/fitting.py,sha256=Xx1GXkmChsqM1SH3ly9tZf0LDi2JrF4YOcS5j6QyJcU,65650
+mcfine/line_info.py,sha256=TOvs1Gk0lDlrMntMhT4i9jwjjH9JaOE-Zk3m3sc8HsY,1614
+mcfine/plotting.py,sha256=iCjo4uN6s9VjV0f2ysVGKBOv1tb8D4jAL9vqdFcfJSU,15746
+mcfine/utils.py,sha256=Zm5Daf5rvhmhVaPF2yF1FEJKC1mGY24n636OIRmDXtQ,1878
+mcfine-0.1.3a1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mcfine-0.1.3a1.dist-info/METADATA,sha256=RwBiR36C9FuZvZcBMN9BfNOEkuBqjFbq_6EPzZm1E2Q,2289
+mcfine-0.1.3a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mcfine-0.1.3a1.dist-info/top_level.txt,sha256=ytFR-nKvbvNFiPphV4fIUUbNpGlJ9M8HhacCmJL4bhc,7
+mcfine-0.1.3a1.dist-info/RECORD,,
