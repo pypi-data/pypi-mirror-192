@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+loadstatic-django/__init__.py
+loadstatic-django/apps.py
+loadstatic-django/management/__init__.py
+loadstatic-django/management/commands/__init__.py
+loadstatic-django/management/commands/loadstatic.py
+loadstatic_django.egg-info/PKG-INFO
+loadstatic_django.egg-info/SOURCES.txt
+loadstatic_django.egg-info/dependency_links.txt
+loadstatic_django.egg-info/top_level.txt
