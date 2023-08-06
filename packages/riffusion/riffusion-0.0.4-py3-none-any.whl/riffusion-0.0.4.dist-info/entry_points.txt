@@ -1,0 +1,4 @@
+[console_scripts]
+riffusion=riffusion.cli:main
+riffusion-server=riffusion.server:main
+
