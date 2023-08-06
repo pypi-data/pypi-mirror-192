@@ -1,0 +1,7 @@
+setup.py
+jseb_hello_world_1.egg-info/PKG-INFO
+jseb_hello_world_1.egg-info/SOURCES.txt
+jseb_hello_world_1.egg-info/dependency_links.txt
+jseb_hello_world_1.egg-info/top_level.txt
+test_package_1/__init__.py
+test_package_1/thecode.py
