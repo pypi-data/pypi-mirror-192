@@ -1,0 +1,9 @@
+[
+  "test_pebbles.py::PebblesTestCase::test_call_mutations",
+  "test_pebbles.py::PebblesTestCase::test_call_mutations_from_pysam",
+  "test_pebbles.py::PebblesTestCase::test_count",
+  "test_pebbles.py::PebblesTestCase::test_engap",
+  "test_pebbles.py::PebblesTestCase::test_expand_cigar",
+  "test_pebbles.py::PebblesTestCase::test_expand_mdtag",
+  "test_pebbles.py::PebblesTestCase::test_fix_multi_variants"
+]

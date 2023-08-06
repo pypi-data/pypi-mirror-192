@@ -1,0 +1,2 @@
+[console_scripts]
+pebbles = pebbles.pebbles:main
