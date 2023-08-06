@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+package/vcs_p_pack.egg-info/PKG-INFO
+package/vcs_p_pack.egg-info/SOURCES.txt
+package/vcs_p_pack.egg-info/dependency_links.txt
+package/vcs_p_pack.egg-info/entry_points.txt
+package/vcs_p_pack.egg-info/top_level.txt
