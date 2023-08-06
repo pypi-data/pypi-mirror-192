@@ -1,0 +1,10 @@
+statistics_bioresearch/__init__.py,sha256=0Rr6B_Lz-civRh5slqxKhczv0Uc31CWWCJec5O5ZFh8,97
+statistics_bioresearch/constants.py,sha256=YukNm-46nLE8ax67TjeG_0itKe_4VX1eC20SWbT-3zk,15
+statistics_bioresearch/fisher.py,sha256=SsbXd-z1qeYxlEFwnm_kc2RX5nv6rwdAi-xryEcZG-8,1346
+statistics_bioresearch/kaerber.py,sha256=Liecu8aN_TWdCPqNvL_YxrY_oPP7bIC6yheWPI6i3no,2142
+statistics_bioresearch/wilson.py,sha256=jX9vMYQ0E9ngVBZq3IFNMp8XLWACPp-QRCNI__eiQYI,1170
+statistics_bioresearch-0.0.3.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+statistics_bioresearch-0.0.3.dist-info/METADATA,sha256=28QJkEY_zxaz884Tfh4ZqxXMEbfMkGObXibwpbXxTn8,792
+statistics_bioresearch-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+statistics_bioresearch-0.0.3.dist-info/top_level.txt,sha256=Q7-K2tXA_2JfTMd8ctId6AIvarU5emFb-wgPD8ln2uQ,23
+statistics_bioresearch-0.0.3.dist-info/RECORD,,
