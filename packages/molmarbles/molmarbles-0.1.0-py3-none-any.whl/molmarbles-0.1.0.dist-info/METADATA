@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: molmarbles
+Version: 0.1.0
+Summary: A bridge between Biotite and OpenMM
+Home-page: https://github.com/biotite-dev/molmarbles
+License: BSD-3-Clause
+Keywords: Bioinformatics,Structural biology,MD simulation
+Author: Patrick Kunzmann
+Author-email: padix.key@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: biotite (>=0.36)
+Project-URL: Repository, https://github.com/biotite-dev/molmarbles
+Description-Content-Type: text/x-rst
+
+Molmarbles
+==========
+
+"A bridge between Biotite and OpenMM"
