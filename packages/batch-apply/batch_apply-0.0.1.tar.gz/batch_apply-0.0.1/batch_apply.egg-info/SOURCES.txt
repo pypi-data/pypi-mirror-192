@@ -1,0 +1,9 @@
+LICENSE
+README.md
+batch_apply.py
+setup.py
+batch_apply.egg-info/PKG-INFO
+batch_apply.egg-info/SOURCES.txt
+batch_apply.egg-info/dependency_links.txt
+batch_apply.egg-info/requires.txt
+batch_apply.egg-info/top_level.txt

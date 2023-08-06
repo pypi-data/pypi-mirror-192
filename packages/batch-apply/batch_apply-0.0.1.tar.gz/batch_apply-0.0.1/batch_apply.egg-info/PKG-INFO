@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: batch-apply
+Version: 0.0.1
+Summary: Given a function and a pandas.DataFrame, execute the function with each row of DF as kwargs.
+Home-page: https://github.com/ShixingWang/batch-apply
+Author: Shixing Simon Wang
+Author-email: ShixingWang@users.noreply.github.com
+License-File: LICENSE
