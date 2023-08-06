@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rsmarkov
+Version: 0.1.3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Author: bijij <josh@josh-is.gay>
+Author-email: bijij <josh@josh-is.gay>
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# rsmarkov
+
