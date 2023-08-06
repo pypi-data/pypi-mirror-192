@@ -1,0 +1,14 @@
+pytransifex/__init__.py,sha256=D4-4F2YPKz2Op8O7j6tf4KTCSDVahP3Zpg5EkN5TSbw,114
+pytransifex/__main__.py,sha256=zgetgt5d-dvuxL9g1c_AQQcqv8JwZWdE8XTcxSxhywY,70
+pytransifex/api.py,sha256=NH5v1V1KLiH0355Tb1FU9LmMiXZlOIugP8U0LphNNU0,12322
+pytransifex/cli.py,sha256=YfK_kSv0NaoBreW5cyBqsI9VBomSyTj6Bp6mJtjbJDo,4556
+pytransifex/config.py,sha256=KDlGrfFbwdWccgBHcvE3lxFdVbAnkFBbU62q11hAEi0,3102
+pytransifex/exceptions.py,sha256=2m0hT4YIbnNIkwQl8UcUPY4msdqTnBT9AwtsMStfZXw,595
+pytransifex/interfaces.py,sha256=_P2G7lPdrULKn-Yxwhp9bHMuNIRmDInta35hZcQyNoI,2313
+pytransifex/utils.py,sha256=O4ACPng14IXTx3bz2bYxWeusGnVOVmMITRBBWWGEZZ8,1048
+pytransifex-1.0.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pytransifex-1.0.1.dist-info/METADATA,sha256=-jZoqKDfYpjUynwLdfboFYgi82q5mGfKkQXZBcfpg5c,1701
+pytransifex-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pytransifex-1.0.1.dist-info/entry_points.txt,sha256=jZO8AyDvYE2WD4QKelGxR6H0-enjDMSKCbRGIS20jRw,45
+pytransifex-1.0.1.dist-info/top_level.txt,sha256=-wyv0Q697tLRb0tQ668ibZhZ6amdu5hnBZ8rSWVO21Y,12
+pytransifex-1.0.1.dist-info/RECORD,,
