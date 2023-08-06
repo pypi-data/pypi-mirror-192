@@ -1,0 +1,3 @@
+[console_scripts]
+git-message-hook = git_message_hook.main:main
+
