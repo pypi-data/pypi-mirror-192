@@ -1,0 +1,12 @@
+setup.py
+awsomess/__init__.py
+awsomess.egg-info/PKG-INFO
+awsomess.egg-info/SOURCES.txt
+awsomess.egg-info/dependency_links.txt
+awsomess.egg-info/top_level.txt
+awsomess/bar/__init__.py
+awsomess/bar/bar_mod.py
+awsomess/bar/sub_bar/__init__.py
+awsomess/bar/sub_bar/subbar_mod.py
+awsomess/foo/__init__.py
+awsomess/foo/foo_mod.py
