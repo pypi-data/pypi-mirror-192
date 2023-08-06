@@ -1,0 +1,14 @@
+muddler/VERSION,sha256=VKRsZExOtvEo-Z9_CENJGGF7MbaAUi7UrLV8lCQ3KCc,5
+muddler/__init__.py,sha256=p5I9H40XQJekTror289mzEC4V3S0-AklSMyefjkOnZU,4706
+muddler/config.py,sha256=rx3S1sh8HF-jkXDJuj9unijwcjs3kzgj5PRRBY2yA_g,6966
+muddler/muddle.py,sha256=cvMMfEVgkLIcotFVNPjzHz3Hh8trF0sdruchmhlGWQE,8868
+muddler/unmuddle.py,sha256=wC19Z3Stqf0vAyVg3l4ZyDjybPha77ZfIB0CLtyc4uw,7787
+muddler/utils.py,sha256=HAFjQxz6jQnPnZsWsYHZEacrIPKXi9lV1aJeNkhCJKE,1648
+muddler/v1/__init__.py,sha256=3ARsFakyjGWc-auhJUBu8-0Ok9Au7rOOknAZQ-nMTcQ,2091
+muddler/v1/source_chain.py,sha256=-PDAaZ0gtPtKvwKyLK7YPYb91FuMY4exr6c_5pb0XVE,2774
+muddler-0.1.2.dist-info/LICENSE,sha256=AAm5lPZWWNRB-z7Mxkl9W_5hmNiDRlIt3YOlqzn-SdQ,1086
+muddler-0.1.2.dist-info/METADATA,sha256=BADawu2KIZuNc6EyHsE6WhH8Ju6cmhd1iCdgoRfK6sQ,7464
+muddler-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+muddler-0.1.2.dist-info/entry_points.txt,sha256=o5p6R3s-VTHfk2UNqHiolCm8jppqFbh272WS1QQglOA,41
+muddler-0.1.2.dist-info/top_level.txt,sha256=jcKV1f6vzEUNZ0XMBsHNiMRCEENOzm-SFOqT4difik8,8
+muddler-0.1.2.dist-info/RECORD,,
