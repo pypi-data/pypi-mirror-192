@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cinetone
+Version: 0.0.3
+Summary: Video Color Palette Generator
+Author-email: Ashvin V <acedeveloper003@gmail.com>
+License: MIT License
+Project-URL: Home Page, https://github.com/acedev003/cinetone
+Project-URL: Repository, https://github.com/Acedev003/cinetone.git
+Keywords: cinetone,palette,palette-generator,color
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Cinetone
+
+A python CLI tool for generating color palettes from a given video file. 
+
+## Installation
+
+Install it from pypi using : 
+
+```
+pip install cinetone
+```
+
+## Usage
+
+The tool can be run from the command line using the following syntax:
+
+```
+cinetone [-h] [-o OUTPUT] [-sc SKIPCOUNT] video_file
+```
+- `video_file: Path to the video file to be decoded (required)`
+- `-o, --output: Places the output in the specified file. Saves into out.png by default`
+- `-sc, --skipcount: Specifies the frames to skip while processing. Default value is 50`
+- `-h, --help: View help`
+
+## Dependencies
+
+- imageio[ffmpeg]
