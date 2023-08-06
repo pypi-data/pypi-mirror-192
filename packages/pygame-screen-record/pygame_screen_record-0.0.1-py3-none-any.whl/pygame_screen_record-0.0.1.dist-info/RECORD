@@ -1,0 +1,11 @@
+pygame-screen-record/EventRegister.py,sha256=sginXaihzyhRnzfBeSedRHsxj6Uqiral0WTeOUlhdeQ,11424
+pygame-screen-record/ScreenRecorder.py,sha256=3BC_C5NKZspxE6N3rU6l1ImOfEcH1eyL-lMnsmVr1e8,27647
+pygame-screen-record/dev/Players.py,sha256=ObuoFfPiYqoFTZCEwFeKQkHtTy5HEAh0PQ8KbXv0WKk,7666
+pygame-screen-record/dev/ScreenPiper.py,sha256=EyRy85mv4sh3V57XgmzAl1B7nJVHRjcENQMN6RvTGpY,4425
+pygame-screen-record/dev/play_recording.py,sha256=JKa89JoN8hp9RYTumvAwSXeTKUivDnBoExZjPu7uFT8,2690
+pygame-screen-record/dev/sand_box.py,sha256=0dAWBU5rp6yHrbDhlxpbJPWmVQXugp96vDkp7GdNTMA,1885
+pygame-screen-record/dev/screen_recorder.py,sha256=YAZ91MLhLnSvHa2kJEKfDqitxOg03aiI_jMbP6Id_R4,5307
+pygame_screen_record-0.0.1.dist-info/METADATA,sha256=wKTQ8IaaSAiKV1QEGpId_gB9_xPA8zmfJhTOYndEZhA,18805
+pygame_screen_record-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pygame_screen_record-0.0.1.dist-info/top_level.txt,sha256=0sRA-iEGVJmLTCttMOwql9mtAPE8VoR9rSraDgiPSbY,21
+pygame_screen_record-0.0.1.dist-info/RECORD,,
