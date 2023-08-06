@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.cfg
+lib_dzne_math/functions.py
+lib_dzne_math/numerals.py
+lib_dzne_math.egg-info/PKG-INFO
+lib_dzne_math.egg-info/SOURCES.txt
+lib_dzne_math.egg-info/dependency_links.txt
+lib_dzne_math.egg-info/top_level.txt
+lib_dzne_math/statistics/__init__.py
