@@ -1,0 +1,5 @@
+numpy
+scikit-learn
+dlib
+face_recognition
+pickle
