@@ -1,0 +1,7 @@
+pylast
+spotipy
+
+[dev]
+ipython
+pre-commit
+twine
