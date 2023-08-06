@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../fonts/Space_Mono/SpaceMono-Regular.ttf");
+}
+
+:root {
+    --md-text-font: "Roboto";
+    --md-code-font: "SpaceMono";
+}
