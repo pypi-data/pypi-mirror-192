@@ -1,0 +1,7 @@
+bar/bar_mod.py,sha256=XcORXVAXKDbkHAsrfrGG280Xt0zcEc-sIlw2l7R4flM,30
+bar/sub_bar/subbar_mod.py,sha256=cxWHQNFD6GpgbO-hskrmLP0TY7Yj8uWUgZhjNEf19Wg,35
+foo/foo_mod.py,sha256=uAIr3WBHfjuR5KuQklkYD330i02CpP0fNEwhbFYmAHI,32
+awsomess-0.0.32.dist-info/METADATA,sha256=t4DOGe50LK0IhOfFInynyaAq4kkwyyRcd43hilKjgRI,270
+awsomess-0.0.32.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+awsomess-0.0.32.dist-info/top_level.txt,sha256=FQ69u01P7Ky-OfQ7TRUhKUKxsS3DZzOKIdC8FCHAS0A,8
+awsomess-0.0.32.dist-info/RECORD,,
