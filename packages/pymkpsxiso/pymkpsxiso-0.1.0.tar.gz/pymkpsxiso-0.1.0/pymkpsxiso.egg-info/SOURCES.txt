@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pymkpsxiso.cpp
+setup.py
+mkpsxiso/src/dumpsxiso/cdreader.cpp
+mkpsxiso/src/mkpsxiso/cdwriter.cpp
+mkpsxiso/src/mkpsxiso/edcecc.cpp
+mkpsxiso/src/mkpsxiso/iso.cpp
+mkpsxiso/src/shared/common.cpp
+mkpsxiso/src/shared/mmappedfile.cpp
+mkpsxiso/src/shared/platform.cpp
+mkpsxiso/tinyxml2/tinyxml2.cpp
+pymkpsxiso.egg-info/PKG-INFO
+pymkpsxiso.egg-info/SOURCES.txt
+pymkpsxiso.egg-info/dependency_links.txt
+pymkpsxiso.egg-info/top_level.txt
