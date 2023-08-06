@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+setup.py
+pyfembed/__init__.py
+pyfembed/pyfembed_class.py
+pyfembed.egg-info/PKG-INFO
+pyfembed.egg-info/SOURCES.txt
+pyfembed.egg-info/dependency_links.txt
+pyfembed.egg-info/requires.txt
+pyfembed.egg-info/top_level.txt
+pyfembed/interfaces/__init__.py
