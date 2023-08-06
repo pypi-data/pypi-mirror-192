@@ -1,0 +1,9 @@
+python-json-logger
+
+[dev]
+black
+isort
+flake8
+pytest
+fakeredis
+pytest-asyncio

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: oap-rq
+Version: 0.0.2
+Author: Caleb Carvalho
+Author-email: caleb.carvalho@gmail.com
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# oap-rq
+
+
+
+## Getting started
+
+Simple Qmessiage Sender and Receiver using redis for python asyncio 
+
+## installation
+
+- pip install oap-rq
+```
+from oap_rq.q import QBus
+
+q = QBus(redis, service="test", queue="customer-food")
+resp = await q.send({"test": "me"})
+
+print(resp)
+
+```
+
+
+
+
