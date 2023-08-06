@@ -1,0 +1,5 @@
+cbitarray
+cjoin
+clevenshtein
+csoundex
+opteryx
