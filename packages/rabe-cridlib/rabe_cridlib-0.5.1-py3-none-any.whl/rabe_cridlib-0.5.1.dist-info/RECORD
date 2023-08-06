@@ -1,0 +1,13 @@
+cridlib/__init__.py,sha256=PEijpMHwEMGigVLQe8OgDKS6Xb4rcx6EteoZkDDDXu0,334
+cridlib/get.py,sha256=yiAKU7qXxU0Wk9pgBt2PRyewiYiNRxWnGX4zveCcfdE,1165
+cridlib/lib.py,sha256=_y3VkkfCD0ZMEXulDwxpPDRrCUx7jxLUMVVtNT1GBjA,3670
+cridlib/parse.py,sha256=k6dHPvzm4bEEoGJSOt3nudYqEiPg4FDW2dYtNa2Vc0E,144
+cridlib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cridlib/strategy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cridlib/strategy/future.py,sha256=L8STfuU1pUyybgrArnhb5pY9pzPgoEbwUJ-iWVVWj34,1087
+cridlib/strategy/now.py,sha256=KBce-S_JKBEiSw6pC_faBm1JmckYdZ94vSglflhJv10,532
+cridlib/strategy/past.py,sha256=UqxBFwI5ipS4UsluHP-xmWmCf7trdiWjSNP-e_jD7E0,643
+rabe_cridlib-0.5.1.dist-info/LICENSE,sha256=V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY,34520
+rabe_cridlib-0.5.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+rabe_cridlib-0.5.1.dist-info/METADATA,sha256=epBTXfxqHWlN-ZqoTvBbY-cHvYkXYfykmHgIcdqhCEM,3835
+rabe_cridlib-0.5.1.dist-info/RECORD,,
