@@ -1,0 +1,15 @@
+psychopy_pixx/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+psychopy_pixx/calibration/_gamma_fit.py,sha256=uwqJBsFfn3PX9QTWAtZ-i_h0vuFHTiEQdkSpH4Oo84c,1679
+psychopy_pixx/calibration/_s470_photometer.py,sha256=3oCtx0TjLcfZvx8dCDJq0S1QUDj_Ehi_4_OoXcpKj5E,4916
+psychopy_pixx/calibration/calibration.py,sha256=KtWF2ECroeIv5fFqCBPV0MSq_vF0SuXQoU1oN1ytVw0,11250
+psychopy_pixx/calibration/photometer.py,sha256=gQFuAnieHv9FFT_B6beF_rnZWcLZShe67N-hoDkifeo,804
+psychopy_pixx/devices/__init__.py,sha256=Gk-3g3xPnagby9U75djLJY3P91KO_QXOoIZUaWH6gSE,70
+psychopy_pixx/devices/responsepixx.py,sha256=gPlfXa1hr04aLyuHDMnIZZA80hDflwGjbtdnb9ZTYF8,5524
+psychopy_pixx/devices/shaders/c48_frag.glsl,sha256=yyuDfzu0aUiyxukEeWz3VOHZ5psqrpeiHA7B4X5L6ig,1352
+psychopy_pixx/devices/shaders/m16_frag.glsl,sha256=YwrK8ZTX9Am1NOX2jLO1xy0j-SkzdjllUCqfiICVijY,1087
+psychopy_pixx/devices/viewpixx.py,sha256=kwpo2t-LTA4iF7vJzJs6gtlkH6pRbRVwrEeuE_ExBHg,10666
+psychopy_pixx-0.1.1.dist-info/LICENSE,sha256=DJsOLTMDPrY_rhzbJGnypIPLbGpaffZaXg4-tkDEYug,7441
+psychopy_pixx-0.1.1.dist-info/METADATA,sha256=8E6YNjQVbpJiLPwX15_pkOjtICG3mKPQxmsOUCVv1qM,13962
+psychopy_pixx-0.1.1.dist-info/WHEEL,sha256=UTbu2d3PIo7FtACOQrq825bNtQhldwLx2SG2oh0Fl8Q,88
+psychopy_pixx-0.1.1.dist-info/entry_points.txt,sha256=G231ZMy-MBpqTnAr_rruRIhjP8eztZJMM4sTrMxBpGk,95
+psychopy_pixx-0.1.1.dist-info/RECORD,,
