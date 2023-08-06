@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: FAIRsoft
+Version: 0.1.14
+Summary: FAIRsoft package for the aggregation of Life Sciences software metadata and FAIR evaluation.
+Home-page: https://gitlab.bsc.es/inb/elixir/software-observatory/FAIRsoft_ETL/-/tree/master/FAIRsoft
+Author: Eva Martin del Pico
+Author-email: Eva Martin del Pico <eva.martin@bsc.es>
+License: AGLP-3.0
+Project-URL: Bug Tracker, https://gitlab.bsc.es/inb/elixir/software-observatory/FAIRsoft_ETL/issues
+Project-URL: Repository, https://gitlab.bsc.es/inb/elixir/software-observatory/FAIRsoft_ETL/-/tree/master/FAIRsoft
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bidict
+Requires-Dist: matplotlib
+Requires-Dist: munch
+Requires-Dist: pymongo
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: simplejson
+Requires-Dist: webdriver-manager
+
+# FAIRsoft 
+
+Library for the aggregation of Life Sciences software metadata and FAIR evaluation.
+
+
+## Installation 
+Install using [pip](https://pip.pypa.io/en/stable/):
+```
+pip install FAIRsoft
+``` 
+
+### Requirements 
+In order to use the Bioconda and repositories (GitHub and Bitbucket) importers, the following two tools need to be installed:
+
+- [bioconda-utils](https://github.com/bioconda/bioconda-utils) is required by the bioconda importer. 
+
+    bioconda-utils is a bioconda package and thus requires [Conda](https://docs.conda.io/projects/conda/en/latest/index.html). 
+
+    :exclamation: The large size of bioconda-utils package can cause Conda to crash during the installation process. Using [Mamba](https://github.com/mamba-org/mamb) instead of Conda prevents this problem. 
+
+    :exclamation: bioconda-utils requires Python 3.7 or lower. Simulating a compatible platform might be necessary. To do so, use the following commands: 
+    ```sh 
+    # create the environment
+    mamba create -n myenv
+
+    # activate the environment
+    conda activate myenv
+    
+    # before installing anything in the environment, set the usage of x86_64 architecture
+    conda config --env --set subdir osx-64
+    ```
+
+ - [opeb-enrichers/repoEnricher](https://github.com/inab/opeb-enrichers) is required by the Source Code Respositories importer.
+
+ - [AnyStyle](https://github.com/inukshuk/anystyle) is required by the Galaxy Toolshed importer.
+
+
+## Usage 
+Example of usage in this [jupyter-notebook](https://gitlab.bsc.es/inb/elixir/software-observatory/FAIRsoft_ETL/-/blob/master/docs/ETL_workflow.ipynb).
+
+### Docker images for importation, transformation and integration 
+Given the complexity of the requirements installation process, it is highly recommended to use the dockerized version of the different importers, as well as the transformation and integration steps. 
+
+They are available in the following repositories. Instructions on how to configure them can be found in their respective READMEs. 
+
+Importers:
+- [Bioconda importer](https://gitlab.bsc.es/inb/elixir/software-observatory/bioconda-importer)
+- [Bioconductor importer](https://gitlab.bsc.es/inb/elixir/software-observatory/bioconductor-importer)
+- [Galaxy Toolshed importer](https://gitlab.bsc.es/inb/elixir/software-observatory/toolshed-importer)
+- [OpenEBench tools importer](https://gitlab.bsc.es/inb/elixir/software-observatory/opeb-tools-importer)
+- [OpenEBench metrics importer](https://gitlab.bsc.es/inb/elixir/software-observatory/opeb-metrics-importer)
+- [Sourceforge importer](https://gitlab.bsc.es/inb/elixir/software-observatory/sourceforge-importer) 
+- [Repositories importer](https://gitlab.bsc.es/inb/elixir/software-observatory/respositories-importer) 
+
+Transformation:
+- [Transformation](https://gitlab.bsc.es/inb/elixir/software-observatory/fairsoft-transformation) 
+
+Integration:
+- [Integration](https://gitlab.bsc.es/inb/elixir/software-observatory/fairsoft-integration)
