@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+medgedriver.egg-info/PKG-INFO
+medgedriver.egg-info/SOURCES.txt
+medgedriver.egg-info/dependency_links.txt
+medgedriver.egg-info/top_level.txt
