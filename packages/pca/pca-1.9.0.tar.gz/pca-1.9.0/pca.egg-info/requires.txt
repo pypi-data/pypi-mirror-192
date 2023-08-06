@@ -1,0 +1,11 @@
+statsmodels
+wget
+matplotlib
+numpy
+scikit-learn
+scipy
+colourmap>=1.1.10
+pandas
+tqdm
+scatterd>=1.2.5
+adjustText
