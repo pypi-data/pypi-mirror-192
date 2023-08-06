@@ -1,0 +1,13 @@
+jp_noui/__init__.py,sha256=UuO4roT2ccfdKXg1Xx7fh2wl9yVvkw5n7x2wDRkOt2A,159
+jp_noui/_version.py,sha256=CXJl0vWHa-zfZJ_mhGVB60E0diyNNF7RIidcWrfQJOA,175
+jp_noui-0.1.0.data/data/share/jupyter/labextensions/jp-noui/package.json,sha256=oa8LF4naKMFFhcSo1UH_ImLPMABxvskQB3NUKvUq3hM,3418
+jp_noui-0.1.0.data/data/share/jupyter/labextensions/jp-noui/static/568.e059fd2e2ddd20cd56a1.js,sha256=4Fn9Li3dIM1Woc7-PCtC9omoC3OHxclT4ABaGce37wE,2326
+jp_noui-0.1.0.data/data/share/jupyter/labextensions/jp-noui/static/747.ac35d82051914ce08f27.js,sha256=rDXYIFGRTOCPJxHjNUaNxjQMSpV5CY9BUzqCyYZ55uo,3500
+jp_noui-0.1.0.data/data/share/jupyter/labextensions/jp-noui/static/remoteEntry.36c032d2e0336a021b0e.js,sha256=NsAy0uAzagIbDqlIbPp7469K0y1d31-L8pgOXeUsxgs,6408
+jp_noui-0.1.0.data/data/share/jupyter/labextensions/jp-noui/static/style.js,sha256=dj9UesLhpvJ_tPHd8PYSg3810h7K_MkN6bdl-xbUj-c,150
+jp_noui-0.1.0.data/data/share/jupyter/labextensions/jp-noui/static/third-party-licenses.json,sha256=P_VjLKCSMZ3sXuPckg8bDyB8Xn8JD7EsiIoRqvSP3h0,2452
+jp_noui-0.1.0.data/data/share/jupyter/labextensions/jp-noui/install.json,sha256=jGOjyEX78NCJjqEzXHDxEe1gKaS6JyNMM454gocOz78,180
+jp_noui-0.1.0.dist-info/METADATA,sha256=qoBPngGkfk3Ew45MWHz-3GfIh7huQqtaYTHMs9fZkMw,5830
+jp_noui-0.1.0.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+jp_noui-0.1.0.dist-info/licenses/LICENSE,sha256=EBsqk0Pv600TG57sLDoh_7BrCq2qKl9gaqCX7ww6uVg,1551
+jp_noui-0.1.0.dist-info/RECORD,,
