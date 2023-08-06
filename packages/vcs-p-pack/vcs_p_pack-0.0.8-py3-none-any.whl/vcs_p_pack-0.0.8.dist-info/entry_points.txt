@@ -1,0 +1,2 @@
+[console_scripts]
+parse_work = package.__main__:main
