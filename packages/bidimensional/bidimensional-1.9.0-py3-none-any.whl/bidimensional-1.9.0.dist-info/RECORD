@@ -1,0 +1,15 @@
+bidimensional/__init__.py,sha256=K5X_6TLr34kUsRDDKV_FimEQpS_iQy64RE6xj4uYDro,110
+bidimensional/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bidimensional/core/coordinate.py,sha256=eIOFaXmeiPgiucsgp32kPZFlaVvXWXPa2oeBl8GNQRI,13528
+bidimensional/core/lines.py,sha256=ld78MM_q6tjp-7mN6U2NlTc2F3voVVvNkGBcQLlma7I,13562
+bidimensional/core/operations.py,sha256=Fm8AD4ukN7iFSa9JXJv0XPMx4bYqjN1FpA89k0o150E,3181
+bidimensional/functions/__init__.py,sha256=ocHSRF391ceYPsCqgIBoUs8O_zClF7PLNrKs5MYCb18,28
+bidimensional/functions/spline.py,sha256=AWiHtDiboUgkExy86wLS7R7xN-yq8mOhjjVvm9UiayQ,16554
+bidimensional/polygons/__init__.py,sha256=lVmyljaykptzKucCenfsAb0r-1v9aAFwvs_7fOQF0UA,62
+bidimensional/polygons/polygon.py,sha256=1RsvkTNFAxsBUYyM_YpVLn3fi6CDwBA0H39X9-kGgpA,9316
+bidimensional/polygons/triangle.py,sha256=deZM_RhrcQ-0M-Hyz1jfMXT3GCiadgvFC1O3GdtroAw,18466
+bidimensional-1.9.0.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+bidimensional-1.9.0.dist-info/METADATA,sha256=gxy-m9cADzVyMg_9QIUoHL0voGkr0tdDz-IMjxjvmvk,44792
+bidimensional-1.9.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bidimensional-1.9.0.dist-info/top_level.txt,sha256=LDmM68Fu6zu8EQOH2kjffLbY1gFq9d8oOmeaKK1iBho,14
+bidimensional-1.9.0.dist-info/RECORD,,
