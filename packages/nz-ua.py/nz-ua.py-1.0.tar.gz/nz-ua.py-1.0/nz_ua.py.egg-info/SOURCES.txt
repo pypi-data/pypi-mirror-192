@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+nz/Client.py
+nz/__init__.py
+nz_ua.py.egg-info/PKG-INFO
+nz_ua.py.egg-info/SOURCES.txt
+nz_ua.py.egg-info/dependency_links.txt
+nz_ua.py.egg-info/requires.txt
+nz_ua.py.egg-info/top_level.txt
