@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Datascience_packages.egg-info/PKG-INFO
+Datascience_packages.egg-info/SOURCES.txt
+Datascience_packages.egg-info/dependency_links.txt
+Datascience_packages.egg-info/entry_points.txt
+Datascience_packages.egg-info/requires.txt
+Datascience_packages.egg-info/top_level.txt

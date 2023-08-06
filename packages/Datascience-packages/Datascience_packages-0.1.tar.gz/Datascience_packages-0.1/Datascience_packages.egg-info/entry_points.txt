@@ -1,0 +1,2 @@
+[console_scripts]
+Datascience_packages = Datascience_packages.cli:main
