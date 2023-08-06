@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pcface
+Version: 0.3.0
+Summary: PC Face - Bitmap arrays for all 256 glyphs of CP437
+Author: Susam Pal
+License: MIT
+Project-URL: homepage, https://github.com/susam/pcface
+Keywords: font,cp437,retro
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Text Processing :: Fonts
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+PC Face
+=======
+
+PC Face is a collection of programmer-friendly resources that allow
+drawing [CP437][CP437WIKI] characters on a graphical canvas. This
+project provides bitmap arrays for all 256 glyphs from the CP437
+character set rendered using various free fonts that reproduce the
+original IBM PC OEM fonts.
+
+![CP437 characters rendered on an HTML5 canvas][CP437IMG]
+
+[CP437WIKI]: https://en.wikipedia.org/wiki/Code_page_437
+[CP437IMG]: https://susam.github.io/blob/img/pcface/pcface-0.2.0.png
+
+See <https://github.com/susam/pcface> for more details.

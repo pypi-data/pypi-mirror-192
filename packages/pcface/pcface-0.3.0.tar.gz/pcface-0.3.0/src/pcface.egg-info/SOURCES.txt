@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/pcface.py
+src/pypi.md
+src/pcface.egg-info/PKG-INFO
+src/pcface.egg-info/SOURCES.txt
+src/pcface.egg-info/dependency_links.txt
+src/pcface.egg-info/entry_points.txt
+src/pcface.egg-info/requires.txt
+src/pcface.egg-info/top_level.txt
