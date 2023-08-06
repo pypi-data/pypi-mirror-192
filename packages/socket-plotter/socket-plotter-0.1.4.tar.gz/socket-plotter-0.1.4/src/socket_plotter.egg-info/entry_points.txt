@@ -1,0 +1,4 @@
+[console_scripts]
+socket_image_plotter = socket_plotter.entry_points.imageplotter:main
+socket_line_plotter = socket_plotter.entry_points.lineplotter:main
+

@@ -1,0 +1,12 @@
+pyqtgraph
+numpy
+
+[dev]
+PySide2
+black
+flake8
+flake8-print
+darglint
+
+[pyside]
+PySide2
