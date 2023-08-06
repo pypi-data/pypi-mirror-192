@@ -1,0 +1,2 @@
+[console_scripts]
+VHDLParser = pyVHDLParser.CLI.VHDLParser:main
