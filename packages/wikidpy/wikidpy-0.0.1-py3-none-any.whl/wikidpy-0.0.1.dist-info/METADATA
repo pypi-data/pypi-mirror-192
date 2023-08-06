@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: wikidpy
+Version: 0.0.1
+Summary: A python version of MIDAS the MUSTANG2 IDL data analysis software intended to be used with the next generation instrument WIKID
+Project-URL: Bug Tracker, https://github.com/sdicker/WIKIDpy/issues
+Project-URL: Homepage, https://github.com/sdicker/WIKIDpy
+Author-email: Simon Dicker <sdicker@hep.upenn.edu>
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# WIKIDpy
+This will be the MIDAS pipeline re-written in python
+- extensive use of GBO's new python pipeline for things such as the timestreams to maps is planned
+- It is intended to be backwards and forwards compatible with WIKID, and MUSTANG2 (and maybe even MUSTANG!)
+To Do:
+- basic routines to read in data and save it to SD fits format.  Includes quadrant detector etc.
+- Extend this to save it in format for OOF
+- cmsub, pca etc
+- Calibration pipeline
+- gui
