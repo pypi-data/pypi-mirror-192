@@ -1,0 +1,6 @@
+setup.py
+vseg_unet.egg-info/PKG-INFO
+vseg_unet.egg-info/SOURCES.txt
+vseg_unet.egg-info/dependency_links.txt
+vseg_unet.egg-info/requires.txt
+vseg_unet.egg-info/top_level.txt

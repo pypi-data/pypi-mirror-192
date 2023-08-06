@@ -1,0 +1,17 @@
+torch
+opencv-python
+random
+natsort
+sklearn
+patchify
+tqdm
+scipy
+pandas
+albumentations
+glob
+pillow
+numpy
+operator
+argparse
+matplotlib
+torchvision
