@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: not-the-vonage-python-sdk
+Version: 4.4.2
+Summary: Vonage Server SDK for Python
+Home-page: https://github.com/Vonage/vonage-python-sdk
+Author: Vonage
+Author-email: devrel@vonage.com
+License: Apache
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# DO NOT USE. THIS IS AN EXAMPLE TO SHOW THE PRINCIPLE BEHIND PYPI UPLOADS AND WILL BE HIGHLY ANNOYING, BY DESIGN.
+
+DO NOT USE.
+
+## Vonage Server SDK for Python
+
+<img src="https://developer.nexmo.com/assets/images/Vonage_Nexmo.svg" height="48px" alt="Nexmo is now known as Vonage" />
+
+[![PyPI version](https://badge.fury.io/py/vonage.svg)](https://badge.fury.io/py/vonage)
+[![Build Status](https://github.com/Vonage/vonage-python-sdk/workflows/Build/badge.svg)](https://github.com/Vonage/vonage-python-sdk/actions)
+[![codecov](https://codecov.io/gh/Vonage/vonage-python-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/Vonage/vonage-python-sdk)
+[![Python versions supported](https://img.shields.io/pypi/pyversions/vonage.svg)](https://pypi.python.org/pypi/vonage)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
+This is the Python server SDK for Vonage's API. To use it you'll
+need a Vonage account. Sign up [for free at vonage.com][signup].
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [SMS API](#sms-api)
+- [Messages API](#messages-api)
+- [Voice API](#voice-api)
+- [NCCO Builder](#ncco-builder)
+- [Verify API](#verify-api)
+- [Meetings API](#meetings-api)
+- [Number Insight API](#number-insight-api)
+- [Number Management API](#number-management-api)
+- [Managing Secrets](#managing-secrets)
+- [Application API](#application-api)
+- [Overriding API Attributes](#overriding-api-attributes)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [License](#license)
+
