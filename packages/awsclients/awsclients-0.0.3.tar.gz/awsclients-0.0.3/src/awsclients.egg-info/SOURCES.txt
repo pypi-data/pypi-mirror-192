@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+src/awsclients.egg-info/PKG-INFO
+src/awsclients.egg-info/SOURCES.txt
+src/awsclients.egg-info/dependency_links.txt
+src/awsclients.egg-info/requires.txt
+src/awsclients.egg-info/top_level.txt
