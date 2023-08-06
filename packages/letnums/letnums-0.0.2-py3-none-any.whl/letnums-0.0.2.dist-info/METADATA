@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: letnums
+Version: 0.0.2
+Summary: a simple library to generate random combinations of letters and numbers
+Home-page: https://github.com/sokisa/letnum
+Author: Sokisa
+Requires-Python: >=3.11.1,<4.0.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: pika (>=0.0.1,<0.0.2)
+Project-URL: Repository, https://github.com/sokisa/letnum
+Description-Content-Type: text/markdown
+
+## letnum
+
+letnum, a simple python library that is able to generate random letter and number combinations for you
+
+it is easy to use and only requires a 1 to 3 lines
+## Installation
+
+pip install letnum
+
+```py
+#How to Use
+from letnum import number, letter, letter_number
+
+#u only need the function name
+number()
+#by typing the fuction name and running it will ask the amount of letters.
+"Enter Any Amount u want.."
+
+"(the same for every function {look at the photo})
+```
+
+## Screenshots
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1076890796399276042/1076987830431137852/image.png)
+
+![App Screenshot](https://cdn.discordapp.com/attachments/1076890796399276042/1076987956256059432/image.png)
+
+
