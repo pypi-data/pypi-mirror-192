@@ -1,0 +1,68 @@
+"""
+Residence type: Apartment complex.
+
+https://schema.org/ApartmentComplex
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class ApartmentComplexInheritedProperties(TypedDict):
+    """Residence type: Apartment complex.
+
+    References:
+        https://schema.org/ApartmentComplex
+    Note:
+        Model Depth 4
+    Attributes:
+        accommodationFloorPlan: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): A floorplan of some [[Accommodation]].
+    """
+
+    accommodationFloorPlan: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    
+
+
+class ApartmentComplexProperties(TypedDict):
+    """Residence type: Apartment complex.
+
+    References:
+        https://schema.org/ApartmentComplex
+    Note:
+        Model Depth 4
+    Attributes:
+        tourBookingPage: (Optional[Union[List[Union[SchemaOrgObj, str, AnyUrl]], SchemaOrgObj, str, AnyUrl]]): A page providing information on how to book a tour of some [[Place]], such as an [[Accommodation]] or [[ApartmentComplex]] in a real estate setting, as well as other kinds of tours as appropriate.
+        numberOfBedrooms: (Optional[Union[List[Union[SchemaOrgObj, str, StrictInt, StrictFloat]], SchemaOrgObj, str, StrictInt, StrictFloat]]): The total integer number of bedrooms in a some [[Accommodation]], [[ApartmentComplex]] or [[FloorPlan]].
+        numberOfAvailableAccommodationUnits: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Indicates the number of available accommodation units in an [[ApartmentComplex]], or the number of accommodation units for a specific [[FloorPlan]] (within its specific [[ApartmentComplex]]). See also [[numberOfAccommodationUnits]].
+        numberOfAccommodationUnits: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Indicates the total (available plus unavailable) number of accommodation units in an [[ApartmentComplex]], or the number of accommodation units for a specific [[FloorPlan]] (within its specific [[ApartmentComplex]]). See also [[numberOfAvailableAccommodationUnits]].
+        petsAllowed: (Optional[Union[List[Union[StrictBool, str, SchemaOrgObj]], StrictBool, str, SchemaOrgObj]]): Indicates whether pets are allowed to enter the accommodation or lodging business. More detailed information can be put in a text value.
+    """
+
+    tourBookingPage: NotRequired[Union[List[Union[SchemaOrgObj, str, AnyUrl]], SchemaOrgObj, str, AnyUrl]]
+    numberOfBedrooms: NotRequired[Union[List[Union[SchemaOrgObj, str, StrictInt, StrictFloat]], SchemaOrgObj, str, StrictInt, StrictFloat]]
+    numberOfAvailableAccommodationUnits: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    numberOfAccommodationUnits: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    petsAllowed: NotRequired[Union[List[Union[StrictBool, str, SchemaOrgObj]], StrictBool, str, SchemaOrgObj]]
+    
+
+#ApartmentComplexInheritedPropertiesTd = ApartmentComplexInheritedProperties()
+#ApartmentComplexPropertiesTd = ApartmentComplexProperties()
+
+
+class AllProperties(ApartmentComplexInheritedProperties , ApartmentComplexProperties, TypedDict):
+    pass
+
+
+def create_schema_org_model(type_: Union[ApartmentComplexProperties, ApartmentComplexInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "ApartmentComplex"
+    return model
+    
+
+ApartmentComplex = create_schema_org_model()
