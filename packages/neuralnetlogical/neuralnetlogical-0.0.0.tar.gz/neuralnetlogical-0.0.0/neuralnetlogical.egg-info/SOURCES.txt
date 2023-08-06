@@ -1,0 +1,13 @@
+setup.py
+neuralnetlogical/__init__.py
+neuralnetlogical.egg-info/PKG-INFO
+neuralnetlogical.egg-info/SOURCES.txt
+neuralnetlogical.egg-info/dependency_links.txt
+neuralnetlogical.egg-info/requires.txt
+neuralnetlogical.egg-info/top_level.txt
+neuralnetlogical/scripts/__init__.py
+neuralnetlogical/scripts/andGate.py
+neuralnetlogical/scripts/nandGate.py
+neuralnetlogical/scripts/norGate.py
+neuralnetlogical/scripts/notGate.py
+neuralnetlogical/scripts/orGate.py
