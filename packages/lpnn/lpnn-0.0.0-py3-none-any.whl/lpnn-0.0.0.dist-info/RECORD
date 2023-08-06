@@ -1,0 +1,10 @@
+lpnn/__init__.py,sha256=_6RSk5MH7Q6TEtWn8OFNzRwgC2Gx2DLP1Wog_SpeGY4,119
+lpnn/andGate.py,sha256=Sd7dxvmAmzywUpwM1hKyojoL1aKTSRWQrUrOh8rRLzo,3207
+lpnn/nandGate.py,sha256=nP4sBib4tsI9KDi2tmdjKeeV3oLfCjJmQ8rN1VqO40Y,3212
+lpnn/norGate.py,sha256=Fe--g9f6wYOPGNkkcAuNDVqOytGr3G2Yhqsz6NTQzps,3208
+lpnn/notGate.py,sha256=BkMwAwURz-5K4lpw8yqqNdn5sGAaowLVH5VZG_lhcQQ,4359
+lpnn/orGate.py,sha256=vTsQ-2BO5hdkYxHrsodJ2Qu7EWyNklf_uWWik8uXZgw,3203
+lpnn-0.0.0.dist-info/METADATA,sha256=DAbAUaDs0lkoZvzk5nrMDENmoTjqImVYebKIUXOkPOM,578
+lpnn-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lpnn-0.0.0.dist-info/top_level.txt,sha256=vV_Yb2c_icL2uKtDBjxZndkX66CLWfK158-syFYEX1I,5
+lpnn-0.0.0.dist-info/RECORD,,
