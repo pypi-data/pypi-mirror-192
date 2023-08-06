@@ -1,0 +1,10 @@
+crspectra/__init__.py,sha256=30TrXo5LdxCmqX7zleBBc5tuAsvakGaevHxmkOSGYVo,776
+crspectra/connect.py,sha256=8d6ZlZUBO1o3ygdCaPX1UtPrUyUO9WR2FB65D9QL7fU,733
+crspectra/crspectra.db,sha256=JsNAzDrMUtMO6UD6ej74YJQxFDXCgmIU3pSgmWWbbvU,57344
+crspectra/crspectra.py,sha256=0YETf0T8Bid4rV_1Ejh-Qb7bcP1NJkA5x5RRSrRG7xs,2467
+crspectra/external.py,sha256=vcfXF5S6tuG6R0RKBaR0dXcETON2ZzVIkCHqftKSPuc,2408
+crspectra/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crspectra-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+crspectra-1.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+crspectra-1.1.0.dist-info/METADATA,sha256=YyHT3nbwXJsw3QrpiuA62vtLgEseQjpolAw_C4rUzTA,3486
+crspectra-1.1.0.dist-info/RECORD,,
