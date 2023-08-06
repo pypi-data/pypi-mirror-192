@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+hello/__init__.py
+hello/hello.py
+sayhellotosaurabh.egg-info/PKG-INFO
+sayhellotosaurabh.egg-info/SOURCES.txt
+sayhellotosaurabh.egg-info/dependency_links.txt
+sayhellotosaurabh.egg-info/top_level.txt
