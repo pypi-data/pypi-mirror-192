@@ -1,0 +1,13 @@
+pydantic_ome_ngff/__init__.py,sha256=LpoBduIq8TyzeGzyhzg37PJMXOhLvwjAoJ9DAAlvlEo,425
+pydantic_ome_ngff/base.py,sha256=-5zhJ1xWhvTCCLPWpUlQXYm871jB8k1A6vJ9NtDDsXU,681
+pydantic_ome_ngff/v05/__init__.py,sha256=WDyMk9zhldt2SNyDOCrk-o3-MBcY-Kbbe4tsMIFPdI8,20
+pydantic_ome_ngff/v05/axes.py,sha256=H9b5AD9XPtaPr_XPMye6t-HOiLt_k4qk5EETWztfJ1w,3732
+pydantic_ome_ngff/v05/coordinateTransformations.py,sha256=b-7dLuC-5tbUUvbY9RMONXDhkawVXdHG25rbQXFvsIk,1220
+pydantic_ome_ngff/v05/imageLabel.py,sha256=LtmpqK7qOEhBVvc2ApkaVsCvRLbUgh2VnDIxv2AOJQE,1827
+pydantic_ome_ngff/v05/multiscales.py,sha256=lBExLbOZZzmOsVCUhDVP68wnWiQUP_T7geWLiGd9ysQ,3813
+pydantic_ome_ngff/v05/plate.py,sha256=8mWwq_27rjICAqle9WMJ3GDKFLxtrPC19Gs50neoTrg,644
+pydantic_ome_ngff/v05/well.py,sha256=pmESjp7oBDHcsOowkkM7F1wvl3wC3lr5ImjnsBprUS8,275
+pydantic_ome_ngff-0.1.3.dist-info/LICENSE,sha256=GypaXv-WNch3Dhm4_HxwJagHJ_YxvYRkFcW19P7rORI,1466
+pydantic_ome_ngff-0.1.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pydantic_ome_ngff-0.1.3.dist-info/METADATA,sha256=1DB_XMQNURJnuzBTLoe4X8tiEuKO2XkWfWRk4wt0ztQ,2635
+pydantic_ome_ngff-0.1.3.dist-info/RECORD,,
