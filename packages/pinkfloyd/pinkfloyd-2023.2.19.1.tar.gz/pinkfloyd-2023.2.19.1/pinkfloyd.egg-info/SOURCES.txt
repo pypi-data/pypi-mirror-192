@@ -1,0 +1,8 @@
+README.md
+setup.py
+pinkfloyd/__init__.py
+pinkfloyd.egg-info/PKG-INFO
+pinkfloyd.egg-info/SOURCES.txt
+pinkfloyd.egg-info/dependency_links.txt
+pinkfloyd.egg-info/not-zip-safe
+pinkfloyd.egg-info/top_level.txt
