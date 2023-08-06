@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyccr
+Version: 0.0.3
+Summary: Contextualized Construct Representations (CCR).
+Home-page: https://github.com/Ali-Omrani
+Author: Ali Omrani
+Author-email: aomrani@usc.edu
+Classifier: Development Status :: 1 - Planning
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: sentence-transformers
+
