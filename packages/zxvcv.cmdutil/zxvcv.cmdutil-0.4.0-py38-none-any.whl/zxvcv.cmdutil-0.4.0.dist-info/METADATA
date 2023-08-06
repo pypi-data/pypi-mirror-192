@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: zxvcv.cmdutil
+Version: 0.4.0
+Summary: Toolbox for other projects
+Author: Pawel Piskorz
+Author-email: ppiskorz0@gmail.com
+License: MIT License
+Keywords: toolbox,tool
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: tox
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: <4.0.0,>=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: zxvcv.util (~=0.3.0)
+
+# zxvcv.cmdutil
+Toolbox for other projects.
+
+# Setup aliases
+To use aliases provided with this package:
+## Windows
+Add path <python_path>/Lib/site-packages/zxvcv/cmdutil/aliases/dos
+
+## Unix
+Run command (for python 3.11): `printf "\nexport PATH=\$PATH:~/.local/lib/python3.11/site-packages/zxvcv/cmdutil/aliases/unix\n. ~/.local/lib/python3.11/site-packages/zxvcv/cmdutil/aliases/unix/bash_zxvcv_aliases\n\n" >> ~/.bashrc`
+
+> requires to install `sudo apt install python-is-python3` or set `alias python=python3 $@`
+
+> To get python site-packates path run: python3 -m site
+
+# Provided aliases
+## Windows
+`clear` = cls \
+`gita` = git add -A :!a \
+`gitl` = git log --graph --oneline %* \
+`la` = dir \
+`ll` = dir \
+`ls` = dir /B \
+`venva` - support activation python venvs (see --help) \
+`venvi` - support creation python venvs (see --help) \
+`venvr` - support removing python venvs (see --help) \
+`venvl` - list available python venvs (see --help)
+## Unix
+`cls` = clear \
+`gita` = git add -A :!a \
+`gitl` = git log --graph --oneline $@ \
+`venva` - support activation python venvs (see --help) \
+`venvi` - support creation python venvs (see --help) \
+`venvr` - support removing python venvs (see --help) \
+`venvl` - list available python venvs (see --help)
+
+
+# Virtual Python Environemts Paths
+Windows: `C:\PythonVenv` \
+Unix: `~/pythonvenv`
+
+# Scripts
+
+## zxvcv.pullall
+Helps updating multiple git repositories (see --help)
+
+# Build
+Build all with single command run:
+```
+tox
+```
+
+Build wheel for specific python:
+```
+tox -e py37
+tox -e py38
+tox -e py39
+tox -e py310
+tox -e py311
+```
+
+# Publish
+> require tokens for pypi and testpypi in ~/.pypirc file
+
+### publish on pypi
+```
+tox -e publish
+```
+
+### publish on testpypi
+```
+tox -e publish-test
+```
+
+Changelog
+=========
+
+0.4.0 (2023-02-18)
+------------------
+- Add supprot for unix.
+- Update zxvcv.util (>=0.2.1 -> ~=0.3.0).
+
+0.3.1 (2023-02-15)
+------------------
+- Add support for pythons 3.7 3.8 3.9.
+- Fix for gitl alias.
+
+0.3.0 (2023-02-14)
+------------------
+- Add aliases for dos.
+- Update README.md.
+- rename virtual_env -> pvenv.
+- Generating whl for pythons 3.10 and 3.11.
+
+0.2.0 (2023-02-13)
+------------------
+- Add interface for managing python virtual envs.
+
+0.1.3 (2023-02-12)
+------------------
+- General package setup updates.
+
+0.1.0 (2023-02-09)
+------------------
+- Initial commit.
