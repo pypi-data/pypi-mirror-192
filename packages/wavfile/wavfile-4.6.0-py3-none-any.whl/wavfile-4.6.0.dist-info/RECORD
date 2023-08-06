@@ -1,0 +1,12 @@
+wavfile/__init__.py,sha256=s60h-59f3Cfn9HIsH1zDhiatnE99aCWiQWOUJKsCPHA,7800
+wavfile/base.py,sha256=_SaAglaKFeATWHEzpN1M1K8AFG5FqQampcOFVj9kaj8,6468
+wavfile/chunk.py,sha256=XTz2nWto0sZ1kv4sJO-wvcRxXhf1pdYXVzqGWU8frl4,20808
+wavfile/exception.py,sha256=p9GHZ5Ig7jf5wWJ1SR9aP3A1wsNNejap7ZNj7Rm6HGE,281
+wavfile/version.py,sha256=K7uqUXwkmmPstH35T3_s5SCFxm2QBpJshCRkQVIHtK0,116
+wavfile/wavread.py,sha256=5ESFofFqzBXS3QECuv7eH-yUOUqbf7n8Q-26W8QK8MQ,7151
+wavfile/wavwrite.py,sha256=CVDDUfukDxsWkOvUc9oHPBML2cZG2Fm6IBvHzJa2sUY,6953
+wavfile-4.6.0.dist-info/LICENSE.txt,sha256=2rmKKZEk_9mxPNnQ4keefaP3nCfyEQkCMX6q-MiToAY,1065
+wavfile-4.6.0.dist-info/METADATA,sha256=Bk9raNiuLYp5pAG77lX8EESYR9D6ufRtuy0QEPLgOdw,7957
+wavfile-4.6.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wavfile-4.6.0.dist-info/top_level.txt,sha256=BzfJ3l69KHCotx3XgeJGCB-YQHFEYVAbfVC_OMuUXLc,8
+wavfile-4.6.0.dist-info/RECORD,,
