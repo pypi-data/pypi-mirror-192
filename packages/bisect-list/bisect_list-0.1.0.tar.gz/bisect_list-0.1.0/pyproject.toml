@@ -1,0 +1,30 @@
+[tool.poetry]
+authors = ["Ryan Munro <500774+munro@users.noreply.github.com>"]
+description = "Find bad values in a list, logarithmically (FAST)!"
+name = "bisect-list"
+packages = [{include = "bisect_list"}]
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+autoflake = "*"
+black = "*"
+ipython = "*"
+isort = "*"
+joblib = "*"
+jupyter = "*"
+jupyterlab = "*"
+numpy = "*"
+pandas = "*"
+plotly = "*"
+pytest = "*"
+
+[tool.black]
+line-length = 120
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
