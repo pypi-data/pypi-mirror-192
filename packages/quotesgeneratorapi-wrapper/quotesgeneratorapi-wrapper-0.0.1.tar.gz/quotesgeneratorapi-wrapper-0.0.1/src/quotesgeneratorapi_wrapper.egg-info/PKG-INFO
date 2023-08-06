@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: quotesgeneratorapi-wrapper
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/tct123/sampleproject
+Author: tct123
+Author-email: tct1234@protonmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# quotes-generator-api
+ .
