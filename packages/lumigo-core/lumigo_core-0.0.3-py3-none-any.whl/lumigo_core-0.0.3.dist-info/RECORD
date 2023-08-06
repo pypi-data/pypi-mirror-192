@@ -1,0 +1,8 @@
+lumigo_core/VERSION,sha256=TKwna27F1Mcc2Wyi57di6xJUOa28hyHeVhMQbRNF_i0,6
+lumigo_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lumigo_core/configuration.py,sha256=u8nMP2-RgJ4S0eLg23IfBo85jrllEato5q_HdUpjyhY,100
+lumigo_core-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+lumigo_core-0.0.3.dist-info/METADATA,sha256=J9ipb6tTBFVvHAv1QzK3mWDHVfdyVCWX9xgx782z3G4,868
+lumigo_core-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+lumigo_core-0.0.3.dist-info/top_level.txt,sha256=5QvobYCXyXD-A0fF2CnGW9oi4zVbEG275dCrZYc3Yt0,12
+lumigo_core-0.0.3.dist-info/RECORD,,
