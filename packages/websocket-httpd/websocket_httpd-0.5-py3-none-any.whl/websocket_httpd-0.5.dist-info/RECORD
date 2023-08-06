@@ -1,0 +1,9 @@
+websocketd/__init__.py,sha256=WxFZcH99gQFZZ2cPzJs78tdagvJTSAZdTRwnynhA5CM,51091
+websocketd/__main__.py,sha256=HTUe1Ljoam_8IqlQR46kXZBzxuT_Fm0DeRhGh5Hj9vc,1751
+websocketd/builders.js,sha256=KoG4YdVeDrMYOqIQ0xPp77FC31f6lwe7Xih6E3_d2Jk,5826
+websocketd/rpc.js,sha256=LrJ7YqSQJ6hAw0LRSKxKUlSqRSwHR8XT1P9rMEO19PU,5501
+websocket_httpd-0.5.dist-info/METADATA,sha256=XDzEQPV6mQTQ80kp8HfeoPmGM_pYHaaurcKz2BgMX00,1678
+websocket_httpd-0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+websocket_httpd-0.5.dist-info/copyright,sha256=xoIu6sVdq6UnCSu4cZlwktFck9Nk0MId8A3His6I_sY,36184
+websocket_httpd-0.5.dist-info/top_level.txt,sha256=QjUg3CnjnpVfSZzz1EOSy_AcB-_cy3TEkwFfLuZWGmA,11
+websocket_httpd-0.5.dist-info/RECORD,,
