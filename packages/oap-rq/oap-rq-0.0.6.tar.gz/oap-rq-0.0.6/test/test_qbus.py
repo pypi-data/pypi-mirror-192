@@ -1,0 +1,51 @@
+import asyncio
+
+import pytest
+
+from oap_rq.q import QBus
+from oap_rq.sender import OAPSendError
+
+
+@pytest.mark.asyncio
+async def test_simple_send_receive(redis):
+    q = QBus(redis, service="test", queue="customer-food")
+
+    @q.consumer(name="ff")
+    async def process(event):
+        async for e in event:
+            assert e.data == {"test": "me"}
+            break
+
+    await q.send({"test": "me"})
+
+    await process()
+
+    bg_task = [t for t in asyncio.all_tasks()][0]
+    try:
+        bg_task.cancel()
+        await bg_task
+    except asyncio.CancelledError:
+        ...
+
+
+@pytest.mark.asyncio
+async def test_simple_send_receive_fail(redis):
+    with pytest.raises(OAPSendError):
+        q = QBus("redis", service="test", queue="customer-food")
+
+        @q.consumer(name="ff")
+        async def process(event):
+            async for e in event:
+                assert e.data == {"test": "me"}
+                break
+
+        await q.send({"test": "me"})
+
+        await process()
+
+        bg_task = [t for t in asyncio.all_tasks()][0]
+        try:
+            bg_task.cancel()
+            await bg_task
+        except asyncio.CancelledError:
+            ...
