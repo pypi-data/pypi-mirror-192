@@ -1,0 +1,15 @@
+farben/__init__.py,sha256=wcrAWZXHc2o-h5q-Yi5CEnZW7DH9ZQlWlu9Ez1uFSeg,1490
+farben/palette.py,sha256=oJgrgI-PNjPYPhf7vtoy4sR7llTHSIbQa-UDJWfZvu8,11814
+farben/palettes/__init__.py,sha256=ucuFAk32JdIA7jmzR-GKfGWoIEBp9sK0WI2jPD5-k2I,346
+farben/palettes/copic.py,sha256=HtgBTf-Z73OXmI8BdW9jUmF3DaEHDOfGXdvIOa6S9qo,2064
+farben/palettes/dulux.py,sha256=nzph4fwr_23Pj2iHhikTY4Y8FtXMO-BFJz-Ikj5_YSw,1732
+farben/palettes/ncs.py,sha256=BdYrB41xLz56NlNtiuM3n3pE6uO2Soe0ln_lTGqZdBA,1504
+farben/palettes/pantone.py,sha256=bl7mpa3Nk52FQaOYLUFJNuAbc92c9Dmgtr-TpzJNoz4,13538
+farben/palettes/prismacolor.py,sha256=Gc9rZUqHC2hS4C0AtOgpnjKp-mR1_EILs7Dvwhed8d4,1778
+farben/palettes/ral.py,sha256=2kOPSzJ6MGL_3Q-5GITNK3HgnxU0DvJzrW-AaH_sxx0,3974
+farben/utils.py,sha256=tRwzjYJrdANNAqOlt4stkYCE_RgJH5IdOsb--9VzZvE,2874
+farben-2.0.0.dist-info/entry_points.txt,sha256=0X4v0cqCO-2k_OVk5LZ1t5ylmx1ur-gBg98_bs3jdGY,37
+farben-2.0.0.dist-info/LICENSE,sha256=1aLLSedGtU7NTpkTa4yOOwQhsVMoTTUk0TGGlJn8YV4,1096
+farben-2.0.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+farben-2.0.0.dist-info/METADATA,sha256=KFrgaJmKXxMONhgzlXnWwYEFwGt8_tFtZTE5kGQJFQ8,7010
+farben-2.0.0.dist-info/RECORD,,
