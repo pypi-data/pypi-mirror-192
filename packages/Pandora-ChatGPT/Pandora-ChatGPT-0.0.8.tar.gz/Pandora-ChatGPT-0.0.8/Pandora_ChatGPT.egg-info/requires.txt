@@ -1,0 +1,7 @@
+aiohttp==3.8.4
+colorama==0.4.6
+termcolor==2.2.0
+tls_client==0.1.8
+
+[:platform_system == "Windows"]
+pyreadline==2.1
