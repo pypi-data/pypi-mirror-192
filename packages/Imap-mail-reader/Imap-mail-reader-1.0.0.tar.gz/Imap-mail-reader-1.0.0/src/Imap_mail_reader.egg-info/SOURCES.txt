@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Imap_mail_reader.egg-info/PKG-INFO
+src/Imap_mail_reader.egg-info/SOURCES.txt
+src/Imap_mail_reader.egg-info/dependency_links.txt
+src/Imap_mail_reader.egg-info/top_level.txt
