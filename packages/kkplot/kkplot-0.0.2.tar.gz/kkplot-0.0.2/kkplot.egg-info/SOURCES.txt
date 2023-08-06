@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kkplot/__init__.py
+kkplot.egg-info/PKG-INFO
+kkplot.egg-info/SOURCES.txt
+kkplot.egg-info/dependency_links.txt
+kkplot.egg-info/requires.txt
+kkplot.egg-info/top_level.txt
