@@ -1,0 +1,39 @@
+{
+  "src/main.ts": {
+    "file": "assets/main.e1764a61.js",
+    "src": "src/main.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "_html2canvas.720ef7ff.js",
+      "node_modules/dompurify/dist/purify.es.js",
+      "node_modules/canvg/lib/index.es.js"
+    ],
+    "css": [
+      "assets/main.0866c44f.css"
+    ]
+  },
+  "_html2canvas.720ef7ff.js": {
+    "file": "assets/html2canvas.720ef7ff.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.ts"
+    ]
+  },
+  "node_modules/dompurify/dist/purify.es.js": {
+    "file": "assets/purify.es.ed4622ee.js",
+    "src": "node_modules/dompurify/dist/purify.es.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/canvg/lib/index.es.js": {
+    "file": "assets/index.es.d804ce40.js",
+    "src": "node_modules/canvg/lib/index.es.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.ts"
+    ]
+  },
+  "src/main.css": {
+    "file": "assets/main.0866c44f.css",
+    "src": "src/main.css"
+  }
+}
