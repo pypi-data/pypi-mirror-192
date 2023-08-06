@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sphericart/__init__.py
+sphericart/library.py
+sphericart/spherical_harmonics.py
+sphericart/wrappers.py
+sphericart.egg-info/PKG-INFO
+sphericart.egg-info/SOURCES.txt
+sphericart.egg-info/dependency_links.txt
+sphericart.egg-info/top_level.txt
