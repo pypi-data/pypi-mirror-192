@@ -1,0 +1,10 @@
+mediapipe
+matplotlib
+pandas
+protobuf
+pynput
+pytorch-lightning
+scikit-learn
+torch
+torchvision
+wandb
