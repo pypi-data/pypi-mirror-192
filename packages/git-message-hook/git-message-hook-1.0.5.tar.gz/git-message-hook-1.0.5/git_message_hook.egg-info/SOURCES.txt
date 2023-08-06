@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+git_message_hook/__init__.py
+git_message_hook/main.py
+git_message_hook.egg-info/PKG-INFO
+git_message_hook.egg-info/SOURCES.txt
+git_message_hook.egg-info/dependency_links.txt
+git_message_hook.egg-info/entry_points.txt
+git_message_hook.egg-info/top_level.txt
+git_message_hook/git-templates/hooks/commit-msg
