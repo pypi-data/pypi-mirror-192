@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/PrinterSDK.egg-info/PKG-INFO
+src/PrinterSDK.egg-info/SOURCES.txt
+src/PrinterSDK.egg-info/dependency_links.txt
+src/PrinterSDK.egg-info/top_level.txt

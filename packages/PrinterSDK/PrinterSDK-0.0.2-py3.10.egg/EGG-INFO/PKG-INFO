@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: PrinterSDK
+Version: 0.0.2
+Summary: This a python SDK package for Honeywell Fiji printers
+Home-page: https://github.com/nicholas-zww/PrinterSDK
+Author: NikZ
+Author-email: nicholas_zww@yahoo.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/nicholas-zww/PrinterSDK
+Project-URL: Bug Tracker, https://github.com/nicholas-zww/PrinterSDK/issues
+Project-URL: Documentation, https://github.com/nicholas-zww/PrinterSDK/docs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PrinterSDK
+This is a python SDK package for Honeywell Fiji printer.
+
+
+
