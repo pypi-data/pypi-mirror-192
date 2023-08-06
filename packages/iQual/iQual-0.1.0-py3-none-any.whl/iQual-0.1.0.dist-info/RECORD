@@ -1,0 +1,15 @@
+iqual/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iqual/crossval.py,sha256=3VtTlC33bY2rb_4BrMd0ZT9NkMSrb5hfY2FRd1hzkk8,6856
+iqual/estimation.py,sha256=KfEvHA5CJJDH-EbPlhc9Yx_3Fs_2EEAH1PjZDORlWOo,9791
+iqual/evaluation.py,sha256=HktvDGNvh_KN4dp_FvM1HswON8AzZ7MKvpPanGJsfak,2330
+iqual/feature_transform.py,sha256=M5jJkuJmzdotoi90qNqBKLe1GfZHI-MN3TNbE_bo9_Y,3881
+iqual/iqualnlp.py,sha256=JtOMZxpYELipV9iVStKgsbBBOT_lqwtwNap3F4KEkxs,10741
+iqual/preprocessing.py,sha256=rdYbGo62K5gyrZGIZrVHOD168zYjbYSK4-yJo6g4Vug,4924
+iqual/tests.py,sha256=naQFZDEOX9nyOSVpl-vKvVV3V6YrOeqIsJyFs891a_s,17116
+iqual/utils.py,sha256=ATxBcPIon8KFKYaZoPvjyWhsj__xRIHHhFwqoEBpN3M,5901
+iqual/vectorizers.py,sha256=zuLNd7BRCHTh7BCxVB2G6KC8_ct9YDcMKbJ4bHohbtw,6444
+iQual-0.1.0.dist-info/LICENSE.md,sha256=2OGs0bGTafH1qXivY_n2tTn7QBXIvOmdK4vEEglLIRc,1103
+iQual-0.1.0.dist-info/METADATA,sha256=qVENQ-ufne11Y5mdWQmlB-Dwa7cxKPLikSbdo03rF4M,11371
+iQual-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+iQual-0.1.0.dist-info/top_level.txt,sha256=iian9SNQY2T9QH5e5GAmnfn6zf6omRHJI2nQBl8O6GM,6
+iQual-0.1.0.dist-info/RECORD,,
