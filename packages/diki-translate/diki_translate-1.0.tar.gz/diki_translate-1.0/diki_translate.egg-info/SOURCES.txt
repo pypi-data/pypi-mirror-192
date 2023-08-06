@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+diki_translate/__init__.py
+diki_translate/diki.py
+diki_translate.egg-info/PKG-INFO
+diki_translate.egg-info/SOURCES.txt
+diki_translate.egg-info/dependency_links.txt
+diki_translate.egg-info/requires.txt
+diki_translate.egg-info/top_level.txt
