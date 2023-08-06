@@ -1,0 +1,5 @@
+requests
+ujson
+urllib3
+pycryptodome
+rubiran
