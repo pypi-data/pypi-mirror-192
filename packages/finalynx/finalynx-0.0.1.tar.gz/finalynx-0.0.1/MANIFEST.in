@@ -1,0 +1,2 @@
+recursive-include finary_assistant/finary_api/ *
+include doc/*.png
