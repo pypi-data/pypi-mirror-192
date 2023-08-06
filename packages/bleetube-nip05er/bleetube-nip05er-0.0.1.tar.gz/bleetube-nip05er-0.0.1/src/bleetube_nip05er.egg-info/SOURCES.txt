@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/bleetube_nip05er/nip05er.py
+src/bleetube_nip05er.egg-info/PKG-INFO
+src/bleetube_nip05er.egg-info/SOURCES.txt
+src/bleetube_nip05er.egg-info/dependency_links.txt
+src/bleetube_nip05er.egg-info/entry_points.txt
+src/bleetube_nip05er.egg-info/requires.txt
+src/bleetube_nip05er.egg-info/top_level.txt
