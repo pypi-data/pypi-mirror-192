@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tacco
+Version: 0.2.2
+Summary: "TACCO: Transfer of Annotations to Cells and their COmbinations"
+Home-page: UNKNOWN
+Author: "Simon Mages"
+Author-email: "smages@broadinstitute.org"
+License: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: tests
+Provides-Extra: docs
+License-File: LICENCE.txt
+License-File: NOTICE.md
+
+UNKNOWN
+
