@@ -1,0 +1,78 @@
+# FAIRsoft 
+
+Library for the aggregation of Life Sciences software metadata and FAIR evaluation.
+
+
+## Installation 
+Install using [pip](https://pip.pypa.io/en/stable/):
+```
+pip install FAIRsoft
+``` 
+
+### Requirements 
+In order to use the Bioconda and repositories (GitHub and Bitbucket) metadata importers, the following tools need to be installed:
+
+- [bioconda-utils](https://github.com/bioconda/bioconda-utils) is required by the bioconda importer. 
+
+    bioconda-utils is a bioconda package and thus requires [Conda](https://docs.conda.io/projects/conda/en/latest/index.html). 
+
+    ❗️ The large size of bioconda-utils package can cause Conda to crash during the installation process. Using [Mamba](https://github.com/mamba-org/mamb) instead of Conda prevents this problem. 
+
+    ❗️ bioconda-utils requires Python 3.7 or lower. Simulating a compatible platform might be necessary. To do so, use the following commands: 
+    ```sh 
+    # create the environment
+    mamba create -n myenv
+
+    # activate the environment
+    conda activate myenv
+    
+    # before installing anything in the environment, set the usage of x86_64 architecture
+    conda config --env --set subdir osx-64
+    ```
+
+ - [opeb-enrichers/repoEnricher](https://github.com/inab/opeb-enrichers) is required by the Source Code Respositories importer.
+
+ - [AnyStyle](https://github.com/inukshuk/anystyle) is required by the Galaxy Toolshed importer.
+
+
+## Usage 
+
+### Data extraction
+
+Configuration of the importers is done through environment variables. The following table shows the available configuration options for each importer.
+
+| Name             | Description | Default | Notes |
+|------------------|-------------|---------|-------|
+| HOST       |  Host of database where output will be pushed |   `localhost`        | |
+| PORT       |  Port of database where output will be pushed |   `27017`            | |
+| DB         |  Name of database where output will be pushed |   `observatory`      | |
+| ALAMBIQUE |  Name of database where output will be pushed  |   `alambique`        | |
+| RECIPES_PATH | Path to bioconda recipes (from [repository](https://github.com/bioconda/bioconda-recipes/recipes)) | `./bioconda-recipes/recipes` | Only required when running natively AND if the location of bioconda recipes changes|
+| GALAXY_METADATA | Path to metadata extracted from Galaxy Metadata. This JSON file, automatically generated after the extraction of repositories metadata, constains identifiers that are necessary for the download of repositories, which contain the recipes.  | `./data/galaxy_metadata.json` | ||
+| URL_SOURCEFORGE_PACKAGES | URL to SourceForge packages of our interest | `https://sourceforge.net/directory/science-engineering/bioinformatics/` | |
+| PACKAGES_URLS_PATH | Path to file containing the URLs of the bioconductor packages to be scraped. | `./data/bioconductor_opeb.txt` |  |
+| REPOENRICHER_PATH | Path to *repoEnricher* program main file (`repoEnricher.pl`)            | `./opeb-enrichers/repoEnricher/repoEnricher.pl`      | Only required when running natively AND if the location of `repoEnricher/` changes |
+| REPOENRICHER_CONFIG_PATH | Path to *repoEnricher* configuration file    | `./opeb-enrichers/repoEnricher/config.ini`      |  |
+| REPOENRICHER_OUTPUT_PATH | Path to *repoEnricher* output files | `./data/output` | |
+| URL_OPEB_TOOLS | URL to OpenEBench Tools API | `https://openebench.bsc.es/monitor/tool` | |
+| URL_OPEB_METRICS | URL to OpenEBench Metrics API | `https://openebench.bsc.es/monitor/metrics/` | 
+
+An example of how to do so is shown below in [`run_importations.py`](https://gitlab.bsc.es/inb/elixir/software-observatory/FAIRsoft_ETL/-/blob/master/FAIRsoft/FAIRsoft/importers/run_importations.py). 
+
+## Data transformation
+
+Execute the following command to transform the data:
+```sh
+FAIRsoft_transform --env-file .env -l=DEBUG
+```
+
+## Data integration
+
+Execute the following command to integrate the data:
+```sh
+FAIRsoft_integrate --env-file .env
+```
+
+
+
+
