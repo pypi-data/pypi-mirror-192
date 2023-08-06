@@ -1,0 +1,8 @@
+astrometry_extension.cpython-36m-x86_64-linux-gnu.so,sha256=B8NfPBA77QS7fIgmc4nRz02ScJNUxlCssC8etoMjbVA,6671088
+astrometry-4.0.0.dist-info/top_level.txt,sha256=X-InsycmPVMeVe2uBm7BEHKMT4UE9YDeb5iyn9ooI5Y,32
+astrometry-4.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+astrometry-4.0.0.dist-info/RECORD,,
+astrometry-4.0.0.dist-info/WHEEL,sha256=rbVfYZzJiOCEiiKDVkaog3MWj3SC9SfTJ-H92vzqnHY,112
+astrometry-4.0.0.dist-info/METADATA,sha256=qNiSdU9EtscxgSj6NxVxTHGT1VJYLkABHZ21p-Dsedc,34814
+astrometry/__init__.py,sha256=3IMnlnOdDTEWLnVOoCy7BhCt6wHRo8yeB0vLp4Ok5l8,10238
+astrometry/series.py,sha256=QgHt7toJXKW7NVDlc0-6dmkH9SYdH02kI62bt4oTKQU,38153
