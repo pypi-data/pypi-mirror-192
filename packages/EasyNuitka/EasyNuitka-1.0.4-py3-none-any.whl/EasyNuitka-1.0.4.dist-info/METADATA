@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: EasyNuitka
+Version: 1.0.4
+Summary: EasyNuitka Tool
+Home-page: https://github.com/qunat/EasyNuitka.git
+Author: Loujiand
+Author-email: louajind@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: Nuitka
+Requires-Dist: PyQt5
+Requires-Dist: pyqt5-plugins
+Requires-Dist: PyQt5-Qt5
+Requires-Dist: PyQt5-sip
+Requires-Dist: pyqt5-tools
+Requires-Dist: qt5-applications
+Requires-Dist: qt5-tools
+
