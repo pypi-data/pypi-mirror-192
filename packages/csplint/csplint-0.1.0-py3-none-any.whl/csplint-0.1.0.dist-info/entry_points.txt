@@ -1,0 +1,3 @@
+[flake8.extension]
+CSP=csplint:CSPPlugin
+
