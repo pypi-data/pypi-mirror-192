@@ -1,0 +1,18 @@
+[project]
+name = "loggermodule_X"
+version = "2.0"
+authors = [
+  { name="KHUNANON.C", email="khunanon@infoquest.co.th" },
+]
+description = "Just logging :)"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://dataxet.infoquest.co.th/"
+"Bug Tracker" = "https://dataxet.infoquest.co.th/"

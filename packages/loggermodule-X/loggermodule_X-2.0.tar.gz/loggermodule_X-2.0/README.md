@@ -1,0 +1,53 @@
+# Logger Module X
+
+Just logging python file !
+
+## Change log !!!
+Version 2.0
+    - Build project as wheel !
+    - Rotate log by folder name as default (Rotated by date)
+    - Now you can manual config log split by send parameter 'maxBytes' and 'backupCount' !
+    - Remove unused parameters.
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install loggermodule-X.
+
+```bash
+pip install loggermodule-X
+```
+or
+```bash
+pip install loggermodule-X -U
+```
+
+## Usage
+
+__file__ = required
+hstdout = [optional] logging to STDOUT console (Default is 'DEBUG') make sure option is in this list = ['NOTSET', 'INFO', 'DEBUG', 'ERROR', 'WARNING', 'CRITICAL']
+hfile = [optional] logging to File  (Default is 'DEBUG') make sure option is in this list = ['NOTSET', 'INFO', 'DEBUG', 'ERROR', 'WARNING', 'CRITICAL']
+maxBytes = [optional] int (Default is 0)
+backupCount= [optional] int (Default is 0) if maxBytes > 0 this param should not be 0 !!!!!!!!
+
+```python
+
+from loggermodule_X import logger_x
+
+if __name__ == '__main__':
+    log = logger_x(__file__).configLogger()
+    log.info('THIS is info msg !!')
+    log.debug('THIS is debug msg !!')
+    log.error('THIS is error msg !!')
+    log.warning('THIS is warning msg !!')
+    log.critical('THIS is critical msg !!')
+
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[Infoquest Limited](https://dataxet.infoquest.co.th/)
