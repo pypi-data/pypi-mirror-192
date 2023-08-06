@@ -1,0 +1,9 @@
+from kolibri.backend.tensorflow.embeddings.base_embedding import Embedding
+from kolibri.backend.tensorflow.embeddings.default_embedding import DefaultEmbedding
+try:
+    from kolibri.backend.tensorflow.embeddings.numeric_feature_embedding import NumericFeaturesEmbedding
+    from kolibri.backend.tensorflow.embeddings.stacked_embedding import StackedEmbedding
+    from kolibri.backend.tensorflow.embeddings.word_embedding import WordEmbedding
+    from kolibri.backend.tensorflow.embeddings.bert_embedding import BertEmbedding
+except:
+    pass
