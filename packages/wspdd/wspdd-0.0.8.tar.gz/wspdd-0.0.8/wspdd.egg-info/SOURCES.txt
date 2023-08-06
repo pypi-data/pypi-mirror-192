@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/findwsp.cpp
+src/pybind11_wspd_wrapper.cpp
+src/util.cpp
+src/wsp.cpp
+tests/test.py
+wspdd.egg-info/PKG-INFO
+wspdd.egg-info/SOURCES.txt
+wspdd.egg-info/dependency_links.txt
+wspdd.egg-info/not-zip-safe
+wspdd.egg-info/requires.txt
+wspdd.egg-info/top_level.txt
