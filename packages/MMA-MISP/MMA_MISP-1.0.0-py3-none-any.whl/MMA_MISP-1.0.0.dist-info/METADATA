@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: MMA-MISP
+Version: 1.0.0
+Summary: A test package
+Home-page: https://github.com/pypa/sampleproject
+Author: ZHIHE ZHAO
+Author-email: zhaozhihe98@163.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Medical Image Subregion Partiton Toolkit (MISP)
+
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+| Linux                          | Windows                 | Mac OS                  |
+|--------------------------------|-------------------------|-------------------------|
+| Passed                         | Passed                  | Passed                  |
+
+### Welcome to Medical Image Subregion Partiton Toolkit (MISP) package.
+
+MISP is a Python package, which is able to detect and segment subregions within tumor on medical images, such as CT and MRI. Note that, MISP is not only developed for 3D data, but also for 2D data (e.g., single slice). 
+
+MISP is designed and developed by Zhenwei Shi, Zhihe Zhao and other AI and CS scientists from Media Lab. Also, the work is supported by well experienced radiologists MD Zaiyi Liu and Changhong Liang from Guangdong Provincial People's Hospital.
+
+The workflow of MISP includes four major stages:
+- Data pre-processing
+- Subregion pre-segmentation
+- Quantitative imaging feature extraction
+- Clustering in population-level
+
+### Installation
+
+```
+pip install MMA_MISP
+```
+### Features
+
+- Medical image data pre-processing, including data load, crop, normalization and so on.
+- Automatic generation of multiple regions of interest surrounding tumor, such as peri-tumor and tumor ring
+- Subregion pre-segmentation by image properties
+- Quantitative imaging feature (e.g., Radiomics) extraction
+- Unsupervised clustering algorithms for untimate medical image subregion partition
+- Visualiation 
+
+### Tutorial
+
+#### Step 1: Package loading
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+import MISP
+from MISP.function import makedirs, extract_main, feature_extract_main, cluster_main, cluster_main_predict
+```
+
+#### Step 2: Parameter setting
+### You can download the demo dataset here and the initial .yaml file for pyradiomics here [MISP](https://github.com/freeplay123/MISP).
+```
+dataset_path = 'dataset'
+image_path = dataset_path+'/image'
+mask_path = dataset_path+'/mask'
+out_path = 'subregion_SLIC_output/SuperVoxel'
+yaml_path = 'radiomics_features.yaml'
+sv_path = os.path.join(out_path,'supervoxel')
+csv_path = os.path.join(out_path,'csv')
+concat_path = os.path.join(out_path, 'concat_mask')
+```
+### Make paths.
+```
+makedirs(sv_path)
+makedirs(csv_path)
+makedirs(concat_path)
+```
+### You can change the size of the peritumor or tumor ring area with parameter kernel, and select the subregion mode: 'initial', 'peritumor', 'tumor_ring'.
+
+```
+mode = 'peritumor' # 'initial','peritumor','tumor_ring'
+kernel = 3
+```
+#### Step 3: Pre-segmentation of subregions
+```
+extract_main(image_path, mask_path, sv_path, out_path, mode, kernel)
+```
+#### Step 4: Quantitative imaging feature extraction
+```
+feature_extract_main(sv_path, csv_path,yaml_path)
+```
+#### Step 5: Generation of subregion partition map
+```
+cluster_main(image_path, csv_path, sv_path, concat_path, out_path)
+```
+#### Step 6: Visualization of subregion partition map
+
+### License
+
+MISP may not be used for commercial purposes. This package is freely available to browse, download, and use for scientific and educational purposes as outlined in the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
+
+### Main Developers
+ - [Zhenwei Shi](https://github.com/zhenweishi) ^1,^ ^2^
+ - [Zhihe Zhao] ^1,^ ^2^
+ - [Chu Han] ^1,^ ^2^
+ - [Changhong Liang] ^1,^ ^2^ 
+ - [Zaiyi Liu] ^1,^ ^2^
+ 
+^1^ Department of Radiology, Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences),Southern Medical University
+^2^ Guangdong Provincial Key Laboratory of Artificial Intelligence in Medical Image Analysis and Application, China
+
+### Contact
+We are happy to help you with any questions. Please contact Zhenwei Shi.
+Email: shizhenwei@gdph.org.cn
+
+We welcome contributions to MISP.
