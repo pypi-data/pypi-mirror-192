@@ -1,0 +1,2 @@
+[console_scripts]
+tweeds = tweeds.main:main
