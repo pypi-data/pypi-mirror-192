@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mongograph
+Version: 0.0.2
+Summary: Build Graphs On MongoDB Easily
+Home-page: https://github.com/AbhishekPawaskar/MongoGraph
+Author: Abhishek Pawaskar
+Keywords: mongograph,grepheasy,graph_easy,GRAPH_EASY
+Platform: Windows
+Platform: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Conduct CRUD operations on Graph DataBase on Top of MongoDB
