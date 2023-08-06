@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "xlpie"
+version = "0.1.0"
+description = "Python classes for simple MS Excel interactions"
+authors = ["PeluxGit <63825662+PeluxGit@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.3.1"
+pywin32 = "^305"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
