@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mabfs/__init__.py
+mabfs/distributions.py
+mabfs/tests.py
+mabfs/ts_selector.py
+mabfs.egg-info/PKG-INFO
+mabfs.egg-info/SOURCES.txt
+mabfs.egg-info/dependency_links.txt
+mabfs.egg-info/requires.txt
+mabfs.egg-info/top_level.txt
