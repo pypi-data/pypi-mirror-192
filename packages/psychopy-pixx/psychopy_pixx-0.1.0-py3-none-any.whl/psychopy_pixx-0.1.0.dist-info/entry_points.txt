@@ -1,0 +1,3 @@
+[console_scripts]
+pixxcalibrate=psychopy_pixx.calibration.calibration:calibration_routine_cli
+
