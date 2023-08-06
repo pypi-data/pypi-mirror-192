@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pygeolocate
+Version: 1.0.3
+Summary: An easy way to find a countries coordinates by name
+Home-page: UNKNOWN
+Author: Isabelle
+Author-email: scrumpy@weeb.email
+License: MIT
+Keywords: location,geolocation,geolocate
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+An easy way to find a countries coordinates by name
+
+

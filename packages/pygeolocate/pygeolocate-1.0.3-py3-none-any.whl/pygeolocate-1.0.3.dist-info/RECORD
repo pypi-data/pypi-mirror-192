@@ -1,0 +1,9 @@
+pygeolocate/__init__.py,sha256=KtZgyhF8Rt6ZYiXI_xONIgpLjQMip-zNUdhlakVIPOg,1231
+pygeolocate/countries_csv.py,sha256=_Cp57mXuMl2PJV4fmhWUF7HIM37P0xg3kB2Stne7VvQ,9801
+pygeolocate/pygeolocate.py,sha256=ujhuTpO4D_bZxsvgM6IL8qymMQvqNTZIB3aIckt9xcc,3091
+pygeolocate/structures.py,sha256=aI1sXpKKaAK5lLVI7bvG3J4ERkcrZCmq6zvplEX98Mc,2916
+pygeolocate-1.0.3.dist-info/LICENSE,sha256=jVRi44GpTy7AKDRsrQmINgDH6XVydmKDuQhSSbfwnwc,1096
+pygeolocate-1.0.3.dist-info/METADATA,sha256=E3Mcn_UTEMIwntMIkZ-3aOd4VfIK4TtOkB1HukhhN3U,517
+pygeolocate-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pygeolocate-1.0.3.dist-info/top_level.txt,sha256=SpUzxgaPOPjdtWpwJXy1ZfPT2-lOxXzpP1IlaX60GUY,12
+pygeolocate-1.0.3.dist-info/RECORD,,
