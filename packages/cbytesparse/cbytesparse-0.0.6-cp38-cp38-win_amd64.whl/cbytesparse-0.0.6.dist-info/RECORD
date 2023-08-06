@@ -1,0 +1,14 @@
+cbytesparse/__init__.pxd,sha256=wV0XRELSaWxg1AMXgmnfuuHJgUP2m4ghMOBrYBt6KEU,1460
+cbytesparse/__init__.py,sha256=fXR0DUSXtT33j21izl-eLm8JtZoVVyt6VaYam6Dbi6E,4550
+cbytesparse/base.py,sha256=1p_iiFaJFWh3CJKsrlLe5V5-Q8XpzYiqgO9mmWThCoc,24787
+cbytesparse/c.c,sha256=aF73otmgeijA9PRJeC9LHh58I8HVjBLVurauXFH2pn8,7033369
+cbytesparse/c.cp38-win_amd64.pyd,sha256=RukA7uFEvFUq6kvX_Nq8wCQM846C4SQpl4YbksUzqgA,1136640
+cbytesparse/c.pxd,sha256=9or_0dMLeRl84aVHJMqbmbSURqv4CFUqwu-pPkLPzk4,42127
+cbytesparse/c.pyx,sha256=eEVcqURtGmd0MawJhFxKi7IBxQ9anHVOJNQXP6J2rL4,331920
+cbytesparse/py.py,sha256=EcllaiVirOmybMyAVVl4nLa6SF2SRF5zT6TXsdUQHRA,41554
+cbytesparse-0.0.6.dist-info/AUTHORS.rst,sha256=EMFmSctNU4QkxkyWILNnyFAchAevBQCZdC9kwp8wf4g,160
+cbytesparse-0.0.6.dist-info/LICENSE,sha256=CIj6d_TLAPXmLkPxlHsBreKeymsgJj06TlpfF3D89N0,1352
+cbytesparse-0.0.6.dist-info/METADATA,sha256=2CyF-OhGo7cDuVuw0jTW_rljhNzR_uqG3iuwFo7rjl0,14285
+cbytesparse-0.0.6.dist-info/WHEEL,sha256=b_PH-i_F2xFYDXcROE5vpDbWUcY020I0eLFvEIYA9Pc,100
+cbytesparse-0.0.6.dist-info/top_level.txt,sha256=Gf0yqZ4wXxUscGgKjhr2btN4fYjaV6uvWVX36jtKNMY,12
+cbytesparse-0.0.6.dist-info/RECORD,,
