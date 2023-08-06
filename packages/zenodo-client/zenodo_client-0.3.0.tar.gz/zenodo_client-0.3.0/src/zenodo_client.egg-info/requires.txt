@@ -1,0 +1,11 @@
+pydantic
+pystow>=0.4.9
+requests
+click
+more_click
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
