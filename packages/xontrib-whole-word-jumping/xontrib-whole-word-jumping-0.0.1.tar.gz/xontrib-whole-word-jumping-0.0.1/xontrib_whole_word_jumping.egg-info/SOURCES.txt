@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_xontrib.py
+xontrib/whole_word_jumping.py
+xontrib_whole_word_jumping.egg-info/PKG-INFO
+xontrib_whole_word_jumping.egg-info/SOURCES.txt
+xontrib_whole_word_jumping.egg-info/dependency_links.txt
+xontrib_whole_word_jumping.egg-info/requires.txt
+xontrib_whole_word_jumping.egg-info/top_level.txt
