@@ -1,0 +1,3 @@
+[console_scripts]
+mlflow-token=mlflow_token.mlflow-token:run
+
