@@ -1,0 +1,3 @@
+[console_scripts]
+securonix-cli=omega.cli.main:main
+
