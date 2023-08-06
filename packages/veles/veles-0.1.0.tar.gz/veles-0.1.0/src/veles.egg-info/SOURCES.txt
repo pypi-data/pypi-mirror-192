@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/veles/__init__.py
+src/veles.egg-info/PKG-INFO
+src/veles.egg-info/SOURCES.txt
+src/veles.egg-info/dependency_links.txt
+src/veles.egg-info/requires.txt
+src/veles.egg-info/top_level.txt
+src/veles/device/__init__.py
+src/veles/device/find.py
+src/veles/device/generic.py
+src/veles/device/modbus.py
+src/veles/device/sensor_wired.py
