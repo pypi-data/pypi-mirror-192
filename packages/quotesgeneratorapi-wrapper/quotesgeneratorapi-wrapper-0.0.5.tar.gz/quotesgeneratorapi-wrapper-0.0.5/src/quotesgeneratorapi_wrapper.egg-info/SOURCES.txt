@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/quotesgenerator/__init__.py
+src/quotesgenerator/main.py
+src/quotesgeneratorapi_wrapper.egg-info/PKG-INFO
+src/quotesgeneratorapi_wrapper.egg-info/SOURCES.txt
+src/quotesgeneratorapi_wrapper.egg-info/dependency_links.txt
+src/quotesgeneratorapi_wrapper.egg-info/top_level.txt
