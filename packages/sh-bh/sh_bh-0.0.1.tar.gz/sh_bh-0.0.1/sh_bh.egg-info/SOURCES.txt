@@ -1,0 +1,8 @@
+licence.txt
+setup.py
+aws_lib/__init__.py
+aws_lib/sh_bh.py
+sh_bh.egg-info/PKG-INFO
+sh_bh.egg-info/SOURCES.txt
+sh_bh.egg-info/dependency_links.txt
+sh_bh.egg-info/top_level.txt
