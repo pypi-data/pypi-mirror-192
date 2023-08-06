@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ConsentiumThings/__init__.py
+micropython_consentiumthings.egg-info/PKG-INFO
+micropython_consentiumthings.egg-info/SOURCES.txt
+micropython_consentiumthings.egg-info/dependency_links.txt
+micropython_consentiumthings.egg-info/top_level.txt
