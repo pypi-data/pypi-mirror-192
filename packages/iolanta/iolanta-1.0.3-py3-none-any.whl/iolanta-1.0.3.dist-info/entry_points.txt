@@ -1,0 +1,8 @@
+[console_scripts]
+iolanta=iolanta.cli:app
+
+[iolanta.plugins]
+base=iolanta:IolantaBase
+record=iolanta_record:IolantaRecord
+wikimedia=iolanta_wikimedia:IolantaWikimedia
+
