@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+quake_inverse_sq.pyi
+setup.py
+sqrt.c
+quake_inverse_squareroot.egg-info/PKG-INFO
+quake_inverse_squareroot.egg-info/SOURCES.txt
+quake_inverse_squareroot.egg-info/dependency_links.txt
+quake_inverse_squareroot.egg-info/top_level.txt
+src/_quake_inverse_sq.pyi
+src/_sqrt.c
