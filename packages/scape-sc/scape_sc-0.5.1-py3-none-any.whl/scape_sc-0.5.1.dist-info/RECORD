@@ -1,0 +1,10 @@
+scape/__init__.py,sha256=SRPxcJCtudhd6wB8-B8KMMA48mFpTSPVoKpQb5VWhHE,110
+scape/function.py,sha256=i__kO9budz43VO_0RDfBZ-ZqLhxcdEtUKByMCx-0JDg,6188
+scape/loss.py,sha256=49VsGJk1BlGQl7a3RlJCCCH2hSn3IXBHjzid-iTn8zk,718
+scape/model.py,sha256=Cnf2haA1VDC-06A7Ccil2FGCjJl4ciKMmP8_bnorCF8,4420
+scape/train.py,sha256=RL1aqIx9laOTypVJGlJ6gmUNObUDGpJ5sbacJopBWeU,5483
+scape_sc-0.5.1.dist-info/LICENSE,sha256=9xziPIgynLdQ1hrl2dr3N5v0tOC0nQnrcvdRl59Xxcg,1065
+scape_sc-0.5.1.dist-info/METADATA,sha256=2qcguBcONTTYmXFBmUkhnYyTm7Ed0t27tDqYC46_jPg,1627
+scape_sc-0.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scape_sc-0.5.1.dist-info/top_level.txt,sha256=ejBj0_1hE-vAMo1MUnZsD-VYcaBgK0f0YzJQf_ACxyw,6
+scape_sc-0.5.1.dist-info/RECORD,,
