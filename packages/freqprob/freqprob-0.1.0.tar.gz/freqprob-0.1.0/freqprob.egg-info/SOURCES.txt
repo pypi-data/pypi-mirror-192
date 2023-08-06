@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+freqprob/__init__.py
+freqprob/freqprob.py
+freqprob.egg-info/PKG-INFO
+freqprob.egg-info/SOURCES.txt
+freqprob.egg-info/dependency_links.txt
+freqprob.egg-info/entry_points.txt
+freqprob.egg-info/requires.txt
+freqprob.egg-info/top_level.txt
+tests/test_freqprob.py

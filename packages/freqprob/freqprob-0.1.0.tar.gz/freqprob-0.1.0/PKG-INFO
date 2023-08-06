@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: freqprob
+Version: 0.1.0
+Summary: A Python library for scoring observation probabilities from frequency counts, with multiple smoothing methods.
+Home-page: http://github.com/tresoldi/freqprob
+Author: Tiago Tresoldi
+License: GPLv3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# freqprob
+
+A Python library for scoring observation probabilities from frequency counts, with multiple smoothing methods
