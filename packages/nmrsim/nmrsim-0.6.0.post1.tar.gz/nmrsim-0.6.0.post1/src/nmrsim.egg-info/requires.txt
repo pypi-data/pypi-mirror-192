@@ -1,0 +1,22 @@
+matplotlib
+numpy
+sparse!=0.11,!=1.12
+
+[:python_version < "3.7"]
+importlib_resources
+
+[dev]
+flake8
+flake8-bugbear
+black
+ipykernel
+jupyter
+nbsphinx
+pytest
+pytest-cov
+pyfakefs
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-napoleon
+bokeh
+tox
