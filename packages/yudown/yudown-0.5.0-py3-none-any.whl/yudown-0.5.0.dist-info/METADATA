@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: yudown
+Version: 0.5.0
+Summary: This is a python script to download Youtube Media file
+License: MIT
+Author: TianaNanta
+Author-email: andrianjakananta@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytube (>=12.1.2,<13.0.0)
+Requires-Dist: tinydb (>=4.7.1,<5.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# YuDown (project under improvement)
+
+YuDown is a python script to download YouTube video developped using [Typer](https://typer.tiangolo.com) and [Pytube](https://github.com/pytube/pytube)
+
+## Installation
+
+To install and run the script:
+
+```bash
+  python3 -m venv venv
+  pip install yudown
+
+  yudown --help
+```
+
+## Run Locally
+
+To launch the project, you need [Poetry](https://python-poetry.org) to be installed
+
+Clone the project
+
+```bash
+  git clone https://github.com/TianaNanta/yudown.git
+```
+
+Go to the project directory
+
+```bash
+  cd yudown
+```
+
+Install dependencies
+
+```bash
+  poetry install
+```
+
+Launch the project
+
+```bash
+  poetry run python -m yudown --help
+```
+
+## Usage/Examples
+
+To download audio file from the given Youtube link
+
+```bash
+  yudown -A https://youtube.com/.....
+```
+
+## Authors
+
+- [@TianaNanta](https://www.github.com/TianaNanta)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
