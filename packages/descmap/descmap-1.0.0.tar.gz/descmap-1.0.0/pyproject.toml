@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "descmap"
+version = "1.0.0"
+description = "Automatic feature selection and volcano curve generation."
+authors = ["Xue Zong", "Jonathon Lym"]
+license = "MIT"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+numpy = ">=1.24.2"
+pandas = ">=1.5.3"
+scipy = ">=1.10.0"
+plotly = ">=5.13.0"
+scikit-learn = ">=1.2.1"
+matplotlib = ">=3.6.3"
+vunits = ">=0.0.4"
+pmutt = ">=1.3.2"
+pgradd = ">=2.9.5"
+rdkit = ">=2022.9.4"
+xlsxwriter = ">=3.0.8"
+pydoe = ">=0.3.8"
+chart-studio = ">=1.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+sphinx-rtd-theme = "^1.2.0"
+sphinx-gallery = "^0.11.1"
+sphinxcontrib-napoleon = "^0.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
