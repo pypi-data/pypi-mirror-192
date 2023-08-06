@@ -1,0 +1,11 @@
+pygwalker/__init__.py,sha256=-gsnIDe837xAUqrnLdQhBqZ28v3CQuFIAiEwPsrAhdA,556
+pygwalker/base.py,sha256=eUDWI5ARoEHU-5Rx8Ehi1svjaBlalmY56eOKnE3g4fQ,485
+pygwalker/gwalker.py,sha256=hBRzOG6BaQXeDv0Bv1DsOzPkMC9Gk2ka9HjCq8Ee3Xk,3578
+pygwalker/templates/graphic-walker.umd.js,sha256=vhYs16hce5dR8vO5DkLFdNsVxp_qYyM6Nb8lQgDnXWU,2187687
+pygwalker/templates/index.html,sha256=94zW3YHr4jFTp14oh_hLHjijpKESfWlSZkKXL8rWzzs,399
+pygwalker/templates/index1.html,sha256=4bqbJtelSMfc-XB6dauF5cEMUahoA-mbOr9prhX7-zE,494
+pygwalker/templates/walk.js,sha256=Y1oQMkdoQlqs_mlRGSHXzRUUr-2el2_bDwRBgObxZrI,152
+pygwalker-0.1.0.dist-info/LICENSE,sha256=SjPnwv8MYogGB5p7o3jG1lwow9tvi7FWDnBtmFhkVHA,1067
+pygwalker-0.1.0.dist-info/METADATA,sha256=ExZCi13zvvMQNESt9bHGg1Z-KVv-JERPBJpkm7qGIVs,8266
+pygwalker-0.1.0.dist-info/WHEEL,sha256=UTbu2d3PIo7FtACOQrq825bNtQhldwLx2SG2oh0Fl8Q,88
+pygwalker-0.1.0.dist-info/RECORD,,
