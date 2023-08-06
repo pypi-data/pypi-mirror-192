@@ -1,0 +1,16 @@
+MorphPiece/__init__.py,sha256=SJo510vyfdVGDPT7vlCUScTbJdTNRXszUqmDxLRAm8g,152
+MorphPiece/MorphPieceBPE/__init__.py,sha256=4lNOpiUTft5IqA9sC3qj4HTVTRoHNQXlKWlLObumP3k,36
+MorphPiece/MorphPieceBPE/lookup_table_with_hash_single.pkl,sha256=OOtbw65FX5T25mwFGZ42wzoBBcxn7DrVXESMGEFhMDY,13532492
+MorphPiece/MorphPieceBPE/single_hash_merges.txt,sha256=4By50xD5Rc2vbQ2_KyA4pwSepsl6Wqjiiz0dkafCD90,258114
+MorphPiece/MorphPieceBPE/single_hash_vocab.json,sha256=Z7rnd16EqTZEMYTl5BvA68UHwMuR_O_vYwrJF4adFOY,962610
+MorphPiece/MorphPieceBPE/tokenizer.py,sha256=23PPFq05cJtvEo-6XhwEjRje7_HELgcutor1Yj3LIhc,4747
+MorphPiece/MorphPieceWPE/__init__.py,sha256=3AfhBCAZoh7dVjVmO-YNQfBmzIgLT1t60aIFwWau3nQ,36
+MorphPiece/MorphPieceWPE/lookup_dict.pkl,sha256=7sM7hOtBdiUbhHzfXG4f99pVPiN9HrPKcoTcWz2mBCI,14083579
+MorphPiece/MorphPieceWPE/no_morph_vocab.txt,sha256=JhhxjVWzolTLqOrHBhG13Tv06etrPvbeeMK9kyb-sSM,63879
+MorphPiece/MorphPieceWPE/test_morphpiece_wp.py,sha256=8EqQzaa0wFOxV2yFan9IeUW7d_TgBFIOBb3b6XAhzhE,308
+MorphPiece/MorphPieceWPE/tokenizer.py,sha256=KsnaI6oX4yHo8l1er9o_9JhbJpgTEqCM3HuXzBr7yOk,2739
+MorphPiece/MorphPieceWPE/with_morph_vocab.txt,sha256=S08eoonkp6XDH40NE1K1Uc6kTrQcN0fTvQQTaV2b08Y,190673
+MorphPiece-0.1.1.dist-info/METADATA,sha256=aFS2wvI9t4L2ZS_Z9dyTYsYXfWP2dC36MF2rOGzVNcQ,507
+MorphPiece-0.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+MorphPiece-0.1.1.dist-info/top_level.txt,sha256=aZ1GnO0TYuWUqsdfR67W58GbdVjiZ5elCL1Kn7M-4Ow,11
+MorphPiece-0.1.1.dist-info/RECORD,,
