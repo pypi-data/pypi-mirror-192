@@ -1,0 +1,7 @@
+README.md
+setup.py
+apport.egg-info/PKG-INFO
+apport.egg-info/SOURCES.txt
+apport.egg-info/dependency_links.txt
+apport.egg-info/top_level.txt
+src/apport/__init__.py
