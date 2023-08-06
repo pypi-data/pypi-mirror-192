@@ -1,0 +1,11 @@
+setup.py
+vcstool-utils/__init__.py
+vcstool-utils/config_args.py
+vcstool-utils/git_works.py
+vcstool-utils/parse_works.py
+vcstool-utils/vcs_p.py
+vcstool-utils/work_args.py
+vcstools_utils.egg-info/PKG-INFO
+vcstools_utils.egg-info/SOURCES.txt
+vcstools_utils.egg-info/dependency_links.txt
+vcstools_utils.egg-info/top_level.txt
