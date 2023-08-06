@@ -1,0 +1,9 @@
+pypitmpl/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+pypitmpl/_version.py,sha256=_yWEefY164S2JYub6kVIdUk8e_QRs7WiFcbBeg61K7g,48
+pypitmpl/cli.py,sha256=Icb9TPYG4MJ0nN3MC3teuyeiKs5MTokJAm2Ni8DLDWg,327
+pypitmpl/main.py,sha256=dCCwC2qQn5_5-bzp85Oq278ulLRsjEfDu9FWZVIjb90,206
+pypi_pkg_template-0.0.1rc7.dist-info/LICENSE,sha256=6_-z_j5TJ7bQ5RlPwAJZ0Eqo3qWC6pMDjlLjz0R4wkE,1071
+pypi_pkg_template-0.0.1rc7.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pypi_pkg_template-0.0.1rc7.dist-info/METADATA,sha256=54PgCiocfvBWzOOPBz8FiU0dTOvFMCV73SvzsuEA4RE,1821
+pypi_pkg_template-0.0.1rc7.dist-info/entry_points.txt,sha256=rff9KzL01IMhrxc2LSwhpW5-RpEOcp3yJHiWC7MEMwM,45
+pypi_pkg_template-0.0.1rc7.dist-info/RECORD,,
