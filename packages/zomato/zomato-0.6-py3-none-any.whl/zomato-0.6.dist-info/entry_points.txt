@@ -1,0 +1,3 @@
+[console_scripts]
+zomato = scraper:main
+
