@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/elspice.py
+src/elspice.egg-info/PKG-INFO
+src/elspice.egg-info/SOURCES.txt
+src/elspice.egg-info/dependency_links.txt
+src/elspice.egg-info/top_level.txt
