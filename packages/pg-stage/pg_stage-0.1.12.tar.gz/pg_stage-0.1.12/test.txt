@@ -1,0 +1,12 @@
+COMMENT ON COLUMN public.appointments_appointment.patient_birthday IS 'anon: {"mutation_name": "past_date", "mutation_kwargs": {"start_date": "-60d"}}';
+
+COPY public.appointments_appointment (id, dt_created, dt_updated, medtochka_info_id, patient_forename, patient_surname, patient_patronymic, profile_id, patient_birthday) FROM stdin;
+2509130	2023-02-16 16:04:14.145938+03	2023-02-16 16:04:15.522129+03	1	asd	ad	asd	1	2023-02-16
+2509131	2023-02-16 16:04:21.808201+03	2023-02-16 16:04:21.808212+03	2	asd	asd	asd	1	2023-02-16
+2509132	2023-02-16 16:04:29.953899+03	2023-02-16 16:04:29.953911+03	24	ad	asd	asd	2	2023-02-16
+\.
+
+
+--
+-- Data for Name: auth_group; Type: TABLE DATA; Schema: public; Owner: -
+--
