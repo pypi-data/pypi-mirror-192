@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: simba-ml
+Version: 1.0.0a3
+Summary: Simulation-Based Machine Learning
+Author: Maximilian Kleissl, Björn Heyder, Julian Zabbarov, Lukas Drews
+Author-email: maximilian.kleissl@student.hpi.de,bjoern.heyder@student.hpi.de,julian.zabbarov@student.hpi.de,lukas.drews@student.hpi.de
+Project-URL: Bug Tracker, https://gitlab.hpi.de/mpws2022br1/simba_ml/issues
+Project-URL: Source Code, https://gitlab.hpi.de/mpws2022br1/simba_ml/
+Keywords: python,machine learning,simulation,ordinary differential equations,ode,simba,simba-ml
+Description-Content-Type: text/markdown
+
+[![pipeline status](https://gitlab.hpi.de/mpws2022br1/challenge-accepted/badges/main/pipeline.svg)](https://gitlab.hpi.de/mpws2022br1/challenge-accepted/-/commits/main)
+[![coverage report](https://gitlab.hpi.de/mpws2022br1/challenge-accepted/badges/main/coverage.svg)](https://gitlab.hpi.de/mpws2022br1/challenge-accepted/-/commits/main)
+
+SimbaML is an all-in-one solution for your simulation and prediction needs, providing a flexible platform to extend with custom models, metrics, and ODEs, and supporting a wide range of pipeline and experiment types to meet your unique requirements.
+
+# Installation
+```
+pip install simba_ml
+```
+
+# Documentation
+Comming soon!
