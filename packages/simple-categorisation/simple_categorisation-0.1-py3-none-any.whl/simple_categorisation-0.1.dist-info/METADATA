@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simple-categorisation
+Version: 0.1
+Summary: A tool to display categories and subcategories based on hand-crafted predicates
+Home-page: https://sr.ht/~jbrobertson/simple-categorisation/
+Author: JB Robertson
+Author-email: jbr@freeshell.org
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Provides-Extra: dev
+Requires-Dist: flake8 (==3.8.4) ; extra == 'dev'
+Requires-Dist: mock (==4.0.3) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.10.1) ; extra == 'dev'
+
