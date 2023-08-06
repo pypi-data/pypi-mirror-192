@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_fish_completer.py
+tests/test_xontrib.py
+xontrib/fish_completer.py
+xontrib_fish_completer.egg-info/PKG-INFO
+xontrib_fish_completer.egg-info/SOURCES.txt
+xontrib_fish_completer.egg-info/dependency_links.txt
+xontrib_fish_completer.egg-info/requires.txt
+xontrib_fish_completer.egg-info/top_level.txt
