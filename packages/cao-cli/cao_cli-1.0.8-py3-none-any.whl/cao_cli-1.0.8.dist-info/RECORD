@@ -1,0 +1,9 @@
+cao_cli/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+cao_cli/cache.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+cao_cli/git_helper.py,sha256=2PpGoDk_4ot1dx-wQI8D-gXaC7YRaics_qMe5-70BZI,358
+cao_cli/main.py,sha256=2esUIHz3jrllq_sn4I0LcWCLpfub7zMU5Cs90Dv9T8A,8752
+cao_cli/temp.log,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cao_cli-1.0.8.dist-info/entry_points.txt,sha256=IVC3MTdIiEFd64Bu2aV0P8PrAVvesLGbibwGVwm6psY,66
+cao_cli-1.0.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+cao_cli-1.0.8.dist-info/METADATA,sha256=ibSJKB0b2JPeGUZNyO10TLL-dYE_XxWCDJhQ-N4HjMQ,689
+cao_cli-1.0.8.dist-info/RECORD,,
