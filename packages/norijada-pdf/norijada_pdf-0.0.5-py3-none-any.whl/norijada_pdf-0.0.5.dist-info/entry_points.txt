@@ -1,0 +1,3 @@
+[console_scripts]
+norijada-pdf=norijada_pdf:parse_cli
+
