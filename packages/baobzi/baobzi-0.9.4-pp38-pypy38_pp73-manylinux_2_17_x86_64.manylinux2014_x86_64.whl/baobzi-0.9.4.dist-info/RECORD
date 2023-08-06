@@ -1,0 +1,17 @@
+baobzi-0.9.4.dist-info/METADATA,sha256=TEt58zSH7uduYAHFTmZo6fY3_fTHbp8AZlsEzmonbiE,17750
+baobzi-0.9.4.dist-info/WHEEL,sha256=11zIxblHAUGYmToQ1sNBkq0uIuo3gMJyzvP2TrGiNCU,156
+baobzi-0.9.4.dist-info/top_level.txt,sha256=DwZP7rOXz2dx4a_HrO5N_hePaDgHS4l-dbwx_QvR9DM,7
+baobzi-0.9.4.dist-info/RECORD,,
+baobzi-0.9.4.dist-info/LICENSE,sha256=GY3vH4tZKpQ0Xc41nfLaMAPZum88XzW26nzspkKaa84,11346
+baobzi/__init__.py,sha256=T44C3tLIL5Ebobaa3-fTXcReX6rd36n1rmrop4A4JNo,4373
+baobzi-0.9.4.data/data/lib64/libbaobzi.so,sha256=cek8BxUcdfRS0rs-6F-f1Ojw6zfkvi52bBm8QjjvmtI,3045320
+baobzi-0.9.4.data/data/share/baobzi/julia/baobzi.jl,sha256=H_3Lt1ed33--LdlI4vo8j9VXkR1VL1vP1bEuGZl8il0,1930
+baobzi-0.9.4.data/data/include/baobzi.hpp,sha256=a88fdyfRdLnfzPG5u0jM3AsDmWzGAucHZq8AzhMFjxU,1929
+baobzi-0.9.4.data/data/include/baobzi.h,sha256=BZHSnjSv9i733KM9mQu5AYSkBOBPQ9ls6zdRklpf8Zk,2972
+baobzi-0.9.4.data/data/include/baobzi_template.hpp,sha256=5zAsW_itPwbQUk2zUdhzVbTVvHKE9v0ZF1QsDrTB0ws,34595
+baobzi-0.9.4.data/data/include/baobzi/baobzi_decls.h,sha256=Q8Az5oHBioyOynZMFvh5kwXuDrT0Tw8Ewgh6j7oSkWM,1632
+baobzi-0.9.4.data/data/include/baobzi/baobzi_cases.h,sha256=loNMqoFcBBiD2fV4tnM1_kVxFM0cQtzCaIlxrg1D2_Q,1662
+baobzi-0.9.4.data/data/include/baobzi/header.h,sha256=EhQN3aI77rimd_SB33XeOR1eXL7mrP8AOJ1b8SZfYo0,744
+baobzi-0.9.4.data/data/include/baobzi/macros.h,sha256=K9dQhfP13NhTpljmfXPLO2-mu9-1gwPI331zaY8V6N0,6005
+baobzi-0.9.4.data/data/include/baobzi/baobzi_cases_restore.h,sha256=98_5dgvI6T8YaU_F8D8j0LoaXMcXOuJs22P5SVQAsds,2238
+baobzi-0.9.4.data/data/include/baobzi/eigen_matrix_plugin.h,sha256=dDf1f4rqjdA1CyqZpaaZDOfRBRvMKVLntQPr2DBbTWQ,1106
