@@ -1,0 +1,7 @@
+sceptre>=4.0
+aws_cdk-lib<3.0,>=2.0
+cdk-bootstrapless-synthesizer<3.0,>=2.0
+typing-extensions
+
+[test]
+pytest>=3.2
