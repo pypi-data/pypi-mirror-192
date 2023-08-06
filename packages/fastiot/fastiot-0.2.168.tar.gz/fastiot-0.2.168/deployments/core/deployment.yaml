@@ -1,0 +1,9 @@
+services:
+  producer:
+  object_storage:
+
+infrastructure-services:
+  nats:
+  mongodb:
+
+config-dir: ./config_dir

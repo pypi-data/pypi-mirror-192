@@ -1,0 +1,11 @@
+fastiot_service:
+  name: time_series
+
+  depends_on:
+    - nats
+    - influxdb
+
+  platforms: [amd64, arm64]
+
+  additional_requirements:
+    - influxdb

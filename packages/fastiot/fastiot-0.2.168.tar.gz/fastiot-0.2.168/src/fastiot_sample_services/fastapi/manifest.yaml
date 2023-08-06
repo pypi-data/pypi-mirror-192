@@ -1,0 +1,21 @@
+fastiot_service:
+  name: fastapi
+
+  mount_config_dir: required
+
+  ports: # List all ports of the module
+    - port: 5800
+      env_variable: "EXAMPLE_SAM_FASTAPI"
+
+  depends_on:
+    - nats
+
+  platforms:
+    - amd64
+
+  npm:
+    src: vue
+    dist: dist
+
+  additional_requirements:
+    - fastapi

@@ -1,0 +1,11 @@
+.envvar > dt > span > span:before {
+  content: "Environment Variable ";
+  font-size: 0.8em;}
+
+.sig-name {
+  font-size: 1em;
+}
+
+span.sig-name.descname > span {
+  font-weight: bold;
+}

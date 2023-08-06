@@ -1,0 +1,6 @@
+search_index:
+  - "_subject"
+  - "_timestamp"
+collection: custom_test_msg_list
+subject_name: 'custom_test_msg_list'
+

@@ -1,0 +1,9 @@
+infrastructure-services:
+  nats:
+  mariadb:
+  mongodb:
+  influxdb:
+  timescaledb:
+  redis:
+
+config-dir: ./config_dir

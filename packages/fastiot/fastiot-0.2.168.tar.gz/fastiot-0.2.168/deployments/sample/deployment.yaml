@@ -1,0 +1,13 @@
+services:
+  producer:
+  consumer:
+  fastapi:
+
+infrastructure-services:
+  nats:
+  mongodb:
+
+deployment-target:
+  hosts:
+    localhost:
+      ip: 127.0.0.1

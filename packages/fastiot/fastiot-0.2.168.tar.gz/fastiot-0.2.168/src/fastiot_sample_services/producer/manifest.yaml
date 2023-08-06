@@ -1,0 +1,6 @@
+fastiot_service:
+  name: producer
+
+  platforms:
+    - amd64
+    - arm64

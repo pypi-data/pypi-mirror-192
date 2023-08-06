@@ -1,0 +1,6 @@
+search_index:
+  - "_subject"
+  - "_timestamp"
+collection: things
+subject_name: 'thing.*'
+
