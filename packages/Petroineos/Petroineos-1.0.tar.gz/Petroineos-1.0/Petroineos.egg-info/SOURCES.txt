@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+Petroineos/__init__.py
+Petroineos/test.py
+Petroineos.egg-info/PKG-INFO
+Petroineos.egg-info/SOURCES.txt
+Petroineos.egg-info/dependency_links.txt
+Petroineos.egg-info/top_level.txt

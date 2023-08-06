@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Petroineos
+Version: 1.0
+Summary: A script that can automatically download and clean this data, validate its quality, and save it as a CSV file
+Author: Mansur Can
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
