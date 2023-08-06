@@ -1,0 +1,10 @@
+meson_python-0.12.1.dist-info/METADATA,sha256=fbsraClhS6XWm1o1CJcuxh1yPM4rr5xW2ri6-qIl3Iw,4388
+meson_python-0.12.1.dist-info/WHEEL,sha256=5J4neoE7k6LMgx4Fz1FHgBiO3YevhJGtNQ3muDrdLQM,75
+meson_python-0.12.1.dist-info/LICENSE,sha256=j4LqnvmlW0f0FwU20C5Itbwz_FE15bShtfjWQEgz7Js,1155
+mesonpy/__init__.py,sha256=4DuxtbSQkOYgNr_Ey2C0Kiuv_854obYrHDPurgSmrV8,43449
+mesonpy/_compat.py,sha256=zi-240hrSqJdtd_UF3PpmbGCJTOuJTrpBC6xYTEgpm0,1200
+mesonpy/_elf.py,sha256=1yBUim3pHlOhX2ob7AZF5hYjfKEz59NO29VoQn68cG8,1586
+mesonpy/_tags.py,sha256=tgQiwClQ3RL2QWDCh13KEart1Wtuqv-EFc4krpu5rK8,5914
+mesonpy/_util.py,sha256=kor83Xqb4Bpq2bb6rfB7OugNAeCwZ8UUxarnUTr2mro,2515
+mesonpy/_wheelfile.py,sha256=DVD_EhurieNsfoLrn7FOt8GnMmDbyAVn9FmbbCzTgAQ,3883
+meson_python-0.12.1.dist-info/RECORD,,
