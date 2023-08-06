@@ -1,0 +1,8 @@
+setup.py
+PygameManager/Simple.py
+PygameManager/__init__.py
+pygamemanager.egg-info/PKG-INFO
+pygamemanager.egg-info/SOURCES.txt
+pygamemanager.egg-info/dependency_links.txt
+pygamemanager.egg-info/requires.txt
+pygamemanager.egg-info/top_level.txt
