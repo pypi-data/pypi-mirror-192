@@ -1,0 +1,3 @@
+[console_scripts]
+jasmin=jasmin_fuzzer.jasmin:main
+
