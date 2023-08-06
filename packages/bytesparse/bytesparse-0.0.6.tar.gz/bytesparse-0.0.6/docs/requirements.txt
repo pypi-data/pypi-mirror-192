@@ -1,0 +1,5 @@
+sphinx >= 6
+sphinx-rtd-theme
+sphinx-autodoc-typehints
+twine
+-e .
