@@ -1,0 +1,10 @@
+fakeyou/__init__.py,sha256=3kU1g_BF-TSpwZxBtJrmp-jg3l_dDGrLrPvOfP1F1Dc,431
+fakeyou/asynchronous_fakeyou.py,sha256=-Tql-07Gv_ygf5SGpXYN4EsUEbJE5Gw15dDeRdNs-zA,9827
+fakeyou/exception.py,sha256=uYn89TkBXv48CJK1ClKEewQTmCmUSyiqDQN86R8aNPc,2065
+fakeyou/fakeyou.py,sha256=Eb84Y_tpFyFWUWeI2vWE122qmM6_9EB7i-QgivwTh_s,10184
+fakeyou/objects.py,sha256=jygptv47DZQ2gbzLr9CE_pmrrV1OfAge3GqnGr7JfRw,16093
+fakeyou-1.2.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fakeyou-1.2.3.dist-info/METADATA,sha256=3MVXYVdvT53L5dNu6auHd8XzXZ_cdJ80FggvNZa3pKk,1400
+fakeyou-1.2.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fakeyou-1.2.3.dist-info/top_level.txt,sha256=_AyMTeqGRzeKu3lJihvZM-ncXYCsLVlGNLDEG3AyQ4c,8
+fakeyou-1.2.3.dist-info/RECORD,,
