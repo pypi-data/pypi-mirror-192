@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bluemist-ai
+Version: 0.1.1.16
+Summary: My package description
+Home-page: https://github.com/shashanka89/bluemist-ai
+Author: Shashank Agrawal
+Author-email: shashanka89@gmail.com
+License: MIT
+Requires-Python: >=3.9
+License-File: LICENSE
+
+# bluemist-ai
+Low code python library for ML
+
+## License
+
+Bluemist AI source code is licensed under the MIT License
+
+See [Third Party Libraries](https://github.com/shashanka89/bluemist-ai/wiki/Third-Part-Libraries) for license details of third party libraries included in the binary distribution.
