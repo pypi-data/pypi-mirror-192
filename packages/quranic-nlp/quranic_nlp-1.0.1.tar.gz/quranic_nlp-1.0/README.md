@@ -1,0 +1,149 @@
+<!-- <h1 align="center">
+  <img src="images/dadmatech.jpeg"  width="150"  />
+   Dadmatools
+</h1> -->
+
+<h2 align="center">QuaranicTools: A Python NLP Library for Quranic NLP</h2>
+<h3 align="center"><a href='language.ml'>Language Processing and Digital Humanities Lab (Language.ML)</a></h2>
+
+<div align="center">
+  <a href="https://pypi.org/project/quranic-syntax/"><img src="https://shields.io/pypi/v/quranic-syntax.svg"></a>
+  <a href=""><img src="https://img.shields.io/badge/license-Apache%202-blue.svg"></a>
+</div>
+
+<div align="center">
+  <h5>
+      Part of Speech Tagging
+    <span> | </span>
+      Dependency Parsing
+    <span> | </span>
+      Lemmatizer
+    <span> | </span>
+      Multilingual Search    <br>
+    <span> | </span>
+      Quranic Extractions        
+    <span> | </span>
+      Revelation Order
+    <span> | </span> <br>
+      Embeddings (coming soon)
+    <span> | </span>
+      Translations (coming soon)    
+  </h5>
+</div>
+
+# Quranic NLP
+
+Quranic NLP is a computational toolbox to conduct various syntactic and semantic analyses of Quranic verses. The aim is to put together all available resources contributing to a better understanding/analysis of the Quran for everyone.
+
+Contents:
+
+- [Installation](#installation)
+- [Pipline (dep,pos,lem,root)](#pipeline)
+- [Example](#example)
+- [Format inputs](#format-inputs)
+
+## Installation
+
+To get started using Quranic NLP in your python project, you may simply install it via the pip package.
+
+### Install with pip
+
+```bash
+pip install quranic-nlp
+```
+
+You can check the `requirements.txt` file to see the required packages.
+
+## Pipeline
+
+The NLP pipeline contains morphological information e.g., Lemmatizer as well as POS Tagger and Dependancy Parser in a `Spacy`-like pipeline.
+
+```python
+from quranic_syntax import language
+
+pips = 'dep,pos,root,lemma'
+nlp = language.Pipeline(pips)
+```
+
+[`Doc`](https://spacy.io/api/doc) object has different extensions.
+First, there are `sentences` in `doc` referring to the verses.
+Second, there are `ayeh` in `doc` which is indicate number ayeh in soure.
+Third, there are `soure` in `doc` which is indicate name of soure.
+Fourth, there are `order` in `doc` which is indicate order of revelation of the ayeh.
+`doc` which is the list of [`Token`](https://spacy.io/api/token) also has its own extensions.
+
+Quranic NLP has its own spacy extensions. If related pipeline is not called, that extension cannot be used.
+
+## Format Inputs
+
+There are three ways to format the input.
+First, number surah along with \# along with number ayah.
+Second, name surah along with \# along with number ayah.
+Third, search text in quran.
+
+Note The last two calls require access to the net for an API call.
+
+```python
+from quranic_nlp import language
+
+pips = 'dep,pos,root,lemma'
+nlp = language.Pipeline(pips)
+
+doc = nlp('1#1')
+doc = nlp('حمد#1')
+doc = nlp('رب العالمین')
+```
+
+## Example
+
+```python
+from quranic_nlp import language
+
+pips = 'dep,pos,root,lemma'
+nlp = language.Pipeline(pips)
+
+doc = nlp('1#1')
+
+print(doc)
+print(doc._.surah)
+print(doc._.ayah)
+print(doc._.revelation_order)
+```
+
+```
+الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِینَ *
+فاتحه
+1
+63
+```
+
+```python
+print(doc[1])
+print(doc[1].head)
+print(doc[1].dep_)
+print(doc[1]._.dep_arc)
+print(doc[1]._.root)
+print(doc[1].lemma_)
+print(doc[1].pos_)
+```
+
+```
+حَمْدُ
+*
+خبر
+LTR
+حمد
+
+NOUN
+```
+
+To jsonify the results you can use the following:
+
+```python
+dictionary = language.to_json(pips, doc)
+print(dictionary)
+```
+
+```python
+[{'id': 1, 'text': الْ, 'root': None, 'lemma': '', 'pos': 'INTJ', 'rel': 'تعریف', 'arc': 'RTL', 'head': حَمْدُ}, {'id': 2, 'text': حَمْدُ, 'root': 'حمد', 'lemma': '', 'pos': 'NOUN', 'rel': 'خبر', 'arc': 'LTR', 'head': *}, {'id': 3, 'text': لِ, 'root': None, 'lemma': '', 'pos': 'INTJ', 'rel': 'متعلق', 'arc': 'LTR', 'head': *}, {'id': 4, 'text': لَّهِ, 'root': 'أله', 'lemma': '', 'pos': 'NOUN', 'rel': 'نعت', 'arc': 'LTR', 'head': رَبِّ}, {'id': 5, 'text': رَبِّ, 'root': 'ربب', 'lemma': '', 'pos': 'NOUN', 'rel': 'مضاف الیه ', 'arc': 'LTR', 'head': عَالَمِینَ}, {'id': 6, 'text': الْ, 'root': None, 'lemma': '', 'pos': 'INTJ', 'rel': 'تعریف', 'arc': 'RTL', 'head': عَالَمِینَ}, {'id': 7, 'text': عَالَمِینَ, 'root': 'علم', 'lemma': '', 'pos': 'NOUN', 'rel': '', 'arc': None, 'head': عَالَمِینَ}, {'id': 8, 'text': *, 'root': None, 'lemma': '', 'pos': '', 'rel': '', 'arc': None, 'head': *}]
+```
