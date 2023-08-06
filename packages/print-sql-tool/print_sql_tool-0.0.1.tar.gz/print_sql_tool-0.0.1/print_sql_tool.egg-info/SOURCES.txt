@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+print_sql_tool.egg-info/PKG-INFO
+print_sql_tool.egg-info/SOURCES.txt
+print_sql_tool.egg-info/dependency_links.txt
+print_sql_tool.egg-info/requires.txt
+print_sql_tool.egg-info/top_level.txt
