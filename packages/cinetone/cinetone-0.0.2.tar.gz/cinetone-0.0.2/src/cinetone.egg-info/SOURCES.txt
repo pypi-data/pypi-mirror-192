@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/cinetone/__init__.py
+src/cinetone.egg-info/PKG-INFO
+src/cinetone.egg-info/SOURCES.txt
+src/cinetone.egg-info/dependency_links.txt
+src/cinetone.egg-info/entry_points.txt
+src/cinetone.egg-info/requires.txt
+src/cinetone.egg-info/top_level.txt
