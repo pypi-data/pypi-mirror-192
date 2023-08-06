@@ -1,0 +1,13 @@
+igl/pyigl_classes.cpython-38-darwin.so,sha256=Q-5DOCKl7N_L0vqo7PnLky_86I_vupynJO2uBIkmag8,986543
+igl/_version.py,sha256=tyZfcvdx2Yt-5Vr4b0CxeS6bOqHgVURCFxevXF4Kb2w,25
+igl/__init__.py,sha256=LI3KBk-BGPmyguuzAaLRBgtCypprxBNuR55BS3-J--Y,107
+igl/helpers.py,sha256=z5pVFTx4kzfF_FrrgEeGHa2-jjGSR4RU62LmYAUwQX8,2026
+igl/pyigl.cpython-38-darwin.so,sha256=9asubxwCXYPiIE8ZJtC4vRxk6WT9OZz8KPfJlNQYPB8,39248935
+igl/triangle/__init__.py,sha256=Pec0pvsUepvENQi6FVyNZMM9ZtH8NReDyKTCAWjD4Wo,40
+igl/triangle/pyigl_restricted_triangle.cpython-38-darwin.so,sha256=IYObfh2tj7hkY8WL_mCChrz9cdRMtpaN8sN2Mlbro1Q,789995
+igl/copyleft/cgal/__init__.py,sha256=NJ2qNq7xwEOa5a4Ra09v8ADkIgrNvBjz6whcz3C0QPk,34
+igl/copyleft/cgal/pyigl_copyleft_cgal.cpython-38-darwin.so,sha256=9557INvU4UQZRSoZERRqs2GP4gLd1oa12BpNcAWro4s,2939333
+libigl-2.5.3.dev0.dist-info/RECORD,,
+libigl-2.5.3.dev0.dist-info/WHEEL,sha256=lbCZQl32rz70_Iou4S1h8sUmNh5Rak_YxaqmnmkwnjQ,108
+libigl-2.5.3.dev0.dist-info/top_level.txt,sha256=TF1tYDKDOv891WW8VMKHYFbUMW0bi_1a2OKWpZzoVUQ,10
+libigl-2.5.3.dev0.dist-info/METADATA,sha256=yMYP4ZyxYaZwGAAG9DvZCltVRnMo1LAx9yWxbdmR4Ck,2122
