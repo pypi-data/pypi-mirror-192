@@ -1,0 +1,16 @@
+[project]
+name = "pptestkarolchrapczynski"
+version = "0.0.1"
+description = "My test package"
+keywords = ["pptestkarolchrapczynski", "funny functions", "name", "surname", "personal data"]
+authors = [{name = "KC", email = "algobitpl@gmail.com"}]
+license = {file = "LICENCE.txt"}
+readme = "README.md"
+classifiers = [
+    "Framework :: IDLE",
+    "License :: Free For Educational Use"
+]
+requires-python = ">=3.0"
+dependencies = [
+    'numpy; python_version >= "3.0"'
+]
