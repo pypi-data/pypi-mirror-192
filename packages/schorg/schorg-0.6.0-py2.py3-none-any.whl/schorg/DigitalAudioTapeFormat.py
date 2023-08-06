@@ -1,0 +1,56 @@
+"""
+DigitalAudioTapeFormat.
+
+https://schema.org/DigitalAudioTapeFormat
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class DigitalAudioTapeFormatInheritedProperties(TypedDict):
+    """DigitalAudioTapeFormat.
+
+    References:
+        https://schema.org/DigitalAudioTapeFormat
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+    
+
+
+class DigitalAudioTapeFormatProperties(TypedDict):
+    """DigitalAudioTapeFormat.
+
+    References:
+        https://schema.org/DigitalAudioTapeFormat
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+    
+
+#DigitalAudioTapeFormatInheritedPropertiesTd = DigitalAudioTapeFormatInheritedProperties()
+#DigitalAudioTapeFormatPropertiesTd = DigitalAudioTapeFormatProperties()
+
+
+class AllProperties(DigitalAudioTapeFormatInheritedProperties , DigitalAudioTapeFormatProperties, TypedDict):
+    pass
+
+
+def create_schema_org_model(type_: Union[DigitalAudioTapeFormatProperties, DigitalAudioTapeFormatInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "DigitalAudioTapeFormat"
+    return model
+    
+
+DigitalAudioTapeFormat = create_schema_org_model()

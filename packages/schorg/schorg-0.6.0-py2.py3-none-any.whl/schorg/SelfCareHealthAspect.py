@@ -1,0 +1,56 @@
+"""
+Self care actions or measures that can be taken to sooth, health or avoid a topic. This may be carried at home and can be carried/managed by the person itself.
+
+https://schema.org/SelfCareHealthAspect
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class SelfCareHealthAspectInheritedProperties(TypedDict):
+    """Self care actions or measures that can be taken to sooth, health or avoid a topic. This may be carried at home and can be carried/managed by the person itself.
+
+    References:
+        https://schema.org/SelfCareHealthAspect
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+    
+
+
+class SelfCareHealthAspectProperties(TypedDict):
+    """Self care actions or measures that can be taken to sooth, health or avoid a topic. This may be carried at home and can be carried/managed by the person itself.
+
+    References:
+        https://schema.org/SelfCareHealthAspect
+    Note:
+        Model Depth 5
+    Attributes:
+    """
+
+    
+
+#SelfCareHealthAspectInheritedPropertiesTd = SelfCareHealthAspectInheritedProperties()
+#SelfCareHealthAspectPropertiesTd = SelfCareHealthAspectProperties()
+
+
+class AllProperties(SelfCareHealthAspectInheritedProperties , SelfCareHealthAspectProperties, TypedDict):
+    pass
+
+
+def create_schema_org_model(type_: Union[SelfCareHealthAspectProperties, SelfCareHealthAspectInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "SelfCareHealthAspect"
+    return model
+    
+
+SelfCareHealthAspect = create_schema_org_model()
