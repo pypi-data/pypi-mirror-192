@@ -1,0 +1,3 @@
+[console_scripts]
+da_fits_warp=da_fits_warp.da_fits_warp:cli
+
