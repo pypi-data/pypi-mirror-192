@@ -1,0 +1,6 @@
+pyspelling
+dataset<1.2.0
+requests
+click
+defusedxml
+backoff
