@@ -1,0 +1,7 @@
+LICENCE
+README.md
+setup.py
+src/labmate.egg-info/PKG-INFO
+src/labmate.egg-info/SOURCES.txt
+src/labmate.egg-info/dependency_links.txt
+src/labmate.egg-info/top_level.txt
