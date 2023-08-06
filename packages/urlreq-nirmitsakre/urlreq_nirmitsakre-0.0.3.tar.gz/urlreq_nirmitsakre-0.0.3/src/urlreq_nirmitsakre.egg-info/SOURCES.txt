@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/urlreq_nirmitsakre/__init__.py
+src/urlreq_nirmitsakre/urlreq.py
+src/urlreq_nirmitsakre.egg-info/PKG-INFO
+src/urlreq_nirmitsakre.egg-info/SOURCES.txt
+src/urlreq_nirmitsakre.egg-info/dependency_links.txt
+src/urlreq_nirmitsakre.egg-info/top_level.txt
