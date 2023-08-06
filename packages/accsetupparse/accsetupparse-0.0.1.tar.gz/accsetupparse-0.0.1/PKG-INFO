@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: accsetupparse
+Version: 0.0.1
+Summary: Library for converting and storing ACC json setups into Python class
+Home-page: https://github.com/jura43/acc-setup-parse
+Author: Jurica Slovinac
+License: GPLv3
+Keywords: parser
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+README.md
