@@ -1,0 +1,13 @@
+igl/_version.py,sha256=tyZfcvdx2Yt-5Vr4b0CxeS6bOqHgVURCFxevXF4Kb2w,25
+igl/pyigl_classes.cpython-36m-x86_64-linux-gnu.so,sha256=AhlFcBmWXFLqIwpuo6fghdQtwGiwbJMwmqemKuXiqVQ,1275320
+igl/__init__.py,sha256=LI3KBk-BGPmyguuzAaLRBgtCypprxBNuR55BS3-J--Y,107
+igl/pyigl.cpython-36m-x86_64-linux-gnu.so,sha256=ILkjtZpy_coqKn33o5olPNh_lhG2DHae0orcS7u_Q8g,66576184
+igl/helpers.py,sha256=z5pVFTx4kzfF_FrrgEeGHa2-jjGSR4RU62LmYAUwQX8,2026
+igl/copyleft/cgal/pyigl_copyleft_cgal.cpython-36m-x86_64-linux-gnu.so,sha256=ICe8L3As0DvN-NHvAF3dlgb7hm_pIhBoyO3MboxOMaY,5022536
+igl/copyleft/cgal/__init__.py,sha256=NJ2qNq7xwEOa5a4Ra09v8ADkIgrNvBjz6whcz3C0QPk,34
+igl/triangle/__init__.py,sha256=Pec0pvsUepvENQi6FVyNZMM9ZtH8NReDyKTCAWjD4Wo,40
+igl/triangle/pyigl_restricted_triangle.cpython-36m-x86_64-linux-gnu.so,sha256=iT7_hJfWx2kKXPg1ChIonQNrgOTqnrZu5lD-tW5sVmE,854632
+libigl-2.5.3.dev0.dist-info/METADATA,sha256=mOo918k3mUgodXZKsWsnvNHIrYbNf179a96Koar4RWY,2159
+libigl-2.5.3.dev0.dist-info/WHEEL,sha256=YVAXCacQXnznQ-_lMj8Nvqrs7YPtMP1pHRCw9EcyWRQ,150
+libigl-2.5.3.dev0.dist-info/RECORD,,
+libigl-2.5.3.dev0.dist-info/top_level.txt,sha256=TF1tYDKDOv891WW8VMKHYFbUMW0bi_1a2OKWpZzoVUQ,10
