@@ -1,0 +1,7 @@
+setup.py
+BNetwork.egg-info/PKG-INFO
+BNetwork.egg-info/SOURCES.txt
+BNetwork.egg-info/dependency_links.txt
+BNetwork.egg-info/top_level.txt
+oBNetwork/BNetwork.py
+oBNetwork/__init__.py
