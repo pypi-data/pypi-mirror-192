@@ -1,0 +1,12 @@
+setup.py
+lpneural/__init__.py
+lpneural/andGate.py
+lpneural/nandGate.py
+lpneural/norGate.py
+lpneural/notGate.py
+lpneural/orGate.py
+lpneural.egg-info/PKG-INFO
+lpneural.egg-info/SOURCES.txt
+lpneural.egg-info/dependency_links.txt
+lpneural.egg-info/requires.txt
+lpneural.egg-info/top_level.txt
