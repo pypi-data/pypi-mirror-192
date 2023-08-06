@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: hex-json
+Version: 0.0.1
+Summary: Convert [Python dictionary | ASCII JSON string] into hexadecimal string.
+Home-page: https://github.com/Sobolev5/hex-json/
+Author: Sobolev Andrey
+Author-email: email.asobolev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: orjson (>=3.8.6)
+
+# hex-json
+Convert [python dictionary | ASCII JSON string] into hexadecimal string.  
+Restore from a hexadecimal string to [python dictionary | ASCII JSON string].  
+Userful for ethereum transaction data signature.   
+
+```no-highlight
+https://github.com/Sobolev5/hex-json
+```
+
+## Install
+To install run:
+```no-highlight
+pip install hex-json
+```
+
+### Convert and restore dict
+```python
+d = {"hello": "world"}
+hex_s = hex_serialize(d)
+print(hex_s) # 0x10b9af5bde033362715ac3e14a8e3a374e572b9923e4d
+
+d = hex_deserialize(hex_s)
+print(d) # {'hello': 'world'}
+print(type(d)) # <class 'str'>
+```
+
+### Convert and restore ASCII JSON string
+```python
+d = '{"hello": "world"}'
+hex_s = hex_serialize(d)
+print(hex_s) # 0x389e07d8b54506b764401133595ffdc3b1729818953c64e47bc3ddbac98cea
+
+d = hex_deserialize(hex_s)
+print(d) # {"hello": "world"}
+print(type(d)) # <class 'str'>
+```
+
+### Tests
+```sh
+tox
+```
+
