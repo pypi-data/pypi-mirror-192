@@ -1,0 +1,12 @@
+socket_plotter/__init__.py,sha256=sULSxDn-oNR8hmEe4sT0gz4kruu7FygZ0RtwY9qg9og,88
+socket_plotter/api.py,sha256=9DpzFxjVH2LI7OJ4XjBSkBwwrP229_JUlHxv9ryzUu0,7029
+socket_plotter/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+socket_plotter/app/imageplotter.py,sha256=Y-TAvzVL0QG4My5pgSLkwN3doVa0yn2RQnZt6DYxyi0,2294
+socket_plotter/app/lineplotter.py,sha256=AA-b4QEU12CyYxmTsHayoTOJgpg-raWNkYjhexxJybA,3385
+socket_plotter/app/receiver.py,sha256=v4ArUkpX8HMX9tamwgYcyTuEZJ9qvM7_goj0HJFQxVE,3292
+socket_plotter-0.1.4.dist-info/LICENSE,sha256=9w2HmXyvC-wZ5VXEaeM7DuHUZIDZaBuCgIwf6UQeWyE,1091
+socket_plotter-0.1.4.dist-info/METADATA,sha256=633Vh4HlX4xuY751ZMOuhY1d8k-Jc-mjeQOUPVpRHFw,3104
+socket_plotter-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+socket_plotter-0.1.4.dist-info/entry_points.txt,sha256=KK9Ua_IUgF9L6P9Beqbqdy193yDPVY-zIjX9MjHb9_I,155
+socket_plotter-0.1.4.dist-info/top_level.txt,sha256=MpwqUmAlCxUb97mCuOjUC2lu8_trDDyfzceLkQXN-NY,15
+socket_plotter-0.1.4.dist-info/RECORD,,
