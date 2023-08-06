@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cntm
+Version: 0.0.1
+Summary: Citation-informed Neural Topic Models
+Home-page: https://github.com/hamedR96/CNTM
+Author: Hamed Rahimi
+Author-email: <hamed.rahimi@sorbonne-universite.fr
+Project-URL: Bug Tracker, https://github.com/hamedR96/CNTM/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X 
+Classifier: Operating System :: Unix 
+Classifier: Operating System :: Microsoft :: Windows 
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: umap-learn
+Requires-Dist: transformers
+Requires-Dist: swifter
+Requires-Dist: nltk
+Requires-Dist: gensim
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: rank-bm25
+
