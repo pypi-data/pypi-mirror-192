@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: imputing-final
+Version: 0.0.1
+Summary: imputing with numpy no loop
+Home-page: https://github.com/waikoreaweatherpjt/imputing_final
+Author: wai kimsanghyun
+Author-email: waik@waikorea.com
+License: MIT
+Keywords: imputing,numpy,coulmnwise
