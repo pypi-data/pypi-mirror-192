@@ -1,0 +1,9 @@
+qgofer/__init__.py,sha256=wufAevIEsNxFIuDXhAbBZ56NdM7fcuyh1gmbSQYgN9U,234
+qgofer/__main__.py,sha256=SWo7RNpalu7qbDOkq97tKnbO1ExsiuTTxc-cOzoil9c,127
+qgofer/cli.py,sha256=_z9d6BXwKjM76zkardsCObYd_z-1_F8IODeEwvVkVJA,1589
+qgofer/q.py,sha256=fBgN2oE9qMpdaEzvjXs34RnQ11fLrwNME4rmtstZqfQ,1596
+qgofer-0.1.1a9.dist-info/entry_points.txt,sha256=qhyCoHViXFp908IjaqSSP8UOd-YhjxBkD8Qqgc3OeI4,47
+qgofer-0.1.1a9.dist-info/LICENSE,sha256=PnePH7lAZ-MWFkShJJZJyrsfJwb1yu4sP2bvEC3LJ2c,1070
+qgofer-0.1.1a9.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+qgofer-0.1.1a9.dist-info/METADATA,sha256=JNiWgBM3gb67usoI-u0_gy7tghW0LCEBHSeO_oqRSO8,3034
+qgofer-0.1.1a9.dist-info/RECORD,,
