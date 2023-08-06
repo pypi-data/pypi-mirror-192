@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+beets_yapl.egg-info/PKG-INFO
+beets_yapl.egg-info/SOURCES.txt
+beets_yapl.egg-info/dependency_links.txt
+beets_yapl.egg-info/requires.txt
+beets_yapl.egg-info/top_level.txt
+beetsplug/__init__.py
+beetsplug/yapl.py
