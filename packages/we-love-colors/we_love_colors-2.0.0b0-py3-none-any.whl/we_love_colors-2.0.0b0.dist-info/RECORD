@@ -1,0 +1,15 @@
+colors/__init__.py,sha256=4iMFJoVtOHf4HtigaSvzAwkm-3hUcQw9On_eW-Kpij4,1539
+colors/palette.py,sha256=GuCRgLuRHm7a3cE8rixbwJdvoaNsKAdnzftq0mfKqC4,11383
+colors/palettes/__init__.py,sha256=PosnJdwbZICduIG2T6LpuMUyYV5dwSYjCFbObe4spRs,354
+colors/palettes/copic.py,sha256=9aByDgE0e0DvzOoL1ThOfIyQtgp8WHCq-xWgYl25iSM,2075
+colors/palettes/dulux.py,sha256=CyGRbQrJU52KnLD0UHakLnGTDplZ9k5cJ0mzuw5PeOk,1743
+colors/palettes/ncs.py,sha256=7bXbSP6gcQzrpdQGd_hg8zgFdFWLtGNAYBETWvt-4Mg,1515
+colors/palettes/pantone.py,sha256=4YGJ8RnDhDmnE_I5gia5mT0_DsecHDzNmJpgDwQWMDk,13551
+colors/palettes/prismacolor.py,sha256=C4OTYi3N86GLKdofIKRl__rSbg_SHPI8zLwjvmEF5IU,1789
+colors/palettes/ral.py,sha256=ryQdqr_h2q_IM1NAl_UK0yNsHp8y9Dj7D434nprQ5VA,3985
+colors/utils.py,sha256=LpxjxtGNmSJkbThrgH0PXUwUcM9gxB9t56sjWv0oqnE,2882
+we_love_colors-2.0.0b0.dist-info/entry_points.txt,sha256=PZANTnXqJHukxkC1oYh3RmEy0gzxwAiR-2ifFvtPXvc,37
+we_love_colors-2.0.0b0.dist-info/LICENSE,sha256=1aLLSedGtU7NTpkTa4yOOwQhsVMoTTUk0TGGlJn8YV4,1096
+we_love_colors-2.0.0b0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+we_love_colors-2.0.0b0.dist-info/METADATA,sha256=NNplbSX9_jBc2yjGqcVhTrSCvyv1RYY9XehkoEyAEjU,6831
+we_love_colors-2.0.0b0.dist-info/RECORD,,
