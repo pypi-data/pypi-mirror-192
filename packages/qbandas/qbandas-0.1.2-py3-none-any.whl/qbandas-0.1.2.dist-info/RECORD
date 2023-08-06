@@ -1,0 +1,10 @@
+qbandas/__init__.py,sha256=_0wml4ia9msq7z29SueC8xzzbDQOCTPQjUUdbZ3QMUg,8026
+qbandas/__main__.py,sha256=e5zQ0TaOjhN5EEeVpeHPRMO-lYNdeN2dZyX5noB-KIU,1910
+qbandas/config.py,sha256=GzuoZDfgli2gmMW-KqUz9DQSiQPGgUPvxCNO70O-Y4k,3099
+qbandas/parsers.py,sha256=GkOs1xvEjCQnmd96IitgHi4l_uRd6asLZChDuaFl5Ng,3998
+qbandas/schema.py,sha256=M6UC367EovQtPR_ulrG6K_Zt94utMqQJnSfYeh3Ei8k,2692
+qbandas/util.py,sha256=R2cuaR1UdQhb073_p9w9TnT1QLTvRsRx3NX6m1I9bg0,792
+qbandas-0.1.2.dist-info/METADATA,sha256=RwV99AGpB5SiCPIigDSsUrWtXJut7VKPX3nW2cMo-gY,7165
+qbandas-0.1.2.dist-info/WHEEL,sha256=Fd6mP6ydyRguakwUJ05oBE7fh2IPxgtDN9IwHJ9OqJQ,87
+qbandas-0.1.2.dist-info/licenses/LICENSE,sha256=So4O1VD8tR-Iov5yZEIl4jrPc3bdxHU8qg78ja2a41k,1059
+qbandas-0.1.2.dist-info/RECORD,,
