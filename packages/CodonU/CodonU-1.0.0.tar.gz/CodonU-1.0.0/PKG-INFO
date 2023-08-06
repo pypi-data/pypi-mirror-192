@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: CodonU
+Version: 1.0.0
+Summary: This package is designed for helping in genomic analysis
+Home-page: https://github.com/SouradiptoC/codon_usage
+Author: Souradipto Choudhuri
+Author-email: sourochaudhuri@gmail.com
+License: UNKNOWN
+Keywords: bioinformatics,bioinformatics-analysis,bioinformatics-tool,codon-usage,codon,codon-bias,genomic-analysis,genome,souradipto choudhuri
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+License-File: LICENSE.md
+
+The package can easily can help in various ways from fetching genebank files from NCBI with the help of accession id to calculating cai, cbi, rscu, enc values and also can generate good quality graphics such as enc plot, or correspondence analysis plot
+
