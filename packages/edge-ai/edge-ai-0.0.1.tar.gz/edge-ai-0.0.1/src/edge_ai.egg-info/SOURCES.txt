@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/edge_ai.egg-info/PKG-INFO
+src/edge_ai.egg-info/SOURCES.txt
+src/edge_ai.egg-info/dependency_links.txt
+src/edge_ai.egg-info/top_level.txt
+src/ei/portals/__init__.py
+src/ei/portals/download.py
+src/ei/utils/__init__.py
+tests/test_parse_box.py
