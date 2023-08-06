@@ -1,0 +1,16 @@
+odoo/addons/stock_dangerous_goods/README.rst,sha256=Gecf0dA7OGTf6ZneYgKwHKSruiakq1E4mDljo0rOoEk,3113
+odoo/addons/stock_dangerous_goods/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/stock_dangerous_goods/__manifest__.py,sha256=CKupZMXaQn4jq6fD-ly7FCfK8p2UBDYvcnlIocE2Tvk,596
+odoo/addons/stock_dangerous_goods/i18n/stock_dangerous_goods.pot,sha256=FilHaVEp0wr0glph5nN3yzQidWLuTM8Ic1HmWYzB-EE,2599
+odoo/addons/stock_dangerous_goods/models/__init__.py,sha256=PZYoRNjZsCAasImBnwX5XmuzpfLIKiavIhuKDePV8jI,94
+odoo/addons/stock_dangerous_goods/models/product_product.py,sha256=VCg5c1qj1LYnOVUbjrelM5kDgEoiuwnvAUVryi-exK0,743
+odoo/addons/stock_dangerous_goods/models/stock_move_line.py,sha256=2teTA460Lk_t5BMFasHNshDr4xl2g82W1ctnWhvpI5s,271
+odoo/addons/stock_dangerous_goods/models/stock_quant_package.py,sha256=TxUvIk2oR3TVi57AO2luWhyvEohJQwDJSAHyxoeMSrw,663
+odoo/addons/stock_dangerous_goods/readme/CONTRIBUTORS.rst,sha256=kHrpulo4pulRuabz9hVs2xC4nyC9WECwLhgbe2RmEcs,58
+odoo/addons/stock_dangerous_goods/readme/DESCRIPTION.rst,sha256=10-VrNLE03MgUoZFxMj5bldlXdBPTC3aZaQqY2qU288,130
+odoo/addons/stock_dangerous_goods/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/stock_dangerous_goods/static/description/index.html,sha256=eqYpNmkMAvhNwc1NugkCJA2mysYBI3t8d1xm10DI98o,12282
+odoo14_addon_stock_dangerous_goods-14.0.1.0.1.dev3.dist-info/METADATA,sha256=JsgNpigqkxc7QFpW3v_pjm3dK4inYl6-1APu1ti1bW8,3762
+odoo14_addon_stock_dangerous_goods-14.0.1.0.1.dev3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+odoo14_addon_stock_dangerous_goods-14.0.1.0.1.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_stock_dangerous_goods-14.0.1.0.1.dev3.dist-info/RECORD,,
