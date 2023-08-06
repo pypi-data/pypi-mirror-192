@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling","scanpy","sklearn","numpy"]
+build-backend = "hatchling.build"
+[project]
+name = "nsforest"
+version = "3.9.2.2"
+authors = [
+  { name="Yun (Renee) Zhang", email="zhangy@ycvi.org" },
+  { name="Richard Scheuermann", email="RScheuermann@jcvi.org" },
+  { name="Brian Aevermann", email="baevermann@chanzuckerberg.com" },
+]
+description = "A machine learning method for the discovery of minimum marker gene combinations for cell type identification from single-cell RNA sequencing"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JCVenterInstitute/NSForest.git"
+"Bug Tracker" = "https://github.com/JCVenterInstitute/NSForest/issues"
