@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+PyArgsMake.egg-info/PKG-INFO
+PyArgsMake.egg-info/SOURCES.txt
+PyArgsMake.egg-info/dependency_links.txt
+PyArgsMake.egg-info/top_level.txt
+PyArgsMaker/__init__.py
