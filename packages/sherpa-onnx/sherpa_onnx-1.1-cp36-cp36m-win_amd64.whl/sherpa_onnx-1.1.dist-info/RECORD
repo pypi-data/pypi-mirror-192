@@ -1,0 +1,13 @@
+_sherpa_onnx.cp36-win_amd64.pyd,sha256=mnxjf-Jo53yWeDZT34BcvozRwEANftwr48S0mBaMkq4,297984
+sherpa_onnx/__init__.py,sha256=jkNPkkm6DTAaMyj6zsMxg5EYYYvJbmpYFd3WtEERzgA,214
+sherpa_onnx/online_recognizer.py,sha256=Rjlhe4DwGy39GlG308J_nRj5tYfmreiY59IBOfaZaAw,2780
+sherpa_onnx/bin/sherpa-onnx.exe,sha256=WNSAZ9vQSY7ANJTitvDRaeRpPBebQ-bXwew2cjcrRcs,152064
+sherpa_onnx/lib/kaldi-native-fbank-core.lib,sha256=8mWZKff-9AuSaqLXPVJw9VlVZSOK7umRMzqVtZcIkGs,432126
+sherpa_onnx/lib/onnxruntime.dll,sha256=C83JBdsQq9OS8D_w2nN8TVUzGCeqXsgxDhdLKlrSBVw,9271704
+sherpa_onnx/lib/onnxruntime_providers_shared.dll,sha256=UmqJcZjK3dHmQEfeuCL1Gl7xsWoP1z_FawVhKeGEIVo,22432
+sherpa_onnx/lib/sherpa-onnx-core.lib,sha256=tMZ35h6jjnWRsxuVEVSFfXTjzRhPe8IRPmq7MgX1Rg4,1234960
+sherpa_onnx-1.1.dist-info/LICENSE,sha256=jfClcNbFUkJ_A39ojeA1MTvJ1caVOPB4_H-ABviJeF4,11939
+sherpa_onnx-1.1.dist-info/METADATA,sha256=rJI0Sd2F0hzw0q-5JErMgVMz25EMy5SXmhor46n1zwc,753
+sherpa_onnx-1.1.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+sherpa_onnx-1.1.dist-info/top_level.txt,sha256=d-GKEpf-0t0HT6nU63F0vbbV6p2mJwAynt_cOTt-p3c,25
+sherpa_onnx-1.1.dist-info/RECORD,,
