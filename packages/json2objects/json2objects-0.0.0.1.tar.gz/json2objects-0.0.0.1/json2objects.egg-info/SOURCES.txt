@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+json2objects/__init__.py
+json2objects.egg-info/PKG-INFO
+json2objects.egg-info/SOURCES.txt
+json2objects.egg-info/dependency_links.txt
+json2objects.egg-info/top_level.txt
