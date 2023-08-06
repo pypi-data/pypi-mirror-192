@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: shibuya
+Version: 0.1.0
+Summary: A clean, responsive, and customisable Sphinx documentation theme with light/dark mode.
+Author-email: Hsiaoming Yang <me@lepture.com>
+Project-URL: GitHub, https://github.com/lepture/shibuya
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Sphinx
+
