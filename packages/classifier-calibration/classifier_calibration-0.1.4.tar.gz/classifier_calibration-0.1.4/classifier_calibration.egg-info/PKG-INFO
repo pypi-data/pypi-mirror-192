@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: classifier-calibration
+Version: 0.1.4
+Summary: Python package to measure the calibration of probabilistic classifiers
+Home-page: https://github.com/conor-walsh-cork/classifier_calibration
+Author: Conor Walsh
+Author-email: conorwalsh206@gmail.com
+License: MIT license
+Keywords: classifier_calibration
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+
+# classifier-calibration
+
+Measure the calibration of probabilistic classifers. 
+
+For some forecasting applications, we are more interested in predicting the probability of an event occurring than predicting which event will occur (the label). in this case we use probabilistic classifiers, to classify data points as having a certain probability of belonging to each class. Examples of such applications include weather forecasting (e.g. percentage chance of rain), medical diagnosis of disease (e.g. percentage risk of cancer) among others.
+
+The module calibration_error has the attribute classwise_ece that calculates the classwise expected calibration error (as defined in Kull et al. (2019)) of a set of predictions given the predicted probabilities and the true labels.
+
+The error can be calculated for any number of classes in a multi-class classification problem. The input includes a k-dimensional array where the $i^{th}$ column contains, for each data point, the predicted probability of the point belonging to class $i$ for $i = 1,2,...,k$. This is the format in which sklearn's predict_proba() method returns the array of predicted probabilities. Labels should be numerical, and should correspond to each class $i$ for $i = 1,2,...,k$.
+
+classwise_ece() returns the classwise expected calibration error which is a loss bounded between 0 and 1. This loss is the average across all classes, of the weighted average deviation from the expected rate of occurrence of the given class. If we multiply this loss by 100, we can thuink of the result as the percentage by which the forecasting model's predicted probability deviates from the true probability, on average.
+ 
+
+
+# Example Usage
+
+We demonstrate this calculation for the binary and multiclass problems, using common sklearn classifiers.
+
+```
+import sklearn.datasets
+import sklearn.linear_model
+import sklearn.ensemble
+import pandas as pd
+import numpy as np
+from classifier_calibration.calibration_error import classwise_ece  
+```
+
+
+### Binary classification 
+
+```
+# Make classification data
+X, Y = sklearn.datasets.make_classification(n_samples=100000,n_informative=6,n_classes=2) 
+clf = sklearn.linear_model.LogisticRegression().fit(X,Y)
+predicted_probabilities = clf.predict_proba(X)
+classwise_expected_calibration_error = classwise_ece(pred_probs=predicted_probabilities,labels=Y)
+```
+
+### Multi-class classification 
+We compare calibration of random forest and logistic regression classifiers for the 3-class classification problem. We also return the distribution of weights across bins for each class. That is, we split the interval [0,1] into bins of equal length (num_bins=20 by default but can be specified in classwise_ece()) and group the predicted probabilities into these bins. The proportion of data points associated with each bin (for a given class) is the called the weight of the bin.
+
+
+```
+# Make classification data
+num_classes = 3
+X, Y = sklearn.datasets.make_classification(n_samples=100000,n_informative=6,n_classes=num_classes) 
+lr = sklearn.linear_model.LogisticRegression().fit(X,Y)
+rf = sklearn.ensemble.RandomForestClassifier().fit(X,Y)
+
+lr_predicted_probabilities = lr.predict_proba(X)
+rf_predicted_probabilities = rf.predict_proba(X)
+
+lr_classwise_expected_calibration_error, lr_bin_weights = classwise_ece(pred_probs=lr_predicted_probabilities,labels=Y,return_weights=True)
+rf_classwise_expected_calibration_error, rf_bin_weights = classwise_ece(pred_probs=rf_predicted_probabilities,labels=Y,return_weights=True)
+
+print(round(100*lr_classwise_expected_calibration_error,2),'%',round(100*rf_classwise_expected_calibration_error,2),'%')
+
+# print distribution of weights across bins for each class' set of predictions
+for k in range(num_classes):
+    print('Logistic regression bin weights for class',k,'predictions:')
+    print(lr_bin_weights[k])
+    print('Random forest bin weights for class',k,'predictions:')
+    print(rf_bin_weights[k])
+    print()
+```
+
+
