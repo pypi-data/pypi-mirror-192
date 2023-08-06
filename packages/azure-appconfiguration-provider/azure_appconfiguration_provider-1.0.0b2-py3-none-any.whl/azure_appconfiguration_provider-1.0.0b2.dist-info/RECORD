@@ -1,0 +1,14 @@
+azure/appconfiguration/provider/__init__.py,sha256=nzLvA0l-_Nz2bQJnBe0QG5wgZoG_W47_mcBUS9xYtZI,665
+azure/appconfiguration/provider/_azureappconfigurationprovider.py,sha256=cjB3DlwzH2acUXhnQmxvbqEoorXnbkRNUMcp1TH3_NA,13528
+azure/appconfiguration/provider/_constants.py,sha256=5xW6yHQQSUgadxmvP04350AQlahuhFs8JaZrg9eMrxo,802
+azure/appconfiguration/provider/_models.py,sha256=1zOV9ulRtru86SEwQ-uzQkJ2Dyz7-nb3BRGtl_0NiIQ,2514
+azure/appconfiguration/provider/_user_agent.py,sha256=0BkWwxXMlBgpAXLufm7_GmKOOtknbC43m_ZCU8B9KL0,407
+azure/appconfiguration/provider/_version.py,sha256=Kl1DdiHKsN6bDTpCr-6Gsg-4Gz_XbOcFxzWdZd5XEVs,329
+azure/appconfiguration/provider/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure/appconfiguration/provider/aio/__init__.py,sha256=UJcjqQoAsoAfRAZhOnK49p8_ck9TGQ87VXOsX6rLA4o,480
+azure/appconfiguration/provider/aio/_azureappconfigurationproviderasync.py,sha256=ov6cvpa3X3l28PnA3qDEW6u4O9h0TwBcDsWdfDW5ehg,12323
+azure_appconfiguration_provider-1.0.0b2.dist-info/LICENSE,sha256=_VMkgdgo4ToLE8y1mOAjOKNhd0BnWoYu5r3BVBto6T0,1073
+azure_appconfiguration_provider-1.0.0b2.dist-info/METADATA,sha256=985g9rKdmymf2yZtwZrfqTnm1-hEVAB8joflhxhm6Hc,7884
+azure_appconfiguration_provider-1.0.0b2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+azure_appconfiguration_provider-1.0.0b2.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_appconfiguration_provider-1.0.0b2.dist-info/RECORD,,
