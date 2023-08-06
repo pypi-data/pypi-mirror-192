@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hvscripts
+Version: 0.2.1
+Summary: Package accelerateur de developpement sur python à l'aide de FLASK
+Home-page: UNKNOWN
+Author: BILONG NTOUBA Célestin
+Author-email: bilongntouba.celestin@gmail.com
+License: UNKNOWN
+Keywords: python,flask,headless-cms,package
+Platform: UNKNOWN
+
+Il s'agit d'un package multi fonction qui augmente la vitesse de réalisation avec FLASK après une configuration simple et minutieuse
+
