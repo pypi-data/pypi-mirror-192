@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: gan-evaluator
+Version: 1.8
+Summary: GAN Evaluator for IS and FID
+Home-page: https://github.com/ChenLiu-1996/GAN-evaluator
+Author: Chen Liu
+Author-email: chen.liu.cl2482@yale.edu
+License: MIT
+Description: UNKNOWN
+Keywords: GAN,evaluator,IS,FID
+Platform: UNKNOWN
