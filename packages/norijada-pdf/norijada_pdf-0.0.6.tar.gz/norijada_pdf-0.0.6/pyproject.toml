@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "norijada-pdf"
+version = "0.0.6"
+description = "Utility for arranging short text in the PDF with minimum amount of empty space between text."
+authors = ["marin <marin.kruzic@gmail.com>"]
+readme = "README.md"
+packages = [{include = "norijada_pdf"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rectpack = "^0.2.2"
+fpdf2 = "^2.6.1"
+
+[tool.poetry.group.dev.dependencies]
+matplotlib = "^3.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+norijada-pdf = "norijada_pdf:parse_cli"
