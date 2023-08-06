@@ -1,0 +1,11 @@
+README.md
+setup.py
+pymusickit/__init__.py
+pymusickit/key_finder.py
+pymusickit/music_theory.py
+pymusickit.egg-info/PKG-INFO
+pymusickit.egg-info/SOURCES.txt
+pymusickit.egg-info/dependency_links.txt
+pymusickit.egg-info/entry_points.txt
+pymusickit.egg-info/requires.txt
+pymusickit.egg-info/top_level.txt
