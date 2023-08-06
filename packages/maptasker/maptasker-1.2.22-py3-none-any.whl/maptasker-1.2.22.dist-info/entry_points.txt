@@ -1,0 +1,3 @@
+[console_scripts]
+maptasker=maptasker.maptasker:main
+
