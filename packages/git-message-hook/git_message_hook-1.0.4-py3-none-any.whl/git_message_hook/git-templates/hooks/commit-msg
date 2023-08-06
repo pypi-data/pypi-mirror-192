@@ -1,0 +1,36 @@
+#!/usr/bin/env python
+##
+# @author Oscar de Felice
+# @email oscar.defelice@gmail.com
+# @title Git hook for enforcing conventional commit spec
+#
+# @todo Create folder ~/.git-templatesand set that value to init.templatedir git config key globally.
+# @todo Copy this script to ~/.git-templates/hooks/ and rename it to commit-msg.
+# @todo (Linux): Make the script executable.
+import re, sys, os
+
+examples = """+ 61c8ca9 fix: Solve navbar not responsive on mobile
++ 479c48b test: Prepare test cases for user authentication
++ a992020 chore: Move to semantic versioning
++ b818120 fix: Fix button click event handler firing twice
++ c6e9a97 fix: Add login page css
++ dfdc715 feat(auth): Add social login using twitter
+"""
+
+def main():
+	# example:
+	# feat(apikey): Add the ability to add api key to configuration
+	pattern = r'(build|ci|docs|feat|fix|perf|refactor|style|test|test-fix|chore|revert)(\([\w\-]+\))?:\s([A-Z].*)'
+	filename = sys.argv[1]
+	ss = open(filename, 'r').read()
+	m = re.match(pattern, ss)
+	if m == None:
+		#raise Exception("conventional commit validation failed")
+		print("\nCOMMIT FAILED!")
+		print("\nPlease enter commit message in the conventional format and try to commit again. Examples:")
+		print("\n" + examples)
+		print("\n" + "Note that the commit message must start with a capital letter.")
+		sys.exit(1)
+
+if __name__ == "__main__":
+	main()
