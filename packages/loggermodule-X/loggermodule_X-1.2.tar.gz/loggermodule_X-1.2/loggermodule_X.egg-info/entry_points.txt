@@ -1,0 +1,2 @@
+[console_scripts]
+log = loggermodule_X:main
