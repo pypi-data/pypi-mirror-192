@@ -1,0 +1,12 @@
+pandas
+numpy
+torch
+umap-learn
+transformers
+torch
+swifter
+nltk
+gensim
+scikit-learn
+scipy
+rank_bm25
