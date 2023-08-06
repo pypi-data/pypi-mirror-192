@@ -1,0 +1,3 @@
+[console_scripts]
+autocopyright=autocopyright.__main__:main
+
