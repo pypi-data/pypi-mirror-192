@@ -1,0 +1,17 @@
+syntax = "proto3";
+package billing.proto;
+
+import "google/protobuf/empty.proto";
+import "billing/proto/receipt.proto";
+
+service Billing {
+  rpc CreateReceipt(CreateReceiptRequest) returns (CreateReceiptResponse) {}
+  rpc GetAllReceipts(google.protobuf.Empty) returns (GetAllReceiptsResponse) {}
+}
+
+// Requests
+message CreateReceiptRequest { uint64 company_id = 1; }
+
+// Responses
+message CreateReceiptResponse { billing.proto.Receipt receipt = 1; }
+message GetAllReceiptsResponse { repeated Receipt receipts = 1; }
