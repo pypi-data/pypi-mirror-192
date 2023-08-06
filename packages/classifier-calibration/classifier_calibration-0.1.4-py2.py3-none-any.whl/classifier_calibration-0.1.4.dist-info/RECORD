@@ -1,0 +1,10 @@
+classifier_calibration/__init__.py,sha256=5bttaspGDSvNvu3jJvzMlmVeVHrYleb4UNIKFDOoYmw,247
+classifier_calibration/calibration_error.py,sha256=tRYaaZ71cWX8CbEnZiRY1ZYwZQB79d1LUsbQfLxm3Ns,2855
+classifier_calibration/classifier_calibration.py,sha256=vR5AaF0iel21LvsdcqwheoBz0SIj9K9I_Ub8M8oA98Y,20
+classifier_calibration/utils.py,sha256=uNCwl1kT9eVJVzPwceFJizDiF1EuJOHhTLCsxVzkI0Q,3225
+classifier_calibration-0.1.4.dist-info/AUTHORS.rst,sha256=n_ydSU6NJAIKiGuyRwM7PPO2kJ6_h3-jCSBtAEajOEg,173
+classifier_calibration-0.1.4.dist-info/LICENSE,sha256=Ts2lfc-Ws6dk-ccDucKyvycgYToN_X2O_nD3KLn6RYg,1092
+classifier_calibration-0.1.4.dist-info/METADATA,sha256=WSLqOtKSb3mpzCSB6hex58q0X1-ZjVF4PAeZQvdbon0,4836
+classifier_calibration-0.1.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+classifier_calibration-0.1.4.dist-info/top_level.txt,sha256=peZZVBoze4smAMEnPJBOV_TIBKbaeYPhSbRQCWJGvh8,23
+classifier_calibration-0.1.4.dist-info/RECORD,,
