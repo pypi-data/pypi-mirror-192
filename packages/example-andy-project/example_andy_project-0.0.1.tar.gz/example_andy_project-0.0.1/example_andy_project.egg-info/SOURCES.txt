@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+example_andy_project.egg-info/PKG-INFO
+example_andy_project.egg-info/SOURCES.txt
+example_andy_project.egg-info/dependency_links.txt
+example_andy_project.egg-info/top_level.txt
+example_pkg/__init__.py
