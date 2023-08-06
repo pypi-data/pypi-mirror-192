@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: bindtorchaudio
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: torchaudio (==0.12.1)
+
+UNKNOWN
+
