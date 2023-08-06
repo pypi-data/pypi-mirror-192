@@ -1,0 +1,9 @@
+setup.py
+Permitronix/__init__.py
+Permitronix/permission_level.py
+Permitronix/permission_node.py
+Permitronix/permission_table.py
+Permitronix.egg-info/PKG-INFO
+Permitronix.egg-info/SOURCES.txt
+Permitronix.egg-info/dependency_links.txt
+Permitronix.egg-info/top_level.txt
