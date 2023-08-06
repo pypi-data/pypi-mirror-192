@@ -1,0 +1,7 @@
+acrclient/__init__.py,sha256=MF64bwUCd4sm3dvcxZnkb4ujHtxT_KeuXdD0nVieEt4,27
+acrclient/client.py,sha256=z0fE-pdPmwvEgFeQN-icJxY-XwnlHdXsRtJFJiXoFHQ,3724
+acrclient/models.py,sha256=9WyjCUXTe-ukMQ7nniD8z3eB9ixQYel_SgfvB3qdoGE,664
+acrclient/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acrclient-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+acrclient-0.2.0.dist-info/METADATA,sha256=JWQy6qcryYAyJu8GVxvg3_ISKcBK7fRxtbDsK9u0oCQ,2968
+acrclient-0.2.0.dist-info/RECORD,,
