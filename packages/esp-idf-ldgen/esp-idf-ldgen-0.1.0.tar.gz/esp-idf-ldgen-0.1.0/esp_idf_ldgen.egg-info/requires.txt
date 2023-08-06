@@ -1,0 +1,2 @@
+pyparsing>=3.0.3
+kconfiglib>=13.7.1
