@@ -1,0 +1,24 @@
+/*********************************************
+* Basic text formatting and content structure *
+*********************************************/
+
+.bd-article-container {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--pst-color-text);
+  }
+}
+
+// counteracting pydata style on a::before, for citation style
+a.brackets::before {
+  color: inherit;
+  font-family: inherit;
+  margin-right: 0rem;
+}
+
+table {
+  position: relative;
+}
