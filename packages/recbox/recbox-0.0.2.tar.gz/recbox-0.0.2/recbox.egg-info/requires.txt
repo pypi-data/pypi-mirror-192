@@ -1,0 +1,6 @@
+pandas
+numpy
+h5py
+PyYAML<5.0
+scikit-learn
+tqdm
