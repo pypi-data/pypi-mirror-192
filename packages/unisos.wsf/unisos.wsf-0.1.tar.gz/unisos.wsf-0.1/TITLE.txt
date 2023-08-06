@@ -1,0 +1,1 @@
+unisos.wsf: Somewhat General purpose Web Scraping Framework (WSF)
