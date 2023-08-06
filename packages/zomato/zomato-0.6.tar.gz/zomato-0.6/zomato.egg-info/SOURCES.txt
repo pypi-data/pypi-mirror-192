@@ -1,0 +1,7 @@
+setup.py
+zomato.egg-info/PKG-INFO
+zomato.egg-info/SOURCES.txt
+zomato.egg-info/dependency_links.txt
+zomato.egg-info/entry_points.txt
+zomato.egg-info/requires.txt
+zomato.egg-info/top_level.txt
