@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Pandora_ChatGPT.egg-info/PKG-INFO
+Pandora_ChatGPT.egg-info/SOURCES.txt
+Pandora_ChatGPT.egg-info/dependency_links.txt
+Pandora_ChatGPT.egg-info/entry_points.txt
+Pandora_ChatGPT.egg-info/requires.txt
+Pandora_ChatGPT.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py
+src/openai/__init__.py
+src/openai/api.py
+src/openai/auth.py
+src/openai/bot.py
+src/openai/utils.py
