@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+metonic/__init__.py
+metonic/__version__.py
+metonic/metonic.py
+metonic_cycle.egg-info/PKG-INFO
+metonic_cycle.egg-info/SOURCES.txt
+metonic_cycle.egg-info/dependency_links.txt
+metonic_cycle.egg-info/top_level.txt
+tests/test_metonic.py
