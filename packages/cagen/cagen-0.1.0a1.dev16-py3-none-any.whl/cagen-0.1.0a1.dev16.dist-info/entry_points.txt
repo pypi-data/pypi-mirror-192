@@ -1,0 +1,3 @@
+[console_scripts]
+cagen=src/cagen/cagen.py
+

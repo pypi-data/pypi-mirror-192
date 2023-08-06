@@ -1,0 +1,11 @@
+cagen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cagen/cagen-list.py,sha256=5gtTIi1QuLBaMmkNh3G9c_anW66iLCFrNGQkrS11GAQ,1175
+cagen/cagen-make.py,sha256=OYCXsaRdZQUq1PDV5lzA3ZL9lZGfFWNxpM5GOkW3cd4,1389
+cagen/cagen.py,sha256=icehDxCvEHsSVWasd_IUrgs-TCYr84_yJmn8DDwIy3w,1681
+cagen/libcagen.py,sha256=zNFnYg-orFHSs4RmuGIjCnZcO_pVeBibeX5Jt5qyVWk,8119
+cagen/templates/list.md.tmpl,sha256=oZ55i6T5gMZtV7_7xyYfzurkguapDbhJetMEU9tEd3Y,381
+cagen/templates/schema.tmpl,sha256=YZhN4JBz3x22ELo3u7BUkxLXuTSd5f3kBVEbAaaSRQA,1754
+cagen-0.1.0a1.dev16.dist-info/entry_points.txt,sha256=Y9acsSpI7lRG_EwGdTljOkhE7caoBUI7cBxI7_1MsH0,44
+cagen-0.1.0a1.dev16.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+cagen-0.1.0a1.dev16.dist-info/METADATA,sha256=7fRZ4VQBwsg_dT-5yynaqkHwtHu3vtKoy3Lpnm7_aEk,3987
+cagen-0.1.0a1.dev16.dist-info/RECORD,,
