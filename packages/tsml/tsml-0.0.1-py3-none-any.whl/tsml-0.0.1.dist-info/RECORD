@@ -1,0 +1,10 @@
+tsml/__init__.py,sha256=mRLAYH4H3iYHWMVNvikKKzbhjDLGweIwIRGc5t0ANpk,59
+tsml/package/__init__.py,sha256=wKSn7bqGsIr1L67LfH-OdiQulqmqOLOdCtZrpm3KgUc,47
+tsml/package/example.py,sha256=uL8nLD_0Zb99svGwDwH44Y45D4IOEhuPYqnMrBLHUnE,138
+tsml/package/tests/__init__.py,sha256=vrbZ6n6FWpn8q5kchy7GACdSxboGGj4iAsGIgxAa5m8,55
+tsml/package/tests/test_example.py,sha256=r0Zxx6hE4PBu80a7kXJ8BLvT6jN5ySkZpYN_2uQKU5M,160
+tsml-0.0.1.dist-info/LICENSE,sha256=IH39v5rvXh3YRhrkNIjdeS7-azYzQZxFgkd0Oeiz39s,1566
+tsml-0.0.1.dist-info/METADATA,sha256=vXcHesQd45dzCfZWVPAGxf9a3roR1be-5SS7cVjsFlk,3692
+tsml-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tsml-0.0.1.dist-info/top_level.txt,sha256=v7twBWTkLkw9ou23S52I9O5xfb6m_B1xU-VMYrv37WU,5
+tsml-0.0.1.dist-info/RECORD,,
