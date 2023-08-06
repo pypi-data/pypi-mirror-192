@@ -1,0 +1,5 @@
+future
+numpy
+root_numpy
+scipy
+six
