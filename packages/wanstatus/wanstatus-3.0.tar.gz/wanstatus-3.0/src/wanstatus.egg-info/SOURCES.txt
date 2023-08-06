@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/wanstatus/junk.py
+src/wanstatus/template.py
+src/wanstatus/wanstatus.py
+src/wanstatus.egg-info/PKG-INFO
+src/wanstatus.egg-info/SOURCES.txt
+src/wanstatus.egg-info/dependency_links.txt
+src/wanstatus.egg-info/entry_points.txt
+src/wanstatus.egg-info/requires.txt
+src/wanstatus.egg-info/top_level.txt
