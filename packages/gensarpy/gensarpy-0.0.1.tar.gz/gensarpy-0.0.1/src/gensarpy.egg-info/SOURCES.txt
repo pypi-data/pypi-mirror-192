@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gensarpy/__init__.py
+src/gensarpy/convergence_tests.py
+src/gensarpy.egg-info/PKG-INFO
+src/gensarpy.egg-info/SOURCES.txt
+src/gensarpy.egg-info/dependency_links.txt
+src/gensarpy.egg-info/requires.txt
+src/gensarpy.egg-info/top_level.txt
+tests/tester.py
