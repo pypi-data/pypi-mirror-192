@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "project-goldberg-common"
+version = "0.1.3"
+description = ""
+authors = ["Simone Sangeniti <snakenextgen@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src/common"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "project-goldberg-common"
+authors = [{name = "Simone Sangeniti", email = "snakenextgen@gmail.com"}]
+dynamic = ["version", "description"]
