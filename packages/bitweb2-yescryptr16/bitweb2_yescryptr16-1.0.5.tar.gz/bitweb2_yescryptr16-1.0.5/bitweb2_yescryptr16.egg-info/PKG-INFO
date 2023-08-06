@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bitweb2-yescryptr16
+Version: 1.0.5
+Summary: Bindings for yespower-0.5 or yescryptr16 proof of work used by bitweb at GPU enable update
+Home-page: https://github.com/bitweb-project/bitweb2_yescryptr16_python3
+Author: mraksoll
+Author-email: mraksoll4@gmail.com
