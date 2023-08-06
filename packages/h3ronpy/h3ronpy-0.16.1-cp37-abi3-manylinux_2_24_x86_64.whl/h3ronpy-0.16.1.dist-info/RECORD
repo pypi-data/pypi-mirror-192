@@ -1,0 +1,9 @@
+h3ronpy-0.16.1.dist-info/METADATA,sha256=iMwOTSh5Sw22xrtIrI1riSCu-7ybi5e8LQx0h-sCD9E,10611
+h3ronpy-0.16.1.dist-info/WHEEL,sha256=rbMXeWvHc3FWHakdpsCPWG9AcJetmcZLLgf9rQh4Bbs,107
+h3ronpy/util.py,sha256=Ym2ZHlVDt_qK-kgqWwQM4CNgv-FZj5XM3Y0WpcmNw88,1939
+h3ronpy/vector.py,sha256=oIQUdX3cd6_oXM_tfFicvLwrR8qSsqY7A4E5jTp-JlI,3649
+h3ronpy/op.py,sha256=MYwJ4kXBo1sK7QvKqTvNx1hQDT1bLU_LvR6TfAO6JbU,2199
+h3ronpy/__init__.py,sha256=TTuS1F0tRYuFUQbV7asfOOCfxcv1tAvhpEKbqpIUEfM,143
+h3ronpy/raster.py,sha256=1TgS-cN2YgYdhAV96H-4Hthv1Je3wGLOsxafvo0lwuU,4119
+h3ronpy/h3ronpy.abi3.so,sha256=LjNgGYaI60fSJtnfAK21Djb-xYQOpu-r6nyCPB9Y8UA,2456592
+h3ronpy-0.16.1.dist-info/RECORD,,
