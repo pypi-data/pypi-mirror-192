@@ -1,0 +1,8 @@
+setup.py
+miniKeras/__init__.py
+miniKeras/network.py
+miniKeras/unit.py
+miniKeras.egg-info/PKG-INFO
+miniKeras.egg-info/SOURCES.txt
+miniKeras.egg-info/dependency_links.txt
+miniKeras.egg-info/top_level.txt
