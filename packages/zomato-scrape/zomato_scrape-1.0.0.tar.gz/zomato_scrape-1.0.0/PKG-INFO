@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: zomato_scrape
+Version: 1.0.0
+Summary: A package for scraping Zomato restaurant data
+Author: Dinesh
+Author-email: dinudasari12@gmail.com
