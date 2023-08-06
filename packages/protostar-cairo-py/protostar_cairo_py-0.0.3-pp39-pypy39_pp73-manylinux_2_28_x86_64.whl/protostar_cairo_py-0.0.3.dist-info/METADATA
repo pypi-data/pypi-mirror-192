@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: protostar_cairo_py
+Version: 0.0.3
+Summary: Protostar Cairo bindings for Python
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# protostar_cairo_py
+
+Internal package.
