@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pychatsonic/__init__.py
+pychatsonic/chat.py
+pychatsonic.egg-info/PKG-INFO
+pychatsonic.egg-info/SOURCES.txt
+pychatsonic.egg-info/dependency_links.txt
+pychatsonic.egg-info/not-zip-safe
+pychatsonic.egg-info/top_level.txt
