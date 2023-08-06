@@ -1,0 +1,14 @@
+tr/Task.py,sha256=FPjGK9V_-2KNe3Gkhwq5dWhtirK2Y5z61se0yq_sOls,6849
+tr/__init__.py,sha256=TlVPg14YneADWVAgp1fWIy8NBaLUI93Shm0CcUdChJE,218
+tr/__main__.py,sha256=kRTk64C8yP_W6A6PafdwASq-LAcobHuzFP34p4IgI9k,7570
+tr/actions.py,sha256=OkA6ErKDHX0zBXNdnEQIX9qcJQu0A_45LJOXUz_pqRE,7906
+tr/common.py,sha256=y9USa1WIGzjZoaGnvdozx-_TCoI05HgfPr-KgoTkRCQ,3322
+tr/config.py,sha256=K9IQUwChd80HFJFaBaE4vOxnMPQez5SFPdoU0NwQMTk,8261
+tr/logTools.py,sha256=S4l1AnLg31Du8GfgkxkX7RMmrGqBg-02IRF1PDlAgEk,4032
+tr/schemas.py,sha256=3eeCVuivAeO70JK4V7R87MOshuH174ZuE1SdOcmiT3s,5794
+pytaskrunner-0.10.0.post1.dist-info/LICENSE,sha256=njwji-WRMZy6XP0zJaKc0F_NLhDRoD-owhtDa8_x7dQ,1067
+pytaskrunner-0.10.0.post1.dist-info/METADATA,sha256=EjgvCfTM6Z9AexvYiK1BUjjApMxidI0GLvGwSlzQ4N4,19018
+pytaskrunner-0.10.0.post1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pytaskrunner-0.10.0.post1.dist-info/entry_points.txt,sha256=u9xnKQhCpEiQjt7bUCIP-xQJgJLdm-KP3pRcTP2nH-0,42
+pytaskrunner-0.10.0.post1.dist-info/top_level.txt,sha256=Afw4_3kUF6RFMFqtp86z2JtbkWN80RNCAzLoTYKPefc,3
+pytaskrunner-0.10.0.post1.dist-info/RECORD,,
