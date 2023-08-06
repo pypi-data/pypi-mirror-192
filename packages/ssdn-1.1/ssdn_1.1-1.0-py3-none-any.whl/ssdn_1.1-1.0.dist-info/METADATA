@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ssdn-1.1
+Version: 1.0
+Summary: Symplified Structured Data Notation (SSDN) - Python Package
+Home-page: https://github.com/neonek26/SSDN
+Author: Štěpán Hofman
+Project-URL: Documentation, https://github.com/neonek26/SSDN
+Keywords: ssdn,package
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+
+# SSDN for Python
+
+Symplified Structured Data Notation support for Python
