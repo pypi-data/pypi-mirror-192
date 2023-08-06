@@ -1,0 +1,3 @@
+[console_scripts]
+mc_players=mc_players.playerlist:entry
+
