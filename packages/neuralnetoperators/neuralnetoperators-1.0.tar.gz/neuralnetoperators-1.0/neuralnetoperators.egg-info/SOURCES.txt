@@ -1,0 +1,6 @@
+setup.py
+neuralnetoperators.egg-info/PKG-INFO
+neuralnetoperators.egg-info/SOURCES.txt
+neuralnetoperators.egg-info/dependency_links.txt
+neuralnetoperators.egg-info/requires.txt
+neuralnetoperators.egg-info/top_level.txt
