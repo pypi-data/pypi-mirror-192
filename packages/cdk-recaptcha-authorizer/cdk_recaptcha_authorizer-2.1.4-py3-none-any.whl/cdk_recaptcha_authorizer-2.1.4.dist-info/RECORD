@@ -1,0 +1,9 @@
+cdk_recaptcha_authorizer/__init__.py,sha256=rF-MVx-ZPkcTQRvSbZpy_WNbDskZ6DxoqDPvjHDNCBc,18744
+cdk_recaptcha_authorizer/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_recaptcha_authorizer/_jsii/__init__.py,sha256=F78-tfczqQd80Tw_mNJ_iTGLUZseFDNWPSV_5fYW864,428
+cdk_recaptcha_authorizer/_jsii/cdk-recaptcha-authorizer@2.1.4.jsii.tgz,sha256=L0_qljLP1hIelhaKZgJULbaSQRyH0jWpAaW4X89sM5Q,11812935
+cdk_recaptcha_authorizer-2.1.4.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+cdk_recaptcha_authorizer-2.1.4.dist-info/METADATA,sha256=HoquQH4-m6i3YcV8fUkczKCNQYdyCxT95PBeYizccwI,5387
+cdk_recaptcha_authorizer-2.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdk_recaptcha_authorizer-2.1.4.dist-info/top_level.txt,sha256=bnL4AoeWxMBgGEAbaITYjD0fR_iD65GmPKH1wpDoCt0,25
+cdk_recaptcha_authorizer-2.1.4.dist-info/RECORD,,
