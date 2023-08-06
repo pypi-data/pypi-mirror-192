@@ -1,0 +1,2 @@
+[console_scripts]
+parse_work = vcs_pack.__main__:main

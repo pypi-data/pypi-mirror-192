@@ -1,0 +1,6 @@
+setup.py
+vcs_pack/vcs_p_pack.egg-info/PKG-INFO
+vcs_pack/vcs_p_pack.egg-info/SOURCES.txt
+vcs_pack/vcs_p_pack.egg-info/dependency_links.txt
+vcs_pack/vcs_p_pack.egg-info/entry_points.txt
+vcs_pack/vcs_p_pack.egg-info/top_level.txt
