@@ -1,0 +1,8 @@
+whatsapp_analyzer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whatsapp_analyzer/preprocessor.py,sha256=O31FpKSTJy5uvRFUKJY3I5O02LER05byD4v5-r9AIOk,1657
+whatsapp_analyzer/read.py,sha256=6a6ILqVkn8ewtWuwZq-uGT1ccqf7eO-UddgAtFMe1Ug,120
+whatsapp_analyzer/stats.py,sha256=FKlnrKU9p8ZRQfdUyngAfcy1wiUqjX4UilQYxO34Ifk,14942
+whatsapp_analyzer-0.1.0.dist-info/METADATA,sha256=NCtxeqsJCTxSnlJn7HfFMk02ycszVqZR8RTmCOCSzQM,4377
+whatsapp_analyzer-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+whatsapp_analyzer-0.1.0.dist-info/top_level.txt,sha256=PqjHxDBeslaiQ9Fy15GOFOpb-R5MYl4JbX9slKMW1cE,18
+whatsapp_analyzer-0.1.0.dist-info/RECORD,,
