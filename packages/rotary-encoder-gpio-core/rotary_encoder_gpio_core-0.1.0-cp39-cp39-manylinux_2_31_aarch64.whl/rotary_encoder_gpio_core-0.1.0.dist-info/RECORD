@@ -1,0 +1,5 @@
+rotary_encoder_gpio_core/__init__.py,sha256=po59o9EAuZ-SYzmX4ksx3jR2uXovCfeToCX3NZB55xc,1243
+rotary_encoder_gpio_core/_gpio.cpython-39-aarch64-linux-gnu.so,sha256=oLM6yuyparkuzTD1ePc7RSY7iY8DunzFDYJ9rJqnQfE,142936
+rotary_encoder_gpio_core-0.1.0.dist-info/WHEEL,sha256=DRDXbeBqknV7R4lR-c7ylm9W6VDRYs0XZMQTVKqXxxE,109
+rotary_encoder_gpio_core-0.1.0.dist-info/METADATA,sha256=9pGCD9EO15Qt6VU8bYxzYjK28B47qBL97BPsNnErPDM,613
+rotary_encoder_gpio_core-0.1.0.dist-info/RECORD,,

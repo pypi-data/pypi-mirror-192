@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rotary-encoder-gpio-core
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: None
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# rotary_encoder_gpio_core
+
+Meany only as a core dependency of `rotary-encoder`.
+
+This is a fork of RPi.GPIO. For the original repo go to:
+http://sourceforge.net/p/raspberry-gpio-python/
+
+
