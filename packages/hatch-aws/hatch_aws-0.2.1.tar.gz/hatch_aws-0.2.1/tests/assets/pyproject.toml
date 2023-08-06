@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling<1.4.0", "hatch-aws"]
+build-backend = "hatchling.build"
+
+[project]
+name = "my-app"
+version = "1.0.0"
+description = 'The short brief description'
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "LICENSE.txt" }
+keywords = ["whatever"]
+authors = [{ name = "me", email = "me@dot.me" }]
+dependencies = ["boto3"]
+
+[project.optional-dependencies]
+lambda1 = ["pyaml"]
+lambda2 = ["requrest", "pydantic"]
+
+[tool.hatch.build.targets.aws]
+template = "template.yaml"
+use-sam = false
+sam-params = ["--region", "us-east-2", "--parallel"]
+include = ["src/my_app/common/db.py", "src/my_app/utils"]
