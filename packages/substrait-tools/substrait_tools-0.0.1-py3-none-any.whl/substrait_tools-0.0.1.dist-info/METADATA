@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: substrait-tools
+Version: 0.0.1
+Summary: A Substrait command line tool
+Author: richtia
+Requires-Python: >=3.9, <4
+Requires-Dist: duckdb (>=0.6.2.dev1766)
+Requires-Dist: filelock
+Requires-Dist: ibis-framework
+Requires-Dist: ibis-substrait
+Requires-Dist: JPype1
+Requires-Dist: protobuf
+Requires-Dist: pyarrow
+Requires-Dist: substrait-validator
+
+Command line tools for producing, validating, and consuming substrait plans
