@@ -1,0 +1,3 @@
+cursor
+pyyaml
+spinners
