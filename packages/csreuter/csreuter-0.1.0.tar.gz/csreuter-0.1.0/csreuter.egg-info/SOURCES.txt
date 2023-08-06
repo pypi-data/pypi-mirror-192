@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements-dev.txt
+requirements.txt
+setup.py
+csreuter/__init__.py
+csreuter/cli.py
+csreuter.egg-info/PKG-INFO
+csreuter.egg-info/SOURCES.txt
+csreuter.egg-info/dependency_links.txt
+csreuter.egg-info/entry_points.txt
+csreuter.egg-info/requires.txt
+csreuter.egg-info/top_level.txt
