@@ -1,0 +1,8 @@
+apkupload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apkupload/__main__.py,sha256=TEhbcDELZUgqwGpnYLWGIxC2JkQctTzydRWTIM-KcMA,62
+apkupload/upload.py,sha256=2Vwq70UWZZpmEp0H8fSaHZMyLo-vVvhoKRvtGmzy9WE,7563
+apkupload-0.0.3.dist-info/LICENSE,sha256=UfpftGGku-axlx44lhrXRkyfDdI76YwoylErn5duY-0,1065
+apkupload-0.0.3.dist-info/METADATA,sha256=LGDDa-NCmR4alJGWqZ3Wu-qj0z9bWSFfXPOOkRQbDQY,368
+apkupload-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+apkupload-0.0.3.dist-info/top_level.txt,sha256=JQ9yIJOm5tWCf04pm-HAPKFG58_pNvINf-RIq60SiAk,10
+apkupload-0.0.3.dist-info/RECORD,,
