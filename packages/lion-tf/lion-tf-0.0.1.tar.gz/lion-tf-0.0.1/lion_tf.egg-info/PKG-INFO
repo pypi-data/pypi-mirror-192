@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: lion-tf
+Version: 0.0.1
+Summary: Lion in TensorFlow 2
+Home-page: https://github.com/OrigamiDream/lion-tf
+Author: OrigamiDream
+Author-email: sdy36071@naver.com
+License: MIT
+Keywords: machine learning,deep learning,tensorflow,optimizers
+License-File: LICENSE
