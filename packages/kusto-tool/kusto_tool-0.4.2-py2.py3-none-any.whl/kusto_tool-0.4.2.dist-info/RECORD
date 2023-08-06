@@ -1,0 +1,9 @@
+kusto_tool/__init__.py,sha256=XTi68-gBbuEGFxCrfr30e4aHfvf-UvbTEtoXN0UNWzw,218
+kusto_tool/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kusto_tool/database.py,sha256=XED5RlLYNfOLNKjEidSEU_iulbgqqK23_9bqVxgpKss,9701
+kusto_tool/expression.py,sha256=WY3cei35g6290LXA7g7mZ9X-_1nQrEXVNXm7khT7mkM,22864
+kusto_tool/function.py,sha256=SSiVWtxTBkHv-TbiH5hePgBap_3SkFqeXaLV8eg4pdI,12337
+kusto_tool-0.4.2.dist-info/LICENSE,sha256=Uv3gD3fLx0QsLG-IEGx7a6RuPdVUYqrbuDRfdSs-Bc8,1067
+kusto_tool-0.4.2.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+kusto_tool-0.4.2.dist-info/METADATA,sha256=_VCLkLcza6k_b2Y0AZotLqYTidNXIKG-DaRphpp2-po,3277
+kusto_tool-0.4.2.dist-info/RECORD,,
