@@ -1,0 +1,12 @@
+setup.py
+package/__init__.py
+package/config_args.py
+package/git_works.py
+package/parse_works.py
+package/vcs_p.py
+package/work_args.py
+tool_for_vcs_p.egg-info/PKG-INFO
+tool_for_vcs_p.egg-info/SOURCES.txt
+tool_for_vcs_p.egg-info/dependency_links.txt
+tool_for_vcs_p.egg-info/entry_points.txt
+tool_for_vcs_p.egg-info/top_level.txt
