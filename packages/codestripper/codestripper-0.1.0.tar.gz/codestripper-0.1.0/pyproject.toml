@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "codestripper"
+version = "0.1.0"
+description = ""
+authors = ["Bonajo <m.bonajo@fontys.nl>"]
+readme = "README.md"
+packages = [{include = "codestripper"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+mypy = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
