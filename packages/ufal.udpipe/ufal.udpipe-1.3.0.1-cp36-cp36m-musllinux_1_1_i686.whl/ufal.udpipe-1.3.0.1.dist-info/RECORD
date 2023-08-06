@@ -1,0 +1,10 @@
+ufal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ufal/udpipe/__init__.py,sha256=PiEvns_FCwSG41bhY_v249HIuA5zXqy_TZXDbXVac38,446
+ufal/udpipe/_udpipe.cpython-36m-i386-linux-gnu.so,sha256=D6VRMrY0OIftlNuLkJGUfeylkE_S5fqjQJ6x-DMVlbw,3381245
+ufal.udpipe.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+ufal.udpipe.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+ufal.udpipe-1.3.0.1.dist-info/METADATA,sha256=bnfZ3bAyJHlMF1xeRzxpOafTtnXwgkv1qhhSmBhlnWE,10695
+ufal.udpipe-1.3.0.1.dist-info/WHEEL,sha256=vKL5TyPvBaqrVS_wrd1wwVcCEkHcF1Y5mT8I1AQaxRA,110
+ufal.udpipe-1.3.0.1.dist-info/top_level.txt,sha256=GsZv5R3Wk08xmNJ09BWsp_VwhvJGSJVWD5KZ1DzgktM,5
+ufal.udpipe-1.3.0.1.dist-info/RECORD,,
+ufal.udpipe-1.3.0.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
