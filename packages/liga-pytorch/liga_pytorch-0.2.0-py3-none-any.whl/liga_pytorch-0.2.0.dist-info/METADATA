@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: liga-pytorch
+Version: 0.2.0
+Requires-Python: <3.10,>=3.8
+Requires-Dist: ligavision (==0.2.0)
+Requires-Dist: torch (==1.12.1)
+Requires-Dist: torchvision (==0.13.1)
+
