@@ -1,0 +1,22 @@
+include LICENSE
+include README.md
+include README2.md
+include pyproject.toml
+
+recursive-include dicomhandler *.py
+recursive-include Examples *
+recursive-include .github *
+
+exclude requirements_dev.txt
+exclude Prueba.ipynb
+exclude tox.ini
+exclude pruebita.py
+
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-exclude dicomhandler.egg-info *
+recursive-exclude .pytest_cache *
+recursive-exclude .ipynb_checkpoints *
+recursive-exclude __pycache__ *
+
+include *.yml

@@ -1,0 +1,12 @@
+.readthedocs.yml
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+.github/workflows/ci.yml
+Examples/RD.1.2.276.0.20.1.4.106.968269887716.25132.1649170862.338235.1.dcm
+Examples/RP.1.2.276.0.20.1.4.106.968269887716.25132.1649170861.757182.1.dcm
+Examples/RS.1.2.276.0.20.1.4.106.968269887716.25132.1649170861.150188.1.dcm
+dicomhandler/__init__.py
+dicomhandler/dicom_info.py
+dicomhandler/report.py
