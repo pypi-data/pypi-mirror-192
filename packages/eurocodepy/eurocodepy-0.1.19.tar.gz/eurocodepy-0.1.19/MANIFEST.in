@@ -1,0 +1,2 @@
+include eurocodepy/eurocodes.json
+include eurocodepy/prof_euro.json
