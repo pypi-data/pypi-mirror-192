@@ -1,0 +1,7 @@
+setup.py
+nnoperators/__init__.py
+nnoperators.egg-info/PKG-INFO
+nnoperators.egg-info/SOURCES.txt
+nnoperators.egg-info/dependency_links.txt
+nnoperators.egg-info/requires.txt
+nnoperators.egg-info/top_level.txt
