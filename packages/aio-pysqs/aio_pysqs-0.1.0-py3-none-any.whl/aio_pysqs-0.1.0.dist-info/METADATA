@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aio-pysqs
+Version: 0.1.0
+Summary: Async aws sqs listener
+License: MIT
+Author-email: devsarvesh92 <sarveshdev92@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# aio-sqs
+
+Async aws sqs listener
+
