@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: envantage
+Version: 0.0.0
+Summary: envantage
+Author-email: Jonathan Dobson <jon@dobson.land>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: python-dotenv ==0.21.1
+Requires-Dist: pydantic ==1.10.5
+Requires-Dist: black ==23.1.0 ; extra == "dev"
+Requires-Dist: flit ==3.8.0 ; extra == "dev"
+Requires-Dist: pycodestyle ==2.10.0 ; extra == "dev"
+Requires-Dist: pytest ==7.2.1 ; extra == "dev"
+Requires-Dist: pytest-cov ==3.0.0 ; extra == "dev"
+Project-URL: Home, https://github.com/jomido/envantage
+Provides-Extra: dev
