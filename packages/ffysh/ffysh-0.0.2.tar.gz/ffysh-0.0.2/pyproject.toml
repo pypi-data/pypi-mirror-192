@@ -1,0 +1,26 @@
+[build-system]
+requires = [
+    "setuptools>=54",
+    "wheel",
+    "certifi",
+    "charset-normalizer",
+    "click",
+    "pillow",
+    "numpy",
+    "psutil",
+    "torch",
+    "docopt",
+    "idna",
+    "pipreqs",
+    "requests",
+    "nvidia-cublas-cu11",
+    "nvidia-cuda-nvrtc-cu11",
+    "nvidia-cuda-runtime-cu11",
+    "typing_extensions",
+    "urllib3",
+    "yarg"
+    
+
+
+]
+build-backend = "setuptools.build_meta"
