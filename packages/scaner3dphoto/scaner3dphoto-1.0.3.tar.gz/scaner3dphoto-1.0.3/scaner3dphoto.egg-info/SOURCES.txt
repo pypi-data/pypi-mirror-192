@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+scaner3dphoto/__init__.py
+scaner3dphoto/main.py
+scaner3dphoto/scan.py
+scaner3dphoto.egg-info/PKG-INFO
+scaner3dphoto.egg-info/SOURCES.txt
+scaner3dphoto.egg-info/dependency_links.txt
+scaner3dphoto.egg-info/requires.txt
+scaner3dphoto.egg-info/top_level.txt
