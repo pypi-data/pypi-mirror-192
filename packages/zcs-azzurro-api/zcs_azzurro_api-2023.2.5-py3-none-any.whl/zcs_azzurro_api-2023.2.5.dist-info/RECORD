@@ -1,0 +1,9 @@
+zcs_azzurro_api/__init__.py,sha256=tMbJkzawIZb3V2GyII7xXMnMYfsPIvH7aukinRx58CQ,124
+zcs_azzurro_api/errors.py,sha256=4bFXwfhX-Ssdy8lHDeYgM5wIWxcG31CcPUegux4GAR8,389
+zcs_azzurro_api/inverter.py,sha256=NyrWUrLt2Woh3Nd09r2lEzIffmOu-IX_XRaoYH6oJQ0,5068
+zcs_azzurro_api/zcs_azzurro_inverter.py,sha256=idf0M52c-vMvSIj1rizx4CxsTGMpP9C4nqhIFRiQ024,5065
+zcs_azzurro_api-2023.2.5.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+zcs_azzurro_api-2023.2.5.dist-info/METADATA,sha256=NDN_Y4Mq95-776_R5pDWDDal1MtWDm40wDpStG_O-7I,1235
+zcs_azzurro_api-2023.2.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zcs_azzurro_api-2023.2.5.dist-info/top_level.txt,sha256=Qx_rz5ca0IlY9HhaHkAlxd-OwmONMYCXGY_TUuT8JsI,16
+zcs_azzurro_api-2023.2.5.dist-info/RECORD,,
