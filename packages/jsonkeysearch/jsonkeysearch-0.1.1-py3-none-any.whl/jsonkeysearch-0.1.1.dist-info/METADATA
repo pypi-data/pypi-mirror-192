@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: jsonkeysearch
+Version: 0.1.1
+Summary: jsonkeysearch: Searches for keys in JSON format files.
+Home-page: https://github.com/gmoriki/jsonkeysearch
+Download-URL: https://github.com/gmoriki/jsonkeysearch
+Author: MORIKI Ginga
+Author-email: gingiragin@outlook.jp
+Maintainer: MORIKI Ginga
+Maintainer-email: gingiragin@outlook.jp
+License: MIT
+Keywords: json search
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jsonkeysearch
+## Description
+`jsonkeysearch` is a Python library that recursively searches for keys in JSON format files.
+
+## Installaction
+
+<!-- ```pip install jsokeysearch``` -->
+
+## Usage
+
+```python
+from jsonkeysearch import JSONKeySearch
+
+# https://json.org/example.html
+json_example = {
+    "menu": {
+        "id": "file",
+        "value": "File",
+        "popup": {
+            "menuitem": [
+                {"value": "New", "onclick": "CreateNewDoc()"},
+                {"value": "Open", "onclick": "OpenDoc()"},
+                {"value": "Close", "onclick": "CloseDoc()"},
+            ]
+        },
+    }
+}
+
+
+target = JSONKeySearch(json_example)
+
+# [1] Append all dictionary with onclick as key in a list
+key_ = "onclick"
+value_ = "" # All value in key
+target.search(key=key_, value=value_)
+
+print(target.jsonObject)
+# [
+#     {"value": "New", "onclick": "CreateNewDoc()"},
+#     {"value": "Open", "onclick": "OpenDoc()"},
+#     {"value": "Close", "onclick": "CloseDoc()"},
+# ]
+
+# [2] Append dictionary in a list with onclick as key and 'Open' as value
+key_="onclick"
+value_ = "Open"
+target.search(key = key_, value = value_)
+
+print(target.jsonObject)
+# [{"value": "Open", "onclick": "OpenDoc()"}]
+
+for dict_ in target.jsonObject:
+    print(dict_[key_])
+# 'OpenDoc()'
+```
