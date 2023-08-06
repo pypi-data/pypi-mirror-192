@@ -1,0 +1,11 @@
+README.md
+setup.py
+pycodegrade/__init__.py
+pycodegrade/grader.py
+pycodegrade/utils.py
+pycodegrade.egg-info/PKG-INFO
+pycodegrade.egg-info/SOURCES.txt
+pycodegrade.egg-info/dependency_links.txt
+pycodegrade.egg-info/not-zip-safe
+pycodegrade.egg-info/requires.txt
+pycodegrade.egg-info/top_level.txt
