@@ -1,0 +1,11 @@
+skres/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skres/hello.py,sha256=6cQvcOpaIHAfgPPUgSqJ5gtQPvDM6jtz_kUN8QG6gKE,32
+skres/skres.py,sha256=wYY_xqcSTTPdoLg3pktZyiLG9FH50jBUl8KpYrCbaj4,152
+skres/salut/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skres/salut/coucou.py,sha256=rF-hzG6D13DgrdQv6Akjmr9S1YIfUPXP3EC7ZOjMIjk,34
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skres-0.0.14.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+skres-0.0.14.dist-info/METADATA,sha256=XCFAdSPf-F01pNuwR2gfNiHC3Fe4EvQsZhiom2fXpKU,441
+skres-0.0.14.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+skres-0.0.14.dist-info/top_level.txt,sha256=00vjIZA2MmBM8_19eLkM9SZ1PqLNM2kl7uT0ve5WfmY,12
+skres-0.0.14.dist-info/RECORD,,
