@@ -1,0 +1,11 @@
+munotes/__init__.py,sha256=qGVC6onFsnqaGU3nMv54WbUZXG2tnFNxVhOu7IdhAko,253
+munotes/chord_names.py,sha256=_MT6yvGaZiSILqfze8qeOQZmShpTVUlC-_e50PruBfY,285
+munotes/format.py,sha256=zUdTyhI7if3cJCYZvTOAjIO-EedxvHjo-qd4onTgSrc,1309
+munotes/name_strings.py,sha256=2igJLk9PXlZvN0NH-qdIW4CnhPvcPfBgMbK8gIUbC_w,2638
+munotes/notes.py,sha256=BM4fwsGBlcSCWJBmCiQSBShD8rXIELBfd9a4FnvCOM4,19539
+munotes/sequence.py,sha256=Qy3iDv4Fh10sqlyYrfmXLBB909Hx0zkdZUR-9iRjccI,12868
+munotes-1.1.0.dist-info/LICENSE,sha256=KlDAKqBYX344cAEMi3OaScCsam9EywZkLqnyMj8D4vg,1084
+munotes-1.1.0.dist-info/METADATA,sha256=XZ2M_9P5-xcvVUzk50XdEs_nNqO3vLToAtAeBcLxNgU,4341
+munotes-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+munotes-1.1.0.dist-info/top_level.txt,sha256=MmMDhS-UYwk3DG4aUx5nNYcSCL-EDH-_Gk_62GeF6cc,8
+munotes-1.1.0.dist-info/RECORD,,
