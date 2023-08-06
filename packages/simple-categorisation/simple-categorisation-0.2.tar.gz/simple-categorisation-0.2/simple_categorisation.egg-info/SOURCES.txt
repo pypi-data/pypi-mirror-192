@@ -1,0 +1,12 @@
+README.md
+setup.py
+simple_categorisation/__init__.py
+simple_categorisation/sankey.py
+simple_categorisation/simple.py
+simple_categorisation.egg-info/PKG-INFO
+simple_categorisation.egg-info/SOURCES.txt
+simple_categorisation.egg-info/dependency_links.txt
+simple_categorisation.egg-info/requires.txt
+simple_categorisation.egg-info/top_level.txt
+tests/test_plotly_sankey.py
+tests/test_simple.py
