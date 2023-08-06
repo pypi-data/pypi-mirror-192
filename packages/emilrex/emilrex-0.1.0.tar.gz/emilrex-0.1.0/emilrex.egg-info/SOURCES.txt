@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements-dev.txt
+requirements.txt
+setup.py
+emilrex/__init__.py
+emilrex/cli.py
+emilrex.egg-info/PKG-INFO
+emilrex.egg-info/SOURCES.txt
+emilrex.egg-info/dependency_links.txt
+emilrex.egg-info/entry_points.txt
+emilrex.egg-info/requires.txt
+emilrex.egg-info/top_level.txt

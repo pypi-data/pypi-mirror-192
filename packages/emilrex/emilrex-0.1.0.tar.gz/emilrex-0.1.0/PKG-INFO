@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: emilrex
+Version: 0.1.0
+Summary: Personal Python package
+Home-page: https://github.com/EmilRex/emilrex-py
+Author: Emil Christensen
+Author-email: emil.rex.christensen@gmail.com
+Project-URL: Changelog, https://github.com/EmilRex/emilrex-py/blob/main/CHANGELOG.md
+Project-URL: Source, https://github.com/EmilRex/emilrex-py
+Project-URL: Tracker, https://github.com/EmilRex/emilrex-py/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# emilrex
+
+<p align="center">
+    <a href="https://pypi.python.org/pypi/emilrex/" alt="PyPI version">
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/emilrex"></a>
+    <a href="https://github.com/EmilRex/emilrex-py/" alt="Stars">
+        <img src="https://img.shields.io/github/stars/EmilRex/emilrex-py" /></a>
+    <a href="https://pepy.tech/badge/emilrex/" alt="Downloads">
+        <img src="https://img.shields.io/pypi/dm/emilrex" /></a>
+    <a href="https://github.com/EmilRex/emilrex-py/pulse" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/EmilRex/emilrex-py" /></a>
+    <br>
+</p>
+
+Personal Python package.
+
+## Getting Started
+
+```sh
+pip install -U emilrex
+
+emilrex --help
+```

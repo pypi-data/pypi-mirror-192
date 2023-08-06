@@ -1,0 +1,2 @@
+[console_scripts]
+emilrex = emilrex.cli:app
