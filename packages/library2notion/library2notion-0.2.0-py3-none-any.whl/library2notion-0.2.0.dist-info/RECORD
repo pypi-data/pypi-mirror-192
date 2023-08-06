@@ -1,0 +1,12 @@
+library2notion/Book.py,sha256=_5D2f7fF-ZVwi8SA0N_vZWuo_EEbKQbUFyZpmAdpzL8,3043
+library2notion/BookCollection.py,sha256=kucKSIeczw5MRbdo_oZGIPgB3wuvKjy5juEQjH6BdJo,2380
+library2notion/ProgressBar.py,sha256=nk9I3dPHf5QlqzTdjTfA7sp0p1iiIxkovF5M0mpfV6E,1206
+library2notion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+library2notion/__main__py,sha256=IHVpKwQTaaHAzCHEuSjhHMsyYmOkXiLklG4KqipFzV4,105
+library2notion/library2notion.py,sha256=cf5J3NV9Tt1dhb_-hMppGDLcodAyPrdkFdBl1jK_5Jo,6675
+library2notion/pyshical_book_template.paper,sha256=pjMCa7FsDVWaBvsJrZMngV_10ei3UhLJm9n9Tz7UOvU,74
+library2notion-0.2.0.dist-info/entry_points.txt,sha256=o-xOzgmL1QDeyFx0B0DTgoMyPn1C5yV0Ni4puKEdAuo,69
+library2notion-0.2.0.dist-info/LICENSE,sha256=9jySM4KyANvg7AzkFrwLq4IOhEcSFGX-wEfcEUjFeyg,1099
+library2notion-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+library2notion-0.2.0.dist-info/METADATA,sha256=PpyPdf-ZjR031sGjX16fLJ8vV4cGF3XTni37FjG6sL0,7209
+library2notion-0.2.0.dist-info/RECORD,,
