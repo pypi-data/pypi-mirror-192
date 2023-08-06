@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+mr_encryption.egg-info/PKG-INFO
+mr_encryption.egg-info/SOURCES.txt
+mr_encryption.egg-info/dependency_links.txt
+mr_encryption.egg-info/entry_points.txt
+mr_encryption.egg-info/requires.txt
+mr_encryption.egg-info/top_level.txt
