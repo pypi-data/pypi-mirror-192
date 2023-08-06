@@ -1,0 +1,22 @@
+certifi
+setuptools>=67.0.0
+virtualenv-clone>=0.2.5
+virtualenv>=20.17.1
+
+[dev]
+towncrier
+bs4
+sphinx
+flake8<4.0,>=3.3.0
+parver
+invoke
+
+[dev:python_version >= "3.7"]
+black
+
+[tests]
+pytest>=5.0
+pytest-timeout
+pytest-xdist
+flaky
+mock
