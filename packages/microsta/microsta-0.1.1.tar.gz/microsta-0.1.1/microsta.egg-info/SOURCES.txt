@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+microsta.egg-info/PKG-INFO
+microsta.egg-info/SOURCES.txt
+microsta.egg-info/dependency_links.txt
+microsta.egg-info/requires.txt
+microsta.egg-info/top_level.txt
