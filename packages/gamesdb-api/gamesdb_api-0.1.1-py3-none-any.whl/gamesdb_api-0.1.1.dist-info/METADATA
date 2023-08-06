@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: gamesdb-api
+Version: 0.1.1
+Summary: A Python package to scrap games information from TheGamesDB.net API.
+Home-page: UNKNOWN
+Author: Bruno Rodrigues
+Author-email: email@bruno.gs
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: beautifulsoup4 (==4.11.2)
+Requires-Dist: fuzzywuzzy (==0.18.0)
+Requires-Dist: Levenshtein (==0.20.9)
+Requires-Dist: python-Levenshtein (==0.20.9)
+Requires-Dist: requests (==2.28.2)
+Requires-Dist: soupsieve (==2.4)
+
+# Sobre GamesDB
+
+GamesDB Ã© uma classe Python que permite a busca de informaÃ§Ãµes sobre jogos eletrÃ´nicos em um site com o mesmo nome. A classe usa as bibliotecas BeautifulSoup, requests e fuzzywuzzy.
+
+A classe tem um mÃ©todo eu busca um jogo pela identificaÃ§Ã£o dele no site e um mÃ©todo busca por nome. Ambos retorna uma lista com um dicionÃ¡rio para cada jogo procurado. As seguintes informaÃ§Ãµes do jogo sÃ£o retornadas:
+
+ -  id
+-   game_title
+-   overview
+-   genres
+-   esrb_rating
+-   trailer
+-   platform
+-   region
+-   developers
+-   publishers
+-   release_date
+-   players
+-   coop
+-   cover
+-   cover_thumb
+-   fanarts
+-   screenshots
+-   clearlogos
+
+## Como usar
+
+    from games_db import GamesDB
+    gdb = GamesDB()
+    
+### Busca de jogo por identificador:
+
+    games = gbd.get_game_by_id('5')
+Retorna uma lista com um dicionÃ¡rio com informaÃ§Ãµes do jogo 
+
+    lista = ['5','23','100']
+    games = gbd.get_game_by_id(lista)
+   Retorna uma lista com um dicionÃ¡rio para jogo pesquisado.
+
+
+### Busca de jogo por nome:
+
+    games = gbd.get_game_by_name('Super Mario Word', 'Super Nintendo (SNES)')
+    ou
+    games = gbd.get_game_by_name('Super Mario Word', 6)
+Retorna uma lista com um dicionÃ¡rio com informaÃ§Ãµes do jogo 
+
+    lista = ['5','23','100']
+    games = gbd.get_game_by_name(lista, 'Super Nintendo (SNES)')
+    ou
+    games = gbd.get_game_by_name(lista, 6')
+   Retorna uma lista com um dicionÃ¡rio para jogo pesquisado.
+
+### Nomes e cÃ³digos de consoles:
+
+    for name, id in gbd.codigo_console.items():
+	    print(f'{name}-{id}
+
+
