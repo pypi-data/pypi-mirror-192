@@ -1,0 +1,10 @@
+nonebot_plugin_orangedice/__init__.py,sha256=RorjeQ7XtWo0pyYP-kK0Au6Kd4xQQnktrQ0vwdzMDJQ,6396
+nonebot_plugin_orangedice/config.py,sha256=3CqbQ_TAy5x2CSKlkUeNXLqwaFwJY0qoQgERkLSbmRM,161
+nonebot_plugin_orangedice/dice.py,sha256=eeGGhwBzzTZ30Sze3QQNFNnG7fccaMu3XWtWCbyB9hc,9053
+nonebot_plugin_orangedice/model.py,sha256=TAeDAH4BjhGM_SkvaeLTe6rwqd_Q7KK97DUrZaid6bE,4893
+nonebot_plugin_orangedice/roll.py,sha256=LcCiUsxoQqURcnRYEN8M5DHlDyMvwAt_KHI3W1BEThs,2578
+nonebot_plugin_orangedice/utils.py,sha256=TBe69J631csOhLpBNW0LB3M94kimeBtkwrQNVP5CgU8,1791
+nonebot_plugin_orangedice-0.3.1.dist-info/WHEEL,sha256=JtIceljpZF_3FlF7JEESqvYUELdenaIGNR7wSL2mRl0,87
+nonebot_plugin_orangedice-0.3.1.dist-info/METADATA,sha256=xmhCTm82OBPc8s6Yjb8LvvxgleWhof-N8OQb6Q6y-ZA,1925
+nonebot_plugin_orangedice-0.3.1.dist-info/licenses/LICENSE,sha256=yhOVvwM69-MgxbdpWIpEjIk4rsKE3FA3BvLBgQqUSfk,1088
+nonebot_plugin_orangedice-0.3.1.dist-info/RECORD,,
