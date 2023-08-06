@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/races_reports_generator/__init__.py
+src/races_reports_generator/__main__.py
+src/races_reports_generator/main.py
+src/races_reports_generator.egg-info/PKG-INFO
+src/races_reports_generator.egg-info/SOURCES.txt
+src/races_reports_generator.egg-info/dependency_links.txt
+src/races_reports_generator.egg-info/entry_points.txt
+src/races_reports_generator.egg-info/requires.txt
+src/races_reports_generator.egg-info/top_level.txt
+src/races_reports_generator/tests/__init__.py
+src/races_reports_generator/tests/test_races_reporter.py

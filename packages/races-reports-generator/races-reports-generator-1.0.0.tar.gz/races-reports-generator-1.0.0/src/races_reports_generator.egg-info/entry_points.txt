@@ -1,0 +1,3 @@
+[console_scripts]
+races_reports_generator = src.__main__:main
+
