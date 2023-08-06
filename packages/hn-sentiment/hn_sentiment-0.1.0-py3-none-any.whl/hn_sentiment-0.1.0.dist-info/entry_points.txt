@@ -1,0 +1,3 @@
+[console_scripts]
+hn-sentiment=hn_sentiment.app:main
+
