@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pygeolocate
+Version: 1.0.8
+Summary: An easy way to find a countries coordinates by name
+Home-page: https://github.com/Scrumpyy/pygeolocate
+Author: Isabelle
+Author-email: scrumpy@weeb.email
+License: MIT
+Project-URL: Bug Tracker, https://github.com/Scrumpyy/pygeolocate/issues
+Description: 
+        # pygeolocate
+         
+        
+        ## Get a country by its full name
+        ```python
+        # pygeolocate/examples/get_country_by_full_name.py
+        import pygeolocate
+        
+        united_kingdom = pygeolocate.locate_by_name("united kingdom")
+        
+        print(country)
+        print(country.name)
+        print(country.coordinates)
+        print(country.coordinates[0])
+        print(country.coordinates['long'])
+        ```
+        
+        ## Get a country by part of its name
+        ```python
+        # pygeolocate/examples/get_country_by_partial_name.py
+        
+        import pygeolocate
+        
+        for country in pygeolocate.locate_by_name("united"):
+            print(country)
+            print(country.name)
+            print(country.coordinates)
+            print(country.coordinates[0])
+            print(country.coordinates['long'])
+        ```
+Keywords: location,geolocation,geolocate
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
