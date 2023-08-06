@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bkw-python"
+version = "0.0.1a0"
+authors = [
+  { name="Ryan Stone", email="ryan@bankruptcywatch.com" },
+]
+description = "A limited Python client for the BankruptcyWatch API."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["0.0.1a0"]
+dependencies = [
+  "future",
+  "pydantic",
+  "requests",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ryangustaf/bkw-python"
+"Bug Tracker" = "https://github.com/ryangustaf/bkw-python/issues"
