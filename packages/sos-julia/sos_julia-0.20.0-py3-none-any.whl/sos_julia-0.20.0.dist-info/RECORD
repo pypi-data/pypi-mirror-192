@@ -1,0 +1,9 @@
+sos_julia/__init__.py,sha256=BIufxePDcoq--Q8PQp0g-JpszpwllrCeqKA-tP1fMZc,203
+sos_julia/_version.py,sha256=Iwm-PXLYcXfka9SDv6hXqHNVUBdG5BQnby5xMmS7_R4,918
+sos_julia/kernel.py,sha256=lMhJCs38TmPF88QyvxlLLJmzAjYKsPNXr2l2CPrMu1A,13553
+sos_julia-0.20.0.dist-info/LICENSE,sha256=HAFraFfCTJGgY4X3u4O8cosrjJcHtU7qDmKqLDv-Gzo,1555
+sos_julia-0.20.0.dist-info/METADATA,sha256=B-lgMds2wrcohMMS1pM96NDttd_4Wag_deipU5HjBcQ,929
+sos_julia-0.20.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sos_julia-0.20.0.dist-info/entry_points.txt,sha256=7cA9T1rWqxCj_qGA4HlWUcq1cINgZMs1iGf5BWPdkyY,52
+sos_julia-0.20.0.dist-info/top_level.txt,sha256=yX0ba33DBjd-HBoOJ1FHn0J52_OExWYtLeSulhyk4SI,10
+sos_julia-0.20.0.dist-info/RECORD,,
