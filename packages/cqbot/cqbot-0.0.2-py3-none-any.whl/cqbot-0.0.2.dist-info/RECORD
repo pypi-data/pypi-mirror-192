@@ -1,0 +1,11 @@
+cqbot/__init__.py,sha256=cJZb23dV_AItkf4_ljpgmfg_goJLU2_Se1gnxTH89zQ,101
+cqbot/action.py,sha256=C90HCUdpwY3YAHNJQmUYyhVhOSO2mLJwtsVBWhcgwpo,37522
+cqbot/bot.py,sha256=JnCH5sWyQb-l9gEC1xJZ2PPH-WYV4fDptNKxYnA7trg,8832
+cqbot/cq.py,sha256=ct417MZZNYm6qDhWOoPjztEh7n1nskSbf4Mdkr8TPuo,11190
+cqbot/enum.py,sha256=YMKBV0AZw3YlMohU_2pgkV6ne15Phzoq1JNnO3M1t9A,4078
+cqbot/event.py,sha256=lU976XVlz6XsgIjbR_qJr5KtHs6GkCbon-wdNJQ06rY,18015
+cqbot-0.0.2.dist-info/LICENSE,sha256=28UT8N3tMjRqOKpKVBH-J6PkdWCQ7EtTeQTUVRMFDws,1063
+cqbot-0.0.2.dist-info/METADATA,sha256=OYMG1-UN1GnIXhrHqxXjDadR07ZkCFQwp41hWmHLRNE,5104
+cqbot-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cqbot-0.0.2.dist-info/top_level.txt,sha256=O7T0iU44W3Z2iGhw8UirAIF2gPHGujLnQuf7JDlSpAs,6
+cqbot-0.0.2.dist-info/RECORD,,
