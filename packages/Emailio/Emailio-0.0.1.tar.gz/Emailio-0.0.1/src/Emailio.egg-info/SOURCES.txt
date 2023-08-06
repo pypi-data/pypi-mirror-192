@@ -1,0 +1,8 @@
+License
+README.md
+setup.py
+src/Emailio.py
+src/Emailio.egg-info/PKG-INFO
+src/Emailio.egg-info/SOURCES.txt
+src/Emailio.egg-info/dependency_links.txt
+src/Emailio.egg-info/top_level.txt
