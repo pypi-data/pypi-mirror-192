@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+pptestszymonradosz/__init__.py
+pptestszymonradosz/m_mod_pptest.py
+pptestszymonradosz.egg-info/PKG-INFO
+pptestszymonradosz.egg-info/SOURCES.txt
+pptestszymonradosz.egg-info/dependency_links.txt
+pptestszymonradosz.egg-info/requires.txt
+pptestszymonradosz.egg-info/top_level.txt
