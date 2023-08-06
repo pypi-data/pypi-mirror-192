@@ -1,0 +1,29 @@
+[package]
+edition = "2021"
+name = "gufo_snmp"
+version = "0.1.1"
+
+[lib]
+crate-type = ["cdylib"] # Comment for bench
+# crate-type = ["cdylib", "rlib"] # Uncomment for bench
+name = "gufo_snmp"
+
+[profile.release]
+strip = "debuginfo"
+
+[dependencies]
+nom = "7.1"
+pyo3 = {version = "0.18", features = ["extension-module"]}
+rand = "0.8"
+socket2 = {version = "0.4", features = ["all"]}
+
+[dev-dependencies]
+criterion = "0.4"
+
+[[bench]]
+harness = false
+name = "decode"
+
+[[bench]]
+harness = false
+name = "encode"
