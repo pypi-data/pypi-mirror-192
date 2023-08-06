@@ -1,0 +1,64 @@
+"""
+ShippingDeliveryTime provides various pieces of information about delivery times for shipping.
+
+https://schema.org/ShippingDeliveryTime
+"""
+
+from typing import *
+from typing_extensions import TypedDict, NotRequired
+from pydantic import *
+from datetime import *
+from time import *
+
+
+from schorg.schema_org_obj import SchemaOrgObj, SchemaOrgBase
+
+
+class ShippingDeliveryTimeInheritedProperties(TypedDict):
+    """ShippingDeliveryTime provides various pieces of information about delivery times for shipping.
+
+    References:
+        https://schema.org/ShippingDeliveryTime
+    Note:
+        Model Depth 4
+    Attributes:
+    """
+
+    
+
+
+class ShippingDeliveryTimeProperties(TypedDict):
+    """ShippingDeliveryTime provides various pieces of information about delivery times for shipping.
+
+    References:
+        https://schema.org/ShippingDeliveryTime
+    Note:
+        Model Depth 4
+    Attributes:
+        cutoffTime: (Optional[Union[List[Union[datetime, SchemaOrgObj, str]], datetime, SchemaOrgObj, str]]): Order cutoff time allows merchants to describe the time after which they will no longer process orders received on that day. For orders processed after cutoff time, one day gets added to the delivery time estimate. This property is expected to be most typically used via the [[ShippingRateSettings]] publication pattern. The time is indicated using the ISO-8601 Time format, e.g. "23:30:00-05:00" would represent 6:30 pm Eastern Standard Time (EST) which is 5 hours behind Coordinated Universal Time (UTC).
+        transitTime: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The typical delay the order has been sent for delivery and the goods reach the final customer. Typical properties: minValue, maxValue, unitCode (d for DAY).
+        handlingTime: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): The typical delay between the receipt of the order and the goods either leaving the warehouse or being prepared for pickup, in case the delivery method is on site pickup. Typical properties: minValue, maxValue, unitCode (d for DAY).  This is by common convention assumed to mean business days (if a unitCode is used, coded as "d"), i.e. only counting days when the business normally operates.
+        businessDays: (Optional[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]): Days of the week when the merchant typically operates, indicated via opening hours markup.
+    """
+
+    cutoffTime: NotRequired[Union[List[Union[datetime, SchemaOrgObj, str]], datetime, SchemaOrgObj, str]]
+    transitTime: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    handlingTime: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    businessDays: NotRequired[Union[List[Union[SchemaOrgObj, str]], SchemaOrgObj, str]]
+    
+
+#ShippingDeliveryTimeInheritedPropertiesTd = ShippingDeliveryTimeInheritedProperties()
+#ShippingDeliveryTimePropertiesTd = ShippingDeliveryTimeProperties()
+
+
+class AllProperties(ShippingDeliveryTimeInheritedProperties , ShippingDeliveryTimeProperties, TypedDict):
+    pass
+
+
+def create_schema_org_model(type_: Union[ShippingDeliveryTimeProperties, ShippingDeliveryTimeInheritedProperties, AllProperties] = AllProperties) -> Type[SchemaOrgBase]:
+    model = create_model_from_typeddict(type_, __base__=SchemaOrgBase)
+    model.__name__ = "ShippingDeliveryTime"
+    return model
+    
+
+ShippingDeliveryTime = create_schema_org_model()
