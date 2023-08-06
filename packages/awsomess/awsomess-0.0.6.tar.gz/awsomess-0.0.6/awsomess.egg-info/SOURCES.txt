@@ -1,0 +1,11 @@
+eat.py
+fly.py
+setup.py
+another/__init__.py
+another/trah.py
+awsomess.egg-info/PKG-INFO
+awsomess.egg-info/SOURCES.txt
+awsomess.egg-info/dependency_links.txt
+awsomess.egg-info/top_level.txt
+group/__init__.py
+group/grouping.py
