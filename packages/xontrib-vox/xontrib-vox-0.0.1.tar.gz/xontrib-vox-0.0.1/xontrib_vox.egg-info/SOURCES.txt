@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/test_vox.py
+tests/test_xontrib.py
+xontrib/autovox.py
+xontrib/vox.py
+xontrib/voxapi.py
+xontrib_vox.egg-info/PKG-INFO
+xontrib_vox.egg-info/SOURCES.txt
+xontrib_vox.egg-info/dependency_links.txt
+xontrib_vox.egg-info/requires.txt
+xontrib_vox.egg-info/top_level.txt
