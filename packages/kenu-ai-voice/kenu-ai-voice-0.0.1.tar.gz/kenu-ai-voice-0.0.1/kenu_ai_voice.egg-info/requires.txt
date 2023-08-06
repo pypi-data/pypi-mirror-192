@@ -1,0 +1,6 @@
+gtts
+playsound==1.2.2
+speechrecognition
+googletrans==4.0.0-rc1
+requests
+kenu_ai
