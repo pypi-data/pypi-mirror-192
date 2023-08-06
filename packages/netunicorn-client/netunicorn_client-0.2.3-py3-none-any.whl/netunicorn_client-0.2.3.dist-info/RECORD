@@ -1,0 +1,7 @@
+netunicorn/client/__init__.py,sha256=5fyniflIYFyR0sSIxyntl1gzvjXj5V4q7s1CidHICpQ,33
+netunicorn/client/base.py,sha256=WA7ksUEwbkGBjKFaioNZ-omOXD-YZF6ME4hUXMrq_aA,3704
+netunicorn/client/remote.py,sha256=SrwTSYLob2MfD_bRincsMWufWN78J-6D7UUYFeJat6I,5716
+netunicorn_client-0.2.3.dist-info/METADATA,sha256=Z7g9pOZglITET408uE84zA39OhWBmheaDz4YmeStmG8,408
+netunicorn_client-0.2.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+netunicorn_client-0.2.3.dist-info/top_level.txt,sha256=XSz-VoRN-G4RG8grlQLx9GLvtfwPux79woTFCALT3gI,11
+netunicorn_client-0.2.3.dist-info/RECORD,,
