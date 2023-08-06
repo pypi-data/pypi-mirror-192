@@ -1,0 +1,11 @@
+include VERSION
+include libua/package.json
+include requirements.txt
+include README.md
+include VERSION
+recursive-include libua VERSION
+recursive-include libua **.html
+recursive-include libua **.j2
+recursive-include libua **.json
+recursive-include libua **.yaml
+recursive-include libua **.xml

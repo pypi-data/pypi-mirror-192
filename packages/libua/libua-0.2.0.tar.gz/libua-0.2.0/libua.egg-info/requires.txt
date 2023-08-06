@@ -1,0 +1,4 @@
+canonical>=0.24.0
+cbra[google]>=0.182.0
+google-cloud-datastore>=2.13.2
+headless[httpx]>=1.5.0
