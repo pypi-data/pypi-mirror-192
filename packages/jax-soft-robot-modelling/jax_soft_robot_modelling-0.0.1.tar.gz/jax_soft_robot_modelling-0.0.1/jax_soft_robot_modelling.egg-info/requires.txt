@@ -1,0 +1,11 @@
+diffrax
+jax
+numpy
+peppercorn
+sympy
+
+[dev]
+check-manifest
+
+[test]
+coverage

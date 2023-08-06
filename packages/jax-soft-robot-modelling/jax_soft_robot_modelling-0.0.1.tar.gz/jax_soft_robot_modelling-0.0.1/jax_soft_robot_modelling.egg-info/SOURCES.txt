@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+jax_soft_robot_modelling/__init__.py
+jax_soft_robot_modelling/integration.py
+jax_soft_robot_modelling/simple.py
+jax_soft_robot_modelling.egg-info/PKG-INFO
+jax_soft_robot_modelling.egg-info/SOURCES.txt
+jax_soft_robot_modelling.egg-info/dependency_links.txt
+jax_soft_robot_modelling.egg-info/requires.txt
+jax_soft_robot_modelling.egg-info/top_level.txt
+jax_soft_robot_modelling/symbolic_derivation/__init__.py
+jax_soft_robot_modelling/symbolic_derivation/pendulum.py
+jax_soft_robot_modelling/systems/__init__.py
+tests/test_simple.py
