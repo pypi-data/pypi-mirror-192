@@ -1,0 +1,10 @@
+README.md
+setup.py
+quantitative_vale_model/__init__.py
+quantitative_vale_model/backtest.py
+quantitative_vale_model/strategy.py
+quantitative_vale_model.egg-info/PKG-INFO
+quantitative_vale_model.egg-info/SOURCES.txt
+quantitative_vale_model.egg-info/dependency_links.txt
+quantitative_vale_model.egg-info/requires.txt
+quantitative_vale_model.egg-info/top_level.txt
