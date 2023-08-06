@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: cargoloader
+Version: 0.0.1
+Summary: Python application designed to automate operation of upload/ingest stations/servers
+Home-page: https://github.com/LegenJCdary/cargoloader.git
+Author: J. Wierzbowski
+Author-email: jay_cob@interia.pl
+License: MIT
+Project-URL: Source, https://github.com/LegenJCdary/cargoloader.git
+Platform: linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Archiving :: Mirroring
+Classifier: Topic :: System :: Clustering
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+
+# cargoloader
+Python application designed to automate operation of upload/ingest stations/servers.

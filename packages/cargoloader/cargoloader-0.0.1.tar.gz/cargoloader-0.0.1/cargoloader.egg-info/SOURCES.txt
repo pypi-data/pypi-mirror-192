@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+cargoloader.egg-info/PKG-INFO
+cargoloader.egg-info/SOURCES.txt
+cargoloader.egg-info/dependency_links.txt
+cargoloader.egg-info/entry_points.txt
+cargoloader.egg-info/not-zip-safe
+cargoloader.egg-info/top_level.txt
+src/main.py
