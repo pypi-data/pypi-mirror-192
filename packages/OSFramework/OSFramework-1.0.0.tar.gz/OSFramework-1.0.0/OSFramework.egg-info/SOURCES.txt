@@ -1,0 +1,5 @@
+setup.py
+OSFramework.egg-info/PKG-INFO
+OSFramework.egg-info/SOURCES.txt
+OSFramework.egg-info/dependency_links.txt
+OSFramework.egg-info/top_level.txt
