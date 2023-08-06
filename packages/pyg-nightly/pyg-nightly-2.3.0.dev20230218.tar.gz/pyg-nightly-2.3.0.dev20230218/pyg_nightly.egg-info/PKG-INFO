@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyg-nightly
+Version: 2.3.0.dev20230218
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: graphgym
+Provides-Extra: modelhub
+Provides-Extra: full
+Provides-Extra: benchmark
+Provides-Extra: test
+Provides-Extra: dev
