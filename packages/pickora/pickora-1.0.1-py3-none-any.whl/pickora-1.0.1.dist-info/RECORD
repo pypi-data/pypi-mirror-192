@@ -1,0 +1,10 @@
+pickora/__init__.py,sha256=gd3Q8nFXJ92JF2SiY3LaAIhft5Qf1re9BSqoIawVxvU,2916
+pickora/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+pickora/compiler.py,sha256=ZaQwHT555i77LN6KbcFYcCyea9pqtCSId6qoGTaCDM8,12501
+pickora/helper.py,sha256=MU0T_QLelI3kYDozOTjh2No9jpPrIiQfndGGNzG9VtU,2675
+pickora-1.0.1.dist-info/LICENSE,sha256=Es-bnim65p7ARkwWZGkfNtbeFiL8UK5jS1AI48iy9BQ,1066
+pickora-1.0.1.dist-info/METADATA,sha256=zt8Ow4oVXkW63m-GOystaqXHqOHf6SjIVAR1dvudeLs,6339
+pickora-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pickora-1.0.1.dist-info/entry_points.txt,sha256=QxfWBjX0zkN8XunYbodcpQUBXKzQch5Ckef8MRnYEUY,42
+pickora-1.0.1.dist-info/top_level.txt,sha256=9V4-8lzwqDaxvXs9eynbJLqQ9v1RJ4UHnasDninoUmE,8
+pickora-1.0.1.dist-info/RECORD,,
