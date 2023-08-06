@@ -1,0 +1,8 @@
+{
+    "nums":     "6 numeric",
+    "names":    "7 text",
+    "dates":    "8 date %m.%d.%Y",
+    "durr":     "9 duration seconds",
+    "dt":       "10 datetime '%d %B %Y %H:%M %p'",
+    "phony":    "11 phone-number ###.###.####x####"
+}
