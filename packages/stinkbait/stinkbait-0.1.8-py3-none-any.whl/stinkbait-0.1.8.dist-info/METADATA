@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: stinkbait
+Version: 0.1.8
+Summary: Security Awareness Testing and Training Tool
+Home-page: https://github.com/traingrc/stinkbait
+Author: Wes Ladd
+Author-email: wesladd@traingrc.com
+Project-URL: Code, https://github.com/traingrc/stinkbait
+Project-URL: Documentation, https://traingrc.com
+Project-URL: Example Report, https://traingrc.com
+Keywords: aws cloud infrastructure for security awareness testing and training
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: boto3
+Requires-Dist: botocore
+Requires-Dist: argparse
+Requires-Dist: jinja2
+Requires-Dist: markdown
+Requires-Dist: pyyaml
+Requires-Dist: schema
+Requires-Dist: stinkbait
+
+
+![Stinkbait](stinkbait/static/images/stinkbait.png)
+# StinkBait
+**Stinkbait** is a simple, lightweight tool for generating "security awareness training" infrastructure. Red teams may also find the automation useful for generating phishing and C2 infrastructure.
+
+## Installation
+### From PyPi
+```bash
+pip3 install stinkbait
+```
+### From Source/GitHub
+```bash
+git clone https://github.com/TrainGRC/stinkbait.git
+cd stinkbait
+pip3 install -r requirements.txt
+```
+
+## Using StinkBait
+StinkBait has a command line interface and a web interface. In addition,StinkBait has a variety of components known as "playbooks" that can be used independently or together.
+
+At least one initial user on your team will need to perform the function of being the StinkBait administrator. This user will be responsible for creating organizations and users. The administrator will also be responsible for starting and stopping campaigns. However, in practice - this designation is not necessary. The administrator can be any user with sufficient permissions against the AWS account hosting the StinkBait infrastructure.
+
+The only meaningful distinction regarding StinkBait permissions is the "Organization Owner". When you create an organization, you become the owner of that organization. No other individual can delete that organization, or the base resources associated with it - short of manually deleting the resources in the AWS account. 
+
+For deploying more complex resources such as web domains, TLS certs, e-mail sending domains, c2 servers and redirectors, implant development pipelines, and chat-ops integrations, you can use default playbooks included with StinkBait, or create your own. The playbooks directory includes a README with instructions on how to extend StinkBait with your own custom playbooks. 
+
+## Command Line Interface
+```bash
+stinkbait -h
+```
+
+Administering StinkBait is performed via the CLI, and the CLI has the following capabilities.
+
+### User Management
+User management is about managing users. As an administrator, you will start by creating your user profile. This user profile is used to track your activity and to assign you to organizations and campaigns. 
+
+The user profile is created with a single command:
+```bash
+stinkbait create user -n "Wes Ladd" -e "wesladd@traingrc.com"
+```
+
+### Organization Management
+When using StinkBait, you will need to create at least one organization. This organization will be the target of your phishing campaign(s). The organization will be created with a name and a domain. The target domain can used to perform basic reconnaissance for AWS, Azure, and GCP. 
+
+Once created, the creating user becomes the owner of the organization. They will be able to add users to the organization. They will also be able to manage and delete users, campaigns, zombies, and the organization itself. Anyone with sufficient privileges against an AWS account can create an organization with StinkBait and manage the associated campaigns and playbook resources.
+
+Organization base resources are designed to be lightweight - they only include a web interface (API Gateway) for phishing payload hosting and lure callbacks, along with dynamodb tables to track campaigns, targets, and resources associated with the organization.  
+
+Once deployed, the web server URL can be retrieved by running the following command:
+```bash
+stinkbait get organization -n "Acme Corporation" -t "acme.com"
+```
+  
+TODO: Eventually StinkBait may support web interface functionality for managing StinkBait.
+
+Other users who are added to an organization will be able to create and manage campaigns, zombies, and c2 sessions associated with the organization. However, they will not be able to add other users or delete the organization or campaigns.
+
+The organization can be created with a single command:
+```bash
+stinkbait create organization -n "Acme Corporation" -d "acme.com"
+```
+### Campaign Management
+Campaign Management is about managing the campaigns associated with a particular organization. The organization owner will create campaigns that are associated with organizations and assign users to those campaigns. The administrator will also be able to start and stop campaigns. The administrator will also be able to view the status of campaigns and the users assigned to the organization associated with a campaign.
+
+### Playbook Types
+
+#### Bait Playbooks
+Bait playbooks are benign website resources hosted to improve the quality of your domain reputation. This may be by sending e-mails that are benign to trusted individuals to improve your e-mail sending reputation or it may be website content that gives your domain a sense of legitimacy. 
+
+When properly configured, bait playbooks can and should be deployed long-term (>= 6 months) in order to ensure enough "seasoning" to provide cover for your campaigns. One notable distinction about bait playbooks is they are not associated with any particular organizaton. Rather, bait playbooks are associates with apex domains you own and control via Route53, AWS Domain Registrar and DNS Service.
+
+#### Lures/Hooks Playbooks
+Lures/Hooks are the juicy part...this is what you use to make the bait pay off. In our case, we have provided a few particularly interesting hooks that allow you to perform phishing, including two-factor authentication, for popular services.  
+  
+Additionally, we have a special types of lures that will create automated implant pipelines for common c2 servers. When you deploy these types of lures - you automatically provision and attach an s3 bucket behind your API Gateway endpoint and upon completion of your Github Action, successfully built implants are uploaded for target retrieval.
+  
+### StinkBait Web Interface
+When using Stinkbait, you will have an endpoint accessible to you and your target(s). This endpoint will be a web "server" in the form of an API Gateway endpoint that hosts a variety of content and functionality. 
+
+For instance, you can host a phishing website that looks like the following:
+![Phishing Website](stinkbait/static/images/phishing_site.png)  
+or create phishing lure e-mails that look like the following:  
+![Phishing E-mail](stinkbait/static/images/phishing_email.png)
+
+These are default options - but you can also customize the content of the phishing website and e-mails. You can also extend the functionality of StinkBait by adding your own content. Train GRC maintains an extended set of phishing lures and content that can be used with StinkBait and has provided default examples with the program.
+
+The URL of the web server is printed to the console when the an organization is created using the StinkBait CLI. If you want to change the default values, you can use the command line arguments to do so. 
