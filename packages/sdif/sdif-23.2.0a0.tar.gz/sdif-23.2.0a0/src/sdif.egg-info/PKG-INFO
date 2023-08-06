@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sdif
+Version: 23.2.0a0
+Summary: Support for US Swimming SDIF v3 files
+Author-email: "Tim D. Smith" <tim@tds.xyz>
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.9
+Provides-Extra: dev
+License-File: LICENSE
